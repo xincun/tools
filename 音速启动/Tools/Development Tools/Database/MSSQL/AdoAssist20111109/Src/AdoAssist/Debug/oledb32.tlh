@@ -1,0 +1,540 @@
+﻿// Created by Microsoft (R) C/C++ Compiler Version 15.00.30729.01 (078b4775).
+//
+// d:\project\ado\201106011941\adoassist\adoassist\debug\oledb32.tlh
+//
+// C++ source equivalent of Win32 type library C:\Program Files\Common Files\System\ole db\oledb32.dll
+// compiler-generated file created 11/09/11 at 18:33:29 - DO NOT EDIT!
+
+#pragma once
+#pragma pack(push, 8)
+
+#include <comdef.h>
+
+namespace MSDASC {
+
+//
+// Forward references and typedefs
+//
+
+struct __declspec(uuid("2206ceb0-19c1-11d1-89e0-00c04fd7a829"))
+/* LIBID */ __MSDASC;
+struct __declspec(uuid("2206ccb2-19c1-11d1-89e0-00c04fd7a829"))
+/* dual interface */ IDataSourceLocator;
+struct /* coclass */ DataLinks;
+struct __declspec(uuid("2206ccb0-19c1-11d1-89e0-00c04fd7a829"))
+/* interface */ IDBPromptInitialize;
+struct __declspec(uuid("2206ccb1-19c1-11d1-89e0-00c04fd7a829"))
+/* interface */ IDataInitialize;
+struct /* coclass */ MSDAINITIALIZE;
+struct /* coclass */ PDPO;
+struct /* coclass */ RootBinder;
+struct __declspec(uuid("0c733ab1-2a1c-11ce-ade5-00aa0044773d"))
+/* interface */ IBindResource;
+struct __declspec(uuid("0c733ab2-2a1c-11ce-ade5-00aa0044773d"))
+/* interface */ ICreateRow;
+struct __declspec(uuid("0c733ab9-2a1c-11ce-ade5-00aa0044773d"))
+/* interface */ IRegisterProvider;
+struct __declspec(uuid("0c733ab3-2a1c-11ce-ade5-00aa0044773d"))
+/* interface */ IDBBinderProperties;
+struct __declspec(uuid("0c733a8a-2a1c-11ce-ade5-00aa0044773d"))
+/* interface */ IDBProperties;
+struct tagDBPROPIDSET;
+struct tagDBPROPSET;
+struct tagDBPROP;
+struct tagDBID;
+union __MIDL_DBStructureDefinitions_0001;
+union __MIDL_DBStructureDefinitions_0002;
+struct tagDBPROPINFOSET;
+struct tagDBPROPINFO;
+
+//
+// Smart pointer typedef declarations
+//
+
+_COM_SMARTPTR_TYPEDEF(IDataSourceLocator, __uuidof(IDataSourceLocator));
+_COM_SMARTPTR_TYPEDEF(IDBPromptInitialize, __uuidof(IDBPromptInitialize));
+_COM_SMARTPTR_TYPEDEF(IDataInitialize, __uuidof(IDataInitialize));
+_COM_SMARTPTR_TYPEDEF(IBindResource, __uuidof(IBindResource));
+_COM_SMARTPTR_TYPEDEF(ICreateRow, __uuidof(ICreateRow));
+_COM_SMARTPTR_TYPEDEF(IRegisterProvider, __uuidof(IRegisterProvider));
+_COM_SMARTPTR_TYPEDEF(IDBProperties, __uuidof(IDBProperties));
+_COM_SMARTPTR_TYPEDEF(IDBBinderProperties, __uuidof(IDBBinderProperties));
+
+//
+// Type library items
+//
+
+struct __declspec(uuid("2206ccb2-19c1-11d1-89e0-00c04fd7a829"))
+IDataSourceLocator : IDispatch
+{
+    //
+    // Property data
+    //
+
+    __declspec(property(get=GethWnd,put=PuthWnd))
+    long hWnd;
+
+    //
+    // Wrapper methods for error-handling
+    //
+
+    long GethWnd ( );
+    void PuthWnd (
+        long phwndParent );
+    IDispatchPtr PromptNew ( );
+    VARIANT_BOOL PromptEdit (
+        IDispatch * * ppADOConnection );
+
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall get_hWnd (
+        /*[out,retval]*/ long * phwndParent ) = 0;
+      virtual HRESULT __stdcall put_hWnd (
+        /*[in]*/ long phwndParent ) = 0;
+      virtual HRESULT __stdcall raw_PromptNew (
+        /*[out,retval]*/ IDispatch * * ppADOConnection ) = 0;
+      virtual HRESULT __stdcall raw_PromptEdit (
+        /*[in,out]*/ IDispatch * * ppADOConnection,
+        /*[out,retval]*/ VARIANT_BOOL * pbSuccess ) = 0;
+};
+
+struct __declspec(uuid("2206cdb2-19c1-11d1-89e0-00c04fd7a829"))
+DataLinks;
+    // [ default ] interface IDataSourceLocator
+    // interface IDBPromptInitialize
+    // interface IDataInitialize
+
+struct __declspec(uuid("2206ccb0-19c1-11d1-89e0-00c04fd7a829"))
+IDBPromptInitialize : IUnknown
+{
+    //
+    // Wrapper methods for error-handling
+    //
+
+    HRESULT PromptDataSource (
+        IUnknown * pUnkOuter,
+        wireHWND hWndParent,
+        unsigned long dwPromptOptions,
+        unsigned long cSourceTypeFilter,
+        unsigned long * rgSourceTypeFilter,
+        LPWSTR pwszszzProviderFilter,
+        GUID * riid,
+        IUnknown * * ppDataSource );
+    HRESULT PromptFileName (
+        wireHWND hWndParent,
+        unsigned long dwPromptOptions,
+        LPWSTR pwszInitialDirectory,
+        LPWSTR pwszInitialFile,
+        LPWSTR * ppwszSelectedFile );
+
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall raw_PromptDataSource (
+        /*[in]*/ IUnknown * pUnkOuter,
+        /*[in]*/ wireHWND hWndParent,
+        /*[in]*/ unsigned long dwPromptOptions,
+        /*[in]*/ unsigned long cSourceTypeFilter,
+        /*[in]*/ unsigned long * rgSourceTypeFilter,
+        /*[in]*/ LPWSTR pwszszzProviderFilter,
+        /*[in]*/ GUID * riid,
+        /*[in,out]*/ IUnknown * * ppDataSource ) = 0;
+      virtual HRESULT __stdcall raw_PromptFileName (
+        /*[in]*/ wireHWND hWndParent,
+        /*[in]*/ unsigned long dwPromptOptions,
+        /*[in]*/ LPWSTR pwszInitialDirectory,
+        /*[in]*/ LPWSTR pwszInitialFile,
+        /*[out]*/ LPWSTR * ppwszSelectedFile ) = 0;
+};
+
+struct __declspec(uuid("2206ccb1-19c1-11d1-89e0-00c04fd7a829"))
+IDataInitialize : IUnknown
+{
+    //
+    // Wrapper methods for error-handling
+    //
+
+    HRESULT GetDataSource (
+        IUnknown * pUnkOuter,
+        unsigned long dwClsCtx,
+        LPWSTR pwszInitializationString,
+        GUID * riid,
+        IUnknown * * ppDataSource );
+    HRESULT GetInitializationString (
+        IUnknown * pDataSource,
+        char fIncludePassword,
+        LPWSTR * ppwszInitString );
+    HRESULT CreateDBInstance (
+        GUID * clsidProvider,
+        IUnknown * pUnkOuter,
+        unsigned long dwClsCtx,
+        LPWSTR pwszReserved,
+        GUID * riid,
+        IUnknown * * ppDataSource );
+    HRESULT RemoteCreateDBInstanceEx (
+        GUID * clsidProvider,
+        IUnknown * pUnkOuter,
+        unsigned long dwClsCtx,
+        LPWSTR pwszReserved,
+        struct _COSERVERINFO * pServerInfo,
+        unsigned long cmq,
+        GUID * * rgpIID,
+        IUnknown * * rgpItf,
+        HRESULT * rghr );
+    HRESULT LoadStringFromStorage (
+        LPWSTR pwszFileName,
+        LPWSTR * ppwszInitializationString );
+    HRESULT WriteStringToStorage (
+        LPWSTR pwszFileName,
+        LPWSTR pwszInitializationString,
+        unsigned long dwCreationDisposition );
+
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall raw_GetDataSource (
+        /*[in]*/ IUnknown * pUnkOuter,
+        /*[in]*/ unsigned long dwClsCtx,
+        /*[in]*/ LPWSTR pwszInitializationString,
+        /*[in]*/ GUID * riid,
+        /*[in,out]*/ IUnknown * * ppDataSource ) = 0;
+      virtual HRESULT __stdcall raw_GetInitializationString (
+        /*[in]*/ IUnknown * pDataSource,
+        /*[in]*/ char fIncludePassword,
+        /*[out]*/ LPWSTR * ppwszInitString ) = 0;
+      virtual HRESULT __stdcall raw_CreateDBInstance (
+        /*[in]*/ GUID * clsidProvider,
+        /*[in]*/ IUnknown * pUnkOuter,
+        /*[in]*/ unsigned long dwClsCtx,
+        /*[in]*/ LPWSTR pwszReserved,
+        /*[in]*/ GUID * riid,
+        /*[out]*/ IUnknown * * ppDataSource ) = 0;
+      virtual HRESULT __stdcall raw_RemoteCreateDBInstanceEx (
+        /*[in]*/ GUID * clsidProvider,
+        /*[in]*/ IUnknown * pUnkOuter,
+        /*[in]*/ unsigned long dwClsCtx,
+        /*[in]*/ LPWSTR pwszReserved,
+        /*[in]*/ struct _COSERVERINFO * pServerInfo,
+        /*[in]*/ unsigned long cmq,
+        /*[in]*/ GUID * * rgpIID,
+        /*[out]*/ IUnknown * * rgpItf,
+        /*[out]*/ HRESULT * rghr ) = 0;
+      virtual HRESULT __stdcall raw_LoadStringFromStorage (
+        /*[in]*/ LPWSTR pwszFileName,
+        /*[out]*/ LPWSTR * ppwszInitializationString ) = 0;
+      virtual HRESULT __stdcall raw_WriteStringToStorage (
+        /*[in]*/ LPWSTR pwszFileName,
+        /*[in]*/ LPWSTR pwszInitializationString,
+        /*[in]*/ unsigned long dwCreationDisposition ) = 0;
+};
+
+struct __declspec(uuid("2206cdb0-19c1-11d1-89e0-00c04fd7a829"))
+MSDAINITIALIZE;
+    // [ default ] interface IDataInitialize
+
+struct __declspec(uuid("ccb4ec60-b9dc-11d1-ac80-00a0c9034873"))
+PDPO;
+    // [ default ] interface IPersistFile
+
+struct __declspec(uuid("ff151822-b0bf-11d1-a80d-000000000000"))
+RootBinder;
+    // [ default ] interface IBindResource
+    // interface IUnknown
+    // interface ICreateRow
+    // interface IRegisterProvider
+    // interface IDBBinderProperties
+    // interface IMarshal
+
+struct __declspec(uuid("0c733ab1-2a1c-11ce-ade5-00aa0044773d"))
+IBindResource : IUnknown
+{
+    //
+    // Wrapper methods for error-handling
+    //
+
+    HRESULT RemoteBind (
+        IUnknown * pUnkOuter,
+        LPWSTR pwszURL,
+        unsigned long dwBindURLFlags,
+        GUID * rguid,
+        GUID * riid,
+        struct IAuthenticate * pAuthenticate,
+        IUnknown * pSessionUnkOuter,
+        GUID * piid,
+        IUnknown * * ppSession,
+        unsigned long * pdwBindStatus,
+        IUnknown * * ppUnk );
+
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall raw_RemoteBind (
+        /*[in]*/ IUnknown * pUnkOuter,
+        /*[in]*/ LPWSTR pwszURL,
+        /*[in]*/ unsigned long dwBindURLFlags,
+        /*[in]*/ GUID * rguid,
+        /*[in]*/ GUID * riid,
+        /*[in]*/ struct IAuthenticate * pAuthenticate,
+        /*[in]*/ IUnknown * pSessionUnkOuter,
+        /*[in]*/ GUID * piid,
+        /*[in,out]*/ IUnknown * * ppSession,
+        /*[in,out]*/ unsigned long * pdwBindStatus,
+        /*[out]*/ IUnknown * * ppUnk ) = 0;
+};
+
+struct __declspec(uuid("0c733ab2-2a1c-11ce-ade5-00aa0044773d"))
+ICreateRow : IUnknown
+{
+    //
+    // Wrapper methods for error-handling
+    //
+
+    HRESULT RemoteCreateRow (
+        IUnknown * pUnkOuter,
+        LPWSTR pwszURL,
+        unsigned long dwBindURLFlags,
+        GUID * rguid,
+        GUID * riid,
+        struct IAuthenticate * pAuthenticate,
+        IUnknown * pSessionUnkOuter,
+        GUID * piid,
+        IUnknown * * ppSession,
+        unsigned long * pdwBindStatus,
+        LPWSTR * ppwszNewURL,
+        IUnknown * * ppUnk );
+
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall raw_RemoteCreateRow (
+        /*[in]*/ IUnknown * pUnkOuter,
+        /*[in]*/ LPWSTR pwszURL,
+        /*[in]*/ unsigned long dwBindURLFlags,
+        /*[in]*/ GUID * rguid,
+        /*[in]*/ GUID * riid,
+        /*[in]*/ struct IAuthenticate * pAuthenticate,
+        /*[in]*/ IUnknown * pSessionUnkOuter,
+        /*[in]*/ GUID * piid,
+        /*[in,out]*/ IUnknown * * ppSession,
+        /*[in,out]*/ unsigned long * pdwBindStatus,
+        /*[in,out]*/ LPWSTR * ppwszNewURL,
+        /*[out]*/ IUnknown * * ppUnk ) = 0;
+};
+
+struct __declspec(uuid("0c733ab9-2a1c-11ce-ade5-00aa0044773d"))
+IRegisterProvider : IUnknown
+{
+    //
+    // Wrapper methods for error-handling
+    //
+
+    HRESULT RemoteGetURLMapping (
+        LPWSTR pwszURL,
+        unsigned long dwReserved,
+        GUID * pclsidProvider );
+    HRESULT SetURLMapping (
+        LPWSTR pwszURL,
+        unsigned long dwReserved,
+        GUID * rclsidProvider );
+    HRESULT UnregisterProvider (
+        LPWSTR pwszURL,
+        unsigned long dwReserved,
+        GUID * rclsidProvider );
+
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall raw_RemoteGetURLMapping (
+        /*[in]*/ LPWSTR pwszURL,
+        /*[in]*/ unsigned long dwReserved,
+        /*[out]*/ GUID * pclsidProvider ) = 0;
+      virtual HRESULT __stdcall raw_SetURLMapping (
+        /*[in]*/ LPWSTR pwszURL,
+        /*[in]*/ unsigned long dwReserved,
+        /*[in]*/ GUID * rclsidProvider ) = 0;
+      virtual HRESULT __stdcall raw_UnregisterProvider (
+        /*[in]*/ LPWSTR pwszURL,
+        /*[in]*/ unsigned long dwReserved,
+        /*[in]*/ GUID * rclsidProvider ) = 0;
+};
+
+#pragma pack(push, 4)
+
+struct tagDBPROPIDSET
+{
+    unsigned long * rgPropertyIDs;
+    unsigned long cPropertyIDs;
+    GUID guidPropertySet;
+};
+
+#pragma pack(pop)
+
+#pragma pack(push, 4)
+
+union __MIDL_DBStructureDefinitions_0001
+{
+    GUID guid;
+    GUID * pguid;
+};
+
+#pragma pack(pop)
+
+#pragma pack(push, 4)
+
+union __MIDL_DBStructureDefinitions_0002
+{
+    LPWSTR pwszName;
+    unsigned long ulPropid;
+};
+
+#pragma pack(pop)
+
+#pragma pack(push, 4)
+
+struct tagDBID
+{
+    union __MIDL_DBStructureDefinitions_0001 uGuid;
+    unsigned long eKind;
+    union __MIDL_DBStructureDefinitions_0002 uName;
+};
+
+#pragma pack(pop)
+
+#pragma pack(push, 8)
+
+struct tagDBPROP
+{
+    unsigned long dwPropertyID;
+    unsigned long dwOptions;
+    unsigned long dwStatus;
+    struct tagDBID colid;
+    VARIANT vValue;
+};
+
+#pragma pack(pop)
+
+#pragma pack(push, 4)
+
+struct tagDBPROPSET
+{
+    struct tagDBPROP * rgProperties;
+    unsigned long cProperties;
+    GUID guidPropertySet;
+};
+
+#pragma pack(pop)
+
+#pragma pack(push, 8)
+
+struct tagDBPROPINFO
+{
+    LPWSTR pwszDescription;
+    unsigned long dwPropertyID;
+    unsigned long dwFlags;
+    unsigned short vtType;
+    VARIANT vValues;
+};
+
+#pragma pack(pop)
+
+#pragma pack(push, 4)
+
+struct tagDBPROPINFOSET
+{
+    struct tagDBPROPINFO * rgPropertyInfos;
+    unsigned long cPropertyInfos;
+    GUID guidPropertySet;
+};
+
+#pragma pack(pop)
+
+struct __declspec(uuid("0c733a8a-2a1c-11ce-ade5-00aa0044773d"))
+IDBProperties : IUnknown
+{
+    //
+    // Wrapper methods for error-handling
+    //
+
+    HRESULT RemoteGetProperties (
+        unsigned long cPropertyIDSets,
+        struct tagDBPROPIDSET * rgPropertyIDSets,
+        unsigned long * pcPropertySets,
+        struct tagDBPROPSET * * prgPropertySets,
+        struct IErrorInfo * * ppErrorInfoRem );
+    HRESULT RemoteGetPropertyInfo (
+        unsigned long cPropertyIDSets,
+        struct tagDBPROPIDSET * rgPropertyIDSets,
+        unsigned long * pcPropertyInfoSets,
+        struct tagDBPROPINFOSET * * prgPropertyInfoSets,
+        unsigned long * pcOffsets,
+        unsigned long * * prgDescOffsets,
+        unsigned long * pcbDescBuffer,
+        unsigned short * * ppDescBuffer,
+        struct IErrorInfo * * ppErrorInfoRem );
+    HRESULT RemoteSetProperties (
+        unsigned long cPropertySets,
+        struct tagDBPROPSET * rgPropertySets,
+        unsigned long cTotalProps,
+        unsigned long * rgPropStatus,
+        struct IErrorInfo * * ppErrorInfoRem );
+
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall raw_RemoteGetProperties (
+        /*[in]*/ unsigned long cPropertyIDSets,
+        /*[in]*/ struct tagDBPROPIDSET * rgPropertyIDSets,
+        /*[in,out]*/ unsigned long * pcPropertySets,
+        /*[out]*/ struct tagDBPROPSET * * prgPropertySets,
+        /*[out]*/ struct IErrorInfo * * ppErrorInfoRem ) = 0;
+      virtual HRESULT __stdcall raw_RemoteGetPropertyInfo (
+        /*[in]*/ unsigned long cPropertyIDSets,
+        /*[in]*/ struct tagDBPROPIDSET * rgPropertyIDSets,
+        /*[in,out]*/ unsigned long * pcPropertyInfoSets,
+        /*[out]*/ struct tagDBPROPINFOSET * * prgPropertyInfoSets,
+        /*[in,out]*/ unsigned long * pcOffsets,
+        /*[out]*/ unsigned long * * prgDescOffsets,
+        /*[in,out]*/ unsigned long * pcbDescBuffer,
+        /*[in,out]*/ unsigned short * * ppDescBuffer,
+        /*[out]*/ struct IErrorInfo * * ppErrorInfoRem ) = 0;
+      virtual HRESULT __stdcall raw_RemoteSetProperties (
+        /*[in]*/ unsigned long cPropertySets,
+        /*[in]*/ struct tagDBPROPSET * rgPropertySets,
+        /*[in]*/ unsigned long cTotalProps,
+        /*[out]*/ unsigned long * rgPropStatus,
+        /*[out]*/ struct IErrorInfo * * ppErrorInfoRem ) = 0;
+};
+
+struct __declspec(uuid("0c733ab3-2a1c-11ce-ade5-00aa0044773d"))
+IDBBinderProperties : IDBProperties
+{
+    //
+    // Wrapper methods for error-handling
+    //
+
+    HRESULT Reset ( );
+
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall raw_Reset ( ) = 0;
+};
+
+//
+// Wrapper method implementations
+//
+
+#include "d:\project\ado\201106011941\adoassist\adoassist\debug\oledb32.tli"
+
+} // namespace MSDASC
+
+#pragma pack(pop)

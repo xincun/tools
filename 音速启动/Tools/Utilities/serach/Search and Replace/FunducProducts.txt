@@ -1,0 +1,709 @@
+                Product List Funduc Software, Inc.
+             Copyright 1995-2010, All Rights Reserved
+     http://www.funduc.com   http://www.searchandreplace.com
+       support@funduc.com      support@searchandreplace.com
+
+
+Please visit our web site at http://www.funduc.com for more
+information, freeware, shareware, and purchases of these and other
+products.
+
+Shareware reviewers and shareware distributors may distribute the
+shareware and freeware versions of Funduc Software products on any
+CD-ROMs or other distribution media without asking for specific
+permission.  We only request that you use the most recent versions
+available when you prepare your distribution media. The latest
+versions are available from our web sites at http://www.funduc.com
+and http://www.searchandreplace.com. 
+
+You may not sell the shareware or freeware versions as 'for sale'
+products. You may not charge a special premium for any Funduc
+Software product that is unique from the ordinary distribution
+fees for your entire distribution.
+
+Funduc Software warrants that our products are free from any third
+party ownership claims. 
+
+You must distribute the entire shareware or freeware package for
+any given product. The "entire package" consist of all files
+installed by our executable installers or all files contained in
+the archived .zip versions of our shareware and freeware programs
+as downloaded our web sites at http://www.funduc.com and
+http://www.searchandreplace.com.
+
+Custom programming and consulting services are also available.
+Please write us at support@funduc.com for inquiries and personalized
+arrangements.
+
+Funduc Software utilities that can be found at our web site
+(http://www.funduc.com) and other locations such as WUGNET's
+(Windows User Group Network) or the Simtel file archives
+(http://www.simtel.com):
+
+
+Search and Replace (shareware) 
+==============================
+
+Search and Replace looks through multiple files for a string and
+can also replace it with another string.  It can search
+subdirectories and ZIP files and do case sensitive or insensitive
+searches. Extensive support for regular expression (egrep) search
+& replacement includes operations that span more than one line,
+insertion of the path & filename during replacements, and
+incrementing number replacements. Binary search & replace mode can
+be combined with regular expressions.  Precise control over
+replacements is available through multiple confirmation options
+and a built-in context viewer that allows you to view replacements
+in- context, before they are made. An HTML Mode can be used to
+make html special character code substitutions during
+search/replace. Ignore Whitespace mode makes it convenient to
+handle spaces & cr-lf during non-regular expression operations. A
+built-in script editor makes frequent &/or complex multi-step
+search/replace operations easy to prepare.  Advanced script
+operations include a boolean expression evaluator that provides
+additional control over which files are processed by the script.
+Advanced scripts also allow you to specify the program options in
+effect, insert comments in scripts, and perform iterative script
+operations. Multiple file masks and file date & size filters can
+be used to include &/or exclude files during regular and scripted
+operations. The internal context viewer includes a build-in editor
+for editing text files. The full complement of command line
+switches (including script launching) is ideal for network
+managers & advanced users. Other functions include: "Touch" files
+(change time/date stamp & file attributes); Preservation of
+original file date during replacements; Replacements on backup
+path files instead of the originals; Output reports to monitor
+operations; Shell extensions to launch Search & Replace from
+Explorer and the Find Menu; and more. All the latest functions are
+available both 32-bit and 64-bit (x64) versions that run under
+Windows 2000 and above.  A detailed help file with examples are
+included. Several foreign language interface are available from
+http://www.funduc.com. Cost: $25
+
+----------------------------------------------------------------------
+
+Replace Studio (shareware) 
+==============================
+
+Replace Studio is a cousin to our award winning Search and Replace
+utility. Replace Studio searches through one or more files for a
+string and can replace that string with another string. Choices
+for search settings include: Subdirectory Search; Archive Search
+(Zip, Tar, Tar.Gz, Tar.Z, Tgz, Taz); Case Sensitive; Whole Word;
+Ignore Whitespace; HTML Mode. File Masks and file size &/or date
+Filter settings are available for further choices about the files
+to be processed. Like Search and Replace, Replace Studio has
+extensive regular expression (egrep) search & replacement
+functionality for complex search/replaces. A Favorites menu and
+script editor simplifies user control over frequent &/or complex
+multi-step search/replace operations. Replacements in files in
+supported archives can be done directly - no need to manually
+extract files first. A built-in Context Viewer allows you to view
+&/or manually edit the files found by the search. The many
+additional options include: Preservation of original file date
+during replacements; Replacements on backup path files instead of
+the originals; Output reporting; Control over results list
+sorting; File Operations on files found by the search; Launch
+Explorer on the search results path of a file; Settings to use
+alternative viewer/editor on found files; Automatic locale-based
+international versions for supported languages; and more. Replace
+Studio comes in 32-bit and 64-bit versions for Windows XP and
+above. Two flavors are available: Pro and Business. The Pro
+version is intended for use as a graphical interface program while
+the Business version is oriented towards script-based & command
+line use, where a graphical interface is not required. Cost: $30
+(Pro) & $40 (Business).
+
+----------------------------------------------------------------------
+
+Search and Replace Regular Expression Wizard (freeware) 
+=======================================================
+
+The "Wizard" allows you to construct &/or modify regular
+expressions for use in our Search and Replace utility. The program
+can be used to help you learn the syntax or debug complex
+expressions involving many operators. You can visualize the effect
+of each of operator in a sample text pasted into the Wizard from
+the clipboard or retrieved from disk. Operator effects are
+presented in-context, using colors to distinguish the current term
+from other parts of the overall expression. When you are
+satisfied, the final expressions can (optionally) be inserted the
+respective Search and Replace fields. Cost: Freeware - Program F1
+hlp available for $11 or free with a Search and Replace license
+renewal.
+
+----------------------------------------------------------------------
+
+FSDBMgr (freeware/open source)
+==============================
+
+FSDBMgr is an open source, freeware Database Manager for SQLite
+databases. We created FSDBMrg for internal use and have made the
+source code available under GNU Lesser General Public License
+(LGPL). A working compiled sample and sample database are
+available. The source can be modified and compiled using free
+resources. Functions in the demo version & sample code include:
+Built-in queries & code to find customers, examine & modify their
+purchase history, add purchases, etc; Import new records &
+purchases from an external text file; Generate PDF purchase
+receipts; Create a menu of custom queries; Track sales tax
+information. Can be cstomized to any use database format for which
+an ADO.NET provider is available.
+
+----------------------------------------------------------------------
+
+Resource Translation Toolkit (RTT) (Shareware)
+==============================================
+
+Resource Translation Toolkit (RTT) is utility to simply
+translation work on po, rc, and tmx files. Various translation
+suites are available but they are expensive or limited to a single
+file type. Resource Translation Toolkit is low cost and can work
+with multiple file types. The program runs on Windows 2000 and
+above, is small in size (approx 3 MB including support files), and
+does not place extensive demands on your computer. Resource
+Translation Toolkit is for software authors, translators, and
+technical users.
+
+----------------------------------------------------------------------
+
+Directory Toolkit (shareware) 
+=============================
+
+A multipurpose directory comparison and file manager for Windows
+2000 and above (32-bit or 64-bit) that provides features missing
+from Windows. It displays single directory lists or side- by-side
+directory comparisons using color coding for alike, different, or
+missing files.  Comparisons can be based on dates or a binary file
+analysis of file content.  You can copy, move, & rename files
+while retaining long filenames and six built- in synchronize
+functions simplify updating directories. Built-in archive
+functions, with Explorer shell extensions, let you create & manage
+archives from Explorer and use Directory Toolkit as your primary
+archive manager for supported archives (zip, tar, gz, lz (read
+only), & cab).  File operations and directory comparison functions
+work seamlessly on files in archives, e.g., no need to manually
+extract files first. Other features include statistics for file
+counts and path sizes; Ignoring filename case during comparisons;
+Explorer compatible OLE drag n Drop; Split/Concatenate files
+to/from diskettes; Encode/Decode UENCODE, Base64(Mime),
+BinHex(Mac), and XXENCODE formats (Decode also includes quoted-
+printable, 7 bit unencoded, & plain text); An integrated
+comparison viewer for a color coded display of the actual
+differences in files; Safe physical sort of directories; Touch
+files (change time/date & attributes stamps); Find duplicate files
+on a drive; Open files and launch applications; Multiple
+include/exclude file masks and the ability to include/exclude
+files based on size and date; Command line switches & script
+functions to automate comparisons & synchronize operations &
+control program options in effect via batch files; Configurable
+output file and print functions to create reports of single and
+comparison directory lists; Detects & runs (optionally) setup
+programs in archives; Display file version information including
+8.3 file name equivalents; File numbering to number files
+sequentially based on adjustable sort order and a user defined
+starting value.  Help file with examples included. International
+versions are available from http://www.funduc.com. Cost: $25
+
+----------------------------------------------------------------------
+
+Funduc Software ZIP Extractor (freeware) 
+========================================
+
+A ZIP "self-extractor stub" that lets you turn your ZIP files into a
+self-extracting executable that will automatically unZIP the archive
+when launched. This allows you to share your zip files with another
+person who might not have an unzip software on their computer &/or
+who might have only occasional use for an unzip tool. The self-
+extractor allows some or all files to be extracted, create the paths
+in the zip file (default) or "flatten" the directory structure
+(unzip into a single path), or extract some (or all) of the files in
+the zip. Cost: Free.
+
+----------------------------------------------------------------------
+
+Registry Toolkit (shareware)
+============================
+
+Registry Toolkit lets you search &/or replace and edit the Windows
+registry.  You can specify the data types to process, start key,
+case sensitive, whole word.  Regular expression operations using
+an egrep-type syntax are also available.  You can create/edit
+keys, values, &/or data manually if you wish.  A unique
+'operations' function lets you move/copy/delete/export values you
+select.  For example, you can copy/move keys from one location in
+the registry to another.  The program keeps multiple 'undo' files
+that can be used to reverse previous changes (10 is the default).
+An automatic 'last change' undo is available from the program GUI.
+Replaces can be previewed in advance, in- context.  Replaces can
+also be previewed in the context of an overall search - a
+comparison dialog then lets you select/deselect specific
+operations to perform before making the overall replace. The
+program can print search & registry browse results.  The .reg
+import function allows you to compare existing data vs data to be
+imported - specific items can then be selected/deselected.  The
+.reg export function can be used to make special .reg files that
+delete keys when merged via Registry Toolkit or our new RTMerge
+program (see our web site). The various program comparison dialogs
+are configurable and their contents can be copied to the windows
+clipboard.  The program can read DOS environment variables and use
+them in a search/replace. Script file & command line functions are
+available for automated &/or complex operations.  Registry Toolkit
+will operate on a remote registry (if you have permission to do
+so).  The program is for Windows 2000 and above (32-bit or 64-
+bit).  A German interface is available. Cost: $25
+
+----------------------------------------------------------------------
+
+RTMerge (shareware/freeware)
+============================
+                
+Registry Merge is a command line utility that merges .reg files
+into the Windows registry. While this can be accomplished using
+regedit.exe, RTMerge has two added features: 1) The program can
+serve as a 'stub file' to automatically apply a .reg as an .exe.
+The .exe is prepared in advance. End users can then apply the .reg
+simply by clicking on the .exe. 2) The program can apply .reg
+files that delete keys. This is something not easily accomplished
+via regedit. See the program readme.txt for usage instructions.
+Cost: $11 or free to registered users of our Registry Toolkit.
+
+----------------------------------------------------------------------
+
+Folder Synchronize (shareware)
+==============================
+
+Folder Synchronize is a command-line utility useful to network
+administrators and other power users.  It provides a subset of the
+functions in our Directory Toolkit utility, namely, the comparison
+& synchronize functions.  We created Folder Synchronize for those
+who needed those functions but not the GUI interface & other
+functions of Directory Toolkit such as archive management, file
+operations, etc. Folder Synchronize is a native 32-bit Windows
+executable.
+
+Folder Synchronize can synchronize two paths using one of 6 synch
+methods. The program can also do a comparison-only. This is useful
+with the output report function. When the output report is enabled
+it will contain a summary of the path comparison &/or a summary of
+the file operations carried out by the synchronize. Other features
+include: Switchable display (or not) of a progress meter; A custom
+bitmap & message of your choice can be displayed on the screen while
+an operation progresses; A 'No Cancel' switch can be used to make it
+less easy for a procedure to be interrupted; Require (or not)
+confirmation of file operations; Complex include/exclude file masks
+that let you include/exclude some file or subdirectories while
+including others; Multiple operations can be submitted to the
+program via multiple 'configuration files'. Cost: $25
+
+----------------------------------------------------------------------
+
+Folder Synchronize Script Editor (currently freeware)
+=====================================================
+
+The 'Script Editor' is used to generate (or edit) script files
+that can then be used with Folder Synchronize or our Directory
+Toolkit utility. The script switches are presented in an organized
+arrangement. The display of related switches can be
+collapsed/expanded for readability. 
+
+----------------------------------------------------------------------
+
+File Merge Express (shareware)
+==============================
+
+File Merge Express is a file comparison and merge utility for 32
+bit Windows. The program displays a contents comparison of two
+files and can (optionally) create a third file consisting of the
+merge of the two files being compared. That third file can
+(optionally) be opened in the built-in text (or binary) editor.
+Multiple configurations choices are available for the file
+contents comparison and the merge file contents including:
+difference prefixes, display colors, whether or not to include
+common sections, etc. Command line switch and a script syntax are
+available for your automated routines. The program also includes a
+Windows Explorer extension that allows you to launch a comparison
+from Windows Explorer. Cost: $25
+
+----------------------------------------------------------------------
+
+Application Mover (shareware)
+=============================
+
+Application Mover is a tool that relocates installed programs from
+one path to another on your hard disk. Application Mover takes
+files found in the path you specify and moves them to a new path
+that you specify. Application Mover scans the windows registry for
+references to files located in the 'Current' field and changes
+those references to the New path. Application Mover also scans all
+windows shortcuts in the Start Menu and adjusts path references to
+the new program location. Finally, *.ini and Install.log files
+present in the original program path are checked for strings
+matching the old path location. If found, these strings are
+changed to the new location. Confirmation dialogs are available.
+If a file is 'busy' and cannot be changed to the new location, a
+reboot prompt is offered. Pending changes are then completed after
+the reboot. Cost: $15
+
+----------------------------------------------------------------------
+
+Application Inventory (shareware)
+=================================
+
+Application Inventory is a utility that scans your system for
+program .exe files and generates a configurable report about the
+files that were located. Optional follow-up scans are then
+initiated automatically to cross reference the initial scan
+results with windows .lnk shortcuts and/or references in the
+windows registry.  Further details on files are available from
+Properties and References dialogs.  Include and exclude filters
+are available to define the initial search by path &/or string(s)
+found in file version information. The fields included in the
+initial file scan are configurable.  Results be sorted, copied to
+the clipboard, printed, or saved in a delimited file you specify.
+Application Inventory can also launch windows explorer on the path
+containing a file in the results list. Although Application
+Inventory is intended as a reporting tool, various windows
+properties sheets can be launched that allow you to make edits to
+file or shortcut properties. The program defaults to scanning for
+.exe files but a special switch is available to scan for another
+file type that you specify. Cost: $15
+
+----------------------------------------------------------------------
+
+Duplicate File Finder (shareware)
+=================================
+
+Duplicate File Finder is a tool that locates duplicate files on in
+one or more paths.  Unlike other utilities that only check file
+names, Duplicate File Finder performs a binary comparison of file
+contents and can locate files that are alike regardless of names.
+The scan can be defined by path, file mask(s), and (optionally)
+with complex filters for size/date/attribute.  Results can be
+copied to the windows clipboard or saved to a tab delimited file.
+Functions to delete files, launch Windows Explorer, and show file
+properties are available.  You can also launch a file in the
+results list by double clicking. Cost: $15
+
+----------------------------------------------------------------------
+
+Shortcut Doctor (shareware)
+===========================
+
+Shortcut Doctor allows you to check your Windows links/shortcuts
+and see which contain targets which can no longer be found. The
+program can then delete the shortcuts, resolve them, or carry out
+search/replace operations to modify shortcut fields with or
+without validation of new paths. Network Drive mappings can be
+inserted in the Replace dialog automatically. Individual shortcuts
+can be edited and all shortcuts on a drive can be displayed,
+regardless of whether they are valid or not. Explorer Internet
+URLS can also be checked for problems. CD-ROM drives, network
+drives, and specific paths can be ignored during processing.
+Includes an Empty Recent Documents button. Script files, run from
+the command line, allow you to do multiple operations, control
+program options, and easily specify complex paths. A German
+interface is available. Cost: $15.
+
+----------------------------------------------------------------------
+
+Funduc Explorer Extensions (shareware)
+======================================
+
+Funduc Explorer Extensions is a collection of enhancements for the
+Windows Explorer right-click context menu: a) Encode and Decode
+Email attachments - support for UUENCODE, Base64(Mime),
+BinHex(Mac), XXENCODE, quoted-printable, 7 bit unencoded, & plain
+text, b) Split and Concatenate large files into smaller ones for
+storage on floppies & visa versa. Split can be based on file size
+or a string found in a file, c) Touch files - change the time,
+date, & attributes of files. Touch can add (or subtract) a user
+specified time value from the current file time. d) File
+Operations - copy/move/rename/delete files using complex file
+masks. The program can also change case of file names & number
+files. A German version is also available. Cost: $15.
+
+----------------------------------------------------------------------
+
+Drive Bar (shareware)
+=====================
+
+Drive Bar allows you to conveniently open views of your drives in
+Windows Explorer. Drive Bar's Auto Hide function allows it to
+disappear from view when not in use so that it does not take up
+screen space when not in use. You can resize Drive Bar and have it
+remain visible at all times if you like. You can also specify a File
+Manager program to use instead of Windows Explorer, launch drive
+views as "Tiled" or not, not include specified drives in the list of
+drive icons, and have Drive Bar run automatically at Windows startup
+(see Options). Cost: $10.
+
+----------------------------------------------------------------------
+
+Update Toolkit (shareware)
+==========================
+
+Update Toolkit is command line utility that provides 4 
+functions within a single application:
+- Moving/copying files
+- Changing and checking Windows shortcuts
+- Searching and changing the Windows Registry
+- Searching and changing text files
+
+Update Toolkit is oriented towards administrators who need to
+perform these operations on multiple workstations. The program is
+launched with a single command line. Because no graphical user
+interface is involved, no special steps are required to disable a
+program GUI when routines are run on individual workstations.
+Progress meters and confirmations are available if you like but
+these can be easily disabled. Unlike some other 'program mover'
+type applications that give little control over the steps to be
+taken, Update Toolkit allows you to specify all aspects of
+operation. Furthermore, you can use any combination of the areas
+of functioning. For example, you can use the file
+copy/more/compare functions and not the other three. Or you can
+modify shortcuts and examine the registry but do nothing with the
+file or text search/replace functions.
+
+----------------------------------------------------------------------
+
+Funduc Software Code Format (freeware)
+======================================
+
+Funduc Software Code Format (FS Code Format) is a source code
+reformatter or beautifier for use by programmers. FS Code Format
+has GUI options to determine handling of spacing, tabs, line breaks,
+indentation, and comments. Backup choices include writing numbered
+backup files in the original path or output to a different path.
+
+Subdirectories can be processed or not via a toolbar button. The
+program defaults to processing 
+*.c;*.cpp;*.cxx;*.h;*.hpp;*.hxx;*.java;*.inc files but that can be
+changed as needed. Multiple File Masks should be separated using
+the ; character.
+
+Portions of FS Code Format are based on the GC GreatCode project,
+which is released under the Open Source Initiative (OSI)
+(http://www.openresource.org/). The GC GreatCode project home is
+at http://sourceforge.net/projects/gcgreatcode/. Note that the GC
+GreatCode version provides a command line interface where FS Code
+Format does not.
+
+----------------------------------------------------------------------
+
+FS Touch (freeware)
+===================
+
+Funduc Software Touch is a utility to change time/date & attribute
+stamps on one or more files. Files to operate on can be refined by
+complex file masks that allow you to include some files but
+exclude others in a path. The program also has a function to
+add/subtract a specified number of seconds from the current file
+time. The program can be run interactively from the graphical
+interface or the command line.
+
+----------------------------------------------------------------------
+
+Count Characters (freeware)
+===========================
+
+Copy most Windows controls' data to the clipboard!  That's just
+one of the features of this freeware program from Funduc Software.
+The program can report the type and content of some of the windows
+currently displayed on your desktop and for the most popular types
+of controls (including lists and trees) it can copy their contents
+to the clipboard.  You can also copy the contents of password
+fields and regular text boxes. Cost: Free.
+
+----------------------------------------------------------------------
+
+DupBlock (freeware)
+===================
+
+DupBlock is a freeware utility that generates blocks of text based
+on a template and variables you specify.  The user enters a
+default text block and defines the variables. Variables can be
+printf- style counters or list variables.  Output can be sent to
+the windows clipboard or a file, append mode or not.  An example
+use of DupBlock is generating a scripts for one of Funduc
+Software's other utilities that uses script files for automated
+tasks. Cost: Free.
+
+----------------------------------------------------------------------
+
+FSHED - Funduc Software Hex Edit (freeware)
+===========================================
+
+FSHED - Funduc Software Hex Editor - a freeware hex editor we made
+for users of our Search and Replace, Replace Studio Pro & Replace
+Studio Business Edition grep utilities who needed a hex
+editor/viewer for use when search-replacing binary files. FSHED is
+not intended to be a full featured programmers hex editor. But if
+you need a lightweight editor that is free, you are welcome to use
+it.
+
+FSHED features include: Multi-file editing; File Insert; Revert;
+Bookmarks; Clipboard Paste choices; Block Selection;
+Search/Replace; Read only switch; Print Preview; Display Choices
+(Bytes per line, Offset length, ANSI/OEM, Little-Endian/Big-
+Endian, Font Size, Screen Colors, & more); Command Line Switches
+(offset at offset & selection length); & more.
+
+FSHED is available in separate 32-bit & 64-bit versions. The
+program runs Windows XP and above, including Vista and Windows 7.
+
+
+----------------------------------------------------------------------
+
+HexView for Windows (freeware)
+==============================
+
+HexView is one of our legacy apps. This free hex viewer allows you
+to view, print, print preview of any file as a Hex Dump. HexView
+was intended as a free companion program to our utility, Search
+and Replace. We are encouraging customers to use FSHED instead
+because of the added features in FSHED. HexView is a standalone
+application and you are free to use it as you see fit.  The source
+code (C++ using MFC 4.x or higher) can be downloaded for free from
+http://www.funduc.com. A Japanese version is available.
+
+----------------------------------------------------------------------
+
+DBComp (Freeware)
+==================
+
+DBComp is a database comparison and merge application. The program
+performs two basic tasks: 1) The Compare Data Sources function
+compare two OBDC data sources for alike vs. different records and
+generate a Difference File that lists the records that either do
+not match or have been added/deleted from one data source compared
+to the other. 2) The Merge function examines a Difference File
+generated by DBComp and updates the specified data source via SQL
+statements. You can view the SQL statements in advance and remove
+one (or more) in advance if you wish. DBComp can be used to update
+remote data sources when it is impractical or inefficient to
+distribute an entire copy of the database to the remote location.
+The program can also be used to examine a data source against an
+archived (older) copy for the purposes of debugging or historical
+examination. Cost: Free
+
+----------------------------------------------------------------------
+
+Decode Shell Extension (freeware)
+=================================
+
+This very popular freeware app is an extension for Windows
+Explorer. The program allows you to decode Internet email
+attachments by right-clicking on a saved message file from
+Explorer and selecting Decode from the menu. The program supports
+multiple attachments, multi-part files (already concatenated),
+UUENCODED, Base64(MIME), BinHex (Mac format), quoted-printable,
+XXENCODED, plain text files, and User (table) encoded files. If
+the attachment contains only one file, Decode Shell Extension will
+offer to open it using either the associated program or Notepad.
+For virus safety reasons, it will not offer to launch .exe., .com,
+.bat, & .cmd files. You should scan decoded Word and Excel files
+with your anti-virus checker before loading them. Cost: Free.
+
+----------------------------------------------------------------------
+
+Word Search and Replace (freeware)
+===================================
+
+Word Search and Replace is a freeware Word macro for Microsoft
+Word that can search (and replace) in multiple files you specify
+using Microsoft Word's build-in 'find and replace' functioning.
+The macro has switched for subdirectory search, 'Pattern
+Matching', Case Sensitive, and Whole Word. Cost: Free
+
+----------------------------------------------------------------------
+
+Excel Search and Replace (freeware)
+===================================
+
+A counterpart to our Word Search and Replace, this is a freeware
+macro for Microsoft Excel that searches (and replaces) in multiple
+.xls files using Excel's built-in find & replace function. Cost: Free
+
+----------------------------------------------------------------------
+
+PowerPoint Search and Replace (freeware)
+=======================================
+
+PowerPoint Search and Replace rounds out our collection of
+freeware find and replace Office Macros. This macro is a
+PowerPoint .ppt file that works with MS PowerPoint files using the
+find and replace functions that are part of PowerPoint. You need
+to have the full version of PowerPoint installed. The macro can be
+run as a slide show but it will not work if you only have the
+PowerPoint Show Viewer from Microsoft. Cost: Free
+
+----------------------------------------------------------------------
+
+
+TZAdjust (freeware)
+===================
+
+TZAdjust, which stands for Time Zone Adjust, is a freeware app we
+created for users who find it necessary to make manual changes to
+the Windows time zone and 'day light savings' offset parameters.
+TZAdjust is probably of greatest interest to Windows NT-class
+users. NT/2000/XP returns time information as an offset from
+Greenwich Mean Time (GMT). In addition, the OS automatically makes
+Daylight Savings compensations when reporting file times. One can
+disable "Automatically Adjust for Daylight Savings" entirely in
+the Windows Day/Time Properties dialog but there may be other
+instances where finer control over time zone and the daylight
+offset is desired. Do not use TZAdjust casually. Be sure to read
+the information in the 'readme.txt' before using this program.
+Cost: Free.
+
+----------------------------------------------------------------------
+
+Limit Edit (freeware)
+=====================
+
+Expands upon the built-in limit feature for edit boxes and rich
+edit controls by letting you set your own maximum size settings
+for the amount of text permitted in edit boxes and rich edit
+controls.  For example, you could use Limit Edit to set a limit on
+the amount of text allowed in an instance of the Notepad text
+editor. Separate 16 and 32 bit Windows versions included. Cost:
+Free.
+
+----------------------------------------------------------------------
+
+
+Delivery Agent (shareware)
+==========================
+
+Delivery Agent is a send-only e-mail program, with mail merge
+functions, for use by web site managers, network administrators,
+customer relations and support personnel, etc.  The program is
+used to deliver frequently used, customer-requested e-mail
+messages (& MIME attachments) such as newsletters, product
+delivery & announcements, support notes, etc.  Messages can be
+sent to one or more users by selecting a message from a list and
+entering the users' address.  The program can read a text file
+containing a list of addresses for bulk delivery.  Recipients of
+bulk deliveries are shielded from seeing the other recipients in
+the list.  The program checks a POP e-mail account prior to
+sending message via SMTP - useful for servers that 'validate' the
+users current IP address prior to mail relays.  Version 3.0 adds
+MAPI support.  When activated, the program will route outgoing
+messages to your primary MAPI-aware e-mail program.  Mail merge
+field name definitions, variable names, and data are stored in a
+single file containing the data and e-mail addresses.  Variable
+names can be anything you like (except for the name of the e-mail
+address field). Mail Merge 'Constants' can also be defined.  The
+program has a customizable header function that can be used to
+send web mail' or 'HTML mail'.  The "To: " field can also be
+customized for bulk, non- mail merge deliveries.  Port settings to
+use and maximum number of recipients per block can be configured
+manually.  Settings and messages can be created via the program
+GUI or, once you are familiar with the program, via an external
+text editor.  A full complement of command line switches allows
+the program to be incorporated into your .bat routines.  A log
+file of deliveries can be enabled (or not).  Cost: $25.
+
+----------------------------------------------------------------------

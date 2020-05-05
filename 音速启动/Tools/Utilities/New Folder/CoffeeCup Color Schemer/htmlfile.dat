@@ -1,0 +1,60 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+  <title>%title%</title>
+  <style type="text/css">
+    body {
+      background-color: #FFF;
+      color: #000;
+      font-family: arial, sans-serif;
+    }
+    div.swatch {
+      float: left;
+      width: 210px;
+      margin: 0 20px 20px 0;
+    }
+    div.outer {
+      float: left;
+      border: 1px solid #CCC;
+      padding: 1px;
+    }
+    div.shadow {
+      padding: 1px;
+    }
+    h1 {
+      font-size: 26px;
+      font-weight: normal;
+      padding-bottom: 5px;
+      margin-bottom: 28px;
+      border-bottom: 1px solid #CCC;
+    }
+    div.color {
+      width: 48px;
+      height: 48px;
+      padding: 0;
+      margin: 0;
+    }
+    div.caption {
+      float: left;
+      color: #555;
+      font-size: 12px;
+      line-height: 16px;
+      margin: 0 0 0 10px;
+    }
+    h3 {
+      margin: 0 0 4px 0;
+      padding: 0 0 2px 0;
+      width: 120px;
+      font-size: 13px;
+      font-weight: bold;
+      border-bottom: 1px solid #E6E6E6;
+    }
+  </style>
+</head>
+
+<body>
+<h1>%title%</h1>
+%pagecontent%
+</body>
+</html>

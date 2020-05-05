@@ -1,0 +1,168 @@
+﻿// Created by Microsoft (R) C/C++ Compiler Version 15.00.30729.01 (8ecc4ad6).
+//
+// c:\project\adoassist\adoassist\release\oledb32.tli
+//
+// Wrapper implementations for Win32 type library C:\Program Files\Common Files\System\ole db\oledb32.dll
+// compiler-generated file created 11/09/11 at 19:01:23 - DO NOT EDIT!
+
+#pragma once
+
+//
+// interface IDataSourceLocator wrapper method implementations
+//
+
+inline long IDataSourceLocator::GethWnd ( ) {
+    long _result = 0;
+    HRESULT _hr = get_hWnd(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void IDataSourceLocator::PuthWnd ( long phwndParent ) {
+    HRESULT _hr = put_hWnd(phwndParent);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline IDispatchPtr IDataSourceLocator::PromptNew ( ) {
+    IDispatch * _result = 0;
+    HRESULT _hr = raw_PromptNew(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IDispatchPtr(_result, false);
+}
+
+inline VARIANT_BOOL IDataSourceLocator::PromptEdit ( IDispatch * * ppADOConnection ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_PromptEdit(ppADOConnection, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+//
+// interface IDBPromptInitialize wrapper method implementations
+//
+
+inline HRESULT IDBPromptInitialize::PromptDataSource ( IUnknown * pUnkOuter, wireHWND hWndParent, unsigned long dwPromptOptions, unsigned long cSourceTypeFilter, unsigned long * rgSourceTypeFilter, LPWSTR pwszszzProviderFilter, GUID * riid, IUnknown * * ppDataSource ) {
+    HRESULT _hr = raw_PromptDataSource(pUnkOuter, hWndParent, dwPromptOptions, cSourceTypeFilter, rgSourceTypeFilter, pwszszzProviderFilter, riid, ppDataSource);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IDBPromptInitialize::PromptFileName ( wireHWND hWndParent, unsigned long dwPromptOptions, LPWSTR pwszInitialDirectory, LPWSTR pwszInitialFile, LPWSTR * ppwszSelectedFile ) {
+    HRESULT _hr = raw_PromptFileName(hWndParent, dwPromptOptions, pwszInitialDirectory, pwszInitialFile, ppwszSelectedFile);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+//
+// interface IDataInitialize wrapper method implementations
+//
+
+inline HRESULT IDataInitialize::GetDataSource ( IUnknown * pUnkOuter, unsigned long dwClsCtx, LPWSTR pwszInitializationString, GUID * riid, IUnknown * * ppDataSource ) {
+    HRESULT _hr = raw_GetDataSource(pUnkOuter, dwClsCtx, pwszInitializationString, riid, ppDataSource);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IDataInitialize::GetInitializationString ( IUnknown * pDataSource, char fIncludePassword, LPWSTR * ppwszInitString ) {
+    HRESULT _hr = raw_GetInitializationString(pDataSource, fIncludePassword, ppwszInitString);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IDataInitialize::CreateDBInstance ( GUID * clsidProvider, IUnknown * pUnkOuter, unsigned long dwClsCtx, LPWSTR pwszReserved, GUID * riid, IUnknown * * ppDataSource ) {
+    HRESULT _hr = raw_CreateDBInstance(clsidProvider, pUnkOuter, dwClsCtx, pwszReserved, riid, ppDataSource);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IDataInitialize::RemoteCreateDBInstanceEx ( GUID * clsidProvider, IUnknown * pUnkOuter, unsigned long dwClsCtx, LPWSTR pwszReserved, struct _COSERVERINFO * pServerInfo, unsigned long cmq, GUID * * rgpIID, IUnknown * * rgpItf, HRESULT * rghr ) {
+    HRESULT _hr = raw_RemoteCreateDBInstanceEx(clsidProvider, pUnkOuter, dwClsCtx, pwszReserved, pServerInfo, cmq, rgpIID, rgpItf, rghr);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IDataInitialize::LoadStringFromStorage ( LPWSTR pwszFileName, LPWSTR * ppwszInitializationString ) {
+    HRESULT _hr = raw_LoadStringFromStorage(pwszFileName, ppwszInitializationString);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IDataInitialize::WriteStringToStorage ( LPWSTR pwszFileName, LPWSTR pwszInitializationString, unsigned long dwCreationDisposition ) {
+    HRESULT _hr = raw_WriteStringToStorage(pwszFileName, pwszInitializationString, dwCreationDisposition);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+//
+// interface IBindResource wrapper method implementations
+//
+
+inline HRESULT IBindResource::RemoteBind ( IUnknown * pUnkOuter, LPWSTR pwszURL, unsigned long dwBindURLFlags, GUID * rguid, GUID * riid, struct IAuthenticate * pAuthenticate, IUnknown * pSessionUnkOuter, GUID * piid, IUnknown * * ppSession, unsigned long * pdwBindStatus, IUnknown * * ppUnk ) {
+    HRESULT _hr = raw_RemoteBind(pUnkOuter, pwszURL, dwBindURLFlags, rguid, riid, pAuthenticate, pSessionUnkOuter, piid, ppSession, pdwBindStatus, ppUnk);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+//
+// interface ICreateRow wrapper method implementations
+//
+
+inline HRESULT ICreateRow::RemoteCreateRow ( IUnknown * pUnkOuter, LPWSTR pwszURL, unsigned long dwBindURLFlags, GUID * rguid, GUID * riid, struct IAuthenticate * pAuthenticate, IUnknown * pSessionUnkOuter, GUID * piid, IUnknown * * ppSession, unsigned long * pdwBindStatus, LPWSTR * ppwszNewURL, IUnknown * * ppUnk ) {
+    HRESULT _hr = raw_RemoteCreateRow(pUnkOuter, pwszURL, dwBindURLFlags, rguid, riid, pAuthenticate, pSessionUnkOuter, piid, ppSession, pdwBindStatus, ppwszNewURL, ppUnk);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+//
+// interface IRegisterProvider wrapper method implementations
+//
+
+inline HRESULT IRegisterProvider::RemoteGetURLMapping ( LPWSTR pwszURL, unsigned long dwReserved, GUID * pclsidProvider ) {
+    HRESULT _hr = raw_RemoteGetURLMapping(pwszURL, dwReserved, pclsidProvider);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IRegisterProvider::SetURLMapping ( LPWSTR pwszURL, unsigned long dwReserved, GUID * rclsidProvider ) {
+    HRESULT _hr = raw_SetURLMapping(pwszURL, dwReserved, rclsidProvider);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IRegisterProvider::UnregisterProvider ( LPWSTR pwszURL, unsigned long dwReserved, GUID * rclsidProvider ) {
+    HRESULT _hr = raw_UnregisterProvider(pwszURL, dwReserved, rclsidProvider);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+//
+// interface IDBProperties wrapper method implementations
+//
+
+inline HRESULT IDBProperties::RemoteGetProperties ( unsigned long cPropertyIDSets, struct tagDBPROPIDSET * rgPropertyIDSets, unsigned long * pcPropertySets, struct tagDBPROPSET * * prgPropertySets, struct IErrorInfo * * ppErrorInfoRem ) {
+    HRESULT _hr = raw_RemoteGetProperties(cPropertyIDSets, rgPropertyIDSets, pcPropertySets, prgPropertySets, ppErrorInfoRem);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IDBProperties::RemoteGetPropertyInfo ( unsigned long cPropertyIDSets, struct tagDBPROPIDSET * rgPropertyIDSets, unsigned long * pcPropertyInfoSets, struct tagDBPROPINFOSET * * prgPropertyInfoSets, unsigned long * pcOffsets, unsigned long * * prgDescOffsets, unsigned long * pcbDescBuffer, unsigned short * * ppDescBuffer, struct IErrorInfo * * ppErrorInfoRem ) {
+    HRESULT _hr = raw_RemoteGetPropertyInfo(cPropertyIDSets, rgPropertyIDSets, pcPropertyInfoSets, prgPropertyInfoSets, pcOffsets, prgDescOffsets, pcbDescBuffer, ppDescBuffer, ppErrorInfoRem);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IDBProperties::RemoteSetProperties ( unsigned long cPropertySets, struct tagDBPROPSET * rgPropertySets, unsigned long cTotalProps, unsigned long * rgPropStatus, struct IErrorInfo * * ppErrorInfoRem ) {
+    HRESULT _hr = raw_RemoteSetProperties(cPropertySets, rgPropertySets, cTotalProps, rgPropStatus, ppErrorInfoRem);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+//
+// interface IDBBinderProperties wrapper method implementations
+//
+
+inline HRESULT IDBBinderProperties::Reset ( ) {
+    HRESULT _hr = raw_Reset();
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}

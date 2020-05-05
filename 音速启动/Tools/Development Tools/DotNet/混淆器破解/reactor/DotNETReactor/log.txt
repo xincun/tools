@@ -1,0 +1,21 @@
+.NET Reactor log file
+---------------------
+
+[2010-11-5 8:36:59]
+Step: Examining
+
+[2010-11-5 8:36:59]
+Step Done
+
+[2010-11-5 8:36:59]
+Step: Protection Layer 1
+
+[2010-11-5 8:36:59]
+Step Done
+
+[2010-11-5 8:36:59]
+Step: Protection Layer 2
+
+[2010-11-5 8:36:59]
+Step Done
+

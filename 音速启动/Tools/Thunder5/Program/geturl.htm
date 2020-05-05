@@ -1,0 +1,75 @@
+<script language="VBScript">
+
+Sub AddLink(Url,Info,Location,strCID)
+    if Url <> "" then
+	if Info = "" then
+	    Info = "unknown"
+        end if
+        if Len(Info) > 1000 then
+            Info = Left(Info, 1000)
+        end if
+
+        set ThunderAgent = CreateObject("ThunderAgent.Agent.1")
+
+	if strCID <> "" then
+        	call ThunderAgent.AddTask3(Url, "", "", Info, Location, -1, 0, -1, "", strCID)
+	else
+		call ThunderAgent.AddTask(Url, "", "", Info, Location)
+	end if
+
+        call ThunderAgent.CommitTasks2(1)
+        set ThunderAgent = nothing
+    end if
+end sub
+
+Sub OnContextMenu()
+	set srcEvent = external.menuArguments.event
+	set srcLocation = external.menuArguments.location
+
+	strCID = ""
+	set theCID = external.menuArguments.document.getElementById("thunder_cid")
+	if TypeName(theCID) <> "Nothing" then
+		strCID = theCID.value
+	end if
+
+	
+	set EventElement = external.menuArguments.document.elementFromPoint ( srcEvent.clientX, srcEvent.clientY )
+	if srcEvent.type = "MenuExtAnchor" then 
+		set srcAnchor = EventElement
+		do until TypeName(srcAnchor)="HTMLAnchorElement"
+			set srcAnchor=srcAnchor.parentElement
+		Loop
+		Call AddLink(srcAnchor.href,srcAnchor.innerText,srcLocation, strCID)
+	elseif srcEvent.type="MenuExtImage" then
+		if TypeName(EventElement)="HTMLAreaElement" then
+			Call AddLink(EventElement.href,EventElement.Alt,srcLocation, strCID)
+		else 
+			set srcImage = EventElement
+			set srcAnchor = srcImage.parentElement
+			do until TypeName(srcAnchor)="HTMLAnchorElement"
+				set srcAnchor=srcAnchor.parentElement
+				if TypeName(srcAnchor)="Nothing" then 
+					call AddLink(srcImage.href,srcImage.Alt,srcLocation, strCID)
+					exit sub
+				end if
+			Loop
+			Call AddLink(srcAnchor.href,srcImage.Alt,srcLocation, strCID)
+		end if
+	elseif srcEvent.type="MenuExtUnknown" then
+		set srcAnchor = EventElement
+		do until TypeName(srcAnchor)="HTMLAnchorElement"
+			set srcAnchor=srcAnchor.parentElement
+			if TypeName(srcAnchor)="Nothing" then 
+				Call AddLink(EventElement.href,EventElement.innerText,srcLocation, strCID)
+				exit sub
+			end if
+		Loop
+		Call AddLink(srcAnchor.href,srcAnchor.innerText,srcLocation, strCID)
+	else
+		MsgBox("Unknown Event Source """ + srcEvent.type + """")
+	end if
+end sub
+
+call OnContextMenu()
+
+</script>

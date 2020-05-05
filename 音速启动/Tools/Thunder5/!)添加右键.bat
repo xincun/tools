@@ -1,0 +1,1 @@
+rundll32 setupapi,InstallHinfSection DefaultInstall 128 .\yThunder.inf

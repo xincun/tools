@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<view width="auto" height="auto">
+
+  <linear x="0" y="33"
+    width="auto" height="auto"
+    orientation="vertical">
+
+    <linear x="0" y="0"
+      width="auto" height="auto"
+      minWidth="200"
+      enabled="true"
+      orientation="vertical"
+      background="candidate_window_background.png"
+      backgroundMode="stretch"
+      backgroundBorder="14, 15, 14, 15"
+      cursor="sizeall">
+
+      <div height="9"/>
+
+      <linear width="100%" height="auto" orientation="horizontal">
+
+        <div width="10"/>
+
+        <composition name="composition"
+          width="auto" height="auto"
+          active_font="Arial"
+          inactive_font="Arial"
+          highlight_font="Arial"
+          converted_font="SimSun"
+          active_size="12"
+          inactive_size="12"
+          highlight_size="12"
+          converted_size="12"
+          active_color="#1B3775"
+          inactive_color="#DCDDDD"
+          highlight_color="#CF9A00"
+          converted_color="#1B3775"
+          active_bold="true"
+          inactive_bold="true"
+          highlight_bold="true"
+          caretwidth="1.0"
+          caretcolor="#FF0000"
+          minHeight="20"/>
+
+        <div width="20" linearLayoutDir="backward"/>
+
+        <label name="help_message" y="3" size="8" color="#7F7F7F" linearLayoutDir="backward"/>
+
+        <div width="78" linearLayoutDir="backward"/>
+
+      </linear>
+
+      <div height="2"/>
+
+      <linear width="100%" height="auto" enabled="true"
+        orientation="horizontal">
+
+        <div width="12"/>
+
+        <candidatelist name="candidate_list"
+          candidateFont="SimSun"
+          candidateSize="12"
+          candidateColor="#18396C"
+          selectedCandidateColor="#000501"
+          candidateMenuWidth="7"
+          candidateMenuHeight="11"
+          candidateMenuIcon="resource://candidate_menu.png"
+          candidateMenuDownIcon="resource://candidate_menu_down.png"
+          candidateMenuOverIcon="resource://candidate_menu_over.png"
+          selectedCandidateMenuicon="resource://selected_candidate_menu.png"
+          selectedCandidateMenuOverIcon="resource://selected_candidate_menu_over.png"
+          selectedcandidateMenuDownIcon="resource://selected_candidate_menu_down.png"
+          selectionImage="candidate_selection.png"
+          selectionImageOnTop="false"
+          selectionImageMargin="3, 3, -1, -1"
+          selectionImageStretchBorder="4, 4, 4, 4"
+          horizontalPadding="4"
+          verticalPadding="3"
+          orientation="horizontal"/>
+
+        <button name="candidate_list_page_up"
+          y="100%" pinY="100%"
+          image="candidate_list_page_up.png"
+          downImage="candidate_list_page_up_down.png"
+          overImage="candidate_list_page_up_over.png"
+          disabledImage="candidate_list_page_up_disabled.png"
+          cursor="hand"
+          linearLayoutDir="backward"/>
+
+        <button name="candidate_list_page_down"
+          y="100%" pinY="100%"
+          image="candidate_list_page_down.png"
+          downImage="candidate_list_page_down_down.png"
+          overImage="candidate_list_page_down_over.png"
+          disabledImage="candidate_list_page_down_disabled.png"
+          cursor="hand"
+          linearLayoutDir="backward"/>
+
+        <div width="22" linearLayoutDir="backward"/>
+
+      </linear>
+
+      <div height="7"/>
+
+    </linear>
+
+    <img x="100%" pinX="154" src="doodle_foot.png"/>
+
+  </linear>
+
+  <img x="100%" pinX="154" y="0" src="doodle_head.png"/>
+
+</view>
+

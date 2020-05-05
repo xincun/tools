@@ -1,0 +1,2182 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Localization>
+	<Product id="PXCView" version="1.0" productVersion=""/>
+	<language eName="Slovak" lName="Slovenčina (SK)" lcid="0x041b" prefFont=""/>
+	<commands>
+		<item id="32316" title="Späť" tooltip="Späť" status="" short=""/>
+		<item id="32317" title="Dopredu" tooltip="Dopredu" status="" short=""/>
+		<item id="32609" title="Lupa" tooltip="Lupa" status="Lupa" short=""/>
+		<item id="32610" title="Zväčšiť" tooltip="Zväčšiť" status="Zväčšiť" short="Zväčšiť"/>
+		<item id="32611" title="Zmenšiť" tooltip="Zmenšiť" status="Zmenšiť" short="Zmenšiť"/>
+		<item id="32613" title="Ručička" tooltip="Ručička" status="Ručička" short=""/>
+		<item id="32614" title="Snímka" tooltip="Snímka" status="Snímka" short=""/>
+		<item id="32620" title="Výber" tooltip="Výber textu/objektu" status="Výber textu/objektu" short=""/>
+		<item id="32884" title="Prejsť na..." tooltip="" status="" short=""/>
+		<item id="32885" title="Prvú stranu" tooltip="Prejsť na prvú stranu" status="Prejsť na prvú stranu" short=""/>
+		<item id="32886" title="Predchádzajúcu stranu" tooltip="Prejsť na predchádzajúcu stranu" status="Prejsť na predchádzajúcu stranu" short=""/>
+		<item id="32887" title="Nasledujúcu stranu" tooltip="Ísť na nasledujúcu stranu" status="Ísť na nasledujúcu stranu" short=""/>
+		<item id="32888" title="Poslednú stranu" tooltip="Prejsť na poslednú stranu" status="Prejsť na poslednú stranu" short=""/>
+		<item id="32889" title="Stranu..." tooltip="Prejsť na stranu..." status="Prejsť na stranu..." short=""/>
+		<item id="32890" title="Predchádzajúce zobrazenie" tooltip="Prejsť na predchádzajúce zobrazenie" status="" short=""/>
+		<item id="32891" title="Nasledujúce zobrazenie" tooltip="Prejsť na nasledujúce zobrazenie" status="" short=""/>
+		<item id="32892" title="Predchádzajúci dokument" tooltip="Prejsť na predchádzajúci dokument" status="" short=""/>
+		<item id="32893" title="Nasledujúci dokument" tooltip="Prejsť na nasledujúci dokument" status="" short=""/>
+		<item id="32895" title="Jedna strana" tooltip="Jedna strana" status="" short=""/>
+		<item id="32896" title="Priebežné" tooltip="Priebežné" status="" short=""/>
+		<item id="32897" title="Protiľahlé" tooltip="Protiľahlé" status="" short=""/>
+		<item id="32898" title="Priebežné - protiľahlé" tooltip="Priebežné - protiľahlé" status="" short=""/>
+		<item id="32899" title="Zmeniť veľkosť..." tooltip="Zmeniť veľkosť aktívneho dokumentu" status="Zmeniť veľkosť aktívneho dokumentu" short=""/>
+		<item id="32900" title="Skutočná veľkosť" tooltip="Zobraziť dokument v skutočnej veľkosti (100%)" status="Zobraziť dokument v skutočnej veľkosti (100%)" short=""/>
+		<item id="32901" title="Celá strana" tooltip="Zobraziť celú stranu" status="Zobraziť celú stranu" short=""/>
+		<item id="32902" title="Podľa šírky" tooltip="Veľkosť podľa šírky strany" status="Veľkosť podľa šírky strany" short=""/>
+		<item id="32903" title="Podľa obsahu" tooltip="Veľkosť podľa viditeľného obsahu" status="Veľkosť podľa viditeľného obsahu" short=""/>
+		<item id="32904" title="Zväčšiť" tooltip="Zväčšiť" status="Zväčšiť" short=""/>
+		<item id="32905" title="Zmenšiť" tooltip="Zmenšiť" status="Zmenšiť" short=""/>
+		<item id="32906" title="Možnosti..." tooltip="Možnosti nastavenia aplikácie..." status="Možnosti nastavenia aplikácie..." short=""/>
+		<item id="32907" title="" tooltip="Počet stránok dokumentu" status="" short=""/>
+		<item id="32908" title="Súbor" tooltip="Zobraziť/schovať lištu pre prácu so súbormi" status="Zobraziť/schovať lištu pre prácu so súbormi" short=""/>
+		<item id="32909" title="" tooltip="Strana" status="" short="Strana:"/>
+		<item id="32910" title="Záložky" tooltip="Zobraziť/schovať záložky" status="Zobraziť/schovať záložky" short=""/>
+		<item id="32912" title="Miniatúry stránok" tooltip="Zobraziť/schovať miniatúry stránok" status="Zobraziť/schovať miniatúry stránok" short=""/>
+		<item id="32924" title="Štandard" tooltip="Zobraziť/schovať lištu štandard" status="Zobraziť/schovať lištu štandard" short=""/>
+		<item id="32925" title="Zväčšenie" tooltip="Zobraziť/schovať lištu pre zmenu veľkosti zobrazenia" status="Zobraziť/schovať lištu pre zmenu veľkosti zobrazenia" short=""/>
+		<item id="32929" title="Otáčanie" tooltip="Zobraziť/schovať lištu pre otáčanie zobrazenia" status="Zobraziť/schovať lištu pre otáčanie zobrazenia" short=""/>
+		<item id="32936" title="Zobraziť všetky lišty" tooltip="Zobraziť všetky lišty" status="" short=""/>
+		<item id="32937" title="Zatvoriť aktívny panel" tooltip="Zatvoriť aktívny panel" status="" short=""/>
+		<item id="32938" title="Miniatúry dokumentov" tooltip="Miniatúry dokumentov" status="" short=""/>
+		<item id="32940" title="Karty" tooltip="Zobraziť/schovať karty dokumentov" status="Zobraziť/schovať karty dokumentov" short=""/>
+		<item id="32942" title="Zatvoriť všetky dokumenty" tooltip="" status="" short=""/>
+		<item id="32944" title="Exportovať" tooltip="Export" status="Export" short=""/>
+		<item id="32945" title="Exportovať do obrázka..." tooltip="Exportovať strany do obrázka..." status="Exportovať strany do obrázka..." short=""/>
+		<item id="32946" title="Názov dokumentu" tooltip="" status="" short=""/>
+		<item id="32947" title="Číslo dokumentu" tooltip="" status="" short=""/>
+		<item id="32948" title="Nadpis dokumentu" tooltip="" status="" short=""/>
+		<item id="32949" title="Číslo strany" tooltip="" status="" short=""/>
+		<item id="32950" title="STRANA" tooltip="" status="" short=""/>
+		<item id="32951" title="STRANY" tooltip="" status="" short=""/>
+		<item id="32952" title="Názov súboru" tooltip="" status="" short=""/>
+		<item id="32953" title="Dátum (MM-DD-RRRR)" tooltip="" status="" short=""/>
+		<item id="32954" title="Rok" tooltip="" status="" short=""/>
+		<item id="32955" title="Mesiac" tooltip="" status="" short=""/>
+		<item id="32956" title="Deň" tooltip="" status="" short=""/>
+		<item id="32957" title="Čas (HH-MM-SS)" tooltip="" status="" short=""/>
+		<item id="32958" title="Hodina" tooltip="" status="" short=""/>
+		<item id="32959" title="Minúta" tooltip="" status="" short=""/>
+		<item id="32960" title="Sekunda" tooltip="" status="" short=""/>
+		<item id="32961" title="Automatické číslovanie" tooltip="" status="" short=""/>
+		<item id="32987" title="Panel hľadať" tooltip="Zobraziť panel hľadať" status="Zobraziť panel hľadať" short=""/>
+		<item id="32990" title="" tooltip="Hľadať text" status="" short="Hľadať:"/>
+		<item id="32991" title="Hľadať predchádzajúci" tooltip="Hľadať predchádzajúci výskyt" status="Hľadať predchádzajúci výskyt" short=""/>
+		<item id="32992" title="Hľadať nasledujúci" tooltip="Hľadať nasledujúci výskyt" status="Hľadať nasledujúci výskyt" short=""/>
+		<item id="32993" title="Možnosti hľadania" tooltip="Nastavenie možností hľadania" status="Nastavenie možností hľadania" short=""/>
+		<item id="32994" title="Celé slová" tooltip="Hľadať len celé slová" status="Hľadať len celé slová" short=""/>
+		<item id="32995" title="Rozlišovať malé/veľké písmená" tooltip="Rozlišovať malé/veľké písmená" status="Rozlišovať malé/veľké písmená" short=""/>
+		<item id="32996" title="Prehľadávať komentáre" tooltip="Prehľadávať komentáre" status="Prehľadávať komentáre" short=""/>
+		<item id="32997" title="Prehľadávať záložky" tooltip="Prehľadávať záložky" status="Prehľadávať záložky" short=""/>
+		<item id="33000" title="Hľadať" tooltip="Zobraziť/schovať lištu hľadať" status="Zobraziť/schovať lištu hľadať" short=""/>
+		<item id="33006" title="Vrstvy" tooltip="Zobraziť/schovať vrstvy" status="Zobraziť/schovať vrstvy" short=""/>
+		<item id="33008" title="Polia" tooltip="Zobraziť/schovať polia" status="Zobraziť/schovať polia" short=""/>
+		<item id="33009" title="Menu" tooltip="Zobraziť/schovať menu aplikácie" status="Zobraziť/schovať menu aplikácie" short=""/>
+		<item id="33014" title="Celá obrazovka" tooltip="Zobrazí okno na celú obrazovku" status="Zobrazí okno na celú obrazovku" short=""/>
+		<item id="33015" title="Zobraziť/schovať všetky panely" tooltip="Zobraziť/schovať všetky panely" status="Zobraziť/schovať všetky panely" short="Prepínač panelov"/>
+		<item id="33016" title="Zobraziť/schovať všetky panely" tooltip="Zobraziť/schovať všetky panely" status="Zobraziť/schovať všetky panely" short="Prepínač panelov"/>
+		<item id="33018" title="Označiť všetky polia formulára" tooltip="Označiť všetky polia formulára" status="Označiť všetky polia formulára" short="Označiť všetky polia formulára"/>
+		<item id="33020" title="Zrušiť celú obrazovku" tooltip="Zruší celoobrazovkové zobrazenie" status="Zruší celoobrazovkové zobrazenie" short=""/>
+		<item id="33032" title="Centimetre" tooltip="Centimetre" status="" short=""/>
+		<item id="33033" title="Palce" tooltip="Palce" status="" short=""/>
+		<item id="33034" title="Milimetre" tooltip="Milimetre" status="" short=""/>
+		<item id="33035" title="Picas" tooltip="Picas" status="" short=""/>
+		<item id="33036" title="Body" tooltip="Body" status="" short=""/>
+		<item id="33038" title="Zatvoriť všetko" tooltip="Zatvoriť všetky otvorené dokumenty" status="Zatvoriť všetky otvorené dokumenty" short=""/>
+		<item id="33054" title="6400%" tooltip="" status="" short=""/>
+		<item id="33055" title="3200%" tooltip="" status="" short=""/>
+		<item id="33056" title="2400%" tooltip="" status="" short=""/>
+		<item id="33057" title="1200%" tooltip="" status="" short=""/>
+		<item id="33058" title="800%" tooltip="" status="" short=""/>
+		<item id="33059" title="400%" tooltip="" status="" short=""/>
+		<item id="33060" title="200%" tooltip="" status="" short=""/>
+		<item id="33061" title="150%" tooltip="" status="" short=""/>
+		<item id="33062" title="100%" tooltip="" status="" short=""/>
+		<item id="33063" title="75%" tooltip="" status="" short=""/>
+		<item id="33064" title="50%" tooltip="" status="" short=""/>
+		<item id="33065" title="25%" tooltip="" status="" short=""/>
+		<item id="33073" title="Export dát do formulára" tooltip="" status="" short=""/>
+		<item id="33074" title="Import dát do formulára..." tooltip="" status="" short=""/>
+		<item id="33075" title="Otočiť zobrazenie" tooltip="" status="" short=""/>
+		<item id="33078" title="Vpravo" tooltip="Otočiť v smere hodinových ručičiek" status="Otočiť v smere hodinových ručičiek" short=""/>
+		<item id="33079" title="Vľavo" tooltip="Otočiť proti smeru hodinových ručičiek" status="Otočiť proti smeru hodinových ručičiek" short=""/>
+		<item id="33080" title="Otočiť strany..." tooltip="" status="" short=""/>
+		<item id="33081" title="Odstrániť strany..." tooltip="" status="" short=""/>
+		<item id="33082" title="Orezať strany..." tooltip="" status="" short=""/>
+		<item id="33103" title="Veľkosť pohľadu" tooltip="Veľkosť pohľadu" status="Veľkosť pohľadu" short="Veľkosť pohľadu"/>
+		<item id="33104" title="Tučné" tooltip="Tučné" status="" short=""/>
+		<item id="33105" title="Kurzíva" tooltip="Kurzíva" status="" short=""/>
+		<item id="33106" title="Podčiarknuté" tooltip="Podčiarknuté" status="" short=""/>
+		<item id="33107" title="Preškrtnuté" tooltip="Preškrtnuté" status="" short=""/>
+		<item id="33108" title="Zarovnať vľavo" tooltip="Zarovnať vľavo" status="" short=""/>
+		<item id="33109" title="Centrovať" tooltip="Centrovať" status="" short=""/>
+		<item id="33110" title="Zarovnať vpravo" tooltip="Zarovnať vpravo" status="" short=""/>
+		<item id="33115" title="Otočiť popis" tooltip="Otočiť popis" status="" short=""/>
+		<item id="33116" title="Možnosti..." tooltip="Viac možností..." status="" short=""/>
+		<item id="33118" title="Aktuálne vlastnosti ako štandard" tooltip="Aktuálne vlastnosti ako štandard" status="" short=""/>
+		<item id="33119" title="Odpovedať" tooltip="Odpovedať" status="" short=""/>
+		<item id="33121" title="Obnoviť pozíciu komentára" tooltip="Obnoviť pozíciu komentára" status="" short=""/>
+		<item id="33122" title="Otvoriť komentár" tooltip="Otvoriť komentár" status="" short=""/>
+		<item id="33123" title="Šípka" tooltip="Šípka" status="" short="Šípka"/>
+		<item id="33124" title="Čiara" tooltip="Čiara" status="" short="Čiara"/>
+		<item id="33125" title="Obdĺžnik" tooltip="Obdĺžnik" status="" short="Obdĺžnik"/>
+		<item id="33126" title="Ovál" tooltip="Ovál" status="" short="Ovál"/>
+		<item id="33127" title="Mnohouholník" tooltip="Mnohouholník" status="" short="Mnohouholník"/>
+		<item id="33128" title="Lomená čiara" tooltip="Lomená čiara" status="" short="Lomená čiara"/>
+		<item id="33129" title="Ceruzka" tooltip="Ceruzka" status="" short="Ceruzka"/>
+		<item id="33130" title="Obláčik" tooltip="Obláčik" status="" short="Obláčik"/>
+		<item id="33131" title="Pečiatka" tooltip="Pečiatka" status="" short="Pečiatka"/>
+		<item id="33132" title="Komentár" tooltip="Komentár" status="" short="Komentár"/>
+		<item id="33133" title="Miniatúry" tooltip="Miniatúry" status="" short=""/>
+		<item id="33134" title="Použiť štandardné vlastnosti" tooltip="Použiť štandardné vlastnosti" status="" short=""/>
+		<item id="33135" title="Pridať komentár" tooltip="Pridať komentár" status="" short=""/>
+		<item id="33136" title="Odstrániť" tooltip="Odstrániť výber" status="Odstrániť výber" short=""/>
+		<item id="33138" title="Komentár" tooltip="Zobraziť/schovať lištu komentár" status="Zobraziť/schovať lištu komentár" short=""/>
+		<item id="33139" title="Zrušiť" tooltip="Zrušiť" status="" short=""/>
+		<item id="33140" title="Ukončiť" tooltip="Ukončiť" status="" short=""/>
+		<item id="33141" title="Domovská stránka" tooltip="" status="" short=""/>
+		<item id="33145" title="Obsah" tooltip="" status="" short=""/>
+		<item id="33146" title="Nahlásiť chybu..." tooltip="" status="" short=""/>
+		<item id="33147" title="Fórum podpory" tooltip="" status="" short=""/>
+		<item id="33168" title="Vymazať formát textu" tooltip="Vymazať formát textu" status="" short=""/>
+		<item id="33170" title="Horný index" tooltip="Horný index" status="" short=""/>
+		<item id="33171" title="Dolný index" tooltip="Dolný index" status="" short=""/>
+		<item id="33174" title="Odpovedať" tooltip="Odpovedať" status="" short=""/>
+		<item id="33176" title="Odstrániť odpoveď" tooltip="Odstrániť odpoveď" status="" short=""/>
+		<item id="33179" title="Vyhľadať aktualizácie..." tooltip="" status="" short=""/>
+		<item id="33182" title="Skopírovať ako neformátovaný text" tooltip="Skopírovať ako neformátovaný text" status="" short=""/>
+		<item id="33183" title="Skopírovať ako formátovaný text" tooltip="Skopírovať ako formátovaný text" status="" short=""/>
+		<item id="33184" title="Skopírovať ako &apos;RTF&apos;" tooltip="Skopírovať ako &apos;RTF&apos;" status="" short=""/>
+		<item id="33187" title="Konzola Java Scriptu" tooltip="Zobraziť/schovať konzolu Java Scriptu" status="Zobraziť/schovať konzolu Java Scriptu" short=""/>
+		<item id="33190" title="Najbližší" tooltip="" status="" short=""/>
+		<item id="33193" title="Na strane" tooltip="" status="" short=""/>
+		<item id="33194" title="V dokumente" tooltip="" status="" short=""/>
+		<item id="33197" title="Prehľadať podpriečinky" tooltip="" status="" short=""/>
+		<item id="33201" title="Textová bublina" tooltip="Textová bublina" status="" short="Textová bublina"/>
+		<item id="33202" title="Textové pole" tooltip="Textové pole" status="" short="Textové pole"/>
+		<item id="33204" title="Komentáre" tooltip="Zobraziť/schovať komentáre" status="Zobraziť/schovať komentáre" short=""/>
+		<item id="33206" title="Zvýrazniť text" tooltip="Zvýrazniť text" status="" short=""/>
+		<item id="33207" title="Komentár k textu" tooltip="Komentár k textu" status="" short=""/>
+		<item id="33208" title="Podčiarknuť text" tooltip="Podčiarknuť text" status="" short=""/>
+		<item id="33209" title="Preškrtnúť text" tooltip="Preškrtnúť text" status="" short=""/>
+		<item id="33210" title="Nahradiť text" tooltip="Nahradiť text" status="" short=""/>
+		<item id="33221" title="Zvýrazniť text" tooltip="Zvýrazniť vybraný text" status="Zvýrazniť vybraný text" short="Zvýrazniť text"/>
+		<item id="33222" title="Podčiarknuť text" tooltip="Podčiarknuť vybraný text" status="Podčiarknuť vybraný text" short="Podčiarknuť text"/>
+		<item id="33223" title="Preškrtnúť text" tooltip="Preškrtnúť vybraný text" status="Preškrtnúť vybraný text" short="Preškrtnúť text"/>
+		<item id="33225" title="Vlastnosti" tooltip="Zobraziť/schovať lištu vlastnosti" status="Zobraziť/schovať lištu vlastnosti" short=""/>
+		<item id="33226" title="Text" tooltip="Text" status="" short="Text"/>
+		<item id="33228" title="Paleta pečiatok" tooltip="" status="" short=""/>
+		<item id="33229" title="Ponechať zvolený nástroj" tooltip="Ponechať zvolený nástroj" status="" short=""/>
+		<item id="33231" title="Veľkosť písma" tooltip="Veľkosť písma" status="" short="Veľkosť písma:"/>
+		<item id="33232" title="Podľa strany" tooltip="Zoskupiť komentáre podľa dátumu" status="" short=""/>
+		<item id="33233" title="Podľa typu" tooltip="Zoskupiť komentáre podľa typu" status="" short=""/>
+		<item id="33234" title="Podľa autora" tooltip="Zoskupiť komentáre podľa autora" status="" short=""/>
+		<item id="33235" title="Podľa dátumu" tooltip="Zoskupiť komentáre podľa dátumu" status="" short=""/>
+		<item id="33236" title="Podľa farby" tooltip="Zoskupiť komentáre podľa farby" status="" short=""/>
+		<item id="33238" title="Nasledujúci" tooltip="Nasledujúci komentár" status="" short=""/>
+		<item id="33239" title="Predchádzajúci" tooltip="Predchádzajúci komentár" status="" short=""/>
+		<item id="33240" title="Odstrániť" tooltip="Odstrániť komentár" status="" short=""/>
+		<item id="33241" title="Zbaliť všetko" tooltip="Zbaliť všetky komentáre" status="" short=""/>
+		<item id="33242" title="Rozbaliť všetko" tooltip="Rozbaliť všetky komentáre" status="" short=""/>
+		<item id="33243" title="Zoskupiť podľa" tooltip="Zoskupiť podľa" status="" short=""/>
+		<item id="33244" title="Vlastnosti..." tooltip="Vlastnosti komentára..." status="" short=""/>
+		<item id="33245" title="Odpovedať" tooltip="Odpovedať na komentár" status="" short=""/>
+		<item id="33248" title="Zrušiť výber" tooltip="Zrušiť výber" status="" short=""/>
+		<item id="33255" title="Zatvoriť všetky panely okrem aktívneho" tooltip="Zatvoriť všetky panely okrem aktívneho" status="" short=""/>
+		<item id="33256" title="Zatvoriť panel" tooltip="Zatvoriť panel" status="" short=""/>
+		<item id="33257" title="Skopírovať názov dokumentu" tooltip="Skopíruje celý názov aktívneho dokumentu do schránky" status="Skopíruje celý názov aktívneho dokumentu do schránky" short=""/>
+		<item id="33258" title="Otvoriť priečinok..." tooltip="Otvorí priečinok prieskumníka, v ktorom sa nachádza aktívny dokument" status="Otvorí priečinok prieskumníka, v ktorom sa nachádza aktívny dokument" short=""/>
+		<item id="33259" title="Uložiť aktuálne formátovanie textu ako štandardné" tooltip="Uložiť aktuálne formátovanie textu ako štandardné" status="" short=""/>
+		<item id="33260" title="Požiť štandardné formátovanie textu" tooltip="Požiť štandardné formátovanie textu" status="" short=""/>
+		<item id="33261" title="Farba textu" tooltip="Farba textu" status="" short="Farba:"/>
+		<item id="33262" title="Vlastnosti dokumentu" tooltip="Zobraziť/schovať panel vlastnosti dokumentu" status="Zobraziť/schovať panel vlastnosti dokumentu" short=""/>
+		<item id="33263" title="Navigácia stránok" tooltip="Zobraziť/schovať panel navigácia stránok" status="Zobraziť/schovať panel navigácia stránok" short=""/>
+		<item id="33264" title="Vzhľad stránok" tooltip="Zobraziť/schovať panel vzhľad stánok" status="Zobraziť/schovať panel vzhľad stánok" short=""/>
+		<item id="33265" title="Aplikácie" tooltip="Zobraziť/schovať panel aplikácie" status="Zobraziť/schovať panel aplikácie" short=""/>
+		<item id="33267" title="Súbor" tooltip="" status="" short=""/>
+		<item id="33268" title="Naposledy použité" tooltip="" status="" short=""/>
+		<item id="33269" title="Údaje formulára" tooltip="" status="" short=""/>
+		<item id="33270" title="Vlastnosti dokumentu..." tooltip="Zobraziť vlastnosti aktívneho dokumentu" status="Zobraziť vlastnosti aktívneho dokumentu" short=""/>
+		<item id="33272" title="Otvoriť dokument z URL..." tooltip="Otvoriť dokument z URL..." status="Otvoriť dokument z URL" short=""/>
+		<item id="33280" title="Upraviť" tooltip="" status="" short=""/>
+		<item id="33281" title="Odstrániť" tooltip="Odstrániť výber" status="Odstrániť výber" short=""/>
+		<item id="33290" title="Zobraziť" tooltip="" status="" short=""/>
+		<item id="33291" title="Lišty" tooltip="" status="" short=""/>
+		<item id="33292" title="Ostatné panely" tooltip="" status="" short=""/>
+		<item id="33293" title="Rozvrhnutie strany" tooltip="" status="" short=""/>
+		<item id="33300" title="Dokument" tooltip="" status="" short=""/>
+		<item id="33310" title="Nástroje" tooltip="" status="" short=""/>
+		<item id="33311" title="Základné nástroje" tooltip="" status="" short=""/>
+		<item id="33313" title="Veľkosť" tooltip="" status="" short=""/>
+		<item id="33314" title="Komentáre" tooltip="" status="" short=""/>
+		<item id="33315" title="Pečiatky" tooltip="Pečiatky" status="" short=""/>
+		<item id="33316" title="Meranie" tooltip="" status="" short=""/>
+		<item id="33317" title="Odkazy" tooltip="" status="" short=""/>
+		<item id="33339" title="Lišta komentárov" tooltip="" status="" short=""/>
+		<item id="33340" title="Panel komentárov" tooltip="Zobraziť/schovať panel komentárov" status="Zobraziť/schovať panel komentárov" short=""/>
+		<item id="33350" title="Okno" tooltip="" status="" short=""/>
+		<item id="33369" title="Informácia o poškodení" tooltip="Informácia o poškodení" status="Informácia o poškodení" short="Informácia o poškodení"/>
+		<item id="33370" title="Možnosti dokumentu" tooltip="Prezeranie, úprava, ... možností dokumentu" status="Prezeranie, úprava, ... možností dokumentu" short="Možnosti"/>
+		<item id="33371" title="Vrstvy" tooltip="Zobraziť/schovať vrstvy" status="Zobraziť/schovať vrstvy" short="Vrstvy"/>
+		<item id="33372" title="Polia" tooltip="Zobraziť/schovať polia" status="Zobraziť/schovať polia" short="Polia"/>
+		<item id="33373" title="Žiadne vlastnosti" tooltip="Nie je vybraný objekt s vlastnosťami" status="Nie je vybraný objekt s vlastnosťami" short=""/>
+		<item id="33374" title="Farba výplne" tooltip="Farba výplne" status="" short=""/>
+		<item id="33375" title="Farba ohraničení" tooltip="Farba ohraničení" status="" short=""/>
+		<item id="33376" title="Typ čiary" tooltip="Typ čiary" status="" short=""/>
+		<item id="33377" title="Hrúbka čiary" tooltip="Hrúbka čiary" status="" short=""/>
+		<item id="33378" title="Typ šípky" tooltip="Typ šípky" status="" short=""/>
+		<item id="33379" title="Nepriehľadnosť" tooltip="Nepriehľadnosť" status="" short="Nepriehľadnosť:"/>
+		<item id="33380" title="Symbol" tooltip="Symbol" status="" short=""/>
+		<item id="33381" title="Farba" tooltip="Farba" status="" short=""/>
+		<item id="33382" title="Zobraziť/Skryť lištu formátovania" tooltip="Zobraziť/Skryť lištu formátovania" status="" short=""/>
+		<item id="33383" title="Kopírovať výber" tooltip="Kopírovať výber" status="" short=""/>
+		<item id="33384" title="Vybrať celú stranu" tooltip="Vybrať celú stranu" status="" short=""/>
+		<item id="33410" title="Komentár" tooltip="Komentár" status="" short=""/>
+		<item id="33411" title="Formátovanie textu" tooltip="Formátovanie textu" status="" short=""/>
+		<item id="33412" title="Snímka" tooltip="Snímka" status="" short=""/>
+		<item id="33413" title="Zväčšiť miniatúry" tooltip="Zväčšiť miniatúry" status="Zväčšiť miniatúry" short=""/>
+		<item id="33414" title="Zmenšiť miniatúry" tooltip="Zmenšiť miniatúry" status="Zmenšiť miniatúry" short=""/>
+		<item id="33416" title="Vytvoriť záložku" tooltip="" status="" short=""/>
+		<item id="33420" title="Pridať odkaz" tooltip="" status="" short=""/>
+		<item id="33421" title="Zarovnať ľavé okraje" tooltip="Zarovnať ľavé okraje" status="" short=""/>
+		<item id="33422" title="Zarovnať pravé okraje" tooltip="Zarovnať pravé okraje" status="" short=""/>
+		<item id="33423" title="Zarovnať horné okraje" tooltip="Zarovnať horné okraje" status="" short=""/>
+		<item id="33424" title="Zarovnať spodné okraje" tooltip="Zarovnať spodné okraje" status="" short=""/>
+		<item id="33425" title="Zarovnať vodorovné okraje" tooltip="Zarovnať vodorovné okraje" status="" short=""/>
+		<item id="33426" title="Zarovnať zvislé okraje" tooltip="Zarovnať zvislé okraje" status="" short=""/>
+		<item id="33427" title="Rozmiestniť vodorovne" tooltip="Rozmiestniť vodorovne" status="" short=""/>
+		<item id="33428" title="Rozmiestniť zvislo" tooltip="Rozmiestniť zvislo" status="" short=""/>
+		<item id="33429" title="Rovnaká šírka" tooltip="Rovnaká šírka" status="" short=""/>
+		<item id="33430" title="Rovnaká výška" tooltip="Rovnaká výška" status="" short=""/>
+		<item id="33431" title="Rovnaká veľkosť" tooltip="Rovnaká veľkosť" status="" short=""/>
+		<item id="33432" title="Nastaviť súčasný vzhľad ako štandard" tooltip="Nastaviť súčasný vzhľad ako štandard" status="Nastaviť súčasný vzhľad ako štandard" short=""/>
+		<item id="33433" title="Nastaviť štandardný vzhľad" tooltip="Nastaviť štandardný vzhľad" status="Nastaviť štandardný vzhľad" short=""/>
+		<item id="33800" title="Obnoviť umiestnenie" tooltip="Obnoviť umiestnenie" status="" short=""/>
+		<item id="33801" title="Odstrániť popis" tooltip="Odstrániť popis" status="" short=""/>
+		<item id="33802" title="Upraviť popis" tooltip="Upraviť popis" status="" short=""/>
+		<item id="33805" title="Zmeniť merítko" tooltip="Zmeniť merítko" status="" short=""/>
+		<item id="33806" title="Zmeniť popis" tooltip="Zmeniť popis" status="" short=""/>
+		<item id="33807" title="Zobraziť informačné okno merania" tooltip="Zobraziť informačné okno merania" status="" short=""/>
+		<item id="33808" title="Zapnúť orto" tooltip="Zapnúť orto" status="" short=""/>
+		<item id="33809" title="Zrušiť meranie" tooltip="Zrušiť meranie" status="" short=""/>
+		<item id="33810" title="Ukončiť meranie" tooltip="Ukončiť meranie" status="" short=""/>
+		<item id="33811" title="Exportovať meranie do CSV súboru" tooltip="Exportovať meranie do CSV súboru" status="" short=""/>
+		<item id="36000" title="Upraviť..." tooltip="Upraviť..." status="Upraviť..." short=""/>
+		<item id="36001" title="Uzamknúť" tooltip="Uzamknúť" status="" short=""/>
+		<item id="36004" title="Zväčšiť záložky" tooltip="Zväčšiť záložky" status="Zväčšiť záložky" short=""/>
+		<item id="36005" title="Zmenšiť záložky" tooltip="Zmenšiť záložky" status="Zmenšiť záložky" short=""/>
+		<item id="36006" title="Odstrániť záložky" tooltip="Odstrániť vybrané záložky" status="Odstrániť vybrané záložky" short="Odstrániť"/>
+		<item id="36007" title="Vlastnosti záložiek..." tooltip="Zobraziť vlastnosti vybraných záložiek" status="Zobraziť vlastnosti vybraných záložiek" short="Upraviť"/>
+		<item id="36008" title="Nová záložka" tooltip="Vytvoriť novú záložku" status="Vytvoriť novú záložku" short="Nová"/>
+		<item id="36009" title="Vždy viditeľná záložka" tooltip="Zabezpečiť viditeľnosť zodpovedajúcej záložky" status="Zabezpečiť viditeľnosť zodpovedajúcej záložky" short=""/>
+		<item id="36010" title="Prejsť na záložku" tooltip="Prejsť na záložku" status="Zobraziť záložku" short=""/>
+		<item id="36011" title="Obnoviť strom záložiek" tooltip="Obnoviť stromovú štruktúru záložiek" status="Obnoviť stromovú štruktúru záložiek" short=""/>
+		<item id="36012" title="Pridať" tooltip="Pridať odkaz" status="Pridať odkaz" short=""/>
+		<item id="36013" title="Odstrániť" tooltip="Odstrániť odkaz" status="Odstrániť odkaz" short=""/>
+		<item id="36014" title="Hore" tooltip="Presunúť odkaz hore" status="Presunúť odkaz hore" short=""/>
+		<item id="36015" title="Dole" tooltip="Presunúť odkaz dole" status="Presunúť odkaz dole" short=""/>
+		<item id="36016" title="Upraviť..." tooltip="Upraviť odkaz" status="Upraviť odkaz" short=""/>
+		<item id="36017" title="Testovať vybrané" tooltip="Testovať vybrané akcie..." status="Testovať vybrané akcie..." short=""/>
+		<item id="36018" title="Testovať všetko" tooltip="Testovať všetky akcie..." status="Testovať všetky akcie..." short=""/>
+		<item id="36019" title="Späť" tooltip="Vymazať odkazy a zrušiť zmeny" status="Vymazať odkazy a zrušiť zmeny" short=""/>
+		<item id="36023" title="Premenovať" tooltip="Premenovať vybranú záložku" status="Premenovať vybranú záložku" short=""/>
+		<item id="36024" title="Nastaviť vzhľad ako štandardný" tooltip="Nastaviť súčasný vzhľad ako štandardný" status="Nastaviť súčasný vzhľad ako štandardný" short=""/>
+		<item id="36025" title="Rozdeliť dlhé záložky" tooltip="Rozdeliť dlhé záložky" status="Rozdeliť dlhé záložky" short=""/>
+		<item id="36026" title="Použiť štandardný vzhľad" tooltip="Použiť štandardný vzhľad pre vybrané záložky" status="Použiť štandardný vzhľad pre vybrané záložky" short=""/>
+		<item id="36027" title="Spustiť" tooltip="Spustiť script" status="" short=""/>
+		<item id="36028" title="Vymazať" tooltip="Vymazať výstup z konzoly" status="" short=""/>
+		<item id="36035" title="Prejsť na riadok..." tooltip="" status="" short=""/>
+		<item id="36036" title="Možnosti Java Scriptu" tooltip="Možnosti Java Scriptu" status="Možnosti Java Scriptu..." short=""/>
+		<item id="36037" title="Vložiť strany..." tooltip="" status="" short=""/>
+		<item id="36038" title="Vystrihnúť strany..." tooltip="" status="" short=""/>
+		<item id="36039" title="Nahradiť stránky..." tooltip="" status="" short=""/>
+		<item id="36040" title="Prechody stránok..." tooltip="" status="" short=""/>
+		<item id="36048" title="Nastaviť skratku" tooltip="Nastaviť skratku" status="Nastaviť súčasné zobrazenie ako skratku záložky" short=""/>
+		<item id="36049" title="" tooltip="Písmo" status="" short="Písmo:"/>
+		<item id="36250" title="" tooltip="Štýl zvýraznenia" status="" short="Zvýraznenie"/>
+		<item id="36252" title="Len celá slová" tooltip="Hľadať len celé slová" status="Len celá slová" short=""/>
+		<item id="36253" title="Rozlišovanť veľké/malé písmo" tooltip="Rozlišovanť veľké/malé písmo" status="Rozlišovanť veľké/malé písmo" short=""/>
+		<item id="36254" title="Prehľadavať komentáre" tooltip="Prehľadavať komentáre" status="Prehľadavať komentáre" short=""/>
+		<item id="36255" title="Prehľadávať záložky" tooltip="Prehľadávať záložky" status="Prehľadávať záložky" short=""/>
+		<item id="36260" title="1600%" tooltip="" status="" short=""/>
+		<item id="36262" title="12,5%" tooltip="" status="" short=""/>
+		<item id="36263" title="8,33%" tooltip="" status="" short=""/>
+		<item id="36264" title="" tooltip="" status="" short="Veľkosť:"/>
+		<item id="36273" title="" tooltip="Farba výplne" status="" short="Farba výplne:"/>
+		<item id="36274" title="" tooltip="Farba ohraničenia" status="" short="Farba ohraničenia:"/>
+		<item id="36276" title="" tooltip="Symbol komentára" status="" short="Symbol:"/>
+		<item id="36279" title="" tooltip="Štýl okraja" status="" short="Okraj:"/>
+		<item id="36281" title="" tooltip="Šírka okraja" status="" short="Šírka:"/>
+		<item id="36287" title="" tooltip="Ukončenie čiary" status="" short="Ukončenie čiary:"/>
+		<item id="36289" title="" tooltip="Začiatok čiary" status="" short="Začiatok čiary:"/>
+		<item id="36291" title="Zväčšiť" tooltip="Zväčšiť miniatúry" status="Zväčšiť miniatúry" short=""/>
+		<item id="36292" title="Zmenšiť" tooltip="Zmenšiť miniatúry" status="Zmenšiť miniatúry" short=""/>
+		<item id="36293" title="Vytvoriť zo schránky" tooltip="Vytvoriť pečiatku z obrázka v schránke" status="Vytvoriť pečiatku z obrázka v schránke" short="Zo schránky"/>
+		<item id="36294" title="Odstrániť pečiatku" tooltip="Odstrániť vybranú pečiatku" status="Odstrániť vybranú pečiatku" short="Odstrániť"/>
+		<item id="36295" title="Vložiť pečiatku..." tooltip="Vložiť pečiatku..." status="Vložiť pečiatku..." short=""/>
+		<item id="36296" title="Vymazať sadu" tooltip="Vymazať vybranú sadu pečiatok" status="Vymazať vybranú sadu pečiatok" short="Vymazať"/>
+		<item id="36297" title="Vytvoriť novú sadu..." tooltip="Vytvoriť novú sadu pečiatok..." status="Vytvoriť novú sadu pečiatok..." short="Nová..."/>
+		<item id="36298" title="Upraviť pečiatku..." tooltip="Upraviť vybranú pečiatku..." status="Upraviť vybranú pečiatku..." short="Upraviť..."/>
+		<item id="36299" title="Upraviť sadu..." tooltip="Upraviť vybranú sadu pečiatok..." status="Upraviť vybranú sadu pečiatok..." short="Upraviť..."/>
+		<item id="36300" title="Guma" tooltip="Guma" status="Guma" short="Guma"/>
+		<item id="36301" title="Veľkosť" tooltip="Veľkosť gumy" status="" short="Veľkosť"/>
+		<item id="36303" title="Vytvoriť z PDF..." tooltip="Vytvoriť pečiatku z PDF dokumentu..." status="Vytvoriť pečiatku z PDF dokumentu..." short=""/>
+		<item id="36304" title="Vytvoriť z obrázka..." tooltip="Vytvoriť pečiatku z obrázka..." status="Vytvoriť pečiatku z obrázka..." short=""/>
+		<item id="36305" title="Vložiť prázdne strany..." tooltip="" status="" short=""/>
+		<item id="36306" title="Rozbaliť všetky záložky" tooltip="Rozbaliť všetky záložky" status="" short="Rozbaliť všetko"/>
+		<item id="36307" title="Zbaliť všetky záložky" tooltip="Zbaliť všetky záložky" status="" short="Zbaliť všetko"/>
+		<item id="36308" title="Vlastnosti textu..." tooltip="Zobraziť vlastnosti textu..." status="Zobraziť vlastnosti vybraného textu..." short="Vlastnosti textu..."/>
+		<item id="36309" title="Obnoviť panel" tooltip="Obnoviť štandardný panel" status="Obnoviť štandardný panel" short="Obnoviť štandardný panel"/>
+		<item id="36313" title="" tooltip="Obnoviť skratku" status="" short=""/>
+		<item id="36314" title="" tooltip="Vymazať skratku" status="" short=""/>
+		<item id="36315" title="Obnoviť menu" tooltip="Obnoviť štandardné menu" status="Obnoviť štandardné menu" short="Obnoviť štandardné menu"/>
+		<item id="36316" title="Obnoviť popup-menu" tooltip="Obnoviť popup-menu" status="Obnoviť popup-menu" short="Obnoviť popup-menu"/>
+		<item id="36324" title="Vybrať obrázok" tooltip="" status="" short=""/>
+		<item id="36326" title="Obnoviť" tooltip="" status="" short=""/>
+		<item id="36327" title="Odstrániť" tooltip="" status="" short=""/>
+		<item id="36328" title="Štandardný štýl" tooltip="" status="" short=""/>
+		<item id="36329" title="Zobraziť obrázok" tooltip="" status="" short=""/>
+		<item id="36330" title="Zobraziť text" tooltip="" status="" short=""/>
+		<item id="36331" title="Vložiť oddeľovač pred" tooltip="" status="" short=""/>
+		<item id="36332" title="Vložiť oddeľovač za" tooltip="" status="" short=""/>
+		<item id="36333" title="Vlastnosti..." tooltip="" status="" short=""/>
+		<item id="36334" title="Zobraziť náhľad" tooltip="" status="" short=""/>
+		<item id="36335" title="Zobraziť predmet" tooltip="Zobraziť predmet komentára" status="Zobraziť predmet komentára" short=""/>
+		<item id="36336" title="Zobraziť autorov" tooltip="Zobraziť autorov" status="Zobraziť autorov" short=""/>
+		<item id="36337" title="Zobraziť dátum" tooltip="Zobraziť dátum" status="Zobraziť dátum" short=""/>
+		<item id="36338" title="Zobraziť text" tooltip="Zobraziť text" status="Zobraziť text" short=""/>
+		<item id="36339" title="Zobraziť farby" tooltip="Zobraziť farby" status="Zobraziť farby" short=""/>
+		<item id="36340" title="Integrovať komentáre" tooltip="" status="" short=""/>
+		<item id="36341" title="Vymazať zoznam hľadania" tooltip="Vymazať zoznam hľadania" status="" short="Vymazať zoznam hľadania"/>
+		<item id="36342" title="Odkazy" tooltip="Zobraziť/schovať panel odkazy" status="Zobraziť/schovať panel odkazy" short=""/>
+		<item id="36343" title="Obdĺžnikový odkaz" tooltip="Obdĺžnikový odkaz" status="" short="Obdĺžnikový odkaz"/>
+		<item id="36344" title="Štvoruhlový odkaz" tooltip="Štvoruhlový odkaz" status="" short="Štvoruhlový odkaz"/>
+		<item id="36345" title="Meranie" tooltip="Zobraziť/schovať panel meranie" status="Zobraziť/schovať panel meranie" short=""/>
+		<item id="36346" title="Vzdialenosť" tooltip="Vzdialenosť" status="" short="Vzdialenosť"/>
+		<item id="36347" title="Obvod" tooltip="Obvod" status="" short="Obvod"/>
+		<item id="36348" title="Obsah" tooltip="Obsah" status="" short="Obsah"/>
+		<item id="36349" title="Komentáre" tooltip="" status="" short=""/>
+		<item id="36350" title="Prehľad komentárov" tooltip="" status="" short=""/>
+		<item id="36351" title="Exportovať do súboru..." tooltip="Exportovať komentáre do súboru..." status="Exportovať komentáre do súboru..." short=""/>
+		<item id="36352" title="Zobraziť medzery medzi stránkami" tooltip="Zobraziť medzery" status="" short=""/>
+		<item id="36353" title="Zobraziť titulnú stránku v protiľahlom móde" tooltip="Zobraziť titulnú stránku" status="" short=""/>
+		<item id="36355" title="Hodnota (z)" tooltip="Hodnota (z)" status="" short="Z"/>
+		<item id="36356" title="Hodnota (na)" tooltip="Hodnota (na)" status="" short="Na"/>
+		<item id="36357" title="Jednotka (z)" tooltip="Jednotka (z)" status="" short="Z"/>
+		<item id="36359" title="Jednotka (na)" tooltip="Jednotka (na)" status="" short="Na"/>
+		<item id="36362" title="Prejsť na stranu..." tooltip="Prejsť na stranu" status="Prejsť na stranu" short=""/>
+		<item id="36363" title="Internetový odkaz..." tooltip="Internetový odkaz..." status="Internetový odkaz..." short=""/>
+		<item id="36364" title="Prázdny" tooltip="Prázdny dokument" status="Vytvoriť nový PDF dokumnet s prázdnou stranou" short=""/>
+		<item id="36365" title="Z textového súboru..." tooltip="Nový z textového súboru..." status="Vytvoriť nový PDF dokument z textového súboru..." short=""/>
+		<item id="36366" title="Späť" tooltip="" status="" short=""/>
+		<item id="36367" title="Znova" tooltip="" status="" short=""/>
+		<item id="36368" title="Vystrihnúť" tooltip="" status="" short=""/>
+		<item id="36369" title="Kopírovať" tooltip="" status="" short=""/>
+		<item id="36370" title="Vložiť" tooltip="" status="" short=""/>
+		<item id="36371" title="Vymazať" tooltip="" status="" short=""/>
+		<item id="36372" title="Vybrať všetko" tooltip="" status="" short=""/>
+		<item id="36373" title="Zamknúť/odomknúť všetky lišty" tooltip="Zamknúť/odomknúť všetky lišty" status="Zamknúť/odomknúť všetky lišty" short="Zamknúť lišty"/>
+		<item id="36374" title="Obnoviť nastavenia" tooltip="Obnoviť nastavenia" status="Obnoviť nastavenia" short=""/>
+		<item id="36375" title="Z obrázku" tooltip="Z obrázku" status="Vytvoriť nový PDF dokument z obrázkového súboru..." short=""/>
+		<item id="36408" title="Importovať nastavenia zo súboru..." tooltip="Importovať nastavenia zo súboru..." status="Importovať nastavenia zo súboru..." short=""/>
+		<item id="36409" title="Exportovať nastavenia do súboru..." tooltip="Exportovať nastavenia do súboru..." status="Exportovať nastavenia do súboru..." short=""/>
+		<item id="36415" title="Ukázať" tooltip="" status="" short=""/>
+		<item id="36416" title="O aplikácii" tooltip="" status="" short=""/>
+		<item id="36417" title="Ukončiť" tooltip="" status="" short=""/>
+		<item id="57600" title="Nový dokument" tooltip="" status="" short=""/>
+		<item id="57601" title="Otvoriť..." tooltip="Otvoriť existujúci dokument" status="Otvoriť existujúci dokument" short=""/>
+		<item id="57602" title="Zatvoriť" tooltip="Zatvoriť aktívny dokument" status="Zatvoriť aktívny dokument" short=""/>
+		<item id="57603" title="Uložiť" tooltip="Uložiť aktívny dokument" status="Uložiť aktívny dokument" short=""/>
+		<item id="57604" title="Uložiť ako..." tooltip="Uložiť aktívny dokument pod novým názvom" status="Uložiť aktívny dokument pod novým názvom" short=""/>
+		<item id="57607" title="Tlačiť..." tooltip="Tlačiť aktívny dokument" status="Tlačiť aktívny dokument" short=""/>
+		<item id="57611" title="Uložiť kópiu ako..." tooltip="Uložiť aktívny dokument do nového súboru" status="Uložiť aktívny dokument do nového súboru" short=""/>
+		<item id="57612" title="Odoslať e-mailom" tooltip="Priložiť aktívny dokument k novej e-mailovej správe" status="Priložiť aktívny dokument k novej e-mailovej správe" short=""/>
+		<item id="57632" title="Vymazať" tooltip="Vymazať výber" status="Vymazať výber" short=""/>
+		<item id="57634" title="Kopírovať" tooltip="Kopírovať výber a uložiť do schránky" status="Kopírovať výber a uložiť do schránky" short=""/>
+		<item id="57635" title="Vystrihnúť" tooltip="Vystrihnúť výber a uložiť do schránky" status="Vystrihnúť výber a uložiť do schránky" short=""/>
+		<item id="57636" title="Hľadať" tooltip="Hľadať zadaný text" status="Hľadať zadaný text" short=""/>
+		<item id="57637" title="Prilepiť" tooltip="Prilepiť obsah schránky" status="Prilepiť obsah schránky" short=""/>
+		<item id="57642" title="Vybrať všetko" tooltip="Vybrať všetko" status="" short=""/>
+		<item id="57643" title="Späť" tooltip="Vrátiť späť poslednú akciu" status="Vrátiť späť poslednú akciu" short=""/>
+		<item id="57644" title="Znova" tooltip="Opakovať poslednú akciu" status="Opakovať poslednú akciu" short=""/>
+		<item id="57649" title="Usporiadať ikony" tooltip="Usporiadať ikony na spodnú hranu okna" status="Usporiadať ikony na spodnú hranu okna" short=""/>
+		<item id="57650" title="Kaskáda" tooltip="Usporiadať okná do kaskády" status="Usporiadať okná do kaskády" short=""/>
+		<item id="57651" title="Vodorovne" tooltip="Usporiadať okná vedľa seba" status="Usporiadať okná vedľa seba" short=""/>
+		<item id="57652" title="Zvislo" tooltip="Usporiadať okná pod seba" status="Usporiadať okná pod seba" short=""/>
+		<item id="57653" title="Rozdeliť" tooltip="Rozdeliť aktívne okno" status="Rozdeliť aktívne okno" short=""/>
+		<item id="57664" title="O PDF-XChange Viewer..." tooltip="Informácie o programe, verzii a autorských právach" status="Informácie o programe, verzii a autorských právach" short=""/>
+		<item id="57665" title="Ukončiť" tooltip="Ukončí aplikáciu a vyzve na uloženie zmien v dokumente" status="Ukončí aplikáciu a vyzve na uloženie zmien v dokumente" short=""/>
+		<item id="57670" title="Pomocník" tooltip="" status="" short=""/>
+		<item id="57718" title="Rolovať vľavo" tooltip="Rolovať vľavo" status="" short=""/>
+		<item id="57719" title="Rolovať vpravo" tooltip="Rolovať vpravo" status="" short=""/>
+		<item id="59393" title="Stavový riadok" tooltip="Zobraziť/schovať stavový riadok" status="Zobraziť/schovať stavový riadok" short=""/>
+	</commands>
+	<dialogs>
+		<dialog id="203" text="Možnosti">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Zrušiť" tooltip=""/>
+			<item id="3" text="Použiť" tooltip=""/>
+		</dialog>
+		<dialog id="204" text="">
+			<item id="1004" text="Výstup prepíše pracovnú oblasť" tooltip=""/>
+			<item id="1008" text="Použiť kompenzáciu čiernymi bodmi" tooltip=""/>
+			<item id="1038" text="Nastavenie farieb" tooltip=""/>
+			<item id="1039" text="RGB" tooltip=""/>
+			<item id="1040" text="CMYK" tooltip=""/>
+			<item id="1041" text="Odtiene šedej" tooltip=""/>
+			<item id="1042" text="Profil" tooltip=""/>
+			<item id="1200" text="Pracovná oblasť" tooltip=""/>
+			<item id="1201" text="Možnosti konverzie" tooltip=""/>
+		</dialog>
+		<dialog id="207" text="">
+			<item id="4" text="Prehliadať..." tooltip=""/>
+			<item id="5" text="Prehliadať..." tooltip=""/>
+			<item id="1009" text="Max. položiek v naposledy použité" tooltip=""/>
+			<item id="1012" text="Vždy požadovať heslo pri chránených dokumentoch" tooltip=""/>
+			<item id="1013" text="Znovu otvoriť dokument rovnako ako naposledy" tooltip=""/>
+			<item id="1014" text="Zobraziť úvodnú obrazovku" tooltip=""/>
+			<item id="1015" text="Povoliť viacero spustení" tooltip=""/>
+			<item id="1016" text="Minimalizovať do oblasti oznámení" tooltip=""/>
+			<item id="1032" text="Karty dokumentov" tooltip=""/>
+			<item id="1033" text="Viac dokumentov" tooltip=""/>
+			<item id="1035" text="Tlačidlo uzatvoriť pre každú kartu" tooltip=""/>
+			<item id="1036" text="Jeden dokument" tooltip=""/>
+			<item id="1038" text="Spôsob ukladania" tooltip=""/>
+			<item id="1039" text="Priečinok pre uloženie súborov stiahnutých z URL" tooltip=""/>
+			<item id="1040" text="Umiestnenie dokumentov" tooltip=""/>
+			<item id="1198" text="Štart aplikácie" tooltip=""/>
+			<item id="1199" text="Aplikácia" tooltip=""/>
+			<item id="1200" text="Rozvrhnutie dokumentov" tooltip=""/>
+			<item id="1201" text="Otváranie dokumentov" tooltip=""/>
+			<item id="1202" text="Uloženie dokumentov" tooltip=""/>
+			<item id="1227" text="Vymazať zoznam" tooltip=""/>
+		</dialog>
+		<dialog id="212" text="Zadajte heslo dokumentu">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Zrušiť" tooltip=""/>
+			<item id="1039" text="Zadajte platné heslo užívateľa alebo vlastníka dokumentu" tooltip=""/>
+		</dialog>
+		<dialog id="213" text="Vlastnosti dokumentu">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Zrušiť" tooltip=""/>
+			<item id="3" text="Použiť" tooltip=""/>
+		</dialog>
+		<dialog id="214" text="">
+			<item id="1038" text="Názov súboru:" tooltip=""/>
+			<item id="1039" text="Umiestnenie:" tooltip=""/>
+			<item id="1040" text="Vytvorený:" tooltip=""/>
+			<item id="1041" text="Zmenený:" tooltip=""/>
+			<item id="1042" text="Veľkosť:" tooltip=""/>
+			<item id="1043" text="Názov" tooltip=""/>
+			<item id="1044" text="Autor" tooltip=""/>
+			<item id="1200" text="Informácie o súbore" tooltip=""/>
+			<item id="1201" text="Informácie o dokumente" tooltip=""/>
+			<item id="1203" text="Predmet" tooltip=""/>
+			<item id="1204" text="Kľúčové slová" tooltip=""/>
+			<item id="1205" text="Tvorca PDF:" tooltip=""/>
+			<item id="1206" text="Aplikácia:" tooltip=""/>
+			<item id="1207" text="Verzia PDF:" tooltip=""/>
+			<item id="1208" text="Počet strán:" tooltip=""/>
+			<item id="1209" text="Doplňujúce údaje..." tooltip=""/>
+		</dialog>
+		<dialog id="220" text="">
+			<item id="1038" text="Tlač:" tooltip=""/>
+			<item id="1039" text="Zmeny v dokumente:" tooltip=""/>
+			<item id="1040" text="Kopírovanie alebo vyňatie obsahu:" tooltip=""/>
+			<item id="1041" text="Vytváranie komentárov a formulárov:" tooltip=""/>
+			<item id="1042" text="Vyplňovanie formulárov alebo podpisovanie:" tooltip=""/>
+			<item id="1043" text="Prístup k obsahu:" tooltip=""/>
+			<item id="1044" text="Vytvorenie dokumentu:" tooltip=""/>
+			<item id="1200" text="Ochrana dokumentu" tooltip=""/>
+			<item id="1201" text="Práva dokumentu" tooltip=""/>
+			<item id="1203" text="Spôsob ochrany určuje povolené zmeny" tooltip=""/>
+			<item id="1204" text="Spôsob ochrany:" tooltip=""/>
+			<item id="1205" text="Úroveň šifrovania:" tooltip=""/>
+			<item id="1206" text="Heslo pre otvorenie:" tooltip=""/>
+			<item id="1207" text="Bezpečnostné heslo:" tooltip=""/>
+			<item id="1210" text="Zmeniť nastavenie..." tooltip=""/>
+		</dialog>
+		<dialog id="221" text="Exportovať do obrázka">
+			<item id="1" text="Export" tooltip=""/>
+			<item id="2" text="Zrušiť" tooltip=""/>
+			<item id="4" text="Prehliadať..." tooltip=""/>
+			<item id="6" text="Makrá" tooltip=""/>
+			<item id="7" text="Možnosti..." tooltip=""/>
+			<item id="1038" text="Zadajte čísla strán alebo rozsahy strán oddelené čiarkou. Napr.: 1,3,5-12" tooltip=""/>
+			<item id="1039" text="Rozsah:" tooltip=""/>
+			<item id="1040" text="Priečinok" tooltip=""/>
+			<item id="1041" text="Názov súboru" tooltip=""/>
+			<item id="1042" text="Typ súboru" tooltip=""/>
+			<item id="1043" text="Mód exportu" tooltip=""/>
+			<item id="1044" text="Rozlíšenie" tooltip=""/>
+			<item id="1045" text="Všetky" tooltip=""/>
+			<item id="1046" text="Aktuálnu stranu" tooltip=""/>
+			<item id="1047" text="Vybrané strany" tooltip=""/>
+			<item id="1048" text="Aktuálne zobrazenie" tooltip=""/>
+			<item id="1049" text="Strany:" tooltip=""/>
+			<item id="1050" text="Vybraný obrázok" tooltip=""/>
+			<item id="1060" text="Priehľadné" tooltip=""/>
+			<item id="1061" text="Farba:" tooltip=""/>
+			<item id="1088" text="V opačnom poradí" tooltip=""/>
+			<item id="1200" text="Rozsah strán" tooltip=""/>
+			<item id="1201" text="Uložiť ako" tooltip=""/>
+			<item id="1202" text="Grafika" tooltip=""/>
+			<item id="1203" text="Pozadie" tooltip=""/>
+			<item id="1204" text="Rozsah strán" tooltip=""/>
+			<item id="1206" text="Lupa" tooltip=""/>
+			<item id="1330" text="Všetky" tooltip=""/>
+			<item id="1331" text="Vybrané strany" tooltip=""/>
+			<item id="1332" text="Aktuálnu stranu" tooltip=""/>
+			<item id="1333" text="Strany" tooltip=""/>
+			<item id="1335" text="Podskupina" tooltip=""/>
+			<item id="1339" text="Aktuálne zobrazenie" tooltip=""/>
+			<item id="1340" text="Vybraný obrázok" tooltip=""/>
+			<item id="1341" text="Opačné poradie" tooltip=""/>
+			<item id="1387" text="Zadajte čísla strán alebo rozsahy strán oddelené čiarkou. Napr.: 1,3,5-12" tooltip=""/>
+		</dialog>
+		<dialog id="222" text="Možnosti uloženia obrázka">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Zrušiť" tooltip=""/>
+		</dialog>
+		<dialog id="223" text="Priebeh...">
+			<item id="1071" text="Zrušiť" tooltip=""/>
+			<item id="1072" text="Preskočiť" tooltip=""/>
+		</dialog>
+		<dialog id="224" text="">
+			<item id="1038" text="Štandardné zobrazenie strany" tooltip=""/>
+			<item id="1039" text="Štandardný vzhľad strany" tooltip=""/>
+			<item id="1040" text="Štandardná veľkosť" tooltip=""/>
+			<item id="1041" text="Rozlíšenie" tooltip=""/>
+			<item id="1042" text="pixelov na palec" tooltip=""/>
+			<item id="1073" text="Zobraziť art, trim, bleed rámčeky" tooltip=""/>
+			<item id="1074" text="Zobraziť mriežku priehľadnosti" tooltip=""/>
+			<item id="1076" text="Vyhladiť text" tooltip=""/>
+			<item id="1077" text="Vyhladiť grafiku" tooltip=""/>
+			<item id="1078" text="Vyhladiť obrázky" tooltip=""/>
+			<item id="1079" text="Vytvoriť odkazy z URL" tooltip=""/>
+			<item id="1083" text="Zobrazovať veľké obrázky" tooltip=""/>
+			<item id="1126" text="Obnoviť naposledy použité zobrazenie dokumentu" tooltip=""/>
+			<item id="1200" text="Zobrazenie strany" tooltip=""/>
+			<item id="1201" text="Štandardné zobrazenie" tooltip=""/>
+			<item id="1202" text="Pri otvorení" tooltip=""/>
+			<item id="1228" text="Obnoviť naposledy použité zobrazenie a veľkosť pri otváraní súboru zo zoznamu naposledy otvorených dokumentov" tooltip=""/>
+		</dialog>
+		<dialog id="227" text="Potvrdiť prepísanie súboru">
+			<item id="2" text="Zrušiť" tooltip=""/>
+			<item id="6" text="Áno" tooltip=""/>
+			<item id="7" text="Nie" tooltip=""/>
+			<item id="100" text="Áno pre všetko" tooltip=""/>
+			<item id="101" text="Nie pre všetko" tooltip=""/>
+			<item id="102" text="Automaticky" tooltip=""/>
+			<item id="103" text="Uložiť ako..." tooltip=""/>
+			<item id="1040" text="Prepísať súbor ?" tooltip=""/>
+			<item id="1041" text="Automaticky generovaný názov súboru" tooltip=""/>
+		</dialog>
+		<dialog id="228" text="Chyba pri ukladaní súboru">
+			<item id="3" text="Prerušiť" tooltip=""/>
+			<item id="4" text="Opakovať" tooltip=""/>
+			<item id="5" text="Ignorovať" tooltip=""/>
+			<item id="103" text="Uložiť ako..." tooltip=""/>
+		</dialog>
+		<dialog id="229" text="Tlačiť">
+			<item id="1" text="Tlačiť" tooltip=""/>
+			<item id="2" text="Zrušiť" tooltip=""/>
+			<item id="1038" text="Počet kópií" tooltip=""/>
+			<item id="1039" text="Zadajte čísla strán alebo rozsahy strán oddelené čiarkou. Napr.: 1,3,5-12" tooltip=""/>
+			<item id="1040" text="Tlač:" tooltip=""/>
+			<item id="1041" text="Typ" tooltip=""/>
+			<item id="1042" text="List:" tooltip=""/>
+			<item id="1043" text="Názov" tooltip=""/>
+			<item id="1044" text="Stav:" tooltip=""/>
+			<item id="1045" text="Všetky" tooltip=""/>
+			<item id="1046" text="Aktuálnu stranu" tooltip=""/>
+			<item id="1047" text="Vybrané strany" tooltip=""/>
+			<item id="1048" text="Aktuálne zobrazenie" tooltip=""/>
+			<item id="1049" text="Strany" tooltip=""/>
+			<item id="1050" text="Vybraný obrázok" tooltip=""/>
+			<item id="1086" text="Vlastnosti..." tooltip=""/>
+			<item id="1087" text="Tlačiť do súboru" tooltip=""/>
+			<item id="1088" text="V opačnom poradí" tooltip=""/>
+			<item id="1094" text="Kompletovať" tooltip=""/>
+			<item id="1096" text="Tlačiť v odtieňoch šedej" tooltip=""/>
+			<item id="1097" text="Tlačiť ako obrázok" tooltip=""/>
+			<item id="1099" text="Nastavenie..." tooltip=""/>
+			<item id="1127" text="Veľkosť" tooltip=""/>
+			<item id="1200" text="Tlačiareň" tooltip=""/>
+			<item id="1201" text="Rozsah strán" tooltip=""/>
+			<item id="1202" text="Viac" tooltip=""/>
+			<item id="1203" text="Typ:" tooltip=""/>
+			<item id="1204" text="Komentáre" tooltip=""/>
+			<item id="1205" text="Komentáre a pečiatky:" tooltip=""/>
+			<item id="1206" text="Tlačiť" tooltip=""/>
+			<item id="1207" text="Tlačiť listy" tooltip=""/>
+			<item id="1330" text="Všetky" tooltip=""/>
+			<item id="1331" text="Vybrané strany" tooltip=""/>
+			<item id="1332" text="Aktuálnu stranu" tooltip=""/>
+			<item id="1333" text="Strany" tooltip=""/>
+			<item id="1335" text="Podskupina" tooltip=""/>
+			<item id="1339" text="Aktuálne zobrazenie" tooltip=""/>
+			<item id="1340" text="Vybraný obrázok" tooltip=""/>
+			<item id="1341" text="Opačné poradie" tooltip=""/>
+			<item id="1343" text="Viac..." tooltip=""/>
+			<item id="1387" text="Zadajte čísla strán alebo rozsahy strán oddelené čiarkou. Napr.: 1,3,5-12" tooltip=""/>
+		</dialog>
+		<dialog id="230" text="">
+			<item id="1038" text="Lupa" tooltip=""/>
+			<item id="1116" text="Zvoliť zdroj papiera podľa veľkosti strany PDF" tooltip=""/>
+			<item id="1120" text="Automaticky otáčať" tooltip=""/>
+			<item id="1121" text="Automaticky centrovať" tooltip=""/>
+		</dialog>
+		<dialog id="231" text="">
+			<item id="1038" text="Poč. strán na list" tooltip=""/>
+			<item id="1039" text="Poradie strán:" tooltip=""/>
+			<item id="1108" text="Tlačiť okraj strany" tooltip=""/>
+			<item id="1120" text="Automaticky otáčať" tooltip=""/>
+			<item id="1121" text="Automaticky centrovať" tooltip=""/>
+			<item id="1128" text="x" tooltip=""/>
+		</dialog>
+		<dialog id="232" text="">
+			<item id="1038" text="Mierka:" tooltip=""/>
+			<item id="1039" text="%" tooltip=""/>
+			<item id="1040" text="Prekrytie:" tooltip=""/>
+			<item id="1041" text="bodov" tooltip=""/>
+			<item id="1042" text="Značky orezania:" tooltip=""/>
+			<item id="1110" text="Značky orezu" tooltip=""/>
+			<item id="1118" text="Označenie listov" tooltip=""/>
+			<item id="1120" text="Automaticky otáčať" tooltip=""/>
+			<item id="1121" text="Automaticky centrovať" tooltip=""/>
+		</dialog>
+		<dialog id="236" text="Prejsť na stranu">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Zrušiť" tooltip=""/>
+			<item id="1038" text="Číslo strany" tooltip=""/>
+		</dialog>
+		<dialog id="237" text="Veľkosť">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Zrušiť" tooltip=""/>
+			<item id="1038" text="Zväčšenie" tooltip=""/>
+		</dialog>
+		<dialog id="244" text="">
+			<item id="1038" text="Hľadaný výraz" tooltip=""/>
+			<item id="1039" text="Kde chcete hľadať?" tooltip=""/>
+			<item id="1040" text="Triediť podľa" tooltip=""/>
+			<item id="1099" text="Možnosti" tooltip=""/>
+			<item id="1139" text="Hľadať" tooltip=""/>
+			<item id="1142" text="Vymazať" tooltip=""/>
+		</dialog>
+		<dialog id="245" text="Možnosti hľadania">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Zrušiť" tooltip=""/>
+			<item id="1038" text="Blízkosť:" tooltip=""/>
+			<item id="1126" text="Rozlišovať malé a VEĽKÉ znaky" tooltip=""/>
+			<item id="1128" text="Zahrnúť komentáre" tooltip=""/>
+			<item id="1129" text="Zahrnúť záložky" tooltip=""/>
+			<item id="1130" text="Hľadať v podpriečinkoch" tooltip=""/>
+			<item id="1131" text="Zahrnúť prílohy" tooltip=""/>
+			<item id="1145" text="Iba celé slová" tooltip=""/>
+			<item id="1193" text="Najbližšie" tooltip=""/>
+			<item id="1194" text="Na strane" tooltip=""/>
+			<item id="1195" text="V dokumente" tooltip=""/>
+			<item id="1200" text="Kritéria hľadania" tooltip=""/>
+		</dialog>
+		<dialog id="246" text="Pokročilé hľadanie">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Zrušiť" tooltip=""/>
+			<item id="1038" text="musia obsahovať všetky nasledovné slová" tooltip=""/>
+			<item id="1039" text="musia obsahovať presne túto frázu" tooltip=""/>
+			<item id="1040" text="musia obsahovať aspoň jedno zo slov" tooltip=""/>
+			<item id="1041" text="nesmú obsahovať žiadne zo slov" tooltip=""/>
+			<item id="1200" text="Nájdené výsledky" tooltip=""/>
+		</dialog>
+		<dialog id="247" text="">
+			<item id="1038" text="Využitie pamäti v percentách" tooltip=""/>
+			<item id="1039" text="Maximálny počet vlákien pre zobrazenie stránok" tooltip=""/>
+			<item id="1040" text="Maximálny počet vlákien pre miniatúry stránok" tooltip=""/>
+			<item id="1041" text="Maximálny počet spustených vlákien" tooltip=""/>
+			<item id="1200" text="Pamäť" tooltip=""/>
+			<item id="1201" text="Vlákna" tooltip=""/>
+		</dialog>
+		<dialog id="257" text="Otočiť strany">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Zrušiť" tooltip=""/>
+			<item id="1038" text="Otočiť" tooltip=""/>
+			<item id="1039" text="Zadajte čísla strán alebo rozsahy strán oddelené čiarkou. Napr.: 1,3,5-12" tooltip=""/>
+			<item id="1041" text="Smer" tooltip=""/>
+			<item id="1164" text="Všetky" tooltip=""/>
+			<item id="1165" text="Vybrané strany" tooltip=""/>
+			<item id="1166" text="Aktuálnu stranu" tooltip=""/>
+			<item id="1167" text="Strany" tooltip=""/>
+			<item id="1200" text="Rozsah strán" tooltip=""/>
+		</dialog>
+		<dialog id="258" text="Odstrániť strany">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Zrušiť" tooltip=""/>
+			<item id="1038" text="Odstrániť" tooltip=""/>
+			<item id="1039" text="Zadajte čísla strán alebo rozsahy strán oddelené čiarkou. Napr.: 1,3,5-12" tooltip=""/>
+			<item id="1165" text="Vybrané strany" tooltip=""/>
+			<item id="1166" text="Aktuálnu stranu" tooltip=""/>
+			<item id="1167" text="Strany" tooltip=""/>
+			<item id="1200" text="Rozsah strán" tooltip=""/>
+		</dialog>
+		<dialog id="265" text="Vlastnosti">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Zrušiť" tooltip=""/>
+			<item id="3" text="Použiť" tooltip=""/>
+			<item id="1180" text="Viac..." tooltip=""/>
+		</dialog>
+		<dialog id="266" text="">
+			<item id="1038" text="Začiatok" tooltip=""/>
+			<item id="1039" text="Koniec" tooltip=""/>
+			<item id="1040" text="Štýl" tooltip=""/>
+			<item id="1041" text="Hrúbka" tooltip=""/>
+			<item id="1042" text="Farba" tooltip=""/>
+			<item id="1043" text="Farba výplne" tooltip=""/>
+			<item id="1044" text="Nepriehľadnosť" tooltip=""/>
+			<item id="1200" text="Štýl ukončenia" tooltip=""/>
+			<item id="1201" text="Okraj" tooltip=""/>
+		</dialog>
+		<dialog id="268" text="">
+			<item id="1038" text="Autor" tooltip=""/>
+			<item id="1039" text="Predmet" tooltip=""/>
+			<item id="1040" text="Vytvorené:" tooltip=""/>
+			<item id="1041" text="Zmenené:" tooltip=""/>
+		</dialog>
+		<dialog id="272" text="">
+			<item id="1038" text="Štýl" tooltip=""/>
+			<item id="1039" text="Hrúbka" tooltip=""/>
+			<item id="1040" text="Farba" tooltip=""/>
+			<item id="1041" text="Farba výplne" tooltip=""/>
+			<item id="1042" text="Nepriehľadnosť" tooltip=""/>
+			<item id="1200" text="Okraj" tooltip=""/>
+		</dialog>
+		<dialog id="273" text="">
+			<item id="1038" text="Hrúbka" tooltip=""/>
+			<item id="1039" text="Farba" tooltip=""/>
+			<item id="1040" text="Nepriehľadnosť" tooltip=""/>
+			<item id="1200" text="Okraj" tooltip=""/>
+		</dialog>
+		<dialog id="274" text="">
+			<item id="1038" text="Uvedená jednotka bude použitá pre zobrazenie stránok, mriežok, posuvníkov, atď." tooltip=""/>
+			<item id="1200" text="Jednotky" tooltip=""/>
+		</dialog>
+		<dialog id="278" text="Nahlásiť chybu">
+			<item id="1" text="Ďalej..." tooltip=""/>
+			<item id="2" text="Zrušiť" tooltip=""/>
+			<item id="4" text="Prehliadať..." tooltip=""/>
+			<item id="1038" text="Vaša správa bude odoslaná e-mailom.&#10;Správu môžete pred odoslaním upraviť." tooltip=""/>
+			<item id="1039" text="Predmet správy" tooltip=""/>
+			<item id="1040" text="Popis (krátky popis problému)" tooltip=""/>
+			<item id="1041" text="Pripojiť súbor k správe?" tooltip=""/>
+			<item id="1126" text="Pripojiť informácie o inštalovaných písmach a farebnom profile" tooltip=""/>
+			<item id="1127" text="Pripojiť informácie o inštalovaných tlačiarňach a ich nastavení" tooltip=""/>
+			<item id="1128" text="Pripojiť informácie o operačnom systéme" tooltip=""/>
+			<item id="1183" text="Pripojiť informácie o verzii a nastavení prehliadača" tooltip=""/>
+		</dialog>
+		<dialog id="279" text="">
+			<item id="1038" text="Symbol" tooltip=""/>
+			<item id="1039" text="Farba" tooltip=""/>
+			<item id="1040" text="Nepriehľadnosť" tooltip=""/>
+			<item id="1200" text="Vzhľad" tooltip=""/>
+		</dialog>
+		<dialog id="282" text="Konzola Java Scriptu">
+			<item id="1" text="Štart" tooltip=""/>
+			<item id="2" text="Zatvoriť" tooltip=""/>
+			<item id="1200" text="Script" tooltip=""/>
+			<item id="1201" text="Výsledok" tooltip=""/>
+		</dialog>
+		<dialog id="283" text="">
+			<item id="1038" text="Koniec čiary" tooltip=""/>
+			<item id="1039" text="Štýl" tooltip=""/>
+			<item id="1040" text="Hrúbka" tooltip=""/>
+			<item id="1041" text="Farba" tooltip=""/>
+			<item id="1042" text="Farba výplne" tooltip=""/>
+			<item id="1043" text="Nepriehľadnosť" tooltip=""/>
+			<item id="1200" text="Štýly ukončenia" tooltip=""/>
+			<item id="1201" text="Okraj" tooltip=""/>
+		</dialog>
+		<dialog id="284" text="">
+			<item id="1038" text="Farba" tooltip=""/>
+			<item id="1039" text="Nepriehľadnosť" tooltip=""/>
+			<item id="1200" text="Vzhľad" tooltip=""/>
+		</dialog>
+		<dialog id="290" text="Pečiatky">
+		</dialog>
+		<dialog id="291" text="">
+			<item id="1038" text="Nastaviť PDF-XChange Viewer ako štandardný PDF prehliadač" tooltip=""/>
+			<item id="1039" text="Obnoviť pôvodný prehliadač PDF ako štandardný PDF prehliadač&#10;(ak je stále nainštalovaný)" tooltip=""/>
+			<item id="1127" text="Zobraziť PDF v internetovom prehliadači" tooltip=""/>
+			<item id="1162" text="Asociovať PDF-XChange Viewer" tooltip=""/>
+			<item id="1197" text="Obnoviť pôvodný PDF prehliadač" tooltip=""/>
+			<item id="1200" text="Asociácia súborov" tooltip=""/>
+		</dialog>
+		<dialog id="292" text="">
+			<item id="1038" text="Nepriehľadnosť" tooltip=""/>
+			<item id="1200" text="Vzhľad" tooltip=""/>
+		</dialog>
+		<dialog id="295" text="">
+			<item id="1038" text="Užívateľ" tooltip=""/>
+			<item id="1039" text="Meno" tooltip=""/>
+			<item id="1040" text="Titul" tooltip=""/>
+			<item id="1041" text="Organizácia" tooltip=""/>
+			<item id="1042" text="Oddelenie" tooltip=""/>
+			<item id="1043" text="E-mail" tooltip=""/>
+			<item id="1044" text="Vaša identita bude použitá v komentároch, úpravách a digitálnych podpisoch.&#10;Uvedené informácie sú použité len v tejto aplikácii a nie sú nikam odosielané bez Vášho vedomia." tooltip=""/>
+			<item id="1200" text="Identita" tooltip=""/>
+		</dialog>
+		<dialog id="296" text="">
+			<item id="1038" text="Zvoľte preferovaný jazyk" tooltip=""/>
+			<item id="1200" text="Jazyk" tooltip=""/>
+			<item id="1219" text="Štandardné regionálne nastavenie" tooltip=""/>
+			<item id="1220" text="Zvoliť jazyk" tooltip=""/>
+			<item id="1221" text="Štandardný jazyk aplikácie" tooltip=""/>
+		</dialog>
+		<dialog id="297" text="Otvoriť dokument z URL adresy">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Zrušiť" tooltip=""/>
+			<item id="1038" text="URL adresa" tooltip=""/>
+		</dialog>
+		<dialog id="298" text="Prispôsobiť">
+			<item id="1" text="Zatvoriť" tooltip=""/>
+			<item id="1230" text="Klávesnice..." tooltip=""/>
+			<item id="1316" text="Obnoviť všetko" tooltip=""/>
+		</dialog>
+		<dialog id="299" text="">
+			<item id="1039" text="Lišty" tooltip=""/>
+			<item id="1234" text="Obnoviť" tooltip=""/>
+			<item id="1235" text="Premenovať" tooltip=""/>
+			<item id="1237" text="Nová lišta..." tooltip=""/>
+			<item id="1250" text="Odstrániť" tooltip=""/>
+		</dialog>
+		<dialog id="300" text="">
+			<item id="1038" text="Príkaz pridáte do požadovanej lišty alebo menu, pretiahnutím myšou zo zoznamu príkazov." tooltip=""/>
+			<item id="1039" text="Kategórie" tooltip=""/>
+			<item id="1040" text="Príkazy" tooltip=""/>
+			<item id="1314" text="Ukázať neprístupné PRO funkcie" tooltip=""/>
+			<item id="1320" text="Nový príkaz" tooltip=""/>
+			<item id="1321" text="Vlastnosti" tooltip=""/>
+		</dialog>
+		<dialog id="301" text="">
+			<item id="1233" text="Zobrazovať tipy" tooltip=""/>
+			<item id="1234" text="Zobrazovať skratky v tipoch" tooltip=""/>
+			<item id="1235" text="Zobrazovať skratky v menu" tooltip=""/>
+		</dialog>
+		<dialog id="302" text="">
+			<item id="1038" text="Pozadie strany" tooltip=""/>
+			<item id="1039" text="Výplň" tooltip=""/>
+			<item id="1040" text="Okraj" tooltip=""/>
+			<item id="1126" text="Text" tooltip=""/>
+			<item id="1127" text="Grafika" tooltip=""/>
+			<item id="1128" text="Zmeniť iba farbu čierneho textu alebo grafiky" tooltip=""/>
+			<item id="1200" text="Nastavenie farieb dokumentu" tooltip=""/>
+			<item id="1220" text="Použiť vlastnú farebnú schému:" tooltip=""/>
+			<item id="1235" text="Použiť farebnú schému Windows" tooltip=""/>
+			<item id="1236" text="Použiť preddefinovanú vysoko kontrastnú schému" tooltip=""/>
+			<item id="1240" text="Zmeniť farby dokumentu" tooltip=""/>
+			<item id="1241" text="Rovnaká farba pre text aj grafiku" tooltip=""/>
+		</dialog>
+		<dialog id="303" text="">
+			<item id="1038" text="Farba pozadia" tooltip=""/>
+			<item id="1200" text="Celoobrazovkový režim" tooltip=""/>
+			<item id="1239" text="Kurzor" tooltip=""/>
+		</dialog>
+		<dialog id="304" text="">
+			<item id="1038" text="Rozlíšenie" tooltip=""/>
+			<item id="1039" text="dpi" tooltip=""/>
+			<item id="1096" text="Vytvoriť snímku v odtieňoch šedej" tooltip=""/>
+			<item id="1200" text="Možnosti snímky" tooltip=""/>
+			<item id="1201" text="Zvuky snímky" tooltip=""/>
+			<item id="1242" text="Vždy použiť štandardné rozlíšenie snímky" tooltip=""/>
+			<item id="1244" text="Neprehrávať špeciálne zvuky snímky" tooltip=""/>
+		</dialog>
+		<dialog id="305" text="">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Zrušiť" tooltip=""/>
+		</dialog>
+		<dialog id="306" text="">
+			<item id="1038" text="Text" tooltip=""/>
+			<item id="1039" text="Štýl" tooltip=""/>
+			<item id="1040" text="Farba" tooltip=""/>
+		</dialog>
+		<dialog id="307" text="">
+			<item id="1038" text="Môžete pridať nový odkaz, upraviť existujúci alebo zmeniť poradie odkazov pomocou ťahať &amp;&amp; pustiť." tooltip=""/>
+		</dialog>
+		<dialog id="308" text="">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Zrušiť" tooltip=""/>
+			<item id="4" text="Prehliadať..." tooltip=""/>
+			<item id="1038" text="Náhľad" tooltip=""/>
+			<item id="1039" text="Názov súboru" tooltip=""/>
+			<item id="1040" text="Strana" tooltip=""/>
+			<item id="1041" text="X" tooltip=""/>
+			<item id="1042" text="Y" tooltip=""/>
+			<item id="1043" text="Šírka" tooltip=""/>
+			<item id="1044" text="Výška" tooltip=""/>
+			<item id="1066" text="Náhľad" tooltip=""/>
+			<item id="1067" text="Zafixovať" tooltip=""/>
+			<item id="1126" text="Zdediť" tooltip=""/>
+			<item id="1127" text="Zdediť" tooltip=""/>
+			<item id="1200" text="Vlastnosti" tooltip=""/>
+			<item id="1252" text="Veľkosť" tooltip=""/>
+			<item id="1253" text="Použiť pravouhlú oblasť" tooltip=""/>
+			<item id="1261" text="Cieľový dokument" tooltip=""/>
+			<item id="1271" text="Zväčšiť" tooltip=""/>
+			<item id="1272" text="Zmenšiť" tooltip=""/>
+			<item id="1275" text="Použiť aktuálne zobrazenie" tooltip=""/>
+		</dialog>
+		<dialog id="309" text="">
+			<item id="1039" text="Meno" tooltip=""/>
+			<item id="1041" text="Organizácia" tooltip=""/>
+			<item id="1043" text="E-mail" tooltip=""/>
+			<item id="1045" text="Registračný kľúč" tooltip=""/>
+			<item id="1200" text="Informácie o registrácii" tooltip=""/>
+			<item id="1274" text="Nezobrazovať PRO funkcie v bezplatnej verzii " tooltip=""/>
+			<item id="1282" text="Nezobrazovať reklamný odkaz" tooltip=""/>
+		</dialog>
+		<dialog id="310" text="">
+			<item id="1038" text="Písmo" tooltip=""/>
+			<item id="1044" text="Veľkosť" tooltip=""/>
+			<item id="1200" text="Java Script" tooltip=""/>
+			<item id="1201" text="Konzola Java Scriptu" tooltip=""/>
+			<item id="1276" text="Povoliť Java Script" tooltip=""/>
+			<item id="1277" text="Povoliť interaktívnu konzolu Java Scriptu" tooltip=""/>
+			<item id="1278" text="Zobraziť konzolu pri chybe alebo hláseniach" tooltip=""/>
+			<item id="1279" text="Zobraziť upozornenie pri spustení Java Scriptu" tooltip=""/>
+		</dialog>
+		<dialog id="311" text="Prejsť na riadok">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Zrušiť" tooltip=""/>
+			<item id="1038" text="Riadok" tooltip=""/>
+		</dialog>
+		<dialog id="312" text="Orezanie strán">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Zrušiť" tooltip=""/>
+			<item id="1038" text="Podskupina" tooltip=""/>
+			<item id="1039" text="Zadajte čísla strán alebo rozsahy strán oddelené čiarkou. Napr.: 1,3,5-12" tooltip=""/>
+			<item id="1041" text="Rámček" tooltip=""/>
+			<item id="1042" text="Vľavo" tooltip=""/>
+			<item id="1043" text="Vpravo" tooltip=""/>
+			<item id="1044" text="Hore" tooltip=""/>
+			<item id="1045" text="Dole" tooltip=""/>
+			<item id="1046" text="Jednotky" tooltip=""/>
+			<item id="1126" text="Nastaviť na biele okraje" tooltip=""/>
+			<item id="1127" text="Odstrániť biele medzery" tooltip=""/>
+			<item id="1129" text="Zachovať pomer strán" tooltip=""/>
+			<item id="1164" text="Všetky" tooltip=""/>
+			<item id="1165" text="Vybrané strany" tooltip=""/>
+			<item id="1166" text="Aktuálnu stranu" tooltip=""/>
+			<item id="1167" text="Strany" tooltip=""/>
+			<item id="1200" text="Rozsah strán" tooltip=""/>
+			<item id="1201" text="Okraje rezu" tooltip=""/>
+			<item id="1202" text="Nastavenie okrajov" tooltip=""/>
+			<item id="1285" text="Zobraziť všetky rámčeky" tooltip=""/>
+			<item id="1290" text="Vynulovať" tooltip=""/>
+			<item id="1291" text="Vrátiť pôvodné" tooltip=""/>
+		</dialog>
+		<dialog id="313" text=" Vložiť strany">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Zrušiť" tooltip=""/>
+			<item id="4" text="Prehliadať..." tooltip=""/>
+			<item id="1038" text="Vložiť" tooltip=""/>
+			<item id="1039" text="Zadajte čísla strán alebo rozsahy strán oddelené čiarkou. Napr.: 1,3,5-12" tooltip=""/>
+			<item id="1041" text="Súbor:" tooltip=""/>
+			<item id="1042" text="Umiestniť" tooltip=""/>
+			<item id="1164" text="Všetky" tooltip=""/>
+			<item id="1167" text="Strany" tooltip=""/>
+			<item id="1200" text="Rozsah vkladaných strán" tooltip=""/>
+			<item id="1201" text="Zdroj" tooltip=""/>
+			<item id="1202" text="Vkladané strany" tooltip=""/>
+			<item id="1292" text="Zo súboru" tooltip=""/>
+			<item id="1293" text="Z otvoreného dokumentu" tooltip=""/>
+			<item id="1295" text="Prvú stranu" tooltip=""/>
+			<item id="1296" text="Poslednú stranu" tooltip=""/>
+			<item id="1297" text="Stranu" tooltip=""/>
+		</dialog>
+		<dialog id="314" text="Vystrihnúť strany">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Zrušiť" tooltip=""/>
+			<item id="4" text="Prehliadať..." tooltip=""/>
+			<item id="6" text="Makrá" tooltip=""/>
+			<item id="1038" text="Podskupina" tooltip=""/>
+			<item id="1039" text="Zadajte čísla strán alebo rozsahy strán oddelené čiarkou. Napr.: 1,3,5-12" tooltip=""/>
+			<item id="1041" text="Názov súboru:" tooltip=""/>
+			<item id="1043" text="Priečinok:" tooltip=""/>
+			<item id="1126" text="Vystrihnúť strany do samostatných súborov" tooltip=""/>
+			<item id="1164" text="Všetky" tooltip=""/>
+			<item id="1165" text="Vybrané strany" tooltip=""/>
+			<item id="1166" text="Aktuálnu stranu" tooltip=""/>
+			<item id="1167" text="Strany" tooltip=""/>
+			<item id="1200" text="Rozsah strán" tooltip=""/>
+			<item id="1201" text="Možnosti" tooltip=""/>
+			<item id="1202" text="Uložiť ako" tooltip=""/>
+			<item id="1299" text="Odstrániť strany po vystrihnutí" tooltip=""/>
+		</dialog>
+		<dialog id="315" text="">
+			<item id="1200" text="Vytváranie komentárov" tooltip=""/>
+			<item id="1201" text="Zobrazenie komentárov" tooltip=""/>
+			<item id="1234" text="Zobraziť bublinu s údajmi" tooltip=""/>
+			<item id="1302" text="Kopírovať text do poznámky grafiky" tooltip=""/>
+			<item id="1303" text="Kopírovať text do poznámky textu" tooltip=""/>
+			<item id="1354" text="Zobraziť značku textu" tooltip=""/>
+		</dialog>
+		<dialog id="316" text="Vložiť prázdne strany">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Zrušiť" tooltip=""/>
+			<item id="1039" text="Orientácia" tooltip=""/>
+			<item id="1040" text="x" tooltip=""/>
+			<item id="1041" text="Počet" tooltip=""/>
+			<item id="1042" text="Umiestniť" tooltip=""/>
+			<item id="1200" text="Rozmery strany" tooltip=""/>
+			<item id="1202" text="Vkladané strany" tooltip=""/>
+			<item id="1292" text="Štandardné" tooltip=""/>
+			<item id="1293" text="Vlastné" tooltip=""/>
+			<item id="1295" text="Prvú strana" tooltip=""/>
+			<item id="1296" text="Poslednú strana" tooltip=""/>
+			<item id="1297" text="Stranu" tooltip=""/>
+			<item id="1304" text="Na výšku" tooltip=""/>
+			<item id="1305" text="Na šírku" tooltip=""/>
+		</dialog>
+		<dialog id="317" text="Premenovanie pečiatky">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Zrušiť" tooltip=""/>
+			<item id="1038" text="Nový názov pečiatky" tooltip=""/>
+		</dialog>
+		<dialog id="318" text="Vloženie pečiatky">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Zrušiť" tooltip=""/>
+			<item id="4" text="Prehliadať..." tooltip=""/>
+			<item id="1039" text="Súbor" tooltip=""/>
+			<item id="1041" text="Strana" tooltip=""/>
+			<item id="1042" text="Názov" tooltip=""/>
+			<item id="1200" text="Zdroj" tooltip=""/>
+			<item id="1201" text="Informácie o pečiatke" tooltip=""/>
+		</dialog>
+		<dialog id="321" text="Nastavenie textu">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Zrušiť" tooltip=""/>
+			<item id="3" text="Použiť" tooltip=""/>
+		</dialog>
+		<dialog id="322" text="">
+			<item id="1313" text="Skopírovať do schránky" tooltip=""/>
+		</dialog>
+		<dialog id="324" text="Vlastnosti príkazu">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Zrušiť" tooltip=""/>
+			<item id="1038" text="Obrázok" tooltip=""/>
+			<item id="1039" text="Názov" tooltip=""/>
+			<item id="1040" text="Popis" tooltip=""/>
+			<item id="1041" text="Status" tooltip=""/>
+			<item id="1042" text="Skrátený názov" tooltip=""/>
+			<item id="1043" text="ID" tooltip=""/>
+			<item id="1044" text="Meno" tooltip=""/>
+			<item id="1126" text="Skontrolovať Java Script-om" tooltip=""/>
+			<item id="1127" text="Povoliť Java Script-om" tooltip=""/>
+			<item id="1198" text="Akcia príkazu" tooltip=""/>
+			<item id="1200" text="Identifikácia" tooltip=""/>
+			<item id="1201" text="Skratka" tooltip=""/>
+			<item id="1202" text="Zisťovanie stavu" tooltip=""/>
+			<item id="1203" text="Adobe meno" tooltip=""/>
+			<item id="1204" text="Klávesy" tooltip=""/>
+			<item id="1205" text="Použiť v" tooltip=""/>
+			<item id="1206" text="Použité" tooltip=""/>
+			<item id="1261" text="Zobrazenie" tooltip=""/>
+			<item id="1292" text="Preddefinovaná akcia" tooltip=""/>
+			<item id="1293" text="Spustiť Java Script" tooltip=""/>
+			<item id="1324" text="Upraviť..." tooltip=""/>
+			<item id="1325" text="Upraviť" tooltip=""/>
+			<item id="1326" text="Upraviť..." tooltip=""/>
+		</dialog>
+		<dialog id="325" text="">
+			<item id="1039" text="Gamma textu" tooltip=""/>
+			<item id="1076" text="Vyhladiť text" tooltip=""/>
+			<item id="1077" text="Vyhladiť grafiku" tooltip=""/>
+			<item id="1078" text="Vyhladiť obrázky" tooltip=""/>
+			<item id="1200" text="Vykreslovanie textu" tooltip=""/>
+			<item id="1202" text="Vyhladzovanie" tooltip=""/>
+		</dialog>
+		<dialog id="326" text="Nová lišta">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Zrušiť" tooltip=""/>
+			<item id="1038" text="Názov" tooltip=""/>
+		</dialog>
+		<dialog id="327" text="Integrovať komentáre">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Zrušiť" tooltip=""/>
+			<item id="1038" text="Aplikovať na" tooltip=""/>
+			<item id="1039" text="Zadajte čísla strán alebo rozsahy strán oddelené čiarkou. Napr.: 1,3,5-12" tooltip=""/>
+			<item id="1041" text="Netlačiteľné" tooltip=""/>
+			<item id="1042" text="Polia formulárov" tooltip=""/>
+			<item id="1164" text="Všetky" tooltip=""/>
+			<item id="1165" text="Vybrané strany" tooltip=""/>
+			<item id="1166" text="Aktuálnu stranu" tooltip=""/>
+			<item id="1167" text="Strany" tooltip=""/>
+			<item id="1200" text="Rozsah strán" tooltip=""/>
+			<item id="1201" text="Možnosti" tooltip=""/>
+		</dialog>
+		<dialog id="328" text="Prehľad komentárov">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Zrušiť" tooltip=""/>
+			<item id="1038" text="Zoskupiť podľa" tooltip=""/>
+			<item id="1039" text="Zadajte čísla strán alebo rozsahy strán oddelené čiarkou. Napr.: 1,3,5-12" tooltip=""/>
+			<item id="1040" text="Triediť podľa" tooltip=""/>
+			<item id="1041" text="Typ" tooltip=""/>
+			<item id="1126" text="Vynechať odpovede" tooltip=""/>
+			<item id="1200" text="Rozsah strán" tooltip=""/>
+			<item id="1201" text="Výstup" tooltip=""/>
+			<item id="1202" text="Možnosti" tooltip=""/>
+			<item id="1261" text="Všeobecné" tooltip=""/>
+			<item id="1330" text="Všetky" tooltip=""/>
+			<item id="1331" text="Vybrané strany" tooltip=""/>
+			<item id="1332" text="Aktuálnu stranu" tooltip=""/>
+			<item id="1333" text="Strany:" tooltip=""/>
+			<item id="1335" text="Podskupina" tooltip=""/>
+			<item id="1341" text="Zahrnúť skryté komentáre" tooltip=""/>
+			<item id="1356" text="Zobraziť výsledný dokument" tooltip=""/>
+			<item id="1387" text="Zadajte čísla strán alebo rozsahy strán oddelené čiarkou. Napr.: 1,3,5-12" tooltip=""/>
+		</dialog>
+		<dialog id="329" text="">
+			<item id="1038" text="Rozvrhnutie" tooltip=""/>
+			<item id="1039" text="Veľkosť" tooltip=""/>
+			<item id="1343" text="Viac..." tooltip=""/>
+			<item id="1351" text="Každá skupina na samostatnú stranu" tooltip=""/>
+			<item id="1352" text="Vynechať strany bez komentárov" tooltip=""/>
+		</dialog>
+		<dialog id="332" text="">
+			<item id="4" text="Prehliadať..." tooltip=""/>
+			<item id="6" text="Makrá" tooltip=""/>
+			<item id="1038" text="Priečinok" tooltip=""/>
+			<item id="1039" text="Názov súboru" tooltip=""/>
+		</dialog>
+		<dialog id="333" text="">
+			<item id="4" text="Prehliadať..." tooltip=""/>
+			<item id="6" text="Makrá" tooltip=""/>
+			<item id="1038" text="Priečinok" tooltip=""/>
+			<item id="1039" text="Názov súboru:" tooltip=""/>
+			<item id="1041" text="Veľkosť" tooltip=""/>
+			<item id="1351" text="Každá skupina na samostatnú stranu" tooltip=""/>
+		</dialog>
+		<dialog id="334" text="">
+			<item id="4" text="Prehliadať..." tooltip=""/>
+			<item id="6" text="Makrá" tooltip=""/>
+			<item id="1038" text="Priečinok" tooltip=""/>
+			<item id="1039" text="Názov súboru" tooltip=""/>
+			<item id="1261" text="Typ kódovania" tooltip=""/>
+			<item id="1292" text="Unicode" tooltip=""/>
+			<item id="1293" text="MS-DOS" tooltip=""/>
+			<item id="1294" text="Windows" tooltip=""/>
+			<item id="1355" text="Iné:" tooltip=""/>
+		</dialog>
+		<dialog id="335" text="">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Zrušiť" tooltip=""/>
+			<item id="1180" text="Pokročilé" tooltip=""/>
+		</dialog>
+		<dialog id="336" text="">
+			<item id="1038" text="Štýl okraja:" tooltip=""/>
+			<item id="1039" text="Hrúbka:" tooltip=""/>
+			<item id="1040" text="Farba:" tooltip=""/>
+			<item id="1041" text="Zvýraznenie:" tooltip=""/>
+		</dialog>
+		<dialog id="337" text="Popis">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Zrušiť" tooltip=""/>
+			<item id="1038" text="Popis" tooltip=""/>
+		</dialog>
+		<dialog id="341" text="Prázdny dokument">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Zrušiť" tooltip=""/>
+			<item id="1039" text="Orientácia:" tooltip=""/>
+			<item id="1040" text="x" tooltip=""/>
+			<item id="1041" text="Počet" tooltip=""/>
+			<item id="1200" text="Strany" tooltip=""/>
+			<item id="1292" text="Štandard" tooltip=""/>
+			<item id="1293" text="Vlastné" tooltip=""/>
+			<item id="1304" text="Na výšku" tooltip=""/>
+			<item id="1305" text="Na šírku" tooltip=""/>
+		</dialog>
+		<dialog id="342" text="">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Zrušiť" tooltip=""/>
+			<item id="1038" text="URL adresa" tooltip=""/>
+		</dialog>
+		<dialog id="343" text="Vlastnosti">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Zrušiť" tooltip=""/>
+			<item id="1039" text="Počet stĺpcov" tooltip=""/>
+			<item id="1040" text="Medzera medzi stlpcami" tooltip=""/>
+			<item id="1041" text="Jednotky" tooltip=""/>
+			<item id="1042" text="Štýl" tooltip=""/>
+			<item id="1043" text="Hrúbka" tooltip=""/>
+			<item id="1044" text="Farba" tooltip=""/>
+			<item id="1367" text="Oddelenie stĺpcov" tooltip=""/>
+		</dialog>
+		<dialog id="344" text="Pokročilé">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Zrušiť" tooltip=""/>
+		</dialog>
+		<dialog id="345" text="Nový dokument z textového súboru">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Zrušiť" tooltip=""/>
+			<item id="4" text="Prehliadať..." tooltip=""/>
+			<item id="1039" text="Orientácia" tooltip=""/>
+			<item id="1040" text="x" tooltip=""/>
+			<item id="1042" text="Vľavo" tooltip=""/>
+			<item id="1043" text="Vpravo" tooltip=""/>
+			<item id="1044" text="Hore" tooltip=""/>
+			<item id="1045" text="Dole" tooltip=""/>
+			<item id="1046" text="Nový odstavec" tooltip=""/>
+			<item id="1198" text="Okraje" tooltip=""/>
+			<item id="1200" text="Rozmery" tooltip=""/>
+			<item id="1202" text="Textový súbor" tooltip=""/>
+			<item id="1203" text="Kódovanie textu" tooltip=""/>
+			<item id="1292" text="Štandard" tooltip=""/>
+			<item id="1293" text="Vlastné" tooltip=""/>
+			<item id="1304" text="Na výšku" tooltip=""/>
+			<item id="1305" text="Na šírku" tooltip=""/>
+			<item id="1343" text="Pokročilé..." tooltip=""/>
+			<item id="1376" text="Pridať súbor..." tooltip=""/>
+			<item id="1377" text="Pridať priečinok..." tooltip=""/>
+			<item id="1378" text="Odstrániť" tooltip=""/>
+			<item id="1379" text="Hore" tooltip=""/>
+			<item id="1380" text="Dole" tooltip=""/>
+		</dialog>
+		<dialog id="346" text="">
+			<item id="1038" text="Začiatok" tooltip=""/>
+			<item id="1039" text="Koniec" tooltip=""/>
+			<item id="1040" text="Štýl" tooltip=""/>
+			<item id="1041" text="Hrúbka" tooltip=""/>
+			<item id="1042" text="Farba" tooltip=""/>
+			<item id="1043" text="Farba výplne" tooltip=""/>
+			<item id="1044" text="Nepriehľadnosť" tooltip=""/>
+			<item id="1045" text="Dĺžka" tooltip=""/>
+			<item id="1046" text="Posun" tooltip=""/>
+			<item id="1047" text="Presah" tooltip=""/>
+			<item id="1200" text="Ukončenie" tooltip=""/>
+			<item id="1201" text="Okraj" tooltip=""/>
+			<item id="1202" text="Čiara" tooltip=""/>
+			<item id="1203" text="Text" tooltip=""/>
+			<item id="1362" text="Zobraziť text" tooltip=""/>
+		</dialog>
+		<dialog id="347" text="Obnova nastavenia">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Zrušiť" tooltip=""/>
+			<item id="1038" text="Naozaj chcete obnoviť všetky nastavenia na pôvodné?" tooltip=""/>
+			<item id="1126" text="Zachovať zoznam umiestení" tooltip=""/>
+			<item id="1128" text="Zachovať nastavnie pre informačné a potvrdzovacie dialógy" tooltip=""/>
+			<item id="1129" text="Zachovať jazyk aplikacie" tooltip=""/>
+			<item id="1373" text="Zachovať zoznam naposledy otvorených dokumentov" tooltip=""/>
+		</dialog>
+		<dialog id="348" text="Meta dáta dokumentu">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Zrušiť" tooltip=""/>
+		</dialog>
+		<dialog id="351" text="">
+			<item id="6" text="Makrá" tooltip=""/>
+			<item id="1039" text="Spôsob vloženia" tooltip=""/>
+			<item id="1040" text="Štýl" tooltip=""/>
+			<item id="1041" text="Hrúbka" tooltip=""/>
+			<item id="1042" text="Farba" tooltip=""/>
+			<item id="1044" text="Farba pozadia" tooltip=""/>
+			<item id="1128" text="Umiestniť čiaru nad záhlavie" tooltip=""/>
+			<item id="1200" text="Záhlavie súboru" tooltip=""/>
+			<item id="1381" text="Oddeľovacia čiara" tooltip=""/>
+			<item id="1385" text="Záhlavie" tooltip=""/>
+			<item id="1388" text="Formát..." tooltip=""/>
+		</dialog>
+		<dialog id="352" text="Nový dokument z obrázku">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Zrušiť" tooltip=""/>
+			<item id="1039" text="Orientácia" tooltip=""/>
+			<item id="1040" text="x" tooltip=""/>
+			<item id="1042" text="Vľavo" tooltip=""/>
+			<item id="1043" text="Vpravo" tooltip=""/>
+			<item id="1044" text="Hore" tooltip=""/>
+			<item id="1045" text="Dole" tooltip=""/>
+			<item id="1198" text="Okraje" tooltip=""/>
+			<item id="1200" text="Rozmery" tooltip=""/>
+			<item id="1202" text="Súbor" tooltip=""/>
+			<item id="1292" text="Štandard" tooltip=""/>
+			<item id="1293" text="Vlastné" tooltip=""/>
+			<item id="1304" text="Na výšku" tooltip=""/>
+			<item id="1305" text="Na šírku" tooltip=""/>
+			<item id="1343" text="Pokročilé..." tooltip=""/>
+			<item id="1376" text="Pridať súbor..." tooltip=""/>
+			<item id="1377" text="Pridať priečinok..." tooltip=""/>
+			<item id="1378" text="Odstrániť" tooltip=""/>
+			<item id="1379" text="Hore" tooltip=""/>
+			<item id="1380" text="Dole" tooltip=""/>
+			<item id="1406" text="Import..." tooltip=""/>
+		</dialog>
+		<dialog id="353" text="Pokročilé">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Zrušiť" tooltip=""/>
+		</dialog>
+		<dialog id="354" text="">
+			<item id="1039" text="Počet vodorovne" tooltip=""/>
+			<item id="1040" text="Počet zvislo" tooltip=""/>
+			<item id="1041" text="Medzera vodorovne" tooltip=""/>
+			<item id="1042" text="Medzera zvislo" tooltip=""/>
+			<item id="1043" text="Vodorovne" tooltip=""/>
+			<item id="1044" text="Zvislo" tooltip=""/>
+			<item id="1200" text="Rozvrhnutie obrázkov na strane" tooltip=""/>
+			<item id="1201" text="Zarovnanie obrázkov" tooltip=""/>
+		</dialog>
+		<dialog id="355" text="">
+			<item id="1039" text="for images above" tooltip=""/>
+			<item id="1040" text="pixelov na palec" tooltip=""/>
+			<item id="1041" text="pixelov na palec" tooltip=""/>
+			<item id="1042" text="for images above" tooltip=""/>
+			<item id="1043" text="pixelov na palec" tooltip=""/>
+			<item id="1044" text="pixelov na palec" tooltip=""/>
+			<item id="1126" text="použiť dithering" tooltip=""/>
+			<item id="1200" text="Obrázky farebné a v odtieňoch šedej" tooltip=""/>
+			<item id="1201" text="Indexové obrázky" tooltip=""/>
+			<item id="1202" text="Jednofarebné obrázky" tooltip=""/>
+			<item id="1203" text="for images above" tooltip=""/>
+			<item id="1204" text="pixelov na palec" tooltip=""/>
+			<item id="1205" text="pixelov na palec" tooltip=""/>
+			<item id="1206" text="Limit" tooltip=""/>
+			<item id="1401" text="použiť dithering" tooltip=""/>
+		</dialog>
+		<dialog id="362" text="">
+			<item id="6" text="Makrá" tooltip=""/>
+			<item id="1039" text="Farba pozadia" tooltip=""/>
+			<item id="1128" text="Umiestniť popis nad obrázok" tooltip=""/>
+			<item id="1200" text="Popis obrázka" tooltip=""/>
+			<item id="1388" text="Formát" tooltip=""/>
+			<item id="1407" text="Pouziť popis pre každý obrázok" tooltip=""/>
+		</dialog>
+		<dialog id="363" text="Úprava obrázka">
+		</dialog>
+		<dialog id="364" text="">
+			<item id="1038" text="Obal" tooltip=""/>
+			<item id="1039" text="Väzba" tooltip=""/>
+			<item id="1040" text="Listy" tooltip=""/>
+			<item id="1041" text="Typ" tooltip=""/>
+			<item id="1120" text="Automaticky otáčať strany" tooltip=""/>
+			<item id="1121" text="Automaticky centrovať strany" tooltip=""/>
+			<item id="1414" text="Väzba vpravo" tooltip=""/>
+		</dialog>
+		<dialog id="365" text="Pokročilé nastavenia tlače">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Zrušiť" tooltip=""/>
+			<item id="1038" text="Rozlíšenie obrázkov" tooltip=""/>
+			<item id="1039" text="Rozlíšenie výplne" tooltip=""/>
+			<item id="1040" text="Tlačiť text ako krivky" tooltip=""/>
+			<item id="1041" text="Nepriehľadnosť" tooltip=""/>
+			<item id="1416" text="Tlačiť poznámky" tooltip=""/>
+		</dialog>
+		<dialog id="366" text="Heslo dokumentu">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Zrušiť" tooltip=""/>
+		</dialog>
+	</dialogs>
+	<strings count="802">
+		<item id="0" text="+90° (v smere hodinových ručičiek)"/>
+		<item id="1" text="-90° (proti smeru hodinových ručičiek)"/>
+		<item id="2" text="180°"/>
+		<item id="3" text="Všetky"/>
+		<item id="4" text="Párne"/>
+		<item id="5" text="Nepárne"/>
+		<item id="6" text="Strany s ľubovoľnou orientáciou"/>
+		<item id="7" text="Strany na výšku"/>
+		<item id="8" text="Strany na šírku"/>
+		<item id="9" text="Štandardný názov"/>
+		<item id="10" text="Zvýrazniť"/>
+		<item id="11" text="Všeobecné"/>
+		<item id="12" text="Všeobecné nastavenia"/>
+		<item id="13" text="Správa farieb"/>
+		<item id="14" text="Správa farieb"/>
+		<item id="15" text="Zobrazenie strany"/>
+		<item id="16" text="Zobrazenie strany"/>
+		<item id="17" text="Výkon"/>
+		<item id="18" text="Výkon"/>
+		<item id="19" text="Jednotky"/>
+		<item id="20" text="Jednotky"/>
+		<item id="21" text="Identita"/>
+		<item id="22" text="Identita"/>
+		<item id="23" text="Jazyk"/>
+		<item id="24" text="Jazyk"/>
+		<item id="25" text="Asociácia súborov"/>
+		<item id="26" text="Asociácia súborov"/>
+		<item id="27" text="Kategórie"/>
+		<item id="28" text="Nastavenia..."/>
+		<item id="29" text="Vlastnosti dokumentu..."/>
+		<item id="30" text="Vlastnosti komentára"/>
+		<item id="31" text="Uložiť celý alebo prírastkovo, digitálne podísaný"/>
+		<item id="32" text="Vždy uložiť celý"/>
+		<item id="33" text="Vždy uložiť prírastkovo"/>
+		<item id="34" text="Uložiť pre rýchly prístup z Webu"/>
+		<item id="35" text="Automaticky"/>
+		<item id="36" text="Len strany"/>
+		<item id="37" text="Záložky a strany"/>
+		<item id="38" text="Miniatúry a strany"/>
+		<item id="39" text="Posledné zobrazenie"/>
+		<item id="40" text="Jedna strana"/>
+		<item id="41" text="Priebežne"/>
+		<item id="42" text="Protiľahlé"/>
+		<item id="43" text="Priebežne - protiľahlé"/>
+		<item id="44" text="Skutočná veľkosť"/>
+		<item id="45" text="Celá strana"/>
+		<item id="46" text="Podľa šírky"/>
+		<item id="47" text="Viditeľný obsah"/>
+		<item id="48" text="Fyzická pamäť (RAM): celkovo %1, %2 môže byť najviac použité"/>
+		<item id="49" text="Fyzická pamäť (RAM): celkom %1"/>
+		<item id="50" text="Systém má %1 CPU"/>
+		<item id="51" text="cm"/>
+		<item id="52" text="cm"/>
+		<item id="53" text="cm"/>
+		<item id="54" text="in"/>
+		<item id="55" text="inch"/>
+		<item id="56" text="inch"/>
+		<item id="57" text="mm"/>
+		<item id="58" text="mm"/>
+		<item id="59" text="mm"/>
+		<item id="60" text="p"/>
+		<item id="61" text="pica"/>
+		<item id="62" text="pica"/>
+		<item id="63" text="pt"/>
+		<item id="64" text="point"/>
+		<item id="65" text="point"/>
+		<item id="66" text="Otvoriť dokument v &apos;%1&apos;"/>
+		<item id="67" text="Žiadny alternatívny prehliadač PDF súborov nie je k dispozícií"/>
+		<item id="68" text="(počet strán: %1 )"/>
+		<item id="69" text="Dokument &quot;%1&quot; je chránený heslom"/>
+		<item id="70" text="Všetky"/>
+		<item id="71" text="Nepárne"/>
+		<item id="72" text="Párne"/>
+		<item id="73" text="Bez zmeny"/>
+		<item id="74" text="Prispôsobiť okrajom tlačiarne"/>
+		<item id="75" text="Zmenšiť podľa okrajov tlačiarne"/>
+		<item id="76" text="Usporiadať veľké strany"/>
+		<item id="77" text="Usporiadať všetky strany"/>
+		<item id="78" text="Viac stránok na list"/>
+		<item id="79" text="Všetky strany do jedného viacstránkového obrázka"/>
+		<item id="80" text="Každý rozsah strán do nového viacstránkového obrázka"/>
+		<item id="81" text="Každá strana do nového obrázka"/>
+		<item id="82" text="V priečinku &quot;%1&quot; už existuje súbor &quot;%2&quot; "/>
+		<item id="83" text="Veľkosť: %1&#10;Zmenené: %2"/>
+		<item id="84" text="Súbor &quot;%1&quot; nemôže byť uložený:"/>
+		<item id="85" text="OK"/>
+		<item id="86" text="Zrušiť"/>
+		<item id="87" text="Áno"/>
+		<item id="88" text="Nie"/>
+		<item id="89" text="Prerušiť"/>
+		<item id="90" text="Opakovať"/>
+		<item id="91" text="Ignorovať"/>
+		<item id="92" text="Vyskúšať"/>
+		<item id="93" text="Pokračovať"/>
+		<item id="94" text="Áno pre všetko"/>
+		<item id="95" text="Nie pre všetko"/>
+		<item id="96" text="Nie je možné vytvoriť priečinok &quot;%1&quot;:"/>
+		<item id="97" text="Dokument &quot;%1&quot; bol zmený.&#10;&#10;Uložiť dokument?"/>
+		<item id="98" text="Dokument &quot;%1&quot; je digitálne podísaný.&#10;Digitálne podpisy budú odstránené pri kompletnom ukložení súboru.&#10;Pri prírastkovom ukladaní zostanú zachované, ale zväčší sa veľkosť súboru.&#10;&#10;Želáte si súbor uložiť prírastkovo?"/>
+		<item id="99" text="Vybrané strany: %1 z %2 "/>
+		<item id="100" text="Chyba pri tlačení dokumentu &quot;%1&quot;:&#10;%2"/>
+		<item id="101" text="Názov"/>
+		<item id="102" text="Nedostupná"/>
+		<item id="103" text="Pripravená"/>
+		<item id="104" text="Nepripravená"/>
+		<item id="105" text="Otváram..."/>
+		<item id="106" text="Papier: %1"/>
+		<item id="107" text="List: %1"/>
+		<item id="108" text="Strana: %1"/>
+		<item id="109" text="Strany: %1, %2,..."/>
+		<item id="110" text="&lt;V aktívnom dokumente (%1)&gt;"/>
+		<item id="111" text="&lt;Prehliadať...&gt;"/>
+		<item id="112" text="&lt;Doplňujúci...&gt;"/>
+		<item id="113" text="Ukončiť hľadanie"/>
+		<item id="114" text="Hľadať"/>
+		<item id="115" text="Ukladanie obrázka do súboru &quot;%1&quot;..."/>
+		<item id="116" text="Vytváranie obrázka..."/>
+		<item id="117" text="Exportovanie do obrázka..."/>
+		<item id="118" text="Spracovávam stranu #%1"/>
+		<item id="119" text="Tlač..."/>
+		<item id="120" text="Tlač listu #%1..."/>
+		<item id="121" text="Tlač strany #%1..."/>
+		<item id="122" text="Ukončujem..."/>
+		<item id="123" text="Príprava..."/>
+		<item id="124" text="Hľadanie &quot;%1&quot;..."/>
+		<item id="125" text="Výsledky hľadania: Dokumenty: %1, Výskyty: %2"/>
+		<item id="126" text="Prerušené"/>
+		<item id="127" text="&quot;%1&quot;: sa otvára..."/>
+		<item id="128" text="&quot;%1&quot;: strana #%2..."/>
+		<item id="129" text="Strana #%1..."/>
+		<item id="130" text="Nedostatok systémových zdrojov pre otvorenie dokumentu &quot;%1&quot;.&#10;Príliš mnoho užívateľských GDI objektov požitých inými aplikáciami!&#10;&#10;Uzatvorte niektoré aplikáce (alebo PDF dokumenty) a skúste znovu..."/>
+		<item id="131" text="Chyba pri ukladaní dokumentu &quot;%1&quot;:&#10;%2"/>
+		<item id="132" text="Chyba pri otváraní &quot;%1&quot;:&#10;%2"/>
+		<item id="133" text="Chyba pri otváraní dokumentu:&#10;%1"/>
+		<item id="134" text="Chcete naozaj odstrániť %1 komentár(e)?"/>
+		<item id="135" text="Odstránenie komentárov (%1)"/>
+		<item id="136" text="Nabudúce odstrániť bez potvrdenia"/>
+		<item id="137" text="Použiť ako štandardný PDF prehliadač?"/>
+		<item id="138" text="Použiť ako štandardný PDF prehliadač a povoliť prehľadávanie PDF v internetovom prehliadači?"/>
+		<item id="139" text="Povoliť zobrazenie PDF touto aplikáciou v internetovom prehliadači?"/>
+		<item id="140" text="Nabudúce bez výzvy"/>
+		<item id="141" text="&quot;%1&quot; nie je možné otvoriť:&#10;%2"/>
+		<item id="142" text="Cesta neexistuje"/>
+		<item id="143" text="Akciu &quot;%1&quot; pre &quot;%2&quot; nie je možné vykonať:&#10;%3"/>
+		<item id="144" text="Aplikácia sa snaží otvoriť stránku:&#10;&quot;%1&quot;&#10;&#10;Dôverujete tejto stránke?"/>
+		<item id="145" text="%1: Upozornenie o otváraní internetovej stránky"/>
+		<item id="146" text="Zapamätať nastavenie pre túto internetovú stránku"/>
+		<item id="147" text="Tento PDF súbor chce spustiť aplikáciu &quot;%1&quot;.&#10;Aplikácia môže obsahovať kód, makrá alebo vírusy, ktoré môžu byť nebezpečné pre Váš počítač.&#10;Spuste tento súbor len ak ste si istý, že je neškodný."/>
+		<item id="148" text="Spustiť %1"/>
+		<item id="149" text="Nabudúce nezobrazovať toto varovanie"/>
+		<item id="150" text="Strana %1"/>
+		<item id="151" text="Menu"/>
+		<item id="152" text="Súbor"/>
+		<item id="153" text="Štandardný"/>
+		<item id="154" text="Zmena veľkosti"/>
+		<item id="155" text="Otočiť zobrazenie"/>
+		<item id="156" text="Hľadať"/>
+		<item id="157" text="Komentár"/>
+		<item id="158" text="Vlastnosti"/>
+		<item id="159" text="Vlastnosti nástroja šípka"/>
+		<item id="160" text="Vlastnosti nástroja čiara"/>
+		<item id="161" text="Vlastnosti nástroja obdĺžnik"/>
+		<item id="162" text="Vlastnosti nástroja ovál"/>
+		<item id="163" text="Vlastnosti nástroja mnohouholník"/>
+		<item id="164" text="Vlastnosti nástroja lomená čiara"/>
+		<item id="165" text="Vlastnosti nástroja ceruzka"/>
+		<item id="166" text="Vlastnosti nástroja obláčik"/>
+		<item id="167" text="Vlastnosti nástroja pečiatka"/>
+		<item id="168" text="Vlastnosti nástroja text"/>
+		<item id="169" text="Vlastnosti nástroja textové pole"/>
+		<item id="170" text="Vlastnosti nástroja textová bublina"/>
+		<item id="171" text="Vlastnosti nástroja komentár"/>
+		<item id="172" text="Vlastnosti nástroja zvýrazniť text"/>
+		<item id="173" text="Vlastnosti nástroja podčiarknuť text"/>
+		<item id="174" text="Vlastnosti nástroja preškrtnúť text"/>
+		<item id="175" text="Vlastnosti nástroja nahradiť text"/>
+		<item id="176" text="Vlastnosti šípky"/>
+		<item id="177" text="Vlastnosti čiary"/>
+		<item id="178" text="Vlastnosti obdĺžniku"/>
+		<item id="179" text="Vlastnosti oválu"/>
+		<item id="180" text="Vlastnosti mnohouholníka"/>
+		<item id="181" text="Vlastnosti lomenej čiary"/>
+		<item id="182" text="Vlastnosti ceruzky"/>
+		<item id="183" text="Vlastnosti obláčika"/>
+		<item id="184" text="Vlastnosti pečiatky"/>
+		<item id="185" text="Vlastnosti textu"/>
+		<item id="186" text="Vlastnosti textového poľa"/>
+		<item id="187" text="Vlastnosti textovej bubliny"/>
+		<item id="188" text="Vlastnosti komentára"/>
+		<item id="189" text="Vlastnosti zvýrazneného textu"/>
+		<item id="190" text="Vlastnosti podčiarknutého textu"/>
+		<item id="191" text="Vlastnosti preškrtnutého textu"/>
+		<item id="192" text="Vlastnosti nahradeného textu"/>
+		<item id="193" text="Šípka"/>
+		<item id="194" text="Čiara"/>
+		<item id="195" text="Obdĺžnik"/>
+		<item id="196" text="Ovál"/>
+		<item id="197" text="Mnohouholník"/>
+		<item id="198" text="Lomená čiara"/>
+		<item id="199" text="Ceruzka"/>
+		<item id="200" text="Obláčik"/>
+		<item id="201" text="Pečiatka"/>
+		<item id="202" text="Vynechávka "/>
+		<item id="203" text="Textové pole"/>
+		<item id="204" text="Komentár"/>
+		<item id="205" text="Zvýraznenie"/>
+		<item id="206" text="Podčiarknutie"/>
+		<item id="207" text="Preškrtnutie"/>
+		<item id="208" text="Príloha"/>
+		<item id="209" text="Zvuk"/>
+		<item id="210" text="Formátovanie textu"/>
+		<item id="211" text="Žiadna výplň"/>
+		<item id="212" text="Žiadne ohraničenie"/>
+		<item id="213" text="Ďalšie farby"/>
+		<item id="214" text="Neurčitý"/>
+		<item id="215" text="Nedefinovaný"/>
+		<item id="216" text="Farba"/>
+		<item id="217" text="Vlastnosti..."/>
+		<item id="218" text="Nerozpoznaný"/>
+		<item id="219" text="Neznámy"/>
+		<item id="220" text="Nezabezpečené"/>
+		<item id="221" text="Bez názvu"/>
+		<item id="222" text="Vzhľad"/>
+		<item id="223" text="Vzhľad"/>
+		<item id="224" text="Popis"/>
+		<item id="225" text="Popis dokumentu"/>
+		<item id="226" text="Písma"/>
+		<item id="227" text="Písma použité v dokumente"/>
+		<item id="228" text="Ochrana"/>
+		<item id="229" text="Ochrana a obmedzenia dokumentu"/>
+		<item id="230" text="Chránené heslom"/>
+		<item id="231" text="Nepovolené"/>
+		<item id="232" text="Nízke rozlíšenie"/>
+		<item id="233" text="Vysoké rozlíšenie"/>
+		<item id="234" text="Povolené"/>
+		<item id="235" text="Otváram zdroje..."/>
+		<item id="236" text="Inicializácia..."/>
+		<item id="237" text="Nič"/>
+		<item id="238" text="Štvorec"/>
+		<item id="239" text="Kruh"/>
+		<item id="240" text="Diamant"/>
+		<item id="241" text="Otvorená šípka"/>
+		<item id="242" text="Zatvorená šípka"/>
+		<item id="243" text="Úsečka"/>
+		<item id="244" text="Otvorená šípka (otočená)"/>
+		<item id="245" text="Zatvorená šípka (Otočená)"/>
+		<item id="246" text="Lomka"/>
+		<item id="247" text="Záložky"/>
+		<item id="248" text="Strany"/>
+		<item id="249" text="Polia"/>
+		<item id="250" text="Vrstvy"/>
+		<item id="251" text="Komentáre"/>
+		<item id="252" text="Zatvoriť kartu"/>
+		<item id="253" text="Počet písiem: %1"/>
+		<item id="254" text="z %1"/>
+		<item id="255" text="%1&#10;&#10;Názov: %2&#10;&#10;Autor: %3&#10;&#10;Predmet: %4&#10;&#10;Kľúčové slová: %5&#10;Strany: %6"/>
+		<item id="256" text="Strana #%1"/>
+		<item id="257" text="Strana #%1: &#10;%2"/>
+		<item id="258" text="Prehľadávanie PDF"/>
+		<item id="259" text="Dokument"/>
+		<item id="260" text="Dokument a komentáre"/>
+		<item id="261" text="Dokument a pečiatky"/>
+		<item id="262" text="Len dáta formulára"/>
+		<item id="263" text="Veľkosť pohľadu"/>
+		<item id="264" text="Lupa"/>
+		<item id="265" text="Potvrdiť uloženie dokumentu"/>
+		<item id="266" text="Potvrdiť uloženie prírastkových zmien dokumentu"/>
+		<item id="267" text="Informácie o súbore"/>
+		<item id="268" text="Názov"/>
+		<item id="269" text="Typ"/>
+		<item id="270" text="Priečinok"/>
+		<item id="271" text="Umiestnenie"/>
+		<item id="272" text="Veľkosť"/>
+		<item id="273" text="%1 bajtov"/>
+		<item id="274" text="Zmenené"/>
+		<item id="275" text="Informácie o PDF"/>
+		<item id="276" text="Verzia PDF"/>
+		<item id="277" text="Počet strán"/>
+		<item id="278" text="Názov"/>
+		<item id="279" text="Predmet"/>
+		<item id="280" text="Autor"/>
+		<item id="281" text="Kľúčové slová"/>
+		<item id="282" text="Aplikácia"/>
+		<item id="283" text="Tvorca PDF"/>
+		<item id="284" text="Šifrovanie"/>
+		<item id="285" text="%1-bit AES"/>
+		<item id="286" text="%1-bit RC4"/>
+		<item id="287" text="Úroveň"/>
+		<item id="288" text="Vysoké rozlíšenie"/>
+		<item id="289" text="Tlač"/>
+		<item id="290" text="Zmeny v dokumente"/>
+		<item id="291" text="Kopírovanie/vyňatie"/>
+		<item id="292" text="Vytváranie komentárov a formulárov"/>
+		<item id="293" text="Vyplňovanie formulárov/podpisovanie"/>
+		<item id="294" text="Zjednodušený prístup k obsahu"/>
+		<item id="295" text="Tvorba dokumentu"/>
+		<item id="296" text="Otváram dokument, čakajte prosím..."/>
+		<item id="297" text="Otváram súbor &quot;%1&quot;..."/>
+		<item id="298" text="Sťahujem &quot;%1&quot;..."/>
+		<item id="299" text="Stiahnutých %1 z %2"/>
+		<item id="300" text="Ukladám dokument, čakajte prosím..."/>
+		<item id="301" text="Ukladám súbor &quot;%1&quot;..."/>
+		<item id="302" text="Vykonávam zmeny..."/>
+		<item id="303" text="Pripravujem uloženie dokumentu..."/>
+		<item id="304" text="Ukladám dokument..."/>
+		<item id="305" text="Načítavam stránky..."/>
+		<item id="306" text="Triedim informácie o stránkach..."/>
+		<item id="307" text="Vytváram anotácie..."/>
+		<item id="308" text="Vybrať cieľový priečinok pre nové obrázky:"/>
+		<item id="309" text="Vybrať cieľový priečinok pre sťahované súbory:"/>
+		<item id="310" text="Vybrať priečinok pre hľadanie dokumentov:"/>
+		<item id="311" text="Diagram"/>
+		<item id="312" text="Sponka"/>
+		<item id="313" text="Príloha"/>
+		<item id="314" text="Značka"/>
+		<item id="315" text="Ucho"/>
+		<item id="316" text="Mikrofón"/>
+		<item id="317" text="Zvuk"/>
+		<item id="318" text="Označenie"/>
+		<item id="319" text="Kruh"/>
+		<item id="320" text="Komentár"/>
+		<item id="321" text="Krížik"/>
+		<item id="322" text="Pomocník"/>
+		<item id="323" text="Vložiť text"/>
+		<item id="324" text="Kľúč"/>
+		<item id="325" text="Nový odsek"/>
+		<item id="326" text="Komentár"/>
+		<item id="327" text="Odsek"/>
+		<item id="328" text="Pravá šípka"/>
+		<item id="329" text="Pravý ukazovateľ"/>
+		<item id="330" text="Hviezdička"/>
+		<item id="331" text="Šípka nahor"/>
+		<item id="332" text="Šípka vľavo nahor"/>
+		<item id="333" text="Komentár"/>
+		<item id="334" text="Zvýrazniť"/>
+		<item id="335" text="Komentár k textu"/>
+		<item id="336" text="Podčiarknutie"/>
+		<item id="337" text="Preškrtnutie"/>
+		<item id="338" text="Nahradzujúci text"/>
+		<item id="339" text="Textová bublina"/>
+		<item id="340" text="Textové pole"/>
+		<item id="341" text="Text"/>
+		<item id="342" text="Šípka"/>
+		<item id="343" text="Čiara"/>
+		<item id="344" text="Obdĺžnik"/>
+		<item id="345" text="Ovál"/>
+		<item id="346" text="Obláčik"/>
+		<item id="347" text="Lomená čiara"/>
+		<item id="348" text="Mnohouholník"/>
+		<item id="349" text="Ceruzka"/>
+		<item id="350" text="Strana: %1 z %2"/>
+		<item id="351" text="Veľkosť: %1"/>
+		<item id="352" text="Chcete vymazať zoznam naposledy použité?"/>
+		<item id="353" text="ZABEZPEČENÝ"/>
+		<item id="354" text="Otvoriť"/>
+		<item id="355" text="Uložiť"/>
+		<item id="356" text="Uložiť ako"/>
+		<item id="357" text="Uložiť kópiu ako"/>
+		<item id="358" text="Tlačiť do súboru"/>
+		<item id="359" text="Uľahčenie"/>
+		<item id="360" text="Uľahčenie"/>
+		<item id="361" text="Zelený text na čiernom pozadí"/>
+		<item id="362" text="Žltý text na čiernom pozadí"/>
+		<item id="363" text="Biely text na čiernom pozadí"/>
+		<item id="364" text="Čierny text na čiernom pozadí"/>
+		<item id="365" text="Celá obrazovka"/>
+		<item id="366" text="Celá obrazovka"/>
+		<item id="367" text="Skryť s oneskorením"/>
+		<item id="368" text="Vždy viditeľný"/>
+		<item id="369" text="Vždy skrytý"/>
+		<item id="370" text="Snímka"/>
+		<item id="371" text="Snímka"/>
+		<item id="372" text="Dokument &quot;%1&quot; je poškodený.&#10;&#10;Zistené problémy:&#10;%2&#10;&#10;Odporúčame znovu uložiť dokument."/>
+		<item id="373" text="Jedna alebo viac XREF častí nebolo nájdených."/>
+		<item id="374" text="Nájdené chyby v XREF tabuľke."/>
+		<item id="375" text="Odkaz na objekt nebol popísaný v žiadnej XREF časti."/>
+		<item id="376" text="Chyba pri vytváraní objektu: chybná štruktúra objektu."/>
+		<item id="377" text="Chyba pri vytváraní objektu: chybné umiestnenie objektu."/>
+		<item id="378" text="Chybný ObjStream."/>
+		<item id="379" text="Požadované údaje neboli nájdené v poslednom traileri."/>
+		<item id="380" text="Požadované údaje neboli nájdené v traileri."/>
+		<item id="381" text="Objekt nebol popísaný v aktuálnej alebo predchádzajúcej časti ale v nasledujúcej časti."/>
+		<item id="382" text="Zdrojový dokument &quot;%1&quot; je poškodený.&#10;Chcete dokument uložiť štandardne (upozornenie: existujúce digitálne podpisy budú odstránené)?"/>
+		<item id="383" text="Neoznačený"/>
+		<item id="384" text="Anonym"/>
+		<item id="385" text="&lt;Neznámy autor&gt; (%1)"/>
+		<item id="386" text="&lt;Neznámy dátum&gt; (%1)"/>
+		<item id="387" text="Strana %1 (%2)"/>
+		<item id="388" text="%1 (%2)"/>
+		<item id="389" text="Neplatná hodnota: musí byť väčšie alebo rovné %s."/>
+		<item id="390" text="Neplatná hodnota: musí byť väčšie alebo rovné %s a menšie alebo rovné %s."/>
+		<item id="391" text="Neplatná hodnota: musí byť menšie alebo rovné %s."/>
+		<item id="392" text="** Neplatné **"/>
+		<item id="393" text="Neplatný dátum/čas: preverte že dátum/čas je zadaný a platný. Pole %field% musí mať formát %format%."/>
+		<item id="394" text="Zadaná hodnota nezodpovedá formátu %s."/>
+		<item id="395" text="dop."/>
+		<item id="396" text="odp."/>
+		<item id="397" text="Naozaj chcete odstrániť %1 záložku a všetky jej podriadené?"/>
+		<item id="398" text="Naozaj chcete odstrániť %1 záložku?"/>
+		<item id="399" text="%1: Odstránenie záložiek"/>
+		<item id="400" text="Nabudúce nezobrazovať potvrdenie"/>
+		<item id="401" text="Vlastnosti záložky"/>
+		<item id="402" text="Vlastnosti viacerých záložiek"/>
+		<item id="403" text="Odkaz"/>
+		<item id="404" text="Zoznam odkazov"/>
+		<item id="405" text="Normálny"/>
+		<item id="406" text="Tučné"/>
+		<item id="407" text="Kurzíva"/>
+		<item id="408" text="Tučná kurzíva"/>
+		<item id="409" text="Neznáma akcia"/>
+		<item id="410" text="Prejsť na stranu v tomto dokumente"/>
+		<item id="411" text="Prejsť na stranu v inom dokumente"/>
+		<item id="412" text="Prejsť na stranu vo vloženom dokumente"/>
+		<item id="413" text="Otvoriť súbor"/>
+		<item id="414" text="Prečítať článok"/>
+		<item id="415" text="Otvoriť internetovú stránku"/>
+		<item id="416" text="Prehrať zvuk"/>
+		<item id="417" text="Prehrať film"/>
+		<item id="418" text="Zobraziť/schovať polia a komentáre"/>
+		<item id="419" text="Spustiť príkaz"/>
+		<item id="420" text="Odoslať formulár"/>
+		<item id="421" text="Obnoviť formulár"/>
+		<item id="422" text="Importovať dáta z formuláru"/>
+		<item id="423" text="Spustiť Java Script"/>
+		<item id="424" text="Nastaviť viditeľnosť vrstiev"/>
+		<item id="425" text="Ovládanie multimédií"/>
+		<item id="426" text="Úprava a prechod strán"/>
+		<item id="427" text="Prejsť na 3D zobrazenie"/>
+		<item id="428" text="Veľkosť"/>
+		<item id="429" text="Zdediť"/>
+		<item id="430" text="Šírka"/>
+		<item id="431" text="Výška"/>
+		<item id="432" text="Podľa výšky"/>
+		<item id="433" text="Podľa viditeľnej šírky"/>
+		<item id="434" text="Podľa viditeľnej výšky"/>
+		<item id="435" text="Súbor"/>
+		<item id="436" text="Operácia"/>
+		<item id="437" text="Parametre"/>
+		<item id="438" text="Nie je možné odstrániť všetky strany dokumentu. Aspoň jedna strana musí zostať."/>
+		<item id="439" text="Naozaj chcete odstrániť %1 strán? "/>
+		<item id="440" text="%1: Odstránenie strán"/>
+		<item id="441" text="Nový odkaz"/>
+		<item id="442" text="Upraviť akciu"/>
+		<item id="443" text="Naozaj chcete odstrániť %1 odkaz?"/>
+		<item id="444" text="%1: Odstránenie odkazu"/>
+		<item id="445" text="Nabudúce nezobrazovať potvrdenie"/>
+		<item id="446" text="Java Script"/>
+		<item id="447" text="Java Script"/>
+		<item id="448" text="Registrácia"/>
+		<item id="449" text="Registrácia"/>
+		<item id="450" text="r: %1"/>
+		<item id="451" text="r: %2"/>
+		<item id="452" text="VKL"/>
+		<item id="453" text="PRP"/>
+		<item id="454" text="Dokument obsahuje Java Script. Chcete povoliť spúšťanie Java Scriptu v tomto dokumentu?&#10;Dokument sa nemusí zobraziť správne, ak je Java Script zakázaný."/>
+		<item id="455" text="Potlačiť toto hlásenie až do znovuotvorenia tohto dokumentu"/>
+		<item id="456" text="Java Script: %1"/>
+		<item id="457" text="Funkcionalita PRO verzie vyžaduje licenčný kľúč, pozri pomocníka"/>
+		<item id="458" text="Vlastná veľkosť"/>
+		<item id="459" text="Upozornenie - PRO funkcia"/>
+		<item id="460" text="Táto funkcia je súčasťou PDF-XChange Viewer PRO.&#10;&#10;Môžete ju použiť aj vo FREE verzii, ale keď uložíte súbor, bude obsahovať neodstrániteľné DEMO značky. Ak chcete tomu zabrániť, upgradujte na PRO verziu. Viac informácií v pomocníkovi alebo na našej internetovej stránke.&#10;&#10;Naozaj chcete použiť tuto funkciu?"/>
+		<item id="461" text="Naozaj chcete presunúť %1 stranu v dokumente? "/>
+		<item id="462" text="%1: Presun stránok"/>
+		<item id="463" text="Súbor"/>
+		<item id="464" text="Upraviť"/>
+		<item id="465" text="Zobraziť"/>
+		<item id="466" text="Dokument"/>
+		<item id="467" text="Nástroje"/>
+		<item id="468" text="Okno"/>
+		<item id="469" text="Pomocník"/>
+		<item id="470" text="Vlastné"/>
+		<item id="471" text="Crop Box"/>
+		<item id="472" text="Bleed Box"/>
+		<item id="473" text="Trim Box"/>
+		<item id="474" text="Grafika"/>
+		<item id="475" text="Veľkosť orezanej strany: %1"/>
+		<item id="476" text="Veľkosť rámca bleed: %1"/>
+		<item id="477" text="Veľkosť rámca trim: %1"/>
+		<item id="478" text="Veľkosť rámca art: %1"/>
+		<item id="479" text="Neplatný náhľad"/>
+		<item id="480" text="Náhľad sa pripravuje, čakajte prosím..."/>
+		<item id="481" text="Šifrované"/>
+		<item id="482" text="Dokument &quot;%1&quot; je zabezpečený. Nemáte práva pre túto operáciu."/>
+		<item id="483" text="%1: Vkladanie stránok"/>
+		<item id="484" text="&quot;Prišpendliť&quot; dokument k zoznamu naposledy použité (nebude odstránený pri prekročení limitu počtu súborov)"/>
+		<item id="485" text="&quot;Odšpendliť&quot; dokument zo zoznamu naposledy použité (bude odstránený pri prekročení limitu počtu súborov)"/>
+		<item id="486" text="Použité písma"/>
+		<item id="487" text="Všetky písma"/>
+		<item id="488" text="Úrovne veľkosti"/>
+		<item id="489" text="Módy veľkosti"/>
+		<item id="490" text="Pred"/>
+		<item id="491" text="Za"/>
+		<item id="492" text="Štandardné farby"/>
+		<item id="493" text="Vlastné farby"/>
+		<item id="494" text="Čierna"/>
+		<item id="495" text="Hnedá"/>
+		<item id="496" text="Tmavo olivovo zelená"/>
+		<item id="497" text="Tmavo zelená"/>
+		<item id="498" text="Tmavo tealovo modrá"/>
+		<item id="499" text="Tmavo modrá"/>
+		<item id="500" text="Indigo"/>
+		<item id="501" text="Tmavo šedá"/>
+		<item id="502" text="Tmavo červená"/>
+		<item id="503" text="Oranžová"/>
+		<item id="504" text="Tmavo žltá"/>
+		<item id="505" text="Zelená"/>
+		<item id="506" text="Tealovo modrá"/>
+		<item id="507" text="Modrá"/>
+		<item id="508" text="Modro šedá"/>
+		<item id="509" text="Šedá - 40%"/>
+		<item id="510" text="Červená"/>
+		<item id="511" text="Svetlo oranžová"/>
+		<item id="512" text="Citrónovo zelená"/>
+		<item id="513" text="Morská zelená"/>
+		<item id="514" text="Aqua"/>
+		<item id="515" text="Svetlo modrá"/>
+		<item id="516" text="Fialová"/>
+		<item id="517" text="Šedá - 50%"/>
+		<item id="518" text="Rúžová"/>
+		<item id="519" text="Zlatá"/>
+		<item id="520" text="Žltá"/>
+		<item id="521" text="Svetlo zelená"/>
+		<item id="522" text="Tyrkysová"/>
+		<item id="523" text="Blankytná modrá"/>
+		<item id="524" text="Slivkovo modrá"/>
+		<item id="525" text="Svetlo šedá"/>
+		<item id="526" text="Svetlo rúžová"/>
+		<item id="527" text="Svetlo hnedá"/>
+		<item id="528" text="Svetlo žltá"/>
+		<item id="529" text="Bledo zelená"/>
+		<item id="530" text="Bledo tyrkysová"/>
+		<item id="531" text="Bledo modrá"/>
+		<item id="532" text="Levanduľová"/>
+		<item id="533" text="Biela"/>
+		<item id="534" text="Komentáre"/>
+		<item id="535" text="Komentáre"/>
+		<item id="536" text="Odstraňujem strany, čakajte prosím..."/>
+		<item id="537" text="Presúvam strany, čakajte prosím..."/>
+		<item id="538" text="Vkladám strany, čakajte prosím..."/>
+		<item id="539" text="Vyberám strany, čakajte prosím..."/>
+		<item id="540" text="Naozaj chcete kopírovať %1 strán?"/>
+		<item id="541" text="%1: Kopírovanie stránok"/>
+		<item id="542" text="Vlastnosti gumy"/>
+		<item id="543" text="Paleta pečiatok"/>
+		<item id="544" text="Nová pečiatka"/>
+		<item id="545" text="Nová sada"/>
+		<item id="546" text="Táto sada ešte obsahuje pečiatky. Naozaj ju chcete odstrániť?"/>
+		<item id="547" text="%1: Odstránenie sady pečiatok"/>
+		<item id="548" text="Odstránenie zoznamu naposledy použité"/>
+		<item id="549" text="Chcete vymazať položky zo zoznamu naposledy použité?"/>
+		<item id="550" text="Áno pre všetky neprišpendlené"/>
+		<item id="551" text="Vlastnosti textu"/>
+		<item id="552" text="Obsah"/>
+		<item id="553" text="Neformátovaný text"/>
+		<item id="554" text="Formátovanie"/>
+		<item id="555" text="Formátovanie textu: písmo, veľkosť, štýl, atď. "/>
+		<item id="556" text="Písmo"/>
+		<item id="557" text="Veľkosť písma"/>
+		<item id="558" text="Vodorovná mierka"/>
+		<item id="559" text="Posun základnej čiary"/>
+		<item id="560" text="Objekt je poškodený"/>
+		<item id="561" text="Lišty"/>
+		<item id="562" text="Príkazy"/>
+		<item id="563" text="Možnosti"/>
+		<item id="564" text="Formát"/>
+		<item id="565" text="Globálne"/>
+		<item id="566" text="Dokument"/>
+		<item id="567" text="Zobrazenie stránok"/>
+		<item id="568" text="Zobrazenie náhľadov"/>
+		<item id="569" text="Zobrazenie záložiek"/>
+		<item id="570" text="Zobrazenie komentárov"/>
+		<item id="571" text="Zobrazenie vrstiev"/>
+		<item id="572" text="Zobrazenie polí"/>
+		<item id="573" text="Zobrazenie príloh"/>
+		<item id="574" text="Textový editor"/>
+		<item id="575" text="Paleta razítok"/>
+		<item id="576" text="Vyhľadávanie"/>
+		<item id="577" text="Java Script konzola"/>
+		<item id="578" text="Lupa"/>
+		<item id="579" text="Zväčšnie výrezu"/>
+		<item id="580" text="Štandardný"/>
+		<item id="581" text="Žiadna skratka"/>
+		<item id="582" text="Skratka je k dispozícii"/>
+		<item id="583" text="Skratka sa už používa"/>
+		<item id="584" text="Skratka je použitá pre %1"/>
+		<item id="585" text="Rendering"/>
+		<item id="586" text="Rendering"/>
+		<item id="587" text="Vlastný"/>
+		<item id="588" text="Zadajte hľadaný výraz"/>
+		<item id="589" text="Zistená nekritická chyba v XREF tabuľke"/>
+		<item id="590" text="Integrovanie / odstraňovanie komentárov, čakajte prosím..."/>
+		<item id="591" text="Integrovať"/>
+		<item id="592" text="Ponechať"/>
+		<item id="593" text="Odstrániť"/>
+		<item id="594" text="Integrovať / zrušiť komentáre v dokumente?"/>
+		<item id="595" text="%1: Integrovanie / odstraňovanie komentárov"/>
+		<item id="596" text="Vymazať vlastné lišty / menu? Kliknite &quot;Nie&quot; pre ich zachovanie."/>
+		<item id="597" text="%1: Odstraňovanie vlastných líšt"/>
+		<item id="598" text="Chyba pri vystrihovaní stránok z &quot;%1&quot;:&#10;%2"/>
+		<item id="599" text="%1: Vystrihnutie stránok"/>
+		<item id="600" text="Chyba pri integrovaní komentárov v &quot;%1&quot;:&#10;%2"/>
+		<item id="601" text="Chyba pri vkladaní stránok &quot;%1&quot;:&#10;%2"/>
+		<item id="602" text="Chyba pri odstraňovaní stránok z &quot;%1&quot;:&#10;%2"/>
+		<item id="603" text="Otváram dáta zo streamu..."/>
+		<item id="604" text="Otváram %1"/>
+		<item id="605" text="Otaváram dokument zo streamu..."/>
+		<item id="606" text="Ukladanie dokumentu do streamu..."/>
+		<item id="607" text="Uložený %1 z %2"/>
+		<item id="608" text="Otváram dokument..."/>
+		<item id="609" text="Nabuduce sa nepýtať"/>
+		<item id="610" text="Kopírovať %1 stránku z &quot;%2&quot; do &quot;%3&quot;?"/>
+		<item id="611" text="Presunúť %1 stránku z &quot;%2&quot; do &quot;%3&quot;?"/>
+		<item id="612" text="Odkazy"/>
+		<item id="613" text="Meranie"/>
+		<item id="614" text="Nastavenie vzdialenosti"/>
+		<item id="615" text="Nastavenie obvodu"/>
+		<item id="616" text="Nastavenie obsahu"/>
+		<item id="617" text="Nastavenie čiary"/>
+		<item id="618" text="Nastavenie lomenej čiary"/>
+		<item id="619" text="Nastavenie mnohouholníka"/>
+		<item id="620" text="Nastavenie nástroja odkazy"/>
+		<item id="621" text="Nastavenia odkazu"/>
+		<item id="622" text="Žiadny"/>
+		<item id="623" text="Obrátiť"/>
+		<item id="624" text="Súhrn"/>
+		<item id="625" text="Vložiť"/>
+		<item id="626" text="Komentáre"/>
+		<item id="627" text="%1: Prehľad komentárov"/>
+		<item id="628" text="Chyba pri prehľade komentárov z &quot;%1&quot;:&#10;%2"/>
+		<item id="629" text="Prehľad komentárov, čakajte prosím..."/>
+		<item id="630" text="Export komentárov, čakajte prosím..."/>
+		<item id="631" text="%1: Export komentárov"/>
+		<item id="632" text="Chyba pri exporte komentárov z &quot;%1&quot;:&#10;%2"/>
+		<item id="633" text="Exportovať komentáre"/>
+		<item id="634" text="Adobe XFDF (*.xfdf)"/>
+		<item id="635" text="Strana"/>
+		<item id="636" text="Typ"/>
+		<item id="637" text="Autor"/>
+		<item id="638" text="Dátum"/>
+		<item id="639" text="Poradie"/>
+		<item id="640" text="PDF (*.pdf)"/>
+		<item id="641" text="Formát RTF (*.rtf)"/>
+		<item id="642" text="Obyčajný text (*.txt)"/>
+		<item id="643" text="Webová stránka (*.html)"/>
+		<item id="644" text="Len komentáre"/>
+		<item id="645" text="Dokument a komentáre so spojovacou čiarou na jednej strane"/>
+		<item id="646" text="Dokument a komentáre s poradovým číslom na jednej strane"/>
+		<item id="647" text="Dokument a komentáre na jednej strane"/>
+		<item id="648" text="Dokument a komentáre so spojovacou čiarou na samostatnej strane"/>
+		<item id="649" text="Dokument a komentáre s postupným číslovaním na samostatnej strane"/>
+		<item id="650" text="Dokument a komentáre na samostatnej strane"/>
+		<item id="651" text="Priečinok pre nový súbor"/>
+		<item id="652" text="Triedim komentáre..."/>
+		<item id="653" text="Vytváram nový dokument..."/>
+		<item id="654" text="Kopírujem strany z pôvodného dokumentu..."/>
+		<item id="655" text="Vytváram novú web stránku..."/>
+		<item id="656" text="Premenovať lištu"/>
+		<item id="657" text="Vzdialenosť"/>
+		<item id="658" text="Obvod"/>
+		<item id="659" text="Obsah"/>
+		<item id="660" text="Vymazať vybrané odkazy?"/>
+		<item id="661" text="%1: Odstraňovanie komentárov"/>
+		<item id="662" text="%1: Vkladanie prázdnych stránok"/>
+		<item id="663" text="Automaticky"/>
+		<item id="664" text="Vzdialenosť:"/>
+		<item id="665" text="Obvod:"/>
+		<item id="666" text="Obsah:"/>
+		<item id="667" text="Uhol:"/>
+		<item id="668" text="ΔX"/>
+		<item id="669" text="ΔY"/>
+		<item id="670" text="Mierka"/>
+		<item id="671" text="Údaje o vzdialenosti"/>
+		<item id="672" text="Údaje o obvode"/>
+		<item id="673" text="Údaje o obsahu"/>
+		<item id="674" text="Podčiarknuť"/>
+		<item id="675" text="Nastavenie odkazu"/>
+		<item id="676" text="Nastavenie viacnásobného odkazu"/>
+		<item id="677" text="ft"/>
+		<item id="678" text="yd"/>
+		<item id="679" text="m"/>
+		<item id="680" text="km"/>
+		<item id="681" text="mi"/>
+		<item id="682" text="vlastné"/>
+		<item id="683" text="cm²"/>
+		<item id="684" text="in²"/>
+		<item id="685" text="mm²"/>
+		<item id="686" text="p²"/>
+		<item id="687" text="pt²"/>
+		<item id="688" text="ft²"/>
+		<item id="689" text="yd²"/>
+		<item id="690" text="m²"/>
+		<item id="691" text="km²"/>
+		<item id="692" text="mi²"/>
+		<item id="693" text="Export meraní, čakajte prosím..."/>
+		<item id="694" text="%1: Export meraní"/>
+		<item id="695" text="Chyba pri exportovaní meraní z &quot;%1&quot;:&#10;%2"/>
+		<item id="696" text="Exportovať poznámku merania"/>
+		<item id="697" text="Pridať odkaz..."/>
+		<item id="698" text="Nový dokument"/>
+		<item id="699" text="Vytváram nový dokument, čakajte prosím..."/>
+		<item id="700" text="Každá značka začiatku riadka začína nový odstavec"/>
+		<item id="701" text="Dvojitá značka začiatku riadka začína nový odstavec, jednu značku ignorovať"/>
+		<item id="702" text="Dvojitá značka začiatku riadka začína nový odstavec, jedna značka znamená medzeru"/>
+		<item id="703" text="Predmet"/>
+		<item id="704" text="Možnosti dokumentu"/>
+		<item id="705" text="Navigácia stránok"/>
+		<item id="706" text="Rozvrhnutie stránky"/>
+		<item id="707" text="Otvoriť dokument"/>
+		<item id="708" text="Názov"/>
+		<item id="709" text="Prípona"/>
+		<item id="710" text="Umiestnenie"/>
+		<item id="711" text="Veľkosť"/>
+		<item id="712" text="Zmenený"/>
+		<item id="713" text="Vytvoriť nový dokument"/>
+		<item id="714" text="Vybrať priečinok so zdrojovým súborom"/>
+		<item id="715" text="Prehľadávať podpriečinky?"/>
+		<item id="716" text="Pokročilé"/>
+		<item id="717" text="Stĺpce"/>
+		<item id="718" text="Možnosti stĺpcov"/>
+		<item id="719" text="Nastavenie súboru"/>
+		<item id="720" text="Nastavenie súboru"/>
+		<item id="721" text="Začať novým odstavcom"/>
+		<item id="722" text="Začať na novej stránke"/>
+		<item id="723" text="Pokročilé"/>
+		<item id="724" text="Rozvrhnutie"/>
+		<item id="725" text="Rozvrhnutie obrázkov"/>
+		<item id="726" text="Konverzia"/>
+		<item id="727" text="Nastavenie konverzie"/>
+		<item id="728" text="Hore"/>
+		<item id="729" text="Dole"/>
+		<item id="730" text="Vľavo"/>
+		<item id="731" text="Vpravo"/>
+		<item id="732" text="Centrovať"/>
+		<item id="733" text="Bez prevzrokovania"/>
+		<item id="734" text="Lineárne prevzorkovať na"/>
+		<item id="735" text="Bilineárne prevzorkovať na"/>
+		<item id="736" text="Bikubicky prevozorkovať na"/>
+		<item id="737" text="Bez konverzie"/>
+		<item id="738" text="Stupnešedi"/>
+		<item id="739" text="Jednofarebný"/>
+		<item id="740" text="Čiernobiely"/>
+		<item id="741" text="Prispôsobiť"/>
+		<item id="742" text="Metadáta dokumentu"/>
+		<item id="743" text="Pokročilé"/>
+		<item id="744" text="Štruktúra metadát dokumentu"/>
+		<item id="745" text="Kombinovaný [%2]: list &apos;%1&apos;"/>
+		<item id="746" text="px"/>
+		<item id="747" text="Skenujem..."/>
+		<item id="748" text="Skenujem obrázok %1"/>
+		<item id="749" text="Info"/>
+		<item id="750" text="Kódovanie"/>
+		<item id="751" text="Typ: %1"/>
+		<item id="752" text="Obrázok: %1"/>
+		<item id="753" text="Strany: %1"/>
+		<item id="754" text="List: %1, %2 celkovo"/>
+		<item id="755" text="Počet %1 súborov"/>
+		<item id="756" text="Normálne zobrazenie"/>
+		<item id="757" text="Kombinovaný pohľad"/>
+		<item id="758" text="Popisy"/>
+		<item id="759" text="Nastavenie popisov"/>
+		<item id="760" text="Papier: %1"/>
+		<item id="761" text="Strana: %1 (časť %2 z %3)"/>
+		<item id="762" text="Vodorovne"/>
+		<item id="763" text="Vodorovne otočené"/>
+		<item id="764" text="Zvisle"/>
+		<item id="765" text="Zvisle otočené"/>
+		<item id="766" text="Vlastný"/>
+		<item id="767" text="Na šírku (%1° proti smeru hodinových ručičiek)"/>
+		<item id="768" text="Ignorovať všetko"/>
+		<item id="769" text="Brožúra"/>
+		<item id="770" text="Kniha"/>
+		<item id="771" text="Obidva"/>
+		<item id="772" text="Predný"/>
+		<item id="773" text="Zadný"/>
+		<item id="774" text="Tlačovina"/>
+		<item id="775" text="Žiadna strana nie je vybraná"/>
+		<item id="776" text="Chyba pri vkladaní obrázku z &quot;%1&quot;:&#10;%2"/>
+		<item id="777" text="Chyba pri vkladaní textu z &quot;%1&quot;:&#10;%2"/>
+		<item id="778" text="dpi"/>
+		<item id="779" text="Rozlíšenie: %1 dpi"/>
+		<item id="780" text="Vždy"/>
+		<item id="781" text="Vložené fonty"/>
+		<item id="782" text="Autodetekcia"/>
+		<item id="783" text="(%1 celkovo, %2 vybrané)"/>
+		<item id="784" text="Strana #%1"/>
+		<item id="785" text="Naposledny použitý priečinok"/>
+		<item id="786" text="Priečinok pôvodného dokumentu"/>
+		<item id="787" text="Vybrať priečinok pre &quot;uložiť ako! dokument"/>
+		<item id="788" text="Obnoviť štandardné nastavenia?"/>
+		<item id="789" text="Zmeniť na užívateľa"/>
+		<item id="790" text="Zmeniť na vlastníka"/>
+		<item id="791" text="Chyba pri zmene užívateľa pre &quot;%1&quot;:&#10;%2"/>
+		<item id="792" text="Chyba pri zmene vlastníka pre &quot;%1&quot;:&#10;%2"/>
+		<item id="793" text="Zadajte platné heslo vlastníka (neobmedzený mód prístupu)"/>
+		<item id="794" text="Zadajte platné heslo užívateľa (obmedzený mód prístupu)"/>
+		<item id="795" text="Importovať nastavania"/>
+		<item id="796" text="Exportovať nastavenia"/>
+		<item id="797" text="Chyba pri otváraní nastavení zo súboru %1, tento súbor neobsahuje správne nastavenia pre :&#10;%2"/>
+		<item id="798" text="Chyba pri ukladaní nastavení do súboru &quot;%1&quot;:&#10;%2"/>
+		<item id="799" text="Použiť nové nastavenia? Súčasné nastavenia budú prepísané."/>
+		<item id="800" text="%1  je stále aktívny."/>
+		<item id="801" text="Pre zobrazenie okna aplikácie, kliknite na %1 ikonu."/>
+	</strings>
+</Localization>

@@ -1,0 +1,227 @@
+以下命令适用于 OllyDbg 的快捷命令栏插件（显示于程序的状态栏上方）
+聆风听雨整理
+20030210
+===============================================================
+CALC
+判断表达式
+
+WATCH
+添加监视表达式
+
+AT / FOLLOW
+Disassemble at address
+在地址进行反汇编
+
+ORIG
+Disassemble at EIP
+反汇编于 EIP
+
+DUMP
+Dump at address
+在地址转存
+
+DA
+Dump as disassembly
+转存为反汇编代码
+
+DB
+Dump in hex byte format
+转存在十六进制字节格式
+
+DC
+Dump in ASCII format
+转存在 ASCII 格式
+
+DD
+Dump in stack format
+转存在堆栈格式
+
+DU
+Dump in UNICODE format
+转存在 UNICODE 格式
+
+DW
+Dump in hex word format
+转存在十六进制字词格式
+
+STK
+Go to address in stack
+前往堆栈中的地址
+
+AS + 地址 + 字符串
+Assemble at address
+在地址进行汇编
+
+L + 地址 + 字符串
+Label at address
+在地址进行标号
+
+C + 地址 + 字符串
+Comment at address
+在地址进行注释
+
+BP
+Break with condition
+使用条件中断
+
+BPX
+Break on all calls
+中断在全部调用
+
+BPD
+Delete break on all calls
+清除位于全部调用的断点
+
+BC
+Delete breakpoint
+清除断点
+
+MR
+Memory breakpt on access
+内存断点于访问时
+
+MW
+Memory breakpt on write
+内存断点于写入时
+
+MD
+Remove memory breakpoint
+清除内存断点
+
+HR
+HW break on access
+硬件中断在访问
+
+HW
+HW break on write
+硬件中断在写入
+
+HE
+HW break on execution
+硬件中断在执行
+
+HD
+Remove HW breakpoint
+清除硬件断点
+
+STOP
+停止运行程序调试
+
+PAUSE
+暂停程序调试
+
+RUN
+Run program
+运行程序进行调试
+
+Run till address
+运行到地址
+
+GE
+Run and pass exception
+运行和通过例外
+
+SI
+Step into
+步入
+
+
+SO
+Step over
+步过
+
+TI
+Trace in till address
+跟踪进入直到地址
+
+TO
+Trace over till address
+跟踪步过直到地址
+
+TC
+Trace in till condition
+跟踪进入直到条件
+
+TOC
+Trace over till condition
+跟踪步过直到条件
+
+TR
+Till return
+直到返回
+
+TU
+Till user code
+直到用户代码
+
+LOG
+View Log window
+查看记录窗口
+
+MOD
+View Modules window
+查看模块窗口
+
+MEM
+View Memory window
+查看内存窗口
+
+CPU
+View CPU window
+查看 CPU 窗口
+
+CS
+View Call Stack
+查看 Call 堆栈
+
+BRK
+View Breakpoints window
+查看断点窗口
+
+OPT
+Open Options
+打开选项
+
+EXIT / QUIT
+Quit OllyDbg
+退出 OllyDbg
+
+OPEN
+Open executable file
+打开可执行文件
+
+CLOSE
+Close executable
+关闭程序
+
+RST
+Restart current program
+恢复当前程序
+
+HELP
+Help on API function
+API 函数的帮助
+
+ASM
+Assemble (if command needs it's own addres, \"ASM COMMAND;ADDRESS\")
+汇编 (如果命令需要自身的地址 \"ASM COMMAND;ADDRESS\")
+
+DASM
+Disassemble immediate opcode
+反汇编直接的机器码
+
+FR
+Find reference to selected command/address
+查找参考到选定的命令/地址
+
+AC
+Analyse code
+分析代码
+
+SN
+Search for Name(label) in current module
+在当前模块中搜索名称(标号)
+
+SOB
+Scan object files
+扫描项目文件

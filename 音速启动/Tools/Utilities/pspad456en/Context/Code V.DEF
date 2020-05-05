@@ -1,0 +1,2087 @@
+;; PSPad code template for Code V
+;; Author: François RIGUET (francois.riguet@sagem.com)
+;;
+;; Update: 05/2010 (release 10.3)
+;;    - CVMACRO clip updated with the new ASPHEREEXPERT and other macros
+;;    - Update of ZERNIKE clip which did not display the output type 
+;;
+;; Update: 01/2010 (release 10.2)
+;;    - CVMACRO clip updated with the new user-defined tolerancing macros
+;;    - TOLFDIF and TOLMONTE clips updated to support Code V performance macros
+;;    - New helpful clips: GRAPHIC CONVERSION, ROF
+;;    - ZERNIKE has been updated to support PMA output type
+;;
+;; Update: 11/2009 (release 10.1)
+;;    - CVMACRO clip updated with the new BSP macros
+;;    - clip for SPE option has been simplified
+;;    - new useful clips: WAVELENGTHS, TOL CHANGE
+;;
+;; Update: 06.2009 (release 10.0)
+;;    - new clip for BSP option
+;;    - update of VARIABLE clip (SHR and IMG)
+;;    - update of INT clip (manages ENP/EXP interferogram)
+;;    - tree content for clip panel (to be released)
+;;    - arrays are automatically defined for functions using such variables
+;;    - new helpful clip: POLARIZATION 
+;;
+;; Update: 12.2008 (release 9.82)
+;;    - TOLFDIF and TOLMONTE clips
+;;    - parameters for functions are now shown in the correct order
+;;    - clips are now colored in the clip selector:
+;;         --> Green for helpful clips
+;;         --> Purple for functions
+;;         --> Red for options
+;;         --> Blue for image functions
+;;         --> Dark blue for plotting commands and macro clip
+;;
+;; Update: 09.2008 (release 9.82)
+;;    - ARG0 and ARGn clips
+;;    - ImageRotate function clip
+;;
+;; Update: 07.2008 (release 9.82)
+;;		- update of SPO clip
+;;		- clips for RMSSPOT and SPOTDATA macro functions
+;;    - new macros added to CVMACRO
+;;    - clips for CVWARNING and CVPUTREC macro functions
+;;
+[Macro definition]
+; definitions for functions
+%argdescription%=@E Dialog box description,,,,"
+%01argnumber%=@C Argument number,,1,1;2;3;4;5;6;7;8;9,
+%02argname%=@E NAME,,,,"
+%03argtype%=@C TYPE,,,INT;NUM;STRING;LITERAL,
+%04argchoice%=@E CHOICE (val1 val2...) (delete the line if TYPE is not CHOICE),,
+%05argdefault%=@E DEFAULT (add quotes if TYPE is STRING),,
+%06arghelp%=@E HELP,,,,"
+%01vartype%=@C Variable type,,LCL,GBL;LCL;SHR,
+%02varformat%=@C Variable format,,NUM,IMG;NUM;STR,
+%var%=@E, Variable name,^,i
+%03var%=@E, Variable name,^,i
+%lbl%=@E, Label name,,label
+%func%=@E, Function name,,func
+%retexpr%=@E, Returned expression,,^x
+%bufdelb0%=@K BUF DEL B0 ?,BUF DEL B0,
+%ffo%=@E First focus pos.,,-0.1
+%nfo%=@E Nb of focus pos.,,5
+%ifo%=@E Focus increment,,0.05
+%defocusnumber%=@E Defocus number,,1
+%03defocusnumber%=@E Defocus number,,1
+%01numinputpts%=@E Number of points,,
+%02inputcoord%=@E Input array coords,,^
+%03inputwts%=@E Input array weights,,^
+%04numquadpts%=@E Nb of quadrature pts,,
+%05quadcoord%=@E Output array coords,,^
+%06quadwts%=@E Output array weights,,^
+%expression1%=@E Expression 1,,^
+%expression2%=@E Expression 2,,^
+%01numpointsz%=@E Number of points,,
+%02xarrz%=@E X coords array,,^
+%03yarrz%=@E Y coords array,,^
+%04farrz%=@E F(X,Y) array,,^
+%05numtermsz%=@E Nb Zernike terms,,  
+%06coefsz%=@E Output array,,^
+%surfacenum%=@E Surface number,,1
+%01surfacenum%=@E Surface number,,1
+%zoompos%=@E Zoom position,,1
+%01zoompos%=@E Zoom position,,1
+%02zoompos%=@E Zoom position,,1
+%03zoompos%=@E Zoom position,,1
+%03minheight%=@E Min height,,0
+%04maxheight%=@E Max height,,(MAP S)
+%fieldnum%=@E Field number,,1
+%02fieldnum%=@E Field number,,1
+%03fieldnum%=@E Field number,,1
+%wavenum%=@E Wavelength number,,1
+%01wavenum%=@E Wavelength number,,1
+%02wavenum%=@E Wavelength number,,1
+%03wavenum%=@E Wavelength number,,1
+%04wavenum%=@E Wavelength number,,1
+%inputarray%=@E Input array,,^
+%01inputarray%=@E Input array,,^
+%04inputarray%=@E Input array,,^
+%05inputarray%=@E Input array,,^
+%06inputarray%=@E Input array,,^
+%outputgb%=@C Output,,AINC,AINC;BANG;BPNG;BSDX;BSDY;CEFF;PANG;PROP;RDCL;RDCM;RDCN;SDPX;SDPY;SURN;SURX;SURY;SURZ;WCUX;WCUY;WDSX;WDSY;WSDX;WSDY,'
+%06outputgb%=@C Output,,AINC,AINC;BANG;BPNG;BSDX;BSDY;CEFF;PANG;PROP;RDCL;RDCM;RDCN;SDPX;SDPY;SURN;SURX;SURY;SURZ;WCUX;WCUY;WDSX;WDSY;WSDX;WSDY,'
+%x%=@E X coordinate,,
+%03x%=@E X coordinate,,
+%04x%=@E X coordinate,,
+%05x%=@E X coordinate,,
+%y%=@E Y coordinate,,
+%04y%=@E Y coordinate,,
+%05y%=@E Y coordinate,,
+%06y%=@E Y coordinate,,
+%z%=@E Z coordinate,,
+%07z%=@E Z coordinate,,
+%poltypeevalz%=@C Polarization type,,0,0;1;2;3;4;5,
+%04poltypeevalz%=@C Polarization type,,0,0;1;2;3;4;5,
+%06poltypeevalz%=@C Polarization type,,0,0;1;2;3;4;5,
+%07poltypeevalz%=@C Polarization type,,0,0;1;2;3;4;5,
+%08poltypeevalz%=@C Polarization type,,0,0;1;2;3;4;5,
+%outputevalz%=@C Output type,,INTENSITY,INTENSITY;PHASE,'
+%05outputevalz%=@C Output type,,INTENSITY,INTENSITY;PHASE,'
+%07outputevalz%=@C Output type,,INTENSITY,INTENSITY;PHASE,'
+%08outputevalz%=@C Output type,,INTENSITY,INTENSITY;PHASE,'
+%09outputevalz%=@C Output type,,INTENSITY,INTENSITY;PHASE,'
+%09outputevalz2%=@C Output type,,INTENSITY,INTENSITY;PHASE;PMA,'
+%zerniketype%=@C Zernike type,,ZFR,ZFR;ZRN,'
+%06zerniketype%=@C Zernike type,,ZFR,ZFR;ZRN,'
+%08zerniketype%=@C Zernike type,,ZFR,ZFR;ZRN,'
+%09zerniketype%=@C Zernike type,,ZFR,ZFR;ZRN,'
+%10zerniketype%=@C Zernike type,,ZFR,ZFR;ZRN,'
+%04glassnum%=@C NSS glass number,,1,1;2,
+%03frequency%=@E Spatial frequency,,
+%04azimuth%=@E Bar orientation (°),,0
+%nrd%=@E Number of rays,,0
+%03nrd%=@E Number of rays,,0
+%04nrd%=@E Number of rays,,0
+%05nrd%=@E Number of rays,,0
+%outputarray%=@E Output array,,^
+%02outputarray%=@E Output array,,^
+%04outputarray%=@E Output array,,^
+%05outputarray%=@E Output array,,^
+%06outputarray%=@E Output array,,^
+%07outputarray%=@E Output array,,^
+%08outputarray%=@E Output array,,^
+%07diforgeo%=@C Computation type,,DIF,DIF;GEO,'
+%08sinorsqw%=@C Response type,,SIN,SIN;SQW,'
+%apercheck%=@C Check aperture,,0,0;1,
+%03apercheck%=@C Check aperture,,0,0;1,
+%04apercheck%=@C Check aperture,,0,0;1,
+%refsurf%=@E Reference surface,,0
+%02refsurf%=@E Reference surface,,0
+%04refsurf%=@E Reference surface,,0
+%xtan%=@E X on S1 tangent plane,,
+%ytan%=@E Y on S1 tangent plane,,
+%xdirtan%=@E OBJ space X dir. tangent,,
+%ydirtan%=@E OBJ space Y dir. tangent,,
+%focus%=@C Focus type,,NOM,BES;NOM,'
+%05focus%=@C Focus type,,NOM,BES;NOM,'
+%06focus%=@C Focus type,,NOM,BES;NOM,'
+%03curvature%=@E Ref. sphere curvature,,
+%04xinputarray%=@E X input array,,^
+%05yinputarray%=@E Y input array,,^
+%01A%=@E A matrix,,^
+%02arows%=@E A number of rows,,
+%03acols%=@E A number of columns,,
+%04U%=@E U orthogonal matrix,,^
+%05V%=@E V orthogonal matrix,,^
+%06S%=@E S singular val. matrix,,^
+%02xfld%=@E X field,,
+%03yfld%=@E Y field,,
+%05geoorstokes%=@C Output units GEO(0)/STOKES(1),,0,0;1,
+%06gridscalefact%=@E Grid scale factor,,1
+%07polinput%=@E Input polarization array,,^
+%04transdata%=@E Transform array,,^
+%zcoefnum%=@E Zernike coefficient,,
+%04zcoefnum%=@E Zernike coefficient,,
+%numterms%=@E Zernike terms number,,0
+%05numterms%=@E Zernike terms number,,0
+%06numterms%=@E Zernike terms number,,0
+%pupilcoordtype%=@C Pupil type,,ENP,ENP;EXP;EXS,'
+%06pupilcoordtype%=@C Pupil type,,ENP,ENP;EXP;EXS,'
+%07pupilcoordtype%=@C Pupil type,,ENP,ENP;EXP;EXS,'
+%numrows%=@E Number of rows,,
+%02numrows%=@E Number of rows,,
+%07numrows%=@E Number of rows,,
+%numcols%=@E Number of columns,,
+%03numcols%=@E Number of columns,,
+%08numcols%=@E Number of columns,,
+%bufnum%=@E Buffer number,,
+%01bufnum%=@E Buffer number,,
+%04bufnum%=@E Buffer number,,
+%03startrow%=@E Start row,,
+%04endrow%=@E End row,,
+%05startcol%=@E Start column,,
+%06endcol%=@E End column,,
+%01dcomp%=@C FFT dimension,,1D,1D;2D,
+%02tcomp%=@C Data type,,C,C,
+%03scomp%=@C Data format (array or buffer),,A,A;B,
+%04cenin%=@C Input origin,,CEN,CEN;UL,"
+%05cenout%=@C Output origin,,CEN,CEN;UL,"
+%06fdata%=@C I/O array or buffer number,,^
+%09fwd%=@C FFT direction,,1,0;1,
+%01comp%=@E Complex numbers array,,^
+%02comp%=@E Complex numbers array,,^
+%02mag%=@E Magnitudes array,,^
+%03nummags%=@E Nb of mag. created,,
+%02imag%=@E Imaginary nbs array,,^
+%03numimags%=@E Nb of imag. created,,
+%01real%=@E Real numbers array,,^
+%02real%=@E Real numbers array,,^
+%03numreals%=@E Nb of reals created,,
+%03numrealsconv%=@E Nb of reals converted,,
+%02scale%=@E Scale factor,,
+%numvals%=@E Nb of values in array,,
+%02numvals%=@E Nb of values in array,,
+%03numvals%=@E Nb of values in array,,
+%stringexpr1%=@E String expr. 1,,
+%stringexpr2%=@E String expr. 2,,
+%stringexpression%=@E String expression,,
+%01stringexpression%=@E String expression,,
+%substringexpr%=@E Sub-string expression,,
+%02substringexpr%=@E Sub-string expression,,
+%numexpression%=@E Number expression,,
+%rfexpression%=@E Replacement field expr.,,
+%begexpr%=@E Begin number,,
+%02begexpr%=@E Begin number,,
+%lengthexpr%=@E Length number,, 
+%03lengthexpr%=@E Length number,, 
+%01errormsg%=@E Error message,,,,"
+%01warningmsg%=@E Warning message,,,,"
+%infomessage%=@E Info message,,,,"
+%02contline%=@C Continuation line,,0,0;1,
+%fctname%=@E Function name (no @),,,,"
+%varname%=@E Variable name (no ^),,,,"
+%04asbuilttype%=@C Output type,,NOM,NOM;MEA;SIG;S2C;S2V,'
+%01prvwvl%=@K Define wavelength ?,PWL,
+%02prvwavelengths%=@E Wavelengths,,
+%03prvglassname%=@E Glass name (no quotes),,,,'
+%04prvmlt%=@K Melt fit ?,MLT,
+%05prvrefglass%=@E Ref glass for melt fit,,,
+%06prvdispersiontype%=@C Dispersion type,,,GMS;LAU;GML;GMS;SLM;CAU;HAR,
+%07prvindicesorcoefs%=@E Indices or coefs,,,
+%1project%=@E Project name ?,,
+%2comment%=@E Comment ?,,
+%color%=@C Color ?,,RED,RED;GRE;BLU;MAG;YEL;CYA;PIN;WHI;GRA;CHA;BLA;RUS;CHI;FOR;BAB;ROY,
+%01pthfile%=@C File type,,SEQ,INT;LEN;SEQ,
+%02pthmode%=@C Mode,,APP,APP;DEL;PRE,
+%03pthpath%=@S Path(s),,
+%01opetype%=@C Open mode,,NEW,APP;NEW;OLD,
+%02opevariable%=@E Variable name,,data
+%03opefilename%=@E File name,,
+%04fileext%=@E File extension,,txt
+%fieldtype%=@C Field type,,,OBJ;IMG;RIH;ANG,'
+%04spoerrornrd%=@E Error (<1) or NRD (>1),,0.01
+%05spotref%=@C Spot size ref. location,,DEF,CEN;CRA;DEF;MSC;USR,"
+%06spotxoffset%=@E X offset from chief ray (USR),,0
+%07spotyoffset%=@E Y offset from chief ray (USR),,0
+%cvmacro%=@C Code V macro,,,ABBE;ABERRATIONGENERATOR;ACHROMAT;APSET;ARCHERPRV;ASPHEREEXPERT;ASPHEREEXPERT_ANALYZE;ASPHEREEXPERT_MAIN;ASPHEREEXPERT_PRINT;AUT_GAUSS_POLGRID;AUT_GRID_RET;AUT_GRID_RET_FCT;AUT_POLGRID_FCT;AUTOGRID;AUTOGRIDGQ;BAUSCHPRV;BEACEF1;BEAMPLOT;BEAMREAD;BENDABER;BENDBACK;BENDFR;BESSELDEF;BFLPLOT;BICONVEX;BINFAB;BIRMAT;BSP_BSPAIRY1;BSP_BSPAIRY2;BSP_BSPSPARSEAPER;BSP_INPUTSPHERICAL;BSP_ONE_D_APOD;BSP_RESAMP_GRIDS;BSP_RESAMP_GRIDS2;BSP_RESAMP_PINHOLE;BSP_RESAMP_RAYWAVE_DISC;BSP_SUMMARY_TABLE;BSP_TIMINGTEST1;BSP_TIMINGTEST2;BSP_TIMINGTEST3;BUFDEL;BUMP;CATALOG;CEF_VS_FOCUS;CEF_VS_WL;CEFERRF;CHINAPLOT;CHINAPLOT1;CIRPLT;CLOSEPLT;COLORPLT;CONE;CRADJ;CRADJFZ;CSETBBOX;CVCURVATUREX;CVEVALEXPR;CVEVALEXPR2;CVNEWLENS;CVQUICKRIM;CVSETFIELD;CVSETFLDTYPE;CVTFIELD;CVTPOLAR;CVTPUPIL;CVZOOMFIELD;DATABASE;DATACOMM;DATAMAKE;DB_CONVERT;DEFINE_JMRCC;DEFLENG;DEFMAXB;DELDECENTER;DELTA;DERDEF;DERFDF;DERSCA;DERVAL;DIST;DNDTCALC;DOCFLAT;DOE2DPLT;DOEFFIC;DOEPARM;DOESAG;DOESET;DOESLICE;DOVE;DRAWPLT;DRTAB;EDGVIG;ELLIPSE;EPJTAB;EPSTAB;ERFPLOT;EXSTNDEF;EXTLEN;F1HYBRID;FFT2DMTF;FIBER;FIBERCLD;FIBERSCA;FIFTHDEF;FINDKEY;FL;FLGINT;FLNINT;FLPLOT;FOOAPE;FOOPOLY;FORDER;FORDER1;FPEAK;FRAMEPLT;FRANK3;FRANK4;FRANK5;GAUSS_APOD_SINE;GHOST_VIEW;GHOSTDEF;GLABPLT;GLASSEXPERT;GLASSFIT;GRIN_COUPLE;GRIN_FIBER;GRIN_FIBER1;HCODEFS;HCODOUB;HCOEFFIC;HCOEFPLT;HCOMASK;HCOPHTAB;HCOPLOT;HCORTOXY;HCOSAMPL;HCOSCAN1;HCOSCAN2;HCOSCAUT;HCOSCVIE;HCOSYM;HCOUVSIN;HCOVAR;HCOWLEFF;HCOXYTOR;HELPLT;HERMITEDEF;HIKARIPRV;HISTPLT2;HOEPHASE;IJTAB;ILFOOGET;ILGRDBUF;ILINTFIL;ILREFSPH;ILREVERS;ILTRAGET;INITPLT;INPUT;INPUT_FIBER_APOD;INSWL;IRREG_POLYGON_APE;ISODEFS;ISOPLOT;ISOPLOT1;JMCTAB;JMTAB;JVEC;LABELPLT;LATCOLOR;LDIRPLT;LENSTABLE;LIST;LISTDEC;LOOPDEM1;LOOPDEM2;LOOPDEM3;LOOPHELP;LOOPINIT;LOOPLAY;LOOPOPT;LOOPTEXT;LOOPVCOM;LOOPVIEW;LOOPZOOM;LOOPZRIM;LSIZPLT;LUMSPOT;LUNEBERG;MACRO;MACROLIB;MAKEFAVE;MAKEGLBS;MAKESAMP;MINSPHERICAL;MMCTAB;MMTAB;MONTECAR;MOVEPLT;MTFDET;MTFDOF;MTFTAB;MTFVSFLD;MUL2COA;MULTIMODE_COUPLE;MULTIMODE_FIBER;MULTIMODE_FIBER1;MULTIPLT;NODP;NODPADJ;NTSF;OFEXPORT;OPP_ANALYZE;ORAPLT;OSACRYSTALPRV;PAR_BOSSUNG;PAR_RESIST_PROFILE;PARDST;PARFC;PARTEST;PATENT;PAVE_MM;PAVE_SV;PECHAN;PECHAN1;PECHAN2;PENTA;PERTURB;PILKINGTONPRV;PLASTICPRV;PLOT_GL;PLOTWL;PLUSPLT;PMCTAB;PMTAB;POLAR;POLDSP;POLYAPE;POLYPIPE;PORRO;PRINT_OPP_SUMMARY;PROLITH;PRVPL;PSFDEF;PSFPLOT;PSFSIZE;PUPAVG_STOKES_FWZ;PVTAB;QUICKAUTO;QUICKVIEW;RDRAWPLT;READLINE;READTEST;RECTPLT;REFCHECK;REFLIMIT;REFRAYS;REVERS;RMIN;RMOVEPLT;RSIVIEW;RTANG;SAMPLT;SCALEPLT;SCHOTTIRPRV;SEARCH;SETAFOCAL;SETFOCALSURFACE;SETVIG;SETXYAN;SETXYIM;SETXYOB;SKIPLINE;SPCFLD;SPECMAT;SPHIST;SPLINE;SPOT2D;SPOTDET;SPT;SPTAB;STACKPLOTS;STARTPLT;SUMITAPRV;SUR;SURC;SVEC;SYMBPLT;TESGLASS;THERM_ENV;THERM_N;THERMPIK;TOLCHNG;TOLCOMP;TOLENC;TOLERANC;TOLFDIF;TOLHELP;TOLIMAGE_AOI;TOLLATCOLOR;TOLLIST;TOLMONTE;TOLMTF;TOLPLOT;TOLSPOT;TOLSTREHL;TOLWARNING;TOLZERNIKE;UDG_RADX_930;UDG_RADX_SAMPLE;UDI_APERTURE_930;UDI_APERTURE_SAMPLE;UDS_DMD_930;UDS_DMD_SAMPLE;UDS_FLYSEYE_930;UDS_FLYSEYE_SAMPLE;UDS_SINUSOID_930;UDS_SINUSOID_SAMPLE;UDS_WINSTONCPC_930;UDS_WINSTONCPC_SAMPLE;UDS_XTO20_930;UDS_XTO20_SAMPLE;UDSFIT;UDSFRESN;UMICOREPRV;UNVIG;UNWRAP;USERGRN;USERHOE;USERHOE2;USERINT;USERSUR;USERSUR1;USERSUR2;USERSUR3;USERUSP;UTOLCHNG;VFA;VFA_DEF;VFA_MAIN;VP_DATA;VP_PLOT;VSAVE;YYB;YYBAR;YYBCONV;YYBHELP;YYBNEW;YYBPLOT;YYBREAD;YYBSAVE;YYBSETUP;YYBSPC;ZCIR;ZEMAXTOCV;ZLI,
+%lenfile%=@O LEN file,,,LEN files (*.len)|*.len,',A
+%seqfile%=@O SEQ file,,,SEQ files (*.seq)|*.seq,',A
+%01surface%=@E Surface number,, 
+%02mulfile%=@O MUL file,,,MUL files (*.mul)|*.mul,',A
+%01surfaceorfield%=@C Surface or field ?,,S,F;S,
+%02surfaceorfieldnumber%=@E Surface or field number,,
+%03exporenp%=@C Entrance or exit pupil (for field),,,ENP;EXP,
+%04intfile%=@O INT file,,,INT files (*.int)|*.int,',A
+%01tollenfile%=@O LEN file,,,LEN files (*.len)|*.len,',A
+%02tolcodevmetric%=@C Code V metric,,,CV_MACRO:TOLENC;CV_MACRO:TOLIMAGE_AOI;CV_MACRO:TOLLATCOLOR;CV_MACRO:TOLMTF;CV_MACRO:TOLSPOT;CV_MACRO:TOLSTREHL;CV_MACRO:TOLZERNIKE,
+%03tolusermetric%=@O OR user defined metric,,,SEQ files (*.seq)|*.seq,',A
+%04tolcomp%=@O Compensation file,,,SEQ files (*.seq)|*.seq,',A
+%05tolfdiflisttol%=@C List tolerances,,Y,Y;N
+%06tolfdifplot%=@C Probability plot,,Y,Y;N
+%07tolfdifzoom%=@C Separate zoom positions,,N,Y;N
+%08tolfdifcompstart%=@C Compensate starting position,,Y,Y;N
+%09tolfdifparam%=@E Additional parameters (up to 5),,
+%05tolmontenumtrials%=@E Number of trials,,100
+%06tolmontelisttol%=@C List tolerances,,Y,Y;N
+%07tolmonteplot%=@C Probability plot,,Y,Y;N
+%08tolmontezoom%=@C Separate zoom positions,,N,Y;N
+%09tolmontelisttrials%=@C List perf for each trial,,N,Y;N
+%10tolmonteexporttrials%=@C Export trials as .seq,,N,Y;N
+%11tolmontereporterrors%=@C Report ray errors,,N,Y;N
+%12tolmonteaccumulate%=@C Accumulate with previous runs,,N,Y;N
+%13tolmontecompstart%=@C Compensate starting position,,Y,Y;N
+%14tolmonteunifproba%=@C Uniform distribution for 2D decenter tolerances,,N,Y;N
+%15tolmonteparam%=@E Additional parameters (up to 4),,
+%06numforbesnom%=@C Array 1st dim (5 for NOM / 10 for BES),,5,5;10
+%00numpoints%=@E Number of points,,
+%09trafldIGNORE%=@C Ignore polarization input ?,,"1 ! use polarization input","0 ! ignore polarization input";"1 ! use polarization input",
+%10trafldPFR%=@E PFR fraction of polarized light (0 to 1),,1
+%11trafldPTP%=@E PTP polarization type from 0 (linear) to 1 (circular),,0
+%12trafldPOR%=@E POR polarization orientation with respect to Y axis,,0
+%13trafldPRO%=@C PRO rotation of E vector,,"1 ! PRO: right-handed","1 ! PRO: right-handed";"-1 ! PRO: left-handed"
+%07minrowcol%=@E Minimum of Nrows and Ncolumns,,
+%01polpfr%=@E Fraction of polarization (0 to 1),,1
+%02polptp%=@C Polarization type (LIN-CIR or ratio),,LIN,;CIR;LIN,
+%03polpor%=@E Polarization orientation wrt Y axis,,0
+%04polpro%=@C Polarisation rotation (right or lefthanded),,RT,LT;RT,
+%01wl%=@K Nd:YAG (1064 nm),1064
+%02wl%=@K Nd:Glass (1060 nm),1060
+%03wl%=@K t (Hg - 1013.9 nm),1013.9
+%04wl%=@K s (Cs - 852.1 nm),852.1
+%05wl%=@K A' (K - 768.2 nm),768.2
+%06wl%=@K r (He - 706.5 nm),706.5
+%07wl%=@K C (H - 656.3 nm),656.3
+%08wl%=@K C' (Cd - 643.8 nm),643.8
+%09wl%=@K He-Ne (632.8 nm),632.8
+%10wl%=@K D (Na - 589.3 nm),589.3
+%11wl%=@K d (He - 587.6 nm),587.6
+%12wl%=@K e (Hg - 546.1 nm),546.1
+%13wl%=@K Nd:YAG (546 nm),546
+%14wl%=@K F (H - 486.1 nm),486.1
+%15wl%=@K F' (Cd - 480.0 nm),480.0
+%16wl%=@K He-Cd (441.6 nm),441.6
+%17wl%=@K g (Hg - 435.8 nm),435.8
+%18wl%=@K h (Hg - 404.7 nm),404.7
+%19wl%=@K K (Ca - 393.4 nm),393.4
+%20wl%=@K i (Hg - 365 nm),365
+%21wl%=@K KrF (248 nm),248
+%22wl%=@K ArF (193 nm),193
+%23wl%=@K F2 (157 nm),157
+%24wl%=@K EUV (13.5 nm),13.5
+%01TSFprobadistrib%=@C Probability distribution, ,,G2D;U2D,
+%01GCVformat%=@C Image format,,EMF,BMP;DXF;EMF;EPS;GIF;JPG;PNG;PS;TIF;WMF,
+%02GCVfile%=@O Graphic file,,,Code V graphic files (*.plt;*.ras;*.v3d)|*.plt;*.ras;*.v3d,',A
+%01ROFparameter%=@C ROF parameter 1,,X,X;Y;Z;L;M;N;TNX;TNY;AOI;AOR;LEN;SRL;SRM;SRN;POL;PXI;PYI;PFR;PTP;POR;PRO;JR1;JR2;JR3;JR4;JI1;JI2;JI3;JI4;MGS;MGP;PHS;PHP;JNS;SLB,
+%02ROFparameter%=@C ROF parameter 2,,Y,X;Y;Z;L;M;N;TNX;TNY;AOI;AOR;LEN;SRL;SRM;SRN;POL;PXI;PYI;PFR;PTP;POR;PRO;JR1;JR2;JR3;JR4;JI1;JI2;JI3;JI4;MGS;MGP;PHS;PHP;JNS;SLB,
+%03ROFparameter%=@C ROF parameter 3,,Z,X;Y;Z;L;M;N;TNX;TNY;AOI;AOR;LEN;SRL;SRM;SRN;POL;PXI;PYI;PFR;PTP;POR;PRO;JR1;JR2;JR3;JR4;JI1;JI2;JI3;JI4;MGS;MGP;PHS;PHP;JNS;SLB,
+%04ROFparameter%=@C ROF parameter 4,,L,X;Y;Z;L;M;N;TNX;TNY;AOI;AOR;LEN;SRL;SRM;SRN;POL;PXI;PYI;PFR;PTP;POR;PRO;JR1;JR2;JR3;JR4;JI1;JI2;JI3;JI4;MGS;MGP;PHS;PHP;JNS;SLB,
+%05ROFparameter%=@C ROF parameter 5,,M,X;Y;Z;L;M;N;TNX;TNY;AOI;AOR;LEN;SRL;SRM;SRN;POL;PXI;PYI;PFR;PTP;POR;PRO;JR1;JR2;JR3;JR4;JI1;JI2;JI3;JI4;MGS;MGP;PHS;PHP;JNS;SLB,
+%06ROFparameter%=@C ROF parameter 6,,N,X;Y;Z;L;M;N;TNX;TNY;AOI;AOR;LEN;SRL;SRM;SRN;POL;PXI;PYI;PFR;PTP;POR;PRO;JR1;JR2;JR3;JR4;JI1;JI2;JI3;JI4;MGS;MGP;PHS;PHP;JNS;SLB,
+%07ROFparameter%=@C ROF parameter 7,,SLB,X;Y;Z;L;M;N;TNX;TNY;AOI;AOR;LEN;SRL;SRM;SRN;POL;PXI;PYI;PFR;PTP;POR;PRO;JR1;JR2;JR3;JR4;JI1;JI2;JI3;JI4;MGS;MGP;PHS;PHP;JNS;SLB,
+%08ROFparameter%=@C ROF parameter 8,,,X;Y;Z;L;M;N;TNX;TNY;AOI;AOR;LEN;SRL;SRM;SRN;POL;PXI;PYI;PFR;PTP;POR;PRO;JR1;JR2;JR3;JR4;JI1;JI2;JI3;JI4;MGS;MGP;PHS;PHP;JNS;SLB,
+%09ROFparameter%=@C ROF parameter 9,,,X;Y;Z;L;M;N;TNX;TNY;AOI;AOR;LEN;SRL;SRM;SRN;POL;PXI;PYI;PFR;PTP;POR;PRO;JR1;JR2;JR3;JR4;JI1;JI2;JI3;JI4;MGS;MGP;PHS;PHP;JNS;SLB,
+%10ROFparameter%=@C ROF parameter 10,,,X;Y;Z;L;M;N;TNX;TNY;AOI;AOR;LEN;SRL;SRM;SRN;POL;PXI;PYI;PFR;PTP;POR;PRO;JR1;JR2;JR3;JR4;JI1;JI2;JI3;JI4;MGS;MGP;PHS;PHP;JNS;SLB,
+;
+; definitions for options
+%01alifield%=@E Field number,,
+%02aliint%=@O INT file,,,INT files (*.int)|*.int,',A
+%beawrx%=@E X beam half width,,
+%beawry%=@E Y beam half width,,
+%01bionel%=@E Number of elevation,,21
+%02bioofs%=@E Elevation offset (°),,0
+%03biouni%=@C Display units,,LNS,AMI;ASE;LNS;MCR;MIC;MIL;MLR,
+%01camncs%=@E Cam steps,,200
+%02camlla%=@E Parameter label,,,,'
+%01cefmpr%=@C Mode profile,,GAU,FIL;GAU;STE,
+%02cefr%=@E Radius or file,,
+%03cefn%=@E Delta n or file radius,,
+%04cefa%=@E File angle,,
+%01cosbld%=@E Block diameter,,300
+%02cossep%=@E Edge to edge gap,,0.8
+%03cosste%=@E Max steepness (°),,160
+%04cosmax%=@E Max number of elements,,100
+%05cosedg%=@E Edge increment,,1
+%06cosdth%=@E Thickness increment,,1.5
+%cxptyp%=@C Export format,,STEP,IGES;SAT;STEP,
+%cxpfil%=@E File name,,
+%elenot1%=@E Note 1,,All dimensions in mm,,'
+%elenot2%=@E Note 2,,,,'
+%elenot3%=@E Note 3,,,,'
+%elenot4%=@E Note 4,,,,'
+%1envtem%=@E Temperature,,20
+%2envexp%=@K Mount / Spacer ?,EXP,
+%3envmat%=@C Material,,,AL1100;AL2024;AL6061;AL7075;ALUMINA;BECU172;BEI70A;BEI220;BEI400;BEO;BES200F;BRASSC;BRASSF;CERVIT;CORDIERITE;CR39;CU101;CU102;DUCTILE;EPOXY;FS7940;FSAMERSIL;GRANITE;GREPOXY;INVAR35;INVAR36;KOVAR;LEXAN;MEGE30;MGAZ31BF;MGM1A;MMGRAL;MOLYLCG;MOLYTZM;NYLON;PLEXI;SIC;SINVAR;SS303;SS304;SS316;SS416;SS430;SS440;STEEL1015;STYRENE;SXA20;SXA30;SXA40;T400;TBB;TI;TI6AL4V;TSINVAR;TSTEEL;ULE;ZERODUR,
+%4envpre%=@K Pressure ?,PRE,
+%5envgas%=@C Gas,,,ARGON;ETHANE;HELIUM;HYDROG;MTHANE;NITROG;OXYGEN,
+%6envmmhg%=@E Pressure (mm Hg),,
+%01fabsag%=@K Compute asphere sag,SAG S,
+%02fabbes%=@K Best sphere fit,BES,
+%03fabsagsurf%=@E Asphere surface,,
+%04fabspa%=@K Spacer table,SPA,
+%05fabgsc%=@K Global ref. table,GSC,
+%06fabdis%=@K Display interferogram,DIS,
+%07fabint%=@K Interferogram fringes,INT,
+%08fabintfile%=@E INT file,
+%fielsa%=@K Spherical aberration,LSA,
+%fieastchr%=@K Astigmatism chrom.,AST CHR,
+%fiedstchr%=@K Distorsion chrom.,DST CHR,
+%fma01maptype%=@C Map type,,DST,AST;BDE;CCD;CTD;DSC;DST;RSD;RWE;WPO;MTF;MTQ;GMT;GMQ,
+%fma02frequency%=@E Frequecy for MTF ?,,
+%fma03fieldtype%=@C Field type,,IMG,OBJ;IMG;RIH;ANG;AZE,
+%fma04circularfield%=@K Circular field ?,CIR,
+%foonrd%=@E Number of rays,,11
+%foobou%=@C Draw boundary,,Y,N;Y,
+%foodap%=@K Draw aperture,DAP,
+%01fovssi%=@E Scale,,1
+%02fovlis%=@K List rays ?,LIS
+%gdenrd%=@E Number of rays,,20
+%ghofsurf%=@E First surface,,1
+%gholsurf%=@E Last surface,,i-1
+%gldtype%=@C Data to list,,GPR,GLI;GPT;MLI;REL;TLI,
+%gldcat%=@C Glass catalog,,,CHANCE;CHINA;CORNFR;CORNING;HIKARI;HOYA;KODAK;NSG;OHARA;PILKINGTON;SCHOTT;SPECIAL;SUMITA,
+%gldglass%@E Glass name,,
+%libtype%=@C File type,,*,*;LEN;SEQ;INT;LIS;PLT;MUL;TXT;DAT,
+%libdir%=@K List directory ?,DIR
+%libdirectory%=@E Directory,,
+%libpur%=@K Purge old versions ?,PUR
+%ltename%=@E File name,,
+%lum01sha%=@C Source shape,,PNT,CYL;ELL;INF;PNT;REC;SPH,
+%lum02shadim%=@E Source full dimensions,,20 20
+%lum11src%=@K Source position ?,SRC,
+%lum12rap%=@K Radiance profile ?,RAP, 
+%lum15anp%=@K Angular profile ?,ANP,
+%lum03rcv%=@E Receiver dimensions,,10 10
+%lum04rcg%=@E Receiver grid,,100 100
+%lum07dis%=@K Display ?,DIS,DIS
+%lum09pro%=@K Profile ?,PRO,
+%lum05nra%=@E Number of rays,,10000
+%lum08rel%=@K Relative ?,REL,REL,
+%lum10clr%=@K Clear results ?,CLR,
+%lum06sym%=@C Symetry type,,NON,NON;QUA;ROT;XZ;YZ,
+%lum13raptype%=@C Radiance type,,,FIL;GAU;UNI,
+%lum16anptype%=@C Angular type,,,COS;FIL;GAU;LAM;UNI
+%lum14rapfil%=@E Radiance file and scale,,,
+%lum17anpfil%=@E Angular file and scale,,,
+%01lsflis%=@K List points ?,LIS
+%02lsftgr%=@E Transform grid,,128
+%mtffoc%=@K Through focus plot ?,PLO FOC; FRE,
+%mtffre%=@E Spatial frequency,,
+%1multit%=@E Title,,,,'
+%2mulpht%=@C Physical thickness ?,,Y,Y;N,
+%3mulres%=@K Restore file ?,RES
+%4mulfres%=@E File to restore,,
+%5mulsav%=@K Save file ?,SAV
+%6mulfsav%=@E File to save in,,
+%narsurf%=@E Cold stop surface,,1
+%parrna%=@E Partial coherence factor,,0.5
+%parbarnum%=@E Number of bars,,5
+%parbarwidth%=@E Bar width,,0.005
+%1pmalis%=@C List data,,N,Y;N,
+%2pmaplo%=@C Plot wavefront,,N,Y;N,
+%3pmadis%=@C Display wavefront,,Y,Y;N,
+%4pmazernike%=@C Zernike decomposition,,,ZFR;ZRN,
+%5pmaznumterms%=@E Zernike terms number,,
+%1psflis%=@C List data,,N,Y;N,
+%2psfplo%=@C Plot PSF,,N,Y;N,
+%3psfdis%=@C Display PSF,,Y,Y;N,
+%radcoo%=@K Circle centers coords.,COO
+%rimwfr%=@K OPD curves,WFR,1
+%01spebla%=@E Black body temperature,,3000
+%02speresponse%=@C Spectral response #1,RSP ,P_1,P_1;P_11;P_16;P_20;P_24;S_1;S_20EX;RCA_I;RCA_II;RCA_III;RCA_IV;RCA_V;RCA_VI;RCA_VII;EARTH;EYE;PHOTOPIC;SCOTOPIC;WRA_2A;WRA_2B;WRA_2C;WRA_2E;WRA_3;WRA_4;WRA_8;WRA_9;WRA_12;WRA_15;WRA_16;WRA_21;WRA_22;WRA_23A;WRA_24;WRA_25;WRA_26;WRA_29,
+%03speresponse%=@C Spectral response #2,RSP ,,P_1;P_11;P_16;P_20;P_24;S_1;S_20EX;RCA_I;RCA_II;RCA_III;RCA_IV;RCA_V;RCA_VI;RCA_VII;EARTH;EYE;PHOTOPIC;SCOTOPIC;WRA_2A;WRA_2B;WRA_2C;WRA_2E;WRA_3;WRA_4;WRA_8;WRA_9;WRA_12;WRA_15;WRA_16;WRA_21;WRA_22;WRA_23A;WRA_24;WRA_25;WRA_26;WRA_29,
+%04speresponse%=@C Spectral response #3,RSP ,,P_1;P_11;P_16;P_20;P_24;S_1;S_20EX;RCA_I;RCA_II;RCA_III;RCA_IV;RCA_V;RCA_VI;RCA_VII;EARTH;EYE;PHOTOPIC;SCOTOPIC;WRA_2A;WRA_2B;WRA_2C;WRA_2E;WRA_3;WRA_4;WRA_8;WRA_9;WRA_12;WRA_15;WRA_16;WRA_21;WRA_22;WRA_23A;WRA_24;WRA_25;WRA_26;WRA_29,
+%05speresponse%=@C Spectral response #4,RSP ,,P_1;P_11;P_16;P_20;P_24;S_1;S_20EX;RCA_I;RCA_II;RCA_III;RCA_IV;RCA_V;RCA_VI;RCA_VII;EARTH;EYE;PHOTOPIC;SCOTOPIC;WRA_2A;WRA_2B;WRA_2C;WRA_2E;WRA_3;WRA_4;WRA_8;WRA_9;WRA_12;WRA_15;WRA_16;WRA_21;WRA_22;WRA_23A;WRA_24;WRA_25;WRA_26;WRA_29,
+%06speresponse%=@C Spectral response #5,RSP ,,P_1;P_11;P_16;P_20;P_24;S_1;S_20EX;RCA_I;RCA_II;RCA_III;RCA_IV;RCA_V;RCA_VI;RCA_VII;EARTH;EYE;PHOTOPIC;SCOTOPIC;WRA_2A;WRA_2B;WRA_2C;WRA_2E;WRA_3;WRA_4;WRA_8;WRA_9;WRA_12;WRA_15;WRA_16;WRA_21;WRA_22;WRA_23A;WRA_24;WRA_25;WRA_26;WRA_29,
+%07speresponse%=@C Spectral response #6,RSP ,,P_1;P_11;P_16;P_20;P_24;S_1;S_20EX;RCA_I;RCA_II;RCA_III;RCA_IV;RCA_V;RCA_VI;RCA_VII;EARTH;EYE;PHOTOPIC;SCOTOPIC;WRA_2A;WRA_2B;WRA_2C;WRA_2E;WRA_3;WRA_4;WRA_8;WRA_9;WRA_12;WRA_15;WRA_16;WRA_21;WRA_22;WRA_23A;WRA_24;WRA_25;WRA_26;WRA_29,
+%08speresponse%=@C Spectral response #7,RSP ,,P_1;P_11;P_16;P_20;P_24;S_1;S_20EX;RCA_I;RCA_II;RCA_III;RCA_IV;RCA_V;RCA_VI;RCA_VII;EARTH;EYE;PHOTOPIC;SCOTOPIC;WRA_2A;WRA_2B;WRA_2C;WRA_2E;WRA_3;WRA_4;WRA_8;WRA_9;WRA_12;WRA_15;WRA_16;WRA_21;WRA_22;WRA_23A;WRA_24;WRA_25;WRA_26;WRA_29,
+%09speresponse%=@C Spectral response #8,RSP ,,P_1;P_11;P_16;P_20;P_24;S_1;S_20EX;RCA_I;RCA_II;RCA_III;RCA_IV;RCA_V;RCA_VI;RCA_VII;EARTH;EYE;PHOTOPIC;SCOTOPIC;WRA_2A;WRA_2B;WRA_2C;WRA_2E;WRA_3;WRA_4;WRA_8;WRA_9;WRA_12;WRA_15;WRA_16;WRA_21;WRA_22;WRA_23A;WRA_24;WRA_25;WRA_26;WRA_29,
+%10speresponse%=@C Spectral response #9,RSP ,,P_1;P_11;P_16;P_20;P_24;S_1;S_20EX;RCA_I;RCA_II;RCA_III;RCA_IV;RCA_V;RCA_VI;RCA_VII;EARTH;EYE;PHOTOPIC;SCOTOPIC;WRA_2A;WRA_2B;WRA_2C;WRA_2E;WRA_3;WRA_4;WRA_8;WRA_9;WRA_12;WRA_15;WRA_16;WRA_21;WRA_22;WRA_23A;WRA_24;WRA_25;WRA_26;WRA_29,
+%11speresponse%=@C Spectral response #10,RSP ,,P_1;P_11;P_16;P_20;P_24;S_1;S_20EX;RCA_I;RCA_II;RCA_III;RCA_IV;RCA_V;RCA_VI;RCA_VII;EARTH;EYE;PHOTOPIC;SCOTOPIC;WRA_2A;WRA_2B;WRA_2C;WRA_2E;WRA_3;WRA_4;WRA_8;WRA_9;WRA_12;WRA_15;WRA_16;WRA_21;WRA_22;WRA_23A;WRA_24;WRA_25;WRA_26;WRA_29,
+%01sponrd%=@E Number of rays,,20
+%02spopat%=@C Ray pattern,,GRD,CIR;GRD;SOB,
+%03spoair%=@K Display Airy disk ?,AIR
+%04spoannspo%=@C 100% spot annotation,,n,n;y, 
+%05spoannrms%=@C RMS spot annotation,,n,n;y,
+%06sportl%=@E Error for RMS (<1) or NRD (>1),,0.01
+%07sportlnrd%=@K Use NRD for spot computation ?,NRD
+%1sssx%=@E X lamp position,,0
+%1sssy%=@E Y lamp position,,0
+%3sssusr%=@E Surface number,S,1
+%4ssscha%=@E Channel number,,1
+%5sssxdec%=@E Channel X decenter,,0
+%6sssydec%=@E Channel Y decenter,,0
+%7ssssim%=@E Polynomial order,,3
+%8sssplo%=@K Plot ?,PLO
+%tesplaseq%=@O Test plate list (.seq),,,SEQ files (*.seq)|*.seq,',A
+%tesstrategy%=@C Fitting strategy,,GAP,FUR;GAP;NEA;POW;STC,
+%toduni%=@C Distortion unit,,LNS,AMI;ASE;LNS;MCR;MLR;MIC;MIL,
+%1toltab%=@C Output table 1,,FIR,CEN;DEC;DEF;DER;FIR;IRR;THI;THR,
+%2toltab%=@C Output table 2,,,CEN;DEC;DEF;DER;FIR;IRR;THI;THR,
+%3toltab%=@C Output table 3,,,CEN;DEC;DEF;DER;FIR;IRR;THI;THR,
+%4tolfunc%=@C Functions,,,AVE;INV;MON;PER;SNA;SNS;TAB,
+%5tolperf%=@C Performance for INV/MON/SNS,,,IMA;EFL;EP;OBJ;TT;RED; ;SA;COM;ASS;AST;DST;AX;LAT;XFO;YFO; ;RSA;RCO;RAS;RFC;RFI;RMA;RMF; ;DDI;DDT;DDR;DCO;DAS;DTI;DRC;DRA;DRN;DFT;DFN; ;AXI;EDG;EDF,
+%1tortype%=@C Tolerancing type,,SNS,INV;SNS,
+%2torfre%=@K MTF tolerancing ?,FRE
+%3torfreq%=@E Spatial frequency,,
+%1ugrtit%=@E Title,,,,'
+%2ugrtype%=@C Plot type,,DTB,PNT;LIN;SPL; ;DTB;BIM;SFP;VIS,
+%01v3dsur%=@E Surface range,,a
+%02v3dcab%=@K Clear obscured rays ?,CAB
+%03v3dfan%=@C Fan of rays ?,,,"FAN XZ";"FAN YZ",
+%04v3dfannumber%=@E Number of rays (for fan),
+%05v3dgrd%=@C Grid of rays ?,,,"GRD REC";"GRD POL",
+%06v3dgrdx%=@E Number of X rays/rings (for grid),
+%07v3dgrdy%=@E Number of Y rays/spokes (for grid),
+%01viesur%=@E Surface range,,a
+%02viefan%=@K Fan of rays ?,FAN
+%03viecab%=@K Clear obscured rays ?,CAB
+%04vienbr%=@C Surface / element number ?,,,"NBR SUR";"NBR ELE",
+%05viedum%=@K Dummy surfaces ?,DUM
+%06vielco%=@K Local coordinates ?,LCO
+%01wavnrd%=@E Number of rays,,20
+%02wavnom%=@K Nominal focus ?,NOM
+%03wavrfo%=@K Refocus ?,RFO
+%01imsobj%=@E Object file,,
+%02imsfco%=@C Field coord type,,OBJ,OBJ;IMG;RIH;ANG,
+%03imsobh%=@K Object height ?,OBH 
+%04imsobhval%=@E Object height value,,
+%05imsxof%=@E X object offset,,0
+%06imsyof%=@E Y object offset,,0
+%07imsazi%=@E Object rotation,,0
+%08imstgr%=@E Transform grid,,128
+%09imspmx%=@E X samples,,5
+%10imspmy%=@E Y samples,,5
+%11imssym%=@C Symmetry,,NON,NON;ROT, 
+%12imscme%=@C Computation method,,PIS,PIS;RGB;COL,
+%13imssvi%=@K Save image ?,SVI
+%14imssvityp%=@C Image type ?,,,BMP;JPG;PNG,
+%15imssvicol%=@C Color/Greyscale ?,,,COL;GRY,
+%01bsppra%=@C Pre-analysis,,"PRA RUN","PRA";"PRA RUN";"PRA TIM",
+%02bsppch%=@C Polychromatic output,,Y,ALL;N;Y,
+%03bspwbf%=@C Buffer output,,INT,AAM;AMP;APH;CMP;CMX;CMY;CMZ;INT;IRR;PHA;RAM;RPH;VEC;VFD;XAM;XPH;YAM;YPH;ZAM;ZPH,
+%04bspbuf%=@E Buffer number,,1
+%05bspdis%=@C Display,,INT,AAM;AMP;APH;FRI;INT;IRR;PHA;RAM;RPH;XAM;XPH;YAM;YPH;ZAM;ZPH,
+%06bspacp%=@C Accuracy,,STD,ENH;HIG;STD,
+;
+;
+; definitions for image functions
+%imageA%=@E, Image A,,^
+%imageB%=@E, Image B,,^
+%inputimage%=@E, Intput image,,^
+%outputimage%=@E, Output image,,^
+%00image%=@E, Input image,,^
+%constant%=@E, Constant,,
+%gamma%=@E Gamma value,,
+%02maxvalue%=@E Maximum component value,,
+%03component1%=@C Component,,RED,RED;GRN;BLU;ALL,'
+%01redimage%=@E, Red image,,^
+%02greenimage%=@E, Green image,,^
+%03blueimage%=@E, Blue image,,^
+%scale%=@E Scale value,,
+%00pngfile%=@E PNG file name,,.png,,'
+%011Dor2Darray%=@E 1D or 2D input array,,^
+%022Darray%=@E 2D input array,,^
+%03newmumrows%=@E New number of rows,,
+%04newmumcolumns%=@E New number of columns,,
+%01rgbinput%=@E RGB input image,,^
+%02monochromeouput%=@E Monochrome output image,,^
+%03channel%=@C Channel,,RED,RED;GRN;BLU,'
+%01row%=@E Row,,
+%02column%=@E Column,,
+%03component2%=@C Component,,RED,RED;GRN;BLU;LUM,'
+%01fromimage%=@E From image,,^
+%02toimage%=@E To image,,^
+%012Doutarray%=@E 2D output array,,^
+%01descriptorstring%=@E Descriptor string,,,,'
+%01Xdetectorsize%=@E X detector size,,
+%01Ydetectorsize%=@E Y detector size,, 
+%01Xfieldoffset%=@E X field offset,,
+%01Yfieldoffset%=@E Y field offset,,
+%01fieldrotation%=@E Field rotation,,
+%01imageunits%=@E Field units,,,,'
+%01imagegri%=@E Image GRI,,
+%01pixelsize%=@E Pixel size,,
+%01imagesemidiagonal%=@E Image semi-diagonal,,
+%01lensname%=@E Lens name,,,,'
+%01imageNRD%=@E Image NRD,,
+%01objectfilename%=@E Object file name,,,,'
+%01objectsemidiagonal%=@E Object semi-diagonal,,
+%01XnumPSFsamples%=@E Number of X PSF samples,,
+%01YnumPSFsamples%=@E Number of Y PSF samples,,
+%01simulationdate%=@E Simulation date,,,,'
+%01symmetrytype%=@C Symmetry type,,NON,NON;ROT,'
+%01imageTGR%=@E Image TGR,,
+%01imagetitle%=@E Image title,,,,'
+%04numwvl%=@E Number of wavelengths,,
+%04pixelvalue%=@E Pixel value,,
+%01storeimage%=@E Store into image,,^
+%00imagefile%=@E Image file name,,,,'
+%01imageextension%=@C File extension,,JPG,BMP;JPG;PNG;TIF,'
+%imagerotationangle%=@E Rotation angle (°),,
+;
+;
+; definitions for plot functions
+%plotfile%=@E Plot file,,
+%plotcolor%=@C Plot color,,"0 ! black","0 ! black";"1 ! red";"2 ! green";"3 ! blue";"4 ! magenta";"5 ! yellow";"6 ! cyan";"7 ! white";"8 ! gray",
+%01plotXposition%=@E X position,,
+%02plotYposition%=@E Y position,,
+%03plotcircleradius%=@E Radius,,
+%plotlabeltext%=@E Label text,,,,'
+%01plotrectXdim%=@E X dimension,,
+%02plotrectYdim%=@E Y dimension,,
+%plotlabelsize%=@E Label size (inches),,
+%plotdirection%=@E Direction (°),,
+%01plotXshift%=@E X shift,,
+%02plotXshift%=@E Y shift,,
+%01plotscaleminX%=@E Minimum X value in plot,,
+%02plotscalemaxX%=@E Maximum X value in plot,,
+%03plotscaleminY%=@E Minimum Y value in plot,,
+%04plotscalemaxY%=@E Maximum Y value in plot,,
+%plottitle%=@E Plot title,,,,'
+%plotscalevalue%=@E Axis scale value,,
+%plotnumsteps%=@E Number of steps,,
+%plotsymbol%=@E Symbol number (0 to 13),,
+;
+;
+; control statements
+[ELS |G ELSE statement ]
+ELS 
+	|
+[ELS IF |G ELSE IF statement ]
+ELS IF %var% |
+[FOR |G FOR statement ]
+FOR %var% |
+	§
+END FOR
+[GOT |G GO TO statement ]
+GOT %lbl% |
+[IF |G IF statement ]
+IF %var% |
+	§
+END IF
+[LABEL |G Label ]
+LBL %lbl% |
+[RET |G Return ]
+RTN 
+[UNT |G UNTIL statement ]
+UNT %var% |
+	§
+END UNT
+[WHI |G WHILE statement ]
+WHI %var% |
+	§
+END WHI
+;
+;
+; helpful clips
+[ARG0 |G Argument 0 for dialog box ]
+! ARG0 %argdescription%
+[ARGn |G Arguments for dialog box ]
+! ARG%01argnumber% NAME %02argname%  
+! ARG%01argnumber% TYPE %03argtype%  
+! ARG%01argnumber% CHOICE %04argchoice%  
+! ARG%01argnumber% DEFAULT %05argdefault%  
+! ARG%01argnumber% HELP %06arghelp%
+|  
+[BUFFER |G Output to buffer B0 ]
+%bufdelb0%
+BUF
+§|
+BUF N
+[COLOR |G Choose color ]
+%color%|
+[COMMENT |G Insert comment ]
+! | 
+[CVMACRO |G Insert a Code V macro ]
+IN CV_MACRO:%cvmacro% |
+[DEG TO RAD |G Degree to radian conversion ]
+/180*^pi|
+[DIRECTORY |G Insert current directory ]
+%FilePath%|
+[EVALUATE |G Evaluate expression ]
+EVA (§)
+[FOCUS |G Through focus settings ]
+FFO %ffo%
+NFO %nfo%
+IFO %ifo%|
+[FUNCTION |G Function definition ]
+FCT @%func% |
+	§
+END FCT %retexpr%
+[GRAPHIC CONVERSION |G Save graphic window as image ]
+GCV %01GCVformat% %02GCVfile%
+|
+[HEADER |G Insert header ]
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+! Macro:   %FileName%
+! Path:    %FilePath% 
+! Author:  %UserName% / %Company%
+! Date:    %Date%
+! Project: %1project%
+! Comment: %2comment%
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+|
+[INT |G Apply an interferogram file (.int) ]
+INT %01surfaceorfield%%02surfaceorfieldnumber% %03exporenp% %04intfile%
+|
+[MACRO |G Input a macro ]
+IN %seqfile% 
+|
+[MLT |G Apply a coating file (.mul) ]
+MLT S%01surface% %02mulfile% 
+|
+[NO ABORT |G Ignore errors during macro execution ]
+NAB
+§|
+NAB N
+[OPE |G Open file for data output ]
+OPE %01opetype% U^%02opevariable% %03opefilename%.%04fileext%
+§
+CLO U^%02opevariable%
+[PATH |G Path definition ]
+PTH %01pthfile% %02pthmode% %03pthpath% 
+|
+[PI |G PI definition ]
+^pi == 3.14159265359
+|
+[POLARIZATION |G Define polarization]
+POL
+PFR %01polpfr%
+PTP %02polptp%
+POR %03polpor%
+PRO %04polpro%
+|
+[PRIVATE |G Private glass ]
+PRV
+	%01prvwvl% %02prvwavelengths%
+	%03prvglassname% %04prvmlt% %05prvrefglass% %06prvdispersiontype% %07prvindicesorcoefs%
+END
+|
+[RAD TO DEG |G Radian to degree conversion ]
+/^pi*180|
+[RES |G Restore a file ]
+RES %lenfile% 
+|
+[ROF |G RSI output format ]
+ROF %01ROFparameter% %02ROFparameter% %03ROFparameter% %04ROFparameter% %05ROFparameter% %06ROFparameter% %07ROFparameter% %08ROFparameter% %09ROFparameter% %10ROFparameter%
+[SEPARATOR |G Insert separator ]
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+! §
+[TOLFDIF |G Finite differences tolerancing ]
+^lens == %01tollenfile%
+^perf == %02tolcodevmetric%%03tolusermetric%
+^comp == %04tolcomp%
+IN CV_MACRO:TOLFDIF ^lens ^perf ^comp %05tolfdiflisttol%%06tolfdifplot%%07tolfdifzoom%%08tolfdifcompstart% %09tolfdifparam%
+|
+[TOLMONTE |G Monte-Carlo tolerancing ]
+^lens == %01tollenfile%
+^perf == %02tolcodevmetric%%03tolusermetric%
+^comp == %04tolcomp%
+IN CV_MACRO:TOLMONTE ^lens ^perf ^comp %05tolmontenumtrials% %06tolmontelisttol%%07tolmonteplot%%08tolmontezoom%%09tolmontelisttrials%%10tolmonteexporttrials%%11tolmontereporterrors%%12tolmonteaccumulate%%13tolmontecompstart%%14tolmonteunifproba% %15tolmonteparam%
+|
+[TOL CHANGE |G Modify system according tolerances ]
+TSF CHA TA%01TSFprobadistrib% 0
+|
+[VARIABLE |G Insert variable definition ]
+%01vartype% %02varformat% %03var% |
+[WAVELENGTHS |G Insert wavelengths ]
+WL %01wl% %02wl% %03wl% %04wl% %05wl% %06wl% %07wl% %08wl% %09wl% %10wl% %11wl% %12wl% %13wl% %14wl% %15wl% %16wl% %17wl% %18wl% %19wl% %20wl% %21wl% %22wl% %23wl% %24wl%
+;
+;
+; maths functions
+[ABSF |P Absolute value ]
+ABSF(§)
+[ACOSF |P Arccosine (in radians) ]
+ACOSF(§)
+[ASINF |P Arcsine (in radians) ]
+ASINF(§)
+[ATANF |P Arctangent (in radians) ]
+ATANF(§)
+[COSF |P Cosine ]
+COSF(§)
+[EXPF |P Exponential (e raised to power) ]
+EXPF(§)
+[GAUSSWTS |P Gaussian quadrature coords & weights ]
+GAUSSWTS(%01numinputpts%, %02inputcoord%, %03inputwts%, %04numquadpts%, %05quadcoord%, %06quadwts%)|
+[LOGF |P Natural logarithm ]
+LOGF(§)
+[LOG10F |P Common logarithm ]
+LOG10F(§)
+[MAXF |P Maximum value ]
+MAXF(%expression1%, %expression2%)|
+[MINF |P Minimum value ]
+MINF(%expression1%, %expression2%)|
+[MODF |P Modulo ]
+MODF(%expression1%, %expression2%)|
+[RANDF |P Random number (0,1) ]
+RANDF |
+[ROUNDF |P Round to nearest whole number ]
+ROUNDF(§)
+[SIGNF |P ABSF(expr1)*SIGN(expr2) ]
+SIGNF(%expression1%, %expression2%)|
+[SINF |P Sine ]
+SINF(§)
+[SQRTF |P Square root ]
+SQRTF(§)
+[TANF |P Tangent ]
+TANF(§)
+[ZFRFIT |P Fits user data to Fringe Zernike polynomials ]
+ZFRFIT(%01numpointsz%, %02xarrz%, %03yarrz%, %04farrz%, %05numtermsz%, %06coefsz%)|
+[ZRNFIT |P Fits user data to standard Zernike polynomials ]
+ZRNFIT(%01numpointsz%, %02xarrz%, %03yarrz%, %04farrz%, %05numtermsz%, %06coefsz%)|
+;
+;
+; optical functions
+[AS_BUILT_VAR |P AS-built performance ]
+AS_BUILT_VAR(%01zoompos%, %02fieldnum%, %03nrd%, %04asbuilttype%)|
+[BESTSPH |P Curvature of best fitting sphere ]
+BESTSPH(%01surfacenum%, %02zoompos%, %03minheight%, %04maxheight%)|
+[CNVTFIELD |P Field convertion ]
+CNVTFIELD(%fieldtype%)|
+[GAUSSBEAM |P Gaussian beam trace ]
+LCL NUM %05outputarray%(5)
+GAUSSBEAM(%01surfacenum%, %02zoompos%, %03fieldnum%, %04wavenum%, %05inputarray%, %06outputgb%)|
+[EVALZERN |P Evaluates a Zernike polynomial ]
+EVALZERN(%01wavenum%, %02fieldnum%, %03zoompos%, %04x%, %05y%, %06poltypeevalz%, %07outputevalz%, %08zerniketype%)|
+[FITERROR |P Returns the RMS fit error of a Zernike polynomial ]
+FITERROR(%01wavenum%, %02fieldnum%, %03zoompos%, %04poltypeevalz%, %05outputevalz%, %06zerniketype%)|
+[INDEX |P Index of refraction in a gradient index glass ]
+INDEX(%01surfacenum%, %02zoompos%, %03wavenum%, %04glassnum%, %05x%, %06y%, %07z%)|
+[MTF_1FLD |P MTF of the lens system ]
+LCL NUM %06outputarray%(6)
+MTF_1FLD(%01zoompos%, %02fieldnum%, %03frequency%, %04azimuth%, %05nrd%, %06outputarray%, %07diforgeo%, %08sinorsqw%)|
+[NORMRADIUS |P Normalization radius of a Zernike polynomial ]
+NORMRADIUS(%01wavenum%, %02fieldnum%, %03zoompos%, %04poltypeevalz%, %05outputevalz%, %06zerniketype%)|
+[POLGRID |P Polarization properties of a grid of rays ]
+LCL NUM %06inputarray%(2, %05nrd%)
+LCL NUM %07outputarray%(43, %05nrd%+1)
+POLGRID(%01zoompos%, %02wavenum%, %03fieldnum%, %04apercheck%, %05nrd%, %06inputarray%, %07outputarray%)|
+[RAYPOL |P Fast ray trace to SI ]
+LCL NUM %04inputarray%(4)
+LCL NUM %05outputarray%(34)
+RAYPOL(%01zoompos%, %02wavenum%, %03apercheck%, %04inputarray%, %05outputarray%)|
+[RAYRSI |P Perform an RSI ray trace ]
+LCL NUM %05inputarray%(4)
+RAYRSI(%01zoompos%, %02wavenum%, %03fieldnum%, %04refsurf%, %05inputarray%)|
+[RAYSIN |P Perform a SIN ray trace ]
+RAYSIN(%01zoompos%, %02wavenum%, %03xtan%, %04ytan%, %05xdirtan%, %06ydirtan%)|
+[RAYTRA |P Perform a SIN ray trace to SI ]
+LCL NUM %04inputarray%(4)
+LCL NUM %05outputarray%(8)
+RAYTRA(%01zoompos%, %02wavenum%, %03apercheck%, %04inputarray%, %05outputarray%)|
+[RMS_1FLD |P RMS wfe for a single field ]
+LCL NUM %05outputarray%(6)
+RMS_1FLD(%01zoompos%, %02fieldnum%, %03wavenum%, %04nrd%, %05outputarray%, %06focus%)|
+[RMSSPOT |P RMS spot size ]
+RMSSPOT(%01zoompos%, %02fieldnum%, %03defocusnumber%, %04spoerrornrd%)|
+[RMSWE |P RMS wavefront error information ]
+LCL NUM %04outputarray%(%06numforbesnom%,(num f)+1)
+RMSWE(%01zoompos%, %02wavenum%, %03nrd%, %04outputarray%, %05focus%)|
+[SAGF |P Sag of the designated surface ]
+SAGF(%01surfacenum%, %02zoompos%, %03x%, %04y%)|
+[SASF |P Compute surface astigmatism ]
+LCL NUM %05outputarray%(3)
+SASF(%01surfacenum%, %02zoompos%, %03x%, %04y%, %05outputarray%)|
+[SPOTDATA |P Spot size calculations ]
+LCL NUM %08outputarray%(10)
+SPOTDATA(%01zoompos%, %02fieldnum%, %03defocusnumber%, %04spoerrornrd%, %05spotref%, %06spotxoffset%, %07spotyoffset%, %08outputarray%)|
+[SURFSAGD |P Variance of the sag ]
+LCL NUM %04xinputarray%(%00numpoints%)
+LCL NUM %05yinputarray%(%00numpoints%)
+LCL NUM %06outputarray%(%00numpoints%)
+SURFSAGD(%01surfacenum%, %02zoompos%, BESTSPH(%01surfacenum%, %02zoompos%, 0, (MAP S%01surfacenum%)), %04xinputarray%, %05yinputarray%, %06outputarray%)|
+[TRA_1FLD |P Average transmission and projected solid angle ]
+LCL NUM %07polinput%(5)
+LCL NUM %08outputarray%(10, (NUM W)+1)
+%07polinput%(1) == %09trafldIGNORE%
+%07polinput%(2) == %10trafldPFR% ! PFR
+%07polinput%(3) == %11trafldPTP% ! PTP
+%07polinput%(4) == %12trafldPOR% ! POR
+%07polinput%(5) == %13trafldPRO% 
+TRA_1FLD(%01zoompos%, %02xfld%, %03yfld%, %04nrd%, %05geoorstokes%, %06gridscalefact%, %07polinput%, %08outputarray%)|
+[TRANSFORM |P Transformation of surface local coordinates ]
+LCL NUM %04transdata%(12)
+TRANSFORM(%01surfacenum%, %02refsurf%, %03zoompos%, %04transdata%)|
+[ZERNIKE |P Fringe or standard Zernike coefficient ]
+ZERNIKE(%01wavenum%, %02fieldnum%, %03zoompos%, %04zcoefnum%, %05nrd%, %06numterms%, %07pupilcoordtype%, %08poltypeevalz%, %09outputevalz2%, %10zerniketype%)|
+[ZERNIKEGQ |P Zernike coefficient using gaussian quadrature ]
+ZERNIKEGQ(%01wavenum%, %02fieldnum%, %03zoompos%, %04zcoefnum%, %05numterms%, %06pupilcoordtype%, %07poltypeevalz%, %08outputevalz%, %09zerniketype%)|
+[ZFRCOEF |P Fringe Zernike coefficient ]
+ZFRCOEF(%01wavenum%, %02fieldnum%, %03zoompos%, %04zcoefnum%, %05nrd%, %06numterms%, %07pupilcoordtype%)|
+;
+;
+; array functions
+[ARR_TO_BUF |P Copy array to buffer ]
+LCL NUM %01inputarray%(%02numrows%, %03numcols%)
+ARR_TO_BUF(%01inputarray%, %02numrows%, %03numcols%, %04bufnum%)|
+[BUF_TO_ARR |P Copy buffer to array ]
+LCL NUM %02outputarray%(%06endcol%-%05startcol%, %04endrow%-%03startrow%)
+BUF_TO_ARR(%01bufnum%, %02outputarray%, %03startrow%, %04endrow%, %05startcol%, %06endcol%)|
+[FFTdDts |P Fast Fourier Transform of array ]
+FFT%01dcomp%%02tcomp%%03scomp%(%04cenin%, %05cenout%, %06fdata%, %07numrows%, %08numcols%, %09fwd%)|
+[GET_COMPLEX_MAGNITUDE |P Magnitudes of complex array ]
+GET_COMPLEX_MAGNITUDE(%01comp%, %02mag%, %03nummags%)|
+[GET_IMAGINARY_PART |P Imaginary parts of complex array ]
+GET_IMAGINARY_PART(%01comp%, %02imag%, %03numimags%)|
+[GET_REAL_PART |P Real parts of complex array ]
+GET_REAL_PART(%01comp%, %02real%, %03numreals%)|
+[GetDim1Num |P Number of elements (1D array) or number of rows (2D array) ]
+GetDim1Num(%array%)
+[GetDim2Num |P Number of columns of a 1D array ]
+GetDim2Num(%2Darray%)
+[PAD_REAL_TO_COMPLEX |P Create complex array ]
+PAD_REAL_TO_COMPLEX(%01real%, %02comp%, %03numrealsconv%)|
+[RedimNum |P Change number of rows or colums in a 2D array ]
+RedimNum(%022Darray%, %03newmumrows%, %04newmumcolumns%)
+[SCALE_REAL_ARRAY |P Scale real array ]
+SCALE_REAL_ARRAY(%01real%, %02scale%, %03numvals%)|
+[STDEV |P Standard deviation of array ]
+STDEV(%01inputarray%, %02numvals%)|
+[SUMF |P Sum of all elements ]
+SUMF(%01inputarray%, %02numvals%)|
+[SVD |P Singular value decomposition ]
+LCL NUM %01A%(%02arows%, %03acols%)
+LCL NUM %04U%(%02arows%, %02arows%)
+LCL NUM %05V%(%03acols%, %03acols%)
+LCL NUM %06S%(%07minrowcol%)
+SVD(%01A%, %02arows%, %03acols%, %04U%, %05V%, %06S%)|
+;
+;
+; string functions
+[CONCAT |P Concatenates string 2 to string 1 ]
+CONCAT(%stringexpr1%, %stringexpr2%)|
+[LENSTR |P Length of string in characters ]
+LENSTR(%stringexpression%)|
+[LOCSTR |P Starting character position of substring in string ]
+LOCSTR(%01stringexpression%, %02substringexpr%)|
+[LOWCASE |P Converts string to lower case ]
+LOWCASE(%stringexpression%)|
+[NUM_TO_STR |P Converts value of expression to a string ]
+NUM_TO_STR(%numexpression%)|
+[RFSTR |P Converts a replacement field entry to a string ]
+RFSTR(%rfexpression%)|
+[STR_TO_NUM |P Converts first identifiable number in string to a number ]
+STR_TO_NUM(%stringexpression%)|
+[SUBSTR |P Substring ]
+SUBSTR(%01stringexpression%, %02begexpr%, %03lengthexpr%)|
+[TRUNC |P Returns string with trailing blanks dropped ]
+TRUNC(%stringexpression%)|
+[UPCASE |P Converts string to upper case ]
+UPCASE(%stringexpression%)|
+;
+;
+; file, error and warning messages, elements query
+[EOFILE |P TRUE if last READ operation encountered End of File ]
+EOFILE |
+[CVERROR |P Prints user-defined error message ]
+CVERROR(%01errormsg%, %02contline%)|
+[CVWARNING |P Prints user-defined warning message ]
+CVWARNING(%01warningmsg%, %02contline%)|
+[CVPUTREC |P Prints informational message ]
+CVPUTREC(%infomessage%)|
+[ISFCT |P TRUE if named user-defined function exists ]
+ISFCT (%fctname%)|
+[ISLCL |P TRUE if named local variable exists ]
+ISLCL (%varname%)|
+[ISGBL |P TRUE if named global variable exists ]
+ISGBL (%varname%)|
+;
+;
+; codev options
+[ALI |R Alignment optimization ]
+ALI
+	INT F%01alifield% %02aliint%.int 
+GO
+|
+[ANA |R First / Third order analysis ]
+ANA
+	THI %01anathi%
+GO
+|
+[AUT |R Automatic design ]
+AUT
+	|
+	DRA SA
+	MXC 25
+	IMP 0.01
+GO
+[BEA |R Gaussian beam trace ]
+BEA
+	WRX %beawrx%	
+	WRY %beawry%
+GO
+|
+[BIO |R Biocular display analysis ]
+BIO
+	NEL %01bionel%
+	OFS %02bioofs%
+	UNI %03biouni%
+GO
+|
+[BPR |R Diffraction-based beam propagation ]
+BPR
+	WRX %beawrx%	
+	WRY %beawry%	
+GO
+|
+[BSP |R Beam synthesis propagation ]
+BSP
+	%01bsppra%
+	%02bsppch%
+	%03bspwbf% Sa B%04bspbuf%
+	%05bspdis% Si
+	%06bspacp%
+GO
+|
+[CAM |R Cam calculation ]
+CAM
+	NCS %01camncs%
+	LIN |	! insert parameter values
+	LLA %02camlla%
+GO
+[CAT |R Catseye diagram ]
+CAT
+	SUR S%surfacenum%
+GO
+|
+[CEF |R Coupling efficiency ]
+CEF
+	MPR %01cefmpr% %02cefr% %03cefn% %04cefa%
+GO
+|
+[COS |R Cost analysis ]
+COS
+	BLD %01cosbld%
+	SEP %02cossep%
+	STE %03cosste%
+	MAX %04cosmax%
+	EDG %05cosedg%
+	DTH %06cosdth%
+GO
+|
+[CXP |R CAD export ]
+CXP
+	TYP %cxptyp%
+	FIL %cxpfil%
+GO
+|
+[ELE |R Element drawings ]
+ELE
+	NOT
+	%elenot1%
+	%elenot2%
+	%elenot3%
+	%elenot4%
+	END
+GO
+|
+[ENV |R Environmental analysis ]
+ENV
+	TEM %1envtem%
+	%2envexp% %3envmat%
+	%4envpre%	%5envgas%	%6envmmhg%	
+GO
+|
+[FAB |R Fabrication data ]
+FAB
+	%01fabsag%%03fabsagsurf%
+	%02fabbes%
+	%04fabspa%
+	%05fabgsc%
+	%06fabdis% %07fabint% %08fabintfile%
+GO
+|
+[FIE |R Field aberrations analysis ]
+FIE
+	%fielsa%
+	%fieastchr%
+	%fiedstchr%
+GO
+|
+[FMA |R Field map ]
+FMA
+	FFD %fma01maptype% %fma02frequency%
+	FCO %fma03fieldtype% %fma04circularfield%	
+GO
+|
+[FOO |R Footprint analysis ]
+FOO
+	SUR S%surfacenum%
+	NRD %foonrd%
+	BOU %foobou%
+	%foodap%
+GO
+|
+[FOV |R Biocular field of view plot ]
+FOV
+	SSI %01fovssi%
+	%02fovlis%
+GO
+|
+[GDE |R Detector energy ]
+GDE
+	NRD %gdenrd%
+GO
+|
+[GHO |R Ghost image analysis ]
+GHO
+	SUR S%ghofsurf%..%gholsurf%
+GO
+|
+[GLD |R Glass catalog data ]
+GLD
+	%gldtype% %gldcat% %gldglass%
+GO
+|
+[GLS |R Geometrical line spread function ]
+GLS
+	NRD %gdenrd%
+GO
+|
+[IMS |R 2D image simulation ]
+IMS
+	OBJ %01imsobj%
+	FCO %02imsfco%
+	%03imsobh% %04imsobhval%
+	XOF %05imsxof%
+	YOF %06imsyof%
+	AZI %07imsazi%
+	TGR %08imstgr%
+	PMX %09imspmx%
+	PMY %10imspmy%
+	SYM %11imssym%
+	CME %12imscme%
+	%13imssvi% %14imssvityp% %15imssvicol%
+GO
+|
+[LIB |R Library maintenance ]
+LIB
+	TYP %libtype%
+	%libdir% %libdirectory%
+	%libpur%
+GO
+|
+[LSF |R Line spread function ]
+LSF
+	PLO %01lsflis%
+	TGR %02lsftgr%
+GO
+|
+[LTE |R LIGHT TOOLS export ]
+LTE
+	FIL %ltename%
+GO
+|
+[LUM |R Illumination analysis ]
+LUM
+	SHA %lum01sha% %lum02shadim%
+	RCV %lum03rcv%
+	RCG %lum04rcg%
+	NRA %lum05nra%
+	SYM %lum06sym%
+	%lum07dis%
+	%lum08rel%
+	%lum09pro%
+	%lum10clr%
+	%lum11src%
+	%lum12rap% %lum13raptype% %lum14rapfil%
+	%lum15anp% %lum16anptype% %lum17anpfil%
+GO
+|
+[MTF |R Modulation transfer function ]
+MTF
+	%mtffoc% %mtffre%
+GO
+|
+[MUL |R Multilayer coating design & analysis ]
+MUL
+	MDA
+		TIT %1multit%
+		PHT %2mulpht%
+		WL |		! wavelengths
+		ANG			! angles
+	
+	MIC
+		MWL			! wavelengths
+		''			! material & n
+		EXT '' 	! material & k
+	END
+
+	COA   '' 	! thickness ctrlcode 'material'
+	SUB ''		! substrate material	
+
+	%3mulres% %4mulfres%
+
+	MPL
+		RFL			! or TRN
+		RAN 0 1 0.05
+		SPA 		! minwl maxwl step
+	GO
+	%5mulsav% %6mulfsav%
+MEX
+[NAR |R Narcissus analysis ]
+NAR
+	CLD S%narsurf%
+GO
+|
+[PAR |R Partial coherence ]
+PAR
+	RNA %parrna%
+	BAR %parbarnum% %parbarwidth%
+GO
+|
+[PMA |R Pupil map ]
+PMA
+	LIS %1pmalis%
+	PLO %2pmaplo% 
+	DIS %3pmadis%
+	%4pmazernike% %5pmaznumterms%
+GO
+|
+[PSF |R Point spread function ]
+PSF
+	LIS %1psflis%
+	PLO %2psfplo% 
+	DIS %3psfdis%
+GO
+|
+[QUA |R Quadrant detector analysis ]
+QUA
+	NRD %gdenrd%
+GO
+|
+[RAD |R Encircled energy ]
+RAD
+	NRD %gdenrd%
+	%radcoo%
+GO
+|
+[RIM |R Rimray aberration plot ]
+RIM
+	%rimwfr%
+GO
+|
+[SLD |R Solid modelling ]
+SLD
+	SHA 1024
+	SEC 270
+	BAC 1 1 1
+GO
+|
+[SPE |R Spectral analysis ]
+SPE
+	BLA %01spebla%
+	%02speresponse%
+	%03speresponse%
+	%04speresponse%
+	%05speresponse%
+	%06speresponse%
+	%07speresponse%
+	%08speresponse%
+	%09speresponse%
+	%10speresponse%
+	%11speresponse%
+GO
+|
+[SPO |R Spot diagram ]
+SPO
+	NRD %01sponrd%
+	PAT %02spopat%
+	%03spoair%
+	ANN SPO %04spoannspo% 
+	ANN RMS %05spoannrms%
+	RTL %07sportlnrd% %06sportl%
+	
+GO
+|
+[SSS |R Solar simulator system ]
+SSS
+	LAM %1sssx% %1sssy%
+	ARR %3sssusr% %4ssscha% %5sssxdec% %6sssydec% 
+	SIM %7ssssim%
+	%8sssplo%
+GO
+|
+[TES |R Test plate fitting ]
+TES
+	IN %tesplaseq%
+	%tesstrategy%
+GO
+|
+[TOD |R Distorsion tolerancing ]
+TOD
+	UNI %toduni%
+GO
+|
+[TOL |R Primary aberration-based tolerancing ]
+TOL
+	%1toltab%
+	%2toltab%
+	%3toltab%
+	%4tolfunc% %5tolperf%
+GO
+|
+[TOR |R Wavefront differential tolerancing ]
+TOR
+	%1tortype%
+	%2torfre% %3torfreq%
+GO
+|
+[TRA |R Transmission analysis ]
+TRA
+	NRD %gdenrd%
+GO
+|
+[UGR |R User-defined graphics ]
+UGR
+	TIT %1ugrtit%
+	%2ugrtype%
+GO
+|
+[V3D |R 3D view ]
+V3D
+	SUR S%01v3dsur%
+	%02v3dcab%
+	%03v3dfan% %04v3dfannumber%
+	%05v3dgrd% %06v3dgrdx% %07v3dgrdy%
+GO
+|
+[VIE |R View ]
+VIE
+	SUR S%01viesur%
+	%02viefan%
+	%03viecab%
+	%04vienbr%
+	%05viedum%
+	%06vielco%
+GO
+|
+[WAV |R Wavefront analysis ]
+WAV
+	NRD %01wavnrd%
+	%02wavnom%
+	%03wavrfo%
+GO
+|
+[WEI |R Weight analysis ]
+WEI; GO
+|
+;
+;
+; codev options, empty versions
+[ALI_empty |R Alignment optimization ]
+ALI
+	|
+GO
+[ANA_empty |R First / Third order analysis ]
+ANA
+	|
+GO
+[AUT_empty |R Automatic design ]
+AUT
+	|
+GO
+[BEA_empty |R Gaussian beam trace ]
+BEA
+	|
+GO
+[BIO_empty |R Biocular display analysis ]
+BIO
+	|
+GO
+[BPR_empty |R Diffraction-based beam propagation ]
+BPR
+	|
+GO
+[BSP_empty |R Beam synthesis propagation ]
+BSP
+	|
+GO
+[CAM_empty |R Cam calculation ]
+CAM
+	|
+GO
+[CAT_empty |R Catseye diagram ]
+CAT
+	|
+GO
+[CEF_empty |R Coupling efficiency ]
+CEF
+	|
+GO
+[COS_empty |R Cost analysis ]
+COS
+	|
+GO
+[CXP_empty |R CAD export ]
+CXP
+	|
+GO
+[ELE_empty |R Element drawings ]
+ELE
+	|
+GO
+[ENV_empty |R Environmental analysis ]
+ENV
+	|
+GO
+[FAB_empty |R Fabrication data ]
+FAB
+	|
+GO
+[FIE_empty |R Field aberrations analysis ]
+FIE
+	|
+GO
+[FMA_empty |R Field map ]
+FMA
+	|
+GO
+[FOO_empty |R Footprint analysis ]
+FOO
+	|
+GO
+[FOV_empty |R Biocular field of view plot ]
+FOV
+	|
+GO
+[GDE_empty |R Detector energy ]
+GDE
+	|
+GO
+[GHO_empty |R Ghost image analysis ]
+GHO
+	|
+GO
+[GLD_empty |R Glass catalog data ]
+GLD
+	|
+GO
+[GLS_empty |R Geometrical line spread function ]
+GLS
+	|
+GO
+[IMS_empty |R 2D image simulation ]
+IMS
+	|
+GO
+[LIB_empty |R Library maintenance ]
+LIB
+	|
+GO
+[LSF_empty |R Line spread function ]
+LSF
+	|
+GO
+[LTE_empty |R LIGHT TOOLS export ]
+LTE
+	|
+GO
+[LUM_empty |R Illumination analysis ]
+LUM
+	|
+GO
+[MTF_empty |R Modulation transfer function ]
+MTF
+	|
+GO
+[MUL_empty |R Multilayer coating design & analysis ]
+MUL
+	|
+MEX
+[NAR_empty |R Narcissus analysis ]
+NAR
+	|
+GO
+[PAR_empty |R Partial coherence ]
+PAR
+	|
+GO
+[PMA_empty |R Pupil map ]
+PMA
+	|
+GO
+[PSF_empty |R Point spread function ]
+PSF
+	|
+GO
+[QUA_empty |R Quadrant detector analysis ]
+QUA
+	|
+GO
+[RAD_empty |R Encircled energy ]
+RAD
+	|
+GO
+[RIM_empty |R Rimray aberration plot ]
+RIM
+	|
+GO
+[SLD_empty |R Solid modelling ]
+SLD
+	|
+GO
+[SPE_empty |R Spectral analysis ]
+SPE
+	|
+GO
+[SPO_empty |R Spot diagram ]
+SPO
+	|
+GO
+[TES_empty |R Test plate fitting ]
+TES
+	|
+GO
+[TOD_empty |R Distorsion tolerancing ]
+TOD
+	|
+GO
+[TOL_empty |R Primary aberration-based tolerancing ]
+TOL
+	|
+GO
+[TOR_empty |R Wavefront differential tolerancing ]
+TOR
+	|
+GO
+[TRA_empty |R Transmission analysis ]
+TRA
+	|
+GO
+[UGR_empty |R User-defined graphics ]
+UGR
+	|
+GO
+[V3D_empty |R 3D view ]
+V3D
+	|
+GO
+[VIE_empty |R View ]
+VIE
+	|
+GO
+[WAV_empty |R Wavefront analysis ]
+WAV
+	|
+GO
+;
+;
+; image functions
+[ImageAdd |B Image addition ]
+ImageAdd(%imageA%, %imageB%, %outputimage%)|
+[ImageAddConstantTo |B Add constant to an image ]
+ImageAddConstantTo(%00image%, %constant%)|
+[ImageChangeGamma |B Change gamma ]
+ImageChangeGamma(%00image%, %gamma%)|
+[ImageClip |B Clip image ]
+ImageClip(%00image%, %02maxvalue%, %03component1%)|
+[ImageCombineComponents |B Combine RGB components ]
+ImageCombineComponents(%01redimage%, %02greenimage%, %03blueimage%, %outputimage%)|
+[ImageCopy |B Copy an image ]
+ImageCopy(%inputimage%, %outputimage%)|
+[ImageDelete |B Delete an image ]
+ImageDelete(%00image%)|
+[ImageDisplay |B Display an image ]
+ImageDisplay(%00image%, %scale%)|
+[ImageExtractComponent |B RGB channel extraction ]
+ImageExtractComponent(%01rgbinput%, %02monochromeouput%, %03channel%)|
+[ImageFlipX |B Flip image around X ]
+ImageFlipX(%00image%)|
+[ImageFlipY |B Flip image around Y ]
+ImageFlipY(%00image%)|
+[ImageFromArray |B Convert 2D array to an image ]
+ImageFromArray(%022Darray%, %02monochromeouput%)|
+[ImageGetAverageValueColor |B Compute average of each channel ]
+ImageGetAverageValueColor(%00image%, %outputarray%)|
+[ImageGetAverageValueMonochrome |B Compute average of a monochrome image ]
+ImageGetAverageValueMonochrome(%00image%)|
+[ImageGetMaxValueColor |B Compute max value of each channel ]
+ImageGetMaxValueColor(%00image%, %outputarray%)|
+[ImageGetMaxValueMonochrome |B Compute max value of a monochrome image ]
+ImageGetMaxValueMonochrome(%00image%)|
+[ImageGetMinValueColor |B Compute min value of each channel ]
+ImageGetMinValueColor(%00image%, %outputarray%)|
+[ImageGetMinValueMonochrome |B Compute min value of a monochrome image ]
+ImageGetMinValueMonochrome(%00image%)|
+[ImageGetPixelAt |B Value of a given pixel ]
+ImageGetPixelAt(%00image%, %01row%, %02column%, %03component2%)|
+[ImageGetStatus |B Status of previous image function call ]
+ImageGetStatus|
+[ImageGetSumOfValuesColor |B Compute sum of each channel ]
+ImageGetSumOfValuesColor(%00image%, %outputarray%)|
+[ImageGetSumOfValuesMonochrome |B Compute sum of a monochrome image ]
+ImageGetSumOfValuesMonochrome(%00image%)|
+[ImageMDCopy |B Copy metadata ]
+ImageMDCopy(%01fromimage%, %02toimage%)|
+[ImageMDCopyWavelengthsAndWeights |B Copy wavelengths and weights ]
+ImageMDCopyWavelengthsAndWeights(%01fromimage%, %02toimage%)|
+[ImageMDGetCME |B Returns CME mode ]
+ImageMDGetCME(%00image%)|
+[ImageMDGetDescriptor |B Return image descriptor ]
+ImageMDGetDescriptor(%00image%)|
+[ImageMDGetDEX |B Return X detector size ]
+ImageMDGetDEX(%00image%)|
+[ImageMDGetDEY |B Return Y detector size ]
+ImageMDGetDEY(%00image%)|
+[ImageMDGetFieldOffsetX |B Return X object offset ]
+ImageMDGetFieldOffsetX(%00image%)|
+[ImageMDGetFieldOffsetY |B Return Y object offset ]
+ImageMDGetFieldOffsetY(%00image%)|
+[ImageMDGetFieldRotation |B Return object rotation ]
+ImageMDGetFieldRotation(%00image%)|
+[ImageMDGetFieldUnits |B Return field units ]
+ImageMDGetFieldUnits(%00image%)|
+[ImageMDGetGamma |B Return gamma value ]
+ImageMDGetGamma(%00image%)|
+[ImageMDGetGRI |B Return GRI value ]
+ImageMDGetGRI(%00image%)|
+[ImageMDGetImagePixelSize |B Return pixel size ]
+ImageMDGetImagePixelSize(%00image%)|
+[ImageMDGetImageSemiDiagonal |B Retunrn image diagonal measurement ]
+ImageMDGetImageSemiDiagonal(%00image%)|
+[ImageMDGetLensName |B Return lens name ]
+ImageMDGetLensName(%00image%)|
+[ImageMDGetNRD |B Return NRD value ]
+ImageMDGetNRD(%00image%)|
+[ImageMDGetNumWavelengths |B Return number of wavelengths ]
+ImageMDGetNumWavelengths(%00image%, %03component2%)|
+[ImageMDGetNumXPixels |B Return number of pixels in X direction ]
+ImageMDGetNumXPixels(%00image%)|
+[ImageMDGetNumYPixels |B Return number of pixels in Y direction ]
+ImageMDGetNumYPixels(%00image%)|
+[ImageMDGetObjectFileName |B Return object's file name ]
+ImageMDGetObjectFileName(%00image%)|
+[ImageMDGetObjectSemiDiagonal |B Return object's half diagonal measurement ]
+ImageMDGetObjectSemiDiagonal(%00image%)|
+[ImageMDGetOffsetValue |B Return offset value ]
+ImageMDGetOffsetValue(%00image%)|
+[ImageMDGetPMX |B Return number of PSF sample in X direction ]
+ImageMDGetPMX(%00image%)|
+[ImageMDGetPMY |B Return number of PSF sample in Y direction ]
+ImageMDGetPMY(%00image%)|
+[ImageMDGetScaleValue |B Return scale for fitting 16-bit data to the dynamic range ]
+ImageMDGetScaleValue(%00image%)|
+[ImageMDGetSimulationDate |B Return simulation date ]
+ImageMDGetSimulationDate(%00image%)|
+[ImageMDGetSym |B Return symmetry type ]
+ImageMDGetSym(%00image%)|
+[ImageMDGetTGR |B Return TGR value ]
+ImageMDGetTGR(%00image%)|
+[ImageMDGetTitle |B Return title ]
+ImageMDGetTitle(%00image%)|
+[ImageMDGetWavelengthsAndWeights |B Return wavelengths and weigths for 1 color ]
+ImageMDGetWavelengthsAndWeights(%00image%, %012Doutarray%, %03component2%)|
+[ImageMDListHeaderInfo |B Display header information ]
+ImageMDListHeaderInfo(%00image%)|
+[ImageMDSetDescriptor |B Set descriptor ]
+ImageMDSetDescriptor(%00image%, %01descriptorstring%)|
+[ImageMDSetDEX |B Set X detector size ]
+ImageMDSetDEX(%00image%, %01Xdetectorsize%)|
+[ImageMDSetDEY |B Set Y detector size ]
+ImageMDSetDEY(%00image%, %01Ydetectorsize%)|
+[ImageMDSetFieldOffsetX |B Set X field offset ]
+ImageMDSetFieldOffsetX(%00image%, %01Xfieldoffset%)|
+[ImageMDSetFieldOffsetY |B Set Y field offset ]
+ImageMDSetFieldOffsetY(%00image%, %01Yfieldoffset%)|
+[ImageMDSetFieldRotation |B Set field rotation ]
+ImageMDSetFieldRotation(%00image%, %01fieldrotation%)|
+[ImageMDSetFieldUnits |B Set field units ]
+ImageMDSetFieldUnits(%00image%, %01imageunits%)|
+[ImageMDSetGRI |B Set GRI ]
+ImageMDSetGRI(%00image%, %01imagegri%)|
+[ImageMDSetImagePixelSize |B Set pixel size ]
+ImageMDSetImagePixelSize(%00image%, %01pixelsize%)|
+[ImageMDSetImageSemiDiagonal |B Set image semi diagonal ]
+ImageMDSetImageSemiDiagonal(%00image%, %01imagesemidiagonal%)|
+[ImageMDSetLensName |B Set lens name ]
+ImageMDSetLensName(%00image%, %01lensname%)|
+[ImageMDSetNRD |B Set NRD ]
+ImageMDSetNRD(%00image%, %01imageNRD%)|
+[ImageMDSetObjectFileName |B Set object file name ]
+ImageMDSetObjectFileName(%00image%, %01objectfilename%)|
+[ImageMDSetObjectSemiDiagonal |B Set object semi diagonal ]
+ImageMDSetObjectSemiDiagonal(%00image%, %01objectsemidiagonal%)|
+[ImageMDSetPMX |B Set number of X PSF samples ]
+ImageMDSetPMX(%00image%, %01XnumPSFsamples%)|
+[ImageMDSetPMY |B Set number of Y PSF samples ]
+ImageMDSetPMY(%00image%, %01YnumPSFsamples%)|
+[ImageMDSetSimulationDate |B Set simulation date ]
+ImageMDSetSimulationDate(%00image%, %01simulationdate%)|
+[ImageMDSetSym |B Set symmetry type ]
+ImageMDSetSym(%00image%, %01symmetrytype%)|
+[ImageMDSetTGR |B Change image TGR ]
+ImageMDSetTGR(%00image%, %01imageTGR%)|
+[ImageMDSetTitle |B Change image title ]
+ImageMDSetTitle(%00image%, %01imagetitle%)|
+[ImageMDSetWavelengthsAndWeights |B Change wavelengths and weigths ]
+ImageMDSetWavelengthsAndWeights(%00image%, %022Darray%, %03component2%, %04numwvl%)|
+[ImageMultiplyByConstant |B Multiply image by a constant ]
+ImageMultiplyByConstant(%00image%, %constant%)|
+[ImagePutPixelAt |B Change pixel value ]
+ImagePutPixelAt(%00image%, %01row%, %02column%, %03channel%, %04pixelvalue%)|
+[ImageRead |B Read a PNG image ]
+ImageRead(%00pngfile%, %01storeimage%)|
+[ImageRestoreFrom |B Restore an image ]
+ImageRestoreFrom(%00imagefile%, %01storeimage%)|
+[ImageRotate |B Rotate an image ]
+ImageRotate(%inputimage%, %outputimage%, %imagerotationangle%)|
+[ImageSaveAs |B Save image ]
+ImageSaveAs(%00image%, %00imagefile%, %01imageextension%)|
+[ImageSubtract |B Image subtraction ]
+ImageSubtract(%imageA%, %imageB%, %outputimage%)|
+[ImageToArray |B Convert an image to a 2D array ]
+ImageToArray(%00image%, %012Doutarray%)|
+[ImageWrite |B Write a file to an image ]
+ImageWrite(%00pngfile%, %00image%)|
+;
+;
+; generalized plotting commands
+[PLOT |N Generalized plotting ]
+PTH SEQ APP cv_macro:  
+IN INITPLT 
+$PLTFILE '%plotfile%'
+|
+$ENDPLT
+DPL %plotfile%
+[$CIRCLE |N (Plot) Draw circle ]
+$CIRCLE %01plotXposition% %02plotYposition% %03plotcircleradius%
+|
+[$COL |N (Plot) Change color ]
+$COL %plotcolor%
+|
+[$DRA |N (Plot) Draw line ]
+$DRA %01plotXposition% %02plotYposition%
+|
+[$ENDPLT |N (Plot) Close plot file ]
+$ENDPLT 
+|
+[$FRAME |N (Plot) Code V frame ]
+$FRAME %plottitle%
+|
+[$GLAB |N (Plot) Write global label ]
+$GLAB 
+|
+[$HISTSA |N (Plot) Test of aberration histogram ]
+$HISTSA %plotscalevalue%
+|
+[$LAB |N (Plot) Write label ]
+$LAB %plotlabeltext%
+|
+[$LDIR |N (Plot) Direction ]
+$LDIR %plotdirection%
+|
+[$LSIZ |N (Plot) Label size ]
+$LSIZ %plotlabelsize%
+|
+[$MOV |N (Plot) Displacement ]
+$MOV %01plotXposition% %02plotYposition%
+|
+[$PHELP |N (Plot) Help for plot ]
+$PHELP 
+|
+[$PLTFILE |N (Plot) File ]
+$PLTFILE '%plotfile%'
+|
+[$RDRA |N (Plot) Draw line / relative ]
+$RDRA %01plotXshift% %02plotXshift%
+|
+[$RECT |N (Plot) Draw rectangle ]
+$RECT %01plotrectXdim% %02plotrectYdim%
+|
+[$RMOV |N (Plot) Relative displacement]
+$RMOV %01plotXshift% %02plotXshift%
+|
+[$SAMPLE |N (Plot) Plot sample ]
+$SAMPLE %plotnumsteps%
+|
+[$SCALE |N (Plot) Scale ]
+$SCALE %01plotscaleminX% %02plotscalemaxX% %03plotscaleminY% %04plotscalemaxY%
+|
+[$SYM |N (Plot) Draw symbol ]
+$SYM %plotsymbol%
+|
+;
+;
+[Tree Content]
+Control statements 
+ ELSE
+ ELSE IF
+ FOR
+ GOTO
+ IF
+ LABEL
+ RETURN
+ UNTIL
+ WHILE
+Helpful clips
+ ARG0
+ ARGn
+ BUFFER
+ COLOR
+ COMMENT
+ CVMACRO
+ DEG TO RAD
+ DIRECTORY
+ EVALUATE
+ FOCUS
+ FUNCTION
+ HEADER
+ INT
+ MACRO
+ MLT
+ NO ABORT
+ OPE
+ PATH
+ PI
+ POLARIZATION
+ PRIVATE
+ RAD TO DEG
+ RES
+ SEPARATOR
+ TOLFDIF
+ TOLMONTE
+ VARIABLE
+ WAVELENGTHS
+Maths functions
+ ABSF
+ ACOSF
+ ASINF
+ ATANF
+ COSF
+ EXPF
+ GAUSSWTS
+ LOGF
+ LOG10F
+ MAXF
+ MINF
+ MODF
+ RANDF
+ ROUNDF
+ SIGNF
+ SINF
+ SQRTF
+ TANF
+ ZFRFIT
+ ZRNFIT
+Optical functions
+ AS_BUILT_VAR
+ BESTSPH
+ CNVTFIELD
+ EVALZERN
+ FITERROR
+ GAUSSBEAM
+ INDEX
+ MTF_1FLD
+ NORMRADIUS
+ POLGRID
+ RAYPOL
+ RAYRSI
+ RAYSIN
+ RAYTRA
+ RMS_1FLD
+ RMSSPOT
+ RMSWE
+ SAGF
+ SASF
+ SPOTDATA
+ SURFSAGD
+ TRA_1FLD
+ TRANSFORM
+ ZERNIKE
+ ZERNIKEGQ
+ ZFRCOEF
+Array functions
+ ARR_TO_BUF
+ BUF_TO_ARR
+ FFTdDts
+ GET_COMPLEX_MAGNITUDE
+ GET_IMAGINARY_PART
+ GET_REAL_PART
+ GetDim1Num
+ GetDim2Num
+ PAD_REAL_TO_COMPLEX
+ RedimNum
+ SCALE_REAL_ARRAY
+ STDEV
+ SVD
+ SUMF
+String functions
+ CONCAT
+ LENSTR
+ LOCSTR
+ LOWCASE
+ NUM_TO_STR
+ RFSTR
+ STR_TO_NUM
+ SUBSTR
+ TRUNC
+ UPCASE
+File, messages, queries
+ EOFILE
+ CVERROR
+ CVWARNING
+ CVPUTREC
+ ISFCT
+ ISLCL
+ ISGBL
+Options
+ ALI
+ ANA
+ AUT
+ BEA
+ BIO
+ BPR
+ BSP
+ CAM
+ CAT
+ CEF
+ COS
+ CXP
+ ELE
+ ENV
+ FAB
+ FIE
+ FMA
+ FOO
+ FOV
+ GDE
+ GHO
+ GLD
+ GLS
+ IMS
+ LIB
+ LSF
+ LTE
+ LUM
+ MTF
+ MUL
+ NAR
+ PAR
+ PMA
+ PSF
+ QUA
+ RAD
+ RIM
+ SLD
+ SPE
+ SPO
+ SSS
+ TES
+ TOD
+ TOL
+ TOR
+ TRA
+ UGR
+ V3D
+ VIE
+ WAV
+ WEI
+Options (empty version)
+ ALI_empty
+ ANA_empty
+ AUT_empty
+ BEA_empty
+ BIO_empty
+ BPR_empty
+ BSP_empty
+ CAM_empty
+ CAT_empty
+ CEF_empty
+ COS_empty
+ CXP_empty
+ ELE_empty
+ ENV_empty
+ FAB_empty
+ FIE_empty
+ FMA_empty
+ FOO_empty
+ FOV_empty
+ GDE_empty
+ GHO_empty
+ GLD_empty
+ GLS_empty
+ IMS_empty
+ LIB_empty
+ LSF_empty
+ LTE_empty
+ LUM_empty
+ MTF_empty
+ MUL_empty
+ NAR_empty
+ PAR_empty
+ PMA_empty
+ PSF_empty
+ QUA_empty
+ RAD_empty
+ RIM_empty
+ SLD_empty
+ SPE_empty
+ SPO_empty
+ TES_empty
+ TOD_empty
+ TOL_empty
+ TOR_empty
+ TRA_empty
+ UGR_empty
+ V3D_empty
+ VIE_empty
+ WAV_empty
+Image functions
+ ImageAdd
+ ImageAddConstantTo
+ ImageChangeGamma
+ ImageClip
+ ImageCombineComponents
+ ImageCopy
+ ImageDelete
+ ImageDisplay
+ ImageExtractComponent
+ ImageFlipX
+ ImageFlipY
+ ImageFromArray
+ ImageGetAverageValueColor
+ ImageGetAverageValueMonochrome
+ ImageGetMaxValueColor
+ ImageGetMaxValueMonochrome
+ ImageGetMinValueColor
+ ImageGetMinValueMonochrome
+ ImageGetPixelAt
+ ImageGetStatus
+ ImageGetSumOfValuesColor
+ ImageGetSumOfValuesMonochrome
+ ImageMDCopy
+ ImageMDCopyWavelengthsAndWeights
+ ImageMDGetCME
+ ImageMDGetDescriptor
+ ImageMDGetDEX
+ ImageMDGetDEY
+ ImageMDGetFieldOffsetX
+ ImageMDGetFieldOffsetY
+ ImageMDGetFieldRotation
+ ImageMDGetFieldUnits
+ ImageMDGetGamma
+ ImageMDGetGRI
+ ImageMDGetImagePixelSize
+ ImageMDGetImageSemiDiagonal
+ ImageMDGetLensName
+ ImageMDGetNRD
+ ImageMDGetNumWavelengths
+ ImageMDGetNumXPixels
+ ImageMDGetNumYPixels
+ ImageMDGetObjectFileName
+ ImageMDGetObjectSemiDiagonal
+ ImageMDGetOffsetValue
+ ImageMDGetPMX
+ ImageMDGetPMY
+ ImageMDGetScaleValue
+ ImageMDGetSimulationDate
+ ImageMDGetSym
+ ImageMDGetTGR
+ ImageMDGetTitle
+ ImageMDGetWavelengthsAndWeights
+ ImageMDListHeaderInfo
+ ImageMDSetDescriptor
+ ImageMDSetDEX
+ ImageMDSetDEY
+ ImageMDSetFieldOffsetX
+ ImageMDSetFieldOffsetY
+ ImageMDSetFieldRotation
+ ImageMDSetFieldUnits
+ ImageMDSetGRI
+ ImageMDSetImagePixelSize
+ ImageMDSetImageSemiDiagonal
+ ImageMDSetLensName
+ ImageMDSetNRD
+ ImageMDSetObjectFileName
+ ImageMDSetObjectSemiDiagonal
+ ImageMDSetPMX
+ ImageMDSetPMY
+ ImageMDSetSimulationDate
+ ImageMDSetSym
+ ImageMDSetTGR
+ ImageMDSetTitle
+ ImageMDSetWavelengthsAndWeights
+ ImageMultiplyByConstant
+ ImagePutPixelAt
+ ImageRead
+ ImageRestoreFrom
+ ImageRotate
+ ImageSaveAs
+ ImageSubtract
+ ImageToArray
+ ImageWrite
+Plotting commands
+ PLOT
+ $CIRCLE
+ $COL
+ $DRA
+ $ENDPLT
+ $FRAME
+ $GLAB
+ $HISTSA
+ $LAB
+ $LDIR
+ $LSIZ
+ $MOV
+ $PHELP
+ $PLTFILE
+ $RDRA
+ $RECT
+ $RMOV
+ $SAMPLE
+ $SCALE
+ $SYM

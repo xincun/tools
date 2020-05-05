@@ -1,0 +1,2979 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Localization>
+	<Product id="PXCView" version="1.0" productVersion="2.0.0049.0000"/>
+	<language eName="Polish" lName="Polski (PL)" lcid="0x0415" prefFont=""/>
+	<commands>
+		<item id="32316" title="Z powrotem" tooltip="Z powrotem" status="Z powrotem" short=""/>
+		<item id="32317" title="Do przodu" tooltip="Do przodu" status="Do przodu" short=""/>
+		<item id="32609" title="Lupa" tooltip="Lupa" status="Lupa" short=""/>
+		<item id="32610" title="P&amp;owiększ" tooltip="Powiększenie" status="Powiększenie" short="Powiększenie"/>
+		<item id="32611" title="&amp;Zmniejsz" tooltip="Zmniejszenie" status="Zmniejszenie" short="Zmniejszenie"/>
+		<item id="32613" title="Narzędzie Rączka" tooltip="Narzędzie Rączka - do przewijania stron" status="Narzędzie Rączka - do przewijania stron" short=""/>
+		<item id="32614" title="Narzędzie Fotka" tooltip="Narzędzie Fotka - do zrzutów ekranu" status="Narzędzie Fotka - do zrzutów ekranu" short=""/>
+		<item id="32620" title="Narzędzie Zaznaczania" tooltip="Narzędzie Zaznacznia - tekstu i obiektów" status="Narzędzie Zaznacznia - tekstu i obiektów" short=""/>
+		<item id="32884" title="&amp;Idź do..." tooltip="" status="" short=""/>
+		<item id="32885" title="&amp;Pierwszej strony" tooltip="Przechodzi do pierwszej strony" status="Przechodzi do pierwszej strony" short=""/>
+		<item id="32886" title="P&amp;oprzedniej strony" tooltip="Przechodzi do poprzedniej strony" status="Przechodzi do poprzedniej strony" short=""/>
+		<item id="32887" title="&amp;Następnej strony" tooltip="Przechodzi do następnej strony" status="Przechodzi do następnej strony" short=""/>
+		<item id="32888" title="O&amp;statniej strony" tooltip="Przechodzi do ostatniej strony" status="Przechodzi do ostatniej strony" short=""/>
+		<item id="32889" title="S&amp;trony..." tooltip="Przechodzi do wybranej strony" status="Przechodzi do wybranej strony" short=""/>
+		<item id="32890" title="Poprzedni widok" tooltip="Przechodzi do poprzedniego widoku" status="Przechodzi do poprzedniego widoku" short=""/>
+		<item id="32891" title="Następny widok" tooltip="Przechodzi do następnego widoku" status="Przechodzi do następnego widoku" short=""/>
+		<item id="32892" title="Poprzedni dokument" tooltip="Przechodzi do poprzedniego dokumentu" status="Przechodzi do poprzedniego dokumentu" short=""/>
+		<item id="32893" title="Następny dokument" tooltip="Przechodzi do następnego dokumentu" status="Przechodzi do następnego dokumentu" short=""/>
+		<item id="32895" title="Pojedyncza strona" tooltip="Pojedyncza strona" status="Pojedyncza strona" short=""/>
+		<item id="32896" title="&amp;Ciągłe" tooltip="Ciągłe" status="Ciągłe" short=""/>
+		<item id="32897" title="&amp;Sąsiadujące" tooltip="Sąsiadujące" status="Sąsiadujące" short=""/>
+		<item id="32898" title="Cią&amp;głe - sąsiadujące" tooltip="Ciągłe - sąsiadujące" status="Ciągłe - sąsiadujące" short=""/>
+		<item id="32899" title="Zmień wielkość..." tooltip="Zmienia stopień powiększenia dla aktywnego dokumentu" status="Zmienia stopień powiększenia dla aktywnego dokumentu" short=""/>
+		<item id="32900" title="Wielkość &amp;rzeczywista" tooltip="Wyświetl dokument w jego rzeczywistym rozmiarze (100%)" status="Wyświetl dokument w jego rzeczywistym rozmiarze (100%)" short=""/>
+		<item id="32901" title="&amp;Cała strona" tooltip="Wyświetl całą stronę w aktualnym widoku" status="Wyświetl całą stronę w aktualnym widoku" short=""/>
+		<item id="32902" title="Szerokość strony" tooltip="Dobiera rozmiar tak, by szerokość strony odpowiadała szerokości okna" status="Dobiera rozmiar tak, by szerokość strony odpowiadała szerokości okna" short=""/>
+		<item id="32903" title="Zawartość" tooltip="Dobiera rozmiar do zawartości" status="Dobiera rozmiar do zawartości" short=""/>
+		<item id="32904" title="Powiększ" tooltip="Powiększ" status="Powiększ" short=""/>
+		<item id="32905" title="Zmniejsz" tooltip="Zmniejsz" status="Zmniejsz" short=""/>
+		<item id="32906" title="&amp;Ustawienia" tooltip="Wyświetla okno dialogowe z ustawieniami aplikacji" status="Wyświetla okno dialogowe z ustawieniami aplikacji" short=""/>
+		<item id="32907" title="" tooltip="Wyświetl licznik stron dokumentu" status="" short=""/>
+		<item id="32908" title="&amp;Pliki" tooltip="Pokaż/Ukryj pasek narzędzi do operacji na plikach" status="Pokaż/Ukryj pasek narzędzi do operacji na plikach" short=""/>
+		<item id="32909" title="" tooltip="Strona" status="" short="Strona:"/>
+		<item id="32910" title="Z&amp;akładki" tooltip="Pokaż/Ukryj panel zakładek" status="Pokaż/Ukryj panel zakładek" short=""/>
+		<item id="32912" title="&amp;Miniaturki" tooltip="Pokaż/Ukryj miniaturki stron" status="Pokaż/Ukryj miniaturki stron" short=""/>
+		<item id="32924" title="&amp;Standardowe" tooltip="Pokaż/Ukryj pasek narzędzi standardowych operacji " status="Pokaż/Ukryj pasek narzędzi standardowych operacji " short=""/>
+		<item id="32925" title="Po&amp;większenie" tooltip="Pokaż/Ukryj pasek narzędzi z opcjami podglądu" status="Pokaż/Ukryj pasek narzędzi z opcjami podglądu" short=""/>
+		<item id="32929" title="&amp;Obracanie" tooltip="Pokaż/Ukryj pasek narzędzi z opcjami obracania zawartości dokumentu" status="Pokaż/Ukryj pasek narzędzi z opcjami obracania zawartości dokumentu" short=""/>
+		<item id="32936" title="Wyświetl wszystkie zakładki " tooltip="Wyświetl wszystkie zakładki " status="" short=""/>
+		<item id="32937" title="Zamknij aktywną zakładkę" tooltip="Zamknij aktywną zakładkę" status="" short=""/>
+		<item id="32938" title="Wyświetl wszystkie zakładki jako miniatury" tooltip="Wyświetl wszystkie zakładki jako miniatury" status="" short=""/>
+		<item id="32940" title="&amp;Zakładki nawigacji" tooltip="Pokaż/Ukryj zakładki nawigacji pomiędzy dokumentami" status="Pokaż/Ukryj zakładki nawigacji pomiędzy dokumentami" short=""/>
+		<item id="32942" title="&amp;Zamknij wszystkie dokumenty" tooltip="Zamyka wszystkie dokumenty" status="Zamyka wszystkie dokumenty" short=""/>
+		<item id="32944" title="Eksport" tooltip="Eksport dokumentu" status="Eksport dokumentu" short=""/>
+		<item id="32945" title="Eksport do grafiki" tooltip="Eksport dokumentu do pliku graficznego" status="Eksport dokumentu do pliku graficznego" short=""/>
+		<item id="32946" title="Nazwa dokumentu" tooltip="" status="" short=""/>
+		<item id="32947" title="Numer dokumentu" tooltip="" status="" short=""/>
+		<item id="32948" title="Tytuł dokumentu" tooltip="" status="" short=""/>
+		<item id="32949" title="Numer strony" tooltip="" status="" short=""/>
+		<item id="32950" title="STRONA" tooltip="" status="" short=""/>
+		<item id="32951" title="STRONY" tooltip="" status="" short=""/>
+		<item id="32952" title="Nazwa pliku" tooltip="" status="" short=""/>
+		<item id="32953" title="Data (MM-DD-RRRR)" tooltip="" status="" short=""/>
+		<item id="32954" title="Rok" tooltip="" status="" short=""/>
+		<item id="32955" title="Miesiąc" tooltip="" status="" short=""/>
+		<item id="32956" title="Dzień" tooltip="" status="" short=""/>
+		<item id="32957" title="Czas (GG-MM-SS)" tooltip="" status="" short=""/>
+		<item id="32958" title="Godzina" tooltip="" status="" short=""/>
+		<item id="32959" title="Minuta" tooltip="" status="" short=""/>
+		<item id="32960" title="Sekunda" tooltip="" status="" short=""/>
+		<item id="32961" title="Automatyczne numerowanie" tooltip="" status="" short=""/>
+		<item id="32976" title="Zatrzymaj pełne wyszukiwanie" tooltip="" status="" short=""/>
+		<item id="32977" title="Rozpocznij pełne wyszukiwanie" tooltip="" status="" short=""/>
+		<item id="32978" title="Przejdź do poprzedniego wyniku wyszukiwania" tooltip="Przejdź do poprzedniego wyniku wyszukiwania" status="Przejdź do poprzedniego wyniku wyszukiwania" short=""/>
+		<item id="32979" title="Przejdź do następnego wyniku wyszukiwania" tooltip="Przejdź do następnego wyniku wyszukiwania" status="Przejdź do następnego wyniku wyszukiwania" short=""/>
+		<item id="32987" title="&amp;Wyszukaj" tooltip="Wyszukuje wskzany tekst w dokumentach PDF w określonej lokalizacji" status="Wyszukuje wskzany tekst w dokumentach PDF w określonej lokalizacji" short=""/>
+		<item id="32990" title="" tooltip="Znajdź określony tekst" status="" short="Znajdź:"/>
+		<item id="32991" title="Znajdź poprzedni" tooltip="Znajdź poprzednie wystąpienie" status="Znajdź poprzednie wystąpienie" short=""/>
+		<item id="32992" title="Znajdź następny" tooltip="Znajdź następne wystąpienie" status="Znajdź następne wystąpienie" short=""/>
+		<item id="32993" title="Opcje wyszukiwania" tooltip="Ustawienie opcji wyszukiwania" status="Ustawienie opcji wyszukiwania" short=""/>
+		<item id="32994" title="Tylko całe wyrazy" tooltip="Wyszukuje tylko całe wyrazy" status="Wyszukuje tylko całe wyrazy" short=""/>
+		<item id="32995" title="Rozróżnianie wielkich i małych liter" tooltip="Rozróżnianie wielkich i małych liter w trakcie wyszukiwania" status="Rozróżnianie wielkich i małych liter w trakcie wyszukiwania" short=""/>
+		<item id="32996" title="Wyszukuj w komentarzach" tooltip="Uwzględnienie komentarzy w wyszukiwaniu tekstu" status="Uwzględnienie komentarzy w wyszukiwaniu tekstu" short=""/>
+		<item id="32997" title="Wyszukuj w zakładkach" tooltip="Uwzględnienie zakładek w wyszukiwaniu tekstu" status="Uwzględnienie zakładek w wyszukiwaniu tekstu" short=""/>
+		<item id="33000" title="&amp;Wyszukiwanie" tooltip="Pokaż/Ukryj pasek narzędzi z opcjami wyszukiwania" status="Pokaż/Ukryj pasek narzędzi z opcjami wyszukiwania" short=""/>
+		<item id="33003" title="Właściwości stron..." tooltip="Pokaż właściwości wybranych stron" status="Pokaż właściwości wybranych stron" short="Edytuj"/>
+		<item id="33006" title="Warstwy" tooltip="Pokaż/Ukryj panel warstw" status="Pokaż/Ukryj panel warstw" short=""/>
+		<item id="33008" title="Pola" tooltip="Pokaż/Ukryj panel pól" status="Pokaż/Ukryj panel pól" short=""/>
+		<item id="33009" title="&amp;Menu" tooltip="Pokaż/Ukryj manu" status="Pokaż/Ukryj menu" short=""/>
+		<item id="33014" title="&amp;Pełny ekran" tooltip="Wyświetla dokument na całym ekranie" status="Wyświetla dokument na całym ekranie" short=""/>
+		<item id="33015" title="Wyświetl/ukryj wszystkie paski" tooltip="Wyświetla/ukrywa wszystkie paski" status="Wyświetla/ukrywa wszystkie paski" short="Przełącz wszystkie paski"/>
+		<item id="33016" title="Pokaż/ukryj wszystkie paskii" tooltip="Pokaż/ukryj wszystkie paskii" status="Pokaż/ukryj wszystkie paskii" short="Pokaż/ukryj wszystkie paskii"/>
+		<item id="33018" title="Wyróżnij wszystkie pola formularza" tooltip="Dany dokument zawiera formularz; Kliknij tutaj aby wyróżnić wszystkie pola formularza" status="Dany dokument zawiera formularz; Kliknij aby wyróżnić wszystkie pola formularza" short="Wyróżnij pola"/>
+		<item id="33020" title="Powrót z pełnego ekran&amp;u" tooltip="Przywraca okno z całego ekranu" status="Przywraca okno z całego ekranu" short=""/>
+		<item id="33032" title="Centymetry" tooltip="Centymetry" status="" short=""/>
+		<item id="33033" title="Cale" tooltip="Cale" status="" short=""/>
+		<item id="33034" title="Milimetry" tooltip="Milimetry" status="" short=""/>
+		<item id="33035" title="Pica" tooltip="Pica" status="" short=""/>
+		<item id="33036" title="Punkty" tooltip="Punkty" status="" short=""/>
+		<item id="33038" title="Zamknij wszystkie" tooltip="Zamyka wszystkie otwarte dokumenty" status="Zamyka wszystkie otwarte dokumenty" short=""/>
+		<item id="33054" title="6400%" tooltip="" status="" short=""/>
+		<item id="33055" title="3200%" tooltip="" status="" short=""/>
+		<item id="33056" title="2400%" tooltip="" status="" short=""/>
+		<item id="33057" title="1200%" tooltip="" status="" short=""/>
+		<item id="33058" title="800%" tooltip="" status="" short=""/>
+		<item id="33059" title="400%" tooltip="" status="" short=""/>
+		<item id="33060" title="200%" tooltip="" status="" short=""/>
+		<item id="33061" title="150%" tooltip="" status="" short=""/>
+		<item id="33062" title="100%" tooltip="" status="" short=""/>
+		<item id="33063" title="75%" tooltip="" status="" short=""/>
+		<item id="33064" title="50%" tooltip="" status="" short=""/>
+		<item id="33065" title="25%" tooltip="" status="" short=""/>
+		<item id="33073" title="Eksport danych z formularza" tooltip="Eksportuje dane z formularza" status="Eksportuje dane z formularza" short=""/>
+		<item id="33074" title="Import danych do formularza" tooltip="Importuje dane do formularza" status="Importuje dane do formularza" short=""/>
+		<item id="33075" title="O&amp;bróć widok" tooltip="Obraca aktualny dokument" status="Obraca aktualny dokument" short=""/>
+		<item id="33078" title="W prawo" tooltip="Obraca widok w prawo - zgodnie z ruchem wskazówek zegara" status="Obraca widok w prawo - zgodnie z ruchem wskazówek zegara" short=""/>
+		<item id="33079" title="W &amp;lewo" tooltip="Obraca widok w prawo - przeciwnie do ruchu wskazówek zegara" status="Obraca widok w prawo - przeciwnie do ruchu wskazówek zegara" short=""/>
+		<item id="33080" title="Ob&amp;racanie stron" tooltip="" status="Rozszerzone opcje obracania stron" short=""/>
+		<item id="33081" title="&amp;Usuwanie stron..." tooltip="" status="Rozszerzone opcje usuwania stron" short=""/>
+		<item id="33082" title="P&amp;rzycinanie stron..." tooltip="" status="Opcje przycinania stron" short=""/>
+		<item id="33103" title="Panel pod&amp;ręczny" tooltip="Panel podręczny" status="Panel podręczny" short="Panel podręczny"/>
+		<item id="33104" title="Pogrubienie" tooltip="Pogrubienie" status="" short=""/>
+		<item id="33105" title="Kursywa" tooltip="Kursywa" status="" short=""/>
+		<item id="33106" title="Podkreślenie" tooltip="Podkreślenie" status="" short=""/>
+		<item id="33107" title="Przekreślenie" tooltip="Przekreślenie" status="" short=""/>
+		<item id="33108" title="Wyrównanie do lewej" tooltip="Wyrównanie do lewej" status="" short=""/>
+		<item id="33109" title="Wyrównanie do środka" tooltip="Wyrównanie do środka" status="" short=""/>
+		<item id="33110" title="Wyrównanie do prawej" tooltip="Wyrównanie do prawej" status="" short=""/>
+		<item id="33115" title="O&amp;dbicie linii" tooltip="Odbicie linii" status="" short=""/>
+		<item id="33116" title="&amp;Właściwości..." tooltip="Właściwości..." status="" short=""/>
+		<item id="33118" title="&amp;Ustaw aktualne właściwości jako domyślne" tooltip="Ustaw aktualne właściwości jako domyślne" status="Ustaw aktualne właściwości jako domyślne" short=""/>
+		<item id="33121" title="&amp;Zresetuj położenie rozwijalnej notatki" tooltip="Zresetuj położenie rozwijalnej notatki" status="" short=""/>
+		<item id="33122" title="Otwórz &amp;rozwijalną notatkę" tooltip="Otwórz rozwijalną notatkę" status="" short=""/>
+		<item id="33123" title="&amp;Strzałka" tooltip="Strzałka" status="" short="Strzałka"/>
+		<item id="33124" title="&amp;Linia" tooltip="Linia" status="" short="Linia"/>
+		<item id="33125" title="P&amp;rostokąt" tooltip="Prostokąt" status="" short="Prostokąt"/>
+		<item id="33126" title="&amp;Owal" tooltip="Owal" status="" short="Owal"/>
+		<item id="33127" title="&amp;Wielokąt" tooltip="Wielokąt" status="" short="Wielokąt"/>
+		<item id="33128" title="&amp;Linia łamana" tooltip="Linia łamana" status="" short="Linia łamana"/>
+		<item id="33129" title="Ołów&amp;ek" tooltip="Ołówek" status="" short="Ołówek"/>
+		<item id="33130" title="C&amp;hmurka" tooltip="Chmurka" status="" short="Chmurka"/>
+		<item id="33131" title="&amp;Stempel" tooltip="Stempel" status="" short="Stempel"/>
+		<item id="33132" title="&amp;Komentarz" tooltip="Komentarz" status="" short="Komentarz"/>
+		<item id="33133" title="Pod&amp;gląd" tooltip="Podgląd" status="Podgląd" short=""/>
+		<item id="33134" title="Ustaw &amp;domyślne właściwości" tooltip="Ustaw domyślne właściwości" status="Ustaw domyślne właściwości" short=""/>
+		<item id="33135" title="Dodaj notatkę" tooltip="Dodaj notatkę" status="" short=""/>
+		<item id="33136" title="Usuń" tooltip="Usuń" status="Usuń wybrany fragment" short=""/>
+		<item id="33138" title="&amp;Komentarze i znaczniki" tooltip="Pokaż/Ukryj pasek narzędzi z opcjami komentowania i oznaczania" status="Pokaż/Ukryj pasek narzędzi z opcjami komentowania i oznaczania" short=""/>
+		<item id="33139" title="Anuluj" tooltip="Anuluj" status="" short=""/>
+		<item id="33140" title="Zakończ" tooltip="Zakończ" status="" short=""/>
+		<item id="33141" title="S&amp;trona domowa" tooltip="" status="" short=""/>
+		<item id="33145" title="&amp;Spis treści" tooltip="" status="" short=""/>
+		<item id="33146" title="&amp;Raportuj problem...." tooltip="" status="" short=""/>
+		<item id="33147" title="&amp;Forum techniczne" tooltip="" status="" short=""/>
+		<item id="33168" title="Wyczyść formatowanie tekstu" tooltip="Wyczyść formatowanie tekstu" status="" short=""/>
+		<item id="33170" title="Górny indeks" tooltip="Górny indeks" status="" short=""/>
+		<item id="33171" title="Dolny indeks" tooltip="Dolny indeks" status="" short=""/>
+		<item id="33174" title="Dodaj odpowiedź" tooltip="Dodaj odpowiedź" status="" short=""/>
+		<item id="33176" title="Usuń odpowiedź" tooltip="Usuń odpowiedź" status="" short=""/>
+		<item id="33179" title="Sprawdź, czy są aktualizacje..." tooltip="" status="" short=""/>
+		<item id="33182" title="Skopiuj jako czysty tekst" tooltip="Skopiuj jako czysty tekst" status="" short=""/>
+		<item id="33183" title="Skopiuj jako sformatowany tekst" tooltip="Skopiuj jako sformatowany tekst" status="" short=""/>
+		<item id="33184" title="Skopiuj jako tekst RTF" tooltip="Skopiuj jako tekst RTF" status="" short=""/>
+		<item id="33187" title="Konsola &amp;JavaScript" tooltip="Pokaż/Ukryj konsolę JavaScript" status="Pokaż/Ukryj konsolę JavaScript" short=""/>
+		<item id="33197" title="Przeszukać ..." tooltip="" status="" short=""/>
+		<item id="33201" title="&amp;Wskaźnik tekstowy" tooltip="Wskaźnik tekstowy" status="" short="Wskaźnik tekstowy"/>
+		<item id="33202" title="Pole &amp;tekstowe" tooltip="Pole tekstowe" status="" short="Pole tekstowe"/>
+		<item id="33204" title="&amp;Komentarze" tooltip="Pokaż/Ukryj panel komentarzy" status="Pokaż/Ukryj panel komentarzy" short=""/>
+		<item id="33205" title="Z&amp;ałączniki" tooltip="Pokaż/Ukryj panel załączników" status="Pokaż/Ukryj panel załączników" short=""/>
+		<item id="33206" title="W&amp;yróżnij tekst" tooltip="Wyróżnij tekst" status="" short=""/>
+		<item id="33207" title="Dodaj &amp;notatkę do tekstu" tooltip="Dodaj notatkę do tekstu" status="" short=""/>
+		<item id="33208" title="Po&amp;dkreśl tekst" tooltip="Podkreśl tekst" status="" short=""/>
+		<item id="33209" title="P&amp;rzekreśl tekst" tooltip="Przekreśl tekst" status="" short=""/>
+		<item id="33210" title="Za&amp;stąp tekst" tooltip="Zastąp tekst" status="" short=""/>
+		<item id="33221" title="Podśw&amp;ietlenie tekstu" tooltip="Podświetlenie tekstu" status="Podświetlenie tekstu" short="Podświetlenie tekstu"/>
+		<item id="33222" title="Podkreślenie tekstu" tooltip="Podkreśla zaznaczony tekst" status="Podkreśla zaznaczony tekst" short="Podkreśla tekst"/>
+		<item id="33223" title="Przekreślenie tekstu" tooltip="Przekreśla zaznaczony tekst" status="Przekreśla zaznaczony tekst" short="Przekreśla tekst"/>
+		<item id="33224" title="Narzędzie pliku załącznika" tooltip="Załącz plik jako komentarz&#10;Kliknij stronę by przypiąć plik załącznika..." status="" short="Załacznik"/>
+		<item id="33225" title="Właś&amp;ciwości" tooltip="Pokaż/Ukryj pasek narzędzi z opcjami właściwości" status="Pokaż/Ukryj pasek narzędzi z opcjami właściwości" short=""/>
+		<item id="33226" title="&amp;Pisanie tekstu" tooltip="Pisanie tekstu" status="" short="Pisanie tekstu"/>
+		<item id="33228" title="Wyśw&amp;ietlaj panel stempli" tooltip="" status="" short=""/>
+		<item id="33229" title="Porzuć wybrane narzędzie" tooltip="Porzuć wybrane narzędzie" status="" short=""/>
+		<item id="33231" title="Rozmiar czcionki" tooltip="Rozmiar czcionki" status="" short="Rozmiar czcionki:"/>
+		<item id="33232" title="wg &amp;stron" tooltip="Grupowanie komentarzy wg stron" status="" short=""/>
+		<item id="33233" title="wg &amp;typu" tooltip="Grupowanie komenatrzy wg typu" status="" short=""/>
+		<item id="33234" title="wg &amp;autora" tooltip="Grupowanie komentarzy wg autora" status="" short=""/>
+		<item id="33235" title="wg daty &amp;modyfikacji" tooltip="Grupowanie komentarzy wg daty modyfikacji" status="" short=""/>
+		<item id="33236" title="wg &amp;koloru" tooltip="Grupowanie komentarzy wg koloru" status="" short=""/>
+		<item id="33237" title="wg daty &amp;utworzenia" tooltip="Grupowanie komentarzy wg daty utworzenia" status="" short=""/>
+		<item id="33238" title="Następny" tooltip="Następny komentarz" status="" short=""/>
+		<item id="33239" title="Poprzedni" tooltip="Poprzedni komentarz" status="" short=""/>
+		<item id="33240" title="Usuń" tooltip="Usuwa komentarz" status="" short=""/>
+		<item id="33241" title="Zwiń wszystkie" tooltip="Zwiń wszystkie komentarze" status="" short=""/>
+		<item id="33242" title="Rozwiń wszystkie" tooltip="Rozwiń wszystkie komentarze" status="" short=""/>
+		<item id="33243" title="Grupuj według" tooltip="Grupuj według" status="" short=""/>
+		<item id="33244" title="Właściwości..." tooltip="Właściwości komentarzy..." status="" short=""/>
+		<item id="33245" title="Odpowiedz" tooltip="Dodaj odpowiedź do komentarza" status="" short=""/>
+		<item id="33248" title="U&amp;suń zaznaczenie wszystkich" tooltip="Usuń zaznaczenie wszystkich" status="" short=""/>
+		<item id="33255" title="Zamknij wszystkie zakładki oprócz aktualnej" tooltip="Zamknij wszystkie zakładki oprócz aktualnej" status="Zamknij wszystkie zakładki oprócz aktualnej" short=""/>
+		<item id="33256" title="Zamknij tę zakładkę" tooltip="Zamknij tę zakładkę" status="Zamknij tę zakładkę" short=""/>
+		<item id="33257" title="Kopiuj nazwę dokumentu" tooltip="Kopiuje pełną nazwę dokumentu do Schowka" status="Kopiuje pełną nazwę dokumentu do Schowka" short=""/>
+		<item id="33258" title="Otwórz folder dokumentu" tooltip="Otwiera okno z zawartością folderu, w którym jest zapisany dokument" status="Otwiera okno z zawartością folderu, w którym jest zapisany dokument" short=""/>
+		<item id="33259" title="Wybierz aktualne formatowanie tekstu jako domyślne" tooltip="Wybierz aktualne formatowanie tekstu jako domyślne" status="" short=""/>
+		<item id="33260" title="Zastosuj domyślne formatowanie tekstu" tooltip="Zastosuj domyślne formatowanie tekstu" status="" short=""/>
+		<item id="33261" title="Kolor tekstu" tooltip="Kolor tekstu" status="" short="Kolor:"/>
+		<item id="33262" title="Opcje &amp;dokumentu" tooltip="Pokaż/Ukryj pasek narzędzi z opcjami dokumentu" status="Pokaż/Ukryj pasek narzędzi z opcjami dokumentu" short=""/>
+		<item id="33263" title="St&amp;rony i nawigacja" tooltip="Pokaż/Ukryj pasek narzędzi z opcjami nawigacji" status="Pokaż/Ukryj pasek narzędzi z opcjami nawigacji" short=""/>
+		<item id="33264" title="Strony i &amp;układ" tooltip="Pokaż/Ukryj pasek narzędzi z opcjami układu stron" status="Pokaż/Ukryj pasek narzędzi z opcjami układu stron" short=""/>
+		<item id="33265" title="&amp;Uruchamianie" tooltip="Pokaż/Ukryj pasek narzędzi z opcjami uruchamiania" status="Pokaż/Ukryj pasek narzędzi z opcjami uruchamiania" short=""/>
+		<item id="33267" title="&amp;Plik" tooltip="" status="" short=""/>
+		<item id="33268" title="Os&amp;tatnio otwierane pliki" tooltip="Lista ostatnio otwieranych dokumentów" status="Lista ostatnio otwieranych dokumentów" short=""/>
+		<item id="33269" title="Formularz danych" tooltip="Obsługa danych z formularzy" status="Obsługa danych z formularzy" short=""/>
+		<item id="33270" title="&amp;Właściwości dokumentu" tooltip="Wyświetla właściwości aktywnego dokumentu" status="Wyświetla właściwości aktywnego dokumentu" short="Właściwości..."/>
+		<item id="33272" title="Otwórz z &amp;sieci Web" tooltip="Otwiera dokument bezpośrednio z sieci Web" status="Otwiera dokument bezpośrednio z sieci Web" short=""/>
+		<item id="33280" title="Edycja" tooltip="" status="" short=""/>
+		<item id="33290" title="Widok" tooltip="" status="" short=""/>
+		<item id="33291" title="&amp;Paski narzędzi" tooltip="" status="" short=""/>
+		<item id="33292" title="Inne panele" tooltip="" status="" short=""/>
+		<item id="33293" title="&amp;Układ strony" tooltip="" status="" short=""/>
+		<item id="33300" title="Dokument" tooltip="" status="" short=""/>
+		<item id="33310" title="Narzędzia" tooltip="" status="" short=""/>
+		<item id="33311" title="Podstawowe narzędzia" tooltip="" status="" short=""/>
+		<item id="33313" title="Narzędzia powiększania" tooltip="" status="" short=""/>
+		<item id="33314" title="Narzędzia komentowania i zaznaczania" tooltip="" status="" short=""/>
+		<item id="33316" title="Narzędzia pomiaru" tooltip="" status="" short=""/>
+		<item id="33317" title="Narzędzia Łączy" tooltip="" status="" short=""/>
+		<item id="33339" title="Wyświetlaj pasek narzędzi komentowania i zaznaczania" tooltip="Wyświetlaj pasek narzędzi komentowania i zaznaczania" status="" short=""/>
+		<item id="33340" title="Wyświetlaj panel komentarzy" tooltip="Wyświetlaj panel komentarzy" status="Wyświetlaj panel komentarzy" short=""/>
+		<item id="33350" title="&amp;Okno" tooltip="" status="" short=""/>
+		<item id="33369" title="Pokaż info o uszkodzeniu" tooltip="Ten dokument jest uszkodzony. Kliknij, by poznać więcej informacji" status="Ten dokument jest uszkodzony. Kliknij, by poznać więcej informacji" short="Info o uszkodzeniu"/>
+		<item id="33370" title="Opcje dokumentu" tooltip="Określenie opcji dokumentu związanych z przeglądaniem, edycją itp." status="Określenie opcji dokumentu związanych z przeglądaniem, edycją itp." short="Opcje"/>
+		<item id="33371" title="Wyświetl panel warstw" tooltip="Dany dokument zawiera warstwy; Kliknij tutaj aby wyświetlić/ukryć panel warstw" status="Dany dokument zawiera warstwy; Kliknij aby wyświetlić/ukryć panel warstw" short="Pokaż warstwy"/>
+		<item id="33372" title="Wyświetl panel pól" tooltip="Dany dokument zawiera formularz; Kliknij tutaj aby wyświetlić/ukryć panel pól formularza" status="Dany dokument zawiera formularz; Kliknij aby wyświetlić/ukryć panel pól formularza" short="Pokaż pola"/>
+		<item id="33373" title="Brak właściwości" tooltip="Aktualnie nie wybrano żadnego obiektu posiadającego właściwości" status="Aktualnie nie wybrano żadnego obiektu posiadającego właściwości" short=""/>
+		<item id="33374" title="Pokaż informację PDF/A" tooltip="Ten dokument jest zgodny z plikami PDF/A; Kliknij tutaj by zobaczyć szczegóły" status="Ten dokument jest zgodny z plikami PDF/A; Kliknij tutaj by zobaczyć szczegóły" short="PDF/A Info"/>
+		<item id="33375" title="Pokaż informację XFA" tooltip="Ten dokument zawiera formularze XFA; Kliknij tutaj by zobaczyć szczegóły" status="Ten dokument zawiera formularze XFA" short="XFA Info"/>
+		<item id="33379" title="Przezroczystość" tooltip="Poziom przezroczystości" status="" short="Przezroczystość:"/>
+		<item id="33382" title="Wyświetl/ukryj pasek narzędzi formatowania tekstu" tooltip="Wyświetla/ukrywa pasek narzedzi formatowania tekstu" status="" short=""/>
+		<item id="33383" title="Kopiuj wybór stron" tooltip="Kopiuj wybór stron" status="" short=""/>
+		<item id="33384" title="Zaznacz całą stronę" tooltip="Zaznacz całą stronę" status="" short=""/>
+		<item id="33410" title="K&amp;omentarz" tooltip="Komentarz" status="" short=""/>
+		<item id="33411" title="Formatowanie tekstu" tooltip="Formatowanie tekstu" status="" short=""/>
+		<item id="33412" title="Zrób zdjęcie" tooltip="Zrób zdjęcie" status="" short=""/>
+		<item id="33413" title="Powiększ" tooltip="Powiększ miniatury" status="Powiększ miniatury" short=""/>
+		<item id="33414" title="Zmniejsz" tooltip="Zmniejsz miniatury" status="Zmniejsz miniatury" short=""/>
+		<item id="33416" title="Dodaj zakładkę" tooltip="" status="" short=""/>
+		<item id="33420" title="Dodaj Łącze" tooltip="" status="" short=""/>
+		<item id="33421" title="Wyrównaj do lewej krawędzi" tooltip="Wyrównaj do lewej krawędzi" status="" short=""/>
+		<item id="33422" title="Wyrównaj do prawej krawędzi" tooltip="Wyrównaj do prawej krawędzi" status="" short=""/>
+		<item id="33423" title="Wyrównaj do górnej krawędzi" tooltip="Wyrównaj do górnej krawędzi" status="" short=""/>
+		<item id="33424" title="Wyrównaj do dolnej krawędzi" tooltip="Wyrównaj do dolnej krawędzi" status="" short=""/>
+		<item id="33425" title="Wyrównaj poziomo wyśrodkowane" tooltip="Wyrównaj poziomo wyśrodkowane" status="" short=""/>
+		<item id="33426" title="Wyrównaj pionowo wyśrodkowane" tooltip="Wyrównaj pionowo wyśrodkowane" status="" short=""/>
+		<item id="33427" title="Rozmieść poziomo" tooltip="Rozmieść poziomo" status="" short=""/>
+		<item id="33428" title="Rozmieść pionowo" tooltip="Rozmieść pionowo" status="" short=""/>
+		<item id="33429" title="Utwórz tej samej szerokości" tooltip="Utwórz tej samej szerokości" status="" short=""/>
+		<item id="33430" title="Utwórz tej samej wysokości" tooltip="Utwórz tej samej wysokości" status="" short=""/>
+		<item id="33431" title="Utwórz tego samego rozmiaru" tooltip="Utwórz tego samego rozmiaru" status="" short=""/>
+		<item id="33432" title="Ustaw bieżący wygląd jako domyślny" tooltip="Ustaw bieżący wygląd jako domyślny" status="Ustaw bieżący wygląd jako domyślny" short=""/>
+		<item id="33433" title="Zastosuj domyślny wygląd" tooltip="Zastosuj domyślny wygląd dla wybranych łączy" status="Zastosuj domyślny wygląd dla wybranych łączy" short=""/>
+		<item id="33800" title="Przywróć połóżenie napisu" tooltip="Przywróć położenie napisu" status="" short=""/>
+		<item id="33801" title="Usuń etykietę" tooltip="Usuń etykietę" status="" short=""/>
+		<item id="33802" title="Edytuj etykietę" tooltip="Edytuj etykietę" status="" short=""/>
+		<item id="33805" title="Zmień współczynnik skali" tooltip="Zmień współczynnik skali" status="" short=""/>
+		<item id="33806" title="Zmień etykietę znacznika" tooltip="Zmień etykietę znacznika" status="" short=""/>
+		<item id="33807" title="Pokaż okno informacyjne pomiaru" tooltip="Pokaż okno informacyjne pomiaru" status="" short=""/>
+		<item id="33808" title="Wł. Ortho" tooltip="Wł. Ortho" status="" short=""/>
+		<item id="33809" title="Anuluj pomiar" tooltip="Anuluj pomiar" status="" short=""/>
+		<item id="33810" title="Pomiar ukończony" tooltip="Pomiar ukończony" status="" short=""/>
+		<item id="33811" title="Eksportuj pomiary do pliku CSV" tooltip="Eksportuj pomiary" status="" short=""/>
+		<item id="33812" title="&amp;Otwórz wbudowany plik..." tooltip="Otwórz wbudowany plk" status="Otwórz wbudowany plik" short="Otwórz..."/>
+		<item id="33813" title="Zapi&amp;sz wbudowany plik na dysk..." tooltip="Zapisz wbudowany plik na dysk" status="Zapisz wbudowany plik na dysk" short="Zapisz..."/>
+		<item id="33814" title="&amp;Edycja opisu..." tooltip="Edycja opisu" status="Edycja opisu wbudowanego pliku" short="Edytuj opis..."/>
+		<item id="33815" title="Załącz &amp;plik..." tooltip="Załacz plik" status="Załącz dowolny zewnętrzny plik do dokumentu" short="Załącz plik..."/>
+		<item id="33816" title="Obróć wybrane strony o 90°" tooltip="" status="" short="Obróć o 90°"/>
+		<item id="33817" title="Obróć wybrane strony o 180°" tooltip="" status="" short="Obróć o 180°"/>
+		<item id="33818" title="Obróć wybrane strony o 270°" tooltip="" status="" short="Obróć o 270°"/>
+		<item id="33819" title="Usuń wybrane &amp;strony" tooltip="" status="" short=""/>
+		<item id="36000" title="Dostosuj..." tooltip="Dostosowanie menu" status="Dostosowanie menu" short=""/>
+		<item id="36001" title="Zablokowane" tooltip="Zablokowane" status="" short=""/>
+		<item id="36004" title="Powiększ" tooltip="Powiększ zakładki" status="Powiększ zakładki" short=""/>
+		<item id="36005" title="Pomniejsz" tooltip="Pomniejsz zakładki" status="Pomniejsz zakładki" short=""/>
+		<item id="36006" title="Usuń zakładki" tooltip="Usuń wskazane zakładki" status="Usuń wskazane zakładki" short="Usuń"/>
+		<item id="36007" title="Właściwości zakładek..." tooltip="Pokaż właściwości wskazanych zakładek" status="Pokaż właściwości wskazanych zakładek" short="Edycja"/>
+		<item id="36008" title="Nowa zakładka" tooltip="Utwórz nową zakładkę" status="Utwórz nową zakładkę" short="Nowa"/>
+		<item id="36009" title="Zapewnij widzialność" tooltip="Zapewnij widzialność odpowiednich zakładek" status="Zapewnij widzialność odpowiednich zakładek" short=""/>
+		<item id="36010" title="Idź do zakładki" tooltip="Idź do zakładki" status="Pokaż zakładkę w wyglądzie stron" short=""/>
+		<item id="36011" title="Odśwież strukturę zakładek" tooltip="Odśwież strukturę zakładek" status="Odśwież strukturę zakładek" short=""/>
+		<item id="36012" title="Dodaj..." tooltip="Dodaj nowe polecenie..." status="Dodaj nowe polecenie..." short=""/>
+		<item id="36013" title="Usuń" tooltip="Usuń bieżące polecenie..." status="Usuń bieżące polecenie..." short=""/>
+		<item id="36014" title="W górę" tooltip="Wykonaj akcję wcześniej" status="Wykonaj akcję wcześniej" short=""/>
+		<item id="36015" title="W dół" tooltip="Wykonaj akcję później" status="Wykonaj akcję później" short=""/>
+		<item id="36016" title="Edycja..." tooltip="Edycja bieżącego polecenia..." status="Edycja bieżącego polecenia..." short=""/>
+		<item id="36017" title="Wykonajj bieżące" tooltip="Wykonaj wskazane polecenia..." status="Wykonaj wskazane polecenia..." short=""/>
+		<item id="36018" title="Testuj wszystkie" tooltip="Wykonaj wszystkie polecenia..." status="Wykonaj wszystkie polecenia..." short=""/>
+		<item id="36019" title="Wyczyść" tooltip="Wyczyść listę poleceń" status="Wyczyść listę poleceń" short=""/>
+		<item id="36023" title="&amp;Zmień nazwę" tooltip="Zmień nazwę wybranej zakładki" status="Zmień nazwę wybranej zakładki" short=""/>
+		<item id="36024" title="Uczyń bieżącą konfigurację domyślną" tooltip="Uczyń bieżącą konfigurację domyślną" status="Uczyń bieżącą konfigurację domyślną" short=""/>
+		<item id="36025" title="Zawiń długie nazwy zakładek" tooltip="Zawiń długie nazwy zakładek" status="Zawiń długie nazwy zakładek" short=""/>
+		<item id="36026" title="Zastosuj domyślną konfigurację" tooltip="Zastosuj domyślną konfigurację do wskazanych zakładek" status="Zastosuj domyślną konfigurację do wskazanych zakładek" short=""/>
+		<item id="36027" title="Wykonaj" tooltip="Wykonaj kod" status="" short=""/>
+		<item id="36028" title="Wyczyść" tooltip="Wyczyść konsolę" status="" short=""/>
+		<item id="36035" title="Przejdź do wiersza..." tooltip="" status="" short=""/>
+		<item id="36036" title="Opcje Java Script" tooltip="Pokaż opcje JavaScript" status="Wyświetla opcje Java Script..." short=""/>
+		<item id="36037" title="Wstaw strony..." tooltip="" status="" short=""/>
+		<item id="36038" title="W&amp;yciągnij strony..." tooltip="" status="" short=""/>
+		<item id="36039" title="&amp;Zamień strony..." tooltip="" status="" short=""/>
+		<item id="36040" title="Przejścia pomiędzy stronami..." tooltip="" status="" short=""/>
+		<item id="36048" title="Ustal miejsce przeznaczenia" tooltip="Ustal miejsce przeznaczenia" status="Bieżący wygląd jest miejscem przeznaczenia" short=""/>
+		<item id="36049" title="" tooltip="Czcionka" status="" short="Czcionka:"/>
+		<item id="36250" title="Styl wyróżnienia" tooltip="Styl wyróżnienia" status="" short="Wyróżnienie:"/>
+		<item id="36252" title="Tylko całe wyrazy" tooltip="Znajduje tylko całe wyrazy" status="Znajduje jedynie wystąpienie pełnego wyrazu  wpisanego w polu tekstowym" short=""/>
+		<item id="36253" title="Wielkość liter" tooltip="Szukanie wg wielkości liter" status="Znajduje jedynie wystąpienie słów, które pasują do wielkości liter podczas pisania" short=""/>
+		<item id="36254" title="Zawartość komentarzy" tooltip="Wyszukuje tekst w komentarzach dodanych do PDF" status="Wyszukuje tekst w komentarzach dodanych do PDF widocznych w panelu komentarzy" short=""/>
+		<item id="36255" title="Zawartość zakładek" tooltip="Wyszukuje tekst w zakładkach" status="Wyszukuje tekst w zakładkach widocznych w panelu zakładek" short=""/>
+		<item id="36256" title="Pokaż ikony zakładek" tooltip="Pokaż/Ukryj ikony zakładek" status="Pokaż/ukryj ikony zakładek" short=""/>
+		<item id="36257" title="Edytuj temat..." tooltip="Edytuj początkowy temat wybranego stylu komentarza" status="" short=""/>
+		<item id="36260" title="1600%" tooltip="" status="" short=""/>
+		<item id="36262" title="12,5%" tooltip="" status="" short=""/>
+		<item id="36263" title="8,33%" tooltip="" status="" short=""/>
+		<item id="36264" title="Powiększenie" tooltip="" status="" short="Powiększenie:"/>
+		<item id="36273" title="Kolor wypełnienia" tooltip="Kolor wypełnienia" status="" short="Kolor wypełnienia:"/>
+		<item id="36274" title="Kolor obrysowania" tooltip="Kolor obrysowania" status="" short="Kolor obrysowania:"/>
+		<item id="36276" title="Ikona notatki" tooltip="Ikona notatki" status="" short="Ikona:"/>
+		<item id="36277" title="Powiększ" tooltip="Powiększ" status="" short="Powiększ:"/>
+		<item id="36279" title="Styl obramowania" tooltip="Styl obramowania" status="" short="Obramowanie:"/>
+		<item id="36281" title="Szerokość obramowania" tooltip="Szerokość obramowania" status="" short="Szerokość:"/>
+		<item id="36287" title="Styl końca linii" tooltip="Styl końca linii" status="" short="Koniec linii:"/>
+		<item id="36289" title="Styl początku linii" tooltip="Styl początku linii" status="" short="Początek linii:"/>
+		<item id="36291" title="Powiększ" tooltip="Powiększ miniatury" status="Powiększ miniatury" short=""/>
+		<item id="36292" title="Zmniejsz" tooltip="Zmniejsz miniatury" status="Zmniejsz miniatury" short=""/>
+		<item id="36293" title="Utwórz ze Schowka" tooltip="Utwórz Stempel z obrazu w Schowku" status="Utwórz stempel z obrazu w schowku" short="Ze Schowka"/>
+		<item id="36294" title="Usuń Stempel" tooltip="Usuń wybrany stempel" status="Usuń wybrany stempel" short="Usuń"/>
+		<item id="36295" title="Wstaw Stempel..." tooltip="Wstaw Stempel..." status="Wstaw stempel..." short=""/>
+		<item id="36296" title="Usuń Kolekcję" tooltip="Usuń wybraną Kolekcję" status="Usuń wybraną kolekcję" short="Usuń"/>
+		<item id="36297" title="Utwórz nową Kolekcję..." tooltip="Utwórz nową kolekcję Stempli..." status="Utwórz nową kolekcje stempli..." short="Nowa..."/>
+		<item id="36298" title="Edytuj Stempel..." tooltip="Esytuj wybrany Stempel..." status="Edytuj wybrany stempel..." short="Edytuj..."/>
+		<item id="36299" title="Edytuj Kolekcję..." tooltip="Edytuj wybraną Kolekcję..." status="Edytuj wybraną kolekcje..." short="Edytuj..."/>
+		<item id="36300" title="Narzędzi&amp;e wymazywania" tooltip="Narzędzie wymazywania" status="Narzędzie wymazywania" short="Wymazywanie"/>
+		<item id="36301" title="Średnica" tooltip="Wymazywanie średnicy" status="" short="Średnica:"/>
+		<item id="36303" title="Utwórz z PDF..." tooltip="Utwórz Stempel z dokumentu PDF..." status="Utwórz stempel z dokumentu PDF..." short="Z PDF..."/>
+		<item id="36304" title="Utwórz z obrazu..." tooltip="Utwórz Stempel z pliku obrazu..." status="Utwórz stempel z pliku obrazu..." short="Z obrazu..."/>
+		<item id="36305" title="Wstaw puste strony..." tooltip="" status="" short=""/>
+		<item id="36306" title="Rozwiń wszystkie zakładki" tooltip="Rozwiń wszystkie zakładki" status="" short="Rozwiń wszystkie"/>
+		<item id="36307" title="Zwiń wszystkie zakładki" tooltip="Zwiń wszystkie zakładki" status="" short="Zwiń wszystkie"/>
+		<item id="36308" title="Właściwości tekstu..." tooltip="Pokaż właściwości tekstu..." status="Wyświetla okno z właciwościami wybranego tekstu" short="Właściwości tekstu..."/>
+		<item id="36309" title="Resetuj ten Pasek narzędzi" tooltip="Przywróć domyślne ustawienia tego Paska narzędzi" status="Przywróć domyślne ustawienia tego paska narzędzi" short="Resetuj ten Pasek narzędzi"/>
+		<item id="36313" title="" tooltip="Resetuj skróty kl." status="" short=""/>
+		<item id="36314" title="" tooltip="Wyczyść skrót kl." status="" short=""/>
+		<item id="36315" title="Resetuj Pasek menu" tooltip="Przywróć domyślne ustawienia Paska menu" status="Przywróć domyślne ustawienia paska menu" short="Resetuj Pasek menu"/>
+		<item id="36316" title="Resetuj to wyskakujące menu" tooltip="Resetuj to wyskakujące menu do ustawień domyślnych" status="Resetuj to wyskakujące menu do ustawień domyślnych" short="Resetuj to wyskakujące menu"/>
+		<item id="36324" title="Wybierz obraz" tooltip="" status="" short=""/>
+		<item id="36326" title="Resetuj" tooltip="" status="" short=""/>
+		<item id="36327" title="Usuń" tooltip="" status="" short=""/>
+		<item id="36328" title="Domyślny styl" tooltip="" status="" short=""/>
+		<item id="36329" title="Pokaż obraz" tooltip="" status="" short=""/>
+		<item id="36330" title="Pokaż tekst" tooltip="" status="" short=""/>
+		<item id="36331" title="Wstaw separator przed" tooltip="" status="" short=""/>
+		<item id="36332" title="Wstaw separator po" tooltip="" status="" short=""/>
+		<item id="36333" title="Właściwości..." tooltip="" status="" short=""/>
+		<item id="36334" title="Pokaż podgląd" tooltip="" status="" short=""/>
+		<item id="36335" title="Pokaż tematy" tooltip="Pokaż tematy komentarzy" status="Pokaż tematy komentarzy" short=""/>
+		<item id="36336" title="Pokaż autorów" tooltip="Pokaż autorów komentarzy" status="Pokaż autorów komentarzy" short=""/>
+		<item id="36337" title="Pokaż daty" tooltip="Pokaż daty modyfikacji komentarzy" status="Pokaż daty modyfikacji komentarzy" short=""/>
+		<item id="36338" title="Pokaż tekst" tooltip="Pokaż tekst komentarzy" status="Pokaż tekst komentarzy" short=""/>
+		<item id="36339" title="Pokaż kolory" tooltip="Pokaż kolory komentarzy" status="Pokaż kolory komentarzy" short=""/>
+		<item id="36340" title="Spłaszczone komentarze..." tooltip="" status="" short=""/>
+		<item id="36341" title="Wyczyść listę Wyszukiwania" tooltip="Wyczyść listę Wyszukiwania" status="" short="Wyczyść listę Wyszukiwania"/>
+		<item id="36342" title="Pasek narzędzi edytora łączy" tooltip="Pokaż/Ukryj pasek narzędzi edytora łączy" status="Poakż/Ukryj pasek narzędzi edytora łączy" short=""/>
+		<item id="36343" title="Narzędzie p&amp;rostokatnych łączy" tooltip="Narzędzie prostokatnych łączy" status="" short="Łącze"/>
+		<item id="36344" title="Narzędzie czworobocznych łączy" tooltip="Narzędzie czworobocznych łączy" status="" short="Łącze"/>
+		<item id="36345" title="Pasek narzędzi pomiaru" tooltip="Pokaż/Ukryj Pasek narzędzi pomiaru" status="Pokaż/ukryj pasek narzędzi pomiaru" short=""/>
+		<item id="36346" title="Narzędzie o&amp;dległości" tooltip="Narzędzie odległości do pomiaru odległości pomiędzy dwoma punktami" status="" short="Odległość"/>
+		<item id="36347" title="Narzędzie obwodu" tooltip="Narzędzie obwodu do pomiaru obwodu obiektu" status="" short="Obwód"/>
+		<item id="36348" title="Narzędzie obsz&amp;aru" tooltip="Narzędzie obszaru do pomiaru obszaru obiektu" status="" short="Obszar"/>
+		<item id="36349" title="&amp;Komentarze" tooltip="" status="" short=""/>
+		<item id="36350" title="Pod&amp;sumowanie komentarzy..." tooltip="" status="" short=""/>
+		<item id="36351" title="&amp;Eksport Komentarzy do pliku danych..." tooltip="" status="" short=""/>
+		<item id="36352" title="Pokaż odstępy między stronami" tooltip="Pokaż odstępy między stronami" status="" short="Pokaż odstępy"/>
+		<item id="36353" title="Pokaż miniatury stron w trybie wielostronicowym" tooltip="Pokaż miniatury stron w trybie wielostronicowym" status="" short="Pokaż miniatury stron"/>
+		<item id="36355" title="Wartość stosunku (z)" tooltip="Wartość stosunku (z)" status="" short="Z:"/>
+		<item id="36356" title="Wartość stosunku (do)" tooltip="Wartość stosunku (do)" status="" short="Do:"/>
+		<item id="36357" title="Jednostka stosunku (z)" tooltip="Jednostka stosunku (z)" status="" short="Z:"/>
+		<item id="36359" title="Jednostka stosunku (do)" tooltip="Jednostka stosunku (do)" status="" short="Do:"/>
+		<item id="36362" title="Dodaj &quot;Idź do strony w tym dokumencie&quot;..." tooltip="Dodaj &quot;Idź do strony w tym dokumencie&quot;..." status="Dodaj &quot;Idź do strony w tym dokumencie&quot;, wyświetlane w oknie dodawania nowego zadania..." short=""/>
+		<item id="36363" title="Dodaj &quot;Otwórz łącze web&quot;..." tooltip="Dodaj &quot;Otwórz łącze web&quot;..." status="Dodaj &quot;Otwórz łącze web&quot;, wyświetlane w oknie dodawania nowego zadania..." short=""/>
+		<item id="36364" title="Pusty dokument..." tooltip="Pusty dokument..." status="Tworzy nowy dokument PDF z pustą stroną(ami)..." short=""/>
+		<item id="36365" title="Z pliku tekstowego..." tooltip="Z pliku tekstowego..." status="Tworzy nowy dokument PDF z istniejącego pliku(ów) tekstowego(ych)..." short=""/>
+		<item id="36366" title="Cofnij" tooltip="" status="" short=""/>
+		<item id="36367" title="Powtórz" tooltip="" status="" short=""/>
+		<item id="36368" title="Wy&amp;tnij" tooltip="" status="" short=""/>
+		<item id="36369" title="&amp;Kopiuj" tooltip="" status="" short=""/>
+		<item id="36370" title="&amp;Wklej" tooltip="" status="" short=""/>
+		<item id="36371" title="Usuń" tooltip="" status="" short=""/>
+		<item id="36372" title="Z&amp;aznacz wszystko" tooltip="" status="" short=""/>
+		<item id="36373" title="Zablokuj/Odblokuj wszystkie polecenia pasków zadań" tooltip="Zablokuj/Odblokuj wszystkie polecenia pasków zadań" status="Zablokuj/Odblokuj wszystkie polecenia pasków zadań: nie zezwalaj na dostosowywanie i zmianę położenia" short="Zablokuj Paski"/>
+		<item id="36374" title="Przywróć domyślne ustawienia..." tooltip="Przywraca wszystkie domyślne ustawienia programu..." status="Przywraca wszystkie domyślne ustawienia programu..." short=""/>
+		<item id="36375" title="Z pliku obrazu..." tooltip="Z pliku obrazu..." status="Tworzy nowy dokument z istniejącego pliku(ów) obrazu..." short=""/>
+		<item id="36408" title="Importuj wszystkie ustawienia z pliku danych..." tooltip="Importuj wszystkie ustawienia programu z pliku danych..." status="Importuj wszystkie ustawienia programu z zewnętrznego pliku danych..." short=""/>
+		<item id="36409" title="Eksportuj wszystkie ustawienia do pliku danych..." tooltip="Eksportuj wszystkie ustawienia programu do pliku danych..." status="Eksportuj wszystkie ustawienia programu do zewnętrznego pliku danych..." short=""/>
+		<item id="36415" title="Pokaż" tooltip="" status="" short=""/>
+		<item id="36416" title="O programie" tooltip="" status="" short=""/>
+		<item id="36417" title="Wyjście" tooltip="" status="" short=""/>
+		<item id="36418" title="Pokaż style komentarza..." tooltip="" status="" short=""/>
+		<item id="36420" title="Pokaż paletę styli komentarzy" tooltip="" status="" short=""/>
+		<item id="36434" title="Widok komentarzy" tooltip="" status="" short=""/>
+		<item id="36435" title="Ukryj wszystkie komentarze" tooltip="" status="" short=""/>
+		<item id="36436" title="Pokaż wszystkie komentarze" tooltip="" status="" short=""/>
+		<item id="36437" title="Pokaż wg typu" tooltip="" status="" short=""/>
+		<item id="36438" title="Otwórz wszystkie okna podręczne" tooltip="" status="" short=""/>
+		<item id="36439" title="Zamknij wszystkie okna podręczne" tooltip="" status="" short=""/>
+		<item id="36440" title="Wszystkie typy" tooltip="" status="" short=""/>
+		<item id="36441" title="Notatnik" tooltip="" status="" short=""/>
+		<item id="36442" title="Znaczniki rysowania" tooltip="" status="" short=""/>
+		<item id="36443" title="Znaczniki edycji tekstu" tooltip="" status="" short=""/>
+		<item id="36444" title="Stemple" tooltip="" status="" short=""/>
+		<item id="36445" title="Załączniki" tooltip="" status="" short=""/>
+		<item id="36446" title="Znak na/z kod szestnastkowy" tooltip="Tłumacz wybrany znak na/z kod szesnastkowy" status="" short=""/>
+		<item id="36447" title="Znak na/z indeks glif" tooltip="Tłumacz wybrany znak na/z indeks glif" status="" short=""/>
+		<item id="36457" title="Styl podkreślenia" tooltip="Styl podkreślenia" status="" short="Styl:"/>
+		<item id="36459" title="&amp;Ustaw aktualne właściwości jako domyślne" tooltip="Ustaw aktualne właściwości jako domyślne" status="" short=""/>
+		<item id="36460" title="Ustaw aktualne właściwości jako domyślne" tooltip="Ustaw domyślne właściwości" status="" short=""/>
+		<item id="36461" title="Zablokowany" tooltip="Zablokowany" status="" short=""/>
+		<item id="36462" title="Ze skanera..." tooltip="Ze skanera..." status="Tworzy nowy dokument PDF ze skanera..." short=""/>
+		<item id="36463" title="Wszystkie pola" tooltip="Kliknij tutaj by wyróżnić wszystkie pola formularza" status="Kliknij by wyróżnić wszystkie pola formularza" short=""/>
+		<item id="36464" title="Pola typu kombi" tooltip="Kliknij tutaj by wyróżnić wszystkie Pola typu kombi" status="Kliknij by wyróżnić wszystkie Pola typu kombi" short=""/>
+		<item id="36465" title="Pola wyboru" tooltip="Kliknij tutaj by wyróżnić wszystkie Pola wyboru" status="Kliknij by wyróżnić wszystkie Pola wyboru" short=""/>
+		<item id="36466" title="Pola listy" tooltip="Kliknij tutaj by wyróżnić wszystkie Pola listy" status="Kliknij by wyróżnić wszystkie Pola listy" short=""/>
+		<item id="36467" title="Przyciski" tooltip="Kliknij tutaj by wyróżnić wszystkie Przyciski" status="Kliknij by wyróżnić wszystkie Przyciski" short=""/>
+		<item id="36468" title="Przyciski opcji" tooltip="Kliknij tutaj by wyróżnić wszystkie Przyciski opcji" status="Kliknij by wyróżnić wszystkie Przyciski opcji" short=""/>
+		<item id="36469" title="Pola tekstowe" tooltip="Kliknij tutaj by wyróżnić wszystkie pola tekstowe" status="Kliknij by wyróżnić pola tekstowe" short=""/>
+		<item id="36470" title="Pola podpisu" tooltip="Kliknij tutaj by wyróżnić wszystkie pola podpisu" status="Kliknij by wyróżnić wszystkie pola podpisu" short=""/>
+		<item id="36471" title="Tylko wymagane pola" tooltip="Kliknij tutaj by wyróżnić tylko wymagane pola" status="Kliknij by wyróżnić tylko wymagane pola" short=""/>
+		<item id="36472" title="Powiększ" tooltip="Powiększ" status="" short=""/>
+		<item id="36473" title="Pomniejsz" tooltip="Pomniejsz" status="" short=""/>
+		<item id="36474" title="Odbij w pionie" tooltip="Odbij w pionie" status="" short=""/>
+		<item id="36475" title="Odbij w poziomie" tooltip="Odbij w poziomie" status="" short=""/>
+		<item id="36476" title="Dopasuj" tooltip="Dopasuj" status="" short=""/>
+		<item id="36477" title="Obróć o 90° w Prawo" tooltip="Obróć o 90° w Prawo" status="" short=""/>
+		<item id="36478" title="Obróć o 90° w Lewo" tooltip="Obróć o 90° w Lewo" status="" short=""/>
+		<item id="36479" title="Obróć o 180°" tooltip="Obróć o 180°" status="" short=""/>
+		<item id="36481" title="&amp;Kopiuj adres odnośnika" tooltip="Kopiuj adres odnośnika" status="" short=""/>
+		<item id="36482" title="&amp;Otwórz adres URL w przeglądarce" tooltip="Otwórz adres URL w przeglądarce" status="" short=""/>
+		<item id="36483" title="Waga linii" tooltip="Pokaż wszystkie linie z obramowaniem szerokości 1 piksela niezależnie od poziomu powiększenia." status="Pokaż wszystkie linie z obramowaniem szerokości 1 piksela niezależnie od poziomu powiększenia." short=""/>
+		<item id="36485" title="Resetuj komentarz" tooltip="Resetuj wybrany komentarz.&#10;Wszystkie niestandardowe style dla wybranego typu komentarza będą usuniete, a jedynie domyślny styl zostanie zachowany" status="" short="Resetuj"/>
+		<item id="36486" title="Klonuj styl komentarza" tooltip="Klonuj wybrany styl komentarza" status="" short="Klonuj"/>
+		<item id="36487" title="Usuń style komentarza" tooltip="Usuń wybrane style komentarza" status="" short="Usuń"/>
+		<item id="36488" title="Resetuj style komentarza" tooltip="Resetuj wybrane style komentarza" status="" short="Resetuj"/>
+		<item id="36489" title="Zmień nazwę stylu komentarza" tooltip="Zmień nazwę wybranego stylu komentarza" status="" short="Zmień nazwę"/>
+		<item id="36493" title="Z pliku Rich Text Format (RTF)..." tooltip="Z pliku Rich Text Format (RTF)..." status="Utwórz nowy dokument PDF z istniejącego pliku(ów)..." short=""/>
+		<item id="36494" title="Anuluj" tooltip="Anuluj operację" status="Anuluj operację" short=""/>
+		<item id="36496" title="Dodaj &quot;Idź do strony w innym dokumencie&quot;..." tooltip="Dodaj &quot;Idź do strony w innym dokumencie&quot;..." status="Dodaj &quot;Idź do strony w innym dokumencie&quot;, wyświetlane w oknie dodawania nowego zadania..." short=""/>
+		<item id="36497" title="Dodaj &quot;Otwórz plik&quot;..." tooltip="Dodaj &quot;Otwórz plik&quot;..." status="Dodaj &quot;Otwórz plik&quot;, wyświetlane w oknie dodawania nowego zadania..." short=""/>
+		<item id="36498" title="Startowe kolory dokumentu" tooltip="Opcje przełączania startowych kolorów dokumentu" status="Opcje przełączania startowych kolorów dokumentu" short=""/>
+		<item id="36500" title="Zarządzaj listą ostatnio otwieranych..." tooltip="Zarządzaj lista ostatnio otwieranych dokumentów..." status="" short=""/>
+		<item id="36501" title="Otwórz URL w nowej zakładce przeglądarki" tooltip="Otwórz URL w nowej zakładce przeglądarki" status="" short=""/>
+		<item id="36502" title="Otwórz URL w nowym oknie przeglądarki" tooltip="Otwórz URL w nowym oknie przeglądarki" status="" short=""/>
+		<item id="36503" title="Import komentarzy..." tooltip="" status="" short=""/>
+		<item id="36511" title="Szykaj wg" tooltip="Szukaj tekstu wg dostawcy" status="Szukaj wybranego tekstu używając internetowego dostawcy wyszukiwania" short=""/>
+		<item id="36513" title="Zarządzaj dostawcami wyszukiwania" tooltip="Zarządzaj dostawcami wyszukiwania" status="" short=""/>
+		<item id="36514" title="Szukaj online" tooltip="Szukaj określonego tekstu używając internetowego dostawcy wyszukiwania" status="Szukaj określonego tekstu używając internetowego dostawcy wyszukiwania" short=""/>
+		<item id="36515" title="Podpi&amp;sywanie" tooltip="" status="" short=""/>
+		<item id="36516" title="Podpi&amp;sz dokument" tooltip="Podpisz dokument cyfrowo" status="Podpisz dokument cyfrowo" short="Podpisz"/>
+		<item id="36517" title="Miejsce &amp;podpisu" tooltip="Miejsce podpisu" status="Miejsce podpisu na dokumencie" short="Miejsce podpisu"/>
+		<item id="36518" title="Sprawdź &amp;wszystkie podpisy" tooltip="Sprawdź wszystkie podpisy" status="Sprawdź wszystkie podpisy w dokumencie" short="Sprawdź podpisy"/>
+		<item id="36519" title="Pokaż minia&amp;tury zakładek" tooltip="Pokaż miniatury zakładek" status="Włącza/Wyłącza pokazywanie podglądu zakładek" short=""/>
+		<item id="36520" title="Pokaż siatkę" tooltip="" status="" short=""/>
+		<item id="36521" title="Pokaż linie pomocnicze" tooltip="" status="" short=""/>
+		<item id="36522" title="Pokaż linie prowadzące" tooltip="" status="" short=""/>
+		<item id="36523" title="Dodaj nowe linie pomocnicze do strony..." tooltip="Dodaj nowe linie pomocnicze do strony..." status="" short=""/>
+		<item id="36524" title="Usuń linie pomocnicze na bieżącej stronie" tooltip="Usuń linie pomocnicze na bieżącej stronie" status="" short=""/>
+		<item id="36525" title="Usuń linie pomocnicze na wszystkich stronach" tooltip="Usuń linie pomocnicze na wszystkich stronach" status="" short=""/>
+		<item id="36527" title="Ustawienia pomiaru..." tooltip="Ustawienia pomiaru..." status="" short=""/>
+		<item id="36529" title="Przyciągnij do siatki" tooltip="" status="" short=""/>
+		<item id="36530" title="Przyciągnij do linii pomocniczych" tooltip="" status="" short=""/>
+		<item id="36531" title="Przyciągnij do obiektów" tooltip="" status="" short=""/>
+		<item id="36532" title="Przyciąganie" tooltip="Włącz/Wyłącz przyciąganie" status="" short=""/>
+		<item id="36533" title="Otwórz" tooltip="Otwórz wybrany załącznik" status="" short=""/>
+		<item id="36534" title="Zapisz..." tooltip="Zapisz wybrany załącznik do zewnętrznego pliku..." status="" short=""/>
+		<item id="36535" title="Dodaj nowy..." tooltip="Dodaj nowy załącznik..." status="" short=""/>
+		<item id="36536" title="Usuń" tooltip="Usuń wybrany załącznik" status="" short=""/>
+		<item id="36537" title="Edytuj opis..." tooltip="Edytuj opis..." status="" short=""/>
+		<item id="36538" title="Pokaż panel załączników" tooltip="Ten dokument zawiera plik załacznika; Kliknij tutaj by pokazać/ukryć panel załączników" status="Ten dokument zawiera plik załacznika; Kliknij tutaj by pokazać/ukryć panel załączników" short="Pokaż załączniki"/>
+		<item id="36539" title="Pokaż miniaturki wszystkich otwartych dokumentów" tooltip="Zobacz wszystkie otwarte dokumenty w postaci miniatur" status="" short="Pokaż dokumenty"/>
+		<item id="36542" title="Tryb mieszany" tooltip="Tryb mieszany" status="" short="Tryb mieszany:"/>
+		<item id="36543" title="Na pierwszy plan" tooltip="Przenieś na pierwsz plan" status="" short=""/>
+		<item id="36544" title="Na drugi plan" tooltip="Przenieś na drugi plan" status="" short=""/>
+		<item id="36545" title="W przód &amp;o jeden" tooltip="W przód o jeden" status="" short=""/>
+		<item id="36546" title="W tył o jede&amp;n" tooltip="W tył o jeden" status="" short=""/>
+		<item id="36547" title="Przesuń" tooltip="" status="" short=""/>
+		<item id="36548" title="Podświetl widoczną przestrzeń" tooltip="Podświetla widoczną przestrzeń na bierzącej stronie" status="Podświetl widoczną przestrzeń bierzącej strony na miniaturze" short=""/>
+		<item id="36549" title="Interaktywna podświetlona przestrzeń" tooltip="Włącz/Wyłącz interaktywność podświetlonej przestrzeni" status="Włącz/Wyłącz interaktywność podświetlonej przestrzeni na miniaturze" short=""/>
+		<item id="57600" title="&amp;Nowy dokument" tooltip="" status="" short=""/>
+		<item id="57601" title="&amp;Otwórz" tooltip="Otwiera istniejący dokument" status="Otwiera istniejący dokument" short=""/>
+		<item id="57602" title="Zamknij" tooltip="Zamyka aktywny dokument" status="Zamyka aktywny dokument" short=""/>
+		<item id="57603" title="&amp;Zapisz" tooltip="Zapisuje otwarty dokument" status="Zapisuje otwarty dokument" short=""/>
+		<item id="57604" title="Z&amp;apisz jako" tooltip="Zapisuje aktywny dokument pod nową nazwą" status="Zapisuje aktywny dokument pod nową nazwą" short=""/>
+		<item id="57607" title="&amp;Drukuj..." tooltip="Drukowanie aktywnego dokumentu" status="Drukowanie aktywnego dokumentu" short=""/>
+		<item id="57611" title="Zapisz kopię jako" tooltip="Zapisuje kopię aktywnego dokumentu w nowym pliku" status="Zapisuje kopię aktywnego dokumentu w nowym pliku" short=""/>
+		<item id="57612" title="Wyślij za pomocą &amp;Email" tooltip="Wysyła aktywny dokument jako załacznik wiadomości e-mail" status="Wysyła aktywny dokument jako załacznik wiadomości e-mail" short=""/>
+		<item id="57632" title="W&amp;yczyść" tooltip="Wyczyść wybrany fragment" status="Wyczyść wybrany fragment" short=""/>
+		<item id="57634" title="K&amp;opiuj" tooltip="Kopiuje bieżące zaznaczenie do Schowka" status="Kopiuje bieżące zaznaczenie do Schowka" short=""/>
+		<item id="57635" title="Wy&amp;tnij" tooltip="Usuwa bieżące zaznaczenie i kopiuje je do Schowka" status="Usuwa bieżące zaznaczenie i kopiuje je do Schowka" short=""/>
+		<item id="57636" title="&amp;Znajdź" tooltip="Wyszukuje wskazany tekst" status="Wyszukuje wskazany tekst" short=""/>
+		<item id="57637" title="Wk&amp;lej" tooltip="Wstawia wycięte lub skopiowane elementy w wybrane miejsce" status="Wstawia wycięte lub skopiowane elementy w wybrane miejsce" short=""/>
+		<item id="57642" title="&amp;Zaznacz wszystkie" tooltip="Zaznacz wszystkie" status="" short=""/>
+		<item id="57643" title="&amp;Cofnij" tooltip="Cofa ostatnia operację" status="Cofa ostatnia operację" short=""/>
+		<item id="57644" title="&amp;Przywróć" tooltip="Przywraca ostatnio cofniętą operację" status="Przywraca ostatnio cofniętą operację" short=""/>
+		<item id="57649" title="&amp;Porządkuj ikony" tooltip="Wyrównuje okno zwinięte do postaci ikony" status="Wyrównuje okno zwinięte do postaci ikony" short=""/>
+		<item id="57650" title="&amp;Kaskada" tooltip="Aranżuje okna w układzie kaskadowym" status="Aranżuje okna w układzie kaskadowym" short=""/>
+		<item id="57651" title="&amp;Sąsiadująco poziomo" tooltip="Aranżuje okna rozmieszczając je obok siebie w poziomie" status="Aranżuje okna rozmieszczając je obok siebie w poziomie" short=""/>
+		<item id="57652" title="Sąs&amp;iadująco pionowo" tooltip="Aranżuje okna rozmieszczając je obok siebie w pionie" status="Aranżuje okna rozmieszczając je obok siebie w pionie" short=""/>
+		<item id="57653" title="&amp;Rozdziel" tooltip="Rozdziela aktywne okna na panele" status="Rozdziela aktywne okna na panele" short=""/>
+		<item id="57664" title="&amp;O programie PDF-XChange Viewer..." tooltip="Informacje o programie, numerze wersji i prawach autorskich" status="Informacje o programie, numerze wersji  i prawach autorskich" short=""/>
+		<item id="57665" title="Konie&amp;c" tooltip="Koniec pracy aplikacji, z potwierdzeniem zapisania zmienionych dokumentów" status="Koniec pracy aplikacji, z potwierdzeniem zapisania zmienionych dokumentów" short=""/>
+		<item id="57670" title="Pomo&amp;c" tooltip="" status="" short=""/>
+		<item id="57718" title="Przewiń w lewo" tooltip="Przewiń w lewo" status="" short=""/>
+		<item id="57719" title="Przewiń w prawo" tooltip="Przewiń w prawo" status="" short=""/>
+		<item id="59393" title="&amp;Pasek stanu" tooltip="Pokaż/Ukryj pasek stanu" status="Pokaż/Ukryj pasek stanu" short=""/>
+	</commands>
+	<dialogs>
+		<dialog id="203" text="Ustawienia">
+			<item id="1" text="Zapisz" tooltip=""/>
+			<item id="2" text="Anuluj" tooltip=""/>
+			<item id="3" text="Zastosuj" tooltip=""/>
+		</dialog>
+		<dialog id="204" text="">
+			<item id="1004" text="R&amp;ezultat przykrywa obszary robocze" tooltip=""/>
+			<item id="1008" text="&amp;Użyj Kompensacji Punktu Czerni" tooltip=""/>
+			<item id="1038" text="Ustawienia &amp;kolorów:" tooltip=""/>
+			<item id="1039" text="&amp;RGB:" tooltip=""/>
+			<item id="1040" text="&amp;CMYK:" tooltip=""/>
+			<item id="1041" text="&amp;Skala szarości:" tooltip=""/>
+			<item id="1042" text="&amp;Profil:" tooltip=""/>
+			<item id="1200" text="Obszar roboczy" tooltip=""/>
+			<item id="1201" text="Opcje konwersji" tooltip=""/>
+		</dialog>
+		<dialog id="207" text="">
+			<item id="4" text="Przeglądaj..." tooltip=""/>
+			<item id="5" text="Przeglądaj..." tooltip=""/>
+			<item id="1009" text="Liczba ostanio otwartych dokumentów" tooltip=""/>
+			<item id="1014" text="Wyświetl wizytówkę aplikacji" tooltip=""/>
+			<item id="1015" text="Zezwalaj na uruchomienie wielu kopii" tooltip=""/>
+			<item id="1016" text="Minimalizuj do Tray&apos;a" tooltip=""/>
+			<item id="1017" text="Zamknij do Tray&apos;a" tooltip=""/>
+			<item id="1032" text="Wyświetlaj zakładki dla dokumentów" tooltip=""/>
+			<item id="1033" text="&amp;Wiele dokumentów" tooltip=""/>
+			<item id="1035" text="Pokazuj przycisk Zamknij dla każdej zakładki" tooltip=""/>
+			<item id="1036" text="&amp;Pojedynczy dokument" tooltip=""/>
+			<item id="1038" text="Metoda zapisu:" tooltip=""/>
+			<item id="1039" text="Domyślny folder dla dokumentów ładowanych z adresów URL" tooltip=""/>
+			<item id="1040" text="Wybierz folder docelowy dla dokumentów &apos;Zapisz jako&apos;:" tooltip=""/>
+			<item id="1198" text="Uruchomienie aplikacji" tooltip=""/>
+			<item id="1199" text="Aplikacja" tooltip=""/>
+			<item id="1200" text="Układ dokumentów" tooltip=""/>
+			<item id="1201" text="Otwieranie dokumentów" tooltip=""/>
+			<item id="1202" text="Zapisywanie dokumentów" tooltip=""/>
+			<item id="1227" text="Wyczyść listę" tooltip=""/>
+			<item id="1228" text="Zarządzaj..." tooltip=""/>
+			<item id="1450" text="Przywróć ostatnią sesję przy starcie aplikacji" tooltip=""/>
+		</dialog>
+		<dialog id="212" text="Wprowadź hasło dokumentu">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Anuluj" tooltip=""/>
+			<item id="1039" text="Proszę wprowadzić hasło użytkownika lub właściciela otwieranego dokumentu:" tooltip=""/>
+		</dialog>
+		<dialog id="213" text="Właściwości dokumentu">
+			<item id="1" text="Zapisz" tooltip=""/>
+			<item id="2" text="Anuluj" tooltip=""/>
+			<item id="3" text="Zastosuj" tooltip=""/>
+		</dialog>
+		<dialog id="214" text="">
+			<item id="1038" text="Nazwa pliku:" tooltip=""/>
+			<item id="1039" text="Lokalizacja:" tooltip=""/>
+			<item id="1040" text="Utworzony:" tooltip=""/>
+			<item id="1041" text="Zmodyfikowany:" tooltip=""/>
+			<item id="1042" text="Rozmiar pliku:" tooltip=""/>
+			<item id="1043" text="&amp;Tytuł:" tooltip=""/>
+			<item id="1044" text="&amp;Autor:" tooltip=""/>
+			<item id="1200" text="Informacje o &amp;pliku" tooltip=""/>
+			<item id="1201" text="Informacje o &amp;dokumencie" tooltip=""/>
+			<item id="1203" text="T&amp;emat:" tooltip=""/>
+			<item id="1204" text="&amp;Słowa kluczowe:" tooltip=""/>
+			<item id="1205" text="Utworzony przez:" tooltip=""/>
+			<item id="1206" text="Aplikacja:" tooltip=""/>
+			<item id="1207" text="Wersja PDF:" tooltip=""/>
+			<item id="1208" text="Ilość stron:" tooltip=""/>
+			<item id="1209" text="Dodatkowe metadane...." tooltip=""/>
+		</dialog>
+		<dialog id="220" text="">
+			<item id="1038" text="Drukowanie:" tooltip=""/>
+			<item id="1039" text="Zmiany w dokumencie:" tooltip=""/>
+			<item id="1040" text="Kopiowanie i wyodrębnianie zawartości:" tooltip=""/>
+			<item id="1041" text="Wstawianie komentarzy i pól formularzy:" tooltip=""/>
+			<item id="1042" text="Wypełnianie pól formularzy i podpisywanie:" tooltip=""/>
+			<item id="1043" text="Dostęp do zawartości:" tooltip=""/>
+			<item id="1044" text="Zestaw dokumentów:" tooltip=""/>
+			<item id="1045" text="Wyodrębnianie stron:" tooltip=""/>
+			<item id="1047" text="Podpisywanie:" tooltip=""/>
+			<item id="1049" text="Tworzenie szablonów stron:" tooltip=""/>
+			<item id="1200" text="Zabezpieczenia dokumentu" tooltip=""/>
+			<item id="1201" text="Szczegółowe uprawnień dokumentu" tooltip=""/>
+			<item id="1203" text="Metoda zabezpieczenia dokumentu decyduje o zakresie operacji, które można na nim wykonać." tooltip=""/>
+			<item id="1204" text="&amp;Metoda zabezpieczenia:" tooltip=""/>
+			<item id="1205" text="Poziom szyfrowania:" tooltip=""/>
+			<item id="1206" text="Hasło otwarcia dokumentu:" tooltip=""/>
+			<item id="1207" text="Hasło określania uprawnień:" tooltip=""/>
+			<item id="1210" text="Zmień &amp;ustawienia..." tooltip=""/>
+			<item id="1212" text="Pokaż szczegóły..." tooltip=""/>
+		</dialog>
+		<dialog id="221" text="Eksport dokumentu do pliku graficznego">
+			<item id="1" text="&amp;Eksport..." tooltip=""/>
+			<item id="2" text="Anuluj" tooltip=""/>
+			<item id="4" text="&amp;Przeglądaj..." tooltip=""/>
+			<item id="6" text="&amp;Makra" tooltip=""/>
+			<item id="7" text="&amp;Opcje..." tooltip=""/>
+			<item id="1040" text="&amp;Folder docelowy:" tooltip=""/>
+			<item id="1041" text="&amp;Nazwa pliku:" tooltip=""/>
+			<item id="1042" text="&amp;Typ grafiki:" tooltip=""/>
+			<item id="1043" text="Tryb &amp;eksportu:" tooltip=""/>
+			<item id="1044" text="&amp;Rozdzielczość:" tooltip=""/>
+			<item id="1201" text="Zapisz jako" tooltip=""/>
+			<item id="1202" text="Grafika" tooltip=""/>
+			<item id="1203" text="Tło strony:" tooltip=""/>
+			<item id="1204" text="Zakres stron" tooltip=""/>
+			<item id="1206" text="Powiększenie:" tooltip=""/>
+			<item id="1330" text="&amp;Wszystkie" tooltip=""/>
+			<item id="1331" text="Wy&amp;brane strony" tooltip=""/>
+			<item id="1332" text="&amp;Aktualna strona" tooltip=""/>
+			<item id="1333" text="S&amp;trony:" tooltip=""/>
+			<item id="1335" text="&amp;Podzbiór:" tooltip=""/>
+			<item id="1339" text="Akt&amp;ualny widok" tooltip=""/>
+			<item id="1340" text="Wybrana grafika" tooltip=""/>
+			<item id="1341" text="W odwrotnej &amp;kolejności" tooltip=""/>
+			<item id="1387" text="Wpisz numery stron i/lub zakresy stron oddzielone od siebie znakiem przecinka - w kolejności od początku do końca dokumentu, np. 1, 3, 5-12" tooltip=""/>
+		</dialog>
+		<dialog id="222" text="Opcje zapisu grafiki">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Anuluj" tooltip=""/>
+		</dialog>
+		<dialog id="223" text="Průběh...">
+			<item id="1071" text="Anuluj" tooltip=""/>
+			<item id="1072" text="Pomiń" tooltip=""/>
+		</dialog>
+		<dialog id="224" text="">
+			<item id="1038" text="&amp;Domyślny wygląd:" tooltip=""/>
+			<item id="1039" text="Domyślny &amp;układ strony:" tooltip=""/>
+			<item id="1040" text="Domyślne &amp;powiększenie strony:" tooltip=""/>
+			<item id="1041" text="Używana &amp;rozdzielczość:" tooltip=""/>
+			<item id="1042" text="pikseli na cal" tooltip=""/>
+			<item id="1073" text="Wyświetlaj okienka podręczne" tooltip=""/>
+			<item id="1074" text="Wyświetlaj przezroczystą siatkę" tooltip=""/>
+			<item id="1079" text="Twórz łącza z adresów URL" tooltip=""/>
+			<item id="1083" text="Wyświetlaj wielkie obrazki" tooltip=""/>
+			<item id="1126" text="Przywróć ostatnio stosowany wygląd dokumentu (własny układ i wyświetlane panele) przy otwieraniu." tooltip=""/>
+			<item id="1200" text="Wyświetlanie strony" tooltip=""/>
+			<item id="1201" text="Początkowy wygląd" tooltip=""/>
+			<item id="1202" text="Początkowy wygląd" tooltip=""/>
+			<item id="1228" text="Przywróć ostatnio stosowany układ i powiększenie stron z Listy ostatnio otwieranych." tooltip=""/>
+			<item id="1523" text="Zabroń zmiany aktualnej wartości powiększenia w czasie polecenia &apos;Przejdź do&apos; (te akcje mogą być wywoływane z poziomu zakładek, łączy, java-scriptu)." tooltip=""/>
+		</dialog>
+		<dialog id="227" text="Potwierdź zastąpienie pliku">
+			<item id="2" text="Anuluj" tooltip=""/>
+			<item id="6" text="Tak" tooltip=""/>
+			<item id="7" text="Nie" tooltip=""/>
+			<item id="100" text="Tak dla wszystkich" tooltip=""/>
+			<item id="101" text="Nie dla wszystkich" tooltip=""/>
+			<item id="102" text="Automatycznie" tooltip=""/>
+			<item id="103" text="Zapisz jako..." tooltip=""/>
+			<item id="1040" text="Nadpisać ten plik?" tooltip=""/>
+			<item id="1041" text="Możesz zastosować automatyczne nadawanie nazw plikom w celu zapewnienia ich unikalności:" tooltip=""/>
+		</dialog>
+		<dialog id="228" text="Błąd zapisywania pliku">
+			<item id="3" text="Przerwij" tooltip=""/>
+			<item id="4" text="Powtórz" tooltip=""/>
+			<item id="5" text="Ignoruj" tooltip=""/>
+			<item id="103" text="Zapisz jako..." tooltip=""/>
+		</dialog>
+		<dialog id="229" text="Drukowanie">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Anuluj" tooltip=""/>
+			<item id="1038" text="Ilość kopii:" tooltip=""/>
+			<item id="1041" text="Typ skalowania:" tooltip=""/>
+			<item id="1043" text="&amp;Nazwa:" tooltip=""/>
+			<item id="1044" text="Stan:" tooltip=""/>
+			<item id="1086" text="&amp;Właściwości..." tooltip=""/>
+			<item id="1087" text="Drukuj do pliku" tooltip=""/>
+			<item id="1088" text="Duplex" tooltip=""/>
+			<item id="1094" text="Sortuj" tooltip=""/>
+			<item id="1096" text="Drukuj w skali szarości" tooltip=""/>
+			<item id="1097" text="Drukuj jako grafikę" tooltip=""/>
+			<item id="1127" text="Skalowanie strony" tooltip=""/>
+			<item id="1200" text="Drukarka" tooltip=""/>
+			<item id="1201" text="Zakres stron" tooltip=""/>
+			<item id="1203" text="Typ:" tooltip=""/>
+			<item id="1204" text="Opcje drukowania" tooltip=""/>
+			<item id="1206" text="Drukarka:" tooltip=""/>
+			<item id="1207" text="Arkusze:" tooltip=""/>
+			<item id="1330" text="&amp;Wszystkie" tooltip=""/>
+			<item id="1331" text="Wy&amp;brane strony" tooltip=""/>
+			<item id="1332" text="&amp;Bieżąca strona" tooltip=""/>
+			<item id="1333" text="&amp;Strony:" tooltip=""/>
+			<item id="1335" text="Po&amp;dzbiór:" tooltip=""/>
+			<item id="1339" text="Bieżą&amp;cy widok" tooltip=""/>
+			<item id="1340" text="Wybrana &amp;grafika" tooltip=""/>
+			<item id="1341" text="W odwrotnej &amp;kolejności" tooltip=""/>
+			<item id="1343" text="Zaawansowane..." tooltip=""/>
+			<item id="1387" text="Wprowadź numery stron i/lub zakresy stron oddzielone znakiem przecinka, licząc od początku do końca dokumentu. Przykład: 1,3,5-12" tooltip=""/>
+		</dialog>
+		<dialog id="230" text="">
+			<item id="1038" text="Powiększenie:" tooltip=""/>
+			<item id="1116" text="Wybór źródła papieru zgodnie z ustawieniem strony PDF" tooltip=""/>
+			<item id="1120" text="Automatyczny obrót" tooltip=""/>
+			<item id="1121" text="Automatyczne centrowanie" tooltip=""/>
+		</dialog>
+		<dialog id="231" text="">
+			<item id="1038" text="Stron na arkusz:" tooltip=""/>
+			<item id="1039" text="Kolejność stron:" tooltip=""/>
+			<item id="1108" text="Pokaż obramowanie strony" tooltip=""/>
+			<item id="1120" text="Automatyczne obrót stron" tooltip=""/>
+			<item id="1121" text="Automatyczne środkowanie stron" tooltip=""/>
+			<item id="1128" text="na" tooltip=""/>
+		</dialog>
+		<dialog id="232" text="">
+			<item id="1038" text="Skala rozmieszczania" tooltip=""/>
+			<item id="1040" text="Przykrywanie:" tooltip=""/>
+			<item id="1110" text="Pokaż znaki cięcia arkuszy" tooltip=""/>
+			<item id="1118" text="Pokaż etykiety na arkuszach" tooltip=""/>
+			<item id="1120" text="Automatyczne obracanie arkuszy w składzie" tooltip=""/>
+			<item id="1121" text="Automatyczne środkowanie arkuszy w składzie" tooltip=""/>
+		</dialog>
+		<dialog id="236" text="Idź do strony">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Anuluj" tooltip=""/>
+			<item id="1038" text="Wprowadź numer strony:" tooltip=""/>
+		</dialog>
+		<dialog id="237" text="Powiększ do">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Anuluj" tooltip=""/>
+			<item id="1038" text="Wprowadź skalę:" tooltip=""/>
+		</dialog>
+		<dialog id="244" text="">
+			<item id="1038" text="Jakiego słowa lub frazy szukasz?" tooltip=""/>
+			<item id="1039" text="Gdzie chcesz szukać?" tooltip=""/>
+			<item id="1040" text="Sortuj wg:" tooltip=""/>
+			<item id="1099" text="Opcje" tooltip=""/>
+			<item id="1139" text="Szukaj" tooltip=""/>
+			<item id="1142" text="Wyczyść" tooltip=""/>
+		</dialog>
+		<dialog id="245" text="Opcje wyszukiwania">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Anuluj" tooltip=""/>
+			<item id="1038" text="Stosuj zasięg:" tooltip=""/>
+			<item id="1126" text="Rozróżnianie wielkich i małych liter" tooltip=""/>
+			<item id="1128" text="Uwzględnij komentarze" tooltip=""/>
+			<item id="1129" text="Uwzględnij zakładki" tooltip=""/>
+			<item id="1130" text="Szukaj w podfolderach" tooltip=""/>
+			<item id="1131" text="Uwzględnij załączniki" tooltip=""/>
+			<item id="1145" text="Tylko całe wyrazy" tooltip=""/>
+			<item id="1193" text="Najbliższe" tooltip=""/>
+			<item id="1194" text="Na stronie" tooltip=""/>
+			<item id="1195" text="W dokumencie" tooltip=""/>
+			<item id="1200" text="Zastosuj dodatkowe kryteria:" tooltip=""/>
+		</dialog>
+		<dialog id="246" text="Zaawansowane wyszukiwanie">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Anuluj" tooltip=""/>
+			<item id="1038" text="musi zawierać wszystkie wyrazy:" tooltip=""/>
+			<item id="1039" text="musi zawierać dokładną frazę:" tooltip=""/>
+			<item id="1040" text="musi zawierać przynajmniej jeden wyraz:" tooltip=""/>
+			<item id="1041" text="nie może zawierać wyrazów:" tooltip=""/>
+			<item id="1200" text="Rezultaty wyszukiwania powinny byc następujące:" tooltip=""/>
+		</dialog>
+		<dialog id="247" text="">
+			<item id="1038" text="Procentowe wykorzystanie pamięci systemowej:" tooltip=""/>
+			<item id="1039" text="Maksymalna ilość wątków przeznaczonych do prezentacji stron:" tooltip=""/>
+			<item id="1040" text="Maksymalna ilość wątków przeznaczonych do tworzenia miniatur stron:" tooltip=""/>
+			<item id="1041" text="Maksymalna ilość roboczych wątków:" tooltip=""/>
+			<item id="1200" text="Wykorzystanie pamięci" tooltip=""/>
+			<item id="1201" text="Wykorzystanie wątków" tooltip=""/>
+			<item id="1525" text="Użyj trybu synchronicznego do renderowania stron (może spowolnić użyte aplikacjie)" tooltip=""/>
+		</dialog>
+		<dialog id="257" text="Obracanie stron">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Anuluj" tooltip=""/>
+			<item id="1038" text="O&amp;bróć:" tooltip=""/>
+			<item id="1039" text="Wpisz numery stron i/lub zakresy stron oddzielając je znakiem przecinka, licząc od początku do końca dokumentu. Na przykład: 1,3-5,8-21" tooltip=""/>
+			<item id="1041" text="&amp;Kierunek:" tooltip=""/>
+			<item id="1164" text="&amp;Wszystkie" tooltip=""/>
+			<item id="1165" text="W&amp;ybrane strony" tooltip=""/>
+			<item id="1166" text="&amp;Aktualna strona" tooltip=""/>
+			<item id="1167" text="S&amp;trony:" tooltip=""/>
+			<item id="1200" text="Zakres stron" tooltip=""/>
+		</dialog>
+		<dialog id="258" text="Usuwanie stron">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Anuluj" tooltip=""/>
+			<item id="1038" text="&amp;Usuń" tooltip=""/>
+			<item id="1039" text="Wpisz numery stron i/lub zakresy stron oddzielone znakiem przecinka, licząc od początku do końca dokumentu. Na przykład 1,3-5,12-18" tooltip=""/>
+			<item id="1165" text="&amp;Wybrane strony" tooltip=""/>
+			<item id="1166" text="&amp;Aktualna strona" tooltip=""/>
+			<item id="1167" text="&amp;Strony:" tooltip=""/>
+			<item id="1200" text="Zakres stron" tooltip=""/>
+		</dialog>
+		<dialog id="265" text="Właściwości">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Anuluj" tooltip=""/>
+			<item id="3" text="Zastosuj" tooltip=""/>
+			<item id="1180" text="&amp;Zaawansowane" tooltip=""/>
+		</dialog>
+		<dialog id="266" text="">
+			<item id="1038" text="Początek:" tooltip=""/>
+			<item id="1039" text="Koniec:" tooltip=""/>
+			<item id="1040" text="Styl:" tooltip=""/>
+			<item id="1041" text="Grubość:" tooltip=""/>
+			<item id="1042" text="Kolor:" tooltip=""/>
+			<item id="1043" text="Wypełnienie:" tooltip=""/>
+			<item id="1044" text="Przezroczystość:" tooltip=""/>
+			<item id="1200" text="Style zakończeń" tooltip=""/>
+			<item id="1201" text="Ramka" tooltip=""/>
+		</dialog>
+		<dialog id="268" text="">
+			<item id="1038" text="Autor:" tooltip=""/>
+			<item id="1039" text="Temat:" tooltip=""/>
+			<item id="1040" text="Utworzony:" tooltip=""/>
+			<item id="1041" text="Zmodyfikowany:" tooltip=""/>
+		</dialog>
+		<dialog id="272" text="">
+			<item id="1038" text="Styl:" tooltip=""/>
+			<item id="1039" text="Grubość:" tooltip=""/>
+			<item id="1040" text="Kolor:" tooltip=""/>
+			<item id="1041" text="Wypełnienie.:" tooltip=""/>
+			<item id="1042" text="Przezroczystość:" tooltip=""/>
+			<item id="1200" text="Obramowanie" tooltip=""/>
+		</dialog>
+		<dialog id="273" text="">
+			<item id="1038" text="Grubość:" tooltip=""/>
+			<item id="1039" text="Kolor:" tooltip=""/>
+			<item id="1040" text="Przezroczystość:" tooltip=""/>
+			<item id="1200" text="Ramka" tooltip=""/>
+		</dialog>
+		<dialog id="274" text="">
+			<item id="1038" text="Wybrana jednostka będzie globalnie stosowana przez aplikację przy wyświetlaniu suwaków stron, rozmiarów stron, siatek, przewodników itd. " tooltip=""/>
+			<item id="1039" text="Szerokość pomiędzy liniami siatki:" tooltip=""/>
+			<item id="1040" text="Wysokość pomiędzy liniami siatki:" tooltip=""/>
+			<item id="1041" text="Odsunięcie od &amp;lewej krawędzi:" tooltip=""/>
+			<item id="1042" text="Odsunięcie od &amp;górnej krawędzi:" tooltip=""/>
+			<item id="1043" text="Podział dla &amp;siatki:" tooltip=""/>
+			<item id="1045" text="Styl linii siatki:" tooltip=""/>
+			<item id="1046" text="Styl linii prowadz.:" tooltip=""/>
+			<item id="1047" text="Zaznacz podział:" tooltip=""/>
+			<item id="1200" text="Jednostki" tooltip=""/>
+			<item id="1201" text="Siatka i linie prowadzące" tooltip=""/>
+			<item id="1483" text="Pokaż siatkę" tooltip=""/>
+			<item id="1484" text="Pokaż linie pomocnicze" tooltip=""/>
+			<item id="1490" text="Pokaż &amp;linijki" tooltip=""/>
+			<item id="1491" text="Pokaż &amp;ułamki" tooltip=""/>
+			<item id="1499" text="Dostosuj..." tooltip=""/>
+			<item id="1502" text="Uzyj przyciągania (do siatki, linii prowadzących, obiektów)" tooltip=""/>
+		</dialog>
+		<dialog id="278" text="Raportuj problem...">
+			<item id="1" text="Dalej..." tooltip=""/>
+			<item id="2" text="Anuluj" tooltip=""/>
+			<item id="4" text="Przeglądaj..." tooltip=""/>
+			<item id="1038" text="Twoja wiadomość zostanie wysłana za pomocą e-mail - możesz poddać ją edycji przed wysyłką." tooltip=""/>
+			<item id="1039" text="Proszę wybrać &amp;rodzaj problemu:" tooltip=""/>
+			<item id="1040" text="Opis (wpisz krótki opis problemu):" tooltip=""/>
+			<item id="1041" text="Dołączasz plik (dokument PDF) do wiadomości?" tooltip=""/>
+			<item id="1126" text="Dołącz informację o zainstalowanych &amp;czcionkach i profilach kolorów" tooltip=""/>
+			<item id="1127" text="Dołącz informację o zainstalowanych &amp;drukarkach i ich ustawieniach" tooltip=""/>
+			<item id="1128" text="Dołącz informację o &amp;wersji systemu operacyjnego" tooltip=""/>
+			<item id="1183" text="Dołącz informację o wersji i &amp;ustawieniach aplikacji" tooltip=""/>
+			<item id="1524" text="Dołącz listę wszystkich załadowanych modułów użytych w tym procesie (zalecane)" tooltip=""/>
+		</dialog>
+		<dialog id="279" text="">
+			<item id="1038" text="Symbol:" tooltip=""/>
+			<item id="1039" text="Kolor:" tooltip=""/>
+			<item id="1040" text="Przezroczystość:" tooltip=""/>
+			<item id="1200" text="Wygląd" tooltip=""/>
+		</dialog>
+		<dialog id="282" text="Konsola JavaScript">
+			<item id="1" text="&amp;Uruchom" tooltip=""/>
+			<item id="2" text="Zamknij" tooltip=""/>
+			<item id="1200" text="Skrypt" tooltip=""/>
+			<item id="1201" text="Rezultat" tooltip=""/>
+		</dialog>
+		<dialog id="283" text="">
+			<item id="1038" text="Zakończenie linii:" tooltip=""/>
+			<item id="1039" text="Styl:" tooltip=""/>
+			<item id="1040" text="Grubość:" tooltip=""/>
+			<item id="1041" text="Kolor linii:" tooltip=""/>
+			<item id="1042" text="Wypełnienie:" tooltip=""/>
+			<item id="1043" text="Przezroczystość:" tooltip=""/>
+			<item id="1200" text="Style zakończeń" tooltip=""/>
+			<item id="1201" text="Ramka" tooltip=""/>
+		</dialog>
+		<dialog id="284" text="">
+			<item id="1038" text="Kolor:" tooltip=""/>
+			<item id="1039" text="Przezroczystość:" tooltip=""/>
+			<item id="1200" text="Właściwości" tooltip=""/>
+		</dialog>
+		<dialog id="290" text="Stemple">
+		</dialog>
+		<dialog id="291" text="">
+			<item id="1038" text="Wybierz PDF-XChange jako standardową przeglądarkę dokumentów PDF:" tooltip=""/>
+			<item id="1039" text="Przywróć poprzednio wybraną aplikację jako domyślną przeglądarkę PDF (po warunkiem, że jest nadal zainstalowana):" tooltip=""/>
+			<item id="1127" text="Wyświetlaj PDF w przeglądarce" tooltip=""/>
+			<item id="1162" text="Ustaw PDF Viewer jako domyślny" tooltip=""/>
+			<item id="1197" text="Przywróć przypisanie" tooltip=""/>
+			<item id="1200" text="Przypisanie pliku" tooltip=""/>
+		</dialog>
+		<dialog id="292" text="">
+			<item id="1038" text="Przezroczystość:" tooltip=""/>
+			<item id="1200" text="Wygląd" tooltip=""/>
+		</dialog>
+		<dialog id="295" text="">
+			<item id="1038" text="&amp;Login:" tooltip=""/>
+			<item id="1039" text="&amp;Nazwisko i imię:" tooltip=""/>
+			<item id="1040" text="&amp;Tytuł" tooltip=""/>
+			<item id="1041" text="Organizacja (Firma):" tooltip=""/>
+			<item id="1042" text="Oddział:" tooltip=""/>
+			<item id="1043" text="E-Mail:" tooltip=""/>
+			<item id="1044" text="Twoje informacje identyfikacyjne będą stosowane w komentarzach, notatkach i podpisach cyfrowych. Będą one stosowane wyłącznie wewnętrznie i nie będą transmitowane na zewnątrz bez Twojej zgody." tooltip=""/>
+			<item id="1200" text="Identyfikacja" tooltip=""/>
+		</dialog>
+		<dialog id="296" text="">
+			<item id="1038" text="Wskaż preferowany język interfejsu:" tooltip=""/>
+			<item id="1200" text="Języki" tooltip=""/>
+			<item id="1219" text="Zastosuj regionalne ustawienia użytkownika" tooltip=""/>
+			<item id="1220" text="Wybierz język" tooltip=""/>
+			<item id="1221" text="Zastosuj domyślny język aplikacji" tooltip=""/>
+		</dialog>
+		<dialog id="297" text="Otwieranie dokumentu z lokalizacji w sieci Internet">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Anuluj" tooltip=""/>
+			<item id="1038" text="Proszę wpisać adres dokumentu w sieci:" tooltip=""/>
+		</dialog>
+		<dialog id="298" text="Przystosuj">
+			<item id="1" text="Zamknij" tooltip=""/>
+			<item id="1316" text="Zresetuj wszystkie" tooltip=""/>
+		</dialog>
+		<dialog id="299" text="">
+			<item id="1039" text="Paski narzędzi:" tooltip=""/>
+			<item id="1234" text="Resetuj" tooltip=""/>
+			<item id="1235" text="Zmień nazwę" tooltip=""/>
+			<item id="1237" text="Nowy..." tooltip=""/>
+			<item id="1250" text="Usuń" tooltip=""/>
+		</dialog>
+		<dialog id="300" text="">
+			<item id="1038" text="Aby dodać polecenie, przeciągnij polecenie z listy Poleceń i upuść polecenie na docelowym pasku narzędzi lub menu." tooltip=""/>
+			<item id="1039" text="Kategorie:" tooltip=""/>
+			<item id="1040" text="Polecenia:" tooltip=""/>
+			<item id="1314" text="Pokaż polecenia zastrzeżone dla wersji PRO w liście Poleceń, Menu i Paskach narzedzi" tooltip=""/>
+			<item id="1320" text="Nowa..." tooltip=""/>
+			<item id="1321" text="Właściwości" tooltip=""/>
+		</dialog>
+		<dialog id="301" text="">
+			<item id="1233" text="Pokazuj podpowiedzi dot. pasków" tooltip=""/>
+			<item id="1234" text="Pokazuj skróty w podpowiedziach" tooltip=""/>
+			<item id="1235" text="Pokazuj skróty w Menu" tooltip=""/>
+		</dialog>
+		<dialog id="302" text="">
+			<item id="1038" text="&amp;Tło strony:" tooltip=""/>
+			<item id="1039" text="Kolor wypełnienia:" tooltip=""/>
+			<item id="1040" text="Kolor podświetlenia:" tooltip=""/>
+			<item id="1126" text="Kolor &amp;tekstu:" tooltip=""/>
+			<item id="1127" text="&amp;Zdobniki:" tooltip=""/>
+			<item id="1128" text="Zmieniaj wyłącznie czerń tekstu i zdobników" tooltip=""/>
+			<item id="1200" text="Opcje koloru dokumentów" tooltip=""/>
+			<item id="1220" text="Użyj s&amp;chematu kolorów użytkownika:" tooltip=""/>
+			<item id="1235" text="Zastosuj schemat kolorowania z &amp;Windows" tooltip=""/>
+			<item id="1236" text="Użyj wysokokontrastowego sc&amp;hematu kolorów:" tooltip=""/>
+			<item id="1240" text="Zignoruj kolory w dokumencie" tooltip=""/>
+			<item id="1241" text="Zmien kolorów zdobników razem z tekstem" tooltip=""/>
+		</dialog>
+		<dialog id="303" text="">
+			<item id="1038" text="Kolor &amp;tła:" tooltip=""/>
+			<item id="1200" text="Tryn pełnoekranowy" tooltip=""/>
+			<item id="1239" text="Kolor &amp;kursora:" tooltip=""/>
+		</dialog>
+		<dialog id="304" text="">
+			<item id="1038" text="&amp;Rozdzielczość:" tooltip=""/>
+			<item id="1039" text="dpi" tooltip=""/>
+			<item id="1096" text="Wykonuj ujęcia w skali szarości" tooltip=""/>
+			<item id="1200" text="Opcje ujęć" tooltip=""/>
+			<item id="1201" text="Dźwięki ujęć" tooltip=""/>
+			<item id="1242" text="&amp;Do ujęć zastosuj stałą rozdzielczość:" tooltip=""/>
+			<item id="1244" text="Nie sygnalizuj wykonywanych ujęć dźwiękami" tooltip=""/>
+		</dialog>
+		<dialog id="305" text="">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Anuluj" tooltip=""/>
+		</dialog>
+		<dialog id="306" text="">
+			<item id="1038" text="Teskt tytułowy:" tooltip=""/>
+			<item id="1039" text="Styl:" tooltip=""/>
+			<item id="1040" text="Kolor:" tooltip=""/>
+		</dialog>
+		<dialog id="307" text="">
+			<item id="1038" text="Możesz dodać nowe polecenie lub poddać istniejące polecenia edycji. Możesz także zmienić sekwencję poleceń techniką drag&amp;&amp;drop." tooltip=""/>
+			<item id="1039" text="Wybierz &amp;Polecenie:" tooltip=""/>
+		</dialog>
+		<dialog id="308" text="">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Anuluj" tooltip=""/>
+			<item id="3" text="Dodaj aktualny widok" tooltip=""/>
+			<item id="4" text="..." tooltip=""/>
+			<item id="5" text="Usuń" tooltip=""/>
+			<item id="1038" text="Możesz wskazać nowe miejsce docelowe orzez naciśnięcie przycisku &apos;Użyj bieżącego wyglądu&apos;:" tooltip=""/>
+			<item id="1039" text="Nazwa pliku:" tooltip=""/>
+			<item id="1040" text="Strona:" tooltip=""/>
+			<item id="1041" text="X:" tooltip=""/>
+			<item id="1042" text="Y:" tooltip=""/>
+			<item id="1043" text="Szerokość:" tooltip=""/>
+			<item id="1044" text="Wysokość" tooltip=""/>
+			<item id="1045" text="&amp;Otwórz w:" tooltip=""/>
+			<item id="1066" text="Podgląd" tooltip=""/>
+			<item id="1067" text="Przywróć" tooltip=""/>
+			<item id="1126" text="Przejmij" tooltip=""/>
+			<item id="1127" text="Przejmij" tooltip=""/>
+			<item id="1200" text="Właściwości miejsca docelowego:" tooltip=""/>
+			<item id="1252" text="Użyj poziomu powiększenia:" tooltip=""/>
+			<item id="1253" text="Użyj obszaru prostokątnego:" tooltip=""/>
+			<item id="1261" text="Dokument docelowy:" tooltip=""/>
+			<item id="1271" text="Przybliż" tooltip=""/>
+			<item id="1272" text="Oddal" tooltip=""/>
+			<item id="1275" text="Użyj bieżącego wyglądu" tooltip=""/>
+			<item id="1435" text="Użyj numerów stron" tooltip=""/>
+			<item id="1436" text="Użyj nazwy miejsca docelowego" tooltip=""/>
+		</dialog>
+		<dialog id="309" text="">
+			<item id="1039" text="&amp;Nazwisko:" tooltip=""/>
+			<item id="1041" text="Nazwa &amp;organizacji:" tooltip=""/>
+			<item id="1043" text="Adres &amp;e-mail:" tooltip=""/>
+			<item id="1045" text="Klucz &amp;rejestracyjny:" tooltip=""/>
+			<item id="1200" text="Dane rejestracyjne" tooltip=""/>
+			<item id="1274" text="Ukryj funkcje &apos;PRO&apos; nieaktywne w wersji darmowej" tooltip=""/>
+			<item id="1282" text="Ukryj pasek reklam" tooltip=""/>
+		</dialog>
+		<dialog id="310" text="">
+			<item id="1038" text="&amp;Czcionka:" tooltip=""/>
+			<item id="1044" text="&amp;Rozmiar czcionki:" tooltip=""/>
+			<item id="1200" text="JavaScript" tooltip=""/>
+			<item id="1201" text="Konsola JavaScript" tooltip=""/>
+			<item id="1276" text="Zezwól wykonać kod &amp;JavaScript" tooltip=""/>
+			<item id="1277" text="Uruchom interaktywną &amp;konsolę JavaScript" tooltip=""/>
+			<item id="1278" text="&amp;Użyj konsoli do komunikatów i obsługi błędów" tooltip=""/>
+			<item id="1279" text="Ostrzegaj o &amp;wykonywaniu kodu JavaScript" tooltip=""/>
+		</dialog>
+		<dialog id="311" text="Przejdź do linii">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Anuluj" tooltip=""/>
+			<item id="1038" text="Numer linii:" tooltip=""/>
+		</dialog>
+		<dialog id="312" text="Przycinanie stron">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Anuluj" tooltip=""/>
+			<item id="1038" text="Zastosuj do:" tooltip=""/>
+			<item id="1039" text="Wpisz numery stron i/lub zakresy stron oddzielone od siebie znakiem przecinka - w kolejności od początku do końca dokumentu, np. 1, 3, 5-12" tooltip=""/>
+			<item id="1041" text="Pola:" tooltip=""/>
+			<item id="1042" text="&amp;Lewy:" tooltip=""/>
+			<item id="1043" text="Prawy:" tooltip=""/>
+			<item id="1044" text="Górny:" tooltip=""/>
+			<item id="1045" text="Dolny:" tooltip=""/>
+			<item id="1046" text="Jednostki:" tooltip=""/>
+			<item id="1126" text="Zastosuj do Białych Marginesów" tooltip=""/>
+			<item id="1127" text="Usuń puste spacje" tooltip=""/>
+			<item id="1129" text="Ogranicz rozmiary" tooltip=""/>
+			<item id="1164" text="Wszystkie" tooltip=""/>
+			<item id="1165" text="Wybrane strony" tooltip=""/>
+			<item id="1166" text="Bieżąca strona" tooltip=""/>
+			<item id="1167" text="Strony:" tooltip=""/>
+			<item id="1200" text="Zakres stron" tooltip=""/>
+			<item id="1201" text="Przycinanie marginesów" tooltip=""/>
+			<item id="1202" text="Ustawienia marginesów" tooltip=""/>
+			<item id="1285" text="Pokaż wszystkie pola" tooltip=""/>
+			<item id="1290" text="Ustaw na &amp;Zero" tooltip=""/>
+			<item id="1291" text="Przywróć oryginalne" tooltip=""/>
+		</dialog>
+		<dialog id="313" text="Wstawianie stron">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Anuluj" tooltip=""/>
+			<item id="4" text="Przeglądaj..." tooltip=""/>
+			<item id="1038" text="Wstaw:" tooltip=""/>
+			<item id="1039" text="Wpisz numery stron i/lub zakresy stron oddzielone od siebie znakiem przecinka - w kolejności od początku do końca dokumentu, np. 1, 3, 5-12" tooltip=""/>
+			<item id="1042" text="Położenie:" tooltip=""/>
+			<item id="1164" text="Wszystkie" tooltip=""/>
+			<item id="1167" text="Strony:" tooltip=""/>
+			<item id="1200" text="Zakres stron źródłowych" tooltip=""/>
+			<item id="1201" text="Źródło" tooltip=""/>
+			<item id="1202" text="Przeznaczenie" tooltip=""/>
+			<item id="1292" text="Z pliku" tooltip=""/>
+			<item id="1293" text="Z już otwartego dokumentu" tooltip=""/>
+			<item id="1295" text="Pierwsza strona" tooltip=""/>
+			<item id="1296" text="Ostatnia strona" tooltip=""/>
+			<item id="1297" text="Strona" tooltip=""/>
+		</dialog>
+		<dialog id="314" text="Wyodrębnianie stron">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Anuluj" tooltip=""/>
+			<item id="4" text="Przeglądaj..." tooltip=""/>
+			<item id="6" text="&amp;Makra" tooltip=""/>
+			<item id="1038" text="Zastosuj do:" tooltip=""/>
+			<item id="1039" text="Wpisz numery stron i/lub zakresy stron oddzielone od siebie znakiem przecinka - w kolejności od początku do końca dokumentu, np. 1, 3, 5-12" tooltip=""/>
+			<item id="1041" text="&amp;Nazwa pliku:" tooltip=""/>
+			<item id="1043" text="&amp;Folder docelowy:" tooltip=""/>
+			<item id="1126" text="Wyodrębnij strony jako oddzieln&amp;e pliki" tooltip=""/>
+			<item id="1164" text="Wszystkie" tooltip=""/>
+			<item id="1165" text="Wybrane &amp;strony" tooltip=""/>
+			<item id="1166" text="Bieżąca st&amp;rona" tooltip=""/>
+			<item id="1167" text="Strony:" tooltip=""/>
+			<item id="1200" text="Zakres stron" tooltip=""/>
+			<item id="1201" text="Opcje" tooltip=""/>
+			<item id="1202" text="Zapisz jako" tooltip=""/>
+			<item id="1299" text="Usuń strony po wyo&amp;drębnieniu" tooltip=""/>
+		</dialog>
+		<dialog id="315" text="">
+			<item id="1200" text="Opcje tworzenia komentarzy" tooltip=""/>
+			<item id="1201" text="Opcje widoku komentarzy" tooltip=""/>
+			<item id="1234" text="Włącz podpowiedzi" tooltip=""/>
+			<item id="1235" text="Wyświetlaj nagłówek tytułu w komentarzach pop-upów" tooltip=""/>
+			<item id="1236" text="Wyświetlaj nagłówek Autor w komentarzach pop-upów i tooltipach" tooltip=""/>
+			<item id="1237" text="Wyświetlaj datę modyfikacji w komentarzach pop-upów" tooltip=""/>
+			<item id="1302" text="Skopiuj okrążony tekst do Rysowanych wyskakujących okien komentarzy" tooltip=""/>
+			<item id="1303" text="Kopiuj wybrany tekst do Wyróżnień, Przekreśleń i Podkresleń wyskakujących okien komentarzy" tooltip=""/>
+			<item id="1304" text="Wklej komentarze w &amp;pozycji myszy" tooltip=""/>
+			<item id="1354" text="Pokaż znaczniki tekstu" tooltip=""/>
+			<item id="1507" text="Wygląd prostego skupienia" tooltip=""/>
+		</dialog>
+		<dialog id="316" text="Wstawianie pustych stron">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Anuluj" tooltip=""/>
+			<item id="1039" text="Orientacja:" tooltip=""/>
+			<item id="1040" text="x" tooltip=""/>
+			<item id="1041" text="Ilość:" tooltip=""/>
+			<item id="1042" text="Położenie:" tooltip=""/>
+			<item id="1200" text="Strony" tooltip=""/>
+			<item id="1202" text="Przeznaczenie" tooltip=""/>
+			<item id="1292" text="Standard:" tooltip=""/>
+			<item id="1293" text="Własny:" tooltip=""/>
+			<item id="1295" text="Pierwsza strona" tooltip=""/>
+			<item id="1296" text="Ostatnia strona" tooltip=""/>
+			<item id="1297" text="Strona:" tooltip=""/>
+			<item id="1304" text="Pionowa" tooltip=""/>
+			<item id="1305" text="Pozioma" tooltip=""/>
+		</dialog>
+		<dialog id="317" text="Zmień nazwę Stempla">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Anuluj" tooltip=""/>
+			<item id="1038" text="Proszę wprowadzić nową nazwę stempla." tooltip=""/>
+		</dialog>
+		<dialog id="318" text="Wstaw Stempel">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Anuluj" tooltip=""/>
+			<item id="4" text="Przeglądaj:" tooltip=""/>
+			<item id="1039" text="Plik:" tooltip=""/>
+			<item id="1041" text="Strona:" tooltip=""/>
+			<item id="1042" text="&amp;Tytuł:" tooltip=""/>
+			<item id="1200" text="Źródło" tooltip=""/>
+			<item id="1201" text="Informacja Stempla" tooltip=""/>
+		</dialog>
+		<dialog id="321" text="Właściwości tekstu">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Anuluj" tooltip=""/>
+			<item id="3" text="Zastosuj" tooltip=""/>
+		</dialog>
+		<dialog id="322" text="">
+			<item id="1313" text="Kopiuj do Schowka" tooltip=""/>
+		</dialog>
+		<dialog id="324" text="Właściwości Poleceń">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Anuluj" tooltip=""/>
+			<item id="1038" text="Obraz:" tooltip=""/>
+			<item id="1039" text="Tytuł:" tooltip=""/>
+			<item id="1040" text="Podpowiedź:" tooltip=""/>
+			<item id="1041" text="Tekst Stanu:" tooltip=""/>
+			<item id="1042" text="Krótki Tytuł:" tooltip=""/>
+			<item id="1043" text="ID:" tooltip=""/>
+			<item id="1044" text="Nazwa:" tooltip=""/>
+			<item id="1126" text="Sprawdź przez Java Script:" tooltip=""/>
+			<item id="1127" text="Umożliwiaj przez Java Script:" tooltip=""/>
+			<item id="1198" text="Komenda do wykonania:" tooltip=""/>
+			<item id="1200" text="Identyfikacja:" tooltip=""/>
+			<item id="1201" text="Skrót" tooltip=""/>
+			<item id="1202" text="Ustalanie stanu:" tooltip=""/>
+			<item id="1203" text="Nazwa (c) Adobe" tooltip=""/>
+			<item id="1204" text="Klawisze:" tooltip=""/>
+			<item id="1205" text="Użyj w:" tooltip=""/>
+			<item id="1206" text="Używane przez:" tooltip=""/>
+			<item id="1261" text="Wygląd:" tooltip=""/>
+			<item id="1292" text="Predefiniowane działania:" tooltip=""/>
+			<item id="1293" text="Wykonaj Java Script:" tooltip=""/>
+			<item id="1324" text="Edytuj..." tooltip=""/>
+			<item id="1325" text="Edytuj..." tooltip=""/>
+			<item id="1326" text="Edytuj..." tooltip=""/>
+		</dialog>
+		<dialog id="325" text="">
+			<item id="1039" text="&amp;Gamma tekstu" tooltip=""/>
+			<item id="1076" text="Wygładzaj tekst" tooltip=""/>
+			<item id="1077" text="Wygładzaj line art" tooltip=""/>
+			<item id="1078" text="Wygładzaj obrazy" tooltip=""/>
+			<item id="1200" text="Renderowanie tekstu" tooltip=""/>
+			<item id="1202" text="Wygładzanie" tooltip=""/>
+		</dialog>
+		<dialog id="326" text="Nowy Pasek Narzędzi">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Anuluj" tooltip=""/>
+			<item id="1038" text="Tytuł Paska narzędzi:" tooltip=""/>
+		</dialog>
+		<dialog id="327" text="Spłaszczone adnotacje">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Anuluj" tooltip=""/>
+			<item id="1038" text="Zastosuj do:" tooltip=""/>
+			<item id="1039" text="Wpisz numery stron i/lub zakresy stron oddzielone od siebie znakiem przecinka - w kolejności od początku do końca dokumentu, np. 1, 3, 5-12" tooltip=""/>
+			<item id="1041" text="Nie drukowane:" tooltip=""/>
+			<item id="1042" text="Pola formularzy:" tooltip=""/>
+			<item id="1164" text="Wszystkie" tooltip=""/>
+			<item id="1165" text="Wybrane &amp;strony" tooltip=""/>
+			<item id="1166" text="Bieżąca st&amp;rona" tooltip=""/>
+			<item id="1167" text="Strony:" tooltip=""/>
+			<item id="1200" text="Zakres stron" tooltip=""/>
+			<item id="1201" text="Opcje" tooltip=""/>
+		</dialog>
+		<dialog id="328" text="Podsumowanie komentarzy">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Anuluj" tooltip=""/>
+			<item id="1038" text="Grupuj wg:" tooltip=""/>
+			<item id="1040" text="Sortuj wg:" tooltip=""/>
+			<item id="1041" text="Typ:" tooltip=""/>
+			<item id="1126" text="Wyłącz odpowiedzi" tooltip=""/>
+			<item id="1200" text="Zakres stron" tooltip=""/>
+			<item id="1201" text="Wyjście" tooltip=""/>
+			<item id="1202" text="Opcje" tooltip=""/>
+			<item id="1261" text="Ogólne" tooltip=""/>
+			<item id="1330" text="Wszystkie" tooltip=""/>
+			<item id="1331" text="Wybrane &amp;strony" tooltip=""/>
+			<item id="1332" text="Bieżąca st&amp;rona" tooltip=""/>
+			<item id="1333" text="Strony:" tooltip=""/>
+			<item id="1335" text="Podzbiór:" tooltip=""/>
+			<item id="1341" text="Załącz niewidoczne komentarze" tooltip=""/>
+			<item id="1356" text="Pokaż nowy dokument po utworzeniu" tooltip=""/>
+			<item id="1387" text="Wpisz numery stron i/lub zakresy stron oddzielone od siebie znakiem przecinka - w kolejności od początku do końca dokumentu, np. 1, 3, 5-12" tooltip=""/>
+		</dialog>
+		<dialog id="329" text="">
+			<item id="1038" text="Układ:" tooltip=""/>
+			<item id="1039" text="Papier:" tooltip=""/>
+			<item id="1343" text="Zaawansowane" tooltip=""/>
+			<item id="1351" text="Umieść poszczególne grupy na osobnych stronach" tooltip=""/>
+			<item id="1352" text="Pomiń strony bez komentarzy" tooltip=""/>
+		</dialog>
+		<dialog id="332" text="">
+			<item id="4" text="Przeglądaj..." tooltip=""/>
+			<item id="6" text="Makra" tooltip=""/>
+			<item id="1038" text="Nazwa folderu docelowego:" tooltip=""/>
+			<item id="1039" text="Nazwa pliku:" tooltip=""/>
+		</dialog>
+		<dialog id="333" text="">
+			<item id="4" text="Przeglądaj..." tooltip=""/>
+			<item id="6" text="Makra" tooltip=""/>
+			<item id="1038" text="Nazwa folderu docelowego:" tooltip=""/>
+			<item id="1039" text="Nazwa pliku:" tooltip=""/>
+			<item id="1041" text="Papier:" tooltip=""/>
+			<item id="1351" text="Umieść poszczególne grupy na osobnych stronach" tooltip=""/>
+		</dialog>
+		<dialog id="334" text="">
+			<item id="4" text="Przeglądaj:" tooltip=""/>
+			<item id="6" text="Makra" tooltip=""/>
+			<item id="1038" text="Nazwa folderu docelowego:" tooltip=""/>
+			<item id="1039" text="Nazwa pliku:" tooltip=""/>
+			<item id="1261" text="Kodowanie tekstu" tooltip=""/>
+			<item id="1292" text="Unicode" tooltip=""/>
+			<item id="1293" text="MS-DOS" tooltip=""/>
+			<item id="1294" text="Windows" tooltip=""/>
+			<item id="1355" text="Inne:" tooltip=""/>
+		</dialog>
+		<dialog id="335" text="">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Anuluj" tooltip=""/>
+			<item id="1180" text="Zaaw&amp;ansowane" tooltip=""/>
+		</dialog>
+		<dialog id="336" text="">
+			<item id="1038" text="Styl obramowania" tooltip=""/>
+			<item id="1039" text="Grubość obramowania" tooltip=""/>
+			<item id="1040" text="Kolor obramowania:" tooltip=""/>
+			<item id="1041" text="Tryb wyróżniania:" tooltip=""/>
+		</dialog>
+		<dialog id="337" text="Etykieta pomiaru">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Anuluj" tooltip=""/>
+			<item id="1038" text="Etykieta znaczników pomiaru:" tooltip=""/>
+		</dialog>
+		<dialog id="341" text="Nowy pusty dokument">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Anuluj" tooltip=""/>
+			<item id="1039" text="Orientacja:" tooltip=""/>
+			<item id="1040" text="x" tooltip=""/>
+			<item id="1041" text="Liczba:" tooltip=""/>
+			<item id="1200" text="Strony" tooltip=""/>
+			<item id="1292" text="Standard:" tooltip=""/>
+			<item id="1293" text="Własne:" tooltip=""/>
+			<item id="1304" text="Pionowo" tooltip=""/>
+			<item id="1305" text="Poziomo" tooltip=""/>
+		</dialog>
+		<dialog id="342" text="">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Anuluj" tooltip=""/>
+			<item id="1038" text="Typ URL" tooltip=""/>
+		</dialog>
+		<dialog id="343" text="">
+			<item id="1039" text="Liczba kolumn:" tooltip=""/>
+			<item id="1040" text="Odstęp między kolumnami:" tooltip=""/>
+			<item id="1041" text="Jednostki:" tooltip=""/>
+			<item id="1042" text="Styl:" tooltip=""/>
+			<item id="1043" text="Grubość:" tooltip=""/>
+			<item id="1044" text="Kolor:" tooltip=""/>
+			<item id="1367" text="Linie między kolumnami" tooltip=""/>
+		</dialog>
+		<dialog id="344" text="Zaawansowane">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Anuluj" tooltip=""/>
+		</dialog>
+		<dialog id="345" text="Nowy dokument z pliku tekstowego">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Anuluj" tooltip=""/>
+			<item id="1039" text="Orientacja:" tooltip=""/>
+			<item id="1040" text="x" tooltip=""/>
+			<item id="1041" text="Tryb nowego akapitu:" tooltip=""/>
+			<item id="1042" text="&amp;Lewy:" tooltip=""/>
+			<item id="1043" text="Prawy:" tooltip=""/>
+			<item id="1044" text="Górny:" tooltip=""/>
+			<item id="1045" text="Dolny:" tooltip=""/>
+			<item id="1046" text="Tryb nowego ustępu:" tooltip=""/>
+			<item id="1075" text="Widok..." tooltip=""/>
+			<item id="1099" text="Opcje..." tooltip=""/>
+			<item id="1198" text="Marginesy" tooltip=""/>
+			<item id="1200" text="Rozmiar strony" tooltip=""/>
+			<item id="1202" text="Źródłowe pliki tekstowe" tooltip=""/>
+			<item id="1203" text="Kodowanie tekstu:" tooltip=""/>
+			<item id="1292" text="Standard:" tooltip=""/>
+			<item id="1293" text="Własny:" tooltip=""/>
+			<item id="1304" text="Pionowa" tooltip=""/>
+			<item id="1305" text="Pozioma" tooltip=""/>
+			<item id="1343" text="Zaawansowane.." tooltip=""/>
+			<item id="1376" text="Dodaj pliki..." tooltip=""/>
+			<item id="1377" text="Dodaj folder..." tooltip=""/>
+			<item id="1378" text="Usuń" tooltip=""/>
+			<item id="1379" text="W górę" tooltip=""/>
+			<item id="1380" text="W dół" tooltip=""/>
+		</dialog>
+		<dialog id="346" text="">
+			<item id="1038" text="Początek:" tooltip=""/>
+			<item id="1039" text="Koniec:" tooltip=""/>
+			<item id="1040" text="Styl:" tooltip=""/>
+			<item id="1041" text="Grubość:" tooltip=""/>
+			<item id="1042" text="Kolor:" tooltip=""/>
+			<item id="1043" text="Kolor wypełn.:" tooltip=""/>
+			<item id="1044" text="Przezroczystość:" tooltip=""/>
+			<item id="1045" text="Długość:" tooltip=""/>
+			<item id="1046" text="Offset:" tooltip=""/>
+			<item id="1047" text="Externsion:" tooltip=""/>
+			<item id="1200" text="Style końcowe" tooltip=""/>
+			<item id="1201" text="Obramowanie" tooltip=""/>
+			<item id="1202" text="Linia prowadząca" tooltip=""/>
+			<item id="1203" text="Tekst" tooltip=""/>
+			<item id="1362" text="Pokaż tekst w linii" tooltip=""/>
+		</dialog>
+		<dialog id="347" text="Przywróć wszystkie ustawienia">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Anuluj" tooltip=""/>
+			<item id="1038" text="Czy na pewno chcesz przywrócić wszystkie ustawienia do domyślnych ustawień aplikacji?" tooltip=""/>
+			<item id="1126" text="Zachowaj listę znanych witryn: zachowaj swój wybór dla wszystkich znanych witryn." tooltip=""/>
+			<item id="1128" text="Zachowaj listę Monitów: zachowaj swój wybór dla niektórych ostrzeżeń, potwierdzeń i okien monitów." tooltip=""/>
+			<item id="1129" text="Zachowaj ustawienia języka interfejsu." tooltip=""/>
+			<item id="1373" text="Zachowaj listę ostatnio otwieranych: zachowaj wszystkie ostatnio otwierane dokumenty." tooltip=""/>
+		</dialog>
+		<dialog id="348" text="Metadane dokumentów">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Anuluj" tooltip=""/>
+		</dialog>
+		<dialog id="351" text="">
+			<item id="6" text="&amp;Makra" tooltip=""/>
+			<item id="1039" text="Tryb umieszczenia:" tooltip=""/>
+			<item id="1040" text="Styl:" tooltip=""/>
+			<item id="1041" text="Grubość:" tooltip=""/>
+			<item id="1042" text="Kolor:" tooltip=""/>
+			<item id="1044" text="Kolor tła:" tooltip=""/>
+			<item id="1128" text="Umieść linię powyżej nagłówka" tooltip=""/>
+			<item id="1200" text="Nagłówek pliku" tooltip=""/>
+			<item id="1381" text="Rysuj linię" tooltip=""/>
+			<item id="1385" text="Użyj tytułu nagłówka" tooltip=""/>
+			<item id="1388" text="Format..." tooltip=""/>
+		</dialog>
+		<dialog id="352" text="Nowy dokument z obrazu">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Anuluj" tooltip=""/>
+			<item id="1039" text="Orientacja:" tooltip=""/>
+			<item id="1040" text="x" tooltip=""/>
+			<item id="1042" text="&amp;Lewy:" tooltip=""/>
+			<item id="1043" text="Prawy:" tooltip=""/>
+			<item id="1044" text="Górny:" tooltip=""/>
+			<item id="1045" text="Dolny:" tooltip=""/>
+			<item id="1099" text="Opcje..." tooltip=""/>
+			<item id="1198" text="Marginesy" tooltip=""/>
+			<item id="1200" text="Rozmiar strony" tooltip=""/>
+			<item id="1202" text="Źródłowe pliki obrazu" tooltip=""/>
+			<item id="1251" text="Edytuj..." tooltip=""/>
+			<item id="1292" text="Standard:" tooltip=""/>
+			<item id="1293" text="Własny:" tooltip=""/>
+			<item id="1304" text="Pozioma" tooltip=""/>
+			<item id="1305" text="Pionowa" tooltip=""/>
+			<item id="1343" text="Zaawansowane.." tooltip=""/>
+			<item id="1376" text="Dodaj pliki..." tooltip=""/>
+			<item id="1377" text="Dodaj folder..." tooltip=""/>
+			<item id="1378" text="Usuń" tooltip=""/>
+			<item id="1379" text="W górę" tooltip=""/>
+			<item id="1380" text="W dół" tooltip=""/>
+			<item id="1406" text="Importuj..." tooltip=""/>
+		</dialog>
+		<dialog id="353" text="Zaawansowane">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Anuluj" tooltip=""/>
+		</dialog>
+		<dialog id="354" text="">
+			<item id="1039" text="Liczba w poziomie:" tooltip=""/>
+			<item id="1040" text="Liczba w pionie:" tooltip=""/>
+			<item id="1041" text="Poziomy odstęp:" tooltip=""/>
+			<item id="1042" text="Pionowy odstęp:" tooltip=""/>
+			<item id="1043" text="Poziome:" tooltip=""/>
+			<item id="1044" text="Pionowe:" tooltip=""/>
+			<item id="1200" text="Zasady ułożenia" tooltip=""/>
+			<item id="1201" text="Wyrównanie obrazów" tooltip=""/>
+		</dialog>
+		<dialog id="355" text="">
+			<item id="1039" text="dla większych niż:" tooltip=""/>
+			<item id="1040" text="pikseli na cal" tooltip=""/>
+			<item id="1041" text="pikseli na cal" tooltip=""/>
+			<item id="1042" text="dla większych niż:" tooltip=""/>
+			<item id="1043" text="pikseli na cal" tooltip=""/>
+			<item id="1044" text="pikseli na cal" tooltip=""/>
+			<item id="1126" text="Użyj Rozsiewania" tooltip=""/>
+			<item id="1200" text="Obrazy w High Color/Odcieniach szarości" tooltip=""/>
+			<item id="1201" text="Obrazy indeksowane" tooltip=""/>
+			<item id="1202" text="Obrazy monochromatyczne" tooltip=""/>
+			<item id="1203" text="dla większych niż:" tooltip=""/>
+			<item id="1204" text="pikseli na cal" tooltip=""/>
+			<item id="1205" text="pikseli na cal" tooltip=""/>
+			<item id="1206" text="Próg:" tooltip=""/>
+			<item id="1401" text="Użyj Rozsiewania" tooltip=""/>
+		</dialog>
+		<dialog id="362" text="">
+			<item id="6" text="Makra" tooltip=""/>
+			<item id="1039" text="Kolor tła:" tooltip=""/>
+			<item id="1128" text="Umieść etykietę powyżej obrazu" tooltip=""/>
+			<item id="1200" text="Etykieta obrazu" tooltip=""/>
+			<item id="1388" text="Format..." tooltip=""/>
+			<item id="1407" text="Użyj specjalnego tekstu etykiety dla każdego obrazu" tooltip=""/>
+		</dialog>
+		<dialog id="363" text="Edytuj obraz">
+		</dialog>
+		<dialog id="364" text="">
+			<item id="1038" text="Strona(y)" tooltip=""/>
+			<item id="1039" text="Rynna:" tooltip=""/>
+			<item id="1040" text="Arkusze w podpisie:" tooltip=""/>
+			<item id="1041" text="Typ:" tooltip=""/>
+			<item id="1120" text="Automatycznie obróć stronę w komórce" tooltip=""/>
+			<item id="1121" text="Automatycznie wyśrodkuj stronę w komórce" tooltip=""/>
+			<item id="1414" text="Oprawa z prawej" tooltip=""/>
+		</dialog>
+		<dialog id="365" text="Zaawansowane ustawienia wydruku">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Anuluj" tooltip=""/>
+			<item id="1038" text="Maksymalna rozdzielczość przy drukowaniu jako obraz:" tooltip=""/>
+			<item id="1039" text="Rozdzielczość gradientu wypełnienia:" tooltip=""/>
+			<item id="1040" text="Drukuj tekst jako krzywe:" tooltip=""/>
+			<item id="1041" text="Nieprzezroczystość Popups:" tooltip=""/>
+			<item id="1416" text="Drukuj Notatki i Popups" tooltip=""/>
+		</dialog>
+		<dialog id="366" text="Wprowadź hasło do dokumentu">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Anuluj" tooltip=""/>
+		</dialog>
+		<dialog id="369" text="Właściwości">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Anuluj" tooltip=""/>
+			<item id="1180" text="Z&amp;aawansowane" tooltip=""/>
+		</dialog>
+		<dialog id="371" text="">
+			<item id="1038" text="Autor:" tooltip=""/>
+			<item id="1039" text="Temat:" tooltip=""/>
+			<item id="1040" text="Utworzony:" tooltip=""/>
+			<item id="1041" text="Zmodyfikowany:" tooltip=""/>
+		</dialog>
+		<dialog id="372" text="">
+			<item id="1045" text="Długość:" tooltip=""/>
+			<item id="1046" text="Offset:" tooltip=""/>
+			<item id="1047" text="Rozszerzenie:" tooltip=""/>
+			<item id="1362" text="Pokaż tekst w linii" tooltip=""/>
+		</dialog>
+		<dialog id="373" text="Nowy dokument bezpośrednio ze skanowania">
+			<item id="2" text="Anuluj" tooltip=""/>
+			<item id="1039" text="Wybierz skaner do uzyskania obrazu(ów)" tooltip=""/>
+			<item id="1423" text="Skanuj..." tooltip=""/>
+			<item id="1424" text="Odśwież" tooltip=""/>
+		</dialog>
+		<dialog id="374" text="">
+			<item id="1038" text="Kolor wypełnienia:" tooltip=""/>
+			<item id="1039" text="Kolor ramki:" tooltip=""/>
+			<item id="1126" text="Użyj początkowego trybu wyróżniania pól formularza podczas otwierania dokumentów:" tooltip=""/>
+			<item id="1128" text="Wyróżnij wszystkie pola formularza" tooltip=""/>
+			<item id="1129" text="Pola typu kombi" tooltip=""/>
+			<item id="1130" text="Pola wyboru" tooltip=""/>
+			<item id="1131" text="Pola listy" tooltip=""/>
+			<item id="1132" text="Przyciski" tooltip=""/>
+			<item id="1133" text="Przyciski opcji" tooltip=""/>
+			<item id="1134" text="Pola tekstowe" tooltip=""/>
+			<item id="1135" text="Podpisy" tooltip=""/>
+			<item id="1136" text="Wyróżnij tylko wymagane pola" tooltip=""/>
+			<item id="1200" text="Ogólne" tooltip=""/>
+			<item id="1201" text="Wyróżnianie pól formularza" tooltip=""/>
+			<item id="1425" text="Automatyczne obliczanie pola formularza" tooltip=""/>
+			<item id="1426" text="Pokaż aktywne prostokąty" tooltip=""/>
+		</dialog>
+		<dialog id="376" text="">
+			<item id="1039" text="x" tooltip=""/>
+			<item id="1040" text="Orientacja:" tooltip=""/>
+			<item id="1041" text="Lewy:" tooltip=""/>
+			<item id="1042" text="Górny:" tooltip=""/>
+			<item id="1043" text="Prawy:" tooltip=""/>
+			<item id="1044" text="Dolny:" tooltip=""/>
+			<item id="1200" text="Marginesy:" tooltip=""/>
+			<item id="1292" text="Standardowy:" tooltip=""/>
+			<item id="1293" text="Niestandardowy" tooltip=""/>
+			<item id="1304" text="Pionowa" tooltip=""/>
+			<item id="1305" text="Pozioma" tooltip=""/>
+		</dialog>
+		<dialog id="377" text="">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Anuluj" tooltip=""/>
+		</dialog>
+		<dialog id="378" text="">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Anuluj" tooltip=""/>
+			<item id="4" text="P&amp;rzeglądaj..." tooltip=""/>
+			<item id="5" text="Przeglądaj:" tooltip=""/>
+			<item id="1039" text="Otwórz w:" tooltip=""/>
+			<item id="1040" text="&amp;Operacja:" tooltip=""/>
+			<item id="1043" text="&amp;Plik:" tooltip=""/>
+			<item id="1044" text="&amp;Katalog:" tooltip=""/>
+			<item id="1045" text="&amp;Parametry:" tooltip=""/>
+			<item id="1201" text="Docelowy" tooltip=""/>
+			<item id="1202" text="Opcje" tooltip=""/>
+		</dialog>
+		<dialog id="380" text="">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Anuluj" tooltip=""/>
+		</dialog>
+		<dialog id="381" text="">
+			<item id="1200" text="Wybierz kolejność przełączania pomiędzy pozycjami na stronie" tooltip=""/>
+			<item id="1441" text="&amp;Nieokreślona" tooltip=""/>
+			<item id="1442" text="Użyj kolejności wie&amp;rszy" tooltip=""/>
+			<item id="1443" text="Użyj kolejności &amp;kolumn" tooltip=""/>
+			<item id="1444" text="Użyj &amp;struktury dokumentu" tooltip=""/>
+		</dialog>
+		<dialog id="382" text="">
+			<item id="1038" text="Widok &amp;nawigacji:" tooltip=""/>
+			<item id="1039" text="Układ &amp;strony:" tooltip=""/>
+			<item id="1040" text="&amp;Powiększenie:" tooltip=""/>
+			<item id="1041" text="&amp;Otwórz na stronie:" tooltip=""/>
+			<item id="1043" text="Pokaż w &amp;tytule" tooltip=""/>
+			<item id="1200" text="Układ i Powiększenie" tooltip=""/>
+			<item id="1201" text="Opcje okna" tooltip=""/>
+			<item id="1202" text="Opcje interfejsu użytkownika" tooltip=""/>
+			<item id="36507" text="Otwórz w try&amp;bie pełnoekranowym" tooltip=""/>
+			<item id="36508" text="Ukryj pasek m&amp;enu" tooltip=""/>
+			<item id="36509" text="Ukryj pasek &amp;narzędzi" tooltip=""/>
+			<item id="36510" text="Ukryj okno kont&amp;rolek" tooltip=""/>
+		</dialog>
+		<dialog id="383" text="">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Anuluj" tooltip=""/>
+		</dialog>
+		<dialog id="384" text="Konflikty skrótów">
+			<item id="2" text="Zamknij" tooltip=""/>
+		</dialog>
+		<dialog id="389" text="">
+			<item id="1038" text="Masz zainstalowanych następujących dostawców wyszukiwania" tooltip=""/>
+			<item id="1443" text="Przenieś w górę" tooltip=""/>
+			<item id="1444" text="Przenieś w dół" tooltip=""/>
+			<item id="1445" text="Usuń..." tooltip=""/>
+			<item id="1446" text="Dodaj nowy..." tooltip=""/>
+			<item id="1509" text="Zezwól Przeglądarce na połączenie z internetem w celu uzyskania ikon dla dostawców wyszukiwania" tooltip=""/>
+			<item id="1510" text="Wyłącz wszystkich dostawców wyszukiwania" tooltip=""/>
+		</dialog>
+		<dialog id="390" text="Dodaj nowego dostawcę wyszukiwania">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Anuluj" tooltip=""/>
+			<item id="1017" text="Utwórz własnego dostawcę wyszukiwania" tooltip=""/>
+			<item id="1040" text="Dodaj własnego dostawcę wyszukiwania wykonujac nastepujące kroki:" tooltip=""/>
+			<item id="1041" text="1. Odwiedź żądaną wyszukiwarkę w swojej przeglądarce." tooltip=""/>
+			<item id="1042" text="2. Użyj wyszukiwarki by wyszukać TEST (z uwzględnieniem wielkości liter)." tooltip=""/>
+			<item id="1043" text="3. Wklej adres URL strony z wynikami wyszukiwania w polu URL." tooltip=""/>
+			<item id="1044" text="4. Wypełnij pozostałe pola i naciśnij OK." tooltip=""/>
+			<item id="1200" text="Dane usługodawcy" tooltip=""/>
+			<item id="1203" text="&amp;URL:" tooltip=""/>
+			<item id="1204" text="&amp;Nazwa:" tooltip=""/>
+			<item id="1205" text="&amp;Opis:" tooltip=""/>
+			<item id="1206" text="Kodowani&amp;e:" tooltip=""/>
+		</dialog>
+		<dialog id="391" text="Okno dialogowe">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Anuluj" tooltip=""/>
+		</dialog>
+		<dialog id="392" text="Zabezpieczenie hasłem - Ustawienia">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Anuluj" tooltip=""/>
+			<item id="1038" text="Składniki:" tooltip=""/>
+			<item id="1041" text="Zmień hasło uprawnień:" tooltip=""/>
+			<item id="1042" text="Zgodność:" tooltip=""/>
+			<item id="1043" text="Poziom szyfrowania:" tooltip=""/>
+			<item id="1045" text="Zezwól na drukowanie:" tooltip=""/>
+			<item id="1046" text="Zezwól na zmiany:" tooltip=""/>
+			<item id="1050" text="Potwierdź zmianę hasła uprawnień:" tooltip=""/>
+			<item id="1126" text="Żądaj hasła do zmiany uprawnień do dokumentu" tooltip=""/>
+			<item id="1200" text="Wybierz składniki dokumentu do szyfrowania" tooltip=""/>
+			<item id="1201" text="Hasła i uprawnienia" tooltip=""/>
+			<item id="1450" text="Zezwól na dostęp do tekstu dla urządzenia czytnika ekranu dla niedowidzących" tooltip=""/>
+			<item id="1451" text="Żądaj hasła do &amp;otwarcia dokumentu" tooltip=""/>
+		</dialog>
+		<dialog id="393" text="Ochrona dokumentu">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="1038" text="Drukowanie:" tooltip=""/>
+			<item id="1039" text="Zmiany w dokumencie:" tooltip=""/>
+			<item id="1040" text="Komentowanie:" tooltip=""/>
+			<item id="1041" text="Kopiowanie zawartości:" tooltip=""/>
+			<item id="1042" text="Wypełnianie lub podpisywanie pól formularza:" tooltip=""/>
+			<item id="1043" text="Włącz dostęp do zawartości:" tooltip=""/>
+			<item id="1044" text="Zbieranie dokumentu:" tooltip=""/>
+			<item id="1045" text="Metoda ochrony:" tooltip=""/>
+			<item id="1046" text="Hasło przy otwieraniu dokumentu:" tooltip=""/>
+			<item id="1047" text="Hasło uprawnień:" tooltip=""/>
+			<item id="1048" text="Poziom szyfrowania:" tooltip=""/>
+			<item id="1049" text="Ekstrakcja strony:" tooltip=""/>
+		</dialog>
+		<dialog id="394" text="Podpisywanie dokumentu">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Anuluj" tooltip=""/>
+			<item id="4" text="P&amp;rzeglądaj..." tooltip=""/>
+			<item id="1038" text="&amp;Wydany przez:" tooltip=""/>
+			<item id="1039" text="&amp;Nazwa pliku:" tooltip=""/>
+			<item id="1040" text="Powód podpis&amp;ania:" tooltip=""/>
+			<item id="1041" text="&amp;Loakalizacja:" tooltip=""/>
+			<item id="1042" text="&amp;Informacje kontaktowe:" tooltip=""/>
+			<item id="1043" text="&amp;Szablon podpisu:" tooltip=""/>
+			<item id="1044" text="** Możesz zmienić wygląd podpisu cyfrowego klikając na podglądzie powyżej." tooltip=""/>
+			<item id="1132" text="Zarzą&amp;dzaj..." tooltip=""/>
+			<item id="1200" text="1. Wybierz Certyfikat (identyfikator cyfrowy):" tooltip=""/>
+			<item id="1201" text="2. Konfiguracja szczegółów i wyglądu podpisu:" tooltip=""/>
+			<item id="1452" text="Użyj Certyfikatu z magazynu &amp;systemowego" tooltip=""/>
+			<item id="1453" text="Użyj Certyfikatu z &amp;pliku:" tooltip=""/>
+			<item id="1456" text="Pr&amp;zeglądaj..." tooltip=""/>
+			<item id="1457" text="&amp;Zobacz Certyfikat..." tooltip=""/>
+			<item id="1458" text="&amp;Utwórz Certyfikat..." tooltip=""/>
+			<item id="1513" text="&amp;Zarządzaj" tooltip=""/>
+			<item id="1514" text="&amp;Użyj serwera znacznika czasu:" tooltip=""/>
+		</dialog>
+		<dialog id="395" text="Szblony wyglądu podpisu Cyfrowego">
+			<item id="1" text="&amp;Zamknij" tooltip=""/>
+			<item id="1234" text="&amp;Resetuj" tooltip=""/>
+			<item id="1250" text="&amp;Usuń" tooltip=""/>
+			<item id="1251" text="&amp;Edycja..." tooltip=""/>
+			<item id="1374" text="Możesz wybrać szablon podpisu cyfrowego przez podwójne kliknięcie na liście poniżej:" tooltip=""/>
+			<item id="1459" text="&amp;Klonuj" tooltip=""/>
+		</dialog>
+		<dialog id="396" text="Edycja szablonu podpisu Cyfrowego">
+			<item id="1" text="&amp;OK" tooltip=""/>
+			<item id="2" text="Anuluj" tooltip=""/>
+			<item id="1039" text="&amp;Nazwa szablonu:" tooltip=""/>
+			<item id="1040" text="Kierunek te&amp;kstu:" tooltip=""/>
+			<item id="1126" text="Powód" tooltip=""/>
+			<item id="1127" text="Na&amp;zwa" tooltip=""/>
+			<item id="1128" text="Da&amp;ta" tooltip=""/>
+			<item id="1129" text="Nazwa odróżniająca" tooltip=""/>
+			<item id="1130" text="Etykiety" tooltip=""/>
+			<item id="1201" text="Pokaż grafiki:" tooltip=""/>
+			<item id="1202" text="Poakż tekst:" tooltip=""/>
+			<item id="1462" text="Bez ik&amp;on" tooltip=""/>
+			<item id="1463" text="N&amp;azwa jako ikona" tooltip=""/>
+			<item id="1464" text="Niestan&amp;dardowa ikona:" tooltip=""/>
+			<item id="1466" text="Lokalizacja" tooltip=""/>
+			<item id="1468" text="&amp;Wyświetl logo" tooltip=""/>
+			<item id="1469" text="W&amp;ybierz..." tooltip=""/>
+		</dialog>
+		<dialog id="397" text="Utwórz samodzielnie podpisany identyfikator cyfrowy">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Anuluj" tooltip=""/>
+			<item id="1038" text="Tworzenie samodzielnie podpisanego identyfikatora cyfrowego daje możliwość cyfrowego podpisania dokumentu PDF bez żadnych kosztów. Ale może on być nieodpowiedni w sytuacji wymagającej uwierzytelnienia przez osoby trzecie." tooltip=""/>
+			<item id="1040" text="&amp;Nazwa:" tooltip=""/>
+			<item id="1041" text="&amp;Jednostka Organizacji:" tooltip=""/>
+			<item id="1042" text="Nazwa &amp;Organizacji:" tooltip=""/>
+			<item id="1043" text="Adres &amp;e-mail:" tooltip=""/>
+			<item id="1044" text="&amp;Kraj/Region:" tooltip=""/>
+			<item id="1045" text="Twój identyfikator cyfrowy będzie przechowywany w Magazynie Certyfikatów Windows, gdzie będzie również dostępny dla innych aplikacji systemu Windows. Identyfikator cyfrowy będzie chroniony przez logowanie w systemie Windows." tooltip=""/>
+			<item id="1046" text="Tworzy nowy, chroniony hasłem, plik cyfrowego identyfikatora, który korzysta ze standardowego formatu PKCS#12. Ten wspólny format pliku identyfikatora cyfrowego jest obsługiwany przez większość zabezpieczeń aplikacji, w tym głównych przeglądarek internetowych. Pliki PKCS#12 muszą mieć rozszerzenie .pfx lub .p12." tooltip=""/>
+			<item id="1200" text="Właściwości identyfikatora cyfrowego:" tooltip=""/>
+			<item id="1201" text="Gdzie chcesz zapisać swój samodzielnie podpisany identyfikator cyfrowy?" tooltip=""/>
+			<item id="1203" text="&amp;Algorytm klucza:" tooltip=""/>
+			<item id="1205" text="&amp;Hasło:" tooltip=""/>
+			<item id="1206" text="P&amp;otwierdź hasło:" tooltip=""/>
+			<item id="1208" text="ASCII" tooltip=""/>
+			<item id="1292" text="Unicode" tooltip=""/>
+			<item id="1476" text="Magazyn Certyfikatów &amp;Windows" tooltip=""/>
+			<item id="1477" text="Nowy plik identyfikatora cyfrowego PKCS#12" tooltip=""/>
+		</dialog>
+		<dialog id="398" text="Wprowadź Hasło">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Anuluj" tooltip=""/>
+			<item id="1038" text="Proszę wprowadzić hasło:" tooltip=""/>
+		</dialog>
+		<dialog id="399" text="">
+			<item id="1038" text="Podpisany przez:" tooltip=""/>
+			<item id="1039" text="Powód:" tooltip=""/>
+			<item id="1040" text="Lokalizacja:" tooltip=""/>
+			<item id="1041" text="Data:" tooltip=""/>
+			<item id="1042" text="Kontakt:" tooltip=""/>
+			<item id="1043" text="Utworzony przez:" tooltip=""/>
+			<item id="1200" text="Informacje o Podpisie" tooltip=""/>
+			<item id="1201" text="Podsumowanie" tooltip=""/>
+			<item id="1481" text="&amp;Zobacz Certyfikat..." tooltip=""/>
+		</dialog>
+		<dialog id="400" text="Właściwości Podpisu">
+			<item id="1" text="&amp;Zamknij" tooltip=""/>
+		</dialog>
+		<dialog id="401" text="Dodaj linie pomocnicze strony">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Anuluj" tooltip=""/>
+			<item id="1038" text="Pozycja na stronie:" tooltip=""/>
+			<item id="1039" text="Ilość na stronie:" tooltip=""/>
+			<item id="1040" text="Odległość między:" tooltip=""/>
+			<item id="1200" text="Zakres stron" tooltip=""/>
+			<item id="1201" text="Linie pomocnicze" tooltip=""/>
+			<item id="1330" text="&amp;Wszystkie" tooltip=""/>
+			<item id="1331" text="Wybrane &amp;strony" tooltip=""/>
+			<item id="1332" text="Bieżąca st&amp;rona" tooltip=""/>
+			<item id="1333" text="Stro&amp;ny" tooltip=""/>
+			<item id="1335" text="Podzbiór:" tooltip=""/>
+			<item id="1387" text="Wpisz numery stron i/lub zakresy stron oddzielone od siebie znakiem przecinka - w kolejności od początku do końca dokumentu, np. 1, 3, 5-12" tooltip=""/>
+			<item id="1492" text="Poziomo" tooltip=""/>
+			<item id="1493" text="Pionowo" tooltip=""/>
+		</dialog>
+		<dialog id="402" text="Dostosowywanie przyciągania">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Anuluj" tooltip=""/>
+			<item id="1038" text="Próg:" tooltip=""/>
+			<item id="1039" text="Próg:" tooltip=""/>
+			<item id="1040" text="Próg:" tooltip=""/>
+			<item id="1041" text="Przyciąg&amp;nij do:" tooltip=""/>
+			<item id="1127" text="Przyciągnij do &amp;obiektów" tooltip=""/>
+			<item id="1200" text="Linie prowadzące" tooltip=""/>
+			<item id="1201" text="Obiekty" tooltip=""/>
+			<item id="1261" text="Siatka" tooltip=""/>
+			<item id="1485" text="Przycią&amp;gnij do siatki" tooltip=""/>
+			<item id="1486" text="P&amp;rzyciągnij do siatki" tooltip=""/>
+			<item id="1501" text="Pokaż znaczniki położenia przyciągania" tooltip=""/>
+			<item id="1504" text="Zaznacz w&amp;szystko" tooltip=""/>
+			<item id="1505" text="O&amp;dznacz wszystko" tooltip=""/>
+			<item id="1506" text="Przyciągaj tylko do adnotacji" tooltip=""/>
+		</dialog>
+		<dialog id="403" text="Edycja opisu załącznika">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Anuluj" tooltip=""/>
+			<item id="1038" text="Opis:" tooltip=""/>
+		</dialog>
+		<dialog id="404" text="Zarządzaj listą ostatnio otwieranych dokumentów">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Anuluj" tooltip=""/>
+			<item id="1009" text="Maksymalna liczba pozycji na liście:" tooltip=""/>
+			<item id="1126" text="Wyczyść listę przy wyjściu" tooltip=""/>
+			<item id="1127" text="Pokaż rozszerzone podpowiedzi" tooltip=""/>
+			<item id="1227" text="Wyczyść..." tooltip=""/>
+			<item id="1510" text="Przenieś wszystkie przypięte pozycje na początek listy" tooltip=""/>
+			<item id="1512" text="Zapytaj przed usunięciem elementów z listy" tooltip=""/>
+		</dialog>
+		<dialog id="405" text="">
+			<item id="1038" text="Możesz określić wersję Specyfikacji PDF dla tworzenia nowych dokumentów:" tooltip=""/>
+			<item id="1200" text="Specyfikacja PDF" tooltip=""/>
+		</dialog>
+		<dialog id="406" text="">
+			<item id="1" text="OK" tooltip=""/>
+		</dialog>
+		<dialog id="407" text="">
+			<item id="1200" text="Znacznik czasu" tooltip=""/>
+			<item id="1513" text="&amp;Zarządzaj..." tooltip=""/>
+			<item id="1514" text="&amp;Użyj serwera znacznika czasu:" tooltip=""/>
+		</dialog>
+		<dialog id="408" text="Serwery znacznika czasu">
+			<item id="1" text="Zamknij" tooltip=""/>
+			<item id="1247" text="Dodaj..." tooltip=""/>
+			<item id="1251" text="Edytuj..." tooltip=""/>
+			<item id="1445" text="Usuń" tooltip=""/>
+		</dialog>
+		<dialog id="409" text="">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Anuluj" tooltip=""/>
+			<item id="1038" text="&amp;Nazwa:" tooltip=""/>
+			<item id="1039" text="Adres &amp;serwera:" tooltip=""/>
+			<item id="1040" text="&amp;Użytkownik:" tooltip=""/>
+			<item id="1041" text="&amp;Hasło:" tooltip=""/>
+			<item id="1261" text="Ustawienia serwera:" tooltip=""/>
+			<item id="1517" text="Serwer wym&amp;aga uwierzytelniania" tooltip=""/>
+		</dialog>
+		<dialog id="410" text="Edytuj początkowy temat Stylu komentarza">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Anuluj" tooltip=""/>
+			<item id="1038" text="Możesz ustawić początkowy temat dla wszystkich nowych adnotacji, które mogą być tworzone w tym stylu:" tooltip=""/>
+			<item id="1293" text="Użyj niestandardowego tematu:" tooltip=""/>
+			<item id="1520" text="Użyj wspólnego tematu:" tooltip=""/>
+		</dialog>
+	</dialogs>
+	<strings count="1163">
+		<item id="0" text="+90° (zgodnie z zegarem)"/>
+		<item id="1" text="-90° (przeciwnie do zegara)"/>
+		<item id="2" text="180°"/>
+		<item id="3" text="Wszystkie strony"/>
+		<item id="4" text="Tylko parzyste strony"/>
+		<item id="5" text="Tylko nieparzyste strony"/>
+		<item id="6" text="Strony o dowolnej orientacji"/>
+		<item id="7" text="Strony o orientacji pionowej"/>
+		<item id="8" text="Strony o orientacji poziomej"/>
+		<item id="9" text="Nazwa standardowa"/>
+		<item id="10" text="Nazwa lokalna"/>
+		<item id="11" text="Ogólne"/>
+		<item id="12" text="Ustawienia ogólne"/>
+		<item id="13" text="Zarządzanie kolorami"/>
+		<item id="14" text="Konfiguracja zarządzania kolorami"/>
+		<item id="15" text="Wyświetlanie strony"/>
+		<item id="16" text="Konfiguracja wyświetlania strony"/>
+		<item id="17" text="Wydajność"/>
+		<item id="18" text="Ustawienia wydajności"/>
+		<item id="19" text="Pomiar"/>
+		<item id="20" text="Jednostki, siatki, suwaki"/>
+		<item id="21" text="Identyfikacja"/>
+		<item id="22" text="Ustawienia identyfikacji"/>
+		<item id="23" text="Języki"/>
+		<item id="24" text="Wybierz język interfejsu"/>
+		<item id="25" text="Skojarzenia plików"/>
+		<item id="26" text="Ustawienia skojarzenia plików"/>
+		<item id="27" text="Kategorie"/>
+		<item id="28" text="Preferencje..."/>
+		<item id="29" text="Właściwości dokumentu..."/>
+		<item id="30" text="Właściwości notatek"/>
+		<item id="31" text="Pełny lub przyrostowy zapis dla podpisanych cyfrowo"/>
+		<item id="32" text="Zawsze pełny zapis"/>
+		<item id="33" text="Zawsze przyrostowy zapis"/>
+		<item id="34" text="Zapis dla szybkiego podglądu w sieci Web"/>
+		<item id="35" text="Automatycznie"/>
+		<item id="36" text="Tylko strona"/>
+		<item id="37" text="Panel zakładek i strona"/>
+		<item id="38" text="Panel miniatur i strona"/>
+		<item id="39" text="Ostatnio używany widok"/>
+		<item id="40" text="Pojedyncza strona"/>
+		<item id="41" text="Ciągłe"/>
+		<item id="42" text="Sąsiadujące"/>
+		<item id="43" text="Ciągłe - sąsiadujące"/>
+		<item id="44" text="Aktualny rozmiar"/>
+		<item id="45" text="Dopasuj stronę"/>
+		<item id="46" text="Dopasuj szerokość"/>
+		<item id="47" text="Dopasuj widoczne"/>
+		<item id="48" text="Pamięć fizyczna (RAM): ogółem %1, %2 może być maksymalnie wykorzystane"/>
+		<item id="49" text="Pamięć fizyczna (RAM): ogółem %1"/>
+		<item id="50" text="System posiada %1 procesor(y)"/>
+		<item id="51" text="cm"/>
+		<item id="52" text="centymetr"/>
+		<item id="53" text="centymetry"/>
+		<item id="54" text="w"/>
+		<item id="55" text="cal"/>
+		<item id="56" text="cale"/>
+		<item id="57" text="mm"/>
+		<item id="58" text="milimetr"/>
+		<item id="59" text="millimetry"/>
+		<item id="60" text="p"/>
+		<item id="61" text="pica"/>
+		<item id="62" text="pica"/>
+		<item id="63" text="pkt"/>
+		<item id="64" text="punkt"/>
+		<item id="65" text="punkty"/>
+		<item id="66" text="Otwieranie dokumentu &apos;%1&apos;"/>
+		<item id="67" text="Nie są dostępne alternatywne przeglądarki PDF"/>
+		<item id="68" text="(razem stron: %1 )"/>
+		<item id="69" text="Dokument &quot;%1&quot; jest zabezpieczony hasłem"/>
+		<item id="70" text="Wszystkie strony z zakresu"/>
+		<item id="71" text="Strony nieparzyste"/>
+		<item id="72" text="Strony parzyste"/>
+		<item id="73" text="Żadne"/>
+		<item id="74" text="Dopasuj do marginesów drukarki"/>
+		<item id="75" text="Zredukuj do marginesów drukarki"/>
+		<item id="76" text="Rozłóż duże strony"/>
+		<item id="77" text="Rozłóż wszystkie strony"/>
+		<item id="78" text="Wiele stron na arkusz"/>
+		<item id="79" text="Wszystkie strony w pliku wielostronicowym"/>
+		<item id="80" text="Każdy zakres stron w oddzielnym pliku wielostronicowym"/>
+		<item id="81" text="Każda strona w oddzielnym pliku grafiki"/>
+		<item id="82" text="Folder &quot;%1&quot; zawiera już plik o nazwie &quot;%2&quot;"/>
+		<item id="83" text="Wielkość: %1&#10;Zmodyfikowany: %2"/>
+		<item id="84" text="Nie mogę zapisać pliku &quot;%1&quot;:"/>
+		<item id="85" text="OK"/>
+		<item id="86" text="Anuluj"/>
+		<item id="87" text="Tak"/>
+		<item id="88" text="Nie"/>
+		<item id="89" text="Przerwij"/>
+		<item id="90" text="Powtórz"/>
+		<item id="91" text="Ignoruj"/>
+		<item id="92" text="Spróbuj"/>
+		<item id="93" text="Kontynuuj"/>
+		<item id="94" text="Tak dla Wszystkich"/>
+		<item id="95" text="Nie dla Wszystkich"/>
+		<item id="96" text="Nie mogę utworzyć folderu docelowego&quot;%1&quot;:"/>
+		<item id="97" text="Dokument &quot;%1&quot; został zmieniony.&#10;&#10;Chcesz zapisać zmiany przed jego zamknięciem?"/>
+		<item id="98" text="Dokument &quot;%1&quot; jest podpisany cyfrowo.&#10;Podpisy cyfrowe zostaną utracone przy pełnym zapisie pliku.&#10;Zapis przyrosotwy zapewnia zapisanie podpisów cyfrowych, zwiększy się jednak rozmiar pliku.&#10;&#10;Czy zgadzasz się na przyrostowy zapis pliku?"/>
+		<item id="99" text="Podsumowanie: %1 stron wybranych z %2 "/>
+		<item id="100" text="Błąd drukowania dokumentu &quot;%1&quot;:&#10;%2"/>
+		<item id="101" text="Nazwa"/>
+		<item id="102" text="Niedostępne"/>
+		<item id="103" text="Gotowy"/>
+		<item id="104" text="Offline"/>
+		<item id="105" text="Otwieranie..."/>
+		<item id="106" text="Papier: %1"/>
+		<item id="107" text="Arkusz: %1"/>
+		<item id="108" text="Strona: %1"/>
+		<item id="109" text="Strony: %1, %2,..."/>
+		<item id="110" text="&lt;W aktywnym dokumencie (%1)&gt;"/>
+		<item id="111" text="&lt;Przeglądaj...&gt;"/>
+		<item id="112" text="&lt;Zaawansowane...&gt;"/>
+		<item id="113" text="Zatrzymaj szukanie"/>
+		<item id="114" text="Szukaj..."/>
+		<item id="115" text="Zapisywanie grafiki do pliku &quot;%1&quot;..."/>
+		<item id="116" text="Tworzenie grafiki..."/>
+		<item id="117" text="Eksport do grafiki..."/>
+		<item id="118" text="Przetwarzanie strony #%1"/>
+		<item id="119" text="Drukowanie..."/>
+		<item id="120" text="Drukowanie arkusza #%1..."/>
+		<item id="121" text="Drukowanie strony #%1..."/>
+		<item id="122" text="Zatrzymywanie..."/>
+		<item id="123" text="Przygotowywanie..."/>
+		<item id="124" text="Wyszukiwanie &quot;%1&quot;..."/>
+		<item id="125" text="Podsumowanie wyszukiwania: Dokumenty: %1, Wystąpienia: %2"/>
+		<item id="126" text="przerwano"/>
+		<item id="127" text="&quot;%1&quot;: jest otwierany..."/>
+		<item id="128" text="&quot;%1&quot;: strona #%2..."/>
+		<item id="129" text="Strona #%1..."/>
+		<item id="130" text="Zbyt mało zasobów systemowych do otwarcia dokumentu: &quot;%1&quot;.&#10;Zbyt wiele obiektów interfejsu uzytkownika jest otwartych przez inne aplikacje!&#10;&#10;Proszę zamknąć niepotrzebne aplikacje (lub dokumenty PDF) i spróbować ponownie..."/>
+		<item id="131" text="Błąd zapisywania dokumentu &quot;%1&quot;:&#10;%2"/>
+		<item id="132" text="Błąd otwierania dokumentu &quot;%1&quot;:&#10;%2"/>
+		<item id="133" text="Błąd otwierania dokumentu:&#10;%1"/>
+		<item id="134" text="Na pewno chcesz usunąć komentarz(e): %1?"/>
+		<item id="135" text="%1: Usuwanie komentarzy"/>
+		<item id="136" text="Usuwaj bez potwierdzania tej operacji w przysżłości"/>
+		<item id="137" text="Ustawić tę aplikację jako domyślną przeglądarkę PDF?"/>
+		<item id="138" text="Ustawić tę aplikację jako domyślną przeglądarkę PDF i umożliwić wyświetlanie dokumentów PDF w przeglądarce internetowej?"/>
+		<item id="139" text="Chcesz zezwolić na wyświetlanie dokumentów PDF w przeglądarce internetowej?"/>
+		<item id="140" text="Nie pytaj w przysżłości"/>
+		<item id="141" text="Nie można otworzyć &quot;%1&quot;:&#10;%2"/>
+		<item id="142" text="Ścieżka nie istnieje"/>
+		<item id="143" text="Nie można wykonać działania &quot;%1&quot; dla &quot;%2&quot;:&#10;%3"/>
+		<item id="144" text="Aplikacja próbuje otworzyć stronę:&#10;&quot;%1&quot;&#10;&#10;Ufasz tej stronie?"/>
+		<item id="145" text="%1: Ostrzeżenie przy otwieraniu strony"/>
+		<item id="146" text="Zapamiętaj mój wybór dla tej strony"/>
+		<item id="147" text="Aplikacja &quot;%1&quot; ma zostać uruchomiona przez dokument PDF.&#10;Plik może zawierać program, makropolecenia albo wirusy, które są potencjalnie niebezpieczne dla komputera.&#10;Otwórz ten plik tylko wtedy, gdy masz pewność, że jest nieszkodliwy.&#10;&#10;Jeśli posiadasz go ze źródła godnego zaufania, możesz go wyświetlić po kliknięciu &quot;Otwórz&quot;."/>
+		<item id="148" text="Uruchom: %1"/>
+		<item id="149" text="Nie pokazuj tego komunikatu ponownie"/>
+		<item id="150" text="Strona %1"/>
+		<item id="151" text="Menu"/>
+		<item id="152" text="Plik"/>
+		<item id="153" text="Standardowe"/>
+		<item id="154" text="Zmiana wielkości"/>
+		<item id="155" text="Obrót podglądu"/>
+		<item id="156" text="Znajdź"/>
+		<item id="157" text="Komentarze i znaczniki"/>
+		<item id="158" text="Właściwości"/>
+		<item id="159" text="Właściwości narzędzia Strzałka"/>
+		<item id="160" text="Właściwości narzędzia Linia"/>
+		<item id="161" text="Właściwości narzędzia Prostokąt"/>
+		<item id="162" text="Właściwości narzędzia Owal"/>
+		<item id="163" text="Właściwości narzędzia Wielokąt"/>
+		<item id="164" text="Właściwości narzędzia Linia łamana"/>
+		<item id="165" text="Właściwości narzędzia Ołówek"/>
+		<item id="166" text="Właściwości narzędzia Chmurka"/>
+		<item id="167" text="Właściwości narzędzia Stempel"/>
+		<item id="168" text="Właściwości narzędzia Pisanie tekstu"/>
+		<item id="169" text="Właściwości narzędzia Pole tekstowe"/>
+		<item id="170" text="Właściwości narzędzia Wskaźnik tekstowy"/>
+		<item id="171" text="Właściwości narzędzia Notatka"/>
+		<item id="172" text="Właściwości narzędzia Wyróżnienie tekstu"/>
+		<item id="173" text="Właściwości narzędzia Podkreślenie tekstu"/>
+		<item id="174" text="Właściwości narzędzia Przekreślenie tekstu"/>
+		<item id="175" text="Właściwości narzędzia Zastąpienie tekstu"/>
+		<item id="176" text="Właściwości Strzałki"/>
+		<item id="177" text="Właściwości Linii"/>
+		<item id="178" text="Właściwości Prostokąta"/>
+		<item id="179" text="Właściwości Owalu"/>
+		<item id="180" text="Właściwości Wielokąta"/>
+		<item id="181" text="Właściwości Linii łamanej"/>
+		<item id="182" text="Właściwości Ołówka"/>
+		<item id="183" text="Właściwości Chmurki"/>
+		<item id="184" text="Właściwości Stempla"/>
+		<item id="185" text="Właściwości Pisania tekstu"/>
+		<item id="186" text="Właściwości Pola tekstowego"/>
+		<item id="187" text="Właściwości Wskaźnika tekstowego"/>
+		<item id="188" text="Właściwości Notatki"/>
+		<item id="189" text="Właściwości Wyróżnionego tekstu"/>
+		<item id="190" text="Właściwości Podkreślonego tekstu"/>
+		<item id="191" text="Właściwości Przekreślonego tekstu"/>
+		<item id="192" text="Właściwości Zastępowania tekstu"/>
+		<item id="193" text="Strzałka"/>
+		<item id="194" text="Linia"/>
+		<item id="195" text="Prostokąt"/>
+		<item id="196" text="Owal"/>
+		<item id="197" text="Wielokąt"/>
+		<item id="198" text="Linia łamana"/>
+		<item id="199" text="Ołówek"/>
+		<item id="200" text="Chmurka"/>
+		<item id="201" text="Stempel"/>
+		<item id="202" text="Znak korektorski"/>
+		<item id="203" text="Pole tekstowe"/>
+		<item id="204" text="Notatka"/>
+		<item id="205" text="Wyróżnienie"/>
+		<item id="206" text="Podkreślenie"/>
+		<item id="207" text="Przekreślenie"/>
+		<item id="208" text="Załącznik"/>
+		<item id="209" text="Dźwięk"/>
+		<item id="210" text="Formatowanie tekstu"/>
+		<item id="211" text="Brak wypełnienia"/>
+		<item id="212" text="Brak kreski"/>
+		<item id="213" text="Więcej kolorów..."/>
+		<item id="214" text="Nieokreślony"/>
+		<item id="215" text="Niezdefiniowany"/>
+		<item id="216" text="Kolor"/>
+		<item id="217" text="Właściwości..."/>
+		<item id="218" text="Nierozpoznany"/>
+		<item id="219" text="Nieznany"/>
+		<item id="220" text="Brak"/>
+		<item id="221" text="Nienazwany"/>
+		<item id="222" text="Wygląd"/>
+		<item id="223" text="Ustawienia wyglądu"/>
+		<item id="224" text="Opis"/>
+		<item id="225" text="Informacja opisowa"/>
+		<item id="226" text="Czcionki"/>
+		<item id="227" text="Czcionki stosowane w dokumencie"/>
+		<item id="228" text="Zabezpieczenia"/>
+		<item id="229" text="Ustawienia zabezpieczeń i dostępu"/>
+		<item id="230" text="Zabezpieczenie hasłem"/>
+		<item id="231" text="Niedozwolone"/>
+		<item id="232" text="Niska rozdzielczość"/>
+		<item id="233" text="Wysoka rozdzielczość"/>
+		<item id="234" text="Dozwolone"/>
+		<item id="235" text="Ładowanie zasobów..."/>
+		<item id="236" text="Inicjalizacja..."/>
+		<item id="237" text="Brak"/>
+		<item id="238" text="Kwadrat"/>
+		<item id="239" text="Okrąg"/>
+		<item id="240" text="Diament"/>
+		<item id="241" text="Otwarta strzałka "/>
+		<item id="242" text="Zamknięta strzałka "/>
+		<item id="243" text="Uchwyt"/>
+		<item id="244" text="Otwarta strzałka (Odwrócona)"/>
+		<item id="245" text="Zamknięta strzałka (Odwrócona)"/>
+		<item id="246" text="Ukośnik"/>
+		<item id="247" text="Zakładki"/>
+		<item id="248" text="Strony"/>
+		<item id="249" text="Pola"/>
+		<item id="250" text="Warstwy"/>
+		<item id="251" text="Komentarze"/>
+		<item id="252" text="Zamknij tę zakładkę"/>
+		<item id="253" text="Znaleziono czcionek: %1"/>
+		<item id="254" text="z %1"/>
+		<item id="255" text="%1&#10;&#10;Tytuł: %2&#10;&#10;Autor: %3&#10;&#10;Temat: %4&#10;&#10;Słowa kluczowe: %5&#10;Strony: %6"/>
+		<item id="256" text="Strona #%1"/>
+		<item id="257" text="Strona #%1: &#10;%2"/>
+		<item id="258" text="Wyszukiwanie PDF"/>
+		<item id="259" text="Dokument"/>
+		<item id="260" text="Dokument i znaczniki"/>
+		<item id="261" text="Dokument i stemple"/>
+		<item id="262" text="Tylko dane pól formularza"/>
+		<item id="263" text="Panel podręczny"/>
+		<item id="264" text="Lupa"/>
+		<item id="265" text="Potwierdź zapisanie dokumentu"/>
+		<item id="266" text="Potwierdź przyrostowe zapisanie dokumentu"/>
+		<item id="267" text="Informacje ogólne"/>
+		<item id="268" text="Nazwa"/>
+		<item id="269" text="Typ"/>
+		<item id="270" text="Folder"/>
+		<item id="271" text="Ścieżka"/>
+		<item id="272" text="Rozmiar pliku"/>
+		<item id="273" text="%1 bajtów"/>
+		<item id="274" text="Zmodyfikowano"/>
+		<item id="275" text="Informacje o PDF"/>
+		<item id="276" text="Wersja PDF"/>
+		<item id="277" text="Strony"/>
+		<item id="278" text="Tytuł"/>
+		<item id="279" text="Temat"/>
+		<item id="280" text="Autor"/>
+		<item id="281" text="Słowa kluczowe"/>
+		<item id="282" text="Twórca"/>
+		<item id="283" text="Aplikacja"/>
+		<item id="284" text="Zabezpieczenia"/>
+		<item id="285" text="%1-bit AES"/>
+		<item id="286" text="%1-bit RC4"/>
+		<item id="287" text="Poziom"/>
+		<item id="288" text="W pełni dozwolone"/>
+		<item id="289" text="Drukowanie"/>
+		<item id="290" text="Zmiany w dokumencie"/>
+		<item id="291" text="Kopiowanie i wyodrębnianie zawartości"/>
+		<item id="292" text="Wstawianie komentarzy i wypełnianie pól formularza"/>
+		<item id="293" text="Wypełnianie pól formularza lub podpisywanie"/>
+		<item id="294" text="Dozwolony dostęp do zawartości"/>
+		<item id="295" text="Łączenie dokumentów"/>
+		<item id="296" text="Otwieranie dokumentu, proszę czekać..."/>
+		<item id="297" text="Otwieranie &quot;%1&quot;..."/>
+		<item id="298" text="Pobieranie &quot;%1&quot;..."/>
+		<item id="299" text="Pobrano %1 z %2"/>
+		<item id="300" text="Zapisywanie dokumentu, proszę czekać..."/>
+		<item id="301" text="Zapisywanie &quot;%1&quot;..."/>
+		<item id="302" text="Stosowanie zmian..."/>
+		<item id="303" text="Przygotowanie dokumentu do zapisu..."/>
+		<item id="304" text="Zapisywanie dokumentu..."/>
+		<item id="305" text="Pobieranie stron..."/>
+		<item id="306" text="Pobieranie informacji o stronach..."/>
+		<item id="307" text="Pobieranie adnotacji..."/>
+		<item id="308" text="Wskaż folder docelowy dla nowych obrazków:"/>
+		<item id="309" text="Wskaż folder docelowy dla pobieranych plików:"/>
+		<item id="310" text="Wskaż folder dla wyszukiwanych dokumentów:"/>
+		<item id="311" text="Wykres"/>
+		<item id="312" text="Spinacz"/>
+		<item id="313" text="Załącznik"/>
+		<item id="314" text="Znacznik"/>
+		<item id="315" text="Ucho"/>
+		<item id="316" text="Mikrofon"/>
+		<item id="317" text="Dźwięk"/>
+		<item id="318" text="Odhaczenie"/>
+		<item id="319" text="Okrąg"/>
+		<item id="320" text="Komentarz"/>
+		<item id="321" text="Krzyżyk"/>
+		<item id="322" text="Pomoc"/>
+		<item id="323" text="Wstawienie tekstu"/>
+		<item id="324" text="Klucz"/>
+		<item id="325" text="Nowy akapit"/>
+		<item id="326" text="Notatka tekstowa"/>
+		<item id="327" text="Akapit"/>
+		<item id="328" text="Prawa strzałka"/>
+		<item id="329" text="Prawy wskaźnik"/>
+		<item id="330" text="Gwiazdka"/>
+		<item id="331" text="Strzałka w górę"/>
+		<item id="332" text="Strzałka lewa do góry"/>
+		<item id="333" text="Notatka"/>
+		<item id="334" text="Wyróżnienie"/>
+		<item id="335" text="Komentarz do tekstu"/>
+		<item id="336" text="Podkreślenie"/>
+		<item id="337" text="Przekreślenie"/>
+		<item id="338" text="Zastąpienie tekstu"/>
+		<item id="339" text="Wskaźnik tekstowy"/>
+		<item id="340" text="Pole tekstowe"/>
+		<item id="341" text="Pisanie tekstu"/>
+		<item id="342" text="Strzałka"/>
+		<item id="343" text="Linia"/>
+		<item id="344" text="Prostokąt"/>
+		<item id="345" text="Owal"/>
+		<item id="346" text="Chmurka"/>
+		<item id="347" text="Linia łamana"/>
+		<item id="348" text="Wielokąt"/>
+		<item id="349" text="Ołówek"/>
+		<item id="350" text="Strona: %1 z %2"/>
+		<item id="351" text="Powiększenie: %1"/>
+		<item id="352" text="Na pewno chcesz wyczyścić listę ostatnio otwartych plików?"/>
+		<item id="353" text="ZABEZPIECZONY"/>
+		<item id="354" text="Otwórz"/>
+		<item id="355" text="Zapisz"/>
+		<item id="356" text="Zapisz jako"/>
+		<item id="357" text="Zapisz kopię jako"/>
+		<item id="358" text="Wydruk do pliku"/>
+		<item id="359" text="Dostępność"/>
+		<item id="360" text="Opcje dostępności"/>
+		<item id="361" text="Zielony tekst na czarnym tle"/>
+		<item id="362" text="Żółty tekst na czarnym tle"/>
+		<item id="363" text="Biały tekst na czarnym tle"/>
+		<item id="364" text="Czrny tekst na białym tle"/>
+		<item id="365" text="Tryb pełnoekranowy"/>
+		<item id="366" text="Opcje trybu pełnoekranowego"/>
+		<item id="367" text="Ukryj z opóźnieniem"/>
+		<item id="368" text="Zasze widoczne"/>
+		<item id="369" text="Zawsze ukryte"/>
+		<item id="370" text="Narzędzie ujęć"/>
+		<item id="371" text="Opcje narzędzia ujęć"/>
+		<item id="372" text="Dokument &quot;%1&quot; zawiera błędy.&#10;&#10;Zostały zakomunikowane przez aplikację: &#10;%2&#10;&#10;Zaleca się ponowny zapis dokumentu."/>
+		<item id="373" text="Jeden lub więcej odwołań XREF nie odnalezionych"/>
+		<item id="374" text="W tablicy XREF wykryto błędy."/>
+		<item id="375" text="Odwołanie do obiektu nie zostało zdefiniowane w XREF."/>
+		<item id="376" text="Błąd wczytywania obiektu: niepoprawna struktura obiektu."/>
+		<item id="377" text="Błąd wczytywania obiektu: niepoprawny obiekt."/>
+		<item id="378" text="Niepoprawny ObjStream"/>
+		<item id="379" text="Nie dostarczono potrzebnych wartości"/>
+		<item id="380" text="Potrzebne wartości nie są dostępne"/>
+		<item id="381" text="Obiektu nie został zdefiniowany w tablicy bieżącej, ale opis jest dostępny w pochodnych."/>
+		<item id="382" text="Dokument źródłowy &quot;%1&quot; jest uszkodzony.&#10;PDF-XChange nie może dokonać zapisu dokumentu.&#10;Czy dakonac zapisu bez hostorii zmian? (Uwaga: dojdzie do utraty sygnatur cyfrowych)"/>
+		<item id="383" text="Nieometkowane"/>
+		<item id="384" text="Anonim"/>
+		<item id="385" text="&lt;Nieznany autor&gt; (%1)"/>
+		<item id="386" text="&lt;Nieznana data&gt; (%1)"/>
+		<item id="387" text="Strona %1 (%2)"/>
+		<item id="388" text="%1 (%2)"/>
+		<item id="389" text="Błędna wartość: musi być większa lub równa %s."/>
+		<item id="390" text="Błędna wartość: musi być większa lub równa %s i mniejsza lub równa %s."/>
+		<item id="391" text="Błędna wartość: musi być mniejsza lub równa %s."/>
+		<item id="392" text="** Niepoprawnie**"/>
+		<item id="393" text="Nieprawdłowa data/czas: upewnij się, że jest poprawny. Pole %field% powinno odpowiadać formatem %format%."/>
+		<item id="394" text="Wpisana wartość nie odpowiada formatowi pola %s."/>
+		<item id="395" text="am"/>
+		<item id="396" text="pm"/>
+		<item id="397" text="Czy na pewno usunąć %1 zakładek z pochodnymi?"/>
+		<item id="398" text="Czy na pewno usunąć %1 zakładek?"/>
+		<item id="399" text="Usuwanie %1 zakładek"/>
+		<item id="400" text="W przyszłości usuwaj nie żądając potwierdzania"/>
+		<item id="401" text="Właściwości zakładek"/>
+		<item id="402" text="Właściwości wielokrotnych zakładek"/>
+		<item id="403" text="Polecenia"/>
+		<item id="404" text="Lista poleceń"/>
+		<item id="405" text="Normalny"/>
+		<item id="406" text="Pogrubiony"/>
+		<item id="407" text="Kursywa"/>
+		<item id="408" text="Pogrubiona Kursywa"/>
+		<item id="409" text="Nieznane polecenie"/>
+		<item id="410" text="Idź do strony dokumentu"/>
+		<item id="411" text="Idź do strony w innym dokumencie"/>
+		<item id="412" text="Idź do strony w dokumencie osadzonym"/>
+		<item id="413" text="Otwórz plik"/>
+		<item id="414" text="Przeczytaj artykuł"/>
+		<item id="415" text="Otwórz link internetowy"/>
+		<item id="416" text="Odtwórz dźwięk"/>
+		<item id="417" text="Odtwórz film"/>
+		<item id="418" text="Pokaż/ukryj pola i komentarze"/>
+		<item id="419" text="Wykonaj nazwaną komendę"/>
+		<item id="420" text="Wyślij formularz"/>
+		<item id="421" text="Wyczyść formularz"/>
+		<item id="422" text="Importuj dane z formularza"/>
+		<item id="423" text="Wykonaj kod JavaScript"/>
+		<item id="424" text="Zapewnij widzialność warstwy"/>
+		<item id="425" text="Kontrola multimediów"/>
+		<item id="426" text="Uaktualnianie i przekształcanie stron"/>
+		<item id="427" text="Widok 3D"/>
+		<item id="428" text="Zoom"/>
+		<item id="429" text="Odziedzicz"/>
+		<item id="430" text="Szerokość"/>
+		<item id="431" text="Wysokość"/>
+		<item id="432" text="Dopasuj do wysokości"/>
+		<item id="433" text="Dopasuj do widzianej szerokości"/>
+		<item id="434" text="Dopasuj do widzianej wysokości"/>
+		<item id="435" text="Plik"/>
+		<item id="436" text="Operacja"/>
+		<item id="437" text="Parametry"/>
+		<item id="438" text="Nie wolno usunąc wszystkich stron dokumentu. Musi pozostać przynajmniej jedna."/>
+		<item id="439" text="Czy na pewno usunąć %1 stron(ę) z dokumentu?"/>
+		<item id="440" text="Usuwanie %1 stron(y)"/>
+		<item id="441" text="Nowe polecenie"/>
+		<item id="442" text="Edycja polecenia"/>
+		<item id="443" text="Czy na pewno usunąć %1 poleceń?"/>
+		<item id="444" text="Usuwanie %1 poleceń"/>
+		<item id="445" text="W przyszłości usuwaj nie żądając potwierdzania"/>
+		<item id="446" text="JavaScript"/>
+		<item id="447" text="Opcje JavaScript"/>
+		<item id="448" text="Rejestracja"/>
+		<item id="449" text="Parametry rejestracji"/>
+		<item id="450" text="Ln: %1"/>
+		<item id="451" text="Ln: %2"/>
+		<item id="452" text="INS (Wstaw)"/>
+		<item id="453" text="OVR (Nadpisz)"/>
+		<item id="454" text="Ten dokument zawiera kod JavaScript. Czy wykonać jego polecenia?&#10;Dokument może działać niepoprawnie, jeżeli kod nie zostanie wykonany."/>
+		<item id="455" text="Nie wyświetlaj komunikatu - przed ponownym otwarciem dokumentu"/>
+		<item id="456" text="JavaScript: %1"/>
+		<item id="457" text="Funkcjonalnośc dostępna w wersji PRO - wymagany klucz rejestarcyjny - przeczytaj Pomoc"/>
+		<item id="458" text="Dobrana skala"/>
+		<item id="459" text="Funkcjonalnośc wersji &apos;PRO&quot;"/>
+		<item id="460" text="Funkcjonalność jest dostępna w PDF-XChange Viewer PRO.&#10;Możesz użyć jej w wersji darmowej, ale poskutkuje to dodaniem etykiety DEMO do zapisywanych stron. &#10;Aby tego uniknąć wykup licencję &apos;PRP&apos; - więcej informacji dostępnych jest w Pomocy i na stronach WWW producenta.&#10;&#10;Czy dalej chcesz użyć tej funkcjonalności?"/>
+		<item id="461" text="Czy przesunąc %1 stron(ę)?"/>
+		<item id="462" text="Przesuwanie %1 stron(y)"/>
+		<item id="463" text="Plik"/>
+		<item id="464" text="Edycja"/>
+		<item id="465" text="Widok"/>
+		<item id="466" text="Dokument"/>
+		<item id="467" text="Narzędzia"/>
+		<item id="468" text="Okno"/>
+		<item id="469" text="Pomoc"/>
+		<item id="470" text="Użytkownik"/>
+		<item id="471" text="Przycięte pole"/>
+		<item id="472" text="Pole spadu"/>
+		<item id="473" text="Przycięte pole"/>
+		<item id="474" text="Ozdobne pole"/>
+		<item id="475" text="Rozmiar przyciętej strony: %1"/>
+		<item id="476" text="Rozmiar spadu pola: %1"/>
+		<item id="477" text="Rozmiar przyciętego pola: %1"/>
+		<item id="478" text="Rozmiar ozdobnego pola: %1"/>
+		<item id="479" text="Nieprawidłowy podgląd"/>
+		<item id="480" text="Ładowanie informacji podglądu, proszę czekać..."/>
+		<item id="481" text="Szyfrowany"/>
+		<item id="482" text="Dokument &quot;%1&quot; jest chroniony. Nie masz uprawnień do używania go w tej operacji."/>
+		<item id="483" text="%1: Wstawionych Stron"/>
+		<item id="484" text="Przypnij ten dokument do listy Ostatnio otwieranych dokumentów (nie zezwalaj na usuwanie pozycji, gdy całkowita liczba pozycji przekracza limit)"/>
+		<item id="485" text="Odepnij ten dokument z listy Ostatnio otwieranych dokumentów (umożliwia usunięcie pozycji, gdy całkowita liczba pozycji przekracza limit)"/>
+		<item id="486" text="Ostatnio używane czcionki"/>
+		<item id="487" text="Wszystkie czcionki"/>
+		<item id="488" text="Poziomy powiększenia"/>
+		<item id="489" text="Modele powiększenia"/>
+		<item id="490" text="Przed"/>
+		<item id="491" text="Po"/>
+		<item id="492" text="Standardowe kolory"/>
+		<item id="493" text="Wybrane kolory"/>
+		<item id="494" text="Czarny"/>
+		<item id="495" text="Brązowy"/>
+		<item id="496" text="Ciemnooliwkowy"/>
+		<item id="497" text="Ciemnozielony"/>
+		<item id="498" text="Ciemnoseledynowy"/>
+		<item id="499" text="Ciemnoniebieski"/>
+		<item id="500" text="Indygo"/>
+		<item id="501" text="Ciemnoszary"/>
+		<item id="502" text="Ciemnoczerwony"/>
+		<item id="503" text="Pomarańczowy"/>
+		<item id="504" text="Ciemnożółty"/>
+		<item id="505" text="Zielony"/>
+		<item id="506" text="Seledynowy"/>
+		<item id="507" text="Niebieski"/>
+		<item id="508" text="Niebieskoszary"/>
+		<item id="509" text="Szary - 40%"/>
+		<item id="510" text="Czerwony"/>
+		<item id="511" text="Jasnopomarańczowy"/>
+		<item id="512" text="Lime"/>
+		<item id="513" text="Morska zieleń"/>
+		<item id="514" text="Morski"/>
+		<item id="515" text="Jasnoniebieski"/>
+		<item id="516" text="Fioletowy"/>
+		<item id="517" text="Szary - 50%"/>
+		<item id="518" text="Różowy"/>
+		<item id="519" text="Złoty"/>
+		<item id="520" text="Żółty"/>
+		<item id="521" text="Jasnozielony"/>
+		<item id="522" text="Turkusowy"/>
+		<item id="523" text="Błękit nieba"/>
+		<item id="524" text="Śliwkowy"/>
+		<item id="525" text="Jasnoszary"/>
+		<item id="526" text="Różany"/>
+		<item id="527" text="Tan"/>
+		<item id="528" text="Jasnożółty"/>
+		<item id="529" text="Jasnozielony"/>
+		<item id="530" text="Jasnoturkusowy"/>
+		<item id="531" text="Jasnoniebieski"/>
+		<item id="532" text="Lawendowy"/>
+		<item id="533" text="Biały"/>
+		<item id="534" text="Komentowanie"/>
+		<item id="535" text="Opcje komentowania"/>
+		<item id="536" text="Usuwanie stron, proszę czekać..."/>
+		<item id="537" text="Przenoszenie stron, proszę czekać..."/>
+		<item id="538" text="Wstawianie stron, proszę czekać..."/>
+		<item id="539" text="Wyodrębnianie stron, proszę czekać..."/>
+		<item id="540" text="Czy na pewno chcesz skopiować %1 stronę(y)?"/>
+		<item id="541" text="%1: Kopiowanie stron(y)"/>
+		<item id="542" text="Właściwości narzędzia Eraser"/>
+		<item id="543" text="Paleta Stempli"/>
+		<item id="544" text="Nowy stempel"/>
+		<item id="545" text="Nowa kolekcja"/>
+		<item id="546" text="Ten zbiór nadal zawiera stemple. Czy na pewno chcesz go usunąć?"/>
+		<item id="547" text="%1: Usuwanie Kolekcji Stempli"/>
+		<item id="548" text="Wyczyść listę Ostatnio otwieranych"/>
+		<item id="549" text="Czy chcesz usunąć wszystkie pozycje z listy Ostatnio używanych dokumentów?"/>
+		<item id="550" text="Tak dla wszystkich nieprzypietych"/>
+		<item id="551" text="Właściwości tekstu"/>
+		<item id="552" text="Zawartość"/>
+		<item id="553" text="Zawartość tekstu: Zwykły tekst"/>
+		<item id="554" text="Formatowanie"/>
+		<item id="555" text="Formatowanie tekstu: Czcionka, Skalowanie, Styl, itp."/>
+		<item id="556" text="Czcionka"/>
+		<item id="557" text="Rozmiar czcionki"/>
+		<item id="558" text="Poziome skalowanie"/>
+		<item id="559" text="Wyjściowy offset"/>
+		<item id="560" text="Ostrzeżenie ładowania obiektu: obiekt uszkodzony."/>
+		<item id="561" text="Paski narzędzi"/>
+		<item id="562" text="Komendy"/>
+		<item id="563" text="Opcje"/>
+		<item id="564" text="Format"/>
+		<item id="565" text="Globalny"/>
+		<item id="566" text="Dokument"/>
+		<item id="567" text="Widok Stron"/>
+		<item id="568" text="Widok Miniatur"/>
+		<item id="569" text="Widok Zakładek"/>
+		<item id="570" text="Widok komentarzy"/>
+		<item id="571" text="Widok warstw"/>
+		<item id="572" text="Widok pól"/>
+		<item id="573" text="Widok załączników"/>
+		<item id="574" text="Edytor tekstu"/>
+		<item id="575" text="Paleta stempli"/>
+		<item id="576" text="Widok wyszukiwania"/>
+		<item id="577" text="Konsola Java Script"/>
+		<item id="578" text="Okno lupy"/>
+		<item id="579" text="Przesuń i powiększ okno"/>
+		<item id="580" text="Domyślny"/>
+		<item id="581" text="Bez skrótu."/>
+		<item id="582" text="Ten skrót jest dostępny."/>
+		<item id="583" text="Ten skrót jest już używany przez inną komendę."/>
+		<item id="584" text="Ten skrót jest już używany przez komendę %1."/>
+		<item id="585" text="Renderowanie"/>
+		<item id="586" text="Opcje renderowania"/>
+		<item id="587" text="Niestandardowy"/>
+		<item id="588" text="Wpisz tutaj wyszukiwanie..."/>
+		<item id="589" text="Wykryto nie krytyczne błędy w tabeli XREF."/>
+		<item id="590" text="Matowanie/Usuwania komentarzy, proszę czekać..."/>
+		<item id="591" text="Spłaszczanie"/>
+		<item id="592" text="Lewo, jak jest"/>
+		<item id="593" text="Usuń"/>
+		<item id="594" text="Czy na pewno chcesz chcesz matować/usunąć komentarze w dokumencie?"/>
+		<item id="595" text="%1: Matowanych/Usuwanych komentarzy"/>
+		<item id="596" text="Czy chcesz usunąć wszystkie niestandardowe paski narzędzi/menu w operacji resetowania?"/>
+		<item id="597" text="%1: Usuniętych niestandardowych pasków narzędzi"/>
+		<item id="598" text="Błąd wyodrębniania stron z &quot;%1&quot;:&#10;%2"/>
+		<item id="599" text="%1: Wyodrębnionych Stron"/>
+		<item id="600" text="Błąd matowania komentarzy w &quot;%1&quot;:&#10;%2"/>
+		<item id="601" text="Błąd wstawiania stron do &quot;%1&quot;:&#10;%2"/>
+		<item id="602" text="Błąd usuwania stron z &quot;%1&quot;:&#10;%2"/>
+		<item id="603" text="Ładowanie danych ze strumienia..."/>
+		<item id="604" text="Załadowano %1"/>
+		<item id="605" text="Otwieranie dokumentu ze strumienia..."/>
+		<item id="606" text="Zapisywanie dokumentu do strumienia..."/>
+		<item id="607" text="Zapisano %1 z %2"/>
+		<item id="608" text="Otwieranie dokumentu..."/>
+		<item id="609" text="Nie pytaj w przyszłości"/>
+		<item id="610" text="Czy na pewno chcesz kopiować %1 stronę(y) z &quot;%2&quot; do &quot;%3&quot;?"/>
+		<item id="611" text="Czy na pewno chcesz przenieść %1 stronę(y) z &quot;%2&quot; do &quot;%3&quot;?"/>
+		<item id="612" text="Łącza"/>
+		<item id="613" text="Pomiar"/>
+		<item id="614" text="Właściwości narzędzia pomiaru odległości"/>
+		<item id="615" text="Właściwości narzedzia pomiaru obwodu"/>
+		<item id="616" text="Właściwości narzedzia obszaru"/>
+		<item id="617" text="Właściwości rozmiaru linii"/>
+		<item id="618" text="Właściwości rozmiaru linii łamanych"/>
+		<item id="619" text="Własciwości rozmiaru wielokąta"/>
+		<item id="620" text="Właściwości narzędzia Edytora Łącz"/>
+		<item id="621" text="Właściwości łącza(y)"/>
+		<item id="622" text="Żaden"/>
+		<item id="623" text="Odwrotny"/>
+		<item id="624" text="Konspekt"/>
+		<item id="625" text="Wstawka"/>
+		<item id="626" text="Komentarze"/>
+		<item id="627" text="%1: Podsumowywanie Komentarzy"/>
+		<item id="628" text="Błąd podsumowywania komentarzy z &quot;%1&quot;:&#10;%2"/>
+		<item id="629" text="Podsumowywanie komentarzy, proszę czekać..."/>
+		<item id="630" text="Eksportowanie komentarzy, proszę czekać..."/>
+		<item id="631" text="%1: Wyeksportowanych Komentarzy"/>
+		<item id="632" text="Błąd eksportowania komentarzy z &quot;%1&quot;:&#10;%2"/>
+		<item id="633" text="Eksport komentarzy"/>
+		<item id="634" text="Pliki Adobe XFDF (*.xfdf)"/>
+		<item id="635" text="Strona"/>
+		<item id="636" text="Typ"/>
+		<item id="637" text="Autor"/>
+		<item id="638" text="Data"/>
+		<item id="639" text="Porządek"/>
+		<item id="640" text="Dokument PDF (*.pdf)"/>
+		<item id="641" text="Rich Text Format (*.rtf)"/>
+		<item id="642" text="Zwykły tekst (*.txt)"/>
+		<item id="643" text="Strona WWW, kompletna (*.html)"/>
+		<item id="644" text="Tylko komentarze"/>
+		<item id="645" text="Dokument i komentarze z łącznikiem linii na jednej stronie"/>
+		<item id="646" text="Dokument i komentarze z sekwencjami liczb na jednej stronie"/>
+		<item id="647" text="Dokument i komentarze na jednej stronie"/>
+		<item id="648" text="Dokument i komentarze z łącznikiem linii na oddzielnych stronach"/>
+		<item id="649" text="Dokument i komentarze z sekwencjami liczb na oddzielnych stronach"/>
+		<item id="650" text="Dokument i komentarze na oddzielnych stronach"/>
+		<item id="651" text="Wybierz docelowy folder dla nowego(ych) pliku(ów):"/>
+		<item id="652" text="Sortowanie komentarzy..."/>
+		<item id="653" text="Tworzenie nowego dokumentu..."/>
+		<item id="654" text="Kopiowanie stron z oryginalnego dokumentu..."/>
+		<item id="655" text="Tworzenie nowej strony WWW"/>
+		<item id="656" text="Zmień nazwę Paska narzędzi"/>
+		<item id="657" text="Pomiar odległości"/>
+		<item id="658" text="Pomiar obwodu"/>
+		<item id="659" text="Pomiar obszaru"/>
+		<item id="660" text="Czy chcesz usunąć wybrane łącze(a)?"/>
+		<item id="661" text="%1: Usuwanie Łącza(y)"/>
+		<item id="662" text="%1: Wstawionych Pustych Stron"/>
+		<item id="663" text="Automatycznie"/>
+		<item id="664" text="Odległość:"/>
+		<item id="665" text="Obwód:"/>
+		<item id="666" text="Obszar:"/>
+		<item id="667" text="Kąt:"/>
+		<item id="668" text="ΔX："/>
+		<item id="669" text="ΔY："/>
+		<item id="670" text="Współczynnik skali:"/>
+		<item id="671" text="Informacja o odległości"/>
+		<item id="672" text="Informacja o obwodzie"/>
+		<item id="673" text="Informacje o obszarze"/>
+		<item id="674" text="Podkreślenie"/>
+		<item id="675" text="Właściwości łącza"/>
+		<item id="676" text="Własciwości łączy wielokrotnych"/>
+		<item id="677" text="ft"/>
+		<item id="678" text="yd"/>
+		<item id="679" text="m"/>
+		<item id="680" text="km"/>
+		<item id="681" text="mi"/>
+		<item id="682" text="niestandardowy"/>
+		<item id="683" text="sq cm"/>
+		<item id="684" text="sq in"/>
+		<item id="685" text="sq mm"/>
+		<item id="686" text="sq p"/>
+		<item id="687" text="sq pt"/>
+		<item id="688" text="sq ft"/>
+		<item id="689" text="sq yd"/>
+		<item id="690" text="sq m"/>
+		<item id="691" text="sq km"/>
+		<item id="692" text="sq mi"/>
+		<item id="693" text="Eksportowanie pomiarów, proszę czekać..."/>
+		<item id="694" text="%1: Wyeksportowanych Pomiarów"/>
+		<item id="695" text="Błąd eksportowania pomiarów z &quot;%1&quot;:&#10;%2"/>
+		<item id="696" text="Eksport znaczników pomiaru"/>
+		<item id="697" text="Proszę dodać czynność(i)..."/>
+		<item id="698" text="Tworzenie nowego dokumentu"/>
+		<item id="699" text="Tworzenie noewgo dokumentu, proszę czekać..."/>
+		<item id="700" text="Każdy znak nowej linii rozpoczyna nowy ustęp"/>
+		<item id="701" text="Podwójny znak nowej linii rozpoczytna nowy ustęp, pojedynczy jest ignorowany"/>
+		<item id="702" text="Podwójny znak nowej linii rozpoczyna nowy ustęp, pojedynczy jest konwertowany do spacji"/>
+		<item id="703" text="Temat"/>
+		<item id="704" text="Opcje dokumentu"/>
+		<item id="705" text="Nawigacja stron"/>
+		<item id="706" text="Układ stron"/>
+		<item id="707" text="Uruchom dokument"/>
+		<item id="708" text="Tytuł"/>
+		<item id="709" text="Rozszerzenie"/>
+		<item id="710" text="Położenie"/>
+		<item id="711" text="Rozmiar"/>
+		<item id="712" text="Modyfikowany"/>
+		<item id="713" text="Utwórz nowy dokument..."/>
+		<item id="714" text="Wybierz folder z plikiem(ami) źródłowym(i):"/>
+		<item id="715" text="Zobaczyć w Podfolderach?"/>
+		<item id="716" text="Zaawansowane"/>
+		<item id="717" text="Kolumny"/>
+		<item id="718" text="Ustawienia kolumn"/>
+		<item id="719" text="Opcje pliku"/>
+		<item id="720" text="Opcje pliku"/>
+		<item id="721" text="Rozpocznij każdy plik od nowego ustępu"/>
+		<item id="722" text="Rozpocznij każdy plik od nowej strony"/>
+		<item id="723" text="Zaawansowane"/>
+		<item id="724" text="Układ"/>
+		<item id="725" text="Opcje układu obrazów"/>
+		<item id="726" text="Obniżenie częst. próbkowania/Konwersja"/>
+		<item id="727" text="Obniżenie częst. próbkowania obrazów/Opcje konwersji"/>
+		<item id="728" text="Góra"/>
+		<item id="729" text="Dół"/>
+		<item id="730" text="Lewy"/>
+		<item id="731" text="Prawy"/>
+		<item id="732" text="Środkuj"/>
+		<item id="733" text="Bez obniżania częstotliwości próbkowania"/>
+		<item id="734" text="Liniowe obniżenie częstotliwości próbkowania do"/>
+		<item id="735" text="Dwuliniowe obniżenie częstotliwości próbkowania do"/>
+		<item id="736" text="Bicubic obnizenie częstotliwości próbkowania do"/>
+		<item id="737" text="Bez konwersji"/>
+		<item id="738" text="Konwertuj do skali szarości"/>
+		<item id="739" text="Konwertuj do monochromatycznego"/>
+		<item id="740" text="Konwertuj do czarnobiałego"/>
+		<item id="741" text="Dopasuj"/>
+		<item id="742" text="Metadane dokumentu"/>
+		<item id="743" text="Zaawansowane"/>
+		<item id="744" text="Struktura Metadanych dokumentu"/>
+		<item id="745" text="Kompozytowe[%2]: papier &apos;%1&apos;"/>
+		<item id="746" text="px"/>
+		<item id="747" text="Skanowanie..."/>
+		<item id="748" text="Skanowanie obrazu %1"/>
+		<item id="749" text="Informacja"/>
+		<item id="750" text="Kodowanie"/>
+		<item id="751" text="Typ: %1"/>
+		<item id="752" text="Obraz: %1"/>
+		<item id="753" text="Stron: %1"/>
+		<item id="754" text="Arkuszy: %1, %2 ogółem"/>
+		<item id="755" text="Ogółem %1 plików"/>
+		<item id="756" text="Widok normalny"/>
+		<item id="757" text="Widok kompozytowy"/>
+		<item id="758" text="Etykiety"/>
+		<item id="759" text="Opcje etykiet obrazów"/>
+		<item id="760" text="Papier: &apos;%1&apos;"/>
+		<item id="761" text="Strona: %1 (tile %2 z %3)"/>
+		<item id="762" text="Poziomo"/>
+		<item id="763" text="Odwrócone poziomo"/>
+		<item id="764" text="Pionowo"/>
+		<item id="765" text="Odwrócone pionowo"/>
+		<item id="766" text="Niestandardowy"/>
+		<item id="767" text="poziomo (%1 CCW)"/>
+		<item id="768" text="Ignoruj wszystko"/>
+		<item id="769" text="Broszura"/>
+		<item id="770" text="Książka"/>
+		<item id="771" text="Oba"/>
+		<item id="772" text="Przód"/>
+		<item id="773" text="Tył"/>
+		<item id="774" text="Broszura"/>
+		<item id="775" text="Nie wybrano stron"/>
+		<item id="776" text="Błąd umieszczania obrazu z &quot;%1&quot;:&#10;%2"/>
+		<item id="777" text="Błąd umieszczania tekstu z &quot;%1&quot;:&#10;%2"/>
+		<item id="778" text="dpi"/>
+		<item id="779" text="Rozdzielczość: %1 dpi"/>
+		<item id="780" text="Zawsze"/>
+		<item id="781" text="Dla osadzonych czcionek"/>
+		<item id="782" text="Automatyczne wykrywanie"/>
+		<item id="783" text="(%1 ogółem, %2 wybranych)"/>
+		<item id="784" text="Strona #%1"/>
+		<item id="785" text="Ostatnio używany folder"/>
+		<item id="786" text="Oryginalny folder dokumentów"/>
+		<item id="787" text="Wybierz docelowy folder dla dokumentu(ów) &apos;Zapisz jako&apos;:"/>
+		<item id="788" text="Czy chcesz przywrócić wszystkie domyslne ustawienia aplikacji?"/>
+		<item id="789" text="Przełącz na Użytkownika"/>
+		<item id="790" text="Przełącz na Właściciela"/>
+		<item id="791" text="Błąd przełączania na Użytkownika dla &quot;%1&quot;:&#10;%2"/>
+		<item id="792" text="Błąd przełączania na Właściciela dla &quot;%1&quot;:&#10;%2"/>
+		<item id="793" text="Proszę wprowadzić poprawne hasło właściciela by przejść w tryb pełnego dostępu:"/>
+		<item id="794" text="Proszę wprowadzić poprawne hasło uzytkownika by przejść do dozwolonego trybu:"/>
+		<item id="795" text="Importuj wszystkie ustawienia"/>
+		<item id="796" text="Eksportuj wszystkie ustawienia"/>
+		<item id="797" text="Błąd otwarcia przechowywanych ustawień z pliku &quot;%1&quot;, plik nie zawiera prawidłowych ustawień: &#10;%2"/>
+		<item id="798" text="Błąd zapisywania wszystkich ustawień aplikacji do pliku &quot;%1&quot;:&#10;%2"/>
+		<item id="799" text="Czy chcesz wprowadzić nowe ustawienia dla aplikacji? Twoje bieżące ustawienia zostaną natpisane i utracone."/>
+		<item id="800" text="%1 jest nadal uruchomiony."/>
+		<item id="801" text="Aby zobaczyć okno programu, kliknij %1 ikonę"/>
+		<item id="802" text="Domyślny styl"/>
+		<item id="803" text="Nowy styl"/>
+		<item id="804" text="Kopiuj %1"/>
+		<item id="805" text="Klonuj"/>
+		<item id="806" text="Klonuj wybrany styl"/>
+		<item id="807" text="Resetuj"/>
+		<item id="808" text="Resetuj wybrane style do domyślnych"/>
+		<item id="809" text="Usuń"/>
+		<item id="810" text="Usuń wybrany styl"/>
+		<item id="811" text="Parametry stron(y) są nieprawidłowe. Proszę sprawdzić i spróbować ponownie."/>
+		<item id="812" text="Proste podkreślenie"/>
+		<item id="813" text="Pofalowane podkreślenie"/>
+		<item id="814" text="Przetwarzanie obrazu..."/>
+		<item id="815" text="Właściwości wielokrotnych adnotacji"/>
+		<item id="816" text="Styl obramowania:"/>
+		<item id="817" text="Szerokość obramowania:"/>
+		<item id="818" text="Styl początku linii:"/>
+		<item id="819" text="Styl końca linii:"/>
+		<item id="820" text="Kolor obrysowania:"/>
+		<item id="821" text="Kolor wypełnienia:"/>
+		<item id="822" text="Przezroczystość:"/>
+		<item id="823" text="Ikona notatki:"/>
+		<item id="824" text="Styl podkreślenia:"/>
+		<item id="825" text="Tryb wyróżniania:"/>
+		<item id="826" text="Linia prowadząca"/>
+		<item id="827" text="Opcje linii prowadzącej"/>
+		<item id="828" text="Producent:"/>
+		<item id="829" text="Typ:"/>
+		<item id="830" text="Nie można utworzyć nowego dokumentu ze skanera:&#10;%1"/>
+		<item id="831" text="Nie można utworzyć nowego dokumentu z obrazu(ów):&#10;%1"/>
+		<item id="832" text="Nie można utworzyć nowego dokumentu z pliku tekstowego:&#10;%1"/>
+		<item id="833" text="Formularze"/>
+		<item id="834" text="Opcje formularzy"/>
+		<item id="835" text="Właściwości odpowiedzi"/>
+		<item id="836" text="Przygotowywanie do dekodowania pbrazu, proszę czekać..."/>
+		<item id="837" text="Dekodowanie obrazu..."/>
+		<item id="838" text="Prostokąt"/>
+		<item id="839" text="Linia łamana"/>
+		<item id="840" text="Odległość"/>
+		<item id="841" text="Pisanie"/>
+		<item id="842" text="Objaśnienie"/>
+		<item id="843" text="Obwód"/>
+		<item id="844" text="Obszar"/>
+		<item id="845" text="Chmurka"/>
+		<item id="846" text="Zamień"/>
+		<item id="847" text="Papier"/>
+		<item id="848" text="Opcje papieru"/>
+		<item id="849" text="Paleta styli komentarza"/>
+		<item id="850" text="Eksportuj dane formularza jako"/>
+		<item id="851" text="Pliki Adobe FDF (*.fdf)"/>
+		<item id="852" text="Pliki tekstowe (*.txt)"/>
+		<item id="853" text="Nie można utworzyć nowego stylu komentarza: zbyt wiele styli komentarzy.&#10;Proszę najpierw usunąć nieużywane style komentarzy."/>
+		<item id="854" text="Zmień nazwę stylu komentarza"/>
+		<item id="855" text="Proszę wprowadzić nową nazwę dla stylu komentarza:"/>
+		<item id="856" text="Czy na pewno chcesz usunąć wybrany styl komentarza?"/>
+		<item id="857" text="Czy na pewno chcesz zresetować wybrany styl komentarza?"/>
+		<item id="858" text="Czy na pewno zresetować usunąć wybrany styl komentarza?&#10;Wszystkie niestandardowe style dla wybranego typu komentarza zostaną usunięte, a jedynie domyślny styl zostanie zachowany"/>
+		<item id="859" text="Dokumenty"/>
+		<item id="860" text="Inne"/>
+		<item id="861" text="Brak okien"/>
+		<item id="862" text="Wybierz plik zawierający dane formularza"/>
+		<item id="863" text="Nazwa docelowego"/>
+		<item id="864" text="Ustawienia okna z preferencji użytkownika"/>
+		<item id="865" text="Istniejące okno"/>
+		<item id="866" text="Nowe okno"/>
+		<item id="867" text="Wszystkie pliki (*.*)"/>
+		<item id="868" text="Wybierz domyślny folder dla  operacji &quot;Otwórz plik&quot;:"/>
+		<item id="869" text="Błąd podczas zapisywania dokumentu do zewnętrznego urządzenia.&#10;&quot;%1&quot;"/>
+		<item id="870" text="Przetwarzanie Komentarzy"/>
+		<item id="871" text="Zmień nazwę pieczęci"/>
+		<item id="872" text="Wprowadź nową nazwę dla pieczęci:"/>
+		<item id="873" text="Czy na pewno chcesz usunąć wybrane pieczęcie?"/>
+		<item id="874" text="czy chcesz zamknąć wszystkie otwarte dokumenty?"/>
+		<item id="875" text="%1 z %2"/>
+		<item id="876" text="Nieznana operacja"/>
+		<item id="877" text="Złożona operacja"/>
+		<item id="878" text="Modyfikuj"/>
+		<item id="879" text="Modyfikuj adnotację"/>
+		<item id="880" text="Modyfikuj adnotacje"/>
+		<item id="881" text="Modyfikuj zakładkę"/>
+		<item id="882" text="Modyfikuj zakładki"/>
+		<item id="883" text="Usuń adnotacje"/>
+		<item id="884" text="Usuń zakładki"/>
+		<item id="885" text="Wstaw tekst"/>
+		<item id="886" text="Usuń tekst"/>
+		<item id="887" text="Wklej tekst"/>
+		<item id="888" text="Modyfikuj format tekstu"/>
+		<item id="889" text="Modyfikuj czcionkę tekstu"/>
+		<item id="890" text="Modyfikuj rozmiar tekstu"/>
+		<item id="891" text="Modyfikuj kolor tekstu"/>
+		<item id="892" text="Modyfikuj format paragrafu"/>
+		<item id="893" text="Modyfikuj wyrównanie paragrafu"/>
+		<item id="894" text="Ustaw formaty tekstu i paragrafu"/>
+		<item id="895" text="Wyczyść formaty tekstu i paragrafu"/>
+		<item id="896" text="Zastosuj domyślne formaty tekstu i paragrafu"/>
+		<item id="897" text="Bez akcji"/>
+		<item id="898" text="Importuj komentarze"/>
+		<item id="899" text="Zaimportowano %1: komentarzy"/>
+		<item id="900" text="Błąd przy importowaniu komentarzy z &quot;%1&quot;:&#10;%2"/>
+		<item id="901" text="Tak"/>
+		<item id="902" text="Nie"/>
+		<item id="903" text="Konsola Java Script"/>
+		<item id="904" text="Paleta styli komentarza"/>
+		<item id="905" text="Rozwój"/>
+		<item id="906" text="OSTRZEŻENIE: Skrót do tego polecenia powoduje konflikt ze skrótami do innych komend.&#10;Użyć tego skrótu dla danego polecenia (inne skróty powodujące konflikt zostaną przedtem usunięte)?"/>
+		<item id="907" text="Wykryto niektóre konflikty. &#10;Kliknij tutaj, aby wyświetlić szczegóły."/>
+		<item id="908" text="Nie wykryto konfliktów."/>
+		<item id="909" text="Okno preferencji adnotacji"/>
+		<item id="910" text="Paleta styli komentarza"/>
+		<item id="911" text="Narzędzia"/>
+		<item id="912" text="Właściwości strony..."/>
+		<item id="913" text="Właściwości stron..."/>
+		<item id="914" text="Porządek zakładek"/>
+		<item id="915" text="Kolejność tabulacji strony"/>
+		<item id="916" text="Po najechaniu myszą"/>
+		<item id="917" text="Po odjechaniu myszy"/>
+		<item id="918" text="Po naciśnięciu klawisza myszy"/>
+		<item id="919" text="Po zwolnieniu klawisza myszy"/>
+		<item id="920" text="Gdy jest kursor"/>
+		<item id="921" text="Gdy nie ma kursora"/>
+		<item id="922" text="Strona otwarta"/>
+		<item id="923" text="Strona zamknięta"/>
+		<item id="924" text="Strona pozostaje widoczna"/>
+		<item id="925" text="Strona pozostaje niewidoczna"/>
+		<item id="926" text="Otwarcie strony"/>
+		<item id="927" text="Zamkniecie strony"/>
+		<item id="928" text="Naciśnięcie klawisza"/>
+		<item id="929" text="Pole formatu"/>
+		<item id="930" text="Pole walidacji"/>
+		<item id="931" text="Pole kalkulacji"/>
+		<item id="932" text="Przed zamknieciem"/>
+		<item id="933" text="Przed zapisaniem"/>
+		<item id="934" text="Po zapisaniu"/>
+		<item id="935" text="Przed wydrukowaniem"/>
+		<item id="936" text="Po wydrukowaniu"/>
+		<item id="937" text="Widok początkowy"/>
+		<item id="938" text="Widok początkowy dokumentu"/>
+		<item id="939" text="Znaleziono jeden konflikt:&#10;%1"/>
+		<item id="940" text="Załączniki panelu i strony"/>
+		<item id="941" text="Warstwy panelu i strony"/>
+		<item id="942" text="Nazwa pliku"/>
+		<item id="943" text="Tytuł dokumentu"/>
+		<item id="944" text="Usuń adnotację"/>
+		<item id="945" text="Modyfikuj właściwości dokumentu"/>
+		<item id="946" text="Dodaj nową adnotację"/>
+		<item id="947" text="Dostawcy wyszukiwania"/>
+		<item id="948" text="Zarządzaj dostawcami wyszukiwania"/>
+		<item id="949" text="Dodaj nowe adnotacje"/>
+		<item id="950" text="Nie można dodać dostawcy wyszukiwania.&#10;Adres URL wyniku wyszukiwania musi zawierać słowo TEST. Proszę sprawdzić adres. &#10;Jest możliwe, że to narzędzie nie może być wykorzystywane do budowania zapytania dla tej wyszukiwarki ."/>
+		<item id="951" text="Nie można dodać dostawcy wyszukiwania.&#10;Plik z definicją nowego dostawcy wyszukiwania nie może być przechowywany. "/>
+		<item id="952" text="Czy na pewno chcesz usunąć definicję tego Dostawcy wyszukiwania? Tej operacji nie można cofnąć."/>
+		<item id="953" text="Dostawcy wyszukiwania"/>
+		<item id="954" text="Dodaj odpowiedź"/>
+		<item id="955" text="Modyfikuj pole formularza"/>
+		<item id="956" text="Modyfikuj formularz"/>
+		<item id="957" text="Resetuj formularz"/>
+		<item id="958" text="Bez zabezpieczeń"/>
+		<item id="959" text="Proszę wprowadzić prawidłowe hasło użytkownika lub właściciela dla dokumentu:"/>
+		<item id="960" text="Proszę wprowadzić prawidłowe hasło właściciela dla dokumentu:"/>
+		<item id="961" text="Wprowadź prawidłowe hasło dla osadzonych plików:"/>
+		<item id="962" text="Modyfikuj łącza"/>
+		<item id="963" text="Modyfikuj łącze"/>
+		<item id="964" text="Dodaj nowe łącza"/>
+		<item id="965" text="Dodaj nowe łącze"/>
+		<item id="966" text="Usuń łącza"/>
+		<item id="967" text="Usuń łącze"/>
+		<item id="968" text="Modyfikuj odpowiedź"/>
+		<item id="969" text="Acrobat %1 i późniejszy"/>
+		<item id="970" text="Cała zawartośc dokumentu"/>
+		<item id="971" text="Cała treść dokumentu z wyjątkiem metadanych"/>
+		<item id="972" text="Tylko pliki załaczników"/>
+		<item id="973" text="40-bitowy RC4"/>
+		<item id="974" text="128-bitowy RC4"/>
+		<item id="975" text="128-bitowy AES"/>
+		<item id="976" text="256-bitowy nAES"/>
+		<item id="977" text="Cała zawartość dokumentu zostanie zaszyfrowana, a wyszukiwarki nie będą mogły uzyskać dostępu do metadanych dokumentu."/>
+		<item id="978" text="Cała zawartość dokumentu zostanie zaszyfrowana, ale wyszukiwarki nadal będą mogły uzyskać dostęp do metadanych dokumentu."/>
+		<item id="979" text="Szyfrowane bedą tylko załączniki, które są przechowywane w tym dokumencie. Pozostała część dokumentu zostanie pozostawiona w postaci niezaszyfrowanej."/>
+		<item id="980" text="Ha&amp;sło otwarcia pliku załącznika:"/>
+		<item id="981" text="Hasło otwarcia dokumentu:"/>
+		<item id="982" text="Wymagane hasło do &amp;otwarcia pliku załącznika"/>
+		<item id="983" text="Wymagane hasło do &amp;otwarcia dokumentu"/>
+		<item id="984" text="Włącz kopiowanie tekstu, obrazów i innych zawartości i dostęp dla osób niedowidzących"/>
+		<item id="985" text="Włącz kopiowanie tekstu, obrazów i innych zawartości"/>
+		<item id="986" text="Komentowanie, wypełnianie pól formularza i podpisywanie istniejących pól podpisu"/>
+		<item id="987" text="Układ strony, wypełnianie pól formularza i podpisywanie istniejących pól podpisu"/>
+		<item id="988" text="Wszystkie z wyjątkiem wydobywania stron"/>
+		<item id="989" text="Wstawianie, usuwanie i obracanie stron"/>
+		<item id="990" text="Wypełnianie pól formularza i podpisywanie istniejących pól podpisu"/>
+		<item id="991" text="Czy na pewno chcesz usunąć zabezpieczenia z tego dokumentu?"/>
+		<item id="992" text="Czy na pewno chcesz zmienić zabezpieczenia w tym dokumencie?"/>
+		<item id="993" text="Hasło otwarcia dokumentu lub pozwoleń Hasło powinny zostać określone. &#10;&#10;Aby usunąć hasło zabezpieczeń kliknij Anuluj w oknie dialogowym Ustawienia zabezpieczenia hasłem, a następnie ustaw Metodę zabezpieczeń na Bez zabezpieczeń."/>
+		<item id="994" text="Proszę usuń zaznaczenie pola wyboru opcji &quot;Wymagaj hasła do otwierania dokumentu&quot; lub podaj hasło."/>
+		<item id="995" text="Proszę usuń zaznaczenie pola wyboru opcji &quot;Wymagaj hasła do zmiany uprawnień dokumentu&quot; lub podaj hasło."/>
+		<item id="996" text="Hasła otwarcia dokumentu i uprawnień nie mogą być takie same. Proszę podać inne hasło w jednym z pól hasła."/>
+		<item id="997" text="Proszę wprowadzić hasło do otwarcia pliku załącznika."/>
+		<item id="998" text="Dodaj nową karteczkę"/>
+		<item id="999" text="Usuń zakładkę"/>
+		<item id="1000" text="Dodaj nową zakładkę"/>
+		<item id="1001" text="Przenieś zakładkę"/>
+		<item id="1002" text="Przenieś zakładki"/>
+		<item id="1003" text="Można otworzyć istniejący dokument dwukrotnie klikając tutaj..."/>
+		<item id="1004" text="Nie mozna zapisac wszystkich ustawień do pliku &quot;%1&quot;."/>
+		<item id="1005" text="Nie można wysłać dokumentu na adres e-mail.&#10;&#10;%1"/>
+		<item id="1006" text="Wyszukaj tekst używając &quot;%1&quot;"/>
+		<item id="1007" text="Wprowadź tekst do wyszukiwania online."/>
+		<item id="1008" text="Niektóre dokumenty oczekują na otwarcie..."/>
+		<item id="1009" text="Wklej adnotacje ze Schowka"/>
+		<item id="1010" text="Wklej adnotację ze schowka"/>
+		<item id="1011" text="Dodaj nowe zakładki"/>
+		<item id="1012" text="Wklej zakładki ze Schowka"/>
+		<item id="1013" text="Wklej zakładke ze Schowka"/>
+		<item id="1014" text="Chcesz użyć niektórych funkcji &apos;PRO&apos; dla tego dokumentu,&#10;ale Twoja wersja PDF-XChange Viewer jest DARMOWA, więc po operacji zapisu zostaną umieszczone etykiety z napisem DEMO(!) na każdej stronie dokumentu.&#10;Aby zapisać bez etykiet - proszę uaktualnić program do licencji &quot;PRO&quot;, zobacz plik pomocy, lub odwiedzić naszą stronę internetową aby uzyskać więcej informacji.&#10;&#10;Czy na pewno chcesz zapisać ten dokument z etykietami DEMO(!) na stronach?"/>
+		<item id="1015" text="Proszę czekać na podgląd..."/>
+		<item id="1016" text="&lt;brak&gt;"/>
+		<item id="1017" text="Jestem autorem tego dokumentu"/>
+		<item id="1018" text="Zgadzam się z określonymi częściami tego dokumentu"/>
+		<item id="1019" text="Przeglądałem ten dokument"/>
+		<item id="1020" text="Zatwierdzam ten dokument"/>
+		<item id="1021" text="Potwierdzam dokładność i integralnośc tego dokumentu"/>
+		<item id="1022" text="Zgadzam sie z warunkami określonymi w dokumencie przez umieszczenie mojego podpisu"/>
+		<item id="1023" text="Automatycznie"/>
+		<item id="1024" text="Od lewej do prawej (LTR)"/>
+		<item id="1025" text="Od prawej do lewej (RTL)"/>
+		<item id="1026" text="1024-bitowe RSA"/>
+		<item id="1027" text="2048-bitowe RSA"/>
+		<item id="1028" text="Niewłaściwe hasło.&#10;Hasło musi mieć co najmniej sześć znaków."/>
+		<item id="1029" text="Hasła nie pasują do siebie.&#10;Proszę ponownie wprowadzić hasło."/>
+		<item id="1030" text="Czy na pewno chcesz usunąć %1 sygnaturę wyglądu szablonu(ów)?"/>
+		<item id="1031" text="%1: Usuwanie sygnatury wyglądu szablonu(ów)"/>
+		<item id="1032" text="Dokument ten zawiera więcej niż jedno niepodpisane pole sygnatury. Aby rozpocząć proces podpisywania, należy kliknąć na pole sygnatury, które chcesz podpisać."/>
+		<item id="1033" text="Podpisywanie dokumentu"/>
+		<item id="1034" text="Błąd podpisywania dokumentut &quot;%1&quot;:&#10;%2&#10;&#10;Dokument pozostał niepodpisany."/>
+		<item id="1035" text="Niepodpisane pole podpisu (Kliknij by podpisać)"/>
+		<item id="1036" text="Podpis nie został zweryfikowany"/>
+		<item id="1037" text="Podpis nieważny"/>
+		<item id="1038" text="Podpis ważny"/>
+		<item id="1039" text="Podpis ważny"/>
+		<item id="1040" text="Do utworzenia Identyfikatora cyfrowego wymagana jest nazwa ."/>
+		<item id="1041" text="Do utworzenia Identyfikatora cyfrowego wymagana jest nazwa w UNICODE"/>
+		<item id="1042" text="Do utworzenia Identyfikatora cyfrowego wymagany jest adres e-mail"/>
+		<item id="1043" text="Proszę podać poprawny adres e-mail (na przykład: john@mail.com)."/>
+		<item id="1044" text="Pole &apos;%1&apos; jest ograniczone do znaków ASCII.&#10;Jedynie następujące znaki są dozwolone: spacja a-z A-Z 0-9 &apos; ( ) + , - . / : = ?"/>
+		<item id="1045" text="Właściwości podpisu"/>
+		<item id="1046" text="Podsumowanie"/>
+		<item id="1047" text="Podsumowanie podpisu"/>
+		<item id="1048" text="Niedostępne"/>
+		<item id="1049" text="Dokument nie został zmodyfikowany od czasu zastosowania tego podpisu."/>
+		<item id="1050" text="Wersji dokumentu, który został objęty tym podpisem nie została zmieniona. Jednakże nastąpiły kolejne zmiany w dokumencie."/>
+		<item id="1051" text="Dokument został uszkodzony lub zmieniony od czasu zastosowania tego podpisu."/>
+		<item id="1052" text="Ważność podpisu jest NIEZNANA."/>
+		<item id="1053" text="Podpis jest WAŻNY. Podpisany przez %1."/>
+		<item id="1054" text="Podpis jest NIEWAŻNY"/>
+		<item id="1055" text="Tylko nieprzypięte"/>
+		<item id="1056" text="Tylko złamane"/>
+		<item id="1057" text="Wszystkie"/>
+		<item id="1058" text="Usuń linię pomocniczą strony"/>
+		<item id="1059" text="Usuń linie pomocnicze strony"/>
+		<item id="1060" text="Modyfikuj linie pomocnicze strony"/>
+		<item id="1061" text="Dodaj nową linię pomocniczą strony"/>
+		<item id="1062" text="Dodaj nowe linie pomocnicze strony"/>
+		<item id="1063" text="Wypełnij stronę liniami pomocniczymi w pełni"/>
+		<item id="1064" text="Plik załącznika"/>
+		<item id="1065" text="Właściwości narzędzia pliku załącznika"/>
+		<item id="1066" text="Właściwości pliku załącznika"/>
+		<item id="1067" text="Niskie"/>
+		<item id="1068" text="Średnie"/>
+		<item id="1069" text="Wysokie"/>
+		<item id="1070" text="Punkt końcowy"/>
+		<item id="1071" text="Krawędź"/>
+		<item id="1072" text="Punkt środkowy"/>
+		<item id="1073" text="Środek"/>
+		<item id="1074" text="Przecięcie"/>
+		<item id="1075" text="Załaczniki"/>
+		<item id="1076" text="Lista załączników"/>
+		<item id="1077" text="Opis"/>
+		<item id="1078" text="Zmodyfikowany"/>
+		<item id="1079" text="Rozmiar"/>
+		<item id="1080" text="Rozmiar po kompresji"/>
+		<item id="1081" text="Lokalizacja"/>
+		<item id="1082" text="Załącz plik"/>
+		<item id="1083" text="Zmień opis załącznika"/>
+		<item id="1084" text="Dodaj załącznik"/>
+		<item id="1085" text="Zapisz załącznik"/>
+		<item id="1086" text="Błąd wyodrębniania załącznika z &quot;%1&quot;:&#10;%2"/>
+		<item id="1087" text="%1: Zapisz załącznik"/>
+		<item id="1088" text="%1: Otwórz załącznik"/>
+		<item id="1089" text="Załącznik wygląda na uszkodzony - wartości &quot;sumy kontrolnej&quot; dla wyodrębnionego pliku różnią się od oryginału.&#10;Czy na pewno chcesz kontynuować?"/>
+		<item id="1090" text="Usuń załącznik"/>
+		<item id="1091" text="Usuń załączniki"/>
+		<item id="1092" text="Czy na pewno chcesz usunąć załącznik(i) %1 ?"/>
+		<item id="1093" text="%1: Usuwanie pliku załącznika (ów)"/>
+		<item id="1094" text="Czy chcesz, zamknąć ten dokument przed rozpoczęciem&#10;&apos;%1&apos;?"/>
+		<item id="1095" text="Zamknij dokument bez potwierdzenia w przyszłości"/>
+		<item id="1096" text="Znajdź pole edycji"/>
+		<item id="1097" text="Usuń ten element z listy Ostatnich Dokumentów"/>
+		<item id="1098" text="Czy chcesz usunąć pozycję &quot;%1&quot; z listy niedawno używanych dokumentów?"/>
+		<item id="1099" text="Usuń bez potwierdzenia w przyszłości"/>
+		<item id="1100" text="Brak ostatnio używanych elementów"/>
+		<item id="1101" text=" &quot;%1&quot; plik z &quot;% 2&quot; dokumentu stał się niedostępny i będzie zamknięty.&#10;Proszę sprawdzić stan sieci lub przechowywania danych."/>
+		<item id="1102" text="Struktura XFA"/>
+		<item id="1103" text="Normalny"/>
+		<item id="1104" text="Mnożenie"/>
+		<item id="1105" text="Ekran"/>
+		<item id="1106" text="Krycie"/>
+		<item id="1107" text="Ciemniej"/>
+		<item id="1108" text="Jaśniej"/>
+		<item id="1109" text="Rozjaśnianie"/>
+		<item id="1110" text="Ściemnianie"/>
+		<item id="1111" text="Ostre Światło"/>
+		<item id="1112" text="Łagodne światło"/>
+		<item id="1113" text="Różnica"/>
+		<item id="1114" text="Wyłączenie"/>
+		<item id="1115" text="Barwa"/>
+		<item id="1116" text="Nasycenie"/>
+		<item id="1117" text="Kolor"/>
+		<item id="1118" text="Jasność"/>
+		<item id="1119" text="Oddzielnie"/>
+		<item id="1120" text="Razem(HSL)"/>
+		<item id="1121" text="Tryb mieszany:"/>
+		<item id="1122" text="Nowe dokumenty"/>
+		<item id="1123" text="Opcje tworzenia nowych dokumentów"/>
+		<item id="1124" text="Nie można utworzyć nowy dokumentu z formatu RTF:&#10;%1"/>
+		<item id="1125" text="&lt;We wszystkich otwartych dokumentach (%1)&gt;"/>
+		<item id="1126" text="Zmień kolejność adnotacji"/>
+		<item id="1127" text="Podpisz"/>
+		<item id="1128" text="Autor"/>
+		<item id="1129" text="Temat"/>
+		<item id="1130" text="Strona"/>
+		<item id="1131" text="Data"/>
+		<item id="1132" text="Typ"/>
+		<item id="1133" text="Numer"/>
+		<item id="1134" text="&lt;bez nazwy&gt;"/>
+		<item id="1135" text="&lt;niezdefiniowany&gt;"/>
+		<item id="1136" text="Podsumowanie komenarzy %1"/>
+		<item id="1137" text="Otwórz ponownie"/>
+		<item id="1138" text="Tylko zaznaczone"/>
+		<item id="1139" text="Wyszukiwanie w zakładkach..."/>
+		<item id="1140" text="Aplikacja zakończyła wyszukiwanie w dokumencie:&#10;&quot;%1&quot;.&#10;&#10;Nie znaleziono żadnych wyników."/>
+		<item id="1141" text="Zabezpieczenia"/>
+		<item id="1142" text="Opcje zabezpieczeń"/>
+		<item id="1143" text="URL"/>
+		<item id="1144" text="Dodaj nowy serwer znacznika czasu"/>
+		<item id="1145" text="Edytuj serwer znacznika czasu"/>
+		<item id="1146" text="Tylko do odczytu"/>
+		<item id="1147" text="Potwierdź hasło otwarcia pliku załącznika:"/>
+		<item id="1148" text="Potwierdź hasło otwarcia dokumentu:"/>
+		<item id="1149" text="Potwierdzenie hasła nie pasuje. Proszę zacząć od nowa i wprowadzić hasło ponownie."/>
+		<item id="1150" text="Wstawka korektorska (daszek)"/>
+		<item id="1151" text="Dźwiek"/>
+		<item id="1152" text="Użyj domyślnego tematu: &quot;%1&quot;"/>
+		<item id="1153" text="Nowo nazwane - przeznaczenie"/>
+		<item id="1154" text="Podaj unikalną nazwę dla nowego przeznaczenia:"/>
+		<item id="1155" text="Czy na pewno usunąć zaznaczoną &quot;%1&quot; nazwę celu?&#10;To usunięcie nie może być przywrócone."/>
+		<item id="1156" text="&quot;%1&quot; już istnieje?&#10;Proszę podać unikalną nazwę."/>
+		<item id="1157" text="Dokument &quot;%1&quot; został zmodyfikowany poza aplikacją."/>
+		<item id="1158" text="Chcesz załadować ponownie?"/>
+		<item id="1159" text="Chcesz załadować ponownie i utracić wprowadzone zmiany?"/>
+		<item id="1160" text="Zapamiętaj mój wybór dla tego dokumentu"/>
+		<item id="1161" text="Dokument &quot;%1% jest zgodny z PDF/A.&#10;&#10;Zapisanie zmian do tego pliku może dodać nieobsługiwaną zawartość - co spowoduje brak dalszej zgodności z PDF/A."/>
+		<item id="1162" text="Dokument &quot;%1% zawiera formularze XFA.&#10;&#10;Formularze XFA są opcjonalnym podformatem standardu PDF i obecnie są obsługiwane tylko częściowo przez PDF-XChange Viewer. Pełna obsługa formularzy XFA zostanie opublikowana w wersji 3 programu w 2010 roku."/>
+	</strings>
+</Localization>

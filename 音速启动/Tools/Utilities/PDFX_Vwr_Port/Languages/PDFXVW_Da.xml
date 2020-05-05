@@ -1,0 +1,1810 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Localization>
+	<Product id="PXCView" version="1.0" productVersion="2.0.0050.0000" order""/>
+	<language eName="Danish" lName="Dansk" lcid="0x0406" prefFont=""/>
+	<commands>
+		<item id="32316" title="Tilbage" tooltip="Tilbage" status="" short=""/>
+		<item id="32317" title="Fremad" tooltip="Fremad" status="" short=""/>
+		<item id="32609" title="Zoom &amp;vindue" tooltip="Vindue værktøjet" status="Vindue værktøjet" short=""/>
+		<item id="32610" title="Zoom &amp;ind" tooltip="Zoom ind værktøjet" status="Zoom ind værktøjet" short="Zoom ind"/>
+		<item id="32611" title="Zoom &amp;ud" tooltip="Zoom ud værktøjet" status="Zoom ud værktøjet" short="Zoom ud "/>
+		<item id="32613" title="&amp;Hånden" tooltip="Hånden" status="Hånden" short=""/>
+		<item id="32614" title="Skærmklip" tooltip="Skærmklip værktøjet" status="Skærmklip værktøjet" short=""/>
+		<item id="32620" title="&amp;Værktøjet vælg" tooltip="Vælg tekst/objekter" status="Vælg tekst/objekter" short=""/>
+		<item id="32884" title="&amp;Gå til" tooltip="" status="" short=""/>
+		<item id="32885" title="&amp;Første side" tooltip="Gå til første side" status="Gå til første side" short=""/>
+		<item id="32886" title="&amp;Forrige side" tooltip="Gå til forrige side" status="Gå til forrige side" short=""/>
+		<item id="32887" title="&amp;Næste side" tooltip="Gå til næste side" status="Gå til næste side" short=""/>
+		<item id="32888" title="&amp;Sidste side" tooltip="Gå til sidste side" status="Gå til sidste side" short=""/>
+		<item id="32889" title="&amp;Side..." tooltip="" status="" short=""/>
+		<item id="32890" title="Forrige visning" tooltip="Gå til forrige visning" status="" short=""/>
+		<item id="32891" title="Næste visning" tooltip="Gå til næste visning" status="" short=""/>
+		<item id="32892" title="Forrige dokument" tooltip="" status="" short=""/>
+		<item id="32893" title="Næste dokument" tooltip="" status="" short=""/>
+		<item id="32895" title="&amp;Enkelt side" tooltip="Enkelt side" status="" short=""/>
+		<item id="32896" title="&amp;kontinuerligt" tooltip="Kontinuerligt" status="" short=""/>
+		<item id="32897" title="&amp;Modsatte" tooltip="&amp;Modsatte" status="" short=""/>
+		<item id="32898" title="Kontinuerligt - modsatte" tooltip="Kontinuerligt - modsatte" status="" short=""/>
+		<item id="32899" title="Zoom til..." tooltip="Vælg forstørrelsesgrad for aktive dokument" status="Vælg forstørrelsesgrad for aktive dokument" short=""/>
+		<item id="32900" title="&amp;Nuærende størrelse" tooltip="Vis nuværende sidestørrelse (100%)" status="Vis nuværende sidestørrelse (100%)" short=""/>
+		<item id="32901" title="Pas til siden" tooltip="Pas siden til nuværende visning " status="Pas siden til nuværende visning " short=""/>
+		<item id="32902" title="Pas til &amp;bredden" tooltip="Pas sidens bredde til nuværende visning" status="Pas sidens bredde til nuværende visning" short=""/>
+		<item id="32903" title="Tilpas synlig" tooltip="Tilpas siden til synlige indhold" status="Tilpas siden til synlige indhold" short=""/>
+		<item id="32904" title="Zoom ind" tooltip="Zoom ind" status="Zoom ind" short=""/>
+		<item id="32905" title="Zoom ud" tooltip="Zoom ud" status="Zoom ud" short=""/>
+		<item id="32906" title="Indstillinger" tooltip="Vis programmets indstillinger..." status="Vis programmets indstillinger..." short=""/>
+		<item id="32907" title="" tooltip="Vis sideantal for dette dokument" status="" short=""/>
+		<item id="32908" title="&amp;Fil værktøjslinie" tooltip="Vis/skjul fil-værktøjslinie" status="Vis/skjul fil-værktøjslinie" short=""/>
+		<item id="32909" title="" tooltip="Side" status="" short="Side:"/>
+		<item id="32910" title="&amp;Bogmærker" tooltip="Vis/skjul bogmærkepanel" status="Vis/skjul bogmærkepanel" short=""/>
+		<item id="32912" title="Sider &amp;miniaturer" tooltip="Vis/skjul miniaturepanel" status="Vis/skjul miniaturepanel" short=""/>
+		<item id="32924" title="&amp;Standard værktøjslinie" tooltip="Vis/skjul fil-værktøjslinie" status="Vis/skjul fil-værktøjslinie" short=""/>
+		<item id="32925" title="&amp;Zoom værktøjslinie" tooltip="Vis/skjul zoom-værktøjslinie" status="Vis/skjul zoom-værktøjslinie" short=""/>
+		<item id="32929" title="&amp;Roter skærm værktøjslinie" tooltip="Vis/skjul roter-værktøjslinie" status="Vis/skjul roter-værktøjslinie" short=""/>
+		<item id="32936" title="Vis alle faneblad" tooltip="Vis alle faneblad" status="" short=""/>
+		<item id="32937" title="Luk aktive faneblad" tooltip="Luk aktive faneblad" status="" short=""/>
+		<item id="32938" title="Vis alle faneblad som miniaturer" tooltip="Vis alle faneblad som miniaturer" status="" short=""/>
+		<item id="32940" title="&amp;Navigation faneblad" tooltip="Vis/skjul navigation faneblad" status="Vis/skjul navigation faneblad" short=""/>
+		<item id="32942" title="&amp;Luk alle dokumenter" tooltip="" status="" short=""/>
+		<item id="32944" title="&amp;Exporter" tooltip="" status="" short=""/>
+		<item id="32945" title="Eksporter til billede" tooltip="Eksporter sider til billeder " status="Eksporter det aktive dokument til billeder " short=""/>
+		<item id="32946" title="Dokument navn" tooltip="" status="" short=""/>
+		<item id="32947" title="Dokument nummer" tooltip="" status="" short=""/>
+		<item id="32948" title="Dokument titel" tooltip="" status="" short=""/>
+		<item id="32949" title="Side nummer" tooltip="" status="" short=""/>
+		<item id="32950" title="SIDE" tooltip="" status="" short=""/>
+		<item id="32951" title="SIDER" tooltip="" status="" short=""/>
+		<item id="32952" title="Filnavn" tooltip="" status="" short=""/>
+		<item id="32953" title="Dato (MM-DD-ÅÅÅÅ)" tooltip="" status="" short=""/>
+		<item id="32954" title="År" tooltip="" status="" short=""/>
+		<item id="32955" title="Måned" tooltip="" status="" short=""/>
+		<item id="32956" title="Dag" tooltip="" status="" short=""/>
+		<item id="32957" title="Klokkeslet (TT-MM-SS)" tooltip="" status="" short=""/>
+		<item id="32958" title="Time" tooltip="" status="" short=""/>
+		<item id="32959" title="Minut" tooltip="" status="" short=""/>
+		<item id="32960" title="Sekund" tooltip="" status="" short=""/>
+		<item id="32961" title="Autonummerer" tooltip="" status="" short=""/>
+		<item id="32987" title="&amp;Søg" tooltip="Vis panel til komplet søgning" status="Vis panel til komplet søgning" short=""/>
+		<item id="32990" title="" tooltip="Find angivne tekst:" status="" short="Find:"/>
+		<item id="32991" title="Find forrige" tooltip="Find forrige sted" status="Find forrige sted" short=""/>
+		<item id="32992" title="Find næste" tooltip="Find næste sted" status="Find næste sted" short=""/>
+		<item id="32993" title="Find indstillingerne" tooltip="Find indstillingerne" status="Find indstillingerne" short=""/>
+		<item id="32994" title="Kun hele ord" tooltip="Finder kun hele ord" status="Finder kun hele ord" short=""/>
+		<item id="32995" title="Store/små bogstaver" tooltip="Søgning med hensyn til store/små bogstaver" status="Søgning med hensyn til store/små bogstaver" short=""/>
+		<item id="32996" title="Inkluder kommentarer" tooltip="Søg også i kommentarerne" status="Søg også i kommentarerne" short=""/>
+		<item id="32997" title="Inkluder bogmærker" tooltip="Søg også i bogmærkerne" status="Søg også i bogmærkerne" short=""/>
+		<item id="33000" title="Fin&amp;d værktøjslinie" tooltip="Vis/skjul find-værktøjslinie" status="Vis/skjul find-værktøjslinie" short=""/>
+		<item id="33003" title="Sideindstillinger" tooltip="Vis indstillinger for valgte sider" status="Vis indstillinger for valgte sider" short="Rediger"/>
+		<item id="33006" title="&amp;Lag" tooltip="Vis/skjul lag panel" status="Vis/skjul lag panel" short=""/>
+		<item id="33008" title="F&amp;elter" tooltip="Vis/skjul felt panel" status="Vis/skjul felt panel" short=""/>
+		<item id="33009" title="&amp;Menubjælke" tooltip="Vis/skjul menubjælken" status="Vis/skjul menubjælken" short=""/>
+		<item id="33014" title="F&amp;uld skærm" tooltip="Maximer vinduet til fuld skærm" status="Maximer vinduet til fuld skærm" short=""/>
+		<item id="33015" title="Vis/skjul alle værktøjslinier" tooltip="Vis/skjul alle værktøjslinier" status="Vis/skjul alle værktøjslinier" short="Skift alle værktøjslinier"/>
+		<item id="33016" title="Vis/skjul alle knaplinier" tooltip="Vis/skjul alle knaplinier" status="Vis/skjul alle knaplinier" short="Vis/skjul alle knaplinier"/>
+		<item id="33018" title="Fremhæv formularfelter" tooltip="Dokumentet indeholder en formular. Klik her for at fremhæve alle felter" status="Dokumentet indeholder en formular. Klik her for at fremhæve alle felter" short="Fremhæv felter"/>
+		<item id="33020" title="Afslut fuld skærm" tooltip="" status="" short=""/>
+		<item id="33032" title="Centimeter" tooltip="Centimeter" status="" short=""/>
+		<item id="33033" title="Tommer" tooltip="Tommer" status="" short=""/>
+		<item id="33034" title="Millimeter" tooltip="Millimeter" status="" short=""/>
+		<item id="33035" title="Picas" tooltip="Picas" status="" short=""/>
+		<item id="33036" title="Punkter" tooltip="Punkter" status="" short=""/>
+		<item id="33038" title="Luk alle" tooltip="Luk alle åbne dokumenter" status="Luk alle åbne dokumenter" short=""/>
+		<item id="33054" title="6400%" tooltip="" status="" short=""/>
+		<item id="33055" title="3200%" tooltip="" status="" short=""/>
+		<item id="33056" title="2400%" tooltip="" status="" short=""/>
+		<item id="33057" title="1200%" tooltip="" status="" short=""/>
+		<item id="33058" title="800%" tooltip="" status="" short=""/>
+		<item id="33059" title="400%" tooltip="" status="" short=""/>
+		<item id="33060" title="200%" tooltip="" status="" short=""/>
+		<item id="33061" title="150%" tooltip="" status="" short=""/>
+		<item id="33062" title="100%" tooltip="" status="" short=""/>
+		<item id="33063" title="75%" tooltip="" status="" short=""/>
+		<item id="33064" title="50%" tooltip="" status="" short=""/>
+		<item id="33065" title="25%" tooltip="" status="" short=""/>
+		<item id="33073" title="Eksporter data fra formular" tooltip="" status="" short=""/>
+		<item id="33074" title="Importer &amp;data til formular..." tooltip="" status="" short=""/>
+		<item id="33075" title="&amp;Roter visning" tooltip="" status="" short=""/>
+		<item id="33078" title="&amp;Med uret" tooltip="Roter visning med uret" status="Roter visning med uret" short=""/>
+		<item id="33079" title="M&amp;od uret" tooltip="Roter visning mod uret" status="Roter visning mod uret" short=""/>
+		<item id="33080" title="&amp;Roter sider..." tooltip="" status="" short=""/>
+		<item id="33081" title="&amp;Slet sider..." tooltip="" status="" short=""/>
+		<item id="33082" title="&amp;Tilskær sider" tooltip="" status="" short=""/>
+		<item id="33103" title="&amp;Flyt og zoom værktøj" tooltip="Flyt og zoom værktøj" status="Flyt og zoom værktøj" short="Flyt og zoom"/>
+		<item id="33104" title="Fremhævet" tooltip="Fremhævet" status="" short=""/>
+		<item id="33105" title="Kursiv" tooltip="Kursiv" status="" short=""/>
+		<item id="33106" title="Understreget" tooltip="Understreget" status="" short=""/>
+		<item id="33107" title="Gennemstreget" tooltip="Gennemstreget" status="" short=""/>
+		<item id="33108" title="Venstrestil" tooltip="Venstrestil" status="" short=""/>
+		<item id="33109" title="Centrer" tooltip="Centrer" status="" short=""/>
+		<item id="33110" title="Højrestil" tooltip="Højrestil" status="" short=""/>
+		<item id="33115" title="&amp;Flip linien" tooltip="Flip linien" status="" short=""/>
+		<item id="33116" title="&amp;Egenskaber..." tooltip="Flere egenskaber..." status="" short=""/>
+		<item id="33118" title="&amp;Sæt nuværende egenskaber som standard" tooltip="Sæt nuværende egenskaber som standard" status="" short=""/>
+		<item id="33121" title="&amp;Nulstil kommentar position" tooltip="Nulstil kommentar position" status="" short=""/>
+		<item id="33122" title="&amp;Åben kommentar" tooltip="Åben kommentar" status="" short=""/>
+		<item id="33123" title="&amp;Pil værktøj" tooltip="Pil værktøj" status="" short="Pil"/>
+		<item id="33124" title="&amp;Linie værktøj" tooltip="Linie værktøj" status="" short="Linie"/>
+		<item id="33125" title="&amp;Firkant værktøj" tooltip="Firkant værktøj" status="" short="Firkant"/>
+		<item id="33126" title="&amp;Oval værktøj" tooltip="Oval værktøj" status="" short="Oval"/>
+		<item id="33127" title="Pol&amp;ygon værktøj" tooltip="Polygon værktøj" status="" short="Polygon"/>
+		<item id="33128" title="&amp;Polygonlinie værktøj" tooltip="Polygonlinie værktøj" status="" short="Polygonlinie"/>
+		<item id="33129" title="&amp;Blyant værktøj" tooltip="Blyant værktøj" status="" short="Blyant"/>
+		<item id="33130" title="&amp;Sky værktøj" tooltip="Sky værktøj" status="" short="Sky"/>
+		<item id="33131" title="&amp;Stempler" tooltip="Stempler" status="" short="Stempel:"/>
+		<item id="33132" title="Kommentar værktøj" tooltip="Kommentar værktøj" status="" short="Kommentar "/>
+		<item id="33133" title="&amp;Gennemse" tooltip="Gennemse" status="" short=""/>
+		<item id="33134" title="Anvend &amp;standard egenskaber" tooltip="Anvend standard egenskaber" status="" short=""/>
+		<item id="33135" title="Tilføj note" tooltip="Tilføj note" status="" short=""/>
+		<item id="33136" title="&amp;Slet" tooltip="Sletter det valgte" status="Sletter det valgte" short=""/>
+		<item id="33138" title="&amp;Kommenter og mærk værktøjslinie" tooltip="Vis/skjul kommentar-værktøjslinie" status="Vis/skjul kommentar-værktøjslinie" short=""/>
+		<item id="33139" title="Afbryd" tooltip="Afbryd" status="" short=""/>
+		<item id="33140" title="Færdig" tooltip="Færdig" status="" short=""/>
+		<item id="33141" title="&amp;Hjemmeside" tooltip="" status="" short=""/>
+		<item id="33145" title="&amp;Indhold" tooltip="" status="" short=""/>
+		<item id="33146" title="&amp;Rapporter et problem..." tooltip="" status="" short=""/>
+		<item id="33147" title="&amp;Support forum" tooltip="" status="" short=""/>
+		<item id="33168" title="Nulstil tekst formatering" tooltip="Nulstil tekst formatering" status="" short=""/>
+		<item id="33170" title="Hævet skrift" tooltip="Hævet skrift" status="" short=""/>
+		<item id="33171" title="Sænket skrift" tooltip="Sænket skrift" status="" short=""/>
+		<item id="33174" title="Tilføj svar" tooltip="Tilføj svar" status="" short=""/>
+		<item id="33176" title="Slet svar" tooltip="Slet svar" status="" short=""/>
+		<item id="33179" title="Check for ny version..." tooltip="" status="" short=""/>
+		<item id="33182" title="&amp;Kopier som ren tekst" tooltip="Kopier som ren tekst" status="" short=""/>
+		<item id="33183" title="Koper som &amp;formateret tekst" tooltip="Koper som formateret tekst" status="" short=""/>
+		<item id="33184" title="Kopier som formateret indhold" tooltip="Kopier som formateret indhold" status="" short=""/>
+		<item id="33187" title="&amp;Java script konsol" tooltip="Vis/skjul Java script konsollen" status="Vis/skjul Java script konsollen" short=""/>
+		<item id="33197" title="Gennemse undermapper" tooltip="" status="" short=""/>
+		<item id="33201" title="&amp;Boble værktøj" tooltip="Boble værktøj" status="" short="Boble"/>
+		<item id="33202" title="&amp;Tekst-box værktøj" tooltip="Tekst-box værktøj" status="" short="Tekst-box"/>
+		<item id="33204" title="&amp;Kommentar" tooltip="Vis/skjul kommentar panel" status="Vis/skjul kommentar panel" short=""/>
+		<item id="33205" title="Vedhæftede filer" tooltip="Vis panel for vedhæftede filer" status="Vis panel for vedhæftede filer" short=""/>
+		<item id="33206" title="&amp;Fremhæv tekst" tooltip="Fremhæv tekst" status="" short=""/>
+		<item id="33207" title="Tilføj &amp;note til teksten" tooltip="Tilføj note til teksten" status="" short=""/>
+		<item id="33208" title="&amp;Understreg tekst" tooltip="Understreg tekst" status="" short=""/>
+		<item id="33209" title="&amp;Overskriv tekst" tooltip="Overskriv tekst" status="" short=""/>
+		<item id="33210" title="&amp;Erstat tekst" tooltip="Erstat tekst" status="" short=""/>
+		<item id="33221" title="Fremhæv tekst værktøj" tooltip="Fremhæv den valgte tekst" status="Fremhæv den valgte tekst" short="Fremhæv tekst"/>
+		<item id="33222" title="Understreg tekst værktøj" tooltip="Understreg den valgte tekst" status="Understreg den valgte tekst" short="Understreg tekst"/>
+		<item id="33223" title="Overskriv tekst værktøj" tooltip="Overskriv den valgte tekst" status="Overskriv den valgte tekst" short="Overskriv tekst"/>
+		<item id="33224" title="Værktøj til vedhæftede filer" tooltip="Vedhæft fil som kommentar" status="" short="Vedhæft"/>
+		<item id="33225" title="&amp;Egenskaber værktøjslinie" tooltip="Vis/skjul egnskaber-værktøjslinie" status="Vis/skjul egnskaber-værktøjslinie" short=""/>
+		<item id="33226" title="Skrive&amp;maskine værktøj" tooltip="Skrivemaskine værktøj" status="" short="Skrivemaskine"/>
+		<item id="33228" title="&amp;Vis stempel paletten" tooltip="" status="" short=""/>
+		<item id="33229" title="Hold værktøjet valgt" tooltip="Hold værktøjet valgt" status="" short=""/>
+		<item id="33231" title="Font størrelse" tooltip="Font størrelse" status="" short="Font størrelse:"/>
+		<item id="33232" title="Efter side" tooltip="Grupper kommentar efter side" status="" short=""/>
+		<item id="33233" title="Efter type" tooltip="Grupper kommentar efter type" status="" short=""/>
+		<item id="33234" title="Efter forfatter" tooltip="Grupper kommentar efter forfatter" status="" short=""/>
+		<item id="33235" title="Efter dato" tooltip="Grupper kommentar efter dato" status="" short=""/>
+		<item id="33236" title="Efter farve" tooltip="Grupper kommentarer efter farve" status="" short=""/>
+		<item id="33237" title="Sorteret efter oprettelsesdato" tooltip="Gruppér kommentarer efter oprettelsesdato" status="" short=""/>
+		<item id="33238" title="Næste" tooltip="Næste kommentar" status="" short=""/>
+		<item id="33239" title="Forrige" tooltip="Forrige kommentar" status="" short=""/>
+		<item id="33240" title="Slet" tooltip="Slet kommentar" status="" short=""/>
+		<item id="33241" title="Sammentræk alle" tooltip="Sammentræk alle kommentarer" status="" short=""/>
+		<item id="33242" title="Udvid alle" tooltip="Udvid alle kommentarer" status="" short=""/>
+		<item id="33243" title="Grupper efter" tooltip="Grupper efter" status="" short=""/>
+		<item id="33244" title="Indstillinger..." tooltip="Kommentarindstillinger" status="" short=""/>
+		<item id="33245" title="Tilføj svar" tooltip="Tilføj svar til kommentar" status="" short=""/>
+		<item id="33248" title="Fravælg alt" tooltip="Fravælg alt" status="" short=""/>
+		<item id="33255" title="Luk alle andre faneblade" tooltip="Luk alle andre faneblade" status="" short=""/>
+		<item id="33256" title="Luk dette faneblad" tooltip="Luk dette faneblad" status="" short=""/>
+		<item id="33257" title="Kopier fulde fil-navn" tooltip="Kopier det aktive dokuments fulde filnavn til klippebordet" status="Kopier det aktive dokuments fulde filnavn til klippebordet" short=""/>
+		<item id="33258" title="Åben mappen med aktive fil" tooltip="Åben mappen med det aktive dokument" status="Åben mappen med det aktive dokument" short=""/>
+		<item id="33259" title="Sæt nuværende tekst-fomatering som standard" tooltip="Sæt nuværende tekst-fomatering som standard" status="" short=""/>
+		<item id="33260" title="Brug standard tekst-formatering" tooltip="Brug standard tekst-formatering" status="" short=""/>
+		<item id="33261" title="Tekstfarve" tooltip="Tekstfarve" status="" short="Farve:"/>
+		<item id="33262" title="Dokument &amp;indstillinger værktøjslinie" tooltip="Vis/skjul dokument indstillinger-værktøjslinie" status="Vis/skjul dokument indstillinger-værktøjslinie" short=""/>
+		<item id="33263" title="Side &amp;navigation værktøjslinie" tooltip="Vis/skjul side navigation-værktøjslinie" status="Vis/skjul side navigation-værktøjslinie" short=""/>
+		<item id="33264" title="Side &amp;layout værktøjslinie" tooltip="Vis/skjul side layout-værktøjslinie" status="Vis/skjul side layout-værktøjslinie" short=""/>
+		<item id="33265" title="&amp;Start værktøjslinie" tooltip="Vis/skjul start program-værktøjslinie" status="Vis/skjul start program-værktøjslinie" short=""/>
+		<item id="33267" title="&amp;Filer" tooltip="" status="" short=""/>
+		<item id="33268" title="Senest anvendte dokumenter" tooltip="" status="" short=""/>
+		<item id="33269" title="For&amp;mular data" tooltip="" status="" short=""/>
+		<item id="33270" title="&amp;Dokument indstillinger..." tooltip="Vis det aktive dokuments indstillinger" status="Vis det aktive dokuments indstillinger" short="Indstillinger"/>
+		<item id="33272" title="Åbne fra &amp;URL..." tooltip="Åbne dokument fra URL..." status="Åbne dokument fra URL" short=""/>
+		<item id="33280" title="&amp;Rediger" tooltip="" status="" short=""/>
+		<item id="33290" title="&amp;Vis" tooltip="" status="" short=""/>
+		<item id="33291" title="&amp;Værktøjslinier" tooltip="" status="" short=""/>
+		<item id="33292" title="Andre paneler" tooltip="" status="" short=""/>
+		<item id="33293" title="Side &amp;layout" tooltip="" status="" short=""/>
+		<item id="33300" title="&amp;Dokument" tooltip="" status="" short=""/>
+		<item id="33310" title="&amp;Værktøjer" tooltip="" status="" short=""/>
+		<item id="33311" title="&amp;Basis værktøjer" tooltip="" status="" short=""/>
+		<item id="33313" title="&amp;Zoom værktøjer" tooltip="" status="" short=""/>
+		<item id="33314" title="&amp;Kommenter og mærk værktøj" tooltip="" status="" short=""/>
+		<item id="33316" title="&amp;Måleværktøjer" tooltip="" status="" short=""/>
+		<item id="33317" title="&amp;Link-værktøjer" tooltip="" status="" short=""/>
+		<item id="33339" title="Vis kommentar og mærke-værktøj" tooltip="" status="" short=""/>
+		<item id="33340" title="Vis kommentar listen" tooltip="Vis/skjul kommentar listen" status="Vis/skjul kommentar listen" short=""/>
+		<item id="33350" title="&amp;Vindue" tooltip="" status="" short=""/>
+		<item id="33369" title="Vis fejl-information" tooltip="Dokumentet er i stykker.  Klik her for nærmere detaljer" status="Dokumentet er i stykker.  Klik her for nærmere detaljer" short="Fejl-information"/>
+		<item id="33370" title="Dokumentets indstillinger" tooltip="Indstillinger for dette dokument" status="Indstillinger for dette dokument" short="Indstillinger"/>
+		<item id="33371" title="Vis lag panelet" tooltip="Dokumentet indeholder lag.  Klik her for at vise/skjule lag panelet" status="Dokumentet indeholder lag.  Klik her for at vise/skjule lag panelet" short="Vis lag"/>
+		<item id="33372" title="Vis felt panelet" tooltip="Dokumentet indeholder en formular. Klik her for at vise/skjule felt panelet" status="Dokumentet indeholder en formular. Klik her for at vise/skjule felt panelet" short="Vis felter"/>
+		<item id="33373" title="Ingen egenskaber" tooltip="Intet objekt med egenskaber er valgt" status="Intet objekt med egenskaber er valgt" short=""/>
+		<item id="33374" title="Vis PDF-info" tooltip="" status="" short=""/>
+		<item id="33379" title="Gennemsigtighed" tooltip="Gennemsigtighed" status="" short="Gennemsigtighed:"/>
+		<item id="33382" title="Vis/skjul tekst-formatering værktøjslinie" tooltip="Vis/skjul tekst-formatering værktøjslinie" status="" short=""/>
+		<item id="33383" title="Kopier sidevalg" tooltip="Kopier sidevalg" status="" short=""/>
+		<item id="33384" title="Vælg hele siden" tooltip="Vælg hele siden" status="" short=""/>
+		<item id="33410" title="Kommentar" tooltip="Kommentar" status="" short=""/>
+		<item id="33411" title="Tekst formatering" tooltip="Tekst formatering" status="" short=""/>
+		<item id="33412" title="Tag skærmklip" tooltip="Tag skærmklip" status="" short=""/>
+		<item id="33413" title="Zoom ind" tooltip="Forstør miniaturer" status="Forstør miniaturer" short=""/>
+		<item id="33414" title="Zoom ud" tooltip="Reducer miniaturer" status="Reducer miniaturer" short=""/>
+		<item id="33416" title="Tilføj bogmærke" tooltip="" status="" short=""/>
+		<item id="33420" title="Tilføj &amp;link" tooltip="" status="" short=""/>
+		<item id="33812" title="" tooltip="" status="" short="Åbn"/>
+		<item id="33813" title="" tooltip="" status="" short="Gem"/>
+		<item id="33814" title="" tooltip="" status="" short="Lav beskrivelse"/>
+		<item id="33815" title="Vedhæft &amp;fil" tooltip="Vedhæft fil" status="" short="Vedhæft fil"/>
+		<item id="33819" title="Slet &amp;valgte sider" tooltip="" status="" short=""/>
+		<item id="36000" title="Skræddersy..." tooltip="Vis billede for skræddersyning af all værktøjslinier..." status="Vis billede for skræddersyning af all værktøjslinier..." short=""/>
+		<item id="36001" title="Låst" tooltip="Låst" status="" short=""/>
+		<item id="36004" title="Zoom ind" tooltip="Forstør bogmærker" status="Forstør bogmærker" short=""/>
+		<item id="36005" title="Zoom ud" tooltip="Reducer bogmærker" status="Reducer bogmærker" short=""/>
+		<item id="36006" title="Slet bogmærker" tooltip="Slet valgte bogmærker" status="Slet valgte bogmærker" short="Slet"/>
+		<item id="36007" title="Bogmærke egenskaber..." tooltip="Vis egenskaber for valgte borgmærker" status="Vis egenskaber for valgte borgmærker" short="Rediger"/>
+		<item id="36008" title="Nyt bogmærke" tooltip="Dan et nyt bogmærke" status="Dan et nyt bogmærke" short="Nyt"/>
+		<item id="36009" title="Sæt synlighed for tilsvarende bogmærke" tooltip="Sæt synlighed for tilsvarende bogmærke" status="Sæt synlighed for tilsvarende bogmærke" short=""/>
+		<item id="36010" title="Gå til bogmærke" tooltip="Gå til bogmærke" status="Vis bogmærket i dokumentrammen" short=""/>
+		<item id="36011" title="Opfrisk bogmærketræet" tooltip="Opfrisk bogmærketræet" status="Opfrisk bogmærketræet" short=""/>
+		<item id="36012" title="Tilføj..." tooltip="Vis dialogen for at tilføje ny handling..." status="Vis dialogen for at tilføje ny handling..." short=""/>
+		<item id="36013" title="Slet" tooltip="Slet valgte handlinger..." status="Slet valgte handlinger..." short=""/>
+		<item id="36014" title="Op" tooltip="Flyt det valgte bogmærke op" status="Flyt det valgte bogmærke op" short=""/>
+		<item id="36015" title="Ned" tooltip="Flyt det valgte bogmærke ned" status="Flyt det valgte bogmærke ned" short=""/>
+		<item id="36016" title="Rediger..." tooltip="Rediger egenskaber for valgte handling..." status="Rediger egenskaber for valgte handling..." short=""/>
+		<item id="36017" title="Test valgte" tooltip="Test valgte handlinger..." status="Test valgte handlinger..." short=""/>
+		<item id="36018" title="Tast alle" tooltip="Test alle handlinger..." status="Test alle handlinger..." short=""/>
+		<item id="36019" title="Nulstil" tooltip="Nulstil listen over handlinger og fjern ændringer" status="Nulstil listen over handlinger og fjern ændringer" short=""/>
+		<item id="36023" title="Omdøb" tooltip="Omdøb valgte bogmærke" status="Omdøb valgte bogmærke" short=""/>
+		<item id="36024" title="Sæt nuværende udseende som standard" tooltip="Sæt nuværende udseende som standard" status="Sæt nuværende udseende som standard" short=""/>
+		<item id="36025" title="Linieskift for lange bogmærke titler" tooltip="Linieskift for lange bogmærke titler" status="Linieskift for lange bogmærke titler" short=""/>
+		<item id="36026" title="Anvend standard udseende" tooltip="Anvend standard udseende for valgte bogmærker" status="Anvend standard udseende for valgte bogmærker" short=""/>
+		<item id="36027" title="Kør" tooltip="Kør script" status="" short=""/>
+		<item id="36028" title="Slet" tooltip="Slet konsolvinduet" status="" short=""/>
+		<item id="36035" title="Gå til linie..." tooltip="" status="" short=""/>
+		<item id="36036" title="Valg" tooltip="JavaScript valg" status="JavaScript indstillinger...." short=""/>
+		<item id="36037" title="Indsæt sider..." tooltip="" status="" short=""/>
+		<item id="36038" title="Udtræk sider..." tooltip="" status="" short=""/>
+		<item id="36039" title="Udskift sider..." tooltip="" status="" short=""/>
+		<item id="36040" title="Sideovergange..." tooltip="" status="" short=""/>
+		<item id="36048" title="Sæt destination" tooltip="Sæt destination" status="Sæt nuværende visning som destination" short=""/>
+		<item id="36049" title="" tooltip="Font" status="" short="Font:"/>
+		<item id="36254" title="Inkludér kommentar" tooltip="" status="" short=""/>
+		<item id="36257" title="Rediger emne" tooltip="" status="" short=""/>
+		<item id="36260" title="1600%" tooltip="" status="" short=""/>
+		<item id="36262" title="12,5%" tooltip="" status="" short=""/>
+		<item id="36263" title="8,33%" tooltip="" status="" short=""/>
+		<item id="36264" title="Zoom" tooltip="" status="" short="Zoom:"/>
+		<item id="36273" title="Fyld farve" tooltip="Fyldfarve" status="" short="Fyldfarve:"/>
+		<item id="36274" title="Stregfarve" tooltip="Stregfarve" status="" short="Stregfarve:"/>
+		<item id="36276" title="Note ikon" tooltip="Note ikon" status="" short="Ikon:"/>
+		<item id="36277" title="Zoom" tooltip="Zoom" status="" short="Zoom"/>
+		<item id="36279" title="Kantstil" tooltip="Kantstil" status="" short="Kant:"/>
+		<item id="36281" title="Kantbredde" tooltip="Kantbredde" status="" short="Bredde:"/>
+		<item id="36287" title="Linieslutstil" tooltip="Linieslutstil" status="" short="Linieslut:"/>
+		<item id="36289" title="Liniestartstil" tooltip="Liniestartstil" status="" short="Liniestart:"/>
+		<item id="36291" title="Zoom ind" tooltip="Forstør miniaturer" status="Forstør miniaturer" short=""/>
+		<item id="36292" title="Zoom ud" tooltip="Reducer miniaturer" status="Reducer miniaturer" short=""/>
+		<item id="36293" title="Dan fra klippebordet" tooltip="Dan stempel fra klippebordsbillede" status="Dan stempel fra klippebordsbillede" short="Fra klippebord"/>
+		<item id="36294" title="Slet stempel" tooltip="Slet valgte stempel" status="Slet valgte stempel" short="Slet"/>
+		<item id="36295" title="Indsæt stempel..." tooltip="Indsæt stempel..." status="Indsæt stempel..." short=""/>
+		<item id="36296" title="Slet samling" tooltip="Slet valgte samling" status="Slet valgte samling" short="Slet"/>
+		<item id="36297" title="Dan ny samling..." tooltip="Dan ny stempelsamling..." status="Dan ny stempelsamling..." short="Ny..."/>
+		<item id="36298" title="Rediger stempel..." tooltip="Rediger stempel..." status="Rediger stempel..." short="Rediger..."/>
+		<item id="36299" title="Rediger samling..." tooltip="Rediger valgte samling..." status="Rediger valgte samling..." short="Rediger..."/>
+		<item id="36300" title="Viskelæder" tooltip="Viskelæder" status="Viskelæder" short="Viskelæder"/>
+		<item id="36301" title="Diameter" tooltip="Viskelæder diameter" status="" short="Diameter:"/>
+		<item id="36303" title="Dan fra PDF..." tooltip="Dan stempel ud fra PDF dokument..." status="Dan stempel ud fra PDF dokument..." short="Fra PDF"/>
+		<item id="36304" title="Dan fra billed" tooltip="Dan stempel ud fra billedfil..." status="Dan stempel ud fra billedfil..." short="Fra billede"/>
+		<item id="36305" title="Indsæt tomme sider..." tooltip="" status="" short=""/>
+		<item id="36306" title="Udvid alle bogmærker" tooltip="Udvid alle bogmærker" status="" short="Udvid alle"/>
+		<item id="36307" title="Sammentræk alle bogmærker" tooltip="Sammentræk alle bogmærker" status="" short="Sammentræk alle"/>
+		<item id="36308" title="Tekst indstillinger..." tooltip="Vis tekst indstillinger..." status="Vis dialog med indstillinger for valgte tekst" short="Tekst indstillinger..."/>
+		<item id="36309" title="Nulstil denne knaplinie" tooltip="Nulstil denne knaplinie" status="Nulstil knaplinien til standardindstillingen" short="Nulstil denne knaplinie"/>
+		<item id="36313" title="" tooltip="Nulstil genvej" status="" short=""/>
+		<item id="36314" title="" tooltip="Slet genvej" status="" short=""/>
+		<item id="36315" title="Nulstil menu-linien" tooltip="Nulstil denne menu-linie" status="Nulstil denne menu-linie" short="Nulstil menu-linie"/>
+		<item id="36316" title="Nulstil denne popup-menu" tooltip="Nulstil denne popup-menu" status="Nulstil denne popup-menu" short="Nulstil denne popup-menu"/>
+		<item id="36324" title="Vælg billede" tooltip="" status="" short=""/>
+		<item id="36326" title="Nulstil" tooltip="" status="" short=""/>
+		<item id="36327" title="Slet" tooltip="" status="" short=""/>
+		<item id="36328" title="Standard stil" tooltip="" status="" short=""/>
+		<item id="36329" title="Vis billede" tooltip="" status="" short=""/>
+		<item id="36330" title="Vis tekst" tooltip="" status="" short=""/>
+		<item id="36331" title="Indsæt separator før" tooltip="" status="" short=""/>
+		<item id="36332" title="Indsæt separator efter" tooltip="" status="" short=""/>
+		<item id="36333" title="Indstillinger..." tooltip="" status="" short=""/>
+		<item id="36334" title="Vis udskrift" tooltip="" status="" short=""/>
+		<item id="36335" title="Vis emner" tooltip="Vis kommentaremner" status="Vis kommentaremner" short=""/>
+		<item id="36336" title="Vis forfatter" tooltip="Vis kommentarforfatter" status="Vis kommentarforfatter" short=""/>
+		<item id="36337" title="Vis datoer" tooltip="Vis rettelsesdato på kommentarer" status="Vis rettelsesdato på kommentarer" short=""/>
+		<item id="36338" title="Vis tekst" tooltip="Vis kommentartekster" status="Vis kommentartekster" short=""/>
+		<item id="36339" title="Vis farver" tooltip="Vis kommentarfarver" status="Vis kommentarfarver" short=""/>
+		<item id="36340" title="&amp;Dan Kommentarliste" tooltip="" status="" short=""/>
+		<item id="36341" title="Slet find-listen" tooltip="Slet find-listen" status="" short="Slet find-listen"/>
+		<item id="36349" title="&amp;Kommentarer" tooltip="" status="" short=""/>
+		<item id="36350" title="&amp;Opsummer kommentarer" tooltip="" status="" short=""/>
+		<item id="36363" title="Tilføj &quot;Åbn www-adresse&quot;" tooltip="" status="" short=""/>
+		<item id="36364" title="Fra blank side" tooltip="" status="" short=""/>
+		<item id="36365" title="Fra tekst-fil" tooltip="" status="" short=""/>
+		<item id="36366" title="&amp;Gå tilbage" tooltip="" status="" short=""/>
+		<item id="36367" title="&amp;Gå frem" tooltip="" status="" short=""/>
+		<item id="36368" title="&amp;Klip" tooltip="" status="" short=""/>
+		<item id="36369" title="&amp;Kopier" tooltip="" status="" short=""/>
+		<item id="36370" title="&amp;Indsæt" tooltip="" status="" short=""/>
+		<item id="36371" title="&amp;Slet" tooltip="" status="" short=""/>
+		<item id="36372" title="Vælg alle" tooltip="" status="" short=""/>
+		<item id="36373" title="" tooltip="" status="" short=""/>
+		<item id="36375" title="" tooltip="" status="" short=""/>
+		<item id="36415" title="Vis" tooltip="" status="" short=""/>
+		<item id="36416" title="Om" tooltip="" status="" short=""/>
+		<item id="36417" title="Afslut" tooltip="" status="" short=""/>
+		<item id="36418" title="Vis kommentar-stil" tooltip="" status="" short=""/>
+		<item id="36420" title="Vis pallette for kommentar-stil" tooltip="" status="" short=""/>
+		<item id="36434" title="Vis kommentarer" tooltip="" status="" short=""/>
+		<item id="36435" title="Skjul kommentarer" tooltip="" status="" short=""/>
+		<item id="36436" title="Vis alle kommentarer" tooltip="" status="" short=""/>
+		<item id="36437" title="Sorter efter type" tooltip="" status="" short=""/>
+		<item id="36503" title="Importer kommentarer" tooltip="" status="" short=""/>
+		<item id="57601" title="&amp;Åben..." tooltip="Åbne et eksisterende dokument..." status="Åbne et eksisterende dokument" short=""/>
+		<item id="57602" title="&amp;Luk" tooltip="Luk det aktive dokument" status="Luk det aktive dokument" short=""/>
+		<item id="57603" title="&amp;Gem" tooltip="Gem det aktive dokument" status="Gem det aktive dokument" short=""/>
+		<item id="57604" title="&amp;Gem &amp;som" tooltip="Gem det aktive dokument med et nyt navn" status="Gem det aktive dokument med et nyt navn" short=""/>
+		<item id="57607" title="&amp;Udskriv" tooltip="Udskriv det aktive dokument" status="Udskriv det aktive dokument" short=""/>
+		<item id="57611" title="Gem ko&amp;pi som" tooltip="Gem det aktive dokument som nyt" status="Gem det aktive dokument som nyt" short=""/>
+		<item id="57612" title="Send med &amp;Email" tooltip="Vedhæft aktive dokument til en ny email besked" status="Vedhæft aktive dokument til en ny email besked" short=""/>
+		<item id="57632" title="&amp;Nulstil" tooltip="Nulstiller det valgte" status="Nulstiller det valgte" short=""/>
+		<item id="57634" title="&amp;Kopier" tooltip="Kopier det valgte og placerer det i klippebordet" status="Kopier det valgte og placerer det i klippebordet" short=""/>
+		<item id="57635" title="&amp;Klip" tooltip="Klip det afmærkede og placer i klippebordet" status="Klip det afmærkede og placer i klippebordet" short=""/>
+		<item id="57636" title="&amp;Find" tooltip="Find den angivne tekst" status="Find den angivne tekst" short=""/>
+		<item id="57637" title="&amp;Sæt ind" tooltip="Indsætter indholdet i klippebordet" status="Indsætter indholdet i klippebordet" short=""/>
+		<item id="57642" title="Vælg alt" tooltip="Vælg alt" status="" short=""/>
+		<item id="57643" title="&amp;Fortryd" tooltip="Fortryd sidste handling" status="Fortryd sidste handling" short=""/>
+		<item id="57644" title="&amp;Annuler fortryd" tooltip="Annuler sidst fortrudte handling" status="Annuler sidst fortrudte handling" short=""/>
+		<item id="57649" title="Arranger ikoner" tooltip="Arranger ikoner i bundet af vinduet" status="Arranger ikoner i bundet af vinduet" short=""/>
+		<item id="57650" title="&amp;Overlap" tooltip="Arranger vinduerne så de overlapper" status="Arranger vinduerne så de overlapper" short=""/>
+		<item id="57651" title="Opdelt horisontalt" tooltip="Arranger vinduerne så de ikke overlapper" status="Arranger vinduerne så de ikke overlapper" short=""/>
+		<item id="57652" title="Opdelt vertikalt" tooltip="Arranger vinduerne så de ikke overlapper" status="Arranger vinduerne så de ikke overlapper" short=""/>
+		<item id="57653" title="&amp;Opdel" tooltip="Opdel det aktive vindue i paneler" status="Opdel det aktive vindue i paneler" short=""/>
+		<item id="57664" title="&amp;Om PDF XChange Læser" tooltip="Vis programinformation, versionnummer &amp; copyright" status="Vis programinformation, versionnummer &amp; copyright" short=""/>
+		<item id="57665" title="&amp;Slut" tooltip="Slut programmet" status="Slut programmet" short=""/>
+		<item id="57670" title="&amp;Hjælp" tooltip="" status="" short=""/>
+		<item id="57718" title="Rul til venstre" tooltip="Rul til venstre" status="" short=""/>
+		<item id="57719" title="Rul til højre" tooltip="Rul til højre" status="" short=""/>
+		<item id="59393" title="&amp;Status linie" tooltip="Vis/skjul status linie" status="Vis/skjul status linie" short=""/>
+	</commands>
+	<dialogs>
+		<dialog id="203" text="Indstillinger">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Afbryd" tooltip=""/>
+			<item id="3" text="Anvend" tooltip=""/>
+		</dialog>
+		<dialog id="204" text="">
+			<item id="1004" text="Output overruler arbejdsområdet" tooltip=""/>
+			<item id="1008" text="Brug &quot;Black Point&quot; kompensation" tooltip=""/>
+			<item id="1038" text="Farve indstillinger" tooltip=""/>
+			<item id="1039" text="RGB" tooltip=""/>
+			<item id="1040" text="CMYK" tooltip=""/>
+			<item id="1041" text="Gråskala" tooltip=""/>
+			<item id="1042" text="Metode" tooltip=""/>
+			<item id="1200" text="Arbejdsområde" tooltip=""/>
+			<item id="1201" text="Konverteringsindstillinger" tooltip=""/>
+		</dialog>
+		<dialog id="207" text="">
+			<item id="4" text="Gennemse" tooltip=""/>
+			<item id="5" text="Gennemse" tooltip=""/>
+			<item id="1009" text="Max antal dolumenter i &quot;Seneste dokumenter&quot;" tooltip=""/>
+			<item id="1014" text="Vis reklamevindue" tooltip=""/>
+			<item id="1015" text="Tillad flere læsere samtidig" tooltip=""/>
+			<item id="1016" text="Minimer" tooltip=""/>
+			<item id="1017" text="Minimer" tooltip=""/>
+			<item id="1032" text="Faneblade" tooltip=""/>
+			<item id="1033" text="Flere dokumenter" tooltip=""/>
+			<item id="1035" text="Vis en luk knap for hvert dokument" tooltip=""/>
+			<item id="1036" text="Enkelt dokument" tooltip=""/>
+			<item id="1038" text="Metode til gemning" tooltip=""/>
+			<item id="1039" text="Destinationsmappe for downloads fra URL&apos;s" tooltip=""/>
+			<item id="1040" text="Vælg hvor dokumentet skal gemmes" tooltip=""/>
+			<item id="1198" text="Programstart" tooltip=""/>
+			<item id="1199" text="Program" tooltip=""/>
+			<item id="1200" text="Dokument layout" tooltip=""/>
+			<item id="1201" text="Åbning af dokumenter" tooltip=""/>
+			<item id="1202" text="Gemme dokumenter" tooltip=""/>
+			<item id="1227" text="Rens listen" tooltip=""/>
+			<item id="1228" text="Administrer" tooltip=""/>
+			<item id="1450" text="Åbn forrige session" tooltip=""/>
+		</dialog>
+		<dialog id="212" text="Indtast dokumentets password">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Afbryd" tooltip=""/>
+			<item id="1039" text="Indtast et gyldigt bruger- eller ejer-password for dette dokument" tooltip=""/>
+		</dialog>
+		<dialog id="213" text="Dokument indstillinger">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Afbryd" tooltip=""/>
+			<item id="3" text="Anvend" tooltip=""/>
+		</dialog>
+		<dialog id="214" text="">
+			<item id="1038" text="Filnavn:" tooltip=""/>
+			<item id="1039" text="Placering:" tooltip=""/>
+			<item id="1040" text="Oprettet:" tooltip=""/>
+			<item id="1041" text="Redigeret:" tooltip=""/>
+			<item id="1042" text="Filstørrelse:" tooltip=""/>
+			<item id="1043" text="Titel:" tooltip=""/>
+			<item id="1044" text="Forfatter:" tooltip=""/>
+			<item id="1200" text="Fil information" tooltip=""/>
+			<item id="1201" text="Dokument information" tooltip=""/>
+			<item id="1203" text="Emne:" tooltip=""/>
+			<item id="1204" text="Nøgleord:" tooltip=""/>
+			<item id="1205" text="PDF producent:" tooltip=""/>
+			<item id="1206" text="Program:" tooltip=""/>
+			<item id="1207" text="PDF version:" tooltip=""/>
+			<item id="1208" text="Antal sider:" tooltip=""/>
+			<item id="1209" text="Yderligere metadata..." tooltip=""/>
+		</dialog>
+		<dialog id="220" text="">
+			<item id="1038" text="Udskrivning:" tooltip=""/>
+			<item id="1039" text="Ret i dokumentet:" tooltip=""/>
+			<item id="1040" text="Kopiere eller udtrække indhold:" tooltip=""/>
+			<item id="1041" text="Redigere kommentarer eller formularfelter:" tooltip=""/>
+			<item id="1042" text="Udfylde formularfelter eller signere:" tooltip=""/>
+			<item id="1043" text="Adgang til indhold aktiv:" tooltip=""/>
+			<item id="1044" text="Dokument opbygning:" tooltip=""/>
+			<item id="1045" text="" tooltip=""/>
+			<item id="1047" text="Underskrifter" tooltip=""/>
+			<item id="1049" text="Standard-skabeloner" tooltip=""/>
+			<item id="1200" text="Dokumentsikkerhed" tooltip=""/>
+			<item id="1201" text="Dokumentets tilladelser:" tooltip=""/>
+			<item id="1203" text="Dokumentets sikkerhedsmetode begrænser ændringer i dokumentet." tooltip=""/>
+			<item id="1204" text="Sikkerhedsmetode:" tooltip=""/>
+			<item id="1205" text="Krypteringsniveau:" tooltip=""/>
+			<item id="1206" text="Åbne password:" tooltip=""/>
+			<item id="1207" text="Tilladelsespassword:" tooltip=""/>
+			<item id="1210" text="Ret indstillingerne..." tooltip=""/>
+			<item id="1212" text="Vis detaljer" tooltip=""/>
+		</dialog>
+		<dialog id="221" text="Exporter til billede">
+			<item id="1" text="Export..." tooltip=""/>
+			<item id="2" text="Afbryd" tooltip=""/>
+			<item id="4" text="Gennemse..." tooltip=""/>
+			<item id="6" text="Makroer" tooltip=""/>
+			<item id="7" text="Indstillinger..." tooltip=""/>
+			<item id="1040" text="Destinationsmappe:" tooltip=""/>
+			<item id="1041" text="Filnavn:" tooltip=""/>
+			<item id="1042" text="Billedtype:" tooltip=""/>
+			<item id="1043" text="Eksport tilstand:" tooltip=""/>
+			<item id="1044" text="Opløsning:" tooltip=""/>
+			<item id="1201" text="Gem som" tooltip=""/>
+			<item id="1202" text="Grafik" tooltip=""/>
+			<item id="1203" text="Sidebaggrund:" tooltip=""/>
+			<item id="1204" text="Sider" tooltip=""/>
+			<item id="1206" text="Zoom" tooltip=""/>
+			<item id="1330" text="Alle" tooltip=""/>
+			<item id="1331" text="Valgte sider" tooltip=""/>
+			<item id="1332" text="Nuværende side" tooltip=""/>
+			<item id="1333" text="Sider" tooltip=""/>
+			<item id="1335" text="Uddrag:" tooltip=""/>
+			<item id="1339" text="Nuværende skærmbillede " tooltip=""/>
+			<item id="1340" text="Valgte grafik" tooltip=""/>
+			<item id="1341" text="Bagvendt rækkefølge" tooltip=""/>
+			<item id="1387" text="Indtast sidenumre og/el. sideområder adskilt med komma startende fra starten af dokumentet.  F.eks.: 1, 3, 5-12 " tooltip=""/>
+		</dialog>
+		<dialog id="222" text="Indstillinger for gem-billede">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Afbryd" tooltip=""/>
+		</dialog>
+		<dialog id="223" text="">
+			<item id="1071" text="Afbryd" tooltip=""/>
+			<item id="1072" text="Spring over" tooltip=""/>
+		</dialog>
+		<dialog id="224" text="">
+			<item id="1038" text="Standard sideopsætning" tooltip=""/>
+			<item id="1039" text="Standard side layout:" tooltip=""/>
+			<item id="1040" text="Standard side-zoom" tooltip=""/>
+			<item id="1041" text="Anvend opløsning:" tooltip=""/>
+			<item id="1042" text="pixler pr. tomme" tooltip=""/>
+			<item id="1073" text="Vis billeder, beskæring og rammer" tooltip=""/>
+			<item id="1074" text="Vis transparent-net" tooltip=""/>
+			<item id="1079" text="Dan links fra URL&apos;s" tooltip=""/>
+			<item id="1083" text="Vis store billede" tooltip=""/>
+			<item id="1126" text="Sidst anvendte sideopsætning" tooltip=""/>
+			<item id="1200" text="Sidevisning" tooltip=""/>
+			<item id="1201" text="Start opsætning" tooltip=""/>
+			<item id="1202" text="Start sideopsætning" tooltip=""/>
+			<item id="1228" text="Anvend sidst brugte layout og side-zoom fra fillisten" tooltip=""/>
+		</dialog>
+		<dialog id="227" text="Bekræft overskrivning af fil">
+			<item id="2" text="Afbryd" tooltip=""/>
+			<item id="6" text="Ja" tooltip=""/>
+			<item id="7" text="Nej" tooltip=""/>
+			<item id="100" text="Ja til alle" tooltip=""/>
+			<item id="101" text="Nej til alle" tooltip=""/>
+			<item id="102" text="Automatisk" tooltip=""/>
+			<item id="103" text="Gem som..." tooltip=""/>
+			<item id="1040" text="Overskriv denne fil?" tooltip=""/>
+			<item id="1041" text="Anvend automatiske filnavne for at danne et unikt filnavn:" tooltip=""/>
+		</dialog>
+		<dialog id="228" text="Fejl ved filskrivning">
+			<item id="3" text="Afbryd" tooltip=""/>
+			<item id="4" text="Prøv igen" tooltip=""/>
+			<item id="5" text="Ignorer" tooltip=""/>
+			<item id="103" text="Gem som..." tooltip=""/>
+		</dialog>
+		<dialog id="229" text="Udskriv">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Afbryd" tooltip=""/>
+			<item id="1038" text="Kopier:" tooltip=""/>
+			<item id="1041" text="Skaleringstype:" tooltip=""/>
+			<item id="1043" text="Navn:" tooltip=""/>
+			<item id="1044" text="Status:" tooltip=""/>
+			<item id="1086" text="Egenskaber" tooltip=""/>
+			<item id="1087" text="Udskriv til fil" tooltip=""/>
+			<item id="1088" text="Duplex-indstilling" tooltip=""/>
+			<item id="1094" text="Sætvis" tooltip=""/>
+			<item id="1096" text="Udskriv som gråskala" tooltip=""/>
+			<item id="1097" text="Udskriv som billede" tooltip=""/>
+			<item id="1127" text="Side skalering" tooltip=""/>
+			<item id="1200" text="Printer" tooltip=""/>
+			<item id="1201" text="Udskriftsområde" tooltip=""/>
+			<item id="1203" text="Type:" tooltip=""/>
+			<item id="1204" text="Printerindstillinger" tooltip=""/>
+			<item id="1206" text="Print" tooltip=""/>
+			<item id="1207" text="Print sider" tooltip=""/>
+			<item id="1330" text="Alle" tooltip=""/>
+			<item id="1331" text="Valgte sider" tooltip=""/>
+			<item id="1332" text="Nuværende side" tooltip=""/>
+			<item id="1333" text="Sider:" tooltip=""/>
+			<item id="1335" text="Udsnit:" tooltip=""/>
+			<item id="1339" text="Nuværende skærmbillede" tooltip=""/>
+			<item id="1340" text="Valgte grafik" tooltip=""/>
+			<item id="1341" text="Bagvendt rækkefølge" tooltip=""/>
+			<item id="1343" text="Avanceret" tooltip=""/>
+			<item id="1387" text="Indtast sidenumre og/el. sideområder adskilt med komma startende fra starten af dokumentet.  F.eks.: 1, 3, 5-12 " tooltip=""/>
+		</dialog>
+		<dialog id="230" text="">
+			<item id="1038" text="Zoom" tooltip=""/>
+			<item id="1116" text="Vælg papir-kilde efter PDF-side størrelse" tooltip=""/>
+			<item id="1120" text="Auto-roter" tooltip=""/>
+			<item id="1121" text="Auto-centrer" tooltip=""/>
+		</dialog>
+		<dialog id="231" text="">
+			<item id="1038" text="Sider per ark:" tooltip=""/>
+			<item id="1039" text="Side rækkefølge:" tooltip=""/>
+			<item id="1108" text="Udskriv sideramme" tooltip=""/>
+			<item id="1120" text="Auto-roter sider" tooltip=""/>
+			<item id="1121" text="Autocentrér side i celle" tooltip=""/>
+			<item id="1128" text="x" tooltip=""/>
+		</dialog>
+		<dialog id="232" text="">
+			<item id="1038" text="Overlap skala:" tooltip=""/>
+			<item id="1040" text="Overlap:" tooltip=""/>
+			<item id="1110" text="Vis skæremærker" tooltip=""/>
+			<item id="1118" text="Etiketter" tooltip=""/>
+			<item id="1120" text="Autorotér" tooltip=""/>
+			<item id="1121" text="Autocentrer" tooltip=""/>
+		</dialog>
+		<dialog id="236" text="Gå til side">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Afbryd" tooltip=""/>
+			<item id="1038" text="Indtast sidenummer:" tooltip=""/>
+		</dialog>
+		<dialog id="237" text="Zoom til">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Afbryd" tooltip=""/>
+			<item id="1038" text="Angiv forstørrelse:" tooltip=""/>
+		</dialog>
+		<dialog id="244" text="">
+			<item id="1038" text="Angiv ord eller vending du vil søge efter:" tooltip=""/>
+			<item id="1039" text="Hvor vil du søge?" tooltip=""/>
+			<item id="1040" text="Sorter efter:" tooltip=""/>
+			<item id="1099" text="Indstillinger" tooltip=""/>
+			<item id="1139" text="Søg nu" tooltip=""/>
+			<item id="1142" text="Nulstil" tooltip=""/>
+		</dialog>
+		<dialog id="245" text="Søge indstillinger">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Afbryd" tooltip=""/>
+			<item id="1038" text="Anvend nærhed:" tooltip=""/>
+			<item id="1126" text="Store/små bogstaver" tooltip=""/>
+			<item id="1128" text="Medtag kommentarer" tooltip=""/>
+			<item id="1129" text="Medtag bogmærker" tooltip=""/>
+			<item id="1130" text="Se i undermapper" tooltip=""/>
+			<item id="1131" text="Medtag bilag" tooltip=""/>
+			<item id="1145" text="Kun hele ord" tooltip=""/>
+			<item id="1193" text="Tætteste" tooltip=""/>
+			<item id="1194" text="I siden" tooltip=""/>
+			<item id="1195" text="I dokumentet" tooltip=""/>
+			<item id="1200" text="Anvend yderligere kriterier" tooltip=""/>
+		</dialog>
+		<dialog id="246" text="Avanceret søgning">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Afbryd" tooltip=""/>
+			<item id="1038" text="alle ordene:" tooltip=""/>
+			<item id="1039" text="den nøjagtige vending" tooltip=""/>
+			<item id="1040" text="mindst ét af ordene:" tooltip=""/>
+			<item id="1041" text="uden ordene:" tooltip=""/>
+			<item id="1200" text="Søge resultatet skal være:" tooltip=""/>
+		</dialog>
+		<dialog id="247" text="">
+			<item id="1038" text="Brug af systemhukommelse i procent:" tooltip=""/>
+			<item id="1039" text="Maximum antal tråde til sidedannelse:" tooltip=""/>
+			<item id="1040" text="Maximum antal tråde til at danne miniaturer:" tooltip=""/>
+			<item id="1041" text="Maximum antal arbejdstråde:" tooltip=""/>
+			<item id="1200" text="Hukommelsesbrug" tooltip=""/>
+			<item id="1201" text="Brug af tråde" tooltip=""/>
+			<item id="1525" text="Anvend siderendering" tooltip=""/>
+		</dialog>
+		<dialog id="257" text="Roter sider">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Afbryd" tooltip=""/>
+			<item id="1038" text="Roter:" tooltip=""/>
+			<item id="1039" text="Indtast sidenumre og/el. sideområder adskilt med komma startende fra starten af dokumentet.  F.eks.: 1, 3, 5-12 " tooltip=""/>
+			<item id="1041" text="Retning" tooltip=""/>
+			<item id="1164" text="Alle" tooltip=""/>
+			<item id="1165" text="Valgte sider" tooltip=""/>
+			<item id="1166" text="Nuværende side" tooltip=""/>
+			<item id="1167" text="Sider:" tooltip=""/>
+			<item id="1200" text="Sideområde" tooltip=""/>
+		</dialog>
+		<dialog id="258" text="Slet sider">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Afbryd" tooltip=""/>
+			<item id="1038" text="Slet" tooltip=""/>
+			<item id="1039" text="Indtast sidenumre og/el. sideområder adskilt med komma startende fra starten af dokumentet.  F.eks.: 1, 3, 5-12 " tooltip=""/>
+			<item id="1165" text="Valgte sider" tooltip=""/>
+			<item id="1166" text="Nuværende side" tooltip=""/>
+			<item id="1167" text="Sider:" tooltip=""/>
+			<item id="1200" text="Side-område" tooltip=""/>
+		</dialog>
+		<dialog id="265" text="Indstillinger">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Afbryd" tooltip=""/>
+			<item id="3" text="Anvend" tooltip=""/>
+			<item id="1180" text="Avanceret" tooltip=""/>
+		</dialog>
+		<dialog id="266" text="">
+			<item id="1038" text="Start:" tooltip=""/>
+			<item id="1039" text="Slut:" tooltip=""/>
+			<item id="1040" text="Udseende:" tooltip=""/>
+			<item id="1041" text="Tykkelse:" tooltip=""/>
+			<item id="1042" text="Farve:" tooltip=""/>
+			<item id="1043" text="Fyldfarve:" tooltip=""/>
+			<item id="1044" text="Gennemsigtighed:" tooltip=""/>
+			<item id="1200" text="Udseende af linie-ender" tooltip=""/>
+			<item id="1201" text="Kant" tooltip=""/>
+		</dialog>
+		<dialog id="268" text="">
+			<item id="1038" text="Forfatter:" tooltip=""/>
+			<item id="1039" text="Emne:" tooltip=""/>
+			<item id="1040" text="Oprettet:" tooltip=""/>
+			<item id="1041" text="Redigeret:" tooltip=""/>
+		</dialog>
+		<dialog id="272" text="">
+			<item id="1038" text="Udseende:" tooltip=""/>
+			<item id="1039" text="Tykkelse:" tooltip=""/>
+			<item id="1040" text="Farve:" tooltip=""/>
+			<item id="1041" text="Fyldfarve:" tooltip=""/>
+			<item id="1042" text="Gennemsigtighed:" tooltip=""/>
+			<item id="1200" text="Kant" tooltip=""/>
+		</dialog>
+		<dialog id="273" text="">
+			<item id="1038" text="Tykkelse:" tooltip=""/>
+			<item id="1039" text="Farve:" tooltip=""/>
+			<item id="1040" text="Gennemsigtighed:" tooltip=""/>
+			<item id="1200" text="Kant" tooltip=""/>
+		</dialog>
+		<dialog id="274" text="">
+			<item id="1038" text="Den angivne enhed vil blive anvendt overalt til at vise sidelinial, side størrelse, net osv.:" tooltip=""/>
+			<item id="1200" text="Enhed" tooltip=""/>
+			<item id="1201" text="Vis grid" tooltip=""/>
+			<item id="1490" text="Vis lineal" tooltip=""/>
+		</dialog>
+		<dialog id="278" text="Rapporter et problem...">
+			<item id="1" text="Næste..." tooltip=""/>
+			<item id="2" text="Afbryd" tooltip=""/>
+			<item id="4" text="Gennemse..." tooltip=""/>
+			<item id="1038" text="Din meddelelse vil blive afsendt med email og du kan redigere denne inden afsendelse" tooltip=""/>
+			<item id="1039" text="Angiv et emne til problemet:" tooltip=""/>
+			<item id="1040" text="Beskrivelse (angiv en kort beskrivelse af problemet):" tooltip=""/>
+			<item id="1041" text="Vedhæft en fil (PDF-dokument) til meddelelsen ?" tooltip=""/>
+			<item id="1126" text="Inkluder information om installerede fonte og farveindstillinger" tooltip=""/>
+			<item id="1127" text="Inkluder information om installerede printere og deres indstillinger" tooltip=""/>
+			<item id="1128" text="Inkluder information om operativsystemet" tooltip=""/>
+			<item id="1183" text="Inkluder programmets version og indstillinger" tooltip=""/>
+			<item id="1524" text="Inkludér indlæste moduler" tooltip=""/>
+		</dialog>
+		<dialog id="279" text="">
+			<item id="1038" text="Ikon:" tooltip=""/>
+			<item id="1039" text="Farve:" tooltip=""/>
+			<item id="1040" text="Gennemsigtighed:" tooltip=""/>
+			<item id="1200" text="Udseende" tooltip=""/>
+		</dialog>
+		<dialog id="282" text="Javascript konsol">
+			<item id="1" text="Kør" tooltip=""/>
+			<item id="2" text="Luk" tooltip=""/>
+			<item id="1200" text="Script" tooltip=""/>
+			<item id="1201" text="Output" tooltip=""/>
+		</dialog>
+		<dialog id="283" text="">
+			<item id="1038" text="Linie ender:" tooltip=""/>
+			<item id="1039" text="Udseende:" tooltip=""/>
+			<item id="1040" text="Tykkelse:" tooltip=""/>
+			<item id="1041" text="Stregfarve:" tooltip=""/>
+			<item id="1042" text="Fyldfarve:" tooltip=""/>
+			<item id="1043" text="Gennemsigtighed:" tooltip=""/>
+			<item id="1200" text="Udseende af linie-ender" tooltip=""/>
+			<item id="1201" text="Kant" tooltip=""/>
+		</dialog>
+		<dialog id="284" text="">
+			<item id="1038" text="Farvbe:" tooltip=""/>
+			<item id="1039" text="Gennemsigtighed:" tooltip=""/>
+			<item id="1200" text="Udseende" tooltip=""/>
+		</dialog>
+		<dialog id="290" text="Stempler">
+		</dialog>
+		<dialog id="291" text="">
+			<item id="1038" text="Sæt PDF-XChange som standard PDF-læser:" tooltip=""/>
+			<item id="1039" text="Tilbagefør tidligere anvendte program som standard PDF-læser (hvis programmet stadig er installeret):" tooltip=""/>
+			<item id="1127" text="Vis PDF i browseren" tooltip=""/>
+			<item id="1162" text="Sæt standard PDF-læser" tooltip=""/>
+			<item id="1197" text="Tilbagefør fil-associering" tooltip=""/>
+			<item id="1200" text="Fil-associering" tooltip=""/>
+		</dialog>
+		<dialog id="292" text="">
+			<item id="1038" text="Gennemsigtighed:" tooltip=""/>
+			<item id="1200" text="Udseende" tooltip=""/>
+		</dialog>
+		<dialog id="295" text="">
+			<item id="1038" text="Login navn:" tooltip=""/>
+			<item id="1039" text="Navn:" tooltip=""/>
+			<item id="1040" text="Titel:" tooltip=""/>
+			<item id="1041" text="Organisationens navn:" tooltip=""/>
+			<item id="1042" text="Afdeling:" tooltip=""/>
+			<item id="1043" text="Email adresse:" tooltip=""/>
+			<item id="1044" text="Ovenstående oplysninger kan anvendes i kommentarer, gennemgang og digital signatur.  Oplysningerne kendes kun af dette program og bliver ikke afsendt uden din akcept." tooltip=""/>
+			<item id="1200" text="Identitet" tooltip=""/>
+		</dialog>
+		<dialog id="296" text="">
+			<item id="1038" text="Angiv ønsket sprog til programmet:" tooltip=""/>
+			<item id="1200" text="Sprog" tooltip=""/>
+			<item id="1219" text="Anvend PC&apos;ens landeindstilling" tooltip=""/>
+			<item id="1220" text="Vælg et sprog" tooltip=""/>
+			<item id="1221" text="Anvend programmets standard sprog" tooltip=""/>
+		</dialog>
+		<dialog id="297" text="Åben et dokument fra en URL">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Afbryd" tooltip=""/>
+			<item id="1038" text="Angiv dokumentets URL" tooltip=""/>
+		</dialog>
+		<dialog id="298" text="Tilpas">
+			<item id="1" text="Luk" tooltip=""/>
+			<item id="1316" text="Nulstil alle" tooltip=""/>
+		</dialog>
+		<dialog id="299" text="">
+			<item id="1039" text="Værktøjslinjer" tooltip=""/>
+			<item id="1234" text="Nulstil" tooltip=""/>
+			<item id="1235" text="Omdøb" tooltip=""/>
+			<item id="1237" text="Ny..." tooltip=""/>
+			<item id="1250" text="Slet" tooltip=""/>
+		</dialog>
+		<dialog id="300" text="">
+			<item id="1038" text="For at tilføje en kommando skal du trække kommandoen fra kommandolisten og slippe den på ønskede knaplinie eller menu." tooltip=""/>
+			<item id="1039" text="Kategorier:" tooltip=""/>
+			<item id="1040" text="Kommandoer:" tooltip=""/>
+			<item id="1314" text="Vis &apos;PRO&apos; kommandoer i lister, menuer og knaplinier" tooltip=""/>
+			<item id="1320" text="Ny..." tooltip=""/>
+			<item id="1321" text="Indstillinger" tooltip=""/>
+		</dialog>
+		<dialog id="301" text="">
+			<item id="1233" text="Vis skærmtips på værktøjslinier" tooltip=""/>
+			<item id="1234" text="Vis tastatur-genveje på skærmtips" tooltip=""/>
+			<item id="1235" text="Vis genveje i menuer" tooltip=""/>
+		</dialog>
+		<dialog id="302" text="">
+			<item id="1038" text="Side baggrund:" tooltip=""/>
+			<item id="1039" text="Stregfarve:" tooltip=""/>
+			<item id="1040" text="Fyldfarve:" tooltip=""/>
+			<item id="1126" text="Tekstfarve" tooltip=""/>
+			<item id="1127" text="Streger:" tooltip=""/>
+			<item id="1128" text="Udskift kun farven på sort tekst eller streger" tooltip=""/>
+			<item id="1200" text="Dokument farve-indstillinger" tooltip=""/>
+			<item id="1220" text="Anvend skræddersyet farve-skema" tooltip=""/>
+			<item id="1235" text="Anvend Windows farve-skema" tooltip=""/>
+			<item id="1236" text="Anvend fordefineret høj-kontast farve-skema" tooltip=""/>
+			<item id="1240" text="Overskriv dokumentets farver" tooltip=""/>
+			<item id="1241" text="Skift farven på streger såvel som på tekst" tooltip=""/>
+		</dialog>
+		<dialog id="303" text="">
+			<item id="1038" text="Baggrundsfarve" tooltip=""/>
+			<item id="1200" text="Fuldskærms-udseende" tooltip=""/>
+			<item id="1239" text="Musemarkør:" tooltip=""/>
+			<item id="1530" text="Anvend præsentations-mode" tooltip=""/>
+		</dialog>
+		<dialog id="304" text="">
+			<item id="1038" text="Opløsning:" tooltip=""/>
+			<item id="1039" text="dpi" tooltip=""/>
+			<item id="1096" text="Anvend gråskala for skærmklip" tooltip=""/>
+			<item id="1200" text="Indstillinger for skærm-klip" tooltip=""/>
+			<item id="1201" text="Skærm-klip lyde" tooltip=""/>
+			<item id="1242" text="Anvend fast opløsning for skærm-klip:" tooltip=""/>
+			<item id="1244" text="Afspil ikke specielle skærm-klip lyde" tooltip=""/>
+		</dialog>
+		<dialog id="305" text="">
+			<item id="1" text="Ok" tooltip=""/>
+			<item id="2" text="Afbryd" tooltip=""/>
+		</dialog>
+		<dialog id="306" text="">
+			<item id="1038" text="Titlens tekst:" tooltip=""/>
+			<item id="1039" text="Stil:" tooltip=""/>
+			<item id="1040" text="Farve:" tooltip=""/>
+		</dialog>
+		<dialog id="307" text="">
+			<item id="1038" text="Du kan tilføje en ny handling eller redigere en eksisterende handlingsliste.  Du kan også omorganisere rækkefølgen af handlinger ved træk og slip." tooltip=""/>
+			<item id="1039" text="Vælg trigger" tooltip=""/>
+		</dialog>
+		<dialog id="308" text="">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Afbryd" tooltip=""/>
+			<item id="3" text="Anvend nuværende view" tooltip=""/>
+			<item id="4" text="Gennemse:" tooltip=""/>
+			<item id="5" text="Slet" tooltip=""/>
+			<item id="1038" text="Du kan angive en ny destination ved at vælge &apos;Brug nuværende opsætning&apos; knap nedenunder: " tooltip=""/>
+			<item id="1039" text="Filnavn:" tooltip=""/>
+			<item id="1040" text="Side:" tooltip=""/>
+			<item id="1041" text="X:" tooltip=""/>
+			<item id="1042" text="Y:" tooltip=""/>
+			<item id="1043" text="Bredde:" tooltip=""/>
+			<item id="1044" text="Højde:" tooltip=""/>
+			<item id="1045" text="Åbn i" tooltip=""/>
+			<item id="1066" text="Gennemse" tooltip=""/>
+			<item id="1067" text="Reparer" tooltip=""/>
+			<item id="1126" text="nedarv" tooltip=""/>
+			<item id="1127" text="nedarv" tooltip=""/>
+			<item id="1200" text="Indstillinger for destination:" tooltip=""/>
+			<item id="1252" text="Brug zoom-niveau:" tooltip=""/>
+			<item id="1253" text="Brug rektangel:" tooltip=""/>
+			<item id="1261" text="Måldokument" tooltip=""/>
+			<item id="1271" text="Ind" tooltip=""/>
+			<item id="1272" text="Ud" tooltip=""/>
+			<item id="1275" text="Brug nuværende opsætning" tooltip=""/>
+			<item id="1435" text="Brug sidenr." tooltip=""/>
+			<item id="1436" text="Brug anvendte destination" tooltip=""/>
+		</dialog>
+		<dialog id="309" text="">
+			<item id="1039" text="Navn:" tooltip=""/>
+			<item id="1041" text="Organisation:" tooltip=""/>
+			<item id="1043" text="E-mail adresse:" tooltip=""/>
+			<item id="1045" text="Registrerings nøgle:" tooltip=""/>
+			<item id="1200" text="Registreringsinformation" tooltip=""/>
+			<item id="1274" text="Skjul de fulde &apos;PRO&apos; funktioner i den gratis læser" tooltip=""/>
+			<item id="1282" text="Skjul reklame-knappen" tooltip=""/>
+		</dialog>
+		<dialog id="310" text="">
+			<item id="1038" text="Font:" tooltip=""/>
+			<item id="1044" text="Fontstørrelse:" tooltip=""/>
+			<item id="1200" text="Javascript" tooltip=""/>
+			<item id="1201" text="Javascript konsollen" tooltip=""/>
+			<item id="1276" text="Aktiver javascript handlinger" tooltip=""/>
+			<item id="1277" text="Aktiver javascript interaktive konsol" tooltip=""/>
+			<item id="1278" text="Vis konsollen ved fejl og beskeder" tooltip=""/>
+			<item id="1279" text="Vis advarsel når javascript handlinger udføres" tooltip=""/>
+		</dialog>
+		<dialog id="311" text="Gå til linie:">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Afbryd" tooltip=""/>
+			<item id="1038" text="Linie nummer:" tooltip=""/>
+		</dialog>
+		<dialog id="312" text="Beskær sider">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Afbryd" tooltip=""/>
+			<item id="1038" text="Anvendes på:" tooltip=""/>
+			<item id="1039" text="Angiv sidenumre og/eller side områder adskilt med kommaer startende fra starten af dokumentet.  For eksempel angiv 1, 3, 5-12" tooltip=""/>
+			<item id="1041" text="Boks:" tooltip=""/>
+			<item id="1042" text="Venstre:" tooltip=""/>
+			<item id="1043" text="Højre:" tooltip=""/>
+			<item id="1044" text="Top:" tooltip=""/>
+			<item id="1045" text="Bund:" tooltip=""/>
+			<item id="1046" text="Enheder:" tooltip=""/>
+			<item id="1126" text="Sæt til hvide margener" tooltip=""/>
+			<item id="1127" text="Fjern hvide mellemrum" tooltip=""/>
+			<item id="1129" text="Begrænsninger" tooltip=""/>
+			<item id="1164" text="Alle" tooltip=""/>
+			<item id="1165" text="Valgte sider" tooltip=""/>
+			<item id="1166" text="Nuværende side" tooltip=""/>
+			<item id="1167" text="Sider:" tooltip=""/>
+			<item id="1200" text="Sideområde" tooltip=""/>
+			<item id="1201" text="Beskræringsmargener" tooltip=""/>
+			<item id="1202" text="Margin kontroller" tooltip=""/>
+			<item id="1285" text="Vis alle bokse" tooltip=""/>
+			<item id="1290" text="Sæt til nul" tooltip=""/>
+			<item id="1291" text="Tilbagefør til originalen" tooltip=""/>
+		</dialog>
+		<dialog id="313" text="Indsæt sider">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Afbryd" tooltip=""/>
+			<item id="4" text="Gennemse:" tooltip=""/>
+			<item id="1038" text="Indsæt:" tooltip=""/>
+			<item id="1039" text="Angive side numre og/eller side områder adskilt af kommaer startende fra start af dokumentet.  For eksempel 1, 3, 5-12" tooltip=""/>
+			<item id="1042" text="Lokation:" tooltip=""/>
+			<item id="1164" text="Alle" tooltip=""/>
+			<item id="1167" text="Sider:" tooltip=""/>
+			<item id="1200" text="Kilde sideområde:" tooltip=""/>
+			<item id="1201" text="Kilde" tooltip=""/>
+			<item id="1202" text="Destination" tooltip=""/>
+			<item id="1292" text="Fra fil" tooltip=""/>
+			<item id="1293" text="Fra allerede åbent dokument" tooltip=""/>
+			<item id="1295" text="Første side" tooltip=""/>
+			<item id="1296" text="Sidste side" tooltip=""/>
+			<item id="1297" text="Side:" tooltip=""/>
+		</dialog>
+		<dialog id="314" text="Udtræk sider">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Afbryd" tooltip=""/>
+			<item id="4" text="Gennemse..." tooltip=""/>
+			<item id="6" text="Makroer" tooltip=""/>
+			<item id="1038" text="Anvendes på:" tooltip=""/>
+			<item id="1039" text="Angive side numre og/eller side områder adskilt af kommaer startende fra start af dokumentet.  For eksempel 1, 3, 5-12" tooltip=""/>
+			<item id="1041" text="Filnavn:" tooltip=""/>
+			<item id="1043" text="Destinationsmappe:" tooltip=""/>
+			<item id="1126" text="Udtræk siderne som separate filer" tooltip=""/>
+			<item id="1164" text="Alle" tooltip=""/>
+			<item id="1165" text="Valgte sider" tooltip=""/>
+			<item id="1166" text="Nuværende side" tooltip=""/>
+			<item id="1167" text="Sider:" tooltip=""/>
+			<item id="1200" text="Side område" tooltip=""/>
+			<item id="1201" text="Indstillinger" tooltip=""/>
+			<item id="1202" text="Gem som" tooltip=""/>
+			<item id="1299" text="Slet sider efter udtrækket" tooltip=""/>
+		</dialog>
+		<dialog id="315" text="">
+			<item id="1200" text="Kommentar indstillinger" tooltip=""/>
+			<item id="1201" text="Kommentarfunktioner" tooltip=""/>
+			<item id="1234" text="Værktøjstips" tooltip=""/>
+			<item id="1235" text="Vis emne under kommentarer" tooltip=""/>
+			<item id="1236" text="Vis forfatternavn  under kommentarer" tooltip=""/>
+			<item id="1237" text="Vis dato  under kommentarer" tooltip=""/>
+			<item id="1302" text="Kopier angivne tekst til kommentar pop-up" tooltip=""/>
+			<item id="1303" text="Kopier angivne tekst til fremhævet, gennemstreget og understreget kommentar pop-up" tooltip=""/>
+			<item id="1304" text="Sæt kommentarer ind" tooltip=""/>
+			<item id="1354" text="Vis tekst-indikatorer" tooltip=""/>
+			<item id="1507" text="Simpelt fokus" tooltip=""/>
+		</dialog>
+		<dialog id="316" text="Indsæt tomme sider">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Afbryd" tooltip=""/>
+			<item id="1039" text="Orientering:" tooltip=""/>
+			<item id="1040" text="x" tooltip=""/>
+			<item id="1041" text="Angtal:" tooltip=""/>
+			<item id="1042" text="Lokation:" tooltip=""/>
+			<item id="1200" text="Side størrelse" tooltip=""/>
+			<item id="1202" text="Destination" tooltip=""/>
+			<item id="1292" text="Standart:" tooltip=""/>
+			<item id="1293" text="Speciel:" tooltip=""/>
+			<item id="1295" text="Første side" tooltip=""/>
+			<item id="1296" text="Sidste side" tooltip=""/>
+			<item id="1297" text="Side:" tooltip=""/>
+			<item id="1304" text="Portræt" tooltip=""/>
+			<item id="1305" text="Landskab" tooltip=""/>
+		</dialog>
+		<dialog id="317" text="Omdøb stempel">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Afbryd" tooltip=""/>
+			<item id="1038" text="Angiv nyt navn for stemplet" tooltip=""/>
+		</dialog>
+		<dialog id="318" text="Indsæt stempel">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Afbryd" tooltip=""/>
+			<item id="4" text="Gennemse..." tooltip=""/>
+			<item id="1039" text="Fil:" tooltip=""/>
+			<item id="1041" text="Side:" tooltip=""/>
+			<item id="1042" text="Titel:" tooltip=""/>
+			<item id="1200" text="Kilde" tooltip=""/>
+			<item id="1201" text="Stempelinformation" tooltip=""/>
+		</dialog>
+		<dialog id="321" text="Tekst indstillinger">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Afbryd" tooltip=""/>
+			<item id="3" text="Anvend" tooltip=""/>
+		</dialog>
+		<dialog id="322" text="">
+			<item id="1313" text="Kopier til klippebordet" tooltip=""/>
+		</dialog>
+		<dialog id="324" text="Kommando indstillinger">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Afbryd" tooltip=""/>
+			<item id="1038" text="Billede:" tooltip=""/>
+			<item id="1039" text="Titel:" tooltip=""/>
+			<item id="1040" text="Boble-tekst:" tooltip=""/>
+			<item id="1041" text="Status-tekst:" tooltip=""/>
+			<item id="1042" text="Kort titel:" tooltip=""/>
+			<item id="1043" text="ID:" tooltip=""/>
+			<item id="1044" text="Navn:" tooltip=""/>
+			<item id="1126" text="Check af Java skript" tooltip=""/>
+			<item id="1127" text="Virksom af Java skript" tooltip=""/>
+			<item id="1198" text="Kommando handling:" tooltip=""/>
+			<item id="1200" text="Identifikation:" tooltip=""/>
+			<item id="1201" text="Genvej:" tooltip=""/>
+			<item id="1202" text="Bestem tilstand:" tooltip=""/>
+			<item id="1203" text="Navn (c) Adobe:" tooltip=""/>
+			<item id="1204" text="Taster:" tooltip=""/>
+			<item id="1205" text="Brug i:" tooltip=""/>
+			<item id="1206" text="Bruges af:" tooltip=""/>
+			<item id="1261" text="Udseende" tooltip=""/>
+			<item id="1292" text="Forudindstillet handling:" tooltip=""/>
+			<item id="1293" text="Udfør et Java skript" tooltip=""/>
+			<item id="1324" text="Rediger..." tooltip=""/>
+			<item id="1325" text="Rediger..." tooltip=""/>
+			<item id="1326" text="Rediger..." tooltip=""/>
+		</dialog>
+		<dialog id="325" text="">
+			<item id="1039" text="Tekst gamma:" tooltip=""/>
+			<item id="1076" text="Udglat tekst" tooltip=""/>
+			<item id="1077" text="Udglat linietegning" tooltip=""/>
+			<item id="1078" text="Udglat billeder" tooltip=""/>
+			<item id="1200" text="Text dannelse" tooltip=""/>
+			<item id="1202" text="Udglatning" tooltip=""/>
+		</dialog>
+		<dialog id="326" text="Ny knaplinie">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Afbryd" tooltip=""/>
+			<item id="1038" text="Knaplinie titel:" tooltip=""/>
+		</dialog>
+		<dialog id="327" text="Fladgør notater">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Afbryd" tooltip=""/>
+			<item id="1038" text="Udfør på:" tooltip=""/>
+			<item id="1039" text="Angiv side numre og/el side områder fra starten af dokumentet. F.eks 1, 3, 5-12." tooltip=""/>
+			<item id="1041" text="Ikke-printbare" tooltip=""/>
+			<item id="1042" text="Formular felter:" tooltip=""/>
+			<item id="1164" text="Alle" tooltip=""/>
+			<item id="1165" text="Valgte sider" tooltip=""/>
+			<item id="1166" text="Nuværende side" tooltip=""/>
+			<item id="1167" text="Sider:" tooltip=""/>
+			<item id="1200" text="Side område" tooltip=""/>
+			<item id="1201" text="Indstillinger" tooltip=""/>
+		</dialog>
+		<dialog id="328" text="Kommentarer - opsummering">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Annuller" tooltip=""/>
+			<item id="1038" text="Gruppér efter" tooltip=""/>
+			<item id="1040" text="Sortér efter" tooltip=""/>
+			<item id="1041" text="Type" tooltip=""/>
+			<item id="1126" text="Udelad svar" tooltip=""/>
+			<item id="1200" text="Sider" tooltip=""/>
+			<item id="1201" text="Output" tooltip=""/>
+			<item id="1202" text="Indstillinger" tooltip=""/>
+			<item id="1261" text="Generelt" tooltip=""/>
+			<item id="1330" text="Alle" tooltip=""/>
+			<item id="1331" text="De valgte sider" tooltip=""/>
+			<item id="1332" text="Nuværende side" tooltip=""/>
+			<item id="1333" text="Sider" tooltip=""/>
+			<item id="1335" text="Subset" tooltip=""/>
+			<item id="1341" text="Inkludér usynlige kommentarer" tooltip=""/>
+			<item id="1356" text="Vis nyt dokument efter det er dannet" tooltip=""/>
+			<item id="1387" text="Skriv sidenummer (fx 1) eller (2-7)" tooltip=""/>
+		</dialog>
+		<dialog id="329" text="">
+			<item id="1038" text="Layout" tooltip=""/>
+			<item id="1039" text="Papir" tooltip=""/>
+			<item id="1343" text="Avanceret" tooltip=""/>
+			<item id="1351" text="Placer hver gruppe på seperat side" tooltip=""/>
+			<item id="1352" text="Spring side over uden kommentarer" tooltip=""/>
+		</dialog>
+		<dialog id="332" text="">
+			<item id="4" text="Gennemse" tooltip=""/>
+			<item id="6" text="Macroer" tooltip=""/>
+			<item id="1038" text="Vælg destinationsmappe" tooltip=""/>
+			<item id="1039" text="Filnavn" tooltip=""/>
+		</dialog>
+		<dialog id="333" text="">
+			<item id="4" text="Gennemse" tooltip=""/>
+			<item id="6" text="Macroer" tooltip=""/>
+			<item id="1038" text="Destinationsmappe" tooltip=""/>
+			<item id="1039" text="Filnavn" tooltip=""/>
+			<item id="1041" text="Papir" tooltip=""/>
+			<item id="1351" text="Placer hver gruppe på seperat side" tooltip=""/>
+		</dialog>
+		<dialog id="335" text="">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Annullér" tooltip=""/>
+			<item id="1180" text="Avanceret" tooltip=""/>
+		</dialog>
+		<dialog id="336" text="">
+			<item id="1038" text="" tooltip=""/>
+		</dialog>
+		<dialog id="341" text="Nyt tomt dokument">
+			<item id="2" text="Annullér" tooltip=""/>
+			<item id="1040" text="X" tooltip=""/>
+			<item id="1200" text="Sider" tooltip=""/>
+			<item id="1292" text="Standard" tooltip=""/>
+			<item id="1293" text="Tilpasset" tooltip=""/>
+		</dialog>
+		<dialog id="342" text="">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Annullér" tooltip=""/>
+			<item id="1038" text="Skriv webadresse" tooltip=""/>
+		</dialog>
+		<dialog id="344" text="Indstillinger">
+			<item id="2" text="Annullér" tooltip=""/>
+		</dialog>
+		<dialog id="353" text="Indstillinger">
+			<item id="2" text="Annullér" tooltip=""/>
+		</dialog>
+		<dialog id="366" text="Skriv dokument-password">
+			<item id="2" text="Annullér" tooltip=""/>
+		</dialog>
+		<dialog id="369" text="Indstillinger">
+		</dialog>
+		<dialog id="371" text="">
+			<item id="1038" text="Forfatter" tooltip=""/>
+			<item id="1039" text="Emne" tooltip=""/>
+			<item id="1040" text="Oprettet" tooltip=""/>
+			<item id="1041" text="Ændret" tooltip=""/>
+		</dialog>
+		<dialog id="389" text="">
+			<item id="1038" text="Du har følgende søgemaskiner installeret" tooltip=""/>
+			<item id="1443" text="Flyt op" tooltip=""/>
+			<item id="1444" text="Flyt ned" tooltip=""/>
+			<item id="1445" text="Fjern" tooltip=""/>
+			<item id="1446" text="Tilføj ny" tooltip=""/>
+			<item id="1510" text="Fjern alle søgemaskiner" tooltip=""/>
+		</dialog>
+		<dialog id="398" text="Password">
+			<item id="2" text="Annullér" tooltip=""/>
+			<item id="1038" text="Skriv password" tooltip=""/>
+		</dialog>
+		<dialog id="406" text="">
+			<item id="1" text="OK" tooltip=""/>
+		</dialog>
+	</dialogs>
+	<strings count="1137">
+		<item id="0" text="Med uret 90 grader"/>
+		<item id="1" text="Mod uret 90 grader"/>
+		<item id="2" text="180 grader"/>
+		<item id="3" text="Alle sider"/>
+		<item id="4" text="Kun lige sider"/>
+		<item id="5" text="Kun ulige sider"/>
+		<item id="6" text="Sider med vilkårlig orientering"/>
+		<item id="7" text="Portræt"/>
+		<item id="8" text="Landskab"/>
+		<item id="9" text="Standard navn"/>
+		<item id="10" text="Lokal navn"/>
+		<item id="11" text="Generel"/>
+		<item id="12" text="Generelle indstillinger"/>
+		<item id="13" text="Farvestyring"/>
+		<item id="14" text="Indstillinger for farvestyring"/>
+		<item id="15" text="Side visning"/>
+		<item id="16" text="Indstillinger for side visning"/>
+		<item id="17" text="Ydeevne"/>
+		<item id="18" text="Indstillinger for ydeevne"/>
+		<item id="19" text="Mål"/>
+		<item id="20" text="Indstillinger for enheder, net og linealer"/>
+		<item id="21" text="Identitet"/>
+		<item id="22" text="Indstillinger for indentitet"/>
+		<item id="23" text="Sprog"/>
+		<item id="24" text="Vælg programmets sprog"/>
+		<item id="25" text="Fil associeringer"/>
+		<item id="26" text="Indstil fil associeringer"/>
+		<item id="27" text="Kategorier"/>
+		<item id="28" text="Indstillinger..."/>
+		<item id="29" text="Dokument indstillinger..."/>
+		<item id="30" text="Indstillinger for Post-It"/>
+		<item id="31" text="Fuld gemning eller inkremental gemning for digital signeret dokument"/>
+		<item id="32" text="Altid fuld gemning"/>
+		<item id="33" text="Altid inkremental gemning"/>
+		<item id="34" text="Gem for hurtig web-visning"/>
+		<item id="35" text="Automatisk"/>
+		<item id="36" text="Kun siden"/>
+		<item id="37" text="Bogmærke panel og side"/>
+		<item id="38" text="Miniature panel og side"/>
+		<item id="39" text="Sidst brugte skærmopsætning"/>
+		<item id="40" text="Enkelt side"/>
+		<item id="41" text="Kontinuerligt"/>
+		<item id="42" text="Modsatte"/>
+		<item id="43" text="Kontinuerligt - modsatte"/>
+		<item id="44" text="Aktuelle side"/>
+		<item id="45" text="Tilpas til siden"/>
+		<item id="46" text="Tilpas til bredden"/>
+		<item id="47" text="Tilpas til synlige"/>
+		<item id="48" text="Fysisk hukommelse (RAM): %1 totalt, %2 kan maximalt bruges"/>
+		<item id="49" text="Fysisk hukommelse (RAM): %1 totalt"/>
+		<item id="50" text="Systemet indeholder %1 CPU"/>
+		<item id="51" text="cm"/>
+		<item id="52" text="centimeter"/>
+		<item id="53" text="centimetre"/>
+		<item id="54" text="tomme"/>
+		<item id="55" text="tomme"/>
+		<item id="56" text="tommer"/>
+		<item id="57" text="mm"/>
+		<item id="58" text="milimeter"/>
+		<item id="59" text="millimetre"/>
+		<item id="60" text="p"/>
+		<item id="61" text="pice"/>
+		<item id="62" text="picas"/>
+		<item id="63" text="pt"/>
+		<item id="64" text="punkter"/>
+		<item id="65" text="punkter"/>
+		<item id="66" text="Starte &apos;%1&apos;"/>
+		<item id="67" text="Der findes ingen alternative PDF-læsere"/>
+		<item id="68" text="(total %1 sider)"/>
+		<item id="69" text="Dokument &quot;%1&quot; er kodeords-beskyttet"/>
+		<item id="70" text="Alle sider i området"/>
+		<item id="71" text="Ulige sider"/>
+		<item id="72" text="Lige sider"/>
+		<item id="73" text="Ingen"/>
+		<item id="74" text="Tilpas til printer margin"/>
+		<item id="75" text="Reducer til printer margin"/>
+		<item id="76" text="Opdel store sider"/>
+		<item id="77" text="Opdel alle sider"/>
+		<item id="78" text="Flere sider pr. ark"/>
+		<item id="79" text="Placer alle sider i een fler-sidet billedfil"/>
+		<item id="80" text="Placer hver side-område til individuel fler-sidet billedfil"/>
+		<item id="81" text="Placer hver side i individuel billed-fil"/>
+		<item id="82" text="Mappen &quot;%1&quot; indeholder allerede filen &quot;%2&quot;"/>
+		<item id="83" text="Størrelse: %1&#10;Rettet: %2"/>
+		<item id="84" text="Kunne ikke skrive filen &quot;%1&quot;"/>
+		<item id="85" text="OK"/>
+		<item id="86" text="Afbryd"/>
+		<item id="87" text="Ja"/>
+		<item id="88" text="Nej"/>
+		<item id="89" text="Afbryd"/>
+		<item id="90" text="Prøv igen"/>
+		<item id="91" text="Ignorer"/>
+		<item id="92" text="Prøv"/>
+		<item id="93" text="Fortsæt"/>
+		<item id="94" text="Ja til alle"/>
+		<item id="95" text="Nej til alle"/>
+		<item id="96" text="Kunne ikke danne destinationsmappen &quot;%1&quot;:"/>
+		<item id="97" text="Dokumentet &quot;%1&quot; er ændret.&#10;&#10;Ønsker du at gemme ændringerne inden du lukker?"/>
+		<item id="98" text="Dokumenter &quot;%1&quot; indeholder digital signatur.&#10;Digital signatur tabes ved en komplet gemning af dokumentet.&#10;Inkremental gemning kan anvendes til dette, men vil somme tider forøge filstørrelsen.&#10;&#10;Ønsker du at anvende inkremental gemning ?"/>
+		<item id="99" text="Oversigt: %1 valgt af %2 sider"/>
+		<item id="100" text="Fejl ved udskrivning af dokument &quot;%1&quot;:&#10;%2"/>
+		<item id="101" text="Navn"/>
+		<item id="102" text="Ikke tilstede"/>
+		<item id="103" text="Klar"/>
+		<item id="104" text="Offline"/>
+		<item id="105" text="Åbner..."/>
+		<item id="106" text="Papir: %1"/>
+		<item id="107" text="Ark: %1"/>
+		<item id="108" text="Side: %1"/>
+		<item id="109" text="Sider: %1, %2,..."/>
+		<item id="110" text="&lt;i aktive dokument (%1)&gt;"/>
+		<item id="111" text="&lt;Gennemse...&gt;"/>
+		<item id="112" text="&lt;Avanceret...&gt;"/>
+		<item id="113" text="Stop søgning"/>
+		<item id="114" text="Søg nu"/>
+		<item id="115" text="Gemmer billed-fil:  &quot;%1&quot;..."/>
+		<item id="116" text="Danner billede...."/>
+		<item id="117" text="Eksporterer til billede..."/>
+		<item id="118" text="Behandler side: %1...  "/>
+		<item id="119" text="Udskriver..."/>
+		<item id="120" text="Udskriver ark: %1..."/>
+		<item id="121" text="Udskriver side: %1..."/>
+		<item id="122" text="Stopper..."/>
+		<item id="123" text="Forbereder..."/>
+		<item id="124" text="Finder &quot;%1&quot;..."/>
+		<item id="125" text="Søge oversigt: %1 dokumenter, %2 x fundet"/>
+		<item id="126" text="afbrudt"/>
+		<item id="127" text="&quot;%1&quot;: åbner..."/>
+		<item id="128" text="&quot;%1&quot;: side nr. %2..."/>
+		<item id="129" text="Side nr. %1..."/>
+		<item id="130" text="Kunne ikke finde system-ressourcer til at åbne &quot;%1&quot; dokument:&#10;&quot;Too many user/gdi objects&quot; bruges af andre programmer.&#10;&#10;Prøv at frigøre resossourcer ved at lukke andre programmer el. dokumenter og prøv så igen."/>
+		<item id="131" text="Fejl ved gemning af dokument til &quot;%1&quot;:&#10;%2"/>
+		<item id="132" text="Fejl ved åbning af dokument &quot;%1&quot;:&#10;%2"/>
+		<item id="133" text="Fejl ved åbning af dokument: &#10;%1"/>
+		<item id="134" text="Ønsker du virkelig at slette %1 kommentar(er)?"/>
+		<item id="135" text="%1: Kommentar-sletning"/>
+		<item id="136" text="Slet fremover uden bekræftelser "/>
+		<item id="137" text="Sæt dette program som standard PDF-læser?"/>
+		<item id="138" text="Sæt dette program som standard PDF-læser og brug det til at vise PDF i browseren?"/>
+		<item id="139" text="Ønsker du at tillade dette program at vise PDF i browseren?"/>
+		<item id="140" text="Spørg ikke om dette fremover"/>
+		<item id="141" text="Kunne ikke åbne &quot;%1&quot;:&#10;%2"/>
+		<item id="142" text="Stien eksisterer ikke"/>
+		<item id="143" text="Kunne ikke udføre handling &quot;%1&quot; for &quot;%2&quot;:&#10;%3"/>
+		<item id="144" text="Programmet forsøget at åbne hjemmesiden:&#10;&quot;%1&quot;&#10;&#10;Har du tillid til denne side?"/>
+		<item id="145" text="%1: Advarsel mod hjemmesideåbning"/>
+		<item id="146" text="Husk mit valg for denne hjemmeside"/>
+		<item id="147" text="Programmet &quot;%1&quot; er ved at blive åbnet af denne PDF-fil.&#10;Filen kan indeholde programmer, makroer eller virus der kan være skadelig.&#10;&#10;Du skal kun åbne denne fil hvis du har tillid til den."/>
+		<item id="148" text="Starter: %1 "/>
+		<item id="149" text="Vis ikke denne besked igen."/>
+		<item id="150" text="Side %1"/>
+		<item id="151" text="Menu"/>
+		<item id="152" text="Fil"/>
+		<item id="153" text="Standard"/>
+		<item id="154" text="Zoom"/>
+		<item id="155" text="Roter skærm"/>
+		<item id="156" text="Find"/>
+		<item id="157" text="Kommenter og mærk"/>
+		<item id="158" text="Egenskaber"/>
+		<item id="159" text="Egenskaber for værktøjet pil"/>
+		<item id="160" text="Egenskaber for værktøjet linier"/>
+		<item id="161" text="Egenskaber for værktøjet firkanter"/>
+		<item id="162" text="Egenskaber for værktøjet ovaler"/>
+		<item id="163" text="Egenskaber for værktøjet polygoner"/>
+		<item id="164" text="Egenskaber for værktøjet polylinier"/>
+		<item id="165" text="Egenskaber for værktøjet blyant"/>
+		<item id="166" text="Egenskaber for værktøjet sky"/>
+		<item id="167" text="Egenskaber for værktøjet stempel"/>
+		<item id="168" text="Egenskaber for værktøjet skrivemaskine"/>
+		<item id="169" text="Egenskaber for værktøjet tekst-box"/>
+		<item id="170" text="Egenskaber for værktøjet bobler"/>
+		<item id="171" text="Egenskaber for værktøjet Kommentar"/>
+		<item id="172" text="Egenskaber for værktøjet fremhævet tekst"/>
+		<item id="173" text="Egenskaber for værktøjet understregning"/>
+		<item id="174" text="Egenskaber for værktøjet overskrivning"/>
+		<item id="175" text="Egenskaber for værktøjet udskiftning"/>
+		<item id="176" text="Egenskaber for værktøjet pil"/>
+		<item id="177" text="Linie egenskaber"/>
+		<item id="178" text="Firkant egenskaber"/>
+		<item id="179" text="Oval egenskaber"/>
+		<item id="180" text="Polygon egenskaber"/>
+		<item id="181" text="Polylinie egenskaber"/>
+		<item id="182" text="Blyant egneskaber"/>
+		<item id="183" text="Sky egenskaber"/>
+		<item id="184" text="Stempel egenskaber"/>
+		<item id="185" text="Skrivemaskine egenskaber"/>
+		<item id="186" text="Tekst-box egenskaber"/>
+		<item id="187" text="Boble egenskaber"/>
+		<item id="188" text="Post-It egenskaber"/>
+		<item id="189" text="Fremhævet tekst egenskaber"/>
+		<item id="190" text="Understreget tekst egenskaber"/>
+		<item id="191" text="Overskrevet tekst egenskaber"/>
+		<item id="192" text="Udskift tekst egenskaber"/>
+		<item id="193" text="Pil"/>
+		<item id="194" text="Linie"/>
+		<item id="195" text="Firkant"/>
+		<item id="196" text="Oval"/>
+		<item id="197" text="Polygon"/>
+		<item id="198" text="Polylinie"/>
+		<item id="199" text="Blyant"/>
+		<item id="200" text="Sky"/>
+		<item id="201" text="Stempel"/>
+		<item id="202" text="Mærke"/>
+		<item id="203" text="Tekst-box"/>
+		<item id="204" text="Kommentar"/>
+		<item id="205" text="Fremhævet"/>
+		<item id="206" text="Understreget"/>
+		<item id="207" text="Overskrevet"/>
+		<item id="208" text="Vedhæftet fil"/>
+		<item id="209" text="Lyd"/>
+		<item id="210" text="Tekst formatering"/>
+		<item id="211" text="Uden udfyldning"/>
+		<item id="212" text="Uden streg"/>
+		<item id="213" text="Flere farver..."/>
+		<item id="214" text="Ubeslutsom"/>
+		<item id="215" text="Udefineret"/>
+		<item id="216" text="Farve"/>
+		<item id="217" text="Egenskaber..."/>
+		<item id="218" text="Ikke genkendt"/>
+		<item id="219" text="Ukendt"/>
+		<item id="220" text="Ingen"/>
+		<item id="221" text="Uden titel"/>
+		<item id="222" text="Udseende"/>
+		<item id="223" text="Indstillinger for udseende"/>
+		<item id="224" text="Beskrivelse"/>
+		<item id="225" text="Beskrivelse info"/>
+		<item id="226" text="Skrifttype"/>
+		<item id="227" text="Skrifttype brugt i dette dokument"/>
+		<item id="228" text="Sikkerhed"/>
+		<item id="229" text="Dokument sikkerhed og restriktioner"/>
+		<item id="230" text="Password sikkerhed"/>
+		<item id="231" text="Ikke tilladt"/>
+		<item id="232" text="Lav opløsning"/>
+		<item id="233" text="Høj opløsning"/>
+		<item id="234" text="Tilladt"/>
+		<item id="235" text="Indlæser ressourcer..."/>
+		<item id="236" text="Initialiserer..."/>
+		<item id="237" text="Ingen"/>
+		<item id="238" text="Kvadrat"/>
+		<item id="239" text="Cirkel"/>
+		<item id="240" text="Diamand"/>
+		<item id="241" text="Åben pil"/>
+		<item id="242" text="Lukket pil"/>
+		<item id="243" text="&quot;Butt&quot;"/>
+		<item id="244" text="Åben pil (modsat)"/>
+		<item id="245" text="Lukket pil (modsat)"/>
+		<item id="246" text="Skråstreg"/>
+		<item id="247" text="Bogmærker"/>
+		<item id="248" text="Sider"/>
+		<item id="249" text="Felter"/>
+		<item id="250" text="Lag"/>
+		<item id="251" text="Kommentar"/>
+		<item id="252" text="Luk dette faneblad"/>
+		<item id="253" text="Fundet %1 skrifttyper"/>
+		<item id="254" text="af %1"/>
+		<item id="255" text="%1&#10;Titel: %2&#10;Forfatter: %3&#10;Emne: %4&#10;Nøgleord: %5&#10;Sider: %6"/>
+		<item id="256" text="Side nr. %1"/>
+		<item id="257" text="Side nr. %1:&#10;%2"/>
+		<item id="258" text="Søg PDF"/>
+		<item id="259" text="Dokument"/>
+		<item id="260" text="Dokument og annoteringer"/>
+		<item id="261" text="Dokument og stempler"/>
+		<item id="262" text="Kun data fra formularfelter"/>
+		<item id="263" text="Flytte og zoome"/>
+		<item id="264" text="Zoom vindue"/>
+		<item id="265" text="Bekræft gemning af dokument"/>
+		<item id="266" text="Bekræft inkremental gemning af dokument"/>
+		<item id="267" text="Generelle oplysninger"/>
+		<item id="268" text="Navn"/>
+		<item id="269" text="Type"/>
+		<item id="270" text="Mappe"/>
+		<item id="271" text="Sti"/>
+		<item id="272" text="Filstørrelse"/>
+		<item id="273" text="%1 byte"/>
+		<item id="274" text="Redigeret"/>
+		<item id="275" text="PDF information"/>
+		<item id="276" text="PDF version"/>
+		<item id="277" text="Sider"/>
+		<item id="278" text="Titel"/>
+		<item id="279" text="Emne"/>
+		<item id="280" text="Forfatter"/>
+		<item id="281" text="Nøgleord"/>
+		<item id="282" text="Dannet af"/>
+		<item id="283" text="Producent"/>
+		<item id="284" text="Krypteringsinformation"/>
+		<item id="285" text="%1-bit AES"/>
+		<item id="286" text="%1-bit RC4"/>
+		<item id="287" text="Niveau"/>
+		<item id="288" text="Alt tilladt"/>
+		<item id="289" text="Udskrive"/>
+		<item id="290" text="Ret i dokument"/>
+		<item id="291" text="Kopiere eller udtrække indhold"/>
+		<item id="292" text="Kommentar og formular felter"/>
+		<item id="293" text="Formular udfyldning el. signere"/>
+		<item id="294" text="Indhold tilgængelighed"/>
+		<item id="295" text="Dokumentsamling"/>
+		<item id="296" text="Åbner dokument, vent venligst..."/>
+		<item id="297" text="Åbner &quot;%1&quot;..."/>
+		<item id="298" text="Downloader &quot;%1&quot;..."/>
+		<item id="299" text="Downloader %1 af %2"/>
+		<item id="300" text="Gemmer dokumentet, vent venligst..."/>
+		<item id="301" text="Gemmer til &quot;%1&quot;..."/>
+		<item id="302" text="Udfører ændringerne..."/>
+		<item id="303" text="Forbereder skrivning af dokument..."/>
+		<item id="304" text="Skriver dokument..."/>
+		<item id="305" text="Henter sider..."/>
+		<item id="306" text="Indhenter side-information..."/>
+		<item id="307" text="Indhenter annoteringer..."/>
+		<item id="308" text="Vælg destinationsmappe for nye billeder:"/>
+		<item id="309" text="Vælg destinationsmappe for downloadede filer:"/>
+		<item id="310" text="Vælg mappe for søge-dokument(er):"/>
+		<item id="311" text="Grafik"/>
+		<item id="312" text="Papirclip"/>
+		<item id="313" text="Bilag"/>
+		<item id="314" text="Mærke"/>
+		<item id="315" text="Øre"/>
+		<item id="316" text="Mikrofon"/>
+		<item id="317" text="Lyd"/>
+		<item id="318" text="Checkmærke"/>
+		<item id="319" text="Cirkel"/>
+		<item id="320" text="Kommentar"/>
+		<item id="321" text="Kryds"/>
+		<item id="322" text="Hjælp"/>
+		<item id="323" text="Indsæt tekst"/>
+		<item id="324" text="Nøgle"/>
+		<item id="325" text="Nyt afsnit"/>
+		<item id="326" text="Tekstnote"/>
+		<item id="327" text="Sætning"/>
+		<item id="328" text="Højre-pil"/>
+		<item id="329" text="Højre-pil"/>
+		<item id="330" text="Stjerne"/>
+		<item id="331" text="Pil-op"/>
+		<item id="332" text="Pil-op til venstre"/>
+		<item id="333" text="Kommentar"/>
+		<item id="334" text="Fremhævet"/>
+		<item id="335" text="Kommentar til teksten"/>
+		<item id="336" text="Understreget"/>
+		<item id="337" text="Streget ud"/>
+		<item id="338" text="Tekstudskiftning"/>
+		<item id="339" text="Boble"/>
+		<item id="340" text="Tekst-box"/>
+		<item id="341" text="Skrivemaskine"/>
+		<item id="342" text="Pil"/>
+		<item id="343" text="Linie"/>
+		<item id="344" text="Firkant"/>
+		<item id="345" text="Oval"/>
+		<item id="346" text="Sky"/>
+		<item id="347" text="Polygonal linie"/>
+		<item id="348" text="Mangekant"/>
+		<item id="349" text="Blyant"/>
+		<item id="350" text="Side: %1 af %2"/>
+		<item id="351" text="Zoom: %1"/>
+		<item id="352" text="Ønsker du at slette listen over sidst åbne dokumenter?"/>
+		<item id="353" text="SIKRET"/>
+		<item id="354" text="Åben"/>
+		<item id="355" text="Gem"/>
+		<item id="356" text="Gem som"/>
+		<item id="357" text="Gem kopi som"/>
+		<item id="358" text="Print til fil"/>
+		<item id="359" text="Tilgængelighed"/>
+		<item id="360" text="Indstillingen for tilgængelighed"/>
+		<item id="361" text="Grøn tekst på sort"/>
+		<item id="362" text="Gul tekst på sort"/>
+		<item id="363" text="Hvid tekst på sort"/>
+		<item id="364" text="Sort tekst på hvid"/>
+		<item id="365" text="Fuldskærm"/>
+		<item id="366" text="Indstillinger for fuldskærm"/>
+		<item id="367" text="Skjult efter forsinkelse"/>
+		<item id="368" text="Altid synlig"/>
+		<item id="369" text="Altid skjult"/>
+		<item id="370" text="Skærmklip værktøj"/>
+		<item id="371" text="Indstillinger for skærmklip værktøj"/>
+		<item id="372" text="Dokumentet &quot;%1&quot; er ødelagt.&#10;&#10;Problemer blev detekteret af programmet:&#10;%2&#10;&#10;Det anbefales at gemme dokumentet igen."/>
+		<item id="373" text="Et eller flere XREF blokke blev ikke fundet."/>
+		<item id="374" text="Fandt fejl i XREF tabellen."/>
+		<item id="375" text="Reference til objekt var ikke beskrevet i nogen XREF blokke."/>
+		<item id="376" text="Fejl under indlæsning af objekt:  ugyldig objekt struktur."/>
+		<item id="377" text="Fejl under indlæsning af objekt:  skæv struktur."/>
+		<item id="378" text="Ugyldig ObjStream."/>
+		<item id="379" text="Krævet værdi fandtes ikke i sidste trailer."/>
+		<item id="380" text="Krævet værdi fandtes ikke i trailere."/>
+		<item id="381" text="Objektet var ikke beskrevet i denne eller forrige blok, men i beskrivelsen fundet i næste blokke."/>
+		<item id="382" text="Kilde dokumentet &quot;%1&quot; er ødelagt.&#10;Programmet kan ikke bruge inkremental gemning for dokumentet.&#10;Ønsker du at anvende fuld gemning (advarsel: evt. digital signatur i dokumentet vil blive ødelagt) ?"/>
+		<item id="383" text="Umærkede"/>
+		<item id="384" text="Anonym"/>
+		<item id="385" text="&lt;Ukendt forfatter&gt; (%1)"/>
+		<item id="386" text="&lt;Ukendt dato&gt; (%1)"/>
+		<item id="387" text="Side %1 (%2)"/>
+		<item id="388" text="%1 (%2)"/>
+		<item id="389" text="Ugyldig værdi: skal være større end eller lig med %s."/>
+		<item id="390" text="Ugyldig værdi: skal være større end eller lig med %s og mindre end eller lig med %s."/>
+		<item id="391" text="Ugyldig værdi: skal være mindre end eller lig med %s."/>
+		<item id="392" text="** Ugyldig **"/>
+		<item id="393" text="Ugyldig dato/tid: vær sikker på, at dato/tid eksisterer.  Feltet %field% skal matche formatet %format%"/>
+		<item id="394" text="Den indtastede værdi matcher ikke formatet af felt %s."/>
+		<item id="395" text="morgen"/>
+		<item id="396" text="aften"/>
+		<item id="397" text="Ønsker du virkelig at slette %1 bogmærke(r) og alle undermærker?"/>
+		<item id="398" text="Ønsker du virkelig at slette %1 bogmærke(r) ?"/>
+		<item id="399" text="%1: Bogmærke(r) slettes"/>
+		<item id="400" text="Slet uden bekræftelse i fremtiden"/>
+		<item id="401" text="Bogmærke egenskaber"/>
+		<item id="402" text="Flere bogmærke egenskaber"/>
+		<item id="403" text="Handlinger"/>
+		<item id="404" text="Liste over handlinger"/>
+		<item id="405" text="Normal"/>
+		<item id="406" text="Fremhævet"/>
+		<item id="407" text="Skråskrift"/>
+		<item id="408" text="Fremhævet og skråskrift"/>
+		<item id="409" text="Ukendt handling"/>
+		<item id="410" text="Gå til en side i dette dokument"/>
+		<item id="411" text="Gå til en side i et andet dokument"/>
+		<item id="412" text="Gå tilæ en side i et indlejret dokument"/>
+		<item id="413" text="Åben en fil"/>
+		<item id="414" text="Læs en artikel"/>
+		<item id="415" text="Åben en web-side"/>
+		<item id="416" text="Spil en lyd"/>
+		<item id="417" text="Spil en film"/>
+		<item id="418" text="Vis/skjul felter og kommentarer"/>
+		<item id="419" text="Udfør en navngiven kommando"/>
+		<item id="420" text="Indsend en formular"/>
+		<item id="421" text="Nulstil en formular"/>
+		<item id="422" text="Inforter formular data"/>
+		<item id="423" text="Kør et JavaScript"/>
+		<item id="424" text="Set lag-synlighed"/>
+		<item id="425" text="Multimedia kontrol"/>
+		<item id="426" text="Sideopdatering og overgang"/>
+		<item id="427" text="Gå til en 3D visning"/>
+		<item id="428" text="Zoom"/>
+		<item id="429" text="Arv"/>
+		<item id="430" text="Bredde"/>
+		<item id="431" text="Højde"/>
+		<item id="432" text="Tilpas højde"/>
+		<item id="433" text="Tilpas synlig bredde"/>
+		<item id="434" text="Tilpas synlig højde"/>
+		<item id="435" text="Fil"/>
+		<item id="436" text="Operation"/>
+		<item id="437" text="Parameter"/>
+		<item id="438" text="Du kan ikke slette alle sider i dokumentet.  Mindst een side skal forblive."/>
+		<item id="439" text="Er du sikker på, at du vil slette %1 side(r) fra dokumentet?"/>
+		<item id="440" text="%1: side(r) slettes"/>
+		<item id="441" text="Ny handling"/>
+		<item id="442" text="Rediger handling"/>
+		<item id="443" text="Ønsker du virkelig at slette %1 handling(er) ?"/>
+		<item id="444" text="%1: handling(er) slettes"/>
+		<item id="445" text="Slet uden bekræftelse i fremtiden"/>
+		<item id="446" text="JavaScript"/>
+		<item id="447" text="JavaScript indstillinger"/>
+		<item id="448" text="Registrering"/>
+		<item id="449" text="Registreringsparametre"/>
+		<item id="450" text="Ln: %1"/>
+		<item id="451" text="Ln: %2"/>
+		<item id="452" text="INS"/>
+		<item id="453" text="OVR"/>
+		<item id="454" text="Dette dokument indeholder HavaScript.  Ønsker du at aktivere JavaScript handlinger.  Dokumentet vil muligvis ikke fungere korrekt uden JavaScript ?"/>
+		<item id="455" text="Undertryk denne meddelelse - indtil dokumentet åbnes igen."/>
+		<item id="456" text="JavaScript: %1"/>
+		<item id="457" text="Viewer PRO funktionalitet - kræver licens.  Se nærmere i hjælpen"/>
+		<item id="458" text="Tilpasset skala"/>
+		<item id="459" text="&apos;PRO&apos; advarsel"/>
+		<item id="460" text="Dette er en feature fra PDF-XChange Viewer Pro.&#10;Du kan anvende den i den gratis viewer, men hvis du gemmer dokumentet vil dette blive mærket &apos;DEMO!&apos;.&#10;For at undgå det må du opgradere til PRO-versionen."/>
+		<item id="461" text="Er du sikker på, at du vil flytte %1 side(r)?"/>
+		<item id="462" text="%1: sider flyttes"/>
+		<item id="463" text="Filer"/>
+		<item id="464" text="Rediger"/>
+		<item id="465" text="Gennemse"/>
+		<item id="466" text="Dokument"/>
+		<item id="467" text="Værktøjer"/>
+		<item id="468" text="Vindue"/>
+		<item id="469" text="Hjælp"/>
+		<item id="470" text="Bruger"/>
+		<item id="471" text="Beskærboks"/>
+		<item id="472" text="Bleed boks"/>
+		<item id="473" text="Trim boks"/>
+		<item id="474" text="Kunst boks"/>
+		<item id="475" text="Beskåren side-størrelse: %1"/>
+		<item id="476" text="Bleed boks størrelse: %1"/>
+		<item id="477" text="Trim biks størrelse: %1"/>
+		<item id="478" text="Kunst boks størrelse: %1"/>
+		<item id="479" text="Ugyldig visning"/>
+		<item id="480" text="Indlæser visning-info, vent venligst..."/>
+		<item id="481" text="Krypteret"/>
+		<item id="482" text="Dokumentet &quot;%1&quot; er beskyttet.  Du har ikke tilladelse til denne handling."/>
+		<item id="483" text="%1: indsæt side(r)"/>
+		<item id="484" text="Lås dette dokument til listen over sidste dokumenter (fjernes ikke når antallet overskrides)"/>
+		<item id="485" text="Frigiv låsning til tilsten over sidste dokumenter (fjernes når antallet overskrides)"/>
+		<item id="486" text="Sidst anvendte fonte"/>
+		<item id="487" text="Alle fonte"/>
+		<item id="488" text="Zoom niveauer"/>
+		<item id="489" text="Zoom tilstande"/>
+		<item id="490" text="Før"/>
+		<item id="491" text="Efter"/>
+		<item id="492" text="Standard farver"/>
+		<item id="493" text="Tilpassede farver"/>
+		<item id="494" text="Sort"/>
+		<item id="495" text="Brun"/>
+		<item id="496" text="Mørk olivengrøn"/>
+		<item id="497" text="Mørkegrøn"/>
+		<item id="498" text="Mørk teal"/>
+		<item id="499" text="Mørkeblå"/>
+		<item id="500" text="Indigo"/>
+		<item id="501" text="Mørkegrå"/>
+		<item id="502" text="Mørkerød"/>
+		<item id="503" text="Orange"/>
+		<item id="504" text="Mørkegul"/>
+		<item id="505" text="Grøn"/>
+		<item id="506" text="Teal"/>
+		<item id="507" text="Blå"/>
+		<item id="508" text="Blågrå"/>
+		<item id="509" text="Grå - 40%"/>
+		<item id="510" text="Rød"/>
+		<item id="511" text="Lysorange"/>
+		<item id="512" text="Lime"/>
+		<item id="513" text="Søgrøn"/>
+		<item id="514" text="Aqua"/>
+		<item id="515" text="Lyseblå"/>
+		<item id="516" text="Violet"/>
+		<item id="517" text="Grå - 50%"/>
+		<item id="518" text="Pink"/>
+		<item id="519" text="Gylden"/>
+		<item id="520" text="Gul"/>
+		<item id="521" text="Klar grøn"/>
+		<item id="522" text="Tyrkis"/>
+		<item id="523" text="Himmelblå"/>
+		<item id="524" text="Bolomme"/>
+		<item id="525" text="Lysegrå"/>
+		<item id="526" text="Rosa"/>
+		<item id="527" text="Solbrændt"/>
+		<item id="528" text="Lysegul"/>
+		<item id="529" text="Bleggrøn"/>
+		<item id="530" text="Blegtyrkis"/>
+		<item id="531" text="Blegblå"/>
+		<item id="532" text="Lavendel"/>
+		<item id="533" text="Hvid"/>
+		<item id="534" text="Kommentarer"/>
+		<item id="535" text="Kommen tarindstillinger"/>
+		<item id="536" text="Sletter sider, vent venligst..."/>
+		<item id="537" text="Flytter sider, vent venligst..."/>
+		<item id="538" text="Vender sider, vent venligst..."/>
+		<item id="539" text="Udtrækker sider, vent venligst..."/>
+		<item id="540" text="Er du sikker på, at du vil kopiere %1 side(r) ?"/>
+		<item id="541" text="%1: side(r) kopieres"/>
+		<item id="542" text="Indstillinger for viskelæder"/>
+		<item id="543" text="Stempelpaletten"/>
+		<item id="544" text="Nyt stempel"/>
+		<item id="545" text="Ny samling"/>
+		<item id="546" text="Denne samling indeholder stempler.  Er du sikker på, at du vil slette den?"/>
+		<item id="547" text="%1: stempelsamling slettes"/>
+		<item id="548" text="Nulstil listen over sidste dokumenter"/>
+		<item id="549" text="Ønsker du at fjerne alle dokumenter fra &apos;sidste dokumenter&apos;"/>
+		<item id="550" text="Ja til alle der ikke er låst"/>
+		<item id="551" text="Tekst indstillinger"/>
+		<item id="552" text="Indhold"/>
+		<item id="553" text="Tekst indhold:  ren tekst"/>
+		<item id="554" text="Formattering"/>
+		<item id="555" text="Tekst formatering: font, skalering, stil etc."/>
+		<item id="556" text="Skrifttype"/>
+		<item id="557" text="Skrifttype størrelse"/>
+		<item id="558" text="Horisontal skalering"/>
+		<item id="559" text="Basislinie offset"/>
+		<item id="560" text="Advarsel ved åbning af objekt:  objektet er ødelagt"/>
+		<item id="561" text="Knaplinier"/>
+		<item id="562" text="Kommandoer"/>
+		<item id="563" text="Indstillinger"/>
+		<item id="564" text="Format"/>
+		<item id="565" text="Global"/>
+		<item id="566" text="Dokument"/>
+		<item id="567" text="Vis sider"/>
+		<item id="568" text="Vis miniaturer"/>
+		<item id="569" text="Vis bogmærker"/>
+		<item id="570" text="Vis kommentater"/>
+		<item id="571" text="Vis lag"/>
+		<item id="572" text="Vis felter"/>
+		<item id="573" text="Vis vedhæftede"/>
+		<item id="574" text="Teksteditor"/>
+		<item id="575" text="Stempel-palette"/>
+		<item id="576" text="Vis søgning"/>
+		<item id="577" text="Java Script konsollen"/>
+		<item id="578" text="Lup vinduet"/>
+		<item id="579" text="Flyt og zoom vindue"/>
+		<item id="580" text="Standard"/>
+		<item id="581" text="Ingen genveje"/>
+		<item id="582" text="Genvejen er aktiv"/>
+		<item id="583" text="Denne genvej bruges allerede af andre kommandoer"/>
+		<item id="584" text="Denne genvej bruges allerede af %1 kommandoer"/>
+		<item id="585" text="Danner"/>
+		<item id="586" text="Indstillingert for sidedannelse"/>
+		<item id="587" text="Tilpas"/>
+		<item id="588" text="Indtast teksten..."/>
+		<item id="589" text="Ikke-kritiske fejl konstateret i XREF-tabellen"/>
+		<item id="590" text="Fladgør/fjerne notater, vent venligst..."/>
+		<item id="591" text="Fladgør"/>
+		<item id="592" text="Lad være som det er"/>
+		<item id="593" text="Fjern"/>
+		<item id="594" text="Er du sikker på, at du vil fladgøre/fjerne alle komentarer i dokumentet?"/>
+		<item id="595" text="%1: Fladgør/fjerner notater"/>
+		<item id="596" text="Ønsker du at slette alle tilpassede knapllinier/menuer?  Klik &apos;Nej&apos; for at beholde dem."/>
+		<item id="597" text="%1: Sletter tilpassede knaplinier"/>
+		<item id="598" text="Fejl ved nudtrækning af sider fra &quot;%1&quot;:&#10;%2"/>
+		<item id="599" text="%1: Udtrækker sider"/>
+		<item id="600" text="Fejl ved fladgøring af notater i  &quot;%1&quot;:&#10;%2"/>
+		<item id="601" text="Fejl ved indsætning af sider i  &quot;%1&quot;:&#10;%2"/>
+		<item id="602" text="Fejl ved sletning af sider fra  &quot;%1&quot;:&#10;%2"/>
+		<item id="603" text="Indlæser data fra strøm..."/>
+		<item id="604" text="Indlæst %1"/>
+		<item id="605" text="Åbner dokument fra strøm..."/>
+		<item id="606" text="Gemmer dokument til strøm..."/>
+		<item id="607" text="Gemt %1 af %2"/>
+		<item id="608" text="Åbner dokument..."/>
+		<item id="626" text="Kommentarer"/>
+		<item id="627" text="Opsummer kommentarer"/>
+		<item id="628" text="Fejl i opsummering af kommentarer"/>
+		<item id="629" text="Opsummerer kommentarer - vent venligst"/>
+		<item id="878" text="Rediger"/>
+		<item id="881" text="Rediger bogmærke"/>
+		<item id="882" text="Rediger bogmærker"/>
+		<item id="883" text="Slet notation"/>
+		<item id="884" text="Slet bogmærker"/>
+		<item id="885" text="Indsæt tekst"/>
+		<item id="886" text="Slet tekst"/>
+		<item id="887" text="Indsæt tekst"/>
+		<item id="903" text="Java Script"/>
+		<item id="904" text="Kommentar-indstillinger - palette"/>
+		<item id="905" text="Udvikling"/>
+		<item id="945" text="Administrer dokumentindstillinger"/>
+		<item id="964" text="Indsæt nye links"/>
+		<item id="965" text="Indsæt nyt link"/>
+		<item id="966" text="Slet links"/>
+		<item id="967" text="Slet link"/>
+		<item id="968" text="Rediger svar"/>
+		<item id="998" text="Tilføj ny kommentarbobbel"/>
+		<item id="999" text="Slet bogmærke"/>
+		<item id="1000" text="Indsæt nyt bogmærke"/>
+		<item id="1001" text="Flyt bogmærke"/>
+		<item id="1002" text="Flyt bogmærker"/>
+		<item id="1009" text="Indsæt kommentar"/>
+		<item id="1128" text="Forfatter"/>
+		<item id="1129" text="Emne"/>
+		<item id="1130" text="Side"/>
+		<item id="1131" text="Dato"/>
+		<item id="1132" text="Type"/>
+		<item id="1133" text="Nummer"/>
+		<item id="1134" text="&lt;Ingen&gt;"/>
+		<item id="1135" text="&lt;Ikke defineret&gt;"/>
+		<item id="1136" text="Opsummering af kommentarer på %1"/>
+	</strings>
+</Localization>

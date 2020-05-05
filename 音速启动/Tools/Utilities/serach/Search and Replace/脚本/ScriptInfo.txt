@@ -1,0 +1,432 @@
+                  Search and Replace for Windows
+                      Funduc Software, Inc.
+             Copyright 1995-2010, All Rights Reserved
+    http://www.searchandreplace.com     http://www.funduc.com
+
+            Information On Search And Replace Scripts
+            -----------------------------------------
+                           Version 6.5
+
+Provided here is some information on Search and Replace scripts.
+This contains a sample script (see below for cut lines) but this
+file itself is NOT a sample script. Sample scripts installed with
+the program. They all have the name extension, .srs.
+
+This information is also available in the program F1 hlp.
+
+Scroll to below the sample script in this file for information on
+the [Options] section switches.
+
+Notes:
+------
+
+* Scripts are saved as ASCII files. The safest way to create a
+valid script is to use the Script dialog. As you gain experience
+you can modify/create scripts with your text editor, perhaps using
+an existing script as a model. Be sure to reload your script into
+the Script dialog if you edit it with an external editor
+
+* The simplest script possible is a text file consisting of a
+search string(s) separated by blank lines or a search/replace
+string(s) on adjacent lines. See the F1 hlp topic -Simple Script-
+for more information.
+
+* If you are running a script from the command line, add the /s
+switch to launch Search and Replace and automatically initiate a
+search. If your script involves a replace, use /r in your command
+line to initiate the replace.
+
+* Please note that if you specify linked script(s), follow-up
+scripts operate in the same mode as the script that launches them.
+For example, if the initial script is run as a search-only,
+scripts linked from the initial script are also search-only. If
+the initial script is run as a search-replace, linked scripts are
+search-replace.
+
+* The following tags must be at the beginning and end of the
+script: [Script for Search and Replace] and [End of Search and
+Replace Script].
+
+* Comment text must immediately follow the [Script for Search and
+Replace] section or after the closing ] bracket in the Search &/or
+Replace strings.
+
+* The order of section headings must follow that outlined below. 
+
+* The [Options] section is not required. If you create a script
+using a text editor and wish to set only one or a few options, it
+is OK to enter only those specific options. Scripts saved via
+Search and Replace will have all options saved with the script.
+
+* Search strings can be entered on the next line after a [Search]
+tag. To enter the Regular Expression, Case Sensitive off (or
+Insensitive), Whole Word Only and Binary Mode, you must use the /x
+/i /w /b flags respectively. The flags are case insensitive. This
+is similar to the flags for Command Line Parameters.
+
+* Replace strings can be entered on the next line after a
+[Replace] tag. You can only use the /b flag for Binary Mode with
+this tag since all other tags are specified on the Search field.
+
+* Path and mask strings can be entered on the next line after a
+[Path] tag. No flags can be used with this tag. The mask string
+must be entered right after the path string and a \ character is
+expected between them. For example c:\*.ini will use Path C:\ and
+Mask *.ini. If you turn on the Search Subdirectories box on the
+main window, all INI files on the C: drive would be processed.
+
+* You can enter Search strings only, both Search and Replace
+strings, Path and mask strings only, or all the fields in a
+script. You can also override some of the values from the main
+window by entering new Search and Replace strings or new Path and
+Mask strings. 
+
+* When a script is active, the Search, Replace, File Mask, and
+Path fields in the Search and Replace main window will change to
+reflect the script in use. For example, given a script named,
+example.srs, which only has settings for a search string, the
+Search field in the main window will change to read "Use Script
+file: d:\example.srs". If example.srs also involved a replace
+string and a file mask, the Replace and File Mask fields would
+also change to read, "Use Script file: d:\example.srs".
+
+* See the F1 Help for information on use of the %%today%% string
+in the Min Date Filter= and/or Max Date Filter= switches for
+manually edited scripts.
+
+* SRDUMP.SRS File: To generate a script file that contains
+your current program settings, do the following:
+
+  1. Hold the CTRL key and click on the Scripts toolbar button 
+     with your mouse. 
+  2. The above will cause the script editor to open. Close the 
+     editor. 
+  3. A file named 'SRDUMP.SRS' is generated in the 'Program Work
+     Path' by Step 1. Unless you have taken special steps for a
+     network installation, this is generally the same file path
+     that the Search and Replace executable is (sr32.exe) is
+     installed in. C:\Tools\SR is the default program installation
+     path.
+  4. Use your file manager to copy/rename SRDUMP.SRS to another file. 
+  
+You can use SRDUMP.SRS as a template for developing other scripts.
+
+--------- SAMPLE SCRIPT BEGINS ON NEXT LINE ---------------------
+[Script for Search and Replace]
+
+This is an example script using alternate program options for the
+script. The text you are reading here is the script comment added
+via the Advanced Script Dialog. Script comments always after the
+'Script for Search and Replace' tag and before any other section
+tags.
+
+NOTE: The script sections demarked by [ ] and the [Options]
+  switches must be entered in the order you see here. The first
+  line must be the bracketed 'Script for Search and Replace' tag
+  above. If you are not using Linked Scripts, the 'End of Search
+  and Replace Script' tag is the last line. 
+  
+NOTE: It is not necessary to specify all the [Options] switches.
+  For version 3.9 and above, switches within the [Options]
+  section can be in any order. If a given Options switch is not
+  specified in a script, the settings last in effect for the
+  program will be used. In addition, the General Options settings
+  that are included in the 'SRDUMP file' method above are ignored
+  when the script is run in version 3.9+. For example, if your
+  script specifies a 'Default Viewer', the program ignores this
+  when you run the script. This preserves your default settings
+  for interactive use.
+
+NOTE: Use the 'SRDUMP file' to generate a script that contains the
+  program options currently in effect. You can use SRDUMP.SRS as a
+  template for developing other scripts manually.
+
+NOTE: The iteration switch, Script Loop= , must be added by
+  editing the script manually with your text editor. Script Loop=
+  must be the last entry in the [Options] section. See F1 hlp
+  topic - Scripts-Iteration Operator - for more info.
+
+NOTE: See F1 hlp topic - Scripts-Linked Scripts - for information
+  on how to chain scripts. For version 3.4+, follow-up scripts are
+  specified below the [End of Search and Replace Script] line in a
+  script. You must specify this manually, via your text editor.
+
+[Expression]
+E1 AND E2
+[Options]
+Search_subdir=0
+Prompt_flag=0
+One hit=0
+Count Across Files=0
+Replace Processing=0
+Process Binary Files=1
+Buffer Size=102400
+Num Buffers To Process=0
+Output_File=
+Append to output file=0
+Backup Path=D:\SRBACKUP
+Write to Backup Dir=0
+Keep file time stamp=0
+Max Display Chars=128
+Max Reg Expr=32767
+Unzip Dir=C:\WINDOWS\TEMP
+Show Progress Dialog=1
+Before Hit=<
+After Hit=>
+Line Prefix=Line %3d -  
+Binary Prefix=Offset 0x%6lx -
+Show_Files=1
+Show Files Without Hits=1
+Display Replace String=1
+Display File Stats=1
+Show File Date and Size=0
+Reverse Filters=0
+Min Size Filter=0
+Max Size Filter=0
+Min Date Filter=%%today-1%% 
+Max Date Filter=
+Skip Files Mask=0
+Ignore Attributes=55
+Sort File Names=3
+Sort Ascending=0
+Script Loop=1
+[Search]          This comment added to a search line.
+Search string #1
+[Replace /b]      This comment added to a replace line.
+Replacement string #1
+[Search /bix]
+Search string #2
+[Replace]
+Replacement string #2
+[Path]
+c:\*.ini
+[Path]
+d:\work\*.txt
+[End of Search and Replace Script]
+c:\tools\sr\Linked Script1.srs
+c:\tools\sr\Linked Script2.srs
+--------- SAMPLE SCRIPT ENDS ON LINE ABOVE ---------------------
+
+             Script [Expression] & [Options] Sections
+             ----------------------------------------
+
+Below is some detail on the items in the [Expression] and
+[Options] section of a script. Use this as a guide for manual
+edits.
+
+It is not necessary to specify all switches in the [Options]
+section. For example, a sole [Options] item could be Prompt_flag=0.
+
+The order of the [Options] switches should be maintained to ensure
+the program parses the input properly. For example, if you have
+Show_Files= and Display Replace String= specified in your script,
+do so in this order.
+
+
+Script Item                 Description
+----------------            --------------------------------------
+[Expression]
+E1 AND E2                   This section is optional. It is created 
+                            via the Advanced Dialog in the script 
+                            editor.
+
+[Options] 
+Search_subdir=              0 = No; 1 = Yes. If this switch is
+                            not specified, the current program
+                            setting is used.
+
+Prompt_flag=                Corresponds to Replace Prompts in
+                            Options-Replace. 0 = Prompt on All;
+                            1 = Prompt on Each File; 2 = No
+                            Prompts. Current program setting is
+                            used if this is not specified.
+
+One hit=                    Corresponds to 'Stop Processing After
+                            First Hit In File' in Options-Search.
+                            0 = No; 1 = Yes. Omit to use current
+                            program setting.
+
+Count Across Files=         This is for v 4.3+.  %n>> and %n<< 
+                            counter replacements normally do not
+                            reset with each file.  Specify Count
+                            Across Files=1 to cause the program to
+                            reset with each new file instead of
+                            sequencing across files.  This switch
+                            must be specified manually with a text
+                            editor.
+
+Replace Processing=         For ver 4.4+. See Special Case
+                            Handling for more information. The
+                            choices are:
+                            Replace Processing=0 - No special effects. 
+                              This is the default if the switch is 
+                              omitted.
+                            Replace Processing=1 - Capitalize words
+                              during replaces.
+                            Replace Processing=2 - Match Existing
+                              letter case.
+                              
+Process Binary Files=       For version 5.0+. Search and Replace
+                            normally searches any file that meets
+                            the file mask/path and filter
+                            criteria.  If you specify Process
+                            Binary Files=0 the program will skip
+                            any file it determines is 'binary'.
+                            Note that depending your output
+                            settings, the file(s) will still be
+                            listed.  But they will be shown as
+                            having no hits.
+                            
+Buffer Size=                The size of the memory block (in
+                            bytes) used by the program when
+                            reading files can be adjusted using
+                            this switch.  For most uses we suggest
+                            leaving this at default or omitting it
+                            entirely.  The default is 102400.  The
+                            lowest value permitted is Buffer Size=
+                            1024.
+
+                            Note: Buffer Size may have indirect
+                            effect on Max Reg Expr= behavior.  If
+                            Buffer Size= is set lower than Max Reg
+                            Expr= by limiting the size of blocks
+                            searched the effective Max Reg Expr=
+                            is limited to Buffer Size.  The
+                            default Max Reg Expr=32767 bytes.  If
+                            your search requires this span as a
+                            minimum, Buffer Size should be at
+                            least Buffer Size=32767.
+
+Num Buffers To Process=     Use this switch to limit the number of
+                            blocks to process in each file.  The
+                            default Num Buffers To Process=0 means
+                            all blocks, or the entire file.  This
+                            switch can be used in conjunction with
+                            the Buffer Size= switch above.  For
+                            example, to search only the first
+                            26,000 bytes of all files specify:
+                              Buffer Size=26000
+                              Num Buffers To Process=1
+                            
+                            Note: If One hit=1 is specified, that
+                            switch takes precedence if a hit is
+                            found within the number of blocks
+                            specified.
+
+Output_File=                Options-Output. Omit or leave blank if 
+                            none is to be used.
+
+Append to output file=0     Corresponds to 'Append to Output File'
+                            in Options-Output. 0 = No; 1 = Yes.
+                            Omit to use current program setting.
+
+Max Reg Expr=               Options-Search. Determines the maximum
+                            number of characters spanned by
+                            regular expression terms. The range is 
+                            50 to 32767.
+                            
+Max Display Chars=          Options-Search. Determines the number
+                            of characters to list on each hit line.
+                            The range is 128 to 4069.
+
+Backup Path=                Options-Replace. If this switch is
+                            included but no file is specified,
+                            no backup path will be used. If not
+                            specified, the program default is
+                            used.
+
+Write to Backup Dir=        Options-Replace. 0 = No; 1 = Yes
+
+Unzip Dir=                  Options-Search.
+
+Keep file time stamp=       Corresponds to 'Do not change file
+                            date/time' in Options-Replace. 0 = No;
+                            1 = Yes. Omit to use current program
+                            setting.
+
+Show Progress Dialog=       Options-Search. Determines whether or 
+                            not to display the progress meter.
+
+Before Hit=                 Options-Output. 
+After Hit=
+
+Show_Files=                 Corresponds to 'Display First Hit
+                            Line' in Options-Output. 0 = No; 1 =
+                            Yes. Current program setting is used
+                            if this is not specified.
+
+Show Files Without Hits=    Corresponds to 'Display Files
+                            Without Hits' in Options-Output. 0 =
+                            No; 1 = Yes. Current program setting
+                            is used if this is not specified.
+
+Display Replace String=     Corresponds to 'Display Replace
+                            String' in Options-Output. 0 = No; 1
+                            = Yes. Current program setting is
+                            used if this is not specified.
+
+Display File Stats=         Corresponds to 'Display Number of
+                            Hits in File' in Options-Output. 0 =
+                            No; 1 = Yes. Current program setting
+                            is used if this is not specified.
+
+Show File Date and Size=    Corresponds to 'Display File Size and
+                            Date/Time' in Options-Output. 0 =
+                            No; 1 = Yes. Current program setting
+                            is used if this is not specified.
+
+Reverse Filters=0           Corresponds to the 'Reverse Filter'
+                            checkbox in Options-Filter. 0= No; 1 =
+                            Yes. Omit to use current program
+                            setting. See Skip Files Mask and
+                            Ignore Attributes below for more info.
+
+Min Size Filter=            Options-Filter. Omit some or all to 
+Max Size Filter=            use current program setting. You can 
+Min Date Filter=            use a form of %%today%% for the Date
+Max Date Filter=            switches.
+
+Skip Files Mask=0           The default values for these two 
+Ignore Attributes=55        settings are listed here. These values
+                            are related to the Attributes
+                            checkboxes in Options-Filters. The
+                            number of possible values, in
+                            conjunction with the Reverse Filters
+                            switch above, is extensive and
+                            difficult to explain. Most users will
+                            not have any setting here. If you
+                            do need a special setting,
+                            experiment interactively with Options-
+                            Filters dialog and some file searches.
+                            When you are satisfied, generate an
+                            'SRDUMP.SRS' file and copy the
+                            switch settings into your production
+                            script. You can also write us for help
+                            at support@searchandreplace.com
+
+Sort File Names=            Corresponds to the 'Sort Results By'
+                            combo list in Options-Search. The
+                            values are: 0 = Unsorted, 
+                            1 = File Name, 2 = File Extension, 
+                            3 = File Date/Time, 4 = File Size, 
+                            5 = File Path. Omit to use current 
+                            program setting.
+
+Sort Ascending=             Corresponds to the Sort Ascending
+                            checkbox in Options-Search. 0 =
+                            Descending, 1 = Ascending. Omit to use
+                            current program setting.
+                            
+Line Prefix=                These two switches for for v 4.3+ only. 
+Binary Prefix=              They are 'read-only' settings for users 
+                            who create/edit scripts manually, with
+                            a text editor.  If you save a script
+                            with the script editor these switches
+                            will be stripped out.
+
+Script Loop=                Script Iteration Counter. This must be
+                            entered manually. It must be the last
+                            entry in the [Options] section. Also
+                            see Script Repeat Action in the F1 Help 
+                            form information on how to repeat specific 
+                            search/replace strings. 

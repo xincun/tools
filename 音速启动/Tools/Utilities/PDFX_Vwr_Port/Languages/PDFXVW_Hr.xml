@@ -1,0 +1,2163 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Localization>
+  <Product id="PXCView" version="1.0" productVersion="" />
+  <language eName="Croatian" lName="Hrvatski" lcid="0x041a" prefFont="" />
+  <commands>
+    <item id="32316" title="Natrag" tooltip="Natrag" status="Natrag" short="" />
+    <item id="32317" title="Naprijed" tooltip="Naprijed" status="Naprijed" short="" />
+    <item id="32609" title="Povećalo" tooltip="Povećalo" status="Povećalo" short="" />
+    <item id="32610" title="Uvećati" tooltip="Uvećati" status="Uvećati" short="Uvećati" />
+    <item id="32611" title="Umanjiti" tooltip="Umanjiti" status="Umanjiti" short="Umanjiti" />
+    <item id="32613" title="Alat ručica" tooltip="Alat ručica" status="Alat ručica" short="" />
+    <item id="32614" title="Alat snimka" tooltip="Alat snimka" status="Alat snimka" short=""></item>
+    <item id="32620" title="Alat izbor" tooltip="Alat izbor teksta/objekata" status="Alat izbor teksta/objekata" short="" />
+    <item id="32884" title="Otići na..." tooltip="" status="" short="" />
+    <item id="32885" title="Prva stranica" tooltip="Otići na prvu stranicu" status="Otići na prvu stranicu" short="" />
+    <item id="32886" title="Prethodna stranica" tooltip="Otići na prethodnu stranicu" status="Otići na prethodnu stranicu" short="" />
+    <item id="32887" title="Slijedeća stranica" tooltip="Otići na slijedeću stranicu" status="Otići na slijedeću stranicu" short="" />
+    <item id="32888" title="Posljednja stranica" tooltip="Otići na posljednju stranicu" status="Otići na posljednju stranicu" short="" />
+    <item id="32889" title="Stranica..." tooltip="Otići na stranicu..." status="Otići na stranicu..." short="" />
+    <item id="32890" title="Prethodni prikaz" tooltip="Otići na prethodni prikaz" status="Otići na prethodni prikaz" short="" />
+    <item id="32891" title="Slijedeći prikaz" tooltip="Otići na slijedeći prikaz" status="Otići na slijedeći prikaz" short="" />
+    <item id="32892" title="Prethodni dokument" tooltip="Otići na prethodni dokument" status="Otići na prethodni dokument" short="" />
+    <item id="32893" title="Slijedeći dokument" tooltip="Otići na slijedeći dokument" status="Otići na slijedeći dokument" short="" />
+    <item id="32895" title="Pojedinačna stranica" tooltip="Pojedinačna stranica" status="Pojedinačna stranica" short="" />
+    <item id="32896" title="Neprekinuto" tooltip="Neprekinuto" status="Neprekinuto" short="" />
+    <item id="32897" title="Uporedno" tooltip="Uporedno" status="Uporedno" short="" />
+    <item id="32898" title="Neprekinuto - Uporedno" tooltip="Neprekinuto - Uporedno" status="Neprekinuto - Uporedno" short="" />
+    <item id="32899" title="Prilagoditi veličinu..." tooltip="Odabrati faktor uvećavanja za aktivni dokument" status="Odabrati faktor uvećavanja za aktivni dokument" short="" />
+    <item id="32900" title="Stvarna veličina" tooltip="Dokument prikazati u stvarnoj veličini (100%)" status="Dokument prikazati u stvarnoj veličini (100%)" short="" />
+    <item id="32901" title="Prilagoditi veličini okna" tooltip="Veličinu prilagoditi veličini okna" status="Veličinu prilagoditi veličini okna" short="" />
+    <item id="32902" title="Prilagoditi širini okna" tooltip="Veličinu prilagoditi širini okna" status="Veličinu prilagoditi širini okna" short="" />
+    <item id="32903" title="Prilagoditi sadržaju" tooltip="Veličinu prilagoditi vidljivom sadržaju" status="Veličinu prilagoditi vidljivom sadržaju" short="" />
+    <item id="32904" title="Uvećati" tooltip="Uvećati" status="Uvećati" short="" />
+    <item id="32905" title="Umanjiti" tooltip="Umanjiti" status="Umanjiti" short="" />
+    <item id="32906" title="Postavke..." tooltip="Određivanje osnovnih postavki..." status="Određivanje osnovnih postavki..." short="" />
+    <item id="32907" title="" tooltip="Prikazati broj stranica ovog dokumenta" status="" short="" />
+    <item id="32908" title="Datoteka" tooltip="Prikazati/sakriti alatnu traku za rad s datotekama" status="Prikazati/sakriti alatnu traku za rad s datotekama" short="" />
+    <item id="32909" title="" tooltip="Stranica" status="" short="Stranica:" />
+    <item id="32910" title="Straničnici" tooltip="Prikazati/sakriti straničničku karticu" status="Prikazati/sakriti straničničku karticu" short="" />
+    <item id="32912" title="Izgled ispisa" tooltip="Prikazati/sakriti izgled ispisa" status="Prikazati/sakriti izgled ispisa" short="" />
+    <item id="32924" title="Osnovno" tooltip="Prikazati/sakriti osnovnu alatnu traku" status="Prikazati/sakriti osnovnu alatnu traku" short="" />
+    <item id="32925" title="Uvećavanje" tooltip="Prikazati/sakriti alatnu traku za promjenu veličine prikaza" status="Prikazati/sakriti alatnu traku za promjenu veličine prikaza" short="" />
+    <item id="32929" title="Zakretanje" tooltip="Prikazati/sakriti alatnu traku za zakretanje prikaza" status="Prikazati/sakriti alatnu traku za zakretanje prikaza" short="" />
+    <item id="32936" title="Prikazati sve alatne trake" tooltip="Prikazati sve alatne trake" status="" short="" />
+    <item id="32937" title="Zatvoriti aktivnu karticu" tooltip="Zatvoriti aktivnu karticu" status="" short="" />
+    <item id="32938" title="Prikazati izgled svih kartica" tooltip="Prikazati izgled svih kartica" status="" short="" />
+    <item id="32940" title="Navigacijska kartica" tooltip="Prikazati/sakriti navigacijski pregled kartica" status="Prikazati/sakriti navigacijski pregled kartica" short="" />
+    <item id="32942" title="Zatvoriti sve dokumente" tooltip="Zatvoriti sve dokumente" status="Zatvoriti sve dokumente" short="" />
+    <item id="32944" title="Izvoz" tooltip="Izvoz" status="Izvoz" short="" />
+    <item id="32945" title="Izvoz u slici..." tooltip="Izvoz u slici..." status="Izvoz u slici..." short="" />
+    <item id="32946" title="Naziv dokumenta" tooltip="" status="" short="" />
+    <item id="32947" title="Broj dokumenta" tooltip="" status="" short="" />
+    <item id="32948" title="Naslov dokumenta" tooltip="" status="" short="" />
+    <item id="32949" title="Broj stranice" tooltip="" status="" short="" />
+    <item id="32950" title="STRANICA" tooltip="" status="" short="" />
+    <item id="32951" title="STRANICE" tooltip="" status="" short="" />
+    <item id="32952" title="Naziv datoteke" tooltip="" status="" short="" />
+    <item id="32953" title="Nadnevak (MM-DD-GGGG)" tooltip="" status="" short="" />
+    <item id="32954" title="Godina" tooltip="" status="" short="" />
+    <item id="32955" title="Mjesec" tooltip="" status="" short="" />
+    <item id="32956" title="Dan" tooltip="" status="" short="" />
+    <item id="32957" title="Vrijeme (SS-MM-SS)" tooltip="" status="" short="" />
+    <item id="32958" title="Sat" tooltip="" status="" short="" />
+    <item id="32959" title="Minuta" tooltip="" status="" short="" />
+    <item id="32960" title="Sekunda" tooltip="" status="" short="" />
+    <item id="32961" title="Automatsko znamenkovanje" tooltip="" status="" short="" />
+    <item id="32987" title="Napredno pretraživanje" tooltip="Pretraživanje jedne ili više datoteka PDF-a" status="Pretraživanje jedne ili više datoteka PDF-a" short="" />
+    <item id="32990" title="" tooltip="Pronaći navedeni tekst" status="" short="Pronaći:" />
+    <item id="32991" title="Pronaći prethodno" tooltip="Pronaći prethodno mjesto unosa" status="Pronaći prethodno mjesto unosa" short="" />
+    <item id="32992" title="Pronaći naredno" tooltip="Pronaći naredno mjesto unosa" status="Pronaći naredno mjesto unosa" short="" />
+    <item id="32993" title="Mogućnosti pretraživanja" tooltip="Postavke mogućnosti pretraživanja" status="Postavke mogućnosti pretraživanja" short="" />
+    <item id="32994" title="Samo cijele riječi" tooltip="Tražiti samo cijele riječi" status="Tražiti samo cijele riječi" short="" />
+    <item id="32995" title="Razlikovati mala/velika slova" tooltip="Razlikovati mala/velika slova" status="Razlikovati mala/velika slova" short="" />
+    <item id="32996" title="Pretražiti komentare" tooltip="Pretražiti komentare pripojene PDF-u" status="Pretražiti komentare pripojene PDF-u" short="" />
+    <item id="32997" title="Pretražiti straničnike" tooltip="Pretražiti straničnike" status="Pretražiti straničnike" short="" />
+    <item id="33000" title="Pretraživanje" tooltip="Prikazati/sakriti karticu s alatima za pretraživanje" status="Prikazati/sakriti karticu s alatima za pretraživanje" short="" />
+    <item id="33006" title="Razine" tooltip="Prikazati/sakriti karticu s razinama" status="Prikazati/sakriti karticu s razinama" short="" />
+    <item id="33008" title="Polje" tooltip="Prikazati/sakritikarticu s poljima" status="Prikazati/sakriti karticu s poljima" short="" />
+    <item id="33009" title="Izbornik" tooltip="Prikazati/sakriti glavni izbornik programa" status="Prikazati/sakriti glavni izbornik programa" short="" />
+    <item id="33014" title="Cijeli zaslon" tooltip="Stranicu prikazati preko cijelog zaslona" status="Stranicu prikazati preko cijelog zaslona" short="" />
+    <item id="33015" title="Prikazati/sakriti sve trake" tooltip="Prikazati/sakriti sve trake" status="Prikazati/sakriti sve trake" short="Prikazati/sakriti sve trake" />
+    <item id="33016" title="Prikazati/sakriti sve trake" tooltip="Prikazati/sakriti sve trake" status="Prikazati/sakriti sve trake" short="Prikazati/sakriti sve trake" />
+    <item id="33018" title="Označiti sva polja obrasca" tooltip="Označiti sva polja obrasca u aktivnom dokumentu" status="Označiti sva polja obrasca u aktivnom dokumentu" short="Označiti polja" />
+    <item id="33020" title="Okončati režim prikaza po cijelom zaslonu" tooltip="Obnavlja prikaz s cijelog zaslona u programskom oknu" status="Obnavlja prikaz s cijelog zaslona u programskom oknu" short="" />
+    <item id="33032" title="Centimetri" tooltip="Centimetri" status="" short="" />
+    <item id="33033" title="Palci" tooltip="Palci" status="" short="" />
+    <item id="33034" title="Milimetri" tooltip="Milimetri" status="" short="" />
+    <item id="33035" title="Pike" tooltip="Pike" status="" short="" />
+    <item id="33036" title="Bodovi" tooltip="Bodovi" status="" short="" />
+    <item id="33038" title="Zatvoriti sve" tooltip="Zatvoriti sve otvorene dokumente" status="Zatvoriti sve otvorene dokumente" short="" />
+    <item id="33054" title="6400%" tooltip="" status="" short="" />
+    <item id="33055" title="3200%" tooltip="" status="" short="" />
+    <item id="33056" title="2400%" tooltip="" status="" short="" />
+    <item id="33057" title="1200%" tooltip="" status="" short="" />
+    <item id="33058" title="800%" tooltip="" status="" short="" />
+    <item id="33059" title="400%" tooltip="" status="" short="" />
+    <item id="33060" title="200%" tooltip="" status="" short="" />
+    <item id="33061" title="150%" tooltip="" status="" short="" />
+    <item id="33062" title="100%" tooltip="" status="" short="" />
+    <item id="33063" title="75%" tooltip="" status="" short="" />
+    <item id="33064" title="50%" tooltip="" status="" short="" />
+    <item id="33065" title="25%" tooltip="" status="" short="" />
+    <item id="33073" title="Izvoz podataka iz obrasca..." tooltip="Izvoz podataka iz obrasca..." status="Izvoz podataka iz obrasca..." short="" />
+    <item id="33074" title="Uvoz podataka iz obrasca..." tooltip="Uvoz podataka iz obrasca..." status="Uvoz podataka iz obrasca..." short="" />
+    <item id="33075" title="Prikaz zakrenuti" tooltip="" status="" short="" />
+    <item id="33078" title="Na desno" tooltip="Prikaz zakrenuti na desno za 90°" status="Prikaz zakrenuti na desno za 90°" short="" />
+    <item id="33079" title="Na lijevo" tooltip="Prikaz zakrenuti na lijevo za 90°" status="Prikaz zakrenuti na lijevo za 90°" short="" />
+    <item id="33080" title="Zakrenuti stranicu..." tooltip="" status="Proširene mogućnosti zakretanja stranica" short="" />
+    <item id="33081" title="Izbrisati stranicu..." tooltip="" status="Proširene mogućnosti brisanja stranica" short="" />
+    <item id="33082" title="Obrezivanje stranica..." tooltip="" status="roširene mogućnosti obrezivanje stranica" short="" />
+    <item id="33103" title="Povećanje izreza" tooltip="Traka s alatima za povećanje izreza" status="Traka s alatima za povećanje izreza" short="Povećanje izreza" />
+    <item id="33104" title="Masno" tooltip="Masno" status="" short="" />
+    <item id="33105" title="Kurziv" tooltip="Kurziv" status="" short="" />
+    <item id="33106" title="Podcrtano" tooltip="Podcrtano" status="" short="" />
+    <item id="33107" title="Precrtano" tooltip="Precrtano" status="" short="" />
+    <item id="33108" title="Poravnati u lijevo" tooltip="Poravnati u lijevo" status="" short="" />
+    <item id="33109" title="Centrirati" tooltip="Centrirati" status="" short="" />
+    <item id="33110" title="Poravnati u desno" tooltip="Poravnati u desno" status="" short="" />
+    <item id="33115" title="Zrcaliti crtu" tooltip="Zrcaliti crtu" status="" short="" />
+    <item id="33116" title="Postavke..." tooltip="Dodatne mogućnosti..." status="" short="" />
+    <item id="33118" title="Trenutna svojstva kao standard" tooltip="Trenutna svojstva pohraniti kao standardna" status="Trenutna svojstva pohraniti kao standardna" short="" />
+    <item id="33119" title="Odgovoriti" tooltip="Odgovoriti" status="" short="" />
+    <item id="33121" title="Obnoviti poziciju bilješke" tooltip="Obnoviti prvobitnu poziciju bilješke" status="" short="" />
+    <item id="33122" title="Otvoriti bilješku" tooltip="Otvoriti bilješku" status="" short="" />
+    <item id="33123" title="Strelica" tooltip="Strelica" status="" short="Strelica" />
+    <item id="33124" title="Crta" tooltip="Crta" status="" short="Crta" />
+    <item id="33125" title="Pravokutnik" tooltip="Alatka pravokutnik" status="" short="Pravokutnik" />
+    <item id="33126" title="Elipsa" tooltip="Alatka elipsa" status="" short="Elipsa" />
+    <item id="33127" title="Poligon" tooltip="Alatka poligon" status="" short="Poligon" />
+    <item id="33128" title="Lomljena crta" tooltip="Alat lomljena crta" status="" short="Lomljena crta" />
+    <item id="33129" title="Olovka" tooltip="Alat olovka" status="" short="Olovka" />
+    <item id="33130" title="Oblačić" tooltip="Alat oblačić" status="" short="Oblačić" />
+    <item id="33131" title="Pečati" tooltip="Alat pečati" status="" short="Pečati" />
+    <item id="33132" title="Komentar" tooltip="Alat komentar" status="" short="Komentar" />
+    <item id="33133" title="Prikaz" tooltip="Prikaz" status="Prikaz" short="" />
+    <item id="33134" title="Primijeniti standardna svojstva" tooltip="Primijeniti standardna svojstva" status="Primijeniti standardna svojstva" short="" />
+    <item id="33135" title="Dodati komentar" tooltip="Dodati komentar" status="" short="" />
+    <item id="33136" title="Brisanje" tooltip="Brisanje izbora" status="Brisanje izbora" short="" />
+    <item id="33138" title="Komentari i oznake" tooltip="Prikazati/sakriti traku komentara i oznaka" status="Prikazati/sakriti traku komentara i oznaka" short="" />
+    <item id="33139" title="Odustati" tooltip="Odustati" status="" short="" />
+    <item id="33140" title="Okončati" tooltip="Okončati" status="" short="" />
+    <item id="33141" title="Domovska stranica" tooltip="" status="" short="" />
+    <item id="33145" title="Sadržaj" tooltip="" status="" short="" />
+    <item id="33146" title="Dojaviti pogrešku..." tooltip="" status="" short="" />
+    <item id="33147" title="Forum podrške" tooltip="" status="" short="" />
+    <item id="33168" title="Izbrisati oblikovanje teksta" tooltip="Izbrisati oblikovanje teksta" status="" short="" />
+    <item id="33170" title="Uzvišeno" tooltip="Uzvišeno" status="" short="" />
+    <item id="33171" title="Spušteno" tooltip="Spušteno" status="" short="" />
+    <item id="33174" title="Odgovoriti" tooltip="Odgovoriti" status="" short="" />
+    <item id="33176" title="Izbrisati odgovor" tooltip="Izbrisati odgovor" status="" short="" />
+    <item id="33179" title="Potražiti nadogradnje..." tooltip="" status="" short="" />
+    <item id="33182" title="Preslikati kao čisti tekst" tooltip="Preslikati kao čisti tekst" status="" short="" />
+    <item id="33183" title="Preslikati kao već oblikovani tekst" tooltip="Preslikati kao već oblikovani tekst" status="" short="" />
+    <item id="33184" title="Preslikati u obliku 'RTF'" tooltip="Preslikati u obliku 'RTF'" status="" short="" />
+    <item id="33187" title="Konzola Java Scripta" tooltip="Prikazati/sakriti konzolu Java Scripta" status="Prikazati/sakriti konzolu Java Scripta" short="" />
+    <item id="33190" title="Najbliži" tooltip="" status="" short="" />
+    <item id="33193" title="Na stranici" tooltip="" status="" short="" />
+    <item id="33194" title="U dokumentu" tooltip="" status="" short="" />
+    <item id="33197" title="Pretražiti podmape" tooltip="" status="" short="" />
+    <item id="33201" title="Tekstovni oblačić" tooltip="Alat tekstovni oblačić" status="" short="Tekstovni oblačić" />
+    <item id="33202" title="Tekstovno polje" tooltip="Tekstovno polje" status="" short="Tekstovno polje" />
+    <item id="33204" title="Komentari" tooltip="Prikazati/sakriti traku komentara i oznaka" status="Prikazati/sakriti traku komentara i oznaka" short="" />
+    <item id="33206" title="Označiti tekst" tooltip="Označiti tekst" status="" short="" />
+    <item id="33207" title="Dodati komentar tekstu" tooltip="Dodati komentar tekstu" status="" short="" />
+    <item id="33208" title="Podcrtati tekst" tooltip="Podcrtati tekst" status="" short="" />
+    <item id="33209" title="Precrtati tekst" tooltip="Precrtati tekst" status="" short="" />
+    <item id="33210" title="Nadomjestiti tekst" tooltip="Nadomjestiti tekst" status="" short="" />
+    <item id="33221" title="Osvjetliti tekst" tooltip="Osvjetliti odabrani tekst" status="Osvjetliti odabrani tekst" short="Osvjetliti tekst" />
+    <item id="33222" title="Podcrtati tekst" tooltip="Podcrtati odabrani tekst" status="Podcrtati odabrani tekst" short="Podcrtati tekst" />
+    <item id="33223" title="Precrtati tekst" tooltip="Precrtati odabrani tekst" status="Precrtati odabrani tekst" short="Precrtati tekst" />
+    <item id="33225" title="Svojstva" tooltip="Prikazati/sakriti traku svojstava" status="Prikazati/sakriti traku svojstava" short="" />
+    <item id="33226" title="Pisaći stroj" tooltip="Pisaći stroj" status="" short="Pisaći stroj" />
+    <item id="33228" title="Prikazati paletu pečata" tooltip="" status="" short="" />
+    <item id="33229" title="Alatku zadržati odabranom" tooltip="Alatku zadržati odabranom" status="" short="" />
+    <item id="33231" title="Veličina pisma" tooltip="Veličina pisma" status="" short="Veličina pisma" />
+    <item id="33232" title="prema stranicama" tooltip="Komentare sakupiti prema stranicama" status="" short="" />
+    <item id="33233" title="prema vrsti" tooltip="Komentare sakupiti prema vrsti" status="" short="" />
+    <item id="33234" title="prema autoru" tooltip="Komentare sakupiti prema autoru" status="" short=""></item>
+    <item id="33235" title="prema nadnevku" tooltip="Komentare sakupiti prema nadnevku" status="" short="" />
+    <item id="33236" title="prema boji" tooltip="Komentare sakupiti prema boji" status="" short="" />
+    <item id="33238" title="Slijedeća" tooltip="Slijedeći komentar" status="" short="" />
+    <item id="33239" title="Prethodna" tooltip="Prethodni komentar" status="" short="" />
+    <item id="33240" title="Izbrisati" tooltip="Izbrisati komentar" status="" short="" />
+    <item id="33241" title="Sve zaklopiti" tooltip="Zaklopiti sve komentare" status="" short="" />
+    <item id="33242" title="Sve rasklopiti" tooltip="Rasklopiti sve komentare" status="" short="" />
+    <item id="33243" title="Sakupiti prema" tooltip="Sakupiti prema" status="" short="" />
+    <item id="33244" title="Svojstva..." tooltip="Svojstva komentara..." status="" short="" />
+    <item id="33245" title="Odgovoriti" tooltip="Odgovoriti na komentar" status="" short="" />
+    <item id="33248" title="Sve odznačiti" tooltip="Sve odznačiti" status="" short="" />
+    <item id="33255" title="Sve ostale kartice zatvoriti" tooltip="Sve ostale kartice zatvoriti" status="Sve ostale kartice zatvoriti" short="" />
+    <item id="33256" title="Zatvoriti ovu karticu" tooltip="Zatvoriti ovu karticu" status="Zatvoriti ovu karticu" short="" />
+    <item id="33257" title="Naziv datoteke u međuspremnik" tooltip="Preslikavanje potpunog naziva datoteke u međuspremnik" status="Preslikavanje potpunog naziva datoteke u međuspremnik" short="" />
+    <item id="33258" title="Otvoriti sadržavajuću mapu..." tooltip="Otvoriti sadržavajuću mapu aktivnog dokumenta..." status="Otvoriti sadržavajuću mapu aktivnog dokumenta..." short="" />
+    <item id="33259" title="Trenutno oblikovanje teksta pohraniti kao standardno" tooltip="Trenutno oblikovanje teksta pohraniti kao standardno" status="" short="" />
+    <item id="33260" title="Primijeniti standardno oblikovanje teksta" tooltip="Primijeniti standardno oblikovanje teksta" status="" short="" />
+    <item id="33261" title="Boja teksta" tooltip="Boja teksta" status="" short="Boja:" />
+    <item id="33262" title="Traka svojstava" tooltip="Prikazati/sakriti traku svojstava" status="Prikazati/sakriti traku svojstava" short="" />
+    <item id="33263" title="Stranična navigacija" tooltip="Prikazati/sakriti traku za navigiranje stranicama" status="Prikazati/sakriti traku za navigiranje stranicama" short="" />
+    <item id="33264" title="Prijelom stranice" tooltip="Prikazati/sakriti traku prijeloma stranice" status="Prikazati/sakriti traku prijeloma stranice" short="" />
+    <item id="33265" title="Početna traka" tooltip="Prikazati/sakriti početnu traku" status="Prikazati/sakriti početnu traku" short="" />
+    <item id="33267" title="Datoteka" tooltip="" status="" short="" />
+    <item id="33268" title="Naposlijed otvarane datoteke" tooltip="" status="" short="" />
+    <item id="33269" title="Podatci obrasca" tooltip="" status="" short="" />
+    <item id="33270" title="Svojstva dokumenta..." tooltip="Prikazati svojstva aktivnog dokumenta" status="Prikazati svojstva aktivnog dokumenta" short="" />
+    <item id="33272" title="Otvoriti dokument s URL..." tooltip="Otvoriti dokument s URL..." status="Otvoriti dokument s URL..." short="" />
+    <item id="33280" title="Uređivanje" tooltip="" status="" short="" />
+    <item id="33281" title="Izbrisati" tooltip="Izbrisati odabrano" status="Izbrisati odabrano" short="" />
+    <item id="33290" title="Prikaz" tooltip="" status="" short="" />
+    <item id="33291" title="Alatne trake" tooltip="" status="" short="" />
+    <item id="33292" title="Ostale kartice" tooltip="" status="" short="" />
+    <item id="33293" title="Uređivanje izgleda stranica" tooltip="" status="" short="" />
+    <item id="33300" title="Dokument" tooltip="" status="" short="" />
+    <item id="33310" title="Alati" tooltip="" status="" short="" />
+    <item id="33311" title="Općenito" tooltip="" status="" short="" />
+    <item id="33313" title="Prilagodba veličine" tooltip="" status="" short="" />
+    <item id="33314" title="Komentari i oznake" tooltip="" status="" short="" />
+    <item id="33315" title="Pečati" tooltip="Pečati" status="" short="" />
+    <item id="33316" title="Mjeriti" tooltip="" status="" short="" />
+    <item id="33317" title="Poveznice" tooltip="" status="" short="" />
+    <item id="33339" title="Prikazati traku komentara i oznaka" tooltip="" status="" short="" />
+    <item id="33340" title="Kartica komentara" tooltip="Prikazati/sakriti karticu komentara" status="Prikazati/sakriti karticu komentara" short="" />
+    <item id="33350" title="Okno" tooltip="" status="" short="" />
+    <item id="33369" title="Podatci o oštećenjima" tooltip="Taj dokument je oštećen; Tipnite ovdje za prikaz pojedinosti" status="Taj dokument je oštećen; Tipnite ovdje za prikaz pojedinosti" short="Podatci o oštećenjima" />
+    <item id="33370" title="Postavke dokumenta" tooltip="Sadrže mogućnosti pregleda, obrade i manipulacija ovog dokumenta" status="Sadrže mogućnosti pregleda, obrade i manipulacija ovog dokumenta" short="Postavke dokumenta" />
+    <item id="33371" title="Prikaz okna sa slojevima" tooltip="Taj dokument sadrži više slojeva: Tipnite ovdje za prikaz okna s njima" status="Taj dokument sadrži više slojeva: Tipnite ovdje za prikaz okna s njima" short="Prikaz okna sa slojevima" />
+    <item id="33372" title="Kartica s poljima" tooltip="Prikazati/sakriti karticu s poljima" status="Taj dokument sadrži polja obrasca. Tipnite prikazati/sakriti karticu polja" short="Kartica s poljima" />
+    <item id="33373" title="Nema svojstava" tooltip="Nije odabran ni jedan objekt sa svojstvima" status="Nije odabran ni jedan objekt sa svojstvima" short="" />
+    <item id="33374" title="Boje ispune" tooltip="Boje ispune" status="" short="" />
+    <item id="33375" title="Boja obruba" tooltip="Boja obruba" status="" short="" />
+    <item id="33376" title="Vrsta crte" tooltip="Vrsta crte" status="" short="" />
+    <item id="33377" title="Debljina crte" tooltip="Debljina crte" status="" short="" />
+    <item id="33378" title="Vrsta strijelice" tooltip="Vrsta strijelice" status="" short="" />
+    <item id="33379" title="Prozirnost" tooltip="Stupanj pokrivenosti bojom" status="" short="Prozirnosti:" />
+    <item id="33380" title="Simbol" tooltip="Slog simbola" status="" short="" />
+    <item id="33381" title="Boja" tooltip="Boja" status="" short="" />
+    <item id="33382" title="Oblikovanje teksta" tooltip="Prikazati/sakriti karticu alata za oblikovanje teksta" status="" short="" />
+    <item id="33383" title="Preslika izbora stranice" tooltip="Preslika izbora stranice" status="" short="" />
+    <item id="33384" title="Odabrati cijelu stranicu" tooltip="Odabrati cijelu stranicu" status="" short="" />
+    <item id="33410" title="Komentirati" tooltip="Komentirati" status="" short="" />
+    <item id="33411" title="Oblik teksta" tooltip="Oblik teksta" status="" short="" />
+    <item id="33412" title="Snimka" tooltip="Načiniti snimku" status="" short="" />
+    <item id="33413" title="Uvećati" tooltip="Uvećati prikaz izgleda" status="Uvećati prikaz izgleda" short="" />
+    <item id="33414" title="Umanjiti" tooltip="Umanjiti prikaz izgleda" status="Umanjiti prikaz izgleda" short="" />
+    <item id="33416" title="Dodati straničnik" tooltip="" status="" short="" />
+    <item id="33421" title="Poravnati lijeve rubove" tooltip="Poravnati lijeve rubove" status="" short="" />
+    <item id="33422" title="Poravnati desne rubove" tooltip="Poravnati desne rubove" status="" short="" />
+    <item id="33423" title="Poravnati gornje rubove" tooltip="Poravnati gornje rubove" status="" short="" />
+    <item id="33424" title="Poravnati donje rubove" tooltip="Poravnati donje rubove" status="" short="" />
+    <item id="33425" title="Centrirati vodoravno" tooltip="Centrirati vodoravno" status="" short="" />
+    <item id="33426" title="Centrirati okomito" tooltip="Centrirati okomito" status="" short="" />
+    <item id="33427" title="Rasporediti vodoravno" tooltip="Rasporediti vodoravno" status="" short="" />
+    <item id="33428" title="Rasporediti okomito" tooltip="Rasporediti okomito" status="" short="" />
+    <item id="33429" title="Rasporediti na istu širinu" tooltip="Rasporediti na istu širinu" status="" short="" />
+    <item id="33430" title="Rasporediti na istu visinu" tooltip="Rasporediti na istu visinu" status="" short="" />
+    <item id="33431" title="Rasporediti na istu veličinu" tooltip="Rasporediti na istu veličinu" status="" short="" />
+    <item id="33432" title="Trenutni izgled postaviti kao standardni" tooltip="Trenutni izgled postaviti kao standardni" status="Trenutni izgled postaviti kao standardni" short="" />
+    <item id="33433" title="Primijeniti standardni izgled" tooltip="Standardni izgled primijeniti na odabrane poveznice" status="Standardni izgled primijeniti na odabrane poveznice" short="" />
+    <item id="33800" title="Uobičajeni smještaj napisa" tooltip="Obnavljanje prvobitnog smještaja napisa" status="" short="" />
+    <item id="33801" title="Izbrisati napis" tooltip="Brisanje napisa" status="" short="" />
+    <item id="33802" title="Obrada napisa" tooltip="Obrada napisa" status="" short="" />
+    <item id="33805" title="Izmijeniti čimbenik stupnjevanja" tooltip="Izmijeniti čimbenik stupnjevanja" status="" short="" />
+    <item id="33806" title="Izmjena napisa" tooltip="Izmjena napisa" status="" short="" />
+    <item id="33807" title="Prikaz okna s podatcima mjerenja" tooltip="Prikazuje okno s podatcima mjerenja" status="" short="" />
+    <item id="33808" title="Pravokutno" tooltip="Pravokutni uglovi" status="" short="" />
+    <item id="33809" title="Prekid mjerenja" tooltip="Prekida se mjerenje" status="" short="" />
+    <item id="33810" title="Okončati mjerenje" tooltip="Okončati mjerenje" status="" short="" />
+    <item id="33811" title="Mjerne podatke izvesti i CSV-datoteku" tooltip="Izvoz mjernih podataka" status="" short="" />
+    <item id="36000" title="Postavke..." tooltip="Prikazati mogućnosti prilagodbe alatnih traka..." status="Prikazati mogućnosti prilagodbe alatnih traka..." short="" />
+    <item id="36001" title="Zaključano" tooltip="Zaključano" status="" short="" />
+    <item id="36004" title="Uvećati" tooltip="Uvećati pismo straničnika" status="Uvećati pismo straničnika" short="" />
+    <item id="36005" title="Umanjiti" tooltip="Umanjiti pismo straničnika" status="Umanjiti pismo straničnika" short="" />
+    <item id="36006" title="Izbrisati straničnike" tooltip="Izbrisati odabrane straničnike" status="Izbrisati odabrane straničnike" short="Izbrisati" />
+    <item id="36007" title="Svojstva straničnika..." tooltip="Prikazati/sakriti svojstva odabranog straničnika" status="Prikazati/sakriti svojstva odabranog straničnika" short="Urediti" />
+    <item id="36008" title="Novi straničnik" tooltip="Napraviti novi straničnik" status="Napraviti novi straničnik" short="Novi" />
+    <item id="36009" title="Osigurati vidljivost straničnika" tooltip="Osigurati vidljivost odgovarajućih straničnika" status="Osigurati vidljivost odgovarajućih straničnika" short="" />
+    <item id="36010" title="Skočiti na straničnik" tooltip="Skočiti na straničnik" status="Prikazati straničnik" short="" />
+    <item id="36011" title="Obnoviti" tooltip="Obnoviti popis straničnika" status="Obnoviti popis straničnika" short="" />
+    <item id="36012" title="Dodati..." tooltip="Prikazati dialog za dodavanje nove akcije..." status="Prikazati dialog za dodavanje nove akcije..." short="" />
+    <item id="36013" title="Izbrisati" tooltip="Izbrisati odabrane akcije" status="Izbrisati odabrane akcije" short="" />
+    <item id="36014" title="Na gore" tooltip="Odabrane akcije u redoslijedu izvođenja pomaknuti na gore" status="Odabrane akcije u redoslijedu izvođenja pomaknuti na gore" short=""></item>
+    <item id="36015" title="Na dolje" tooltip="Odabrane akcije u redoslijedu izvođenja pomaknuti na dolje" status="Odabrane akcije u redoslijedu izvođenja pomaknuti na dolje" short="" />
+    <item id="36016" title="Urediti..." tooltip="Urediti svojstva odabrane akcije..." status="Urediti svojstva odabrane akcije..." short="" />
+    <item id="36017" title="Iskušati" tooltip="Iskušati odabranu akciju..." status="Iskušati odabranu akciju..." short="" />
+    <item id="36018" title="Iskušati sve" tooltip="Iskušati sve akcije..." status="Iskušati sve akcije..." short="" />
+    <item id="36019" title="Natrag" tooltip="Poništiti popis akcija i opozvati izmjene" status="Poništiti popis akcija i opozvati izmjene" short="" />
+    <item id="36023" title="Preimenovati" tooltip="Preimenovati odabrani straničnik" status="Preimenovati odabrani straničnik" short="" />
+    <item id="36024" title="Trenutni izgled zadati kao standardni" tooltip="Trenutni izgled zadati kao standardni" status="Trenutni izgled zadati kao standardni" short="" />
+    <item id="36025" title="Prelomiti duge nazive" tooltip="Duge nazive straničnika prelomiti na više redaka" status="Duge nazive straničnika prelomiti na više redaka" short="" />
+    <item id="36026" title="Primijeniti standardni izgled" tooltip="Za odabrane straničnike primijeniti standardni izgled" status="Za odabrane straničnike primijeniti standardni izgled" short="" />
+    <item id="36027" title="Izvođenje" tooltip="Izvesti skript" status="" short="" />
+    <item id="36028" title="Brisanje" tooltip="Izbrisati izlaz konzole" status="" short="" />
+    <item id="36035" title="Skočiti na redak..." tooltip="" status="" short="" />
+    <item id="36036" title="Mogućnosti JavaScripta" tooltip="Prikazati mogućnosti JavaScripta" status="Prikazati mogućnosti JavaScripta" short="" />
+    <item id="36037" title="Umetnuti stranice..." tooltip="" status="" short="" />
+    <item id="36038" title="Izvaditi stranice..." tooltip="" status="" short="" />
+    <item id="36039" title="Nadomjestiti stranice..." tooltip="" status="" short="" />
+    <item id="36040" title="Prijelazi stranica..." tooltip="" status="" short="" />
+    <item id="36048" title="Odredište straničnika" tooltip="Zadati odredište straničnika" status="Trenutačni nazor postaviti za odredište straničnika" short="" />
+    <item id="36049" title="" tooltip="Vrsta pisma" status="" short="Vrsta pisma:" />
+    <item id="36250" title="" tooltip="Slog isticanja" status="" short="Isticanje:" />
+    <item id="36252" title="Čitave riječi" tooltip="Tražiti samo čitave riječi" status="Tražiti samo čitave riječi, onako kako su zadane" short="" />
+    <item id="36253" title="Razlikovati mala/velika slova" tooltip="Razlikovati mala/velika slova" status="Pri pretraživanju se uzimaju u obzir mala/velika slova" short="" />
+    <item id="36254" title="Uključujući komentare" tooltip="Pretraživanje teksta komentara" status="Pretraživanje teksta komentara prikazanih na kartici komentara" short="" />
+    <item id="36255" title="Uključujući straničnike" tooltip="Pretraživanje teksta straničnika" status="Pretraživanje teksta straničnika prikazanih na kartici straničnika" short="" />
+    <item id="36260" title="1600%" tooltip="" status="" short="" />
+    <item id="36262" title="12,5%" tooltip="" status="" short="" />
+    <item id="36263" title="8,33%" tooltip="" status="" short="" />
+    <item id="36264" title="" tooltip="" status="" short="Uvećanje:" />
+    <item id="36273" title="" tooltip="Boja ispune" status="" short="Boja ispune:" />
+    <item id="36274" title="" tooltip="Boja crte" status="" short="Boja crte ograničenja" />
+    <item id="36276" title="" tooltip="Simbol komentara" status="" short="Simbol:" />
+    <item id="36279" title="" tooltip="Slog obruba" status="" short="Obrub:" />
+    <item id="36281" title="" tooltip="Širina obruba" status="" short="Širina:" />
+    <item id="36287" title="" tooltip="Slog za kraj crte" status="" short="Kraj crte" />
+    <item id="36289" title="" tooltip="Slog za početak crte" status="" short="Početak crte" />
+    <item id="36291" title="Uvećati" tooltip="Uvećati prikaz izgleda" status="Uvećati prikaz izgleda" short="" />
+    <item id="36292" title="Umanjiti" tooltip="Umanjiti prikaz izgleda" status="Umanjiti prikaz izgleda" short="" />
+    <item id="36293" title="Načiniti iz međuspremnika" tooltip="Pečat načiniti pomoću slike iz međuspremnika" status="Pečat načiniti pomoću slike iz međuspremnika" short="Iz međuspremnika" />
+    <item id="36294" title="Izbrisati pečat" tooltip="Izbrisati odabrani pečat" status="Izbrisati odabrani pečat" short="Izbrisati" />
+    <item id="36295" title="Umetnuti pečat..." tooltip="Umetnuti pečat..." status="Umetnuti pečat..." short="" />
+    <item id="36296" title="Izbrisati zbirku" tooltip="Izbrisati odabranu zbirku pečata" status="Izbrisati odabranu zbirku pečata" short="Izbrisati" />
+    <item id="36297" title="Napraviti novu zbirku..." tooltip="Napraviti novu zbirku pečata..." status="Napraviti novu zbirku pečata..." short="Nova..." />
+    <item id="36298" title="Urediti pečat..." tooltip="Urediti odabrani pečat..." status="Urediti odabrani pečat..." short="Urediti..." />
+    <item id="36299" title="Urediti zbirku..." tooltip="Urediti odabranu zbirku pečata..." status="Urediti odabranu zbirku pečata..." short="Urediti..." />
+    <item id="36300" title="Gumica" tooltip="Gumica" status="Gumica" short="Gumica" />
+    <item id="36301" title="Promjer" tooltip="Veličina gumice" status="" short="Promjer" />
+    <item id="36303" title="Napraviti iz PDF-a..." tooltip="Pečat napraviti iz PDF-dokumenta..." status="Pečat napraviti iz PDF-dokumenta..." short="" />
+    <item id="36304" title="Napraviti pomoću slike..." tooltip="Pečat napraviti pomoću slike iz mape..." status="Pečat napraviti pomoću slike iz mape..." short="" />
+    <item id="36305" title="Umetnuti prazne stranice..." tooltip="" status="" short="" />
+    <item id="36306" title="Rasklopiti" tooltip="Rasklopiti sve straničnike" status="" short="Rasklopiti sve" />
+    <item id="36307" title="Sklopiti" tooltip="Sklopiti sve straničnike" status="" short="Sklopiti sve" />
+    <item id="36308" title="Svojstva teksta..." tooltip="Prikazati svojstva teksta..." status="Prikazati dijalog sa svojstvima odabranog teksta" short="Svojstva teksta..." />
+    <item id="36309" title="Vratiti prvobitnu alatnu traku" tooltip="Vratiti postavke ove trake u prvobitno stanje" status="Vratiti postavke ove trake u prvobitno stanje" short="Vratiti prvobitnu alatnu traku" />
+    <item id="36313" title="" tooltip="Prvobitna tipkovna prečica" status="" short="" />
+    <item id="36314" title="" tooltip="Izbrisati tipkovnu prečicu" status="" short="" />
+    <item id="36315" title="Vratiti prvobitni izbornik" tooltip="Vratiti postavke ovog izbornika u prvobitno stanje" status="Vratiti postavke ovog izbornika u prvobitno stanje" short="Vratiti prvobitni izbornik" />
+    <item id="36316" title="Prvobitni pop-up izbornik" tooltip="Postavke ovog pop-up izbornika vratiti u prvobitno stanje" status="Postavke ovog pop-up izbornika vratiti u prvobitno stanje" short="Prvobitni pop-up izbornik" />
+    <item id="36324" title="Odaberite ikonu" tooltip="" status="" short="" />
+    <item id="36326" title="Prvobitno" tooltip="" status="" short="" />
+    <item id="36327" title="Izbrisati" tooltip="" status="" short="" />
+    <item id="36328" title="Standardni slog" tooltip="" status="" short="" />
+    <item id="36329" title="Prikazati ikonu" tooltip="" status="" short="" />
+    <item id="36330" title="Prikazati tekst" tooltip="" status="" short="" />
+    <item id="36331" title="Umetnuti razmak ispred" tooltip="" status="" short="" />
+    <item id="36332" title="Umetnuti razmak pozadi" tooltip="" status="" short="" />
+    <item id="36333" title="Svojstva" tooltip="" status="" short="" />
+    <item id="36334" title="Prikazati nazor" tooltip="" status="" short="" />
+    <item id="36335" title="Prikazati naslov" tooltip="Prikazati naslov komentara" status="Prikazati naslov komentara" short="" />
+    <item id="36336" title="Prikazati autora" tooltip="Prikazati autora komentara" status="Prikazati autora komentara" short="" />
+    <item id="36337" title="Prikazati nadnevak" tooltip="Prikazati nadnevak komentara" status="Prikazati nadnevak komentara" short="" />
+    <item id="36338" title="Prikazati tekst" tooltip="Prikazati tekst komentara" status="Prikazati tekst komentara" short="" />
+    <item id="36339" title="Prikazati boju" tooltip="Prikazati boju komentara" status="Prikazati boju komentara" short="" />
+    <item id="36340" title="Komentare umetnuti..." tooltip="" status="" short="" />
+    <item id="36341" title="Izbrisati popis" tooltip="Izbrisati pohranjeni popis traženih pojmova" status="" short="Izbrisati popis" />
+    <item id="36342" title="Traka povezničkog uređivača" tooltip="Prikazati/sakriti traku povezničkog uređivača" status="Prikazati/sakriti traku povezničkog uređivača" short="" />
+    <item id="36343" title="Pravokutna poveznica" tooltip="Pravokutna poveznica" status="" short="Poveznica" />
+    <item id="36344" title="Četverokutna poveznica" tooltip="Četverokutna poveznica" status="" short="Poveznica" />
+    <item id="36345" title="Traka mjerenja" tooltip="Prikazati/sakriti traku mjerenja" status="Prikazati/sakriti traku mjerenja" short="" />
+    <item id="36346" title="Udaljenost" tooltip="Alat za mjerenje udaljenosti između dvije točke" status="" short="Udaljenost" />
+    <item id="36347" title="Opseg" tooltip="Alat za mjerenje opsega objekta" status="" short="Opseg" />
+    <item id="36348" title="Površina" tooltip="Alat za mjerenje površine objekta" status="" short="Površina" />
+    <item id="36349" title="Komentari" tooltip="" status="" short="" />
+    <item id="36350" title="Sakupiti komentare..." tooltip="" status="" short="" />
+    <item id="36351" title="Komentare izvesti u datoteku..." tooltip="" status="" short="" />
+    <item id="36352" title="Razmaknuti stranice" tooltip="Prikazivati razmak među stranicama" status="" short="" />
+    <item id="36353" title="Prikazivati naslovnu stranicu" tooltip="Kod dvostraničnog prikaza prikazivati naslovnu stranicu" status="" short="" />
+    <item id="36355" title="Vrijednost (od)" tooltip="Vrijednost (od)" status="" short="Od:" />
+    <item id="36356" title="Vrijednost (do)" tooltip="Vrijednost (do)" status="" short="Do:" />
+    <item id="36357" title="Jedinica (od)" tooltip="Jedinica (od)" status="" short="Od:" />
+    <item id="36359" title="Jedinica (do)" tooltip="Jedinica (do)" status="" short="Do:" />
+    <item id="36362" title="Dodati &quot;Preskočiti na stranicu u ovom dokumentu&quot;..." tooltip="Dodati &quot;Preskočiti na stranicu u ovom dokumentu&quot;..." status="Dodati &quot;Preskočiti na stranicu u ovom dokumentu&quot;, prikazati okno dijaloga za novu akciju..." short="" />
+    <item id="36363" title="Dodati &quot;Otvoriti spletnu poveznicu&quot;..." tooltip="Dodati &quot;Otvoriti spletnu poveznicu&quot;..." status="Dodati &quot;Otvoriti spletnu poveznicu&quot;, prikazati okno dijaloga za novu akciju..." short="" />
+    <item id="36364" title="S praznim stranicama..." tooltip="S praznim stranicama..." status="Napraviti novi PDF-dokument s praznim stranicama..." short="" />
+    <item id="36365" title="Iz tekstovne datoteke..." tooltip="Iz tekstovne datoteke..." status="Napraviti novi PDF-dokument iz postojeće tekstovne datoteke..." short="" />
+    <item id="36366" title="Natrag" tooltip="" status="" short="" />
+    <item id="36367" title="Ponovo" tooltip="" status="" short="" />
+    <item id="36368" title="Izrezati" tooltip="" status="" short="" />
+    <item id="36369" title="Preslikati" tooltip="" status="" short="" />
+    <item id="36370" title="Pohraniti" tooltip="" status="" short="" />
+    <item id="36371" title="Izbrisati" tooltip="" status="" short="" />
+    <item id="36372" title="Odabrati sve" tooltip="" status="" short="" />
+    <item id="36373" title="Zaključati/otključati alatne trake" tooltip="Zaključati/otključati alatne trake" status="Zaključati/otključati alatne trake: zabranjuju se izmjena i pomjeranje alatne trake" short="Brava alatne trake" />
+    <item id="36374" title="Vratiti standardne postavke..." tooltip="Vratiti sve na standardne postavke..." status="Vratiti sve na standardne postavke..." short="" />
+    <item id="36375" title="Iz slikovne datoteke..." tooltip="Iz slikovne datoteke..." status="Iz postojeće/-ih slikovne/-ih datoteke/-a napraviti novi PDF-dokument" short="" />
+    <item id="57600" title="Novi dokument..." tooltip="" status="" short="" />
+    <item id="57601" title="Otvoriti..." tooltip="Otvoriti postojeći dokument" status="Otvoriti postojeći dokument" short="" />
+    <item id="57602" title="Zatvoriti" tooltip="Zatvoriti aktivni dokument" status="Zatvoriti aktivni dokument" short="" />
+    <item id="57603" title="Pohraniti" tooltip="Pohraniti aktivni dokument" status="Pohraniti aktivni dokument" short="" />
+    <item id="57604" title="Pohraniti kao..." tooltip="Aktivni dokument pohraniti pod novim nazivom" status="Aktivni dokument pohraniti pod novim nazivom" short="" />
+    <item id="57607" title="Ispis..." tooltip="Ispisati aktivni dokument" status="Ispisati aktivni dokument" short="" />
+    <item id="57611" title="Presliku pohraniti kao..." tooltip="Aktivni dokument pohraniti u novoj datoteci" status="Aktivni dokument pohraniti u novoj datoteci" short="" />
+    <item id="57612" title="Poslati e-poštom" tooltip="Aktivni dokument priložiti novoj elektronskoj poruci" status="Aktivni dokument priložiti novoj elektronskoj poruci" short="" />
+    <item id="57632" title="Poništiti" tooltip="Odabir poništiti" status="Odabir poništiti" short="" />
+    <item id="57634" title="Preslikati" tooltip="Odabrano područje preslikati u međuspremnik" status="Odabrano područje preslikati u međuspremnik" short="" />
+    <item id="57635" title="Izrezati" tooltip="Odabrano područje izrezati i pohraniti u međuspremnik" status="Odabrano područje izrezati i pohraniti u međuspremnik" short="" />
+    <item id="57636" title="Pretražiti" tooltip="Potražiti zadani tekst u aktivnom dokumentu" status="Potražiti zadani tekst u aktivnom dokumentu" short="" />
+    <item id="57637" title="Pohraniti" tooltip="Umetnuti sadržaj međumemorije" status="Umetnuti sadržaj međumemorije" short="" />
+    <item id="57642" title="Odabrati sve" tooltip="Odabrati sve" status="" short="" />
+    <item id="57643" title="Natrag" tooltip="Poništiti posljednju akciju" status="Poništiti posljednju akciju" short="" />
+    <item id="57644" title="Ponoviti" tooltip="Ponoviti posljednju akciju" status="Ponoviti posljednju akciju" short="" />
+    <item id="57649" title="Poslagati simbole" tooltip="Simbole poslagati pri dnu okna" status="Simbole poslagati pri dnu okna" short="" />
+    <item id="57650" title="Stepenasto" tooltip="Okna poslagati stepenasto" status="Okna poslagati stepenasto" short="" />
+    <item id="57651" title="Jedno ispod drugog" tooltip="Okna poslagati jedno ispod drugog" status="Okna poslagati jedno ispod drugog" short="" />
+    <item id="57652" title="Jedno kraj drugog" tooltip="Okna poslagati jedno kraj drugog" status="Okna poslagati jedno kraj drugog" short="" />
+    <item id="57653" title="Razdjeliti" tooltip="Aktivno okno razdjeliti na polja" status="Aktivno okno razdjeliti na polja" short="" />
+    <item id="57664" title="O PDF-XChange Vieweru..." tooltip="Informacije o programu, inačici i autorskim pravima" status="Informacije o programu, inačici i autorskim pravima" short="" />
+    <item id="57665" title="Svršetak" tooltip="Okončati aplikaciju" status="Okončati aplikaciju" short="" />
+    <item id="57670" title="Pomoć" tooltip="" status="" short="" />
+    <item id="57718" title="Pomjerati na lijevo" tooltip="Pomjerati na lijevo" status="" short="" />
+    <item id="57719" title="Pomjerati na desno" tooltip="Pomjerati na desno" status="" short="" />
+    <item id="59393" title="Traka stanja" tooltip="Prikazati/sakriti traku stanja" status="Prikazati/sakriti traku stanja" short="" />
+    <item id="9383416" title="Pohraniti kao" tooltip="Pohraniti kao" status="" short="????????" />
+    <item id="9383660" title="" tooltip="Pohraniti" status="Pohraniti" short="" />
+    <item id="9383840" title="Otvoriti dokument s URL" tooltip="" status="Otvoriti URL" short="" />
+    <item id="1073742336" title="Otvoriti postojeći dokument..." tooltip="Otvoriti postojeći dokument..." status="" short="Otvoriti" />
+  </commands>
+  <dialogs>
+    <dialog id="203" text="Postavke">
+      <item id="1" text="U redu" tooltip="" />
+      <item id="2" text="Odustati" tooltip="" />
+      <item id="3" text="Primijeniti" tooltip="" />
+    </dialog>
+    <dialog id="204" text="">
+      <item id="1004" text="Postavke izlaza prepisuju područja bôja" tooltip="" />
+      <item id="1008" text="Primjenjivati kompenzaciju crnih točaka" tooltip="" />
+      <item id="1038" text="Postavke bôja:" tooltip="" />
+      <item id="1039" text="RGB:" tooltip="" />
+      <item id="1040" text="CMYK:" tooltip="" />
+      <item id="1041" text="Tonovi sivog:" tooltip="" />
+      <item id="1042" text="Profil:" tooltip="" />
+      <item id="1200" text="Prostori bôja" tooltip="" />
+      <item id="1201" text="Mogućnosti konverzije" tooltip="" />
+    </dialog>
+    <dialog id="207" text="">
+      <item id="4" text="Odabrati..." tooltip="" />
+      <item id="1009" text="Najveći broj stavki na popisu naposlijed otvaranih:" tooltip="" />
+      <item id="1012" text="Kod zaštićenih dokumenata uvijek iziskivati zaporku" tooltip="" />
+      <item id="1013" text="Dokument otvoriti u prikazu kao i zadnji put" tooltip="" />
+      <item id="1014" text="Prikazivati uvodnu zaslonsku sliku" tooltip="" />
+      <item id="1015" text="Dopuštati više programskih razina" tooltip="" />
+      <item id="1032" text="Kartice dokumenata" tooltip="" />
+      <item id="1033" text="Nekoliko dokumenata" tooltip="" />
+      <item id="1035" text="Pokazivati zatvarački gumb svake kartice" tooltip="" />
+      <item id="1036" text="Samostalni dokument" tooltip="" />
+      <item id="1038" text="Način pohranjivanja:" tooltip="" />
+      <item id="1039" text="Odredišna mapa za pohranjivanje datoteka preuzetih sa spletnih stranica:" tooltip="" />
+      <item id="1198" text="Pokretanje aplikacije" tooltip="" />
+      <item id="1200" text="Izgled dokumenata" tooltip="" />
+      <item id="1201" text="Otvaranje dokumenata" tooltip="" />
+      <item id="1202" text="Pohranjivanje dokumenata" tooltip="" />
+      <item id="1227" text="Isprazniti popis" tooltip="" />
+    </dialog>
+    <dialog id="212" text="Unos zaporke dokumenta">
+      <item id="1" text="U redu" tooltip="" />
+      <item id="2" text="Odustati" tooltip="" />
+      <item id="1039" text="Molim unijeti valjanu zaporku dokumenta:" tooltip="" />
+    </dialog>
+    <dialog id="213" text="Svojstva dokumenta">
+      <item id="1" text="U redu" tooltip="" />
+      <item id="2" text="Odustati" tooltip="" />
+      <item id="3" text="Primijeniti" tooltip="" />
+    </dialog>
+    <dialog id="214" text="">
+      <item id="1038" text="Naziv datoteke:" tooltip="" />
+      <item id="1039" text="Mjesto:" tooltip="" />
+      <item id="1040" text="Napravljeno:" tooltip="" />
+      <item id="1041" text="Izmijenjeno:" tooltip="" />
+      <item id="1042" text="Veličina:" tooltip="" />
+      <item id="1043" text="Naslov:" tooltip="" />
+      <item id="1044" text="Autor:" tooltip="" />
+      <item id="1200" text="Informacije o datoteci" tooltip="" />
+      <item id="1201" text="Informacije o dokumentu" tooltip="" />
+      <item id="1203" text="Predmet:" tooltip="" />
+      <item id="1204" text="Ključni pojmovi:" tooltip="" />
+      <item id="1205" text="Tvorac PDF-a:" tooltip="" />
+      <item id="1206" text="Aplikacija:" tooltip="" />
+      <item id="1207" text="Inačica PDF-a:" tooltip="" />
+      <item id="1208" text="Broj stranica:" tooltip="" />
+      <item id="1209" text="Dodatni metapodatci..." tooltip="" />
+    </dialog>
+    <dialog id="220" text="">
+      <item id="1038" text="Ispis:" tooltip="" />
+      <item id="1039" text="Dokument izmijeniti:" tooltip="" />
+      <item id="1040" text="Sadržaj preslikati ili vaditi:" tooltip="" />
+      <item id="1041" text="Napraviti komentare ili polja obrazaca:" tooltip="" />
+      <item id="1042" text="Ispunjavanje ili potpisivanje pôlja obrazaca:" tooltip="" />
+      <item id="1043" text="Pristup sadržaju dokumenta:" tooltip="" />
+      <item id="1044" text="Sastavljanje dokumenta:" tooltip="" />
+      <item id="1200" text="Zaštićenost dokumenta" tooltip="" />
+      <item id="1201" text="Dopuštenja u sklopu dokumenta" tooltip="" />
+      <item id="1203" text="Način zaštite dokumenta određuje jesu li i koje izmjene u njemu dopuštene." tooltip="" />
+      <item id="1204" text="Način zaštite:" tooltip="" />
+      <item id="1205" text="Razina zaštite:" tooltip="" />
+      <item id="1206" text="Zaporka za otvaranje:" tooltip="" />
+      <item id="1207" text="Zaštitna zaporka:" tooltip="" />
+      <item id="1210" text="Izmjena postavki..." tooltip="" />
+    </dialog>
+    <dialog id="221" text="Izvoz slike">
+      <item id="1" text="Izvoz..." tooltip="" />
+      <item id="2" text="Odustati" tooltip="" />
+      <item id="4" text="Odabrati..." tooltip="" />
+      <item id="6" text="Makroi" tooltip="" />
+      <item id="7" text="Mogućnosti..." tooltip="" />
+      <item id="1038" text="Zadajte brojeve stranica i/ili područja stranice odjeljenih zarezima, počevši od početka dokumenta. Napr.: 1,3,5-12" tooltip="" />
+      <item id="1039" text="Razmjere:" tooltip="" />
+      <item id="1040" text="Odredišna mapa:" tooltip="" />
+      <item id="1041" text="Oblik datoteke:" tooltip="" />
+      <item id="1042" text="Naziv datoteke:" tooltip="" />
+      <item id="1043" text="Način izvoza:" tooltip="" />
+      <item id="1044" text="Razlučivost:" tooltip="" />
+      <item id="1045" text="Sve" tooltip="" />
+      <item id="1046" text="Aktualna stranica" tooltip="" />
+      <item id="1047" text="Odabrane stranice" tooltip="" />
+      <item id="1048" text="Aktualni prikaz" tooltip="" />
+      <item id="1049" text="Stranice:" tooltip="" />
+      <item id="1050" text="Odabrana slika" tooltip="" />
+      <item id="1060" text="Transparentno" tooltip="" />
+      <item id="1061" text="Boja:" tooltip="" />
+      <item id="1088" text="Obratnim redoslijedom" tooltip="" />
+      <item id="1200" text="Razmjere stranica" tooltip="" />
+      <item id="1201" text="Pohraniti kao" tooltip="" />
+      <item id="1202" text="Grafika" tooltip="" />
+      <item id="1203" text="Pozadina:" tooltip="" />
+      <item id="1204" text="Razmjere stranica" tooltip="" />
+      <item id="1206" text="Uvećanje:" tooltip="" />
+      <item id="1330" text="Sve" tooltip="" />
+      <item id="1331" text="Odabrane stranice" tooltip="" />
+      <item id="1332" text="Aktualna stranica" tooltip="" />
+      <item id="1333" text="Stranice:" tooltip="" />
+      <item id="1335" text="Izvesti:" tooltip="" />
+      <item id="1339" text="Aktualni prikaz izgleda" tooltip="" />
+      <item id="1340" text="Izabrana grafika" tooltip="" />
+      <item id="1341" text="Obratnim redoslijedom" tooltip="" />
+      <item id="1387" text="Zadajte brojeve i/ili područja stranica odjeljenih zarezima, počevši od početka dokumenta. Napr.: 1,3,5-12" tooltip="" />
+    </dialog>
+    <dialog id="222" text="Mogućnosti pohranjivanja slika">
+      <item id="1" text="U redu" tooltip="" />
+      <item id="2" text="Odustati" tooltip="" />
+    </dialog>
+    <dialog id="223" text="Tijek...">
+      <item id="1071" text="Odustati" tooltip="" />
+      <item id="1072" text="Preskočiti" tooltip="" />
+    </dialog>
+    <dialog id="224" text="">
+      <item id="1038" text="Standardni prikaz stranica:" tooltip="" />
+      <item id="1039" text="Standardni izgled stranica:" tooltip="" />
+      <item id="1040" text="Standardno uvećavanje:" tooltip="" />
+      <item id="1041" text="Primijeniti razlučivost:" tooltip="" />
+      <item id="1042" text="DPI (točaka na palac)" tooltip="" />
+      <item id="1073" text="Prikazati okvire crtanja, obrezivanja i razlijevanja" tooltip="" />
+      <item id="1074" text="Pokazati mrežu prozirnosti" tooltip="" />
+      <item id="1076" text="Zagladiti tekst " tooltip="" />
+      <item id="1077" text="Zagladiti crte" tooltip="" />
+      <item id="1078" text="Zagladiti slike" tooltip="" />
+      <item id="1079" text="URL-e pretvoriti u poveznice" tooltip="" />
+      <item id="1083" text="Pokazivati velike slike" tooltip="" />
+      <item id="1126" text="Pri otvaranju obnoviti naposlijed korišteni prikaz dokumenta" tooltip="" />
+      <item id="1200" text="Prikaz stranice" tooltip="" />
+      <item id="1201" text="Standardni prikaz" tooltip="" />
+      <item id="1202" text="Izgled pri otvaranju" tooltip="" />
+      <item id="1228" text="Pri otvaranju datoteka s popisa naposlijed korištenih obnoviti naposlijed korišteni izgled i uvećanje dokumenta." tooltip="" />
+    </dialog>
+    <dialog id="227" text="Potvrda nadomještanja datoteka">
+      <item id="2" text="Odustati" tooltip="" />
+      <item id="6" text="Da" tooltip="" />
+      <item id="7" text="Ne" tooltip="" />
+      <item id="100" text="Da za sve" tooltip="" />
+      <item id="101" text="Ne za sve" tooltip="" />
+      <item id="102" text="Automatski" tooltip="" />
+      <item id="103" text="Uložiti kao..." tooltip="" />
+      <item id="1040" text="Nadomjestiti datoteku?" tooltip="" />
+      <item id="1041" text="Automatsko preimenovanje u svrhu dodjele jednoznačnih naziva:" tooltip="" />
+    </dialog>
+    <dialog id="228" text="Greška pri pohranjivanju datoteke">
+      <item id="3" text="Odustati" tooltip="" />
+      <item id="4" text="Opetovati" tooltip="" />
+      <item id="5" text="Zanemariti" tooltip="" />
+      <item id="103" text="Pohraniti kao..." tooltip="" />
+    </dialog>
+    <dialog id="229" text="Ispis">
+      <item id="1" text="U redu" tooltip="" />
+      <item id="2" text="Odustati" tooltip="" />
+      <item id="1038" text="Broj ispisa:" tooltip="" />
+      <item id="1039" text="Zadajte brojeve i/ili područja stranica odjeljenih zarezima, počevši od početka dokumenta. Napr.: 1,3,5-12" tooltip="" />
+      <item id="1040" text="Samo:" tooltip="" />
+      <item id="1041" text="Način stupnjevanja:" tooltip="" />
+      <item id="1042" text="List:" tooltip="" />
+      <item id="1043" text="Naziv:" tooltip="" />
+      <item id="1044" text="Stanje:" tooltip="" />
+      <item id="1045" text="Sve" tooltip="" />
+      <item id="1046" text="Aktualna stranica" tooltip="" />
+      <item id="1047" text="Odabrane stranice" tooltip="" />
+      <item id="1048" text="Aktualni prikaz" tooltip="" />
+      <item id="1049" text="Stranice" tooltip="" />
+      <item id="1050" text="Odabrana slika" tooltip="" />
+      <item id="1086" text="Svojstva..." tooltip="" />
+      <item id="1087" text="Ispis u datoteku" tooltip="" />
+      <item id="1088" text="Obrnutim redoslijedom" tooltip="" />
+      <item id="1094" text="Upotpuniti" tooltip="" />
+      <item id="1096" text="Ispisivati u tonovima sivog" tooltip="" />
+      <item id="1097" text="Ispisivati kao sliku" tooltip="" />
+      <item id="1099" text="Mogućnosti..." tooltip="" />
+      <item id="1127" text="Obrada stranica" tooltip="" />
+      <item id="1200" text="Pisač" tooltip="" />
+      <item id="1201" text="Razmjere stranica" tooltip="" />
+      <item id="1202" text="Dodatne mogućnosti pisača" tooltip="" />
+      <item id="1203" text="Vrsta:" tooltip="" />
+      <item id="1204" text="Komentari:" tooltip="" />
+      <item id="1205" text="Komentari i obrasci:" tooltip="" />
+      <item id="1206" text="Ispisati:" tooltip="" />
+      <item id="1207" text="Uvećati:" tooltip="" />
+      <item id="1330" text="Sve" tooltip="" />
+      <item id="1331" text="Odabrane stranice" tooltip="" />
+      <item id="1332" text="Aktualna stranica" tooltip="" />
+      <item id="1333" text="Stranice:" tooltip="" />
+      <item id="1335" text="Ispisati:" tooltip="" />
+      <item id="1339" text="Aktualni prikaz" tooltip="" />
+      <item id="1340" text="Izabranu grafiku" tooltip="" />
+      <item id="1341" text="Obrnutim redoslijedom" tooltip="" />
+      <item id="1343" text="Napredno..." tooltip="" />
+      <item id="1387" text="Zadajte brojeve i/ili područja stranica odjeljenih zarezima, počevši od početka dokumenta. Napr.: 1,3,5-12" tooltip=""></item>
+    </dialog>
+    <dialog id="230" text="">
+      <item id="1038" text="Uvećanje:" tooltip="" />
+      <item id="1116" text="Papir odabrati na temelju veličine stranica PDF-a" tooltip="" />
+      <item id="1120" text="Stranice automatski okrenuti" tooltip="" />
+      <item id="1121" text="Stranice automatski centrirati" tooltip="" />
+    </dialog>
+    <dialog id="231" text="">
+      <item id="1038" text="Stranica po listu:" tooltip="" />
+      <item id="1039" text="Redoslijed stranica:" tooltip="" />
+      <item id="1108" text="Ispisivati obrub stranica" tooltip="" />
+      <item id="1120" text="Stranice automatski okrenuti" tooltip="" />
+      <item id="1121" text="Automatski centrirati" tooltip="" />
+      <item id="1128" text="na" tooltip="" />
+    </dialog>
+    <dialog id="232" text="">
+      <item id="1038" text="Uvećavanje:" tooltip="" />
+      <item id="1039" text="%" tooltip="" />
+      <item id="1040" text="Prekriti:" tooltip="" />
+      <item id="1041" text="točka" tooltip="" />
+      <item id="1042" text="Rezne oznake:" tooltip="" />
+      <item id="1110" text="Prikazati rezne oznake" tooltip="" />
+      <item id="1118" text="Prikazati opise na stranicama" tooltip="" />
+      <item id="1120" text="Stranice automatski okrenuti" tooltip="" />
+      <item id="1121" text="Stranice automatski centrirati" tooltip="" />
+    </dialog>
+    <dialog id="236" text="Otići na stranicu">
+      <item id="1" text="U redu" tooltip="" />
+      <item id="2" text="Odustati" tooltip="" />
+      <item id="1038" text="Unesite broj stranice:" tooltip="" />
+    </dialog>
+    <dialog id="237" text="Prilagoditi uvećavanje">
+      <item id="1" text="U redu" tooltip="" />
+      <item id="2" text="Odustati" tooltip="" />
+      <item id="1038" text="Zadejte faktor uvećavanja:" tooltip="" />
+    </dialog>
+    <dialog id="244" text="">
+      <item id="1038" text="Koju riječ ili rečenicu želite potražiti?" tooltip="" />
+      <item id="1039" text="Gdje želite tražiti?" tooltip="" />
+      <item id="1040" text="Razvrstavati prema:" tooltip="" />
+      <item id="1099" text="Mogućnosti" tooltip="" />
+      <item id="1139" text="Tražiti" tooltip="" />
+      <item id="1142" text="Brisati" tooltip="" />
+    </dialog>
+    <dialog id="245" text="Mogućnosti pretraživanja">
+      <item id="1" text="U redu" tooltip="" />
+      <item id="2" text="Odustati" tooltip="" />
+      <item id="1038" text="Koristiti srodnost:" tooltip="" />
+      <item id="1126" text="Razlikovati mala i velika slova" tooltip="" />
+      <item id="1128" text="Uključujući komentare" tooltip="" />
+      <item id="1129" text="Uključujući straničnike" tooltip="" />
+      <item id="1130" text="Uključujući podmape" tooltip="" />
+      <item id="1131" text="Uključujući priloge" tooltip="" />
+      <item id="1145" text="Samo potpune riječi" tooltip="" />
+      <item id="1193" text="Slijedeće" tooltip="" />
+      <item id="1194" text="Unutar stranice" tooltip="" />
+      <item id="1195" text="Unutar dokumenta" tooltip="" />
+      <item id="1200" text="Koristiti slijedeće dodatne kriterije:" tooltip="" />
+    </dialog>
+    <dialog id="246" text="Napredno pretraživanje">
+      <item id="1" text="U redu" tooltip="" />
+      <item id="2" text="Odustati" tooltip="" />
+      <item id="1038" text="mora sadržavati sve ove riječi:" tooltip="" />
+      <item id="1039" text="mora sadržavati ovu rečenicu:" tooltip="" />
+      <item id="1040" text="mora sadržavati bar jednu od riječi:" tooltip="" />
+      <item id="1041" text="ne smije sadržavati ni jednu od riječi:" tooltip="" />
+      <item id="1200" text="Pronađeni isljedci trebaju sadržavati:" tooltip="" />
+    </dialog>
+    <dialog id="247" text="">
+      <item id="1038" text="Iskorištenost sustavnog spremnika u postotcima:" tooltip="" />
+      <item id="1039" text="Najveći broj niti za prikaz stranica:" tooltip="" />
+      <item id="1040" text="Najveći broj niti za pregled stranica:" tooltip="" />
+      <item id="1041" text="Najveći broj tekućih niti:" tooltip="" />
+      <item id="1200" text="Popunjenost spremnika:" tooltip="" />
+      <item id="1201" text="Primjena niti" tooltip="" />
+    </dialog>
+    <dialog id="257" text="Okretanje stranica">
+      <item id="1" text="U redu" tooltip="" />
+      <item id="2" text="Odustati" tooltip="" />
+      <item id="1038" text="Okrenuti:" tooltip="" />
+      <item id="1039" text="Navedite brojeve i/ili područja stranica odjeljenih zarezima, počevši od početka dokumenta. Napr.: 1,3,5-12" tooltip="" />
+      <item id="1041" text="Smjer:" tooltip="" />
+      <item id="1164" text="Sve" tooltip="" />
+      <item id="1165" text="Odabrane stranice" tooltip="" />
+      <item id="1166" text="Aktualna stranica" tooltip="" />
+      <item id="1167" text="Stranice:" tooltip="" />
+      <item id="1200" text="Razmjere stranica" tooltip="" />
+    </dialog>
+    <dialog id="258" text="Izbrisati stranice">
+      <item id="1" text="U redu" tooltip="" />
+      <item id="2" text="Odustati" tooltip="" />
+      <item id="1038" text="Izbrisati:" tooltip="" />
+      <item id="1039" text="Navedite brojeve i/ili područja stranica odjeljenih zarezima, počevši od početka dokumenta. Napr.: 1,3,5-12" tooltip="" />
+      <item id="1165" text="Odabrane stranice" tooltip="" />
+      <item id="1166" text="Aktualna stranica" tooltip="" />
+      <item id="1167" text="Stranice:" tooltip="" />
+      <item id="1200" text="Razmjere stranica" tooltip="" />
+    </dialog>
+    <dialog id="265" text="Svojstva">
+      <item id="1" text="U redu" tooltip="" />
+      <item id="2" text="Odustati" tooltip="" />
+      <item id="3" text="Primijeniti" tooltip="" />
+      <item id="1180" text="Dodatno..." tooltip="" />
+    </dialog>
+    <dialog id="266" text="">
+      <item id="1038" text="Početak:" tooltip="" />
+      <item id="1039" text="Svršetak:" tooltip="" />
+      <item id="1040" text="Slog:" tooltip="" />
+      <item id="1041" text="Debljina:" tooltip="" />
+      <item id="1042" text="Boja:" tooltip="" />
+      <item id="1043" text="Boja ispune:" tooltip="" />
+      <item id="1044" text="Prozirnost:" tooltip="" />
+      <item id="1200" text="Slog krajeva" tooltip="" />
+      <item id="1201" text="Rub" tooltip="" />
+    </dialog>
+    <dialog id="268" text="">
+      <item id="1038" text="Autor:" tooltip="" />
+      <item id="1039" text="Predmet:" tooltip="" />
+      <item id="1040" text="Načinjeno:" tooltip="" />
+      <item id="1041" text="Izmijenjeno:" tooltip="" />
+    </dialog>
+    <dialog id="272" text="">
+      <item id="1038" text="Slog:" tooltip="" />
+      <item id="1039" text="Debljina:" tooltip="" />
+      <item id="1040" text="Boja:" tooltip="" />
+      <item id="1041" text="Boja ispune:" tooltip="" />
+      <item id="1042" text="Supanj prozirnosti:" tooltip="" />
+      <item id="1200" text="Rub" tooltip="" />
+    </dialog>
+    <dialog id="273" text="">
+      <item id="1038" text="Debljina:" tooltip="" />
+      <item id="1039" text="Boja:" tooltip="" />
+      <item id="1040" text="Supanj prozirnosti:" tooltip="" />
+      <item id="1200" text="Rub" tooltip="" />
+    </dialog>
+    <dialog id="274" text="">
+      <item id="1038" text="Ovu mjernu jedinicu će cijela aplikacija koristiti za prikaz straničnog ravnala, stranične veličine, mrežica itd.:" tooltip="" />
+      <item id="1200" text="Jedinice" tooltip="" />
+    </dialog>
+    <dialog id="278" text="Prijaviti pogrešku programa...">
+      <item id="1" text="Dalje..." tooltip="" />
+      <item id="2" text="Odustati" tooltip="" />
+      <item id="4" text="Pretražiti..." tooltip="" />
+      <item id="1038" text="Vaša obavijest će biti poslana kao e-poruka pomoću zadanog programa e-pošte.&#xD;&#xA;Prije slanja je možete još dodatno iznijeniti." tooltip="" />
+      <item id="1039" text="Molim unijeti predmet obavijesti o pogrešci:" tooltip="" />
+      <item id="1040" text="Opis (upisati kratki opis problema):" tooltip="" />
+      <item id="1041" text="Uz obavijest pripojiti i datoteku (PDF-dokument)?" tooltip="" />
+      <item id="1126" text="Pripojiti informacije o instaliranim pismima i profile boja" tooltip="" />
+      <item id="1127" text="Pripojiti informacije o instaliranim pisačima i njihovim postavkama" tooltip="" />
+      <item id="1128" text="Pripojiti informacije o inačici operativnog sustava" tooltip="" />
+      <item id="1183" text="Pripojiti informacije o inačici i postavkama preglednika" tooltip="" />
+    </dialog>
+    <dialog id="279" text="">
+      <item id="1038" text="Simbol:" tooltip="" />
+      <item id="1039" text="Boja:" tooltip="" />
+      <item id="1040" text="Supanj prozirnosti:" tooltip="" />
+      <item id="1200" text="Prikaz" tooltip="" />
+    </dialog>
+    <dialog id="282" text="Konzola JavaScripta">
+      <item id="1" text="Započeti" tooltip="" />
+      <item id="2" text="Zatvoriti" tooltip="" />
+      <item id="1200" text="Skript" tooltip="" />
+      <item id="1201" text="Isljedak" tooltip="" />
+    </dialog>
+    <dialog id="283" text="">
+      <item id="1038" text="Kraj crte:" tooltip="" />
+      <item id="1039" text="Slog:" tooltip="" />
+      <item id="1040" text="Debljina:" tooltip="" />
+      <item id="1041" text="Boja:" tooltip="" />
+      <item id="1042" text="Boja crte:" tooltip="" />
+      <item id="1043" text="Prozirnost:" tooltip="" />
+      <item id="1200" text="Slog krajeva" tooltip="" />
+      <item id="1201" text="Rub" tooltip="" />
+    </dialog>
+    <dialog id="284" text="">
+      <item id="1038" text="Boja:" tooltip="" />
+      <item id="1039" text="Prozirnost:" tooltip="" />
+      <item id="1200" text="Svojstva prikaza" tooltip="" />
+    </dialog>
+    <dialog id="290" text="Pečati"></dialog>
+    <dialog id="291" text="">
+      <item id="1038" text="PDF-XChange zadati kao standardni preglednik PDF-a:" tooltip="" />
+      <item id="1039" text="Obnoviti prvobitnu aplikaciju kao standardni preglednik PDF-a (ukoliko je naravno još uvijek instalirana):" tooltip="" />
+      <item id="1127" text="Prikazati PDF u pregledniku" tooltip="" />
+      <item id="1162" text="Zadati kao standard" tooltip="" />
+      <item id="1197" text="Obnoviti prvobitno" tooltip="" />
+      <item id="1200" text="Udruživanje datoteka" tooltip="" />
+    </dialog>
+    <dialog id="292" text="">
+      <item id="1038" text="Prozirnost:" tooltip="" />
+      <item id="1200" text="Svojstva prikaza" tooltip="" />
+    </dialog>
+    <dialog id="295" text="">
+      <item id="1038" text="Korisnik:" tooltip="" />
+      <item id="1039" text="Naziv:" tooltip="" />
+      <item id="1040" text="Naslov:" tooltip="" />
+      <item id="1041" text="Organizacija/tvrtka:" tooltip="" />
+      <item id="1042" text="Odjeljenje:" tooltip="" />
+      <item id="1043" text="Adresa e-pošte:" tooltip="" />
+      <item id="1044" text="Informacije o Vašem identitetu će biti korištene u komentarima, recenzijama i digitalnim potpisima.&#xD;&#xA;One će biti korištene samo unutar ove aplikacije i nikamo se ne šalju bez Vašeg znanja." tooltip=""></item>
+      <item id="1200" text="Identitet" tooltip="" />
+    </dialog>
+    <dialog id="296" text="">
+      <item id="1038" text="Izaberite željeni jezik" tooltip="" />
+      <item id="1200" text="Jezici" tooltip="" />
+      <item id="1219" text="Regionalne postavke korisnika" tooltip="" />
+      <item id="1220" text="Odabrati neki drugi jezik" tooltip="" />
+      <item id="1221" text="Standardni jezik aplikacije" tooltip="" />
+    </dialog>
+    <dialog id="297" text="Otvaranje nekog URL-a">
+      <item id="1" text="U redu" tooltip="" />
+      <item id="2" text="Odustati" tooltip="" />
+      <item id="1038" text="Molim zadati URL dokumenta:" tooltip="" />
+    </dialog>
+    <dialog id="298" text="Prilagoditi">
+      <item id="1" text="Zatvoriti" tooltip="" />
+      <item id="1230" text="Tipkovnica..." tooltip="" />
+      <item id="1316" text="Sve izbrisati" tooltip="" />
+    </dialog>
+    <dialog id="299" text="">
+      <item id="1039" text="Alatne trake" tooltip="" />
+      <item id="1234" text="Natrag" tooltip="" />
+      <item id="1235" text="Preimenovati" tooltip="" />
+      <item id="1237" text="Novo..." tooltip="" />
+      <item id="1250" text="Brisati" tooltip="" />
+    </dialog>
+    <dialog id="300" text="">
+      <item id="1038" text="Za dodavanje naredbi morate je mišom povući s popisa naredbi u željenu alatnu traku ili izbornik." tooltip="" />
+      <item id="1039" text="Kategorija:" tooltip="" />
+      <item id="1040" text="Naredbe:" tooltip="" />
+      <item id="1314" text="Ograničene funkcije inačice 'PRO' prikazivati u popisu naredbi, izborniku i alatnim trakama" tooltip="" />
+      <item id="1320" text="Novo..." tooltip="" />
+      <item id="1321" text="Svojstva" tooltip="" />
+    </dialog>
+    <dialog id="301" text="">
+      <item id="1233" text="Prikazivati naputke uz simbole alatnih traka" tooltip="" />
+      <item id="1234" text="U naputcima pokazivati tipkovnične prečace" tooltip="" />
+      <item id="1235" text="U izbornicima pokazivati tipkovnične prečace" tooltip="" />
+    </dialog>
+    <dialog id="302" text="">
+      <item id="1038" text="Pozadina stranice:" tooltip="" />
+      <item id="1039" text="Ispuna:" tooltip="" />
+      <item id="1040" text="Boja rubova:" tooltip="" />
+      <item id="1126" text="Boja teksta:" tooltip="" />
+      <item id="1127" text="Crte:" tooltip="" />
+      <item id="1128" text="Izmjeniti samo crnu boju teksta ili crta." tooltip="" />
+      <item id="1200" text="Mogućnosti prikaza bôja dokumenta." tooltip="" />
+      <item id="1220" text="Koristiti prilagođenu shemu bôja:" tooltip="" />
+      <item id="1235" text="Koristiti shemu bôja sustava Windows" tooltip="" />
+      <item id="1236" text="Koristiti predodređenu visoko kontrastnu shemu bôja:" tooltip="" />
+      <item id="1240" text="Izmjene bôja dokumenta" tooltip="" />
+      <item id="1241" text="Mijenjati boju kako teksta tako i crta." tooltip="" />
+    </dialog>
+    <dialog id="303" text="">
+      <item id="1038" text="Boja pozadine:" tooltip="" />
+      <item id="1200" text="Mogućnosti cijelozaslonskog prikaza" tooltip="" />
+      <item id="1239" text="Miš i kursor:" tooltip="" />
+    </dialog>
+    <dialog id="304" text="">
+      <item id="1038" text="Razlučivost:" tooltip="" />
+      <item id="1039" text="dpi" tooltip="" />
+      <item id="1096" text="Snimku zaslona napraviti u tonovima sivog" tooltip="" />
+      <item id="1200" text="Mogućnosti zaslonske snimke" tooltip="" />
+      <item id="1201" text="Zvukovi zaslonskog snimanja" tooltip="" />
+      <item id="1242" text="Predodređena razlučivost zaslonske snimke:" tooltip="" />
+      <item id="1244" text="Ne preigravati posebne zvukove zaslonskih snimki" tooltip="" />
+    </dialog>
+    <dialog id="305" text="">
+      <item id="1" text="U redu" tooltip="" />
+      <item id="2" text="Odustati" tooltip="" />
+    </dialog>
+    <dialog id="306" text="">
+      <item id="1038" text="Tekst straničnika:" tooltip="" />
+      <item id="1039" text="Slog pisma:" tooltip="" />
+      <item id="1040" text="Boja:" tooltip="" />
+    </dialog>
+    <dialog id="307" text="">
+      <item id="1038" text="Ovdje možete dodati novu akciju ili urediti tekuću. Njihov redoslijed se može izmijeniti pomoću Povuci&amp;&amp;Ispusti." tooltip="" />
+    </dialog>
+    <dialog id="308" text="">
+      <item id="1" text="U redu" tooltip="" />
+      <item id="2" text="Odustati" tooltip="" />
+      <item id="4" text="Odabrati..." tooltip="" />
+      <item id="1038" text="Pomoću gumba 'Koristiti trenutni prikaz' možete izabrati neki drugi cilj" tooltip="" />
+      <item id="1039" text="Naziv datoteke:" tooltip="" />
+      <item id="1040" text="Stranica:" tooltip="" />
+      <item id="1041" text="X:" tooltip="" />
+      <item id="1042" text="Y:" tooltip="" />
+      <item id="1043" text="Širina:" tooltip="" />
+      <item id="1044" text="Visina:" tooltip="" />
+      <item id="1066" text="Pregled" tooltip="" />
+      <item id="1067" text="Popraviti" tooltip="" />
+      <item id="1126" text="Naslijediti" tooltip="" />
+      <item id="1127" text="Naslijediti" tooltip="" />
+      <item id="1200" text="Svojstva cilja" tooltip="" />
+      <item id="1252" text="Uvećavanje:" tooltip="" />
+      <item id="1253" text="Pravokutnik:" tooltip="" />
+      <item id="1261" text="Ciljni dokument" tooltip="" />
+      <item id="1271" text="Povećati" tooltip="" />
+      <item id="1272" text="Smanjiti" tooltip="" />
+      <item id="1275" text="Koristiti trenutni prikaz" tooltip="" />
+    </dialog>
+    <dialog id="309" text="">
+      <item id="1039" text="Ime:" tooltip="" />
+      <item id="1041" text="Organizacija/tvrtka:" tooltip="" />
+      <item id="1043" text="Adresa e-pošte:" tooltip="" />
+      <item id="1045" text="Registracijski ključ:" tooltip="" />
+      <item id="1200" text="Informacije o registraciji" tooltip="" />
+      <item id="1274" text="Ograničene PRO-funkcije ne prikazivati u sklopu besplatne inačice" tooltip="" />
+      <item id="1282" text="Sakriti promidžbenu plohu s poveznicom" tooltip="" />
+    </dialog>
+    <dialog id="310" text="">
+      <item id="1038" text="Pismo:" tooltip="" />
+      <item id="1044" text="Veličina pisma:" tooltip="" />
+      <item id="1200" text="JavaScript" tooltip="" />
+      <item id="1201" text="Konzola JavaScripta" tooltip="" />
+      <item id="1276" text="Dopustiti JavaScript" tooltip="" />
+      <item id="1277" text="Dopustiti interaktivnu konzolu JavaScripta" tooltip="" />
+      <item id="1278" text="Prikazati konzolu pri pogreškama ili dojavama programa" tooltip="" />
+      <item id="1279" text="Prikazati upozorenje pri izvođenju JavaScripta" tooltip="" />
+    </dialog>
+    <dialog id="311" text="Prijeći na redak">
+      <item id="1" text="U redu" tooltip="" />
+      <item id="2" text="Odustati" tooltip="" />
+      <item id="1038" text="Broj redka:" tooltip="" />
+    </dialog>
+    <dialog id="312" text="Obrezivanje stranica">
+      <item id="1" text="U redu" tooltip="" />
+      <item id="2" text="Odustati" tooltip="" />
+      <item id="1038" text="Primijeniti na:" tooltip="" />
+      <item id="1039" text="Zadajte brojeve i/ili područja stranica odjeljenih zarezima, počevši od početka dokumenta. Napr.: 1,3,5-12" tooltip="" />
+      <item id="1041" text="Okvirić:" tooltip="" />
+      <item id="1042" text="Lijevo:" tooltip="" />
+      <item id="1043" text="Desno:" tooltip="" />
+      <item id="1044" text="Gore:" tooltip="" />
+      <item id="1045" text="Dolje:" tooltip="" />
+      <item id="1046" text="Jedinice:" tooltip="" />
+      <item id="1126" text="Postaviti na &quot;bijele&quot; rubove" tooltip="" />
+      <item id="1127" text="Odstraniti praznine" tooltip="" />
+      <item id="1129" text="Zadržati razmjere stranica" tooltip="" />
+      <item id="1164" text="Sve" tooltip="" />
+      <item id="1165" text="Odabrane stranice" tooltip="" />
+      <item id="1166" text="Aktualna stranica" tooltip="" />
+      <item id="1167" text="Stranice" tooltip="" />
+      <item id="1200" text="Razmjera stranica" tooltip="" />
+      <item id="1201" text="Rubovi obreza" tooltip="" />
+      <item id="1202" text="Omeđivanje rubova" tooltip="" />
+      <item id="1285" text="Prikazati sve okviriće" tooltip="" />
+      <item id="1290" text="Postaviti na ništicu" tooltip="" />
+      <item id="1291" text="Vratiti na prvobitno" tooltip="" />
+    </dialog>
+    <dialog id="313" text="Umetnuti stranicu">
+      <item id="1" text="U redu" tooltip="" />
+      <item id="2" text="Odustati" tooltip="" />
+      <item id="4" text="Otvoriti..." tooltip="" />
+      <item id="1038" text="Umetnuti:" tooltip="" />
+      <item id="1039" text="Zadajte brojeve i/ili područja stranica odjeljenih zarezima, počevši od početka dokumenta. Napr.: 1,3,5-12" tooltip="" />
+      <item id="1041" text="Datoteka:" tooltip="" />
+      <item id="1042" text="Područje:" tooltip="" />
+      <item id="1164" text="Sve" tooltip="" />
+      <item id="1167" text="Stranice:" tooltip="" />
+      <item id="1200" text="Stranice iz izvora" tooltip="" />
+      <item id="1201" text="Izvor" tooltip="" />
+      <item id="1202" text="Umetnute stranice" tooltip="" />
+      <item id="1292" text="Iz datoteke" tooltip="" />
+      <item id="1293" text="Iz već otvorenog dokumenta" tooltip="" />
+      <item id="1295" text="Prvu stranicu" tooltip="" />
+      <item id="1296" text="Poslijednju stranicu" tooltip="" />
+      <item id="1297" text="Stranicu:" tooltip="" />
+    </dialog>
+    <dialog id="314" text="Vaditi stranice iz dokumenta">
+      <item id="1" text="U redu" tooltip="" />
+      <item id="2" text="Odustati" tooltip="" />
+      <item id="4" text="Otvoriti..." tooltip="" />
+      <item id="6" text="Makroi" tooltip="" />
+      <item id="1038" text="Ekstrahirati:" tooltip="" />
+      <item id="1039" text="Navedite brojeve i/ili područja stranica odjeljenih zarezima, počevši od početka dokumenta. Napr.: 1,3,5-12" tooltip="" />
+      <item id="1041" text="Naziv datoteke:" tooltip="" />
+      <item id="1043" text="Odredišna mapa:" tooltip="" />
+      <item id="1126" text="Stranice vaditi u pojedinačne datoteke" tooltip="" />
+      <item id="1164" text="Sve" tooltip="" />
+      <item id="1165" text="Odabrane stranice" tooltip="" />
+      <item id="1166" text="Aktualna stranica" tooltip="" />
+      <item id="1167" text="Stranice:" tooltip="" />
+      <item id="1200" text="Područje stranice" tooltip="" />
+      <item id="1201" text="Mogućnosti" tooltip="" />
+      <item id="1202" text="Pohraniti kao" tooltip="" />
+      <item id="1299" text="Stranice po ekstrahiranju izbrisati" tooltip="" />
+    </dialog>
+    <dialog id="315" text="">
+      <item id="1200" text="Mogućnosti pravljenja komentara" tooltip="" />
+      <item id="1201" text="Mogućnosti prikaza komentara" tooltip="" />
+      <item id="1234" text="Prikazivati naputke" tooltip="" />
+      <item id="1302" text="Pri crtanju odabrani tekst preslikati u komentar" tooltip="" />
+      <item id="1303" text="Naglašeni, pod- ili precrtani tekst preslikati u komentar" tooltip="" />
+      <item id="1354" text="Prikazivati tekstovne pokazatelje" tooltip="" />
+    </dialog>
+    <dialog id="316" text="Umetnuti prazne stranice">
+      <item id="1" text="U redu" tooltip="" />
+      <item id="2" text="Odustati" tooltip="" />
+      <item id="1039" text="Usmjerenje:" tooltip="" />
+      <item id="1040" text="x" tooltip="" />
+      <item id="1041" text="Broj:" tooltip="" />
+      <item id="1042" text="Smjestiti:" tooltip="" />
+      <item id="1200" text="Razmjere stranice" tooltip="" />
+      <item id="1202" text="Pohranjivanje stranice" tooltip="" />
+      <item id="1292" text="Standardno:" tooltip="" />
+      <item id="1293" text="Određeno korisnikom:" tooltip="" />
+      <item id="1295" text="Prvu stranicu" tooltip="" />
+      <item id="1296" text="Posljednju stranicu" tooltip="" />
+      <item id="1297" text="Stranicu:" tooltip="" />
+      <item id="1304" text="Po visini" tooltip="" />
+      <item id="1305" text="Po širini" tooltip="" />
+    </dialog>
+    <dialog id="317" text="Preimenovanje pečata">
+      <item id="1" text="U redu" tooltip="" />
+      <item id="2" text="Odustati" tooltip="" />
+      <item id="1038" text="Molim zadati novi naziv pečata" tooltip="" />
+    </dialog>
+    <dialog id="318" text="Umetnuti pečat">
+      <item id="1" text="U redu" tooltip="" />
+      <item id="2" text="Odustati" tooltip="" />
+      <item id="4" text="Otvoriti..." tooltip="" />
+      <item id="1039" text="Datoteka:" tooltip="" />
+      <item id="1041" text="Stranica:" tooltip="" />
+      <item id="1042" text="Naziv:" tooltip="" />
+      <item id="1200" text="Izvor" tooltip="" />
+      <item id="1201" text="Informacije o pečatu" tooltip="" />
+    </dialog>
+    <dialog id="321" text="Svojstva teksta">
+      <item id="1" text="U redu" tooltip="" />
+      <item id="2" text="Odustati" tooltip="" />
+      <item id="3" text="Primijeniti" tooltip="" />
+    </dialog>
+    <dialog id="322" text="">
+      <item id="1313" text="Preslikati u međuspremnik" tooltip="" />
+    </dialog>
+    <dialog id="324" text="Svojstva naredbi">
+      <item id="1" text="U redu" tooltip="" />
+      <item id="2" text="Odustati" tooltip="" />
+      <item id="1038" text="Simbol:" tooltip="" />
+      <item id="1039" text="Naslov:" tooltip="" />
+      <item id="1040" text="Naputak:" tooltip="" />
+      <item id="1041" text="Tekst stanja:" tooltip="" />
+      <item id="1042" text="Kratki naslov:" tooltip="" />
+      <item id="1043" text="ID:" tooltip="" />
+      <item id="1044" text="Naziv:" tooltip="" />
+      <item id="1126" text="Provjeriti JavaScriptom:" tooltip="" />
+      <item id="1127" text="Aktivirati JavaScriptom:" tooltip="" />
+      <item id="1198" text="Akcija naredbe:" tooltip="" />
+      <item id="1200" text="Identifikacija:" tooltip="" />
+      <item id="1201" text="Tipkovna prečica:" tooltip="" />
+      <item id="1202" text="Stanje:" tooltip="" />
+      <item id="1203" text="Adobeov naziv:" tooltip="" />
+      <item id="1204" text="Tipke:" tooltip="" />
+      <item id="1205" text="Važeće u:" tooltip="" />
+      <item id="1206" text="Korišteno od:" tooltip="" />
+      <item id="1261" text="Izgled:" tooltip="" />
+      <item id="1292" text="Predodređena akcija:" tooltip="" />
+      <item id="1293" text="Pokrenuti JavaScript:" tooltip="" />
+      <item id="1324" text="Urediti..." tooltip="" />
+      <item id="1325" text="Urediti..." tooltip="" />
+      <item id="1326" text="Urediti..." tooltip="" />
+    </dialog>
+    <dialog id="325" text="">
+      <item id="1039" text="Gamma korektura" tooltip="" />
+      <item id="1076" text="Zagladiti tekst" tooltip="" />
+      <item id="1077" text="Zagladiti crno-bijele grafike" tooltip="" />
+      <item id="1078" text="Zagladiti slike" tooltip="" />
+      <item id="1200" text="Prikaz teksta" tooltip="" />
+      <item id="1202" text="Zagladiti" tooltip="" />
+    </dialog>
+    <dialog id="326" text="Nova alatna traka">
+      <item id="1" text="U redu" tooltip="" />
+      <item id="2" text="Odustati" tooltip="" />
+      <item id="1038" text="Naziv trake" tooltip="" />
+    </dialog>
+    <dialog id="327" text="Uložiti komentare">
+      <item id="1" text="U redu" tooltip="" />
+      <item id="2" text="Odustati" tooltip="" />
+      <item id="1038" text="Primijeniti na:" tooltip="" />
+      <item id="1039" text="Zadajte brojeve i/ili područja stranica odjeljenih zarezima, počevši od početka dokumenta. Napr.: 1,3,5-12" tooltip="" />
+      <item id="1041" text="Neispisivo:" tooltip="" />
+      <item id="1042" text="Polje obrasca:" tooltip="" />
+      <item id="1164" text="Sve" tooltip="" />
+      <item id="1165" text="Odabrane stranice" tooltip="" />
+      <item id="1166" text="Aktualna stranica" tooltip="" />
+      <item id="1167" text="Stranice" tooltip="" />
+      <item id="1200" text="Razmjere stranica" tooltip="" />
+      <item id="1201" text="Mogućnosti" tooltip="" />
+    </dialog>
+    <dialog id="328" text="Sakupiti komentare">
+      <item id="1" text="U redu" tooltip="" />
+      <item id="2" text="Odustati" tooltip="" />
+      <item id="1038" text="Sakupljati prema:" tooltip="" />
+      <item id="1039" text="Zadajte brojeve i/ili područja stranica odjeljenih zarezima, počevši od početka dokumenta. Napr.: 1,3,5-12" tooltip="" />
+      <item id="1040" text="Razvrstavati prema:" tooltip="" />
+      <item id="1041" text="Vrsta datoteke:" tooltip="" />
+      <item id="1126" text="Odgovore izlučiti" tooltip="" />
+      <item id="1200" text="Razmjere stranica" tooltip="" />
+      <item id="1201" text="Isljedak" tooltip="" />
+      <item id="1202" text="Mogućnosti" tooltip="" />
+      <item id="1261" text="Općenito" tooltip="" />
+      <item id="1330" text="Sve" tooltip="" />
+      <item id="1331" text="Odabrane stranice" tooltip="" />
+      <item id="1332" text="Aktualna stranica" tooltip="" />
+      <item id="1333" text="Stranice:" tooltip="" />
+      <item id="1335" text="Sakupiti:" tooltip="" />
+      <item id="1341" text="Obrađivati i nevidljive komentare" tooltip="" />
+      <item id="1356" text="Nakon stvaranja pregledati novi dokument" tooltip="" />
+      <item id="1387" text="Zadajte brojeve i/ili područja stranica odjeljenih zarezima, počevši od početka dokumenta. Napr.: 1,3,5-12" tooltip="" />
+    </dialog>
+    <dialog id="329" text="">
+      <item id="1038" text="Prijelom:" tooltip="" />
+      <item id="1039" text="Papir:" tooltip="" />
+      <item id="1343" text="Napredno" tooltip="" />
+      <item id="1351" text="Svaku skupinu smjestiti na vlastitu stranicu" tooltip="" />
+      <item id="1352" text="Preskočiti stranice bez komentara" tooltip="" />
+    </dialog>
+    <dialog id="331" text="Napredne mogućnosti">
+      <item id="1" text="U redu" tooltip="" />
+      <item id="2" text="Odustati" tooltip="" />
+      <item id="1125" text="Prikazati broj stranice" tooltip="" />
+      <item id="1126" text="Prikazati simbol vrste komentara" tooltip="" />
+      <item id="1127" text="Prikazati naziv vrste komentara" tooltip="" />
+      <item id="1128" text="Prikazati predmet dokumenta" tooltip="" />
+      <item id="1129" text="Prikazati autora" tooltip="" />
+      <item id="1130" text="Prikazati nadnevak" tooltip="" />
+      <item id="1131" text="Svaku skupinu smjestiti na vlastitu stranicu" tooltip="" />
+      <item id="1345" text="Oblik..." tooltip="" />
+      <item id="1347" text="Oblik..." tooltip="" />
+      <item id="1348" text="Odlomak..." tooltip="" />
+      <item id="1349" text="Koristiti vlastito oblikovanje teksta komentara:" tooltip="" />
+      <item id="1350" text="Oblik..." tooltip="" />
+    </dialog>
+    <dialog id="332" text="">
+      <item id="4" text="Birati..." tooltip="" />
+      <item id="6" text="Makroi" tooltip="" />
+      <item id="1038" text="Odredišna mapa:" tooltip="" />
+      <item id="1039" text="Naziv datoteke:" tooltip="" />
+    </dialog>
+    <dialog id="333" text="">
+      <item id="4" text="Birati..." tooltip="" />
+      <item id="6" text="Makroi" tooltip="" />
+      <item id="1038" text="Odredišna mapa:" tooltip="" />
+      <item id="1039" text="Naziv datoteke:" tooltip="" />
+      <item id="1041" text="Papir:" tooltip="" />
+      <item id="1351" text="Svaku skupinu smjestiti na vlastitu stranicu" tooltip="" />
+    </dialog>
+    <dialog id="334" text="">
+      <item id="4" text="Birati..." tooltip="" />
+      <item id="6" text="Makroi" tooltip="" />
+      <item id="1038" text="Odredišna mapa:" tooltip="" />
+      <item id="1039" text="Naziv datoteke:" tooltip="" />
+      <item id="1261" text="Kodiranje teksta" tooltip="" />
+      <item id="1292" text="Unicode" tooltip="" />
+      <item id="1293" text="MS-DOS" tooltip="" />
+      <item id="1294" text="Windows" tooltip="" />
+      <item id="1355" text="Ostala:" tooltip="" />
+    </dialog>
+    <dialog id="335" text="">
+      <item id="1" text="U redu" tooltip="" />
+      <item id="2" text="Odustati" tooltip="" />
+      <item id="1180" text="Napredno" tooltip="" />
+    </dialog>
+    <dialog id="336" text="">
+      <item id="1038" text="Slog okvira:" tooltip="" />
+      <item id="1039" text="Debljina okvira:" tooltip="" />
+      <item id="1040" text="Boja okvira:" tooltip="" />
+      <item id="1041" text="Način naglašavanja:" tooltip="" />
+    </dialog>
+    <dialog id="337" text="Natpisi mjerenja">
+      <item id="1" text="U redu" tooltip="" />
+      <item id="2" text="Odustati" tooltip="" />
+      <item id="1038" text="Natpisi mjernih alata" tooltip="" />
+    </dialog>
+    <dialog id="341" text="Novi prazni dokument">
+      <item id="1" text="U redu" tooltip="" />
+      <item id="2" text="Odustati" tooltip="" />
+      <item id="1039" text="Usmjerenje:" tooltip="" />
+      <item id="1040" text="x" tooltip="" />
+      <item id="1041" text="Broj:" tooltip="" />
+      <item id="1200" text="Stranice" tooltip="" />
+      <item id="1292" text="Standardno:" tooltip="" />
+      <item id="1293" text="Vlastito:" tooltip="" />
+      <item id="1304" text="Po visini" tooltip="" />
+      <item id="1305" text="Po dužini" tooltip="" />
+    </dialog>
+    <dialog id="342" text="">
+      <item id="1" text="U redu" tooltip="" />
+      <item id="2" text="Odustati" tooltip="" />
+      <item id="1038" text="Zadajte URL:" tooltip="" />
+    </dialog>
+    <dialog id="343" text="Svojstva">
+      <item id="1" text="U redu" tooltip="" />
+      <item id="2" text="Odustati" tooltip="" />
+      <item id="1039" text="Broj stupaca:" tooltip="" />
+      <item id="1040" text="Praznina među stupcima:" tooltip="" />
+      <item id="1041" text="Jedinica:" tooltip="" />
+      <item id="1042" text="Slog:" tooltip="" />
+      <item id="1043" text="Debljina:" tooltip="" />
+      <item id="1044" text="Boja:" tooltip="" />
+      <item id="1367" text="Razdjelnica među stupcima" tooltip="" />
+    </dialog>
+    <dialog id="344" text="Napredno">
+      <item id="1" text="U redu" tooltip="" />
+      <item id="2" text="Odustati" tooltip="" />
+    </dialog>
+    <dialog id="345" text="Novi dokument iz tekstovnih datoteka">
+      <item id="1" text="U redu" tooltip="" />
+      <item id="2" text="Odustati" tooltip="" />
+      <item id="4" text="Odabrati..." tooltip="" />
+      <item id="1039" text="Usmjerenje:" tooltip="" />
+      <item id="1040" text="x" tooltip="" />
+      <item id="1042" text="Lijevi:" tooltip="" />
+      <item id="1043" text="Desni:" tooltip="" />
+      <item id="1044" text="Gornji:" tooltip="" />
+      <item id="1045" text="Donji:" tooltip="" />
+      <item id="1046" text="Novi odlomak:" tooltip="" />
+      <item id="1198" text="Rubovi:" tooltip="" />
+      <item id="1200" text="Veličina stranice" tooltip="" />
+      <item id="1202" text="Tekstovne datoteke" tooltip="" />
+      <item id="1203" text="Oblik teksta:" tooltip="" />
+      <item id="1292" text="Standardno:" tooltip="" />
+      <item id="1293" text="Vlastito:" tooltip="" />
+      <item id="1304" text="Po visini" tooltip="" />
+      <item id="1305" text="Po širini" tooltip="" />
+      <item id="1343" text="Napredno..." tooltip="" />
+      <item id="1376" text="Dodati datoteke..." tooltip="" />
+      <item id="1377" text="Dodati mape..." tooltip="" />
+      <item id="1378" text="Odstraniti" tooltip="" />
+      <item id="1379" text="Na gore" tooltip="" />
+      <item id="1380" text="Na dolje" tooltip="" />
+    </dialog>
+    <dialog id="346" text="">
+      <item id="1038" text="Početak:" tooltip="" />
+      <item id="1039" text="Svršetak:" tooltip="" />
+      <item id="1040" text="Slog:" tooltip="" />
+      <item id="1041" text="Debljina:" tooltip="" />
+      <item id="1042" text="Boja:" tooltip="" />
+      <item id="1043" text="Boja ispune:" tooltip="" />
+      <item id="1044" text="Prozirnost:" tooltip="" />
+      <item id="1045" text="Dužina:" tooltip="" />
+      <item id="1046" text="Odklon:" tooltip="" />
+      <item id="1047" text="Presežak:" tooltip="" />
+      <item id="1200" text="Izgled krajeva" tooltip="" />
+      <item id="1201" text="Okvir" tooltip="" />
+      <item id="1202" text="Pomoćne crte" tooltip="" />
+      <item id="1203" text="Tekst" tooltip="" />
+      <item id="1362" text="Prikazati tekst na crti" tooltip="" />
+    </dialog>
+    <dialog id="347" text="Standardne postavke aplikacije">
+      <item id="1" text="U redu" tooltip="" />
+      <item id="2" text="Odustati" tooltip="" />
+      <item id="1038" text="Želite li doista sve postavke vratiti na prvobitne vrijednosti?" tooltip="" />
+      <item id="1126" text="Zadržati popis svih znanih stranica." tooltip="" />
+      <item id="1128" text="Zadržati postavke za prikaz informativnih i potvrđujućih dijaloga." tooltip="" />
+      <item id="1129" text="Zadržati jezične postavke." tooltip="" />
+      <item id="1373" text="Zadržati popis naposlijed otvaranih dokumenata." tooltip="" />
+    </dialog>
+    <dialog id="348" text="Meta-podatci dokumenta">
+      <item id="1" text="U redu" tooltip="" />
+      <item id="2" text="Odustati" tooltip="" />
+    </dialog>
+    <dialog id="351" text="">
+      <item id="6" text="Makroi..." tooltip="" />
+      <item id="1039" text="Kod nove datoteke:" tooltip="" />
+      <item id="1040" text="Slog:" tooltip="" />
+      <item id="1041" text="Debljina:" tooltip="" />
+      <item id="1042" text="Boja:" tooltip="" />
+      <item id="1044" text="Boja pozadine:" tooltip="" />
+      <item id="1128" text="Povući crtu iznad zaglavlja" tooltip="" />
+      <item id="1200" text="Zaglavlje datoteke" tooltip="" />
+      <item id="1381" text="Povući razdjelnicu" tooltip="" />
+      <item id="1385" text="Dodati zaglavlje" tooltip="" />
+      <item id="1388" text="Oblik..." tooltip="" />
+    </dialog>
+    <dialog id="352" text="Novi dokument iz slikovnih datoteka">
+      <item id="1" text="U redu" tooltip="" />
+      <item id="2" text="Odustati" tooltip="" />
+      <item id="1039" text="Usmjerenje:" tooltip="" />
+      <item id="1040" text="x" tooltip="" />
+      <item id="1042" text="Lijevi:" tooltip="" />
+      <item id="1043" text="Desni:" tooltip="" />
+      <item id="1044" text="Gornji:" tooltip="" />
+      <item id="1045" text="Donji:" tooltip="" />
+      <item id="1198" text="Rubovi" tooltip="" />
+      <item id="1200" text="Veličina stranice" tooltip="" />
+      <item id="1202" text="Slikovne datoteke" tooltip="" />
+      <item id="1292" text="Standardno:" tooltip="" />
+      <item id="1293" text="Vlastito" tooltip="" />
+      <item id="1304" text="Po visini" tooltip="" />
+      <item id="1305" text="Po širini" tooltip="" />
+      <item id="1343" text="Napredno..." tooltip="" />
+      <item id="1376" text="Dodati datoteke..." tooltip="" />
+      <item id="1377" text="Dodati mape..." tooltip="" />
+      <item id="1378" text="Odstraniti" tooltip="" />
+      <item id="1379" text="Na gore" tooltip="" />
+      <item id="1380" text="Na dolje" tooltip="" />
+      <item id="1406" text="Uvoz..." tooltip="" />
+    </dialog>
+    <dialog id="353" text="Napredno">
+      <item id="1" text="U redu" tooltip="" />
+      <item id="2" text="Odustati" tooltip="" />
+    </dialog>
+    <dialog id="354" text="">
+      <item id="1039" text="Broj vodoravno:" tooltip="" />
+      <item id="1040" text="Broj okomito:" tooltip="" />
+      <item id="1041" text="Razmak vodoravno:" tooltip="" />
+      <item id="1042" text="Razmak okomito:" tooltip="" />
+      <item id="1043" text="Poravnati vodoravno:" tooltip="" />
+      <item id="1044" text="Poravnati okomito:" tooltip="" />
+      <item id="1200" text="Pravila poretka" tooltip="" />
+      <item id="1201" text="Poravnati slike" tooltip="" />
+    </dialog>
+    <dialog id="355" text="">
+      <item id="1039" text="s razlučivošću većom od:" tooltip="" />
+      <item id="1040" text="pixela na palac" tooltip="" />
+      <item id="1041" text="pixela na palac" tooltip="" />
+      <item id="1042" text="s razlučivošću većom od:" tooltip="" />
+      <item id="1043" text="pixela na palac" tooltip="" />
+      <item id="1044" text="pixela na palac" tooltip="" />
+      <item id="1126" text="Koristiti dithering" tooltip="" />
+      <item id="1200" text="Slike u boji i one u tonovima sivog" tooltip="" />
+      <item id="1201" text="Evidentirane slike" tooltip="" />
+      <item id="1202" text="Jednobojne slike" tooltip="" />
+      <item id="1203" text="s razlučivošću većom od:" tooltip="" />
+      <item id="1204" text="pixela na palac" tooltip="" />
+      <item id="1205" text="pixela na palac" tooltip="" />
+      <item id="1206" text="Granična vrijednost:" tooltip="" />
+      <item id="1401" text="Koristiti dithering" tooltip="" />
+    </dialog>
+    <dialog id="362" text="">
+      <item id="6" text="Makroi..." tooltip="" />
+      <item id="1039" text="Boja pozadine:" tooltip="" />
+      <item id="1128" text="Smjestiti opise iznad slika" tooltip="" />
+      <item id="1388" text="Oblik" tooltip="" />
+      <item id="1407" text="Dodati opise" tooltip="" />
+    </dialog>
+    <dialog id="363" text="Obrađivanje slike"></dialog>
+    <dialog id="364" text="">
+      <item id="1038" text="Stranica/-e:" tooltip="" />
+      <item id="1039" text="Poravnanje:" tooltip="" />
+      <item id="1040" text="Listovi u zbirci:" tooltip="" />
+      <item id="1041" text="Vrsta:" tooltip="" />
+      <item id="1120" text="Stranice automatski zakrenuti" tooltip="" />
+      <item id="1121" text="Stranice automatski postaviti u središte" tooltip="" />
+      <item id="1414" text="Poravnanje na desno" tooltip="" />
+    </dialog>
+    <dialog id="365" text="Napredne postavke ispisa">
+      <item id="1" text="U redu" tooltip="" />
+      <item id="2" text="Odustati" tooltip="" />
+      <item id="1038" text="Najveća razlučivost pri ispisu kao slika:" tooltip="" />
+      <item id="1039" text="Razlučivost pri prelijevu bôja:" tooltip="" />
+      <item id="1040" text="Tekst ispisivati kao krivulje:" tooltip="" />
+    </dialog>
+  </dialogs>
+  <strings count="782">
+    <item id="0" text="+90° na desno" />
+    <item id="1" text="-90° na lijevo" />
+    <item id="2" text="180°" />
+    <item id="3" text="Sve stranice" />
+    <item id="4" text="Samo parne stranice" />
+    <item id="5" text="Samo neparne stranice" />
+    <item id="6" text="Stranice s proizvoljnim usmjerenjem" />
+    <item id="7" text="Stranice po visini" />
+    <item id="8" text="Stranice po širini" />
+    <item id="9" text="Standardni naziv" />
+    <item id="10" text="Lokalni naziv" />
+    <item id="11" text="Općenito" />
+    <item id="12" text="Općenite postavke" />
+    <item id="13" text="Upravljanje bojama" />
+    <item id="14" text="Postavke upravljanja bojama" />
+    <item id="15" text="Prikaz stranica" />
+    <item id="16" text="Postavke prikaza stranica" />
+    <item id="17" text="Učinak" />
+    <item id="18" text="Postavke učinka" />
+    <item id="19" text="Mjerne jedinice" />
+    <item id="20" text="Jedinice, rešetka, ravnalo" />
+    <item id="21" text="Identitet" />
+    <item id="22" text="Postavke identiteta" />
+    <item id="23" text="Jezik" />
+    <item id="24" text="Izbor jezika" />
+    <item id="25" text="Pridruživanje datoteka" />
+    <item id="26" text="Postavke pridruživanja datoteka" />
+    <item id="27" text="Kategorije" />
+    <item id="28" text="Postavke..." />
+    <item id="29" text="Svojstva dokumenta..." />
+    <item id="30" text="Svojstva komentara" />
+    <item id="31" text="Potpuno ili inkrementalno tj. prirastno pohranjivanje digitalno potpisanih" />
+    <item id="32" text="Uvijek pohranjivati potpuno" />
+    <item id="33" text="Uvijek pohranjivati prirastno" />
+    <item id="34" text="Pohraniti za brži spletni prikaz" />
+    <item id="35" text="Automatski" />
+    <item id="36" text="Samo stranicu" />
+    <item id="37" text="Straničničko polje i stranicu" />
+    <item id="38" text="Polja prikaza izgleda i stranice" />
+    <item id="39" text="Naposlijed korišteni prikaz" />
+    <item id="40" text="Pojedinačna stranica" />
+    <item id="41" text="Neprekinuto" />
+    <item id="42" text="Uporedno" />
+    <item id="43" text="Neprekinuto - uporedno" />
+    <item id="44" text="Stvarna veličina" />
+    <item id="45" text="Prilagoditi veličini okna" />
+    <item id="46" text="Prilagoditi širini okna" />
+    <item id="47" text="Vidljivo prilagoditi" />
+    <item id="48" text="Fizički spremnik (RAM): ukupno %1, %2 može biti najviše korišteno" />
+    <item id="49" text="Fizički spremnik (RAM): ukupno %1" />
+    <item id="50" text="Sustav ima %1 CPU" />
+    <item id="51" text="cm" />
+    <item id="52" text="centimetar" />
+    <item id="53" text="centimetara" />
+    <item id="54" text="in" />
+    <item id="55" text="palac" />
+    <item id="56" text="palaca" />
+    <item id="57" text="mm" />
+    <item id="58" text="milimetar" />
+    <item id="59" text="milimetara" />
+    <item id="60" text="p" />
+    <item id="61" text="pika" />
+    <item id="62" text="pika" />
+    <item id="63" text="točka" />
+    <item id="64" text="točka" />
+    <item id="65" text="točaka" />
+    <item id="66" text="Dokument otvoriti u '%1'" />
+    <item id="67" text="Trenutno nije dostupan ni jedan drugi PDF-preglednik" />
+    <item id="68" text="(ukupno stranica: %1 )" />
+    <item id="69" text="Dokument &quot;%1&quot; je zaštićen zaporkom" />
+    <item id="70" text="Sve stranice izbora" />
+    <item id="71" text="Parne stranice" />
+    <item id="72" text="Neparne stranice" />
+    <item id="73" text="Nikakve" />
+    <item id="74" text="Prilagoditi prema ispisnim rubovima" />
+    <item id="75" text="Umanjiti prema postavkama ispisnih rubova" />
+    <item id="76" text="Velike stranice razdjeliti" />
+    <item id="77" text="Razdjeliti sve stranice" />
+    <item id="78" text="Više stranica po listu" />
+    <item id="79" text="Sve stranice smjestiti u jednu datoteku sa slikom višestraničja" />
+    <item id="80" text="Sva polja stranice smjestiti u jednu datoteku sa slikom višestraničja" />
+    <item id="81" text="Svaku stranicu smjestiti u vlastitu slikovnu datoteku" />
+    <item id="82" text="Mapa &quot;%1&quot; već sadrži datoteku &quot;%2&quot;" />
+    <item id="83" text="Veličina: %1&#xD;&#xA;Izmijenjeno: %2" />
+    <item id="84" text="Datoteka &quot;%1&quot; ne može biti pohranjena:" />
+    <item id="85" text="U redu" />
+    <item id="86" text="Odustati" />
+    <item id="87" text="Da" />
+    <item id="88" text="Ne" />
+    <item id="89" text="Odustati" />
+    <item id="90" text="Opetovati" />
+    <item id="91" text="Zanemariti" />
+    <item id="92" text="Pokušati" />
+    <item id="93" text="Nastaviti" />
+    <item id="94" text="Da za sve" />
+    <item id="95" text="Ne za sve" />
+    <item id="96" text="Nije bilo moguće stvoriti mapu &quot;%1&quot;:" />
+    <item id="97" text="Dokument &quot;%1&quot; je bio izmijenjen.&#xD;&#xA;&#xD;&#xA;Želite li izmjene pohraniti prije okončanja aplikacije?" />
+    <item id="98" text="Dokument &quot;%1&quot; je digitalno potpisan.&#xD;&#xA;Digitalni potpisi se gube pri potpunom pohranjivanju datoteke.&#xD;&#xA;Pri inkrementalnom tj. prirastnom pohranjivanju oni ostaju očuvani ali se povećava veličina datoteke.&#xD;&#xA;&#xD;&#xA;Želite li datoteku pohraniti prirastno?" />
+    <item id="99" text="Vybrané strany: %1 z %2 " />
+    <item id="100" text="Pogreška pri ispisu dokumenta &quot;%1&quot;:&#xD;&#xA;%2" />
+    <item id="101" text="Naziv" />
+    <item id="102" text="Nedostupan" />
+    <item id="103" text="Pripravan" />
+    <item id="104" text="Nije pripravan" />
+    <item id="105" text="Otvaram..." />
+    <item id="106" text="Papir: %1" />
+    <item id="107" text="List: %1" />
+    <item id="108" text="Stranica: %1" />
+    <item id="109" text="Stranice: %1, %2,..." />
+    <item id="110" text="&lt;U aktivnom dokumentu (%1)&gt;" />
+    <item id="111" text="&lt;Odabrati...&gt;" />
+    <item id="112" text="&lt;Napredno...&gt;" />
+    <item id="113" text="Okončati pretraživanje" />
+    <item id="114" text="Potražiti..." />
+    <item id="115" text="Pohranjivanje slike u datoteci &quot;%1&quot;..." />
+    <item id="116" text="Pravljenje slike..." />
+    <item id="117" text="Izvoz u sliku..." />
+    <item id="118" text="Obrada stranice #%1" />
+    <item id="119" text="Ispis..." />
+    <item id="120" text="Ispis lista #%1..." />
+    <item id="121" text="Ispis stranice #%1..." />
+    <item id="122" text="Zaustavljanje..." />
+    <item id="123" text="Priprava..." />
+    <item id="124" text="Traženje &quot;%1&quot;..." />
+    <item id="125" text="Isljedci pretraživanja: Dokumenti: %1, Unosi: %2" />
+    <item id="126" text="prekinuto" />
+    <item id="127" text="&quot;%1&quot;: otvara se..." />
+    <item id="128" text="&quot;%1&quot;: stranica #%2..." />
+    <item id="129" text="Stranica #%1..." />
+    <item id="130" text="Nedostatak sustavnih izvora za otvaranje dokumenta &quot;%1&quot;.&#xD;&#xA;Previše je korisničkih objekata GDI zauzeto drugim aplikacijama!&#xD;&#xA;&#xD;&#xA;Molim zatvorite neke aplikacije (ili dokumente) kako bi rasteretili izvore sustava pa pokušajte ponovno..." />
+    <item id="131" text="Pogreška pri otvaranju dokumenta &quot;%1&quot;:&#xD;&#xA;%2" />
+    <item id="132" text="Pogreška pri otvaranju dokumenta &quot;%1&quot;:&#xD;&#xA;%2" />
+    <item id="133" text="Pogreška pri otvaranju dokumenta:&#xD;&#xA;%1" />
+    <item id="134" text="Doista želite brisati %1 komentar(-e)?" />
+    <item id="135" text="Brisanje komentara (%1)" />
+    <item id="136" text="Ubuduće brisati bez upita" />
+    <item id="137" text="Ovu aplikaciju koristiti kao standardni PDF-preglednik?" />
+    <item id="138" text="Ovu aplikaciju koristiti kao standardni PDF-preglednik i dopustiti joj prikaz PDF-a u spletnom pregledniku?" />
+    <item id="139" text="Dopustiti ovoj aplikaciji prikaz PDF-a u spletnom pregledniku?" />
+    <item id="140" text="Ubuduće više ne pitati" />
+    <item id="141" text="&quot;%1&quot; nije bilo moguće otvoriti:&#xD;&#xA;%2" />
+    <item id="142" text="Staza ne postoji" />
+    <item id="143" text="Akciju &quot;%1&quot; za &quot;%2&quot; nije bilo moguće izvesti:&#xD;&#xA;%3" />
+    <item id="144" text="Aplikacija pokušava otvoriti internetsku stranicu:&#xD;&#xA;&quot;%1&quot;&#xD;&#xA;&#xD;&#xA;Imate li povjerenja u tu stranicu?" />
+    <item id="145" text="%1: Upozorenje zbog otvaranja neke internetske stranice" />
+    <item id="146" text="Pohraniti postavke za tu internetsku stranicu" />
+    <item id="147" text="Taj dokument PDF-a će pokrenuti aplikaciju &quot;%1&quot;.&#xD;&#xA;Aplikacija može sadržavati program, makroe ili viruse, koji možebitno predstavljaju opasnost za Vaše računalo.&#xD;&#xA;Otvorite tu datoteku samo ako ste sigurni da je neškodljiva.&#xD;&#xA;&#xD;&#xA;Ukoliko ta datoteka potječe od Vama povjerljive osobe, možete je pogledati tipnuvši na &quot;Otvoriti&quot;." />
+    <item id="148" text="Otvoriti %1" />
+    <item id="149" text="Ubuduće više ne prikazivati ovu dojavu" />
+    <item id="150" text="Stranica %1" />
+    <item id="151" text="Izbornik" />
+    <item id="152" text="Datoteka" />
+    <item id="153" text="Standardno" />
+    <item id="154" text="Prilagodba veličine" />
+    <item id="155" text="Zakretanje prikaza" />
+    <item id="156" text="Pronaći" />
+    <item id="157" text="Komentari i oznake" />
+    <item id="158" text="Svojstva" />
+    <item id="159" text="Svojstva alata Strelica" />
+    <item id="160" text="Svojstva alata Crta" />
+    <item id="161" text="Svojstva alata Razdjelnik" />
+    <item id="162" text="Svojstva alata Elipsa" />
+    <item id="163" text="Svojstva alata Poligon" />
+    <item id="164" text="Svojstva alata Lomljena crta" />
+    <item id="165" text="Svojstva alata Olovka" />
+    <item id="166" text="Svojstva alata Oblačić" />
+    <item id="167" text="Svojstva alata Pečat" />
+    <item id="168" text="Svojstva alata Pisaći stroj" />
+    <item id="169" text="Svojstva alata Tekstovno polje" />
+    <item id="170" text="Svojstva alata Govorni balončić" />
+    <item id="171" text="Svojstva alata Naputak" />
+    <item id="172" text="Svojstva alata Naglašavanje teksta" />
+    <item id="173" text="Svojstva alata Podcrtati tekst" />
+    <item id="174" text="Svojstva alata Precrtati tekst" />
+    <item id="175" text="Svojstva alata Nadomjestiti tekst" />
+    <item id="176" text="Svojstva strelica" />
+    <item id="177" text="Svojstva crte" />
+    <item id="178" text="Svojstva pravokutnika" />
+    <item id="179" text="Svojstva ovalnog" />
+    <item id="180" text="Svojstva višekutnika" />
+    <item id="181" text="Svojstva lomljene crte" />
+    <item id="182" text="Svojstva olovke" />
+    <item id="183" text="Svojstva oblačića" />
+    <item id="184" text="Svojstva pečata" />
+    <item id="185" text="Svojstva pisaćeg stroja" />
+    <item id="186" text="Svojstva tekstovnog polja" />
+    <item id="187" text="Svojstva govornog balončića" />
+    <item id="188" text="Svojstva naputka" />
+    <item id="189" text="Svojstva naglašavanja teksta" />
+    <item id="190" text="Svojstva podcrtanog teksta" />
+    <item id="191" text="Svojstva precrtanog teksta" />
+    <item id="192" text="Svojstva nadomještenog teksta" />
+    <item id="193" text="Strelica" />
+    <item id="194" text="Crta" />
+    <item id="195" text="Razdjelnik" />
+    <item id="196" text="Elipsa" />
+    <item id="197" text="Poligon" />
+    <item id="198" text="Lomljena crta" />
+    <item id="199" text="Olovka" />
+    <item id="200" text="Oblačić" />
+    <item id="201" text="Pečat" />
+    <item id="202" text="Znak uključivanja" />
+    <item id="203" text="Tekstovno polje" />
+    <item id="204" text="Komentar" />
+    <item id="205" text="Naglašavanje" />
+    <item id="206" text="Podcrtati" />
+    <item id="207" text="Precrtati" />
+    <item id="208" text="Privitak" />
+    <item id="209" text="Zvuk" />
+    <item id="210" text="Oblikovanje teksta" />
+    <item id="211" text="Bez ispune" />
+    <item id="212" text="Bez ograničenja" />
+    <item id="213" text="Ostale boje..." />
+    <item id="214" text="Neodređeno" />
+    <item id="215" text="Nedefinirano" />
+    <item id="216" text="Boja" />
+    <item id="217" text="Svojstva..." />
+    <item id="218" text="Neprepoznato" />
+    <item id="219" text="Nepoznato" />
+    <item id="220" text="Nezaštićeno" />
+    <item id="221" text="Neimenovano" />
+    <item id="222" text="Izgled" />
+    <item id="223" text="Mogućnosti izgleda" />
+    <item id="224" text="Opis" />
+    <item id="225" text="Opis ovog dokumenta" />
+    <item id="226" text="Pisma" />
+    <item id="227" text="Pisma korištena u ovom dokumentu" />
+    <item id="228" text="Sigurnost" />
+    <item id="229" text="Zaštita i ograničenja dokumenta" />
+    <item id="230" text="Zaštita zaporkom" />
+    <item id="231" text="Nedopušteno" />
+    <item id="232" text="Niska razlučivost" />
+    <item id="233" text="Visoka razlučivost" />
+    <item id="234" text="Dopušteno" />
+    <item id="235" text="Učitavanje izvora..." />
+    <item id="236" text="Dodjeljivanje početnih vrijednosti varijablama..." />
+    <item id="237" text="Ništa" />
+    <item id="238" text="Kvadrat" />
+    <item id="239" text="Krug" />
+    <item id="240" text="Dijamant" />
+    <item id="241" text="Otvorena strelica" />
+    <item id="242" text="Zatvorena strelica" />
+    <item id="243" text="Koš" />
+    <item id="244" text="Otvorena strelica (obrnuta)" />
+    <item id="245" text="Otvorena strelica (obrnuta)" />
+    <item id="246" text="Kosa crtica" />
+    <item id="247" text="Straničnici" />
+    <item id="248" text="Izgled ispisa stranica" />
+    <item id="249" text="Polja" />
+    <item id="250" text="Slojevi" />
+    <item id="251" text="Komentari" />
+    <item id="252" text="Zatvoriti karticu" />
+    <item id="253" text="Broj pisama: %1" />
+    <item id="254" text="od %1" />
+    <item id="255" text="%1&#xD;&#xA;&#xD;&#xA;Naslov: %2&#xD;&#xA;&#xD;&#xA;Autor: %3&#xD;&#xA;&#xD;&#xA;Predmet: %4&#xD;&#xA;&#xD;&#xA;Ključni pojmovi: %5&#xD;&#xA;Stranice: %6" />
+    <item id="256" text="Stranica #%1" />
+    <item id="257" text="Stranica #%1: &#xD;&#xA;%2" />
+    <item id="258" text="Pretraživanje PDF-a" />
+    <item id="259" text="Dokument" />
+    <item id="260" text="Dokument i oznake" />
+    <item id="261" text="Dokument i pečati" />
+    <item id="262" text="Samo podatke iz polja obrazaca" />
+    <item id="263" text="Uvećanje izreza" />
+    <item id="264" text="Lupa" />
+    <item id="265" text="Potvrda pohranjivanja izmjena dokumenta" />
+    <item id="266" text="Potvrđivanje inkrementalnog tj. prirastnog pohranjivanja dokumenta" />
+    <item id="267" text="Opće informacije o datoteci" />
+    <item id="268" text="Naziv" />
+    <item id="269" text="Vrsta" />
+    <item id="270" text="Mapa/imenik" />
+    <item id="271" text="Staza" />
+    <item id="272" text="Veličina" />
+    <item id="273" text="%1 bajta" />
+    <item id="274" text="Izmijenjeno" />
+    <item id="275" text="Informacije o PDF-u" />
+    <item id="276" text="Inačica PDF-a" />
+    <item id="277" text="Broj stranica" />
+    <item id="278" text="Naslov" />
+    <item id="279" text="Predmet" />
+    <item id="280" text="Autor" />
+    <item id="281" text="Ključni pojmovi" />
+    <item id="282" text="Aplikacija" />
+    <item id="283" text="Tvorac PDF-a" />
+    <item id="284" text="Zaštita" />
+    <item id="285" text="%1-bitski AES" />
+    <item id="286" text="%1-bitski RC4" />
+    <item id="287" text="Razina" />
+    <item id="288" text="Visoka razlučivost" />
+    <item id="289" text="Ispis" />
+    <item id="290" text="Izmjene dokumenta" />
+    <item id="291" text="Preslikavanje i vađenje sadržaja" />
+    <item id="292" text="Pravljenje komentara i obrazaca" />
+    <item id="293" text="Ispunjavanje ili potpisivanje obrazaca" />
+    <item id="294" text="Pojednostavljeni pristup sadržaju" />
+    <item id="295" text="Poredak dokumenta" />
+    <item id="296" text="Otvaranje dokumenta, molim pričekajte..." />
+    <item id="297" text="Otvara se &quot;%1&quot;..." />
+    <item id="298" text="Preuzimam &quot;%1&quot;..." />
+    <item id="299" text="Preuzeto %1 od %2" />
+    <item id="300" text="Pohranjuje se dokument, pričekajte molim..." />
+    <item id="301" text="Pohranjuje se datoteka &quot;%1&quot;..." />
+    <item id="302" text="Provode se izmjene..." />
+    <item id="303" text="Priprava zapisivanja dokumenta..." />
+    <item id="304" text="Zapisivanje dokumenta..." />
+    <item id="305" text="Učitavanje stranica..." />
+    <item id="306" text="Skupljanje informacija o stranicama..." />
+    <item id="307" text="Skupljaju se opaske..." />
+    <item id="308" text="Odaberite mapu za novu(-e) sliku(-e):" />
+    <item id="309" text="Odaberite mapu za preuzetu(-e) datoteku(-e):" />
+    <item id="310" text="Odaberite mapu za traženje dokumenata:" />
+    <item id="311" text="Grafikon" />
+    <item id="312" text="Spajalica" />
+    <item id="313" text="Prilog" />
+    <item id="314" text="Naljepnica" />
+    <item id="315" text="Uho" />
+    <item id="316" text="Mikrofon" />
+    <item id="317" text="Zvuk" />
+    <item id="318" text="Kvačica" />
+    <item id="319" text="Krug" />
+    <item id="320" text="Komentar" />
+    <item id="321" text="Križić" />
+    <item id="322" text="Pomoć" />
+    <item id="323" text="Umetnuti tekst" />
+    <item id="324" text="Ključ" />
+    <item id="325" text="Novi odstavak" />
+    <item id="326" text="Tekstovna opaska" />
+    <item id="327" text="Odstavak" />
+    <item id="328" text="Strelica na desno" />
+    <item id="329" text="Pokazatelj na desno" />
+    <item id="330" text="Zvjezdica" />
+    <item id="331" text="Strelica na gore " />
+    <item id="332" text="Strelica na gore lijevo" />
+    <item id="333" text="Opaska" />
+    <item id="334" text="Naglasiti" />
+    <item id="335" text="Komentar k tekstu" />
+    <item id="336" text="Podcrtano" />
+    <item id="337" text="Precrtano" />
+    <item id="338" text="Nadomještajući tekst" />
+    <item id="339" text="Govorni balončić" />
+    <item id="340" text="Tekstovno polje" />
+    <item id="341" text="Pisaći stroj" />
+    <item id="342" text="Strelica" />
+    <item id="343" text="Crta" />
+    <item id="344" text="Pravokutnik" />
+    <item id="345" text="Elipsa" />
+    <item id="346" text="Oblačić" />
+    <item id="347" text="Lomljena crta" />
+    <item id="348" text="Poligon" />
+    <item id="349" text="Olovka" />
+    <item id="350" text="Stranica: %1 od %2" />
+    <item id="351" text="Uvećanje: %1" />
+    <item id="352" text="Želite li brisati popis naposlijed otvaranih datoteka?" />
+    <item id="353" text="ZAŠTIĆENO" />
+    <item id="354" text="Otvoriti" />
+    <item id="355" text="Pohraniti" />
+    <item id="356" text="Pohraniti kao" />
+    <item id="357" text="Presliku pohraniti kao" />
+    <item id="358" text="Ispis u datoteku" />
+    <item id="359" text="Čitkost" />
+    <item id="360" text="Moogućnosti čitkosti" />
+    <item id="361" text="Zeleni tekst na crnom" />
+    <item id="362" text="Žuti tekst na crnom" />
+    <item id="363" text="Bijeli tekst na crnom" />
+    <item id="364" text="Crni tekst na bijelom" />
+    <item id="365" text="Prikaz preko cijelog zaslona" />
+    <item id="366" text="Mogućnosti prikaza preko cijelog zaslona" />
+    <item id="367" text="Skriti sa zakašnjenjem" />
+    <item id="368" text="Uvijek vidljivo" />
+    <item id="369" text="Uvijek sakriveno" />
+    <item id="370" text="Snimka zaslona" />
+    <item id="371" text="Mogućnosti snimke zaslona" />
+    <item id="372" text="Dokument &quot;%1&quot; je oštećen.&#xD;&#xA;&#xD;&#xA;Byly zjištěny problémy aplikací:&#xD;&#xA;%2&#xD;&#xA;&#xD;&#xA;Doporučujeme znovu uložit dokument." />
+    <item id="373" text="Jedna ili više bilješki XREF-a nisu mogle biti pronađene." />
+    <item id="374" text="Pronađene su greške u tabeli XREF-a." />
+    <item id="375" text="Referenca objekta nije opisana ni u jednoj bilješci XREF-a." />
+    <item id="376" text="Greška pri učitavanju objekta: pogrešna struktura objekta." />
+    <item id="377" text="Greška pri učitavanju objekta: pogrešno usmjeren objekt." />
+    <item id="378" text="Pogrešni ObjStream." />
+    <item id="379" text="Tražene vrijednosti nisu pronađene u poslijednjem traileru." />
+    <item id="380" text="Tražene vrijednosti nisu pronađene u trailerima." />
+    <item id="381" text="Objekt nije opisan u aktualnom ili prethodnim već je pronađen u naslijedujućim zapisima (vrijedi za linearizirane datoteke)." />
+    <item id="382" text="Izvorski dokument &quot;%1&quot; je oštećen.&#xD;&#xA;Prirastno pohranjivanje za ovaj dokument se stoga ne može koristiti.&#xD;&#xA;Želite li dokument pohraniti potpuno (upozorenje: postojeći digitalni potpisi će se pri tom izgubiti)?" />
+    <item id="383" text="Neoznačeno" />
+    <item id="384" text="Anonimno" />
+    <item id="385" text="&lt;Neznani autor&gt; (%1)" />
+    <item id="386" text="&lt;Neznani nadnevak&gt; (%1)" />
+    <item id="387" text="Stranica %1 (%2)" />
+    <item id="388" text="%1 (%2)" />
+    <item id="389" text="Nevažeća vrijednost: mora biti veća ili jednaka %s." />
+    <item id="390" text="Nevažeća vrijednost: mora biti veća ili jednaka %s a manja ili jednaka %s." />
+    <item id="391" text="Nevažeća vrijednost: mora biti manja ili jednaka %s." />
+    <item id="392" text="** Nevažeće **" />
+    <item id="393" text="Nevažeći nadnevak/vrijeme: uvjerite se da su nadnevak/vrijeme zadani i važeći. Polje %field% mora imati oblik %format%." />
+    <item id="394" text="Zadana vrijednost nema potrebni oblik za polje %s." />
+    <item id="395" text="dop." />
+    <item id="396" text="pop." />
+    <item id="397" text="Doista želite brisati %1 straničnik(-e) i sve one njemu(njima) podređene?" />
+    <item id="398" text="Doista želite brisati %1 straničnik(-e)?" />
+    <item id="399" text="%1: Brisanje straničnika" />
+    <item id="400" text="Ubuduće brisati bez potvrđivanja" />
+    <item id="401" text="Postavke straničnika" />
+    <item id="402" text="Postavke za nekolicinu straničnika" />
+    <item id="403" text="Akcija" />
+    <item id="404" text="Popis akcija" />
+    <item id="405" text="Normalno" />
+    <item id="406" text="Masno" />
+    <item id="407" text="Kurziv" />
+    <item id="408" text="Masni kurziv" />
+    <item id="409" text="Neznana akcija" />
+    <item id="410" text="Prijeći na neku stranicu ovog dokumenta" />
+    <item id="411" text="Prijeći na neku stranicu nekog drugog dokumenta" />
+    <item id="412" text="Prijeći na neku stranicu uloženog dokumenta" />
+    <item id="413" text="Otvoriti datoteku" />
+    <item id="414" text="Pročitati odlomak" />
+    <item id="415" text="Otvoriti spletnu poveznicu" />
+    <item id="416" text="Preigravati zvuk" />
+    <item id="417" text="Preigravati film" />
+    <item id="418" text="Pokazati/sakriti polja i komentare" />
+    <item id="419" text="Provesti određenu naredbu" />
+    <item id="420" text="Poslati obrazac" />
+    <item id="421" text="Vratiti obrazac na početno" />
+    <item id="422" text="Uvesti podatke obrasca" />
+    <item id="423" text="Pokrenuti JavaScript" />
+    <item id="424" text="Prilagoditi vidljivost slojeva" />
+    <item id="425" text="Upravljanje multimedijima" />
+    <item id="426" text="Dopunjavanje i prijelaz stranica" />
+    <item id="427" text="Prijeći na 3D-prikaz" />
+    <item id="428" text="Uvećati" />
+    <item id="429" text="Naslijediti" />
+    <item id="430" text="Širina" />
+    <item id="431" text="Visina" />
+    <item id="432" text="Prilagoditi visini" />
+    <item id="433" text="Prilagoditi vidljivoj širini" />
+    <item id="434" text="Prilagoditi vidljivoj visini" />
+    <item id="435" text="Datoteka" />
+    <item id="436" text="Operacija" />
+    <item id="437" text="Parametri" />
+    <item id="438" text="Ne možete izbrisati sve stranice dokumenta. Najmanje jedna mora preostati." />
+    <item id="439" text="Doista želite %1 stranicu(-e/-a) izbrisati iz dokumenta?" />
+    <item id="440" text="%1: Brisanje stranica" />
+    <item id="441" text="Nova akcija" />
+    <item id="442" text="Urediti akciju" />
+    <item id="443" text="Doista želite brisati %1 akciju(-e/-a)?" />
+    <item id="444" text="%1: Brisanje akcija" />
+    <item id="445" text="Ubuduće izbrisati bez potvrđivanja" />
+    <item id="446" text="JavaScript" />
+    <item id="447" text="Mogućnosti JavaScripta" />
+    <item id="448" text="Registracija" />
+    <item id="449" text="Registracijski podatci" />
+    <item id="450" text="r: %1" />
+    <item id="451" text="r: %2" />
+    <item id="452" text="INS" />
+    <item id="453" text="OVR" />
+    <item id="454" text="Dokument sadrži JavaScript. Želite li dopustiti aktiviranje JavaScripta u ovom dokumentu?&#xD;&#xA;Dokument bi se mogao ponašati neočekivano, ako je JavaScript deaktiviran." />
+    <item id="455" text="Ovu dojavu zatomiti do ponovnog otvaranja ovog dokumenta" />
+    <item id="456" text="JavaScript: %1" />
+    <item id="457" text="Funkcija Viewer PRO - iziskuje licenčni  ključ - v. Pomoć" />
+    <item id="458" text="Korisnikom određeno uvećanje" />
+    <item id="459" text="UPOZORENJE - 'PRO' funkcija" />
+    <item id="460" text="Ta funkcija je dio inačice PDF-XChange Viewer PRO.&#xD;&#xA;Možete je koristiti i u besplatnoj inačici ali ako pohranite datoteku, PDF-stranice će sadržavati neodstranjivu oznaku DEMO.&#xD;&#xA;Želite li to spriječiti, prijeđite na inačicu PRO. Više informacija u Pomoći ili pak na našoj spletnoj stranici.&#xD;&#xA;&#xD;&#xA;Doista želite koristiti tu funkciju?" />
+    <item id="461" text="Doista želite premjestiti %1 stranicu(-e/-â) u dokumentu?" />
+    <item id="462" text="%1: Premještanje stranica" />
+    <item id="463" text="Datoteka" />
+    <item id="464" text="Uređivanje" />
+    <item id="465" text="Prikaz" />
+    <item id="466" text="Dokument" />
+    <item id="467" text="Alati" />
+    <item id="468" text="Okno" />
+    <item id="469" text="Pomoć" />
+    <item id="470" text="Vlastito" />
+    <item id="471" text="Crop Box" />
+    <item id="472" text="Bleed Box" />
+    <item id="473" text="Trim Box (rezanje)" />
+    <item id="474" text="Art Box (grafika)" />
+    <item id="475" text="Veličina obrezane stranice: %1" />
+    <item id="476" text="Bleed Box - veličina: %1" />
+    <item id="477" text="Trim Box - veličina: %1" />
+    <item id="478" text="Art Box - veličina: %1" />
+    <item id="479" text="Nevažeći prikaz izgleda" />
+    <item id="480" text="Učitavanje informacija o prikazu izgleda, pričekajte molim..." />
+    <item id="481" text="Zašifrirano" />
+    <item id="482" text="Dokument &quot;%1&quot; je zaštićen. Nemate pravo provoditi tu operaciju." />
+    <item id="483" text="%1: Umetanje stranica" />
+    <item id="484" text="Pričvrstiti na popis (neće biti odstranjeno pri prekoračenju granice broja unosa)" />
+    <item id="485" text="Skinuti s popisa (bit će odstranjeno pri prekoračenju granice broja unosa)" />
+    <item id="486" text="Nedavno korištena pisma" />
+    <item id="487" text="Sva pisma" />
+    <item id="488" text="Stupanj uvećanja" />
+    <item id="489" text="Načini uvećanja" />
+    <item id="490" text="Prije" />
+    <item id="491" text="Nakon" />
+    <item id="492" text="Standardne boje" />
+    <item id="493" text="Vlastite boje" />
+    <item id="494" text="Crna" />
+    <item id="495" text="Smeđa" />
+    <item id="496" text="Tamno maslinasto zelena" />
+    <item id="497" text="Tamno zelena" />
+    <item id="498" text="Tamno plavo-zelena" />
+    <item id="499" text="Tamno plava" />
+    <item id="500" text="Indigo" />
+    <item id="501" text="Tamno siva" />
+    <item id="502" text="Tamno crvena" />
+    <item id="503" text="Narančasta" />
+    <item id="504" text="Tamno žuta" />
+    <item id="505" text="Zelena" />
+    <item id="506" text="Modro-zelena" />
+    <item id="507" text="Plava" />
+    <item id="508" text="Modro-siva" />
+    <item id="509" text="Siva - 40%" />
+    <item id="510" text="Crvena" />
+    <item id="511" text="Svjetlo narančasta" />
+    <item id="512" text="Jarko zelena" />
+    <item id="513" text="Sinje zelena" />
+    <item id="514" text="Aquamarin" />
+    <item id="515" text="Svjetlo plava" />
+    <item id="516" text="Ljubičasta" />
+    <item id="517" text="Siva - 50%" />
+    <item id="518" text="Ružičasta" />
+    <item id="519" text="Zlatna" />
+    <item id="520" text="Žuta" />
+    <item id="521" text="Neonski zelena" />
+    <item id="522" text="Tirkizna" />
+    <item id="523" text="Nebeski modra" />
+    <item id="524" text="Boja šljive" />
+    <item id="525" text="Svjetlo siva" />
+    <item id="526" text="Svjetlo ružičasta" />
+    <item id="527" text="Svjetlo smeđa" />
+    <item id="528" text="Žućkasto bijela" />
+    <item id="529" text="Blijedo zelena" />
+    <item id="530" text="Blijedo tirkizna" />
+    <item id="531" text="Blijedo modra" />
+    <item id="532" text="Boja lavandule" />
+    <item id="533" text="Bijela" />
+    <item id="534" text="Komentari" />
+    <item id="535" text="Mogućnosti komentara" />
+    <item id="536" text="Stranice se brišu, molim pričekajte..." />
+    <item id="537" text="Stranice se premještaju, molim pričekajte..." />
+    <item id="538" text="Stranice se umeću, molim pričekajte..." />
+    <item id="539" text="Stranice se vade, molim pričekajte..." />
+    <item id="540" text="Doista želite preslikati %1 stranicu(-e/-a)?" />
+    <item id="541" text="%1: Preslikavanje stranica" />
+    <item id="542" text="Svojstva gumice za brisanje" />
+    <item id="543" text="Paleta pečata" />
+    <item id="544" text="Novi pečat" />
+    <item id="545" text="Nova zbirka" />
+    <item id="546" text="Ta zbirka sadrži još pečata. Želite li je doista izbrisati?" />
+    <item id="547" text="%1: Brisanje zbirke pečata" />
+    <item id="548" text="Brisanje popisa naposlijed otvaranih datoteka" />
+    <item id="549" text="Želite li doista brisati sve stavke s popisa naposlijed otvaranih datoteka?" />
+    <item id="550" text="Da za sve nepričvršćene unose" />
+    <item id="551" text="Svojstva teksta" />
+    <item id="552" text="Sadržaj" />
+    <item id="553" text="Sadržaj teksta: Obični tekst" />
+    <item id="554" text="Oblikovanje" />
+    <item id="555" text="Oblikovanje teksta: pismo, veličina, slog itd." />
+    <item id="556" text="Pismo" />
+    <item id="557" text="Veličina pisma" />
+    <item id="558" text="Vodoravno stupnjevanje" />
+    <item id="559" text="Odmak od osnovne crte" />
+    <item id="560" text="Upozorenje pri učitavanju jednog objekta: objekt je oštećen." />
+    <item id="561" text="Alatne trake" />
+    <item id="562" text="Naredbe" />
+    <item id="563" text="Mogućnosti" />
+    <item id="564" text="Oblik" />
+    <item id="565" text="Globalno" />
+    <item id="566" text="Dokument" />
+    <item id="567" text="Kartica stranica" />
+    <item id="568" text="Kartica minijaturnih prikaza" />
+    <item id="569" text="Kartica straničnika" />
+    <item id="570" text="Kartica komentara" />
+    <item id="571" text="Kartica slojeva" />
+    <item id="572" text="Kartica pôlja" />
+    <item id="573" text="Kartica priloga" />
+    <item id="574" text="Tekstovni editor" />
+    <item id="575" text="Paleta pečata" />
+    <item id="576" text="Pretraživačka kartica" />
+    <item id="577" text="Konzola JavaScripta" />
+    <item id="578" text="Okno lupe" />
+    <item id="579" text="Okno uvećanja i izreza" />
+    <item id="580" text="Standardno" />
+    <item id="581" text="Bez tipkovnih prečica." />
+    <item id="582" text="Ta tipkovna prečica je dostupna." />
+    <item id="583" text="Ta tipkovna prečica se već koristi." />
+    <item id="584" text="Tom tipkovnom prečicom se već koristi naredba %1." />
+    <item id="585" text="Prikaz" />
+    <item id="586" text="Prikaz teksta i slika" />
+    <item id="587" text="Vlastito" />
+    <item id="588" text="Zadajte tekst..." />
+    <item id="589" text="Otkrivene su nekritične pogreške u tabeli XREF." />
+    <item id="590" text="Ulaganje/odstranjivanje komentara, molim pričekajte..." />
+    <item id="591" text="Ulaganje" />
+    <item id="592" text="Ne mijenjati" />
+    <item id="593" text="Odstraniti" />
+    <item id="594" text="Jeste li sigurni da doista želite uložiti/odstraniti komentare u/iz dokumentu/-a?" />
+    <item id="595" text="%1: Ulaganje/odstranjivanje komentara" />
+    <item id="596" text="Doista želite izbrisati sve korisničke izbornike i alatne trake? Tipnite 'Ne' za njihovo zadržavanje." />
+    <item id="597" text="%1: Brisanje korisničkih alatnih traka" />
+    <item id="598" text="Pogreška pri vađenju stranica iz &quot;%1&quot;:&#xD;&#xA;%2" />
+    <item id="599" text="%1: Vađenje stranica" />
+    <item id="600" text="Pogreška pri ulaganju komentara u &quot;%1&quot;:&#xD;&#xA;%2" />
+    <item id="601" text="Pogreška pri umetanju stranica u &quot;%1&quot;:&#xD;&#xA;%2" />
+    <item id="602" text="Pogreška pri brisanju stranica iz &quot;%1&quot;:&#xD;&#xA;%2" />
+    <item id="603" text="Učitavaju se podatci iz streama..." />
+    <item id="604" text="Učitano %1" />
+    <item id="605" text="Otvara se dokument iz streama..." />
+    <item id="606" text="Pohranjuje se dokument u stream..." />
+    <item id="607" text="Pohranjeno %1 od %2" />
+    <item id="608" text="Otvara se dokument..." />
+    <item id="609" text="Ubuduće više ne pitati" />
+    <item id="610" text="Doista želite preslikati %1 stranicu(-a/-e) od &quot;%2&quot; u &quot;%3&quot;?" />
+    <item id="611" text="Doista želite premjestiti %1 stranicu(-a/-e) od &quot;%2&quot; u &quot;%3&quot;?" />
+    <item id="612" text="Poveznice" />
+    <item id="613" text="Mjerenje" />
+    <item id="614" text="Svojstva alata udaljenosti" />
+    <item id="615" text="Svojstva alata opsega" />
+    <item id="616" text="Svojstva alata površine" />
+    <item id="617" text="Svojstva alata mjerne crte" />
+    <item id="618" text="Svojstva alata lomljene mjerne crte" />
+    <item id="619" text="Svojstva alata mjernog poligona" />
+    <item id="620" text="Svojstva uređivača poveznica" />
+    <item id="621" text="Poveznička svojstva" />
+    <item id="622" text="Ni jedan" />
+    <item id="623" text="Invertirati" />
+    <item id="624" text="Izdignuti" />
+    <item id="625" text="Spustiti" />
+    <item id="626" text="Komentari" />
+    <item id="627" text="%1: Skupljanje komentara" />
+    <item id="628" text="Pogreška pri skupljanju komentara iz &quot;%1&quot;:&#xD;&#xA;%2" />
+    <item id="629" text="Skupljaju se komentari, molim pričekajte..." />
+    <item id="630" text="Izvoz komentara, molim pričekajte..." />
+    <item id="631" text="%1: Izvoz komentara" />
+    <item id="632" text="Pogreška pri izvozu komentara iz &quot;%1&quot;:&#xD;&#xA;%2" />
+    <item id="633" text="Izvoz komentara" />
+    <item id="634" text="Datoteke Adobe XFDF (*.xfdf)" />
+    <item id="635" text="Stranica" />
+    <item id="636" text="Vrsta" />
+    <item id="637" text="Autor" />
+    <item id="638" text="Nadnevak" />
+    <item id="639" text="Redoslijed" />
+    <item id="640" text="PDF-dokument (*.pdf)" />
+    <item id="641" text="Rich Text Formát (*.rtf)" />
+    <item id="642" text="Obični text (*.txt)" />
+    <item id="643" text="Kompletnu spletnu stranicu (*.html)" />
+    <item id="644" text="Samo komentare" />
+    <item id="645" text="Dokument i komentare sa  spojnom crtom na jednoj stranici" />
+    <item id="646" text="Dokument i komentare s rednim brojem na jednoj stranici" />
+    <item id="647" text="Dokument i komentare na jednoj stranici" />
+    <item id="648" text="Dokument i komentare sa  spojnom crtom na različitim stranicama" />
+    <item id="649" text="Dokument i komentare s rednim brojem na različitim stranicama" />
+    <item id="650" text="Dokument i komentare na različitim stranicama" />
+    <item id="651" text="Odaberite odredišnu mapu za novu(-e) datoteku(-e):" />
+    <item id="652" text="Razvrstavanje komentara..." />
+    <item id="653" text="Vytváření nového dokumentu..." />
+    <item id="654" text="Preslikavanje stranica iz izvornog dokumenta..." />
+    <item id="655" text="Stvaranje nove spletne stranice" />
+    <item id="656" text="Alatna traka preimenovanja" />
+    <item id="657" text="Mjerenje udaljenosti" />
+    <item id="658" text="Mjerenje opsega" />
+    <item id="659" text="Mjerenje površine" />
+    <item id="660" text="Doista želite izbrisati odabrane poveznice?" />
+    <item id="661" text="%1: Brisanje poveznica" />
+    <item id="662" text="%1: Umetanje praznih stranica" />
+    <item id="663" text="Automatski" />
+    <item id="664" text="Udaljenost:" />
+    <item id="665" text="Opseg:" />
+    <item id="666" text="Površina:" />
+    <item id="667" text="Kut:" />
+    <item id="668" text="ΔX:" />
+    <item id="669" text="ΔY:" />
+    <item id="670" text="Mjerilo:" />
+    <item id="671" text="Info - Udaljenost" />
+    <item id="672" text="Info - Opseg" />
+    <item id="673" text="Info - Površina" />
+    <item id="674" text="Podcrtano" />
+    <item id="675" text="Svojstva poveznica" />
+    <item id="676" text="Svojstva pojedinih poveznica" />
+    <item id="677" text="ft" />
+    <item id="678" text="yd" />
+    <item id="679" text="m" />
+    <item id="680" text="km" />
+    <item id="681" text="mi" />
+    <item id="682" text="vlastiti" />
+    <item id="683" text="cm²" />
+    <item id="684" text="in²" />
+    <item id="685" text="mm²" />
+    <item id="686" text="p²" />
+    <item id="687" text="pt²" />
+    <item id="688" text="ft²" />
+    <item id="689" text="yd²" />
+    <item id="690" text="m²" />
+    <item id="691" text="km²" />
+    <item id="692" text="mi²" />
+    <item id="693" text="Izvoz mjerenja, molim pričekajte..." />
+    <item id="694" text="%1: Izvoz mjerenja" />
+    <item id="695" text="Pogreška pri izvozu mjerenja iz &quot;%1&quot;:&#xD;&#xA;%2" />
+    <item id="696" text="Izvoz oznaka mjernih jedinica" />
+    <item id="697" text="Molim dodajte akciju(-e)..." />
+    <item id="698" text="Stvaranje novog dokumenta" />
+    <item id="699" text="Stvaranje novog dokumenta, molim pričekajte..." />
+    <item id="700" text="Nakon svršetka svakog retka započeti novi odstavak" />
+    <item id="701" text="Pri dvostrukom svršetku retka započeti novi odstavak, jednostavni zanemariti" />
+    <item id="702" text="Pri dvostrukom svršetku retka započeti novi odstavak, jednostavni pretvoriti u znakove razmaka" />
+    <item id="703" text="Predmet" />
+    <item id="704" text="Mogućnosti dokumenta" />
+    <item id="705" text="Navigacija stranicama" />
+    <item id="706" text="Prijelom stranica" />
+    <item id="707" text="Otvoriti dokument" />
+    <item id="708" text="Naziv" />
+    <item id="709" text="Pripona" />
+    <item id="710" text="Mjesto" />
+    <item id="711" text="Veličina" />
+    <item id="712" text="Izmjenjeno" />
+    <item id="713" text="Stvoriti novi dokument..." />
+    <item id="714" text="Odaberite mapu s izvorskim datotekama:" />
+    <item id="715" text="Pretraživati i podmape?" />
+    <item id="716" text="Napredno" />
+    <item id="717" text="Stupci" />
+    <item id="718" text="Postavke stupaca" />
+    <item id="719" text="Datoteke" />
+    <item id="720" text="Datoteke" />
+    <item id="721" text="Novi odstavak" />
+    <item id="722" text="Nova stranica" />
+    <item id="723" text="Napredno" />
+    <item id="724" text="Prijelom" />
+    <item id="725" text="Mogućnosti prijeloma slika" />
+    <item id="726" text="Slike" />
+    <item id="727" text="Postavke slika" />
+    <item id="728" text="Na gore" />
+    <item id="729" text="Na dolje" />
+    <item id="730" text="Na lijevo" />
+    <item id="731" text="Na desno" />
+    <item id="732" text="Na sredinu" />
+    <item id="733" text="Bez preuzorkovanja" />
+    <item id="734" text="Linearno preuzorkovanje na" />
+    <item id="735" text="Bilineárně převzorkovat na" />
+    <item id="736" text="Bilinearno preuzorkovanje na" />
+    <item id="737" text="Bez konverzije" />
+    <item id="738" text="Tonovi sivog" />
+    <item id="739" text="Jednobojno" />
+    <item id="740" text="Crno-bijelo" />
+    <item id="741" text="Prilagoditi" />
+    <item id="742" text="Metapodatci dokumenta" />
+    <item id="743" text="Napredno" />
+    <item id="744" text="Struktura metapodataka dokumenta" />
+    <item id="745" text="Poster[%2]: veličina papira '%1'" />
+    <item id="746" text="px" />
+    <item id="747" text="Skenira se..." />
+    <item id="748" text="Skenira se slika %1" />
+    <item id="749" text="Info" />
+    <item id="750" text="Kodiranje" />
+    <item id="751" text="Vrsta: %1" />
+    <item id="752" text="Slika: %1" />
+    <item id="753" text="Stranica: %1" />
+    <item id="754" text="List: %1, ukupno %2" />
+    <item id="755" text="Ukupno %1 datoteka" />
+    <item id="756" text="Normalni prikaz" />
+    <item id="757" text="Kombinirani prikaz" />
+    <item id="758" text="Opisi" />
+    <item id="759" text="Opis" />
+    <item id="760" text="Veličina papira: '%1'" />
+    <item id="761" text="Stranica: %1 (odlomak %2 od %3)" />
+    <item id="762" text="Vodoravno lijevo -&gt; desno" />
+    <item id="763" text="Vodoravno desno -&gt; lijevo" />
+    <item id="764" text="Okomito gore -&gt; dolje" />
+    <item id="765" text="Okomito dolje -&gt; gore" />
+    <item id="766" text="Vlastito" />
+    <item id="767" text="Po širini (%1° CCW)" />
+    <item id="768" text="Zanemariti sve" />
+    <item id="769" text="Brošura" />
+    <item id="770" text="Knjiga" />
+    <item id="771" text="Oboje" />
+    <item id="772" text="Prednja stranica" />
+    <item id="773" text="Poleđina" />
+    <item id="774" text="Tiskovina" />
+    <item id="775" text="Nisu odabrane nikakve stranice" />
+    <item id="776" text="Pogreška pri smještanju slike iz &quot;%1&quot;:&#xD;&#xA;%2" />
+    <item id="777" text="Pogreška pri smještanju teksta iz &quot;%1&quot;:&#xD;&#xA;%2" />
+    <item id="778" text="dpi" />
+    <item id="779" text="Razlučivost: %1 dpi" />
+    <item id="780" text="Uvijek" />
+    <item id="781" text="Za usađena pisma" />
+  </strings>
+</Localization>

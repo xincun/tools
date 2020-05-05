@@ -1,0 +1,950 @@
+[Script for Search and Replace]
+Character conversion: EBCDIC to ASCII
+http://members.tripod.com/perodua/cobol-4120/books/cyebas.htm
+Caution: this script will convert straight EBCDIC text files only.
+Packed decimal values will not be properly handled.
+[Search /bi] char 55 Hex: /0x37
+7
+[Replace /b] char 4 Hex: /0x04
+\0x04
+[Search /bi] char 45 Hex: /0x2D
+-
+[Replace /b] char 5 Hex: /0x05
+\0x05
+[Search /bi] char 46 Hex: /0x2E
+.
+[Replace /b] char 6 Hex: /0x06
+\0x06
+[Search /bi] char 47 Hex: /0x2F
+/
+[Replace /b] char 7 Hex: /0x07
+\0x07
+[Search /bi] char 22 Hex: /0x16
+\0x16
+[Replace /b] char 8 Hex: /0x08
+\0x08
+[Search /bi] char 5 Hex: /0x05
+\0x05
+[Replace /b] char 9 Hex: /0x09
+\t
+[Search /bi] char 37 Hex: /0x25
+%
+[Replace /b] char 10 Hek: /0x0A
+\n
+[Search /bi] char 159 Hex: /0x9F
+\0x9f
+[Replace /b] char 15  Hex: /0x0F
+\0x0f
+[Search /bi] char 182 Hex: /0xB6
+\0xb6
+[Replace /b] char 20  Hex: /0x14
+\0x14
+[Search /bi] char 181 Hex: /0xB5
+\0xb5
+[Replace /b] char 21  Hex: /0x15
+\0x15
+[Search /bi] char 50 Hex: /0x32
+2
+[Replace /b] char 22  Hex: /0x16
+\0x16
+[Search /bi] char 38 Hex: /0x26
+&
+[Replace /b] char 23  Hex: /0x17
+\0x17
+[Search /bi] char 63 Hex: /0x3F
+\?
+[Replace /b] char 26  Hex: /0x1A
+\0x1a
+[Search /bi] char 39 Hex: /0x27
+\'
+[Replace /b] char 27  Hex: /0x1B
+\0x1b
+[Search /bi] char 64 Hex: /0x40
+@
+[Replace /b] char 32  Hex: /0x20 (space)
+ 
+[Search /bi] char 90 Hex: /0x5A
+Z
+[Replace /b] char 33  Hex: /0x21
+!
+[Search /bi] char 127 Hex: /0x7F
+\0x7f
+[Replace /b] char 34  Hex: /0x22
+\"
+[Search /bi] char 123 Hex: /0x7B
+{
+[Replace /b] char 35  Hex: /0x23
+#
+[Search /bi] char 91 Hex: /0x5B
+[
+[Replace /b] char 36  Hex: /0x24
+$
+[Search /bi] char 108 Hex: /0x6C
+l
+[Replace /b] char 37  Hex: /0x25
+%
+[Search /bi] char 80 Hex: /0x50
+P
+[Replace /b] char 38  Hex: /0x26
+&
+[Search /bi] char 125 Hex: /0x7D
+}
+[Replace /b] char 39  Hex: /0x27
+'
+[Search /bi] char 77 Hex: /0x4D
+M
+[Replace /b] char 40  Hex: /0x28
+(
+[Search /bi] char 93 Hex: /0x5D
+]
+[Replace /b] char 41  Hex: /0x29
+)
+[Search /bi] char 92 Hex: /0x5C
+\\
+[Replace /b] char 42  Hex: /0x2A
+*
+[Search /bi] char 78 Hex: /0x4E
+N
+[Replace /b] char 43  Hex: /0x2B
++
+[Search /bi] char 107 Hex: /0x6B
+k
+[Replace /b] char 44  Hex: /0x2C
+,
+[Search /bi] char 96 Hex: /0x60
+`
+[Replace /b] char 45  Hex: /0x2D
+-
+[Search /bi] char 75 Hex: /0x4B
+K
+[Replace /b] char 46  Hex: /0x2E
+.
+[Search /bi] char 97 Hex: /0x61
+a
+[Replace /b] char 47  Hex: /0x2F
+/
+[Search /bi] char 240 Hex: /0xF0
+ð
+[Replace /b] char 48  Hex: /0x30
+0
+[Search /bi] char 241 Hex: /0xF1
+ñ
+[Replace /b] char 49  Hex: /0x31
+1
+[Search /bi] char 242 Hex: /0xF2
+ò
+[Replace /b] char 50  Hex: /0x32
+2
+[Search /bi] char 243 Hex: /0xF3
+ó
+[Replace /b] char 51  Hex: /0x33
+3
+[Search /bi] char 244 Hex: /0xF4
+ô
+[Replace /b] char 52  Hex: /0x34
+4
+[Search /bi] char 245 Hex: /0xF5
+õ
+[Replace /b] char 53  Hex: /0x35
+5
+[Search /bi] char 246 Hex: /0xF6
+ö
+[Replace /b] char 54  Hex: /0x36
+6
+[Search /bi] char 247 Hex: /0xF7
+\0xf7
+[Replace /b] char 55  Hex: /0x37
+7
+[Search /bi] char 248 Hex: /0xF8
+ø
+[Replace /b] char 56  Hex: /0x38
+8
+[Search /bi] char 249 Hex: /0xF9
+ù
+[Replace /b] char 57  Hex: /0x39
+9
+[Search /bi] char 122 Hex: /0x7A
+z
+[Replace /b] char 58  Hex: /0x3A
+:
+[Search /bi] char 94 Hex: /0x5E
+^
+[Replace /b] char 59  Hex: /0x3B
+;
+[Search /bi] char 76 Hex: /0x4C
+L
+[Replace /b] char 60  Hex: /0x3C
+<
+[Search /bi] char 126 Hex: /0x7E
+~
+[Replace /b] char 61  Hex: /0x3D
+=
+[Search /bi] char 110 Hex: /0x6E
+n
+[Replace /b] char 62  Hex: /0x3E
+>
+[Search /bi] char 111 Hex: /0x6F
+o
+[Replace /b] char 63  Hex: /0x3F
+?
+[Search /bi] char 124 Hex: /0x7C
+|
+[Replace /b] char 64  Hex: /0x40
+@
+[Search /bi] char 193 Hex: /0xC1
+Á
+[Replace /b] char 65  Hex: /0x41
+A
+[Search /bi] char 194 Hex: /0xC2
+Â
+[Replace /b] char 66  Hex: /0x42
+B
+[Search /bi] char 195 Hex: /0xC3
+Ã
+[Replace /b] char 67  Hex: /0x43
+C
+[Search /bi] char 196 Hex: /0xC4
+Ä
+[Replace /b] char 68  Hex: /0x44
+D
+[Search /bi] char 197 Hex: /0xC5
+Å
+[Replace /b] char 69  Hex: /0x45
+E
+[Search /bi] char 198 Hex: /0xC6
+Æ
+[Replace /b] char 70  Hex: /0x46
+F
+[Search /bi] char 199 Hex: /0xC7
+Ç
+[Replace /b] char 71  Hex: /0x47
+G
+[Search /bi] char 200 Hex: /0xC8
+È
+[Replace /b] char 72  Hex: /0x48
+H
+[Search /bi] char 201 Hex: /0xC9
+É
+[Replace /b] char 73  Hex: /0x49
+I
+[Search /bi] char 209 Hex: /0xD1
+Ñ
+[Replace /b] char 74  Hex: /0x4A
+J
+[Search /bi] char 210 Hex: /0xD2
+Ò
+[Replace /b] char 75  Hex: /0x4B
+K
+[Search /bi] char 211 Hex: /0xD3
+Ó
+[Replace /b] char 76  Hex: /0x4C
+L
+[Search /bi] char 212 Hex: /0xD4
+Ô
+[Replace /b] char 77  Hex: /0x4D
+M
+[Search /bi] char 213 Hex: /0xD5
+Õ
+[Replace /b] char 78  Hex: /0x4E
+N
+[Search /bi] char 214 Hex: /0xD6
+Ö
+[Replace /b] char 79  Hex: /0x4F
+O
+[Search /bi] char 215 Hex: /0xD7
+\0xd7
+[Replace /b] char 80  Hex: /0x50
+P
+[Search /bi] char 216 Hex: /0xD8
+Ø
+[Replace /b] char 81  Hex: /0x51
+Q
+[Search /bi] char 217 Hex: /0xD9
+Ù
+[Replace /b] char 82  Hex: /0x52
+R
+[Search /bi] char 226 Hex: /0xE2
+â
+[Replace /b] char 83  Hex: /0x53
+S
+[Search /bi] char 227 Hex: /0xE3
+ã
+[Replace /b] char 84  Hex: /0x54
+T
+[Search /bi] char 228 Hex: /0xE4
+ä
+[Replace /b] char 85  Hex: /0x55
+U
+[Search /bi] char 229 Hex: /0xE5
+å
+[Replace /b] char 86  Hex: /0x56
+V
+[Search /bi] char 230 Hex: /0xE6
+æ
+[Replace /b] char 87  Hex: /0x57
+W
+[Search /bi] char 231 Hex: /0xE7
+ç
+[Replace /b] char 88  Hex: /0x58
+X
+[Search /bi] char 232 Hex: /0xE8
+è
+[Replace /b] char 89  Hex: /0x59
+Y
+[Search /bi] char 233 Hex: /0xE9
+é
+[Replace /b] char 90  Hex: /0x5A
+Z
+[Search /bi] char 173 Hex: /0xAD
+\0xad
+[Replace /b] char 91  Hex: /0x5B
+[
+[Search /bi] char 224 Hex: /0xE0
+à
+[Replace /b] char 92  Hex: /0x5C
+\\
+[Search /bi] char 189 Hex: /0xBD
+\0xbd
+[Replace /b] char 93  Hex: /0x5D
+]
+[Search /bi] char 95 Hex: /0x5F
+_
+[Replace /b] char 94  Hex: /0x5E
+^
+[Search /bi] char 109 Hex: /0x6D
+m
+[Replace /b] char 95  Hex: /0x5F
+_
+[Search /bi] char 121 Hex: /0x79
+y
+[Replace /b] char 96  Hex: /0x60
+`
+[Search /bi] char 129 Hex: /0x81
+\0x81
+[Replace /b] char 97  Hex: /0x61
+a
+[Search /bi] char 130 Hex: /0x82
+\0x82
+[Replace /b] char 98  Hex: /0x62
+b
+[Search /bi] char 131 Hex: /0x83
+\0x83
+[Replace /b] char 99  Hex: /0x63
+c
+[Search /bi] char 132 Hex: /0x84
+\0x84
+[Replace /b] char 100  Hex: /0x64
+d
+[Search /bi] char 133 Hex: /0x85
+\0x85
+[Replace /b] char 101  Hex: /0x65
+e
+[Search /bi] char 134 Hex: /0x86
+\0x86
+[Replace /b] char 102  Hex: /0x66
+f
+[Search /bi] char 135 Hex: /0x87
+\0x87
+[Replace /b] char 103  Hex: /0x67
+g
+[Search /bi] char 136 Hex: /0x88
+\0x88
+[Replace /b] char 104  Hex: /0x68
+h
+[Search /bi] char 137 Hex: /0x89
+\0x89
+[Replace /b] char 105  Hex: /0x69
+i
+[Search /bi] char 145 Hex: /0x91
+\0x91
+[Replace /b] char 106  Hex: /0x6A
+j
+[Search /bi] char 146 Hex: /0x92
+\0x92
+[Replace /b] char 107  Hex: /0x6B
+k
+[Search /bi] char 147 Hex: /0x93
+\0x93
+[Replace /b] char 108  Hex: /0x6C
+l
+[Search /bi] char 148 Hex: /0x94
+\0x94
+[Replace /b] char 109  Hex: /0x6D
+m
+[Search /bi] char 149 Hex: /0x95
+\0x95
+[Replace /b] char 110  Hex: /0x6E
+n
+[Search /bi] char 150 Hex: /0x96
+\0x96
+[Replace /b] char 111  Hex: /0x6F
+o
+[Search /bi] char 151 Hex: /0x97
+\0x97
+[Replace /b] char 112  Hex: /0x70
+p
+[Search /bi] char 152 Hex: /0x98
+\0x98
+[Replace /b] char 113  Hex: /0x71
+q
+[Search /bi] char 153 Hex: /0x99
+\0x99
+[Replace /b] char 114  Hex: /0x72
+r
+[Search /bi] char 162 Hex: /0xA2
+\0xa2
+[Replace /b] char 115  Hex: /0x73
+s
+[Search /bi] char 163 Hex: /0xA3
+\0xa3
+[Replace /b] char 116  Hex: /0x74
+t
+[Search /bi] char 164 Hex: /0xA4
+\0xa4
+[Replace /b] char 117  Hex: /0x75
+u
+[Search /bi] char 165 Hex: /0xA5
+\0xa5
+[Replace /b] char 118  Hex: /0x76
+v
+[Search /bi] char 166 Hex: /0xA6
+\0xa6
+[Replace /b] char 119  Hex: /0x77
+w
+[Search /bi] char 167 Hex: /0xA7
+\0xa7
+[Replace /b] char 120  Hex: /0x78
+x
+[Search /bi] char 168 Hex: /0xA8
+\0xa8
+[Replace /b] char 121  Hex: /0x79
+y
+[Search /bi] char 169 Hex: /0xA9
+\0xa9
+[Replace /b] char 122  Hex: /0x7A
+z
+[Search /bi] char 192 Hex: /0xC0
+À
+[Replace /b] char 123  Hex: /0x7B
+{
+[Search /bi] char 106 Hex: /0x6A
+j
+[Replace /b] char 124  Hex: /0x7C
+|
+[Search /bi] char 208 Hex: /0xD0
+Ð
+[Replace /b] char 125  Hex: /0x7D
+}
+[Search /bi] char 161 Hex: /0xA1
+\0xa1
+[Replace /b] char 126  Hex: /0x7E
+~
+[Search /bi] char 7 Hex: /0x07
+\0x07
+[Replace /b] char 127  Hex: /0x7F
+\0x7f
+[Search /bi] char 104 Hex: /0x68
+h
+[Replace /b] char 128  Hex: /0x80
+\0x80
+[Search /bi] char 220 Hex: /0xDC
+Ü
+[Replace /b] char 129  Hex: /0x81
+\0x81
+[Search /bi] char 81 Hex: /0x51
+Q
+[Replace /b] char 130  Hex: /0x82
+\0x82
+[Search /bi] char 66 Hex: /0x42
+B
+[Replace /b] char 131  Hex: /0x83
+\0x83
+[Search /bi] char 67 Hex: /0x43
+C
+[Replace /b] char 132  Hex: /0x84
+\0x84
+[Search /bi] char 68 Hex: /0x44
+D
+[Replace /b] char 133  Hex: /0x85
+\0x85
+[Search /bi] char 71 Hex: /0x47
+G
+[Replace /b] char 134  Hex: /0x86
+\0x86
+[Search /bi] char 72 Hex: /0x48
+H
+[Replace /b] char 135  Hex: /0x87
+\0x87
+[Search /bi] char 82 Hex: /0x52
+R
+[Replace /b] char 136  Hex: /0x88
+\0x88
+[Search /bi] char 83 Hex: /0x53
+S
+[Replace /b] char 137  Hex: /0x89
+\0x89
+[Search /bi] char 84 Hex: /0x54
+T
+[Replace /b] char 138  Hex: /0x8A
+\0x8a
+[Search /bi] char 87 Hex: /0x57
+W
+[Replace /b] char 139  Hex: /0x8B
+\0x8b
+[Search /bi] char 86 Hex: /0x56
+V
+[Replace /b] char 140  Hex: /0x8C
+\0x8c
+[Search /bi] char 88 Hex: /0x58
+X
+[Replace /b] char 141  Hex: /0x8D
+\0x8d
+[Search /bi] char 99 Hex: /0x63
+c
+[Replace /b] char 142  Hex: /0x8E
+\0x8e
+[Search /bi] char 103 Hex: /0x67
+g
+[Replace /b] char 143  Hex: /0x8F
+\0x8f
+[Search /bi] char 113 Hex: /0x71
+q
+[Replace /b] char 144  Hex: /0x90
+\0x90
+[Search /bi] char 156 Hex: /0x9C
+\0x9c
+[Replace /b] char 145  Hex: /0x91
+\0x91
+[Search /bi] char 158 Hex: /0x9E
+\0x9e
+[Replace /b] char 146  Hex: /0x92
+\0x92
+[Search /bi] char 203 Hex: /0xCB
+Ë
+[Replace /b] char 147  Hex: /0x93
+\0x93
+[Search /bi] char 204 Hex: /0xCC
+Ì
+[Replace /b] char 148  Hex: /0x94
+\0x94
+[Search /bi] char 205 Hex: /0xCD
+Í
+[Replace /b] char 149  Hex: /0x95
+\0x95
+[Search /bi] char 219 Hex: /0xDB
+Û
+[Replace /b] char 150  Hex: /0x96
+\0x96
+[Search /bi] char 221 Hex: /0xDD
+Ý
+[Replace /b] char 151  Hex: /0x97
+\0x97
+[Search /bi] char 223 Hex: /0xDF
+ß
+[Replace /b] char 152  Hex: /0x98
+\0x98
+[Search /bi] char 236 Hex: /0xEC
+ì
+[Replace /b] char 153  Hex: /0x99
+\0x99
+[Search /bi] char 252 Hex: /0xFC
+ü
+[Replace /b] char 154  Hex: /0x9A
+\0x9a
+[Search /bi] char 176 Hex: /0xB0
+\0xb0
+[Replace /b] char 155  Hex: /0x9B
+\0x9b
+[Search /bi] char 177 Hex: /0xB1
+\0xb1
+[Replace /b] char 156  Hex: /0x9C
+\0x9c
+[Search /bi] char 178 Hex: /0xB2
+\0xb2
+[Replace /b] char 157  Hex: /0x9D
+\0x9d
+[Search /bi] char 62 Hex: /0x3E
+>
+[Replace /b] char 158  Hex: /0x9E
+\0x9e
+[Search /bi] char 180 Hex: /0xB4
+\0xb4
+[Replace /b] char 159  Hex: /0x9F
+\0x9f
+[Search /bi] char 69 Hex: /0x45
+E
+[Replace /b] char 160  Hex: /0xA0
+\0xa0
+[Search /bi] char 85 Hex: /0x55
+U
+[Replace /b] char 161  Hex: /0xA1
+\0xa1
+[Search /bi] char 206 Hex: /0xCE
+Î
+[Replace /b] char 162  Hex: /0xA2
+\0xa2
+[Search /bi] char 222 Hex: /0xDE
+Þ
+[Replace /b] char 163  Hex: /0xA3
+\0xa3
+[Search /bi] char 73 Hex: /0x49
+I
+[Replace /b] char 164  Hex: /0xA4
+\0xa4
+[Search /bi] char 105 Hex: /0x69
+i
+[Replace /b] char 165  Hex: /0xA5
+\0xa5
+[Search /bi] char 154 Hex: /0x9A
+\0x9a
+[Replace /b] char 166  Hex: /0xA6
+\0xa6
+[Search /bi] char 155 Hex: /0x9B
+\0x9b
+[Replace /b] char 167  Hex: /0xA7
+\0xa7
+[Search /bi] char 171 Hex: /0xAB
+\0xab
+[Replace /b] char 168  Hex: /0xA8
+\0xa8
+[Search /bi] char 15 Hex: /0x0F
+\0x0f
+[Replace /b] char 169  Hex: /0xA9
+\0xa9
+[Search /bi] char 186 Hex: /0xBA
+\0xba
+[Replace /b] char 170  Hex: /0xAA
+\0xaa
+[Search /bi] char 184 Hex: /0xB8
+\0xb8
+[Replace /b] char 171  Hex: /0xAB
+\0xab
+[Search /bi] char 183 Hex: /0xB7
+\0xb7
+[Replace /b] char 172  Hex: /0xAC
+\0xac
+[Search /bi] char 170 Hex: /0xAA
+\0xaa
+[Replace /b] char 173  Hex: /0xAD
+\0xad
+[Search /bi] char 138 Hex: /0x8A
+\0x8a
+[Replace /b] char 174  Hex: /0xAE
+\0xae
+[Search /bi] char 139 Hex: /0x8B
+\0x8b
+[Replace /b] char 175  Hex: /0xAF
+\0xaf
+[Search /bi] char 60 Hex: /0x3C
+<
+[Replace /b] char 176  Hex: /0xB0
+\0xb0
+[Search /bi] char 61 Hex: /0x3D
+=
+[Replace /b] char 177  Hex: /0xB1
+\0xb1
+[Search /bi] char 98 Hex: /0x62
+b
+[Replace /b] char 178  Hex: /0xB2
+\0xb2
+[Search /bi] char 79 Hex: /0x4F
+O
+[Replace /b] char 179  Hex: /0xB3
+\0xb3
+[Search /bi] char 100 Hex: /0x64
+d
+[Replace /b] char 180  Hex: /0xB4
+\0xb4
+[Search /bi] char 101 Hex: /0x65
+e
+[Replace /b] char 181  Hex: /0xB5
+\0xb5
+[Search /bi] char 102 Hex: /0x66
+f
+[Replace /b] char 182  Hex: /0xB6
+\0xb6
+[Search /bi] char 32 Hex: /0x20 (space)
+ 
+[Replace /b] char 183  Hex: /0xB7
+\0xb7
+[Search /bi] char 33 Hex: /0x21
+!
+[Replace /b] char 184  Hex: /0xB8
+\0xb8
+[Search /bi] char 34 Hex: /0x22
+\"
+[Replace /b] char 185  Hex: /0xB9
+\0xb9
+[Search /bi] char 112 Hex: /0x70
+p
+[Replace /b] char 186  Hex: /0xBA
+\0xba
+[Search /bi] char 35 Hex: /0x23
+#
+[Replace /b] char 187  Hex: /0xBB
+\0xbb
+[Search /bi] char 114 Hex: /0x72
+r
+[Replace /b] char 188  Hex: /0xBC
+\0xbc
+[Search /bi] char 115 Hex: /0x73
+s
+[Replace /b] char 189  Hex: /0xBD
+\0xbd
+[Search /bi] char 116 Hex: /0x74
+t
+[Replace /b] char 190  Hex: /0xBE
+\0xbe
+[Search /bi] char 190  Hex: /0xBE
+\0xbe
+[Replace /b] char 191  Hex: /0xBF
+\0xbf
+[Search /bi] char 118  Hex: /0x76
+v
+[Replace /b] char 192  Hex: /0xC0
+À
+[Search /bi] char 119  Hex: /0x77
+w
+[Replace /b] char 193  Hex: /0xC1
+Á
+[Search /bi] char 120  Hex: /0x78
+x
+[Replace /b] char 194  Hex: /0xC2
+Â
+[Search /bi] char 128  Hex: /0x80
+\0x80
+[Replace /b] char 195  Hex: /0xC3
+Ã
+[Search /bi] char 36  Hex: /0x24
+$
+[Replace /b] char 196  Hex: /0xC4
+Ä
+[Search /bi] char 21  Hex: /0x15
+\0x1f
+[Replace /b] char 197  Hex: /0xC5
+Å
+[Search /bi] char 140  Hex: /0x8C
+\0x8c
+[Replace /b] char 198  Hex: /0xC6
+Æ
+[Search /bi] char 141  Hex: /0x8D
+\0x8d
+[Replace /b] char 199  Hex: /0xC7
+Ç
+[Search /bi] char 142  Hex: /0x8E
+\0x8e
+[Replace /b] char 200  Hex: /0xC8
+È
+[Search /bi] char 65  Hex: /0x41
+A
+[Replace /b] char 201  Hex: /0xC9
+É
+[Search /bi] char 6  Hex: /0x06
+\0x06
+[Replace /b] char 202  Hex: /0xCA
+Ê
+[Search /bi] char 23  Hex: /0x17
+\0x17
+[Replace /b] char 203  Hex: /0xCB
+Ë
+[Search /bi] char 40  Hex: /0x28
+(
+[Replace /b] char 204  Hex: /0xCC
+Ì
+[Search /bi] char 41  Hex: /0x29
+)
+[Replace /b] char 205  Hex: /0xCD
+Í
+[Search /bi] char 157  Hex: /0x9D
+\0x9d
+[Replace /b] char 206  Hex: /0xCE
+Î
+[Search /bi] char 42  Hex: /0x2A
+*
+[Replace /b] char 207  Hex: /0xCF
+Ï
+[Search /bi] char 43  Hex: /0x2B
++
+[Replace /b] char 208  Hex: /0xD0
+Ð
+[Search /bi] char 44  Hex: /0x2C
+,
+[Replace /b] char 209  Hex: /0xD1
+Ñ
+[Search /bi] char 9  Hex: /0x09
+\t
+[Replace /b] char 210  Hex: /0xD2
+Ò
+[Search /bi] char 10  Hex: /0x0A
+\n
+[Replace /b] char 211  Hex: /0xD3
+Ó
+[Search /bi] char 172  Hex: /0xAC
+\0xac
+[Replace /b] char 212  Hex: /0xD4
+Ô
+[Search /bi] char 74  Hex: /0x4A
+J
+[Replace /b] char 213  Hex: /0xD5
+Õ
+[Search /bi] char 174  Hex: /0xAE
+\0xae
+[Replace /b] char 214  Hex: /0xD6
+Ö
+[Search /bi] char 175  Hex: /0xAF
+\0xaf
+[Replace /b] char 215  Hex: /0xD7
+\0xd7
+[Search /bi] char 27  Hex: /0x1B
+\0x1b
+[Replace /b] char 216  Hex: /0xD8
+Ø
+[Search /bi] char 27  Hex: /0x1B
+\0x1b
+[Replace /b] char 217  Hex: /0xD9
+Ù
+[Search /bi] char 49  Hex: /0x31
+1
+[Replace /b] char 218  Hex: /0xDA
+Ú
+[Search /bi] char 250  Hex: /0xFA
+ú
+[Replace /b] char 219  Hex: /0xDB
+Û
+[Search /bi] char 26  Hex: /0x1A
+\0x1a
+[Replace /b] char 220  Hex: /0xDC
+Ü
+[Search /bi] char 51  Hex: /0x33
+3
+[Replace /b] char 221  Hex: /0xDD
+Ý
+[Search /bi] char 52  Hex: /0x34
+4
+[Replace /b] char 222  Hex: /0xDE
+Þ
+[Search /bi] char 53  Hex: /0x35
+5
+[Replace /b] char 223  Hex: /0xDF
+ß
+[Search /bi] char 54  Hex: /0x36
+6
+[Replace /b] char 224  Hex: /0xE0
+à
+[Search /bi] char 89  Hex: /0x59
+Y
+[Replace /b] char 225  Hex: /0xE1
+á
+[Search /bi] char 8  Hex: /0x08
+\b
+[Replace /b] char 226  Hex: /0xE2
+â
+[Search /bi] char 56  Hex: /0x38
+8
+[Replace /b] char 227  Hex: /0xE3
+ã
+[Search /bi] char 188  Hex: /0xBC
+\0xbc
+[Replace /b] char 228  Hex: /0xE4
+ä
+[Search /bi] char 57  Hex: /0x39
+9
+[Replace /b] char 229  Hex: /0xE5
+å
+[Search /bi] char 160  Hex: /0xA0
+\0xa0
+[Replace /b] char 230  Hex: /0xE6
+æ
+[Search /bi] char 191  Hex: /0xBF
+\0xbf
+[Replace /b] char 231  Hex: /0xE7
+ç
+[Search /bi] char 202  Hex: /0xCA
+Ê
+[Replace /b] char 232  Hex: /0xE8
+è
+[Search /bi] char 58  Hex: /0x3A
+:
+[Replace /b] char 233  Hex: /0xE9
+é
+[Search /bi] char 254  Hex: /0xFE
+þ
+[Replace /b] char 234  Hex: /0xEA
+ê
+[Search /bi] char 59  Hex: /0x3B
+;
+[Replace /b] char 235  Hex: /0xEB
+ë
+[Search /bi] char 4  Hex: /0x04
+\0x04
+[Replace /b] char 236  Hex: /0xEC
+ì
+[Search /bi] char 207  Hex: /0xCF
+Ï
+[Replace /b] char 237  Hex: /0xED
+í
+[Search /bi] char 218  Hex: /0xDA
+Ú
+[Replace /b] char 238  Hex: /0xEE
+î
+[Search /bi] char 20  Hex: /0x14
+\0x14
+[Replace /b] char 239  Hex: /0xEF
+ï
+[Search /bi] char 225  Hex: /0xE1
+á
+[Replace /b] char 240  Hex: /0xF0
+ð
+[Search /bi] char 143  Hex: /0x8F
+\0x8f
+[Replace /b] char 241  Hex: /0xF1
+ñ
+[Search /bi] char 70  Hex: /0x46
+F
+[Replace /b] char 242  Hex: /0xF2
+ò
+[Search /bi] char 117  Hex: /0x75
+u
+[Replace /b] char 243  Hex: /0xF3
+ó
+[Search /bi] char 253  Hex: /0xFD
+ý
+[Replace /b] char 244  Hex: /0xF4
+ô
+[Search /bi] char 235  Hex: /0xEB
+ë
+[Replace /b] char 245  Hex: /0xF5
+õ
+[Search /bi] char 238  Hex: /0xEE
+î
+[Replace /b] char 246  Hex: /0xF6
+ö
+[Search /bi] char 237  Hex: /0xED
+í
+[Replace /b] char 247  Hex: /0xF7
+\0xf7
+[Search /bi] char 144  Hex: /0x90
+\0x90
+[Replace /b] char 248  Hex: /0xF8
+ø
+[Search /bi] char 239  Hex: /0xEF
+ï
+[Replace /b] char 249  Hex: /0xF9
+ù
+[Search /bi] char 179  Hex: /0xB3
+\0xb3
+[Replace /b] char 250  Hex: /0xFA
+ú
+[Search /bi] char 185  Hex: /0xB9
+\0xb9
+[Replace /b] char 252  Hex: /0xFC
+ü
+[Search /bi] char 234  Hex: /0xEA
+ê
+[Replace /b] char 253  Hex: /0xFD
+ý
+[Search /bi] char 187  Hex: /0xBB
+\0xbb
+[Replace /b] char 254  Hex: /0xFE
+þ
+[End of Search and Replace Script]

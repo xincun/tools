@@ -1,0 +1,142 @@
+Search and Replace for Windows
+Copyright (c) 1995-2010 by Funduc Software Inc.
+All rights reserved.
+www.funduc.com     www.searchandreplace.com
+
+
+LICENSE AGREEMENT AND WARRANTY DISCLAIMER
+
+You should carefully read the following terms and conditions
+before using this software. Use of this software indicates your
+acceptance of these terms and conditions.  If you do not agree
+with them, do not use the software.
+
+
+SHAREWARE VERSION LICENSE
+
+The Shareware Version is not free software.  If you are using the
+Shareware Version you are hereby licensed to use this software for
+evaluation purposes without charge for a period of 30 days.  If
+you use this software after the 30 day evaluation period a
+registration fee is due (see Ordering Information).
+
+If you are using the Shareware Version of the software you are
+also hereby licensed to: Make as many copies of the Shareware
+version of this software and documentation as you wish; Give exact
+copies of the original Shareware version to anyone; Distribute the
+Shareware version of the software and documentation in its
+unmodified form via electronic means.  There is no charge for any
+of the above.
+
+Unregistered use of Search and Replace for Windows after the 30
+day evaluation period is in violation of federal copyright laws.
+
+You may not decompile, disassemble, reverse engineer, or modify
+any version of Search and Replace for Windows (shareware) in any
+manner.
+
+
+REGISTERED VERSION LICENSE
+
+One registered copy of Search and Replace for Windows may be
+dedicated to a single person who uses the software on one or more
+computers or workstations that are for their own exclusive use and
+for which they are the sole user.
+
+A single user license may be used to process as many files on as
+many drives or network shares as you like.  However, a single user
+license registration may not be made available in any form to
+multiple users or workstations.  Furthermore, a single user
+license may not be used for workstation modification or update
+purposes, including, but not limited to, changing configuration
+files, lnk files, bat files, cmd files on multiple workstations.
+A single use license specifically may not be used as part of a
+scripted logon routine.
+
+Licensing is not based on "concurrent" users.  If multiple
+workstations are to access the program in any form and for any
+length of time you must purchase licenses for the number of users
+that will access the program.  If you make the registered version
+of Search and Replace for Windows available through a network and
+accessible by multiple users or workstations you are required to
+purchase licenses for the software covering all workstations that
+will access the software through the network.  Special pricing is
+available for multiple licenses.  See Ordering Information for
+information on how to purchase (register).
+
+Customer support can be obtained by visiting our homepage at
+http://www.funduc.com or by E-MAIL (support@funduc.com).
+
+
+WORKSTATION UPDATE AND/OR SPECIAL USE LICENSE
+
+Special licensing (and pricing) is available if the usage is for
+the purpose workstation modifications or updating, including, but
+not limited to, pushing changes to workstation configuration
+files, lnk files, bat files, cmd files.  The purchase of a special
+use license allows you to use the program to update the number of
+workstations for which you purchased special use licenses for via
+automated routines such as logon scripts.  Unless otherwise noted
+at the time of your purchase, a workstation update/special use
+license specifically does not allow individual workstation users
+to access the program for interactive use.  Do not create desktop
+shortcuts or launchers that allow workstation users to access the
+program outside of the specific update routine for which you
+purchased the special use license.
+
+Please contact sales@funduc.com if you have a special use request
+involving multiple workstations that will access the program for
+workstation updating or modification routines.
+
+
+OWNERSHIP RIGHTS
+
+Funduc Software, Inc. owns and retains all copyrights, patents,
+trade secret rights, trademarks and intellectual property rights
+to this software. Registration &/or use of the software does not
+grant you any right to the intellectual property in the product.
+
+
+CUSTOMER SUPPORT
+
+Customer support can be obtained by visiting our home page at
+www.funduc.com or by email at support@funduc.com.
+
+
+RESTRICTIONS
+
+You are prohibited by law from selling, renting, leasing, loaning,
+or donating the program or documentation in whole or in part
+without specific advance agreement between yourself and Funduc
+Software, Inc.  You are prohibited by law from redistributing the
+registered version of the program by any method or in any form
+except to the specific individuals for whom the software was
+purchased.  You are prohibited from decompiling, reverse
+engineering, disassembling, or otherwise reducing the program to
+human readable form for any purposes whatsoever.  You may not
+modify the program or documentation in any manner.  You are
+prohibited from permitting anyone else from undertaking any of the
+above actions.
+
+You may not decompile, disassemble, modify, or reverse engineer
+Search and Replace (registered or shareware) in any manner.
+
+
+GOVERNING LAW
+
+This agreement shall be governed by the laws of the State of
+Michigan.
+
+
+DISCLAIMER OF WARRANTY
+
+This software and the accompanying files are sold "as is" and
+without warranties as to performance of merchantability or any
+other warranties whether expressed or implied.  In particular,
+there is no warranty for the string Replacing feature.
+
+Good data processing procedure dictates that any program be
+thoroughly tested with non-critical data before relying on it.
+The user must assume the entire risk of using the program. Any
+liability of the seller will be limited exclusively to product
+replacement or refund of purchase price.

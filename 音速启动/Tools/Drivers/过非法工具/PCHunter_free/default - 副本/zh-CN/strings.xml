@@ -1,0 +1,14 @@
+<?xml version="1.0"  encoding="UTF-8"?>
+<strings>
+  <SKIN_NAME>默认皮肤</SKIN_NAME>
+  <SKIN_DESCRIPTION>谷歌拼音输入法经典皮肤</SKIN_DESCRIPTION>
+  <SKIN_ABOUT>默认皮肤
+Copyright (c) 2011 Some Company, Inc. All Rights Reserved
+谷歌拼音输入法经典皮肤</SKIN_ABOUT>
+  <SWITCH_LANGUAGE_MODE>切换中英文</SWITCH_LANGUAGE_MODE>
+  <SWITCH_CHARACTER_MODE>切换全半角</SWITCH_CHARACTER_MODE>
+  <SWITCH_PUNCTUATION_MODE>切换中英文标点</SWITCH_PUNCTUATION_MODE>
+  <SOFT_KEYBOARD>软键盘</SOFT_KEYBOARD>
+  <VOICE_INPUT>语音输入</VOICE_INPUT>
+  <IME_MENU>菜单</IME_MENU>
+</strings>

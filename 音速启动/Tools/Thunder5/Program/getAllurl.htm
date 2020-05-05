@@ -1,0 +1,27 @@
+<script language="VBScript">
+
+Sub OnContextMenu()
+	set ThunderAgent = CreateObject("ThunderAgent.Agent.1")
+
+	set links = external.menuArguments.document.links
+	set images = external.menuArguments.document.images
+	link_count = links.length
+	image_count = images.length
+
+	strReferUrl = external.menuArguments.document.url
+		
+	for i = 0 to link_count-1
+		call ThunderAgent.AddTask(links(i).href, "", "", links(i).innerText, strReferUrl)
+	next 
+		
+	for i = 0 to image_count-1
+		call ThunderAgent.AddTask(images(i).src, "", "", images(i).innerText, strReferUrl)
+	next
+
+	call ThunderAgent.CommitTasks2(1)
+	set ThunderAgent = nothing
+end sub
+
+call OnContextMenu()
+
+</script>

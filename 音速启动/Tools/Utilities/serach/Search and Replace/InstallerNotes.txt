@@ -1,0 +1,24 @@
+                  Search and Replace for Windows
+                        Shareware Version
+                      Funduc Software, Inc.
+             Copyright 1995-2010, All Rights Reserved
+    http://www.funduc.com     http://www.searchandreplace.com
+
+Installation Notes:
+
+1. All files are installed in the path of your choice. No changes
+are made to your 'system' subdirectory.
+
+2. By design this installer does not change any default Search and
+Replace settings you may have in place. If you need to wipe all
+current program settings please write support@funduc.com and we
+will send you separate instructions. Of course this does not apply
+to the shareware time out. If your version has timed out please
+purchase a registered copy. Thanks.
+
+3. If you use a language module you can download an interface at
+any time from our web site. Go to www.funduc.com or
+www.searchandreplace.com, scroll down to 'International Versions'
+and follow the links from there.
+
+Thanks.

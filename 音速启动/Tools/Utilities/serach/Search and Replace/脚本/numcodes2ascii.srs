@@ -1,0 +1,395 @@
+[Script for Search and Replace]
+Based on Latin1 table at http://www.jaques.demon.co.uk/htx/asc1.htm
+[Search] non-breaking space &nbsp;   
+&#160;
+[Replace]
+ 
+[Search] inverted exclamation mark &iexcl; ¡ 
+&#161;
+[Replace]
+¡
+[Search] cent sign &cent; ¢ 
+&#162;
+[Replace]
+¢
+[Search] pound sign &pound; £ 
+&#163;
+[Replace]
+£
+[Search] currency sign &curren; ¤ 
+&#164;
+[Replace]
+¤
+[Search] yen sign &yen; ¥ 
+&#165;
+[Replace]
+¥
+[Search] broken vertical bar &brvbar; ¦ 
+&#166;
+[Replace]
+¦
+[Search] broken vertical bar &brkbar; &brkbar; 
+&#166;
+[Replace]
+¦
+[Search] section sign &sect; § 
+&#167;
+[Replace]
+§
+[Search] spacing diaresis &uml; ¨ 
+&#168;
+[Replace]
+¨
+[Search] copyright sign &copy; © 
+&#169;
+[Replace]
+©
+[Search] feminine ordinal indicator &ordf; ª 
+&#170;
+[Replace]
+ª
+[Search] angle quotation mark, left &laquo; « 
+&#171;
+[Replace]
+«
+[Search] negation sign &not; ¬ 
+&#172;
+[Replace]
+¬
+[Search] soft hyphen &shy; ­ 
+&#173;
+[Replace]
+­
+[Search] circled R registered sign &reg; ® 
+&#174;
+[Replace]
+®
+[Search] spacing macron &hibar; &hibar; 
+&#175;
+[Replace]
+¯
+[Search] degree sign &deg; ° 
+&#176;
+[Replace]
+°
+[Search] plus-or-minus sign &plusmn; ± 
+&#177;
+[Replace]
+±
+[Search] superscript 2 &sup2; ² 
+&#178;
+[Replace]
+²
+[Search] superscript 3 &sup3; ³ 
+&#179;
+[Replace]
+³
+[Search] spacing acute &acute; ´ 
+&#180;
+[Replace]
+´
+[Search] micro sign &micro; µ 
+&#181;
+[Replace]
+µ
+[Search] paragraph sign &para; ¶ 
+&#182;
+[Replace]
+¶
+[Search] middle dot &middot; · 
+&#183;
+[Replace]
+·
+[Search] spacing cedilla &cedil; ¸ 
+&#184;
+[Replace]
+¸
+[Search] superscript 1 &sup1; ¹ 
+&#185;
+[Replace]
+¹
+[Search] masculine ordinal indicator &ordm; º 
+&#186;
+[Replace]
+º
+[Search] angle quotation mark, right &raquo; » 
+&#187;
+[Replace]
+»
+[Search] fraction 1/4 &frac14; ¼ 
+&#188;
+[Replace]
+¼
+[Search] fraction 1/2 &frac12; ½ 
+&#189;
+[Replace]
+½
+[Search] fraction 3/4 &frac34; ¾ 
+&#190;
+[Replace]
+¾
+[Search] inverted question mark &iquest; ¿ 
+&#191;
+[Replace]
+¿
+[Search] capital A, grave accent &Agrave; À 
+&#192;
+[Replace]
+À
+[Search] capital A, acute accent &Aacute; Á 
+&#193;
+[Replace]
+Á
+[Search] capital A, circumflex accent &Acirc; Â 
+&#194;
+[Replace]
+Â
+[Search] capital A, tilde &Atilde; Ã 
+&#195;
+[Replace]
+Ã
+[Search] capital A, dieresis or umlaut mark &Auml; Ä 
+&#196;
+[Replace]
+Ä
+[Search] capital A, ring &Aring; Å 
+&#197;
+[Replace]
+Å
+[Search] capital AE diphthong (ligature) &AElig; Æ 
+&#198;
+[Replace]
+Æ
+[Search] capital C, cedilla &Ccedil; Ç 
+&#199;
+[Replace]
+Ç
+[Search] capital E, grave accent &Egrave; È 
+&#200;
+[Replace]
+È
+[Search] capital E, acute accent &Eacute; É 
+&#201;
+[Replace]
+É
+[Search] capital E, circumflex accent &Ecirc; Ê 
+&#202;
+[Replace]
+Ê
+[Search] capital E, dieresis or umlaut mark &Euml; Ë 
+&#203;
+[Replace]
+Ë
+[Search] capital I, grave accent &Igrave; Ì 
+&#204;
+[Replace]
+Ì
+[Search] capital I, acute accent &Iacute; Í 
+&#205;
+[Replace]
+Í
+[Search] capital I, circumflex accent &Icirc; Î 
+&#206;
+[Replace]
+Î
+[Search] capital I, dieresis or umlaut mark &Iuml; Ï 
+&#207;
+[Replace]
+Ï
+[Search] capital Eth, Icelandic &ETH; Ð 
+&#208;
+[Replace]
+Ð
+[Search] capital Eth, Icelandic &Dstrok; &Dstrok; 
+&#208;
+[Replace]
+Ð
+[Search] capital N, tilde &Ntilde; Ñ 
+&#209;
+[Replace]
+Ñ
+[Search] capital O, grave accent &Ograve; Ò 
+&#210;
+[Replace]
+Ò
+[Search] capital O, acute accent &Oacute; Ó 
+&#211;
+[Replace]
+Ó
+[Search] capital O, circumflex accent &Ocirc; Ô 
+&#212;
+[Replace]
+Ô
+[Search] capital O, tilde &Otilde; Õ 
+&#213;
+[Replace]
+Õ
+[Search] capital O, dieresis or umlaut mark &Ouml; Ö 
+&#214;
+[Replace]
+Ö
+[Search] multiplication sign &times; × 
+&#215;
+[Replace]
+×
+[Search] capital O, slash &Oslash; Ø 
+&#216;
+[Replace]
+Ø
+[Search] capital U, grave accent &Ugrave; Ù 
+&#217;
+[Replace]
+Ù
+[Search] capital U, acute accent &Uacute; Ú 
+&#218;
+[Replace]
+Ú
+[Search] capital U, circumflex accent &Ucirc; Û 
+&#219;
+[Replace]
+Û
+[Search] capital U, dieresis or umlaut mark &Uuml; Ü 
+&#220;
+[Replace]
+Ü
+[Search] capital Y, acute accent &Yacute; Ý 
+&#221;
+[Replace]
+Ý
+[Search] capital THORN, Icelandic &THORN; Þ 
+&#222;
+[Replace]
+Þ
+[Search] small sharp s, German (sz ligature) &szlig; ß 
+&#223;
+[Replace]
+ß
+[Search] small a, grave accent &agrave; à 
+&#224;
+[Replace]
+à
+[Search] small a, acute accent &aacute; á 
+&#225;
+[Replace]
+á
+[Search] small a, circumflex accent &acirc; â 
+&#226;
+[Replace]
+â
+[Search] small a, tilde &atilde; ã 
+&#227;
+[Replace]
+ã
+[Search] small a, dieresis or umlaut mark &auml; ä 
+&#228;
+[Replace]
+ä
+[Search] small a, ring &aring; å 
+&#229;
+[Replace]
+å
+[Search] small ae diphthong (ligature) &aelig; æ 
+&#230;
+[Replace]
+æ
+[Search] small c, cedilla &ccedil; ç 
+&#231;
+[Replace]
+ç
+[Search] small e, grave accent &egrave; è 
+&#232;
+[Replace]
+è
+[Search] small e, acute accent &eacute; é 
+&#233;
+[Replace]
+é
+[Search] small e, circumflex accent &ecirc; ê 
+&#234;
+[Replace]
+ê
+[Search] small e, dieresis or umlaut mark &euml; ë 
+&#235;
+[Replace]
+ë
+[Search] small i, grave accent &igrave; ì 
+&#236;
+[Replace]
+ì
+[Search] small i, acute accent &iacute; í 
+&#237;
+[Replace]
+í
+[Search] small i, circumflex accent &icirc; î 
+&#238;
+[Replace]
+î
+[Search] small i, dieresis or umlaut mark &iuml; ï 
+&#239;
+[Replace]
+ï
+[Search] small eth, Icelandic &eth; ð 
+&#240;
+[Replace]
+ð
+[Search] small n, tilde &ntilde; ñ 
+&#241;
+[Replace]
+ñ
+[Search] small o, grave accent &ograve; ò 
+&#242;
+[Replace]
+ò
+[Search] small o, acute accent &oacute; ó 
+&#243;
+[Replace]
+ó
+[Search] small o, circumflex accent &ocirc; ô 
+&#244;
+[Replace]
+ô
+[Search] small o, tilde &otilde; õ 
+&#245;
+[Replace]
+õ
+[Search] small o, dieresis or umlaut mark &ouml; ö 
+&#246;
+[Replace]
+ö
+[Search] division sign &divide; ÷ 
+&#247;
+[Replace]
+÷
+[Search] small o, slash &oslash; ø 
+&#248;
+[Replace]
+ø
+[Search] small u, grave accent &ugrave; ù 
+&#249;
+[Replace]
+ù
+[Search] small u, acute accent &uacute; ú 
+&#250;
+[Replace]
+ú
+[Search] small u, circumflex accent &ucirc; û 
+&#251;
+[Replace]
+û
+[Search] small u, dieresis or umlaut mark &uuml; ü 
+&#252;
+[Replace]
+ü
+[Search] small y, acute accent &yacute; ý 
+&#253;
+[Replace]
+ý
+[Search] small thorn, Icelandic &thorn; þ 
+&#254;
+[Replace]
+þ
+[Search] small y, dieresis or umlaut mark &yuml; ÿ 
+&#255;
+[Replace]
+ÿ
+[End of Search and Replace Script]

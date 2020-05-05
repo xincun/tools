@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<view width="auto" height="auto">
+
+  <linear x="0" y="0"
+    width="auto" height="auto"
+    minWidth="210"
+    enabled="true"
+    orientation="vertical"
+    background="resource://candidate_window_background.png"
+    backgroundMode="stretch"
+    backgroundBorder="4, 4, 10, 14"
+    cursor="sizeall">
+
+    <div height="3"/>
+
+    <linear x="0" width="100%" height="auto" orientation="horizontal">
+
+      <div width="3"/>
+
+      <composition name="composition"
+        width="auto" height="auto"
+        active_font="Arial"
+        inactive_font="Arial"
+        highlight_font="Arial"
+        converted_font="SimSun"
+        active_size="12"
+        inactive_size="12"
+        highlight_size="12"
+        converted_size="12"
+        active_color="#000000"
+        inactive_color="#666666"
+        highlight_color="#0000ff"
+        converted_color="#000000"
+        active_bold="true"
+        inactive_bold="true"
+        highlight_bold="true"
+        caretwidth="1.0"
+        caretcolor="#3AB8FC"
+        minHeight="20"/>
+
+      <div width="30" linearLayoutDir="backward"/>
+
+      <label name="help_message" y="1" size="8" color="#7F7F7F" linearLayoutDir="backward"/>
+
+      <div width="7" linearLayoutDir="backward"/>
+
+      <button name="google_search"
+        width="49" height="18"
+        image="resource://google_search.png"
+        overImage="resource://google_search_over.png"
+        downImage="resource://google_search_down.png"
+        linearLayoutDir="backward"/>
+
+      <div width="10" linearLayoutDir="backward"/>
+
+    </linear>
+
+    <linear x="0" width="100%" height="auto" enabled="true"
+      orientation="horizontal">
+
+      <div width="3" />
+
+      <candidatelist name="candidate_list"
+        candidateFont="SimSun"
+        candidateSize="12"
+        candidateColor="#000000"
+        selectedCandidateColor="#FFFFFF"
+        candidateMenuWidth="7"
+        candidateMenuHeight="11"
+        candidateMenuIcon="resource://candidate_menu.png"
+        candidateMenuDownIcon="resource://candidate_menu_down.png"
+        candidateMenuOverIcon="resource://candidate_menu_over.png"
+        selectedCandidateMenuicon="resource://selected_candidate_menu.png"
+        selectedCandidateMenuOverIcon="resource://selected_candidate_menu_over.png"
+        selectedcandidateMenuDownIcon="resource://selected_candidate_menu_down.png"
+        selectionImage="resource://candidate_selection.png"
+        selectionImageOnTop="false"
+        selectionImageMargin="3, 3, 0, 0"
+        selectionImageStretchBorder="3, 3, 4, 3"
+        horizontalPadding="6"
+        verticalPadding="4"
+        orientation="horizontal"/>
+
+      <div width="29" linearLayoutDir="backward"/>
+
+      <button name="candidate_list_page_up"
+        width="22" height="18"
+        image="resource://candidate_list_page_up.png"
+        downImage="resource://candidate_list_page_up_down.png"
+        overImage="resource://candidate_list_page_up_over.png"
+        disabledImage="resource://candidate_list_page_up_disabled.png"
+        cursor="hand"
+        linearLayoutDir="backward"/>
+
+      <button name="candidate_list_page_down"
+        width="22" height="18"
+        image="resource://candidate_list_page_down.png"
+        downImage="resource://candidate_list_page_down_down.png"
+        overImage="resource://candidate_list_page_down_over.png"
+        disabledImage="resource://candidate_list_page_down_disabled.png"
+        cursor="hand"
+        linearLayoutDir="backward"/>
+
+      <div width="9" linearLayoutDir="backward"/>
+
+    </linear>
+
+    <div height="9"/>
+
+  </linear>
+
+</view>
+

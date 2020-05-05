@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Produced by Beyond Compare 3 from Scooter Software -->
+<BCPreferences>
+	<TBcPrefs>
+		<CheckForUpdatesDayAmt Value="0"/>
+		<Workspaces>
+			<Item Value="%01">
+				<Windows>
+					<_0>
+						<PosStr Value="128;52;1556;874;3"/>
+						<Tabs>
+							<_0>
+								<TDirCompareSession Value=""/>
+								<ZOrder Value="0"/>
+							</_0>
+						</Tabs>
+						<ZOrder Value="0"/>
+					</_0>
+				</Windows>
+			</Item>
+		</Workspaces>
+	</TBcPrefs>
+	<TOpPrefs>
+		<ConfirmCompare Value="False"/>
+	</TOpPrefs>
+</BCPreferences>

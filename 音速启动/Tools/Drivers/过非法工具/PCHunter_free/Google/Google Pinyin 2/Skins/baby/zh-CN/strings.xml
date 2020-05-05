@@ -1,0 +1,14 @@
+<?xml version="1.0"  encoding="UTF-8"?>
+<strings>
+  <SKIN_NAME>Android小人 - 中国娃娃</SKIN_NAME>
+  <SKIN_DESCRIPTION>Android小人系列之中国娃娃</SKIN_DESCRIPTION>
+  <SKIN_ABOUT>中国娃娃
+Copyright (c) 2011 Google Inc. All Rights Reserved
+中国娃娃</SKIN_ABOUT>
+  <SWITCH_LANGUAGE_MODE>切换中英文</SWITCH_LANGUAGE_MODE>
+  <SWITCH_CHARACTER_MODE>切换全半角</SWITCH_CHARACTER_MODE>
+  <SWITCH_PUNCTUATION_MODE>切换中英文标点</SWITCH_PUNCTUATION_MODE>
+  <SOFT_KEYBOARD>软键盘</SOFT_KEYBOARD>
+  <VOICE_INPUT>语音输入</VOICE_INPUT>
+  <IME_MENU>菜单</IME_MENU>
+</strings>

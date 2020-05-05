@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Produced by Beyond Compare 3 from Scooter Software -->
+<BCSessions>
+	<TSessionFolder>
+		<Items>
+			<TSessionFolder>
+				<Items>
+					<TDirCompareSession Value="src %3C--%3E codec-c">
+						<LastModified Value="2013-01-13 14:12:36"/>
+						<Specs>
+							<Left Value="G:\ie cache\download\wxsqlite3-3.0.2\wxsqlite3-3.0.2\sqlite3\secure\src"/>
+							<Right Value="G:\ie cache\download\wxsqlite3-2.1.3\wxsqlite3-2.1.3\sqlite3\secure\src\codec-c"/>
+						</Specs>
+					</TDirCompareSession>
+					<TDirCompareSession Value="E:\Code\Product\365up\365up\ %3C--%3E 365up">
+						<LastModified Value="2012-12-23 17:26:41"/>
+						<Specs>
+							<Left Value="E:\Code\Product\365up\365up\"/>
+							<Right Value="H:\my document\365up\365up"/>
+						</Specs>
+					</TDirCompareSession>
+					<TDirCompareSession Value="365upClient">
+						<LastModified Value="2012-12-12 18:30:44"/>
+						<Specs>
+							<Left Value="E:\Code\Product\365up\365up\365upClient"/>
+							<Right Value="H:\my document\365up\365up\365upClient"/>
+						</Specs>
+					</TDirCompareSession>
+				</Items>
+			</TSessionFolder>
+		</Items>
+	</TSessionFolder>
+</BCSessions>

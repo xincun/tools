@@ -1,0 +1,15 @@
+程序名称：Import REConstructor
+版    本：1.6
+汉 化 人：cao_cong
+最后美化人:刹那恍惚
+联系方式：cao_cong_hx@yahoo.com.cn
+
+使用说明：
+
+	说到Import REConstructor，一般玩破解和汉化的人都知道这个软件。这个软件的功能就是根据原加壳程序生成一个输入表来修复你自己脱壳后不能运行的程序。有了这个工具，我们脱壳就方便多了。对一般的壳，只要找好入口点，用OllyDBG脱壳，再用Import REConstructor修复，基本就可以搞定。对Armadillo、ACProtect这些比较复杂的，用Import REConstructor也可以节省我们大量的时间。这个版本是我在看雪学院上逛时发现的，是原Import REConstructor 1.6的修正版本。根据修正者的说明，这个修正版主要修正了某些在WinXP下脱壳修复的程序不能在98下运行的错误，主要是把只在XP下运行的RestoreLastError函数换成了SetLastError函数。具体内容请看ImportREC_fix.txt。
+	这个软件的最初版本在它刚出来时我就汉化过，一直未发布。后来在网上看到由微笑一刀(MikeDonkey)汉化、Fly修改的Import REConstructor 1.6 Final 汉化版本，就没发布。这次看到最新的这个修改版，就把它汉化了。
+	我要声明一下：我汉化的这个版本完全是使用自己的资源，绝无抄袭！上次在看雪论坛看到有人怀疑我汉化的PETools 1.5是“借鉴”了别人的资源，真是郁闷！
+	在这个汉化版本中，我把我搜集的一些Import REConstructor 的插件也放在里面，希望对大家有所帮助。
+声明：
+	1、此汉化软件是免费软件，请在转载时保留其内容的完整性！
+	2、此软件仅用于个人学习使用，禁止用于商业用途，否则后果自负！

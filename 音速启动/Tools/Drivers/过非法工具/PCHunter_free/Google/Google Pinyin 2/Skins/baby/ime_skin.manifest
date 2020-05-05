@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ime_skin minimumGoogleImeSkinVersion="1.0.0.0">
+  <about>
+    <name>&SKIN_NAME;</name>
+    <description>&SKIN_DESCRIPTION;</description>
+    <aboutText>&SKIN_ABOUT;</aboutText>
+    <smallIcon></smallIcon>
+    <icon></icon>
+    <version>1.0.0.0</version>
+    <author>Google</author>
+    <authorWebsite>
+      http://www.google.com/intl/zh-CN/ime/pinyin/
+    </authorWebsite>
+    <id>D47B49E3-FA60-43FF-8F7E-BB626FC8B755</id>
+    <copyright>
+      Copyright (c) 2011 Google Inc. All Rights Reserved
+    </copyright>
+    <authorEmail></authorEmail>
+    <category>androidfy</category>
+  </about>
+</ime_skin>

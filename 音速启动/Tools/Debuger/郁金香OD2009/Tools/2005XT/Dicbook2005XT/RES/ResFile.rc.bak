@@ -1,0 +1,6274 @@
+stringtable
+BEGIN
+  1001,"MOV"
+  1002,"PUSH"
+  1003,"POP"
+  1004,"XCHG"
+  1005,"XLAT"
+  1006,"LAHF"
+  1007,"SAHF"
+  1008,"PUSHF"
+  1009,"POPF"
+  1010,"LEA"
+  1011,"LDS"
+  1012,"LES"
+  1013,"ADD"
+  1014,"ADC"
+  1015,"INC"
+  1016,"AAA"
+  1017,"DAA"
+  1018,"SUB"
+  1019,"SBB"
+  1020,"DEC"
+  1021,"NEG"
+  1022,"CMP"
+  1023,"AAS"
+  1024,"DAS"
+  1025,"MUL"
+  1026,"IMUL"
+  1027,"AAM"
+  1028,"DIV"
+  1029,"IDIV"
+  1030,"CBW"
+  1031,"CWD"
+  1032,"AAD"
+  1033,"AND"
+  1034,"OR"
+  1035,"NOT"
+  1036,"XOR"
+  1037,"TEST"
+  1038,"SHL"
+  1039,"SHR"
+  1040,"SAL"
+  1041,"SAR"
+  1042,"ROL"
+  1043,"ROR"
+  1044,"RCL"
+  1045,"RCR"
+  1046,"JMP"
+  1047,"JC"
+  1048,"JNC"
+  1049,"JE"
+  1050,"JZ"
+  1051,"JNE"
+  1052,"JNZ"
+  1053,"JS"
+  1054,"JNS"
+  1055,"JO"
+  1056,"JNO"
+  1057,"JP"
+  1058,"JPE"
+  1059,"JNP"
+  1060,"JPO"
+  1061,"JA"
+  1062,"JNBE"
+  1063,"JAE"
+  1064,"JNB"
+  1065,"JB"
+  1066,"JNAE"
+  1067,"JBE"
+  1068,"JNA"
+  1069,"JG"
+  1070,"JNLE"
+  1071,"JGE"
+  1072,"JNL"
+  1073,"JL"
+  1074,"JNGE"
+  1075,"JLE"
+  1076,"JNG"
+  1077,"LOOP"
+  1078,"LOOPZ"
+  1079,"LOOPE"
+  1080,"LOOPNZ"
+  1081,"LOOPNE"
+  1082,"CALL"
+  1083,"RET"
+  1084,"MOVS"
+  1085,"MOVSB"
+  1086,"MOVSW"
+  1087,"CMPS"
+  1088,"CMPSB"
+  1089,"CMPSW"
+  1090,"SCAS"
+  1091,"SCASB"
+  1092,"SCASW"
+  1093,"LODS"
+  1094,"STOS"
+  1095,"REP"
+  1096,"REPZ"
+  1097,"REPE"
+  1098,"REPNZ"
+  1099,"REPNE"
+  1100,"CLC"
+  1101,"STC"
+  1102,"CMC"
+  1103,"CLD"
+  1104,"STD"
+  1105,"CLI"
+  1106,"STI"
+  1107,"HLT"
+  1108,"WAIT"
+  1109,"ESC"
+  1110,"NOP"
+  1111,"LOCK"
+  1112,"IN"
+  1113,"OUT"
+  1114,"INTO"
+  1115,"INT"
+  1116,"IRET"
+
+  2001,"Block nesting error"
+  2002,"Extra characters on line"
+  2003,"Register already defined"
+  2004,"Unknown symbol type"
+  2005,"Redefinition of symbol"
+  2006,"Symbol is multi-defined" 
+  2007,"Phase error between passes"
+  2008,"Already had ELSE clause"
+  2009,"Not in conditional block"
+  2010,"Symbol not defined"
+  2011,"Syntax error"  
+  2012,"Type illegal in context"
+  2013,"Should have been group name"
+  2014,"Must be declared in pass 1"
+  2015,"Symbol type usage illegal"
+  2016,"Symbol already different kind"
+  2017,"Symbol is reserved word"
+  2018,"Forward reference is illegal"
+  2019,"Must be register"
+  2020,"Wrong type of register"
+  2021,"Must be segment or group"
+  2022,"Symbol has no segment"
+  2023,"Must be symbol type"
+  2024,"Already defined locally"
+  2025,"Segment parameters are changed"
+  2026,"Not proper align/combine type"
+  2027,"Reference to mult defined"
+  2028,"Operand was expected"
+  2029,"Operator was expected"
+  2030,"Division by 0 or overflow"
+  2031,"Shift count is negative"
+  2032,"Operand type must match"
+  2033,"Illegal use of external"
+  2034,"Must be record field name"
+  2035,"Must be record or field name"
+  2036,"Operand must have size"
+  2037,"Must be var,label or constant"
+  2038,"Must be structure field name"
+  2039,"Left operand must have segment"
+  2040,"One operand must be const"
+  2041,"Operands must be same or  1 abs"
+  2042,"Normal type operand expected"
+  2043,"Constant was expected"
+  2044,"Operand must have segment"
+  2045,"Must be associated with data"
+  2046,"Must be associated with code"
+  2047,"Already have base register"
+  2048,"Already have index register"
+  2049,"Must be index or base register"
+  2050,"Illegal use of register"
+  2051,"Value is out of range"
+  2052,"Operand not in IP segment"
+  2053,"Improper operand type"
+  2054,"Relative jump out of range"
+  2055,"Index disp1. must be constant"
+  2056,"Illegal register value"
+  2057,"No immediate mode"
+  2058,"Illegal size for item"
+  2059,"Byte register is illegal"
+  2060,"CS register illegal usage"
+  2061,"Must be Ax or AL"
+  2062,"Improper use of segment reg"
+  2063,"No or unreachable CS"
+  2064,"Operand combination illegal"
+  2065,"Near JMP/CALL to different CS"
+  2066,"Label can't have seg override"
+  2067,"Must have opcode after prefix"
+  2068,"Can't override ES segment"
+  2069,"Can't reach with segment reg"
+  2070,"Must be in segment block"
+  2071,"Can't use EVEN on BYTE segment"
+  2072,"Forward needs override"
+  2073,"Illegal value for DUP count"
+  2074,"Symbol already external"
+  2075,"DUP is too large for linker"
+  2076,"Usage of ? (indeterminate)bad"
+
+  2501,"MOV"
+  2502,"XCHG"
+  2503,"CMPXCHG"
+  2504,"MOVS"
+  2505,"MOVSB"
+  2506,"MOVSW"
+  2507,"MOVSD"
+  2508,"MOVSX"
+  2509,"MOVZX"
+  2510,"XLAT"
+  2511,"XLATB"
+  2512,"LODS"
+  2513,"LODSB"
+  2514,"LODSW"
+  2515,"LODSD"
+  2516,"BSWAP"
+  2517,"XADD"
+  2518,"SEG"
+  2519,"LES"
+  2520,"LEA"
+  2521,"LDS"
+  2522,"LFS"
+  2523,"LGS"
+  2524,"LSS"
+  2525,"PUSH"
+  2526,"POP"
+  2527,"PUSHF"
+  2528,"POPF"
+  2529,"PUSHFD"
+  2530,"POPFD"
+  2531,"PUSHA"
+  2532,"POPA"
+  2533,"PUSHAD"
+  2534,"POPAD"
+  2535,"CBW"
+  2536,"CWD"
+  2537,"CWDE"
+  2538,"CDQ"
+  2539,"IN"
+  2540,"OUT"
+  2541,"INS"
+  2542,"INSB"
+  2543,"INSW"
+  2544,"INSD"
+  2545,"OUTS"
+  2546,"OUTSB"
+  2547,"OUTSW"
+  2548,"OUTSD"
+  2549,"ADD"
+  2550,"ADC"
+  2551,"INC"
+  2552,"SUB"
+  2553,"SBB"
+  2554,"DEC"
+  2555,"NEG"
+  2556,"CMP"
+  2557,"MUL"
+  2558,"IMUL"
+  2559,"DIV"
+  2560,"IDIV"
+  2561,"AAA"
+  2562,"AAS"
+  2563,"AAM"
+  2564,"AAD"
+  2565,"DAA"
+  2566,"DAS"
+  2567,"AND"
+  2568,"OR"
+  2569,"XOR"
+  2570,"NOT"
+  2571,"TEST"
+  2572,"SHL"
+  2573,"SHR"
+  2574,"SHLD"
+  2575,"SHRD"
+  2576,"SAL"
+  2577,"SAR"
+  2578,"ROL"
+  2579,"ROR"
+  2580,"RCL"
+  2581,"RCR"
+  2582,"STOS"
+  2583,"STOSB"
+  2584,"STOSW"
+  2585,"STOSD"
+  2586,"CMPS"
+  2587,"CMPSB"
+  2588,"CMPSW"
+  2589,"CMPSD"
+  2590,"SCAS"
+  2591,"SCASB"
+  2592,"SCASW"
+  2593,"SCASD"
+  2594,"REP"
+  2595,"REPE"
+  2596,"REPZ"
+  2597,"REPNE"
+  2598,"REPNZ"
+  2599,"REPC"
+  2600,"REPNC"
+  2601,"LOOP"
+  2602,"LOOPE"
+  2603,"LOOPZ"
+  2604,"LOOPNE"
+  2605,"LOOPNZ"
+  2606,"JCXZ"
+  2607,"JECXZ"
+  2608,"CLC"
+  2609,"STC"
+  2610,"CMC"
+  2611,"CLD"
+  2612,"STD"
+  2613,"CLI"
+  2614,"STI"
+  2615,"SET"
+  2616,"LAHF"
+  2617,"SAHF"
+  2618,"BSF"
+  2619,"BSR"
+  2620,"BT"
+  2621,"BTC"
+  2622,"BTR"
+  2623,"BTS"
+
+  3001,"abs"
+  3002,"acos"
+  3003,"asin"
+  3004,"atan"
+  3005,"atan2"
+  3006,"cos"
+  3007,"cosh"
+  3008,"exp"
+  3009,"fabs"
+  3010,"floor"
+  3011,"fmod"
+  3012,"frexp"
+  3013,"log"
+  3014,"log10"
+  3015,"modf"
+  3016,"pow"
+  3017,"rand"
+  3018,"sin"
+  3019,"sinh"
+  3020,"sqrt"
+  3021,"tan"
+  3022,"tanh"
+  3023,"isalnum"
+  3024,"isalpha"
+  3025,"iscntrl"
+  3026,"isdigit"
+  3027,"isgraph"
+  3028,"islower"
+  3029,"isprint"
+  3030,"ispunct"
+  3031,"isspace"
+  3032,"isupper"
+  3033,"isxdigit"
+  3034,"strcat"
+  3035,"strchr"
+  3036,"strcmp"
+  3037,"strcpy"
+  3038,"strlen"
+  3039,"strstr"
+  3040,"tolower"
+  3041,"toupper"
+  3042,"clearerr"
+  3043,"close"
+  3044,"creat"
+  3045,"eof"
+  3046,"fclose"
+  3047,"feof"
+  3048,"fgetc"
+  3049,"fgets"
+  3050,"fopen"
+  3051,"fprintf"
+  3052,"fputc"
+  3053,"fputs"
+  3054,"fread"
+  3055,"fscanf"
+  3056,"fseek"
+  3057,"ftell"
+  3058,"fwrite"
+  3059,"getc"
+  3060,"getchar"
+  3061,"getw"
+  3062,"open"
+  3063,"printf"
+  3064,"putc"
+  3065,"putchar"
+  3066,"puts"
+  3067,"putw"
+  3068,"read"
+  3069,"rename"
+  3070,"rewind"
+  3071,"scanf"
+  3072,"write"
+  3073,"calloc"
+  3074,"free"
+  3075,"malloc"
+  3076,"realloc"
+  3077,"gets" 
+  3078,"abort"
+  3079,"absread"
+  3080,"abswrite"
+  3081,"access"
+  3082,"allocmem"
+  3083,"arc"
+  3084,"asctime"
+  3085,"assert"
+  3086,"atof"
+  3087,"atoi"
+  3088,"atol"
+  3089,"bdos"
+  3090,"bioscom"
+  3091,"biosdisk"
+  3092,"biosequip"
+  3093,"bioskey"
+  3094,"biosmemory"
+  3095,"biostime"
+  3096,"brk"
+  3097,"bar"
+  3098,"bar3d"
+  3099,"chmod"
+  3100,"cabs"
+  3101,"ceil"
+  3102,"country"
+  3103,"ctime"
+  3104,"ctrlbrk"
+  3105,"coreleft"
+  3106,"chdir"
+  3107,"circle"
+  3108,"cleardevice"
+  3109,"clearviewport"
+  3110,"closegraph"
+  3111,"clreol"
+  3112,"clrscr"
+  3113,"cputs"
+  3114,"dup"
+  3115,"difftime"
+  3116,"disable"
+  3117,"dosexterr"
+  3118,"dostounix"
+  3119,"delline"
+  3120,"detectgraph"
+  3121,"drawpoly"
+  3122,"enable"
+  3123,"exit"
+  3124,"ellipse"
+  3125,"ecvt"
+  3126,"fdopen"
+  3127,"ferror"
+  3128,"fflush"
+  3129,"fgetchar"
+  3130,"filelength"
+  3131,"fileno"
+  3132,"fputchar"
+  3133,"freopen"
+  3134,"farcalloc"
+  3135,"farcoreleft"
+  3136,"farfree"
+  3137,"farmalloc"
+  3138,"farrealloc"
+  3139,"freemem"
+  3140,"findfirst"
+  3141,"findnext"
+  3142,"fnmerge"
+  3143,"fnsplit"
+  3144,"fillpoly"
+  3145,"floodfill"
+  3146,"fcvt"
+  3147,"_fpreset"
+  3148,"getche"
+  3149,"geninterrupt"
+  3150,"getcbrk"
+  3151,"getdate"
+  3152,"gettime"
+  3153,"getdfree"
+  3154,"getdta"
+  3155,"getfat"
+  3156,"getfatd"
+  3157,"getftime"
+  3158,"getpsp"
+  3159,"getverify"
+  3160,"gmtime"
+  3161,"getcurdir"
+  3162,"getcwd"
+  3163,"getdisk"
+  3164,"getarccoords"
+  3165,"getaspectratio"
+  3166,"getbkcolor"
+  3167,"getcolor"
+  3168,"getfillpattern"
+  3169,"getfillsettings"
+  3170,"getgraphmode"
+  3171,"getimage"
+  3172,"getlinesettings"
+  3173,"getmaxcolor"
+  3174,"getmaxx"
+  3175,"getmaxy"
+  3176,"getmoderange"
+  3177,"getpalette"
+  3178,"getpixel"
+  3179,"gettext"
+  3180,"gettextsettings"
+  3181,"getviewsettings"
+  3182,"getx"
+  3183,"gety"
+  3184,"gotoxy"
+  3185,"graphdefaults"
+  3186,"grapherrormsg"
+  3187,"_graphfreemem"
+  3188,"_graphgetmem"
+  3189,"graphresult"
+  3190,"gcvt"
+  3191,"getenv"
+  3192,"gsignal"
+  3193,"hypot"
+  3194,"highvideo"
+  3195,"isatty"
+  3196,"isascii"
+  3197,"interrupt"
+  3198,"inport"
+  3199,"inportb"
+  3200,"intdos"
+  3201,"intdosx"
+  3202,"int86"
+  3203,"int86x"
+  3204,"intr"
+  3205,"imagesize"
+  3206,"initgraph"
+  3207,"insline"
+  3208,"itoa"
+  3209,"keep"
+  3210,"lock"
+  3211,"lseek"
+  3212,"ldexp"
+  3213,"localtime"
+  3214,"line"
+  3215,"lineto"
+  3216,"linerel"
+  3217,"lowvideo"
+  3218,"labs"
+  3219,"ldiv"
+  3220,"lfind"
+  3221,"lsearch"
+  3222,"longjmp"
+  3223,"ltoa"
+  3224,"memccpy"
+  3225,"memchr"
+  3226,"memcmp"
+  3227,"memicmp"
+  3228,"memcpy"
+  3229,"memmove"
+  3230,"memset"
+  3231,"matherr"
+  3232,"mkdir"
+  3233,"mktemp"
+  3234,"moverel"
+  3235,"moveto"
+  3236,"normvideo"
+  3237,"outport"
+  3238,"outportb"
+  3239,"outtext"
+  3240,"outtextxy"
+  3241,"perror"
+  3242,"poly"
+  3243,"parsfnm"
+  3244,"peek"
+  3245,"peekb"
+  3246,"poke"
+  3247,"pokeb"
+  3248,"pieslice"
+  3249,"putimage"
+  3250,"putpixel"
+  3251,"puttext"
+  3252,"putenv"
+  3253,"qsort"
+  3254,"remove"
+  3255,"randbrd"
+  3256,"randbwr"
+  3257,"rmdir"
+  3258,"rectangle"
+  3259,"registerbgidriver"
+  3260,"registerbgifont"
+  3261,"restorecrtmode"
+  3262,"random"
+  3263,"randomize"
+  3264,"setbuf"
+  3265,"setmode"
+  3266,"setvbuf"
+  3267,"sprintf"
+  3268,"sscanf"
+  3269,"strcspn"
+  3270,"strdup"
+  3271,"strerror"
+  3272,"strlwr"
+  3273,"system"
+  3274,"strncat"
+  3275,"strncmp"
+  3276,"strncpy"
+  3277,"strnset"
+  3278,"strpbrk"
+  3279,"strrchr"
+  3280,"strrev"
+  3281,"strset"
+  3282,"strspn"
+  3283,"strtok"
+  3284,"strupr"
+  3285,"segread"
+  3286,"setdate"
+  3287,"settime"
+  3288,"setdta"
+  3289,"setvect"
+  3290,"setverify"
+  3291,"sleep"
+  3292,"sbrk"
+  3293,"setblock"
+  3294,"searchpath"
+  3295,"setdisk"
+  3296,"spawnl"
+  3297,"spawnle"
+  3298,"setactivepage"
+  3299,"setallpalette"
+  3300,"setbkcolor"
+  3301,"setcolor"
+  3302,"setfillpattern"
+  3303,"setfillstyle"
+  3304,"setgraphbufsize"
+  3305,"setgraphmode"
+  3306,"setlinestyle"
+  3307,"setpalette"
+  3308,"settextjustify"
+  3309,"settextstyle"
+  3310,"setusercharsize"
+  3311,"setviewport"
+  3312,"setvisualpage"
+  3313,"setjmp"
+  3314,"srand"
+  3315,"signal"
+  3316,"_status87"
+  3317,"strtod"
+  3318,"strtol"
+  3319,"swab"
+  3320,"spawnvpe"
+  3321,"spawnle"
+  3322,"spawnlp"
+  3323,"spawnlpe"
+  3324,"spawnv"
+  3325,"spawnve"
+  3326,"spawnvp"
+  3327,"tell"
+  3328,"tmpfile"
+  3329,"tmpnam"
+  3330,"time"
+  3331,"tzset"
+  3332,"textattr"
+  3333,"textbackground"
+  3334,"textcolor"
+  3335,"textheight"
+  3336,"textwidth"
+  3337,"textmode"
+  3338,"ungetc"
+  3339,"ungetch"
+  3340,"unlink"
+  3341,"unixtodos"
+  3342,"vprintf"
+  3343,"vfprintf"
+  3344,"vsprintf"
+  3345,"vscanf "
+  3346,"va_start"
+  3347,"va_end"
+  3348,"va_arg"
+  3349,"wherex"
+  3350,"wherey"
+  3351,"window"
+  3352,"raise"
+  3353,"fgetpos"
+  3354,"fsetpos"
+  3355,"bsearch"
+  3356,"div"
+
+
+  3501,"Ambiguous operators need parentheses"
+  3502,"Ambiguous symbol 'xxx'"
+  3503,"Argument list syntax error"
+  3504,"Array bounds missing"
+  3505,"Array size too large"
+  3506,"Bad character in parameters"
+  3507,"Bad file name format in include directive"
+  3508,"Bad ifdef directive syntax"
+  3509,"Bad ifndef directive syntax"
+  3510,"Bad undef directive syntax"
+  3511,"Bit field too large"
+  3512,"Call of non-function"
+  3513,"Call to function with no prototype"
+  3514,"Cannot modify a const object"
+  3515,"Case outside of switch"
+  3516,"Case statement missing"
+  3517,"Case syntax error"
+  3518,"Code has no effect"
+  3519,"Compound statement missing }"
+  3520,"Conflicting type modifiers"
+  3521,"Constant expression required"
+  3522,"Constant out of range in comparison"
+  3523,"Conversion may lose significant digits"
+  3524,"Conversion of near pointer not allowed"
+  3525,"Could not find file 'xxx'"
+  3526,"Declaration missing ;"
+  3527,"Declaration syntax error"
+  3528,"Default outside of switch"
+  3529,"Define directive needs an identifier"
+  3530,"Division by zero"
+  3531,"Do statement must have while"
+  3532,"Enum syntax error"
+  3533,"Enumeration constant syntax error"
+  3534,"Error directive: xxx"
+  3535,"Error writing output file"
+  3536,"Expression syntax error"
+  3537,"Extra parameter in call"
+  3538,"File name too long"
+  3539,"Function call missing )"
+  3540,"Function definition out of place"
+  3541,"Function should return a value"
+  3542,"Goto statement missing label"
+  3543,"Hexadecimal or octal constant too large"
+  3544,"Illegal character 'x'"
+  3545,"Illegal initialization"
+  3546,"Illegal octal digit"
+  3547,"Illegal pointer subtraction"
+  3548,"Illegal structure operation"
+  3549,"Illegal use of floating point"
+  3550,"Illegal use of pointer"
+  3551,"Improper use of a typedef symbol"
+  3552,"In-line assembly not allowed"
+  3553,"Incompatible storage class"
+  3554,"Incompatible type conversion"
+  3555,"Incorrect number format"
+  3556,"Incorrect use of default"
+  3557,"Invalid indirection"
+  3558,"Invalid pointer addition"
+  3559,"Irreducible expression tree"
+  3560,"Lvalur required"
+  3561,"Macro argument syntax error"
+  3562,"Macro expansion too long"
+  3563,"Mismatched number of parameters in definition"
+  3564,"Misplaced break"
+  3565,"Misplaced continue"
+  3566,"Misplaced decimal point"
+  3567,"Misplaced elif directive"
+  3568,"Misplaced else"
+  3569,"Misplaced else directive"
+  3570,"Misplaced endif directive"
+  3571,"Must be addressable"
+  3572,"Must take address of memory location"
+  3573,"No declaration for function 'xxx'"
+  3574,"No stack"
+  3575,"NO type information"
+  3576,"Non-portable pointer assignment"
+  3577,"Non-portable pointer comparison"
+  3578,"Non-portable pointer conversion"
+  3579,"Not a valid expression format type"
+  3580,"Not an allowed type"
+  3581,"Numeric constant too large"
+  3582,"Out of memory"
+  3583,"Parameter 'xxx' is never used"
+  3584,"Pointer required on left side of ->"
+  3585,"Possible use of 'xxx' before definition"
+  3586,"Possibly incorrect assignment"
+  3587,"Redeclaration of 'xxx'"
+  3588,"Redefinition of 'xxx' is not identical"
+  3589,"Register allocation failure"
+  3590,"Repeat count needs an lvalue"
+  3591,"Size of structure or array not known"
+  3592,"Statement missing ;"
+  3593,"Structure or union syntax error"
+  3594,"Structure size too large"
+  3595,"Subscripting missing ]"
+  3596,"Superfluous &with function or array"
+  3597,"Suspicious pointer conversion"
+  3598,"Symbol limit exceeded"
+  3599,"Too few parameters in call"
+  3600,"Too many default cases"
+  3601,"Too many error or warning messages"
+  3602,"Too many types in declaration"
+  3603,"Too much auto memory in function"
+  3604,"Too much global data defined in file"
+  3605,"Too consecutive dots"
+  3606,"Type mismatch in parameter xxx"
+  3607,"Type mismatch in redeclaration of 'xxx'"
+  3608,"Unable to create output file 'xxx'"
+  3609,"Unable to open include file 'xxx'"
+  3610,"Unable to open input file 'xxx'"
+  3611,"Undefined label 'xxx'"
+  3612,"Undefined structure 'xxx'"
+  3613,"Undefined symbol 'xxx'"
+  3614,"Unexpected end of file in comment started on line xxx"
+  3615,"Unexpected end of file in conditional started on line xxx"
+  3616,"Unknown assembler instruction"
+  3617,"Unknown option"
+  3618,"Unknown preprocessor directive: 'xxx'"
+  3619,"Unreachable code"
+  3620,"Unterminated string or character constant"
+  3621,"User break"
+  3622,"Void functions may not return a value"
+  3623,"Wrong number off arguments"
+  3624,"'xxx' not an argument"
+  3625,"'xxx' not part of structure"
+  3626,"xxx statement missing ("
+  3627,"xxx statement missing )"
+  3628,"xxx statement missing ;"
+  3629,"'xxx' declared but never used"
+  3630,"'xxx' is assigned a value which is never used"
+  3631,"Zero length structure"
+
+  3701,"goto"
+  3702,"while"
+  3703,"do-while"
+  3704,"for"
+  3705,"break"
+  3706,"continue"
+  3707,"if"
+  3708,"switch"
+  3709,"auto"
+  3710,"static"
+  3711,"register"
+  3712,"extern"
+  3713,"#define"
+  3714,"#include"
+  3715,"#ifdef"
+  3716,"int"
+  3717,"float"
+  3718,"double"
+  3719,"char"
+  3720,"强制类型转换"
+  3721,"++"
+  3722,","
+  3723,"&&"
+  3724,"一维数组"
+  3725,"二维数组"
+  3726,"字符数组"
+  3727,"struct"
+  3728,"union"
+  3729,"enum"
+  3730,"typedef"
+  3731,"&"
+  3732,"|"
+  3733,"/\"
+  3734,"~"
+  3735,"<<"
+  3736,">>"
+  3737,"case"
+  3738,"else"
+  3739,"Long"
+  3740,"short"
+  3741,"unsigned"
+  3742,"BIOS 功能调用表"
+  3743,"显示器I/O操作功能表"
+  3744,"DOS功能调用表"
+  3745,"sizeof"
+  3746,"运算符优先级"
+  3747,"--"
+  3748,"||"
+  3749,"!"
+  3750,"*a"
+  3751,"&a"
+  3752,"."
+  3753,"->"
+  3754,"-a"
+  3755,"三目运算符"
+  3756,"#if"
+  3757,"#ifndef"
+  3758,"转义字符"
+  3759,"%d"
+  3760,"%o"
+  3761,"%x"
+  3762,"%X"
+  3763,"%u"
+  3764,"%c"
+  3765,"%s"
+  3766,"%f"
+  3767,"%e"
+  3768,"%g"
+  3769,"%G"
+  3770,"%%"
+  3771,"%ld"
+  3772,"%lo"
+  3773,"%lx"
+  3774,"%lu"
+
+
+  4001,"USE"
+  4002,"CLEAR ALL"
+  4003,"CLOSE ALL"
+  4004,"CLOSE DATABASE"
+  4005,"CLOSE TABLES"
+  4006,"MODIFY STRUCTURE"
+  4007,"MODIFY GENERAL"
+  4008,"STORE-TO"
+  4009,"="
+  4010,"?"
+  4011,"DIMENSION|DECLARE"
+  4012,"LIST|DISPLAY MEMORY"
+  4013,"RELEASE"
+  4014,"COPY FILE"
+  4015,"COPY TO"
+  4016,"COPY STRUCTURE TO"
+  4017,"RENAME"
+  4018,"ERASE|DELETE FILE"
+  4019,"DIR"
+  4020,"TYPE"
+  4021,"GO TOP|BOTTOM"
+  4022,"SKIP"
+  4023,"INSERT"
+  4024,"INSERT INTO"
+  4025,"APPEND"
+  4026,"APPEND FROM"
+  4027,"DELETE"
+  4028,"PACK"
+  4029,"RECALL"
+  4030,"ZAP"
+  4031,"REPLACE"
+  4032,"SCATTER"
+  4033,"GATHER FROM"
+  4034,"COPY TO ARRAY"
+  4035,"APPEND FROM ARRAY"
+  4036,"SET FILTER TO"
+  4037,"SET FIELDS TO"
+  4038,"CREATE TABLE"
+  4039,"ALTER TABLE"
+  4040,"SORT TO"
+  4041,"INDEX ON"
+  4042,"INDEX ON"
+  4043,"CREATE SQL VIEW"
+  4044,"JOIN WITH"
+  4045,"SELECT"
+  4046,"TOTAL TO"
+  4047,"AVERAGE"
+  4048,"CALCULATE"
+  4049,"SUM"
+  4050,"COUNT"
+  4051,"SET RELATION TO"
+  4052,"SET SKIP TO"
+  4053,"CRAATE VIEW"
+  4054,"SELECT"
+  4055,"SEEK"
+  4056,"LOCATE FOR"
+  4057,"DELETE TAG ALL"
+  4058,"SET INDEX TO"
+  4059,"SET ORDER TO"
+  4060,"INDEX ON"
+  4061,"SORT TO"
+  4062,"ON BAR"
+  4063,"DEFIME BAR"
+  4064,"BEFINE POPUP"
+  4065,"MESSAGEBOX"
+  4066,"ACTIVATE WINDOW"
+  4067,"ON KEY"
+  4068,"RBOWSE"
+  4069,"PUBLIC"
+  4070,"PRIVATE"
+  4071,"DO"
+  4072,"RETURN"
+  4073,"FOR"
+  4074,"SCAN"
+  4075,"DO WHILE"
+  4076,"IF"
+  4077,"DO CASE"
+  4078,"WAIT"
+  4079,"DO"
+  4080,"MODIFY COMMAND"
+  
+  4201,"&"
+  4202,"ABS"
+  4203,"ACLASS"
+  4204,"ACOPY"
+  4205,"ACOS"
+  4206,"ADATABASES"
+  4207,"ADBOBJECTS"
+  4208,"ADDBS"
+  4209,"ADEL"
+  4210,"ADIR"
+  4211,"AELEMENT"
+  4212,"AERROR"
+  4213,"AFIELDS"
+  4214,"AFONT"
+  4215,"AGETCLASS"
+  4216,"AGETFILEVERSION"
+  4217,"AINS"
+  4218,"AINSTANCE"
+  4219,"ALEN"
+  4220,"ALIAS"
+  4221,"ALINES"
+  4222,"ALLTRIM"
+  4223,"AMEMBERS"
+  4224,"AMOUSEOBJ"
+  4225,"ANETRESOURCES"
+  4226,"APRINTERS"
+  4227,"ASC"
+  4228,"ASCAN"
+  4229,"ASELOBJ"
+  4230,"ASIN"
+  4231,"ASORT"
+  4232,"ASUBSCRIPT"
+  4233,"AT"
+  4234,"AT_C"
+  4235,"ATAN"
+  4236,"ATC"
+  4237,"ATCC"
+  4238,"ATCLINE"
+  4239,"ATLINE"
+  4240,"ATN2"
+  4241,"AUSED"
+  4242,"AVCXCLASSES"
+  4243,"BAR"
+  4244,"BETWEEN"
+  4245,"BINTOC"
+  4246,"BITAND"
+  4247,"BITCLEAR"
+  4248,"BITLSHIFT"
+  4249,"BITNOT"
+  4250,"BITOR"
+  4251,"BITRSHIFT"
+  4252,"BITSET"
+  4253,"BITTEST"
+  4254,"BITXOR"
+  4255,"BOF"
+  4256,"CANDIDATE"
+  4257,"CAPSLOCK"
+  4258,"CDOW"
+  4259,"CDX"
+  4260,"CEILING"
+  4261,"CHR"
+  4262,"CHRSAW"
+  4263,"CHRTRAN"
+  4264,"CHRTRANC"
+  4265,"CMONTH"
+  4266,"CNTBAR"
+  4267,"CNTPAD"
+  4268,"COL"
+  4269,"COMPOBJ"
+  4270,"COS"
+  4271,"CPCONVERT"
+  4272,"CPCURRENT"
+  4273,"CPDBF"
+  4274,"CREATEBINARY"
+  4275,"CREATEOBJECT"
+  4276,"CREATEOBJECTEX"
+  4277,"CREATEEOFFLINE"
+  4278,"CTOBIN"
+  4279,"CTOD"
+  4280,"CTOT"
+  4281,"CURDIR"
+  4282,"CURSORGETPROP"
+  4283,"CURSORSETPROP"
+  4284,"CURVAL"
+  4285,"DATE"
+  4286,"DATETIME"
+  4287,"DAY"
+  4288,"DBC"
+  4289,"DBF"
+  4290,"DBGETPROP"
+  4291,"DBSETPROP"
+  4292,"DBUSED"
+  4293,"DDEAbortTrans"
+  4294,"DDEAdvise"
+  4295,"DDEEnabled"
+  4296,"DDEExecute"
+  4297,"DDEInitiate"
+  4298,"DDELastError"
+  4299,"DDEPoke"
+  4300,"DDERequest"
+  4301,"DDESetOption"
+  4302,"DDESetService"
+  4303,"DDETerminate"
+  4304,"DELETED"
+  4305,"DIFFERENCE"
+  4306,"DIRECTORY"
+  4307,"DISKSPACE"
+  4308,"DMY"
+  4309,"DOW"
+  4310,"DIRVETYPE"
+  4311,"DTOC"
+  4312,"DTOR"
+  4313,"DTOS"
+  4314,"DTOT"
+  4315,"EMPTY"
+  4316,"EOF"
+  4317,"ERROR"
+  4318,"EVALUATE"
+  4319,"EXP"
+  4320,"FCHSIZE"
+  4321,"FCLOSE"
+  4322,"FCOUNT"
+  4323,"FCREATE"
+  4324,"FDATE"
+  4325,"FEOF"
+  4326,"FERROR"
+  4327,"FFLUSH"
+  4328,"FGETS"
+  4329,"FIELD"
+  4330,"FILE"
+  4331,"FILETOSTR"
+  4332,"FILTER"
+  4333,"FKLABEL"
+  4334,"FKMAX"
+  4335,"FLOCK"
+  4336,"FLOOR"
+  4337,"FONTMETRIC"
+  4338,"FOPEN"
+  4339,"FOR"
+  4340,"FOUND"
+  4341,"FPUTS"
+  4342,"FREAD"
+  4343,"FSEEK"
+  4344,"FSIZE"
+  4345,"FTIME"
+  4346,"FULLPATH"
+  4347,"FV"
+  4348,"FWRITE"
+  4349,"GETBAR"
+  4350,"GETCOLOR"
+  4351,"GETCP"
+  4352,"GETDIR"
+  4353,"GETENV"
+  4354,"GETFILE"
+  4355,"GETFLDSTATE"
+  4356,"GETFONT"
+  4357,"GETHOST"
+  4358,"GETOBJECT"
+  4359,"GETPAD"
+  4360,"GETPEM"
+  4361,"GETPICT"
+  4362,"GETPRINTER"
+  4363,"GOMONTH"
+  4364,"HEADER"
+  4365,"HOME"
+  4366,"HOUR"
+  4367,"IIF"
+  4368,"INDBC"
+  4369,"INDEXSEEK"
+  4370,"INKEY"
+  4371,"INLIST"
+  4372,"INSMODE"
+  4373,"INT"
+  4374,"ISALPHA"
+  4375,"ISBLANK"
+  4376,"ISCOLOR"
+  4377,"ISDIGIT"
+  4378,"ISEXCLUSIVE"
+  4379,"ISFLOCKED"
+  4380,"ISLOWER"
+  4381,"ISMOUSE"
+  4382,"ISNULL"
+  4383,"ISREADONLY"
+  4384,"ISRLOCKED"
+  4385,"ISUPPER"
+  4386,"JUSTDRIVE"
+  4387,"JUSTEXT"
+  4388,"JUSTFNAME"
+  4389,"JUSTPATH"
+  4390,"JUSTSTEM"
+  4391,"KEY"
+  4392,"KEYMATCH"
+  4393,"LASTKEY"
+  4394,"LEFT"
+  4395,"LEFTC"
+  4396,"LEN"
+  4397,"LENC"
+  4398,"LIKE"
+  4399,"LIKEC"
+  4400,"LINENO"
+  4401,"LOADPICTURE"
+  4402,"LOCFILE"
+  4403,"LOCK"
+  4404,"LOG"
+  4405,"LOG10"
+  4406,"LOOKUP"
+  4407,"LOWER"
+  4408,"LTRIM"
+  4409,"LUPDATE"
+  4410,"MAX"
+  4411,"MCOL"
+  4412,"MDX"
+  4413,"MDY"
+  4414,"MEMLINES"
+  4415,"MEMORY"
+  4416,"MENU"
+  4417,"MESSAGE"
+  4418,"MESSAGEBOX"
+  4419,"MIN"
+  4420,"MINUTE"
+  4421,"MLINE"
+  4422,"MOD"
+  4423,"MONTH"
+  4424,"MRKBAR"
+  4425,"MRKPAD"
+  4426,"MROW"
+  4427,"MTON"
+  4428,"MWINDOW"
+  4429,"NDX(nIndexNumber"
+  4430,"NEWOBJECT"
+  4431,"NTOM"
+  4432,"NUMLOCK"
+  4433,"OBJTOCLIENT"
+  4434,"OCCURS"
+  4435,"OEMTOANSI"
+  4436,"OLDVAL"
+  4437,"ON"
+  4438,"ORDER"
+  4439,"OS"
+  4440,"PAD("
+  4441,"PADL"
+  4442,"PARAMETERS"
+  4443,"PAYMENT"
+  4444,"PCOL"
+  4445,"PCOUNT"
+  4446,"PEMSTATUS"
+  4447,"PI"
+  4448,"POPUP"
+  4449,"PRIMARY"
+  4450,"PRINTSTATUS"
+  4451,"PRMBAR"
+  4452,"PRMPAD"
+  4453,"PROGRAM"
+  4454,"PROMPT"
+  4455,"PROPER"
+  4456,"PROW"
+  4457,"PRTINFO"
+  4458,"PUTFILE"
+  4459,"RAND"
+  4460,"RAT"
+  4461,"RATLINE"
+  4462,"RECCOUNT"
+  4463,"RECNO"
+  4464,"RECSIZE"
+  4465,"REFRESH"
+  4466,"RELATION"
+  4467,"REPLICATE"
+  4468,"REQUERY"
+  4469,"RGB"
+  4470,"RGBSCHEME"
+  4471,"RIGHT"
+  4472,"RLOCK"
+  4473,"ROUND"
+  4474,"ROW"
+  4475,"RTOD"
+  4476,"RTRIM"
+  4477,"SAVEPICTURE"
+  4478,"SCHEME"
+  4479,"SCOLS"
+  4480,"SEC"
+  4481,"SECONDS"
+  4482,"SEEK"
+  4483,"SELECT"
+  4484,"SET"
+  4485,"SIGN"
+  4486,"SIN"
+  4487,"SKPBAR"
+  4488,"SKPPAD"
+  4489,"SOUNDEX"
+  4490,"SPACE"
+  4491,"SQLCANCEL"
+  4492,"SQRT"
+  4493,"SROWS"
+  4494,"STR(nExpression"
+  4495,"STRCONV"
+  4496,"STRTOFILE"
+  4497,"STRTRAN"
+  4498,"STUFF"
+  4499,"SUBSTR"
+  4500,"SYS"
+  4501,"SYSMETRIC"
+  4502,"TAG"
+  4503,"TAGCOUNT"
+  4504,"TAGNO"
+  4505,"TAN"
+  4506,"TARGET"
+  4507,"TIME"
+  4508,"TRANSFORM"
+  4509,"TRIM"
+  4510,"TTOC"
+  4511,"TTOD"
+  4512,"TXNLEVEL"
+  4513,"TXTWIDTH"
+  4514,"TYPE"
+  4515,"UPDATED"
+  4516,"UPPER"
+  4517,"USED"
+  4518,"VAL"
+  4519,"VARTYPE"
+  4520,"VERSION"
+  4521,"WBORDER"
+  4522,"WCHILD"
+  4523,"WCOLS"
+  4524,"WEEK"
+  4525,"WEXIST"
+  4526,"WFONT"
+  4527,"WLAST"
+  4528,"WLCOL"
+  4529,"WLROW"
+  4530,"WMAXIMUM"
+  4531,"WMINIMUM"
+  4532,"WONTOP"
+  4533,"WOUTPUT"
+  4534,"WPARENT"
+  4535,"WROWS"
+  4536,"WTITLE"
+  4537,"WVISIBLE"
+  4538,"YEAR"
+
+
+  5101,"Abs"
+  5102,"Array"
+  5103,"Asc"
+  5104,"Atn"
+  5105,"CallByName"
+  5106,"Choose"
+  5107,"Chr"
+  5108,"Command"
+  5109,"Cos"
+  5110,"CreateObject"
+  5111,"CurDir"
+  5112,"CVErr"
+  5113,"Date"
+  5114,"DateAdd"
+  5115,"DateDiff"
+  5116,"DatePart"
+  5117,"DateSerial"
+  5118,"DateValue"
+  5119,"Day"
+  5120,"DDB"
+  5121,"Dir"
+  5122,"DoEvents"
+  5123,"Environ"
+  5124,"EOF"
+  5125,"Error"
+  5126,"Exp"
+  5127,"FileAttr"
+  5128,"FileDateTime"
+  5129,"FileLen"
+  5130,"Filter"
+  5131,"Format"
+  5132,"FormatCurrency"
+  5133,"FormatDateTime"
+  5134,"FormatNumber"
+  5135,"FormatPercent"
+  5136,"FreeFile"
+  5137,"FV"
+  5138,"GetAllSettings"
+  5139,"GetAttr"
+  5140,"GetObject"
+  5141,"GetSetting"
+  5142,"Hex"
+  5143,"Hour"
+  5144,"IIf"
+  5145,"IMEStatus"
+  5146,"Input"
+  5147,"InputBox"
+  5148,"InStr"
+  5149,"InStrRev"
+  5150,"Int,Fix"
+  5151,"IPmt"
+  5152,"IRR"
+  5153,"IsArray"
+  5154,"IsDate"
+  5155,"IsEmpty"
+  5156,"IsError"
+  5157,"IsMissing"
+  5158,"IsNull"
+  5159,"IsNumeric"
+  5160,"IsObject"
+  5161,"Join"
+  5162,"LBound"
+  5163,"LCase"
+  5164,"Left"
+  5165,"Len"
+  5166,"Loc"
+  5167,"LOF"
+  5168,"Log"
+  5169,"LTrim"
+  5170,"Mid"
+  5171,"Minute"
+  5172,"MIRR"
+  5173,"Month"
+  5174,"MonthName"
+  5175,"MsgBox"
+  5176,"Now"
+  5177,"NPer"
+  5178,"NPV"
+  5179,"Oct"
+  5180,"Partition"
+  5181,"Pmt"
+  5182,"PPmt"
+  5183,"PV"
+  5184,"QBColor"
+  5185,"Rate"
+  5186,"Replace"
+  5187,"RGB"
+  5188,"Right"
+  5189,"Round"
+  5190,"Rnd"
+  5191,"Second"
+  5192,"Seek"
+  5193,"Sgn"
+  5194,"Shell"
+  5195,"Sin"
+  5196,"SLN"
+  5197,"Space"
+  5198,"Spc"
+  5199,"Split"
+  5200,"Sqr"
+  5201,"Str"
+  5202,"StrComp"
+  5203,"StrConv"
+  5204,"String"
+  5205,"StrReverse"
+  5206,"Switch"
+  5207,"SYD"
+  5208,"Tab"
+  5209,"Tan"
+  5210,"Time"
+  5211,"Timer"
+  5212,"TimeSerial"
+  5213,"TimeValue"
+  5214,"TypeName"
+  5215,"UBound"
+  5216,"UCase"
+  5217,"Val"
+  5218,"VarType"
+  5219,"VarType"
+  5220,"WeekdayName"
+  5221,"Year"
+  5222,"CBool"
+  5223,"CByte"
+  5224,"CCur"
+  5225,"CDate"
+  5226,"CDec"
+  5227,"CInt"
+  5228,"CLng"
+  5229,"CSng"
+  5230,"CVar"
+  5231,"CStr"
+  5232,"CDbl"
+  5233,"Fix"
+  5234,"RTrim"
+  5235,"Trim"
+
+  5301,"AppActivate"
+  5302,"Beep"
+  5303,"Call"
+  5304,"ChDir"
+  5305,"ChDrive"
+  5306,"Close"
+  5307,"Const"
+  5308,"Date"
+  5309,"Declare"
+  5310,"Deftype"
+  5311,"DeleteSetting"
+  5312,"Dim"
+  5313,"Do...Loop"
+  5314,"End"
+  5315,"Enum"
+  5316,"Erase"
+  5317,"Error"
+  5318,"Event"
+  5319,"Exit"
+  5320,"FileCopy"
+  5321,"For Each...Next"
+  5322,"For...Next"
+  5323,"Function"
+  5324,"Get"
+  5325,"GoSub...Return"
+  5326,"GoTo"
+  5327,"If...Then...Else"
+  5328,"Implements"
+  5329,"Input #"
+  5330,"Kill"
+  5331,"Let"
+  5332,"Line Input #"
+  5333,"Lock,Unlock"
+  5334,"LSet"
+  5335,"Mid"
+  5336,"MkDir"
+  5337,"Name"
+  5338,"On Error"
+  5339,"On...GoSub"
+  5340,"Open"
+  5341,"Option Base"
+  5342,"Option Compare"
+  5343,"Option Explicit"
+  5344,"Option Private"
+  5345,"Print #"
+  5346,"Private"
+  5347,"Property Get"
+  5348,"Property Let"
+  5349,"Property Set"
+  5350,"Public"
+  5351,"Put"
+  5352,"RaiseEvent"
+  5353,"Randomize"
+  5354,"ReDim"
+  5355,"Rem"
+  5356,"Reset"
+  5357,"Resume"
+  5358,"RmDir"
+  5359,"RSet"
+  5360,"SaveSetting"
+  5361,"Seek"
+  5362,"Select Case"
+  5363,"SendKeys"
+  5364,"Set"
+  5365,"SetAttr"
+  5366,"Static"
+  5367,"Stop"
+  5368,"Sub"
+  5369,"Time"
+  5370,"Type"
+  5371,"While...Wend"
+  5372,"Width #"
+  5373,"With"
+  5374,"Write #"
+  5375,"Unlock,Lock"
+  5376,"On...GoTo"
+
+  5501,"AtEndOfLine"
+  5502,"AtEndOfStream"
+  5503,"Attributes"
+  5504,"AvailableSpace"
+  5505,"Calendar"
+  5506,"Column"
+  5507,"CompareMode"
+  5508,"Count"
+  5509,"DateCreated"
+  5510,"DateLastAccessed"
+  5511,"DateLastModified"
+  5512,"Description"
+  5513,"Drive"
+  5514,"DriveLetter"
+  5515,"Drives"
+  5516,"DriveType"
+  5517,"Files"
+  5518,"FileSystem"
+  5519,"FreeSpace"
+  5520,"HelpContext"
+  5521,"HelpFile"
+  5522,"IsReady"
+  5523,"IsRootFolder"
+  5524,"Item"
+  5525,"Key"
+  5526,"LastDLLError"
+  5527,"Line"
+  5528,"Name"
+  5529,"Number"
+  5530,"ParentFolder"
+  5531,"Path"
+  5532,"RootFolder"
+  5533,"SerialNumber"
+  5534,"ShareName"
+  5535,"ShortName"
+  5536,"ShortPath"
+  5537,"Size"
+  5538,"Source"
+  5539,"SubFolders"
+  5540,"TotalSize"
+  5541,"Type"
+  5542,"VolumeName"
+
+
+5601,"_access"
+5602,"_alloca"
+5603,"_atoi64"
+5604,"_beginthread"
+5605,"_beginthreadex"
+5606,"_c_exit"
+5607,"_cabs"
+5608,"_cexit"
+5609,"_cgets"
+5610,"_chdir"
+5611,"_chdrive"
+5612,"_chgsign"
+5613,"_chmod"
+5614,"_chsize"
+5615,"_clear87"
+5616,"_clearfp"
+5617,"_close"
+5618,"_commit"
+5619,"_control87"
+5620,"_controlfp"
+5621,"_copysign"
+5622,"_cprintf"
+5623,"_cputs"
+5624,"_creat"
+5625,"_cscanf"
+5626,"_cwait"
+5627,"_dup"
+5628,"_dup2"
+5629,"_ecvt"
+5630,"_endthread"
+5631,"_endthreadex"
+5632,"_eof"
+5633,"_execl"
+5634,"_execle"
+5635,"_execlp"
+5636,"_execlpe"
+5637,"_execv"
+5638,"_execve"
+5639,"_execvp"
+5640,"_execvpe"
+5641,"_exit"
+5642,"_expand"
+5643,"_fcloseall"
+5644,"_fcvt"
+5645,"_fdopen"
+5646,"_fgetchar"
+5647,"_fgetwchar"
+5648,"_filelength"
+5649,"_filelengthi64"
+5650,"_fileno"
+5651,"_findclose"
+5652,"_findfirst"
+5653,"_findfirst64"
+5654,"_findnext"
+5655,"_findnext64"
+5656,"_finite"
+5657,"_flushall"
+5658,"_fpclass"
+5659,"_fpieee_flt"
+5660,"_fpreset"
+5661,"_fputchar"
+5662,"_fputwchar"
+5663,"_fsopen"
+5664,"_fstat"
+5665,"_fstati64"
+5666,"_ftime"
+5667,"_fullpath"
+5668,"_futime"
+5669,"_gcvt"
+5670,"_get_osfhandle"
+5671,"_get_sbh_threshold"
+5672,"_getch"
+5673,"_getche"
+5674,"_getcwd"
+5675,"_getdcwd"
+5676,"_getdrive"
+5677,"_getmbcp"
+5678,"_getpid"
+5679,"_getw"
+5680,"_getws"
+5681,"_heapadd"
+5682,"_heapchk"
+5683,"_heapmin"
+5684,"_heapset"
+5685,"_heapwalk"
+5686,"_hypot"
+5687,"_i64toa"
+5688,"_i64tow"
+5689,"_inp"
+5690,"_inpd"
+5691,"_inpw"
+5692,"_isascii"
+5693,"_isatty"
+5694,"_iscsym"
+5695,"_iscsymf"
+5696,"_ismbbalnum"
+5697,"_ismbbalpha"
+5698,"_ismbbgraph"
+5699,"_ismbbkalnum"
+5700,"_ismbbkana"
+5701,"_ismbbkprint"
+5702,"_ismbbkpunct"
+5703,"_ismbblead"
+5704,"_ismbbprint"
+5705,"_ismbbpunct"
+5706,"_ismbbtrail"
+5707,"_ismbcalnum"
+5708,"_ismbcalpha"
+5709,"_ismbcdigit"
+5710,"_ismbcgraph"
+5711,"_ismbchira"
+5712,"_ismbckata"
+5713,"_ismbcl0"
+5714,"_ismbcl1"
+5715,"_ismbcl2"
+5716,"_ismbclegal"
+5717,"_ismbclower"
+5718,"_ismbcprint"
+5719,"_ismbcpunct"
+5720,"_ismbcspace"
+5721,"_ismbcsymbol"
+5722,"_ismbcupper"
+5723,"_ismbslead"
+5724,"_ismbstrail"
+5725,"_isnan"
+5726,"_itoa"
+5727,"_itow"
+5728,"_kbhit"
+5729,"_lfind"
+5730,"_locking"
+5731,"_logb"
+5732,"_lrotl"
+5733,"_lrotr"
+5734,"_lsearch"
+5735,"_lseek"
+5736,"_lseeki64"
+5737,"_ltoa"
+5738,"_ltow"
+5739,"_makepath"
+5740,"_matherr"
+5741,"_max"
+5742,"_mbbtombc"
+5743,"_mbbtype"
+5744,"_mbccpy"
+5745,"_mbcjistojms"
+5746,"_mbcjmstojis"
+5747,"_mbclen"
+5748,"_mbctohira"
+5749,"_mbctokata"
+5750,"_mbctolower"
+5751,"_mbctombb"
+5752,"_mbctoupper"
+5753,"_mbsbtype"
+5754,"_mbscat"
+5755,"_mbschr"
+5756,"_mbscmp"
+5757,"_mbscoll"
+5758,"_mbscpy"
+5759,"_mbscspn"
+5760,"_mbsdec"
+5761,"_mbsdup"
+5762,"_mbsicmp"
+5763,"_mbsicoll"
+5764,"_mbsinc"
+5765,"_mbslen"
+5766,"_mbslwr"
+5767,"_mbsnbcat"
+5768,"_mbsnbcmp"
+5769,"_mbsnbcnt"
+5770,"_mbsnbcoll"
+5771,"_mbsnbcpy"
+5772,"_mbsnbicmp"
+5773,"_mbsnbicoll"
+5774,"_mbsnbset"
+5775,"_mbsncat"
+5776,"_mbsnccnt"
+5777,"_mbsncmp"
+5778,"_mbsncoll"
+5779,"_mbsncpy"
+5780,"_mbsnextc"
+5781,"_mbsnicmp"
+5782,"_mbsnicoll"
+5783,"_mbsninc"
+5784,"_mbsnset"
+5785,"_mbspbrk"
+5786,"_mbsrchr"
+5787,"_mbsrev"
+5788,"_mbsset"
+5789,"_mbsspn"
+5790,"_mbsspnp"
+5791,"_mbsstr"
+5792,"_mbstok"
+5793,"_mbstrlen"
+5794,"_mbsupr"
+5795,"_memccpy"
+5796,"_memicmp"
+5797,"_min"
+5798,"_mkdir"
+5799,"_mktemp"
+5800,"_msize"
+5801,"_nextafter"
+5802,"_onexit"
+5803,"_open"
+5804,"_open_osfhandle"
+5805,"_outp"
+5806,"_outpd"
+5807,"_outpw"
+5808,"_pclose"
+5809,"_pipe"
+5810,"_popen"
+5811,"_putch"
+5812,"_putenv"
+5813,"_putw"
+5814,"_putws"
+5815,"_query_new_handler"
+5816,"_query_new_mode"
+5817,"_read"
+5818,"_rmdir"
+5819,"_rmtmp"
+5820,"_rotl"
+5821,"_rotr"
+5822,"_scalb"
+5823,"_searchenv"
+5824,"_set_new_handler"
+5825,"_set_new_mode"
+5826,"_set_sbh_threshold"
+5827,"_set_se_translator"
+5828,"_set_terminate"
+5829,"_setmaxstdio"
+5830,"_setmbcp"
+5831,"_setmode"
+5832,"_snprintf"
+5833,"_snwprintf"
+5834,"_sopen"
+5835,"_spawnl"
+5836,"_spawnle"
+5837,"_spawnlp"
+5838,"_spawnlpe"
+5839,"_spawnv"
+5840,"_spawnve"
+5841,"_spawnvp"
+5842,"_spawnvpe"
+5843,"_splitpath"
+5844,"_stat"
+5845,"_stati64"
+5846,"_status87"
+5847,"_statusfp"
+5848,"_strdate"
+5849,"_strdec"
+5850,"_strdup"
+5851,"_strerror"
+5852,"_stricmp"
+5853,"_stricoll"
+5854,"_strinc"
+5855,"_strlwr"
+5856,"_strncnt"
+5857,"_strncoll"
+5858,"_strnextc"
+5859,"_strnicmp"
+5860,"_strnicoll"
+5861,"_strninc"
+5862,"_strnset"
+5863,"_strrev"
+5864,"_strset"
+5865,"_strspnp"
+5866,"_strtime"
+5867,"_strupr"
+5868,"_swab"
+5869,"_tell"
+5870,"_telli64"
+5871,"_tempnam"
+5872,"_toascii"
+5873,"_tolower"
+5874,"_toupper"
+5875,"_tzset"
+5876,"_ui64toa"
+5877,"_ui64tow"
+5878,"_ultoa"
+5879,"_ultow"
+5880,"_umask"
+5881,"_ungetch"
+5882,"_unlink"
+5883,"_utime"
+5884,"_vsnprintf"
+5885,"_vsnwprintf"
+5886,"_waccess"
+5887,"_wasctime"
+5888,"_wchdir"
+5889,"_wchmod"
+5890,"_wcreat"
+5891,"_wcsdec"
+5892,"_wcsdup"
+5893,"_wcsicmp"
+5894,"_wcsicoll"
+5895,"_wcsinc"
+5896,"_wcslwr"
+5897,"_wcsncnt"
+5898,"_wcsncoll"
+5899,"_wcsnextc"
+5900,"_wcsnicmp"
+5901,"_wcsnicoll"
+5902,"_wcsninc"
+5903,"_wcsnset"
+5904,"_wcsrev"
+5905,"_wcsset"
+5906,"_wcsspnp"
+5907,"_wcsupr"
+5908,"_wctime"
+5909,"_wexecl"
+5910,"_wexecle"
+5911,"_wexeclp"
+5912,"_wexeclpe"
+5913,"_wexecv"
+5914,"_wexecve"
+5915,"_wexecvp"
+5916,"_wexecvpe"
+5917,"_wfdopen"
+5918,"_wfindfirst"
+5919,"_wfindfirsti64"
+5920,"_wfindnext"
+5921,"_wfindnexti64"
+5922,"_wfopen"
+5923,"_wfreopen"
+5924,"_wfsopen"
+5925,"_wfullpath"
+5926,"_wgetcwd"
+5927,"_wgetdcwd"
+5928,"_wgetenv"
+5929,"_wmakepath"
+5930,"_wmkdir"
+5931,"_wopen"
+5932,"_wperror"
+5933,"_wpopen"
+5934,"_wputenv"
+5935,"_wremove"
+5936,"_wrename"
+5937,"_write"
+5938,"_wrmdir"
+5939,"_wsearchenv"
+5940,"_wsetlocale"
+5941,"_wsopen"
+5942,"_wspawnl"
+5943,"_wspawnle"
+5944,"_wspawnlp"
+5945,"_wspawnlpe"
+5946,"_wspawnv"
+5947,"_wspawnve"
+5948,"_wspawnvp"
+5949,"_wspawnvpe"
+5950,"_wsplitpath"
+5951,"_wstat"
+5952,"_wstati64"
+5953,"_wstrdate"
+5954,"_wstrtime"
+5955,"_wsystem"
+5956,"_wtempnam"
+5957,"_wtmpnam"
+5958,"_wtoi"
+5959,"_wtoi64"
+5960,"_wtol"
+5961,"_wulink"
+5962,"_wutime"
+5963,"abort"
+5964,"abs"
+5965,"acos"
+5966,"asctime"
+5967,"asin"
+5968,"assert"
+5969,"atan"
+5970,"atan2"
+5971,"atexit"
+5972,"atof"
+5973,"atoi"
+5974,"atol"
+5975,"bsearch"
+5976,"calloc"
+5977,"ceil"
+5978,"clearerr"
+5979,"clock"
+5980,"cos"
+5981,"cosh"
+5982,"ctime"
+5983,"difftime"
+5984,"div"
+5985,"exit"
+5986,"exp"
+5987,"fabs"
+5988,"fclose"
+5989,"feof"
+5990,"ferror"
+5991,"fflush"
+5992,"fgetc"
+5993,"fgetpos"
+5994,"fgets"
+5995,"fgetwc"
+5996,"fgetws"
+5997,"floor"
+5998,"fmod"
+5999,"fopen"
+6000,"fprintf"
+6001,"fputc"
+6002,"fputs"
+6003,"fputwc"
+6004,"fputws"
+6005,"fread"
+6006,"free"
+6007,"freopen"
+6008,"frexp"
+6009,"fscanf"
+6010,"fseek"
+6011,"fsetpos"
+6012,"ftell"
+6013,"fwprintf"
+6014,"fwrite"
+6015,"fwscanf"
+6016,"getc"
+6017,"getchar"
+6018,"getenv"
+6019,"gets"
+6020,"getwc"
+6021,"getwchar"
+6022,"gmtime"
+6023,"isalnum"
+6024,"isalpha"
+6025,"iscntrl"
+6026,"isdigit"
+6027,"isgraph"
+6028,"isleadbyte"
+6029,"islower"
+6030,"isprint"
+6031,"ispunct"
+6032,"isspace"
+6033,"isupper"
+6034,"iswalnum"
+6035,"iswalpha"
+6036,"iswascii"
+6037,"iswcntrl"
+6038,"iswctype"
+6039,"iswdigit"
+6040,"iswgraph"
+6041,"iswlower"
+6042,"iswprint"
+6043,"iswpunct"
+6044,"iswspace"
+6045,"iswupper"
+6046,"iswxdigit"
+6047,"isxdigit"
+6048,"labs"
+6049,"ldexp"
+6050,"ldiv"
+6051,"localeconv"
+6052,"localtime"
+6053,"log"
+6054,"log10"
+6055,"longjmp"
+6056,"malloc"
+6057,"mblen"
+6058,"mbstowcs"
+6059,"mbtowc"
+6060,"memchr"
+6061,"memcmp"
+6062,"memcpy"
+6063,"memmove"
+6064,"memset"
+6065,"mktime"
+6066,"modf"
+6067,"offsetof"
+6068,"perror"
+6069,"pow"
+6070,"printf"
+6071,"purchar"
+6072,"putc"
+6073,"puts"
+6074,"putwc"
+6075,"putwchar"
+6076,"qsort"
+6077,"raise"
+6078,"rand"
+6079,"realloc"
+6080,"remove"
+6081,"rename"
+6082,"rewind"
+6083,"scanf"
+6084,"set_terminate"
+6085,"set_unexpected"
+6086,"setbuf"
+6087,"setjmp"
+6088,"setlocale"
+6089,"setvbuf"
+6090,"signal"
+6091,"sin"
+6092,"sinh"
+6093,"sprintf"
+6094,"sqrt"
+6095,"srand"
+6096,"sscanf"
+6097,"strcat"
+6098,"strchr"
+6099,"strcmp"
+6100,"strcoll"
+6101,"strcpy"
+6102,"strcspn"
+6103,"strerror"
+6104,"strftime"
+6105,"strlen"
+6106,"strncat"
+6107,"strncmp"
+6108,"strncpy"
+6109,"strpbrk"
+6110,"strrchr"
+6111,"strspn"
+6112,"strstr"
+6113,"strtod"
+6114,"strtok"
+6115,"strtol"
+6116,"strtoul"
+6117,"strxfrm"
+6118,"swprintf"
+6119,"swscanf"
+6120,"system"
+6121,"tan"
+6122,"tanh"
+6123,"terminate"
+6124,"time"
+6125,"tmpfile"
+6126,"tmpnam"
+6127,"tolower"
+6128,"toupper"
+6129,"towctrans"
+6130,"towlower"
+6131,"towupper"
+6132,"unexpected"
+6133,"ungetc"
+6134,"ungetwc"
+6135,"va_arg"
+6136,"va_end"
+6137,"va_start"
+6138,"vfprintf"
+6139,"vfwprintf"
+6140,"vprintf"
+6141,"vsprintf"
+6142,"vswprintf"
+6143,"vwprintf"
+6144,"wcscat"
+6145,"wcschr"
+6146,"wcscmp"
+6147,"wcscoll"
+6148,"wcscpy"
+6149,"wcscspn"
+6150,"wcsftime"
+6151,"wcslen"
+6152,"wcsncat"
+6153,"wcsncmp"
+6154,"wcsncpy"
+6155,"wcspbrk"
+6156,"wcsrchr"
+6157,"wcsspn"
+6158,"wcsstr"
+6159,"wcstod"
+6160,"wcstok"
+6161,"wcstol"
+6162,"wcstombs"
+6163,"wcstoul"
+6164,"wcsxfrm"
+6165,"wctomb"
+6166,"wctrans"
+6167,"wctype"
+6168,"wprintf"
+6169,"wscanf"
+
+6201,"WM_NULL=$0000:"
+6202,"WM_CREATE=$0001:"
+6203,"WM_DESTROY=$0002:"
+6204,"WM_MOVE=$0003:"
+6205,"WM_SIZE=$0005:"
+6206,"WM_ACTIVATE=$0006:"
+6207,"WM_SETFOCUS=$0007:"
+6208,"WM_KILLFOCUS=$0008:"
+6209,"WM_ENABLE=$000A:"
+6210,"WM_SETREDRAW=$000B:"
+6211,"WM_SETTEXT=$000C:"
+6212,"WM_GETTEXT=$000D:"
+6213,"WM_GETTEXTLENGTH=$000E:"
+6214,"WM_PAINT=$000F:"
+6215,"WM_CLOSE=$0010:"
+6216,"WM_QUERYENDSESSION=$0011:"
+6217,"WM_QUIT=$0012:"
+6218,"WM_QUERYOPEN=$0013:"
+6219,"WM_ERASEBKGND=$0014:"
+6220,"WM_SYSCOLORCHANGE=$0015:"
+6221,"WM_ENDSESSION=$0016:"
+6222,"WM_SYSTEMERROR=$0017:"
+6223,"WM_SHOWWINDOW=$0018:"
+6224,"WM_ACTIVATEAPP=$001C:"
+6225,"WM_FONTCHANGE=$001D:"
+6226,"WM_TIMECHANGE=$001E:"
+6227,"WM_CANCELMODE=$001F:"
+6228,"WM_SETCURSOR=$0020:"
+6229,"WM_MOUSEACTIVATE=$0021:"
+6230,"WM_CHILDACTIVATE=$0022:"
+6231,"WM_QUEUESYNC=$0023:"
+6232,"WM_GETMINMAXINFO=$0024:"
+6233,"WM_PAINTICON=$0026:"
+6234,"WM_ICONERASEBKGND=$0027:"
+6235,"WM_NEXTDLGCTL=$0028:"
+6236,"WM_SPOOLERSTATUS=$002A:"
+6237,"WM_DRAWITEM=$002B:"
+6238,"WM_MEASUREITEM=$002C:"
+6239,"WM_DELETEITEM=$002D:"
+6240,"WM_VKEYTOITEM=$002E:"
+6241,"WM_CHARTOITEM=$002F:"
+6242,"WM_SETFONT=$0030:"
+6243,"WM_GETFONT=$0031:"
+6244,"WM_SETHOTKEY=$0032:"
+6245,"WM_GETHOTKEY=$0033:"
+6246,"WM_QUERYDRAGICON=$0037:"
+6247,"WM_COMPAREITEM=$0039:"
+6248,"WM_GETOBJECT=$003D:"
+6249,"WM_COMPACTING=$0041:"
+6250,"WM_WINDOWPOSCHANGING=$0046:"
+6251,"WM_WINDOWPOSCHANGED=$0047:"
+6252,"WM_POWER=$0048:"
+6253,"WM_COPYDATA=$004A:"
+6254,"WM_CANCELJOURNAL=$004B:"
+6255,"WM_NOTIFY=$004E:"
+6256,"WM_INPUTLANGCHANGEREQUEST=$0050:"
+6257,"WM_INPUTLANGCHANGE=$0051:"
+6258,"WM_TCARD=$0052:"
+6259,"WM_HELP=$0053:"
+6260,"WM_USERCHANGED=$0054:"
+6261,"WM_NOTIFYFORMAT=$0055:"
+6262,"WM_CONTEXTMENU=$007B:"
+6263,"WM_STYLECHANGING=$007C:"
+6264,"WM_STYLECHANGED=$007D:"
+6265,"WM_DISPLAYCHANGE=$007E:"
+6266,"WM_GETICON=$007F:"
+6267,"WM_SETICON=$0080:"
+6268,"WM_NCCREATE=$0081:"
+6269,"WM_NCDESTROY=$0082:"
+6270,"WM_NCCALCSIZE=$0083:"
+6271,"WM_NCHITTEST=$0084:"
+6272,"WM_NCPAINT=$0085:"
+6273,"WM_NCACTIVATE=$0086:"
+6274,"WM_GETDLGCODE=$0087:"
+6275,"WM_NCMOUSEMOVE=$00A0:"
+6276,"WM_NCLBUTTONDOWN=$00A1:"
+6277,"WM_NCLBUTTONUP=$00A2:"
+6278,"WM_NCLBUTTONDBLCLK=$00A3:"
+6279,"WM_NCRBUTTONDOWN=$00A4:"
+6280,"WM_NCRBUTTONUP=$00A5:"
+6281,"WM_NCRBUTTONDBLCLK=$00A6:"
+6282,"WM_NCMBUTTONDOWN=$00A7:"
+6283,"WM_NCMBUTTONUP=$00A8:"
+6284,"WM_NCMBUTTONDBLCLK=$00A9:"
+6285,"WM_KEYFIRST=$0100:"
+6286,"WM_KEYDOWN=$0100:"
+6287,"WM_KEYUP=$0101:"
+6288,"WM_CHAR=$0102:"
+6289,"WM_DEADCHAR=$0103:"
+6290,"WM_SYSKEYDOWN=$0104:"
+6291,"WM_SYSKEYUP=$0105:"
+6292,"WM_SYSCHAR=$0106:"
+6293,"WM_SYSDEADCHAR=$0107:"
+6294,"WM_INITDIALOG=$0110:"
+6295,"WM_COMMAND=$0111:"
+6296,"WM_SYSCOMMAND=$0112:"
+6297,"190. WM_TIMER=$0113:"
+6298,"WM_HSCROLL=$0114:"
+6299,"WM_VSCROLL=$0115:"
+6300,"WM_INITMENU=$0116:"
+6301,"WM_INITMENUPOPUP=$0117:"
+6302,"WM_MENUSELECT=$011F:"
+6303,"WM_MENUCHAR=$0120:"
+6304,"WM_ENTERIDLE=$0121:"
+6305,"WM_MENURBUTTONUP=$0122:"
+6306,"WM_MENUDRAG=$0123:"
+6307,"WM_MENUGETOBJECT=$0124:"
+6308,"WM_UNINITMENUPOPUP=$0125:"
+6309,"WM_MENUCOMMAND=$0126:"
+6310,"WM_CHANGEUISTATE=$0127:"
+6311,"WM_UPDATEUISTATE=$0128:"
+6312,"WM_QUERYUISTATE=$0129:"
+6313,"WM_CTLCOLORMSGBOX=$0132:"
+6314,"WM_CTLCOLOREDIT=$0133:"
+6315,"WM_CTLCOLORLISTBOX=$0134:"
+6316,"WM_CTLCOLORBTN=$0135:"
+6317,"WM_CTLCOLORDLG=$0136:"
+6318,"WM_CTLCOLORSCROLLBAR=$0137:"
+6319,"WM_CTLCOLORSTATIC=$0138:"
+6320,"WM_MOUSEMOVE=$0200:"
+6321,"WM_LBUTTONDOWN=$0201:"
+6322,"WM_LBUTTONUP=$0202:"
+6323,"WM_LBUTTONDBLCLK=$0203:"
+6324,"WM_RBUTTONDOWN=$0204:"
+6325,"WM_RBUTTONUP=$0205:"
+6326,"WM_RBUTTONDBLCLK=$0206:"
+6327,"WM_MBUTTONDOWN=$0207:"
+6328,"WM_MBUTTONUP=$0208:"
+6329,"WM_MBUTTONDBLCLK=$0209:"
+6330,"WM_MOUSEWHEEL=$020A:"
+6331,"WM_PARENTNOTIFY=$0210:"
+6332,"WM_ENTERMENULOOP=$0211:"
+6333,"WM_EXITMENULOOP=$0212:"
+6334,"WM_NEXTMENU=$0213:"
+6335,"WM_SIZING=532:"
+6336,"WM_CAPTURECHANGED=533:"
+6337,"WM_MOVING=534:"
+6338,"WM_POWERBROADCAST=536:"
+6339,"WM_DEVICECHANGE=537:"
+6340,"WM_IME_STARTCOMPOSITION=$010D:"
+6341,"WM_IME_ENDCOMPOSITION=$010E:"
+6342,"WM_IME_COMPOSITION=$010F:"
+6343,"WM_IME_KEYLAST=$010F:"
+6344,"WM_IME_SETCONTEXT=$0281:"
+6345,"WM_IME_NOTIFY=$0282:"
+6346,"WM_IME_NOTIFY=$0282:"
+6347,"WM_IME_CONTROL=$0283:"
+6348,"WM_IME_COMPOSITIONFULL=$0284:"
+6349,"WM_IME_SELECT=$0285:"
+6350,"WM_IME_CHAR=$0286:"
+6351,"WM_IME_REQUEST=$0288:"
+6352,"WM_IME_KEYDOWN=$0290:"
+6353,"WM_IME_KEYUP=$0291:"
+6354,"WM_MDICREATE=$0220:"
+6355,"WM_MDIDESTROY=$0221:"
+6356,"WM_MDIACTIVATE=$0222:"
+6357,"WM_MDIRESTORE=$0223:"
+6358,"WM_MDINEXT=$0224:"
+6359,"WM_MDIMAXIMIZE=$0225:"
+6360,"WM_MDITILE=$0226:"
+6361,"WM_MDICASCADE=$0227:"
+6362,"WM_MDIICONARRANGE=$0228:"
+6363,"WM_MDIGETACTIVE=$0229:"
+6364,"WM_MDISETMENU=$0230:"
+6365,"WM_ENTERSIZEMOVE=$0231:"
+6366,"WM_EXITSIZEMOVE=$0232:"
+6367,"WM_DROPFILES=$0233:"
+6368,"WM_MDIREFRESHMENU=$0234:"
+6369,"WM_MOUSEHOVER=$02A1:"
+6370,"WM_MOUSELEAVE=$02A3:"
+6371,"WM_CUT=$0300:"
+6372,"WM_COPY=$0301:"
+6373,"WM_PASTE=$0302:"
+6374,"WM_CLEAR=$0303:"
+6375,"WM_UNDO=$0304:"
+6376,"WM_RENDERFORMAT=$0305:"
+6377,"WM_RENDERALLFORMATS=$0306:"
+6378,"WM_DESTROYCLIPBOARD=$0307:"
+6379,"WM_DRAWCLIPBOARD=$0308:"
+6380,"WM_PAINTCLIPBOARD=$0309:"
+
+
+6401,"AbortDoc"
+6402,"AbortPath"
+6403,"AbortPrinter"
+6404,"ActivateKeyboardLayout"
+6405,"AddFontResource"
+6406,"AddForm"
+6407,"AddJob"
+6408,"ADDJOB_INFO_1"
+6409,"AddMonitor"
+6410,"AddPort"
+6411,"AddPrinter"
+6412,"AddPrinterConnection"
+6413,"AddPrinterDriver"
+6414,"AddPrintProcessor"
+6415,"AddPrintProvidor"
+6416,"AdjustWindowRect"
+6417,"AdjustWindowRectEx"
+6418,"AdvancedDocumentProperties"
+6419,"AngleArc"
+6420,"AnyPopup"
+6421,"AppendMenu"
+6422,"Arc"
+6423,"ArcTo"
+6424,"ArrangeIconicWindows"
+6425,"AttachThreadInput"
+6426,"Beep"
+6427,"BeginDeferWindowPos"
+6428,"BeginPath"
+6429,"BitBlt"
+6430,"BITMAP"
+6431,"BringWindowToTop"
+6432,"BroadcastSystemMessage"
+6433,"BY_HANDLE_FILE-INFORMATION"
+6434,"CancelDC"
+6435,"CascadeWindows"
+6436,"CascadeWindowsBynum"
+6437,"CharToOem"
+6438,"CharToOemBuff"
+6439,"CheckMenuItem"
+6440,"CheckMenuRadioItem"
+6441,"ChildWindowFromPoint"
+6442,"ChildWindowFromPointEx"
+6443,"Chord"
+6444,"ClientToScreen"
+6445,"ClipCursor"
+6446,"ClipCursorBynum"
+6447,"CloseEnhMetaFile"
+6448,"CloseFigure"
+6449,"CloseHandle"
+6450,"CloseMetaFile"
+6451,"ClosePrinter"
+6452,"CloseWindow"
+6453,"CombineRgn"
+6454,"CombineTransform"
+6455,"CompareFileTime"
+6456,"ConfigurePort"
+6457,"ConnectToPrinterDlg"
+6458,"ConvertDefaultLocale"
+6459,"CopyEnhMetaFile"
+6460,"CopyFile"
+6461,"CopyIcon"
+6462,"CopyImage"
+6463,"CopyMetaFile"
+6464,"CopyRect"
+6465,"CPINFO"
+6466,"CreateBitmap"
+6467,"CreateBitmapIndirect"
+6468,"CreateBrushIndirect"
+6469,"CreateCaret"
+6470,"CreateCompatibleBitmap"
+6471,"CreateCompatibleDC"
+6472,"CreateCursor"
+6473,"CreateDC"
+6474,"CreateDCBynum"
+6475,"CreateDIBitmap"
+6476,"CreateDIBPatternBrush"
+6477,"CreateDIBPatternBrushPt"
+6478,"CreateDIBSection"
+6479,"CreateDirectory"
+6480,"CreateDirectoryEx"
+6481,"CreateEllipticRgn"
+6482,"CreateEllipticRgnIndirect"
+6483,"CreateEnhMetaFile"
+6484,"CreateFile"
+6485,"CreateFileMapping"
+6486,"CreateFont"
+6487,"CreateFontIndirect"
+6488,"CreateHatchBrush"
+6489,"CreateIC"
+6490,"CreateIcon"
+6491,"CreateIconIndirect"
+6492,"CreateMenu"
+6493,"CreateMetaFile"
+6494,"CreatePatternBrush"
+6495,"CreatePen"
+6496,"CreatePenIndirect"
+6497,"CreatePolygonRgn"
+6498,"CreatePolyPolygonRgn"
+6499,"CreatePopupMenu"
+6500,"CreateRectRgn"
+6501,"CreateRectRgnIndirect"
+6502,"CreateRoundRectRgn"
+6503,"CreateScalableFontResource"
+6504,"CreateSolidBrush"
+6505,"CreateProcess"
+6506,"DeferWindowPos"
+6507,"DeleteDC"
+6508,"DeleteEnhMetaFile"
+6509,"DeleteFile"
+6510,"DeleteForm"
+6511,"DeleteMenu"
+6512,"DeleteMetaFile"
+6513,"DeleteMonitor"
+6514,"DeleteObject"
+6515,"DeletePort"
+6516,"DeletePrinter"
+6517,"DeletePrinterConnection"
+6518,"DeletePrinterDriver"
+6519,"DeletePrintProcessor"
+6520,"DeletePrintProvidor"
+6521,"DestroyCaret"
+6522,"DestroyCursor"
+6523,"DestroyIcon"
+6524,"DestroyMenu"
+6525,"DestroyWindow"
+6526,"lpOutput"
+6527,"DeviceIoControl"
+6528,"DocumentProperties"
+6529,"DosDateTimeToFileTime"
+6530,"DPtoLP"
+6531,"DrawAnimatedRects"
+6532,"DrawEdge"
+6533,"DrawEscape"
+6534,"DrawFocusRect"
+6535,"DrawFrameControl"
+6536,"DrawIcon"
+6537,"DrawIconEx"
+6538,"DrawMenuBar"
+6539,"DrawState"
+6540,"DrawText"
+6541,"DrawTextEx"
+6542,"DuplicateHandle"
+6543,"Ellipse"
+6544,"EnableMenuItem"
+6545,"EnableWindow"
+6546,"EndDeferWindowPos"
+6547,"EndDocAPI"
+6548,"EndDocPrinter"
+6549,"EndPage"
+6550,"EndPagePrinter"
+6551,"EndPath"
+6552,"ENHMETAHEADER"
+6553,"EnumCalendarInfo"
+6554,"EnumChildWindows"
+6555,"EnumDateFormats"
+6556,"EnumEnhMetaFile"
+6557,"EnumFontFamilies"
+6558,"EnumFontFamiliesEx"
+6559,"EnumFonts"
+6560,"EnumForms"
+6561,"EnumJobs"
+6562,"EnumMetaFile"
+6563,"EnumMonitors"
+6564,"EnumObjects"
+6565,"EnumPorts"
+6566,"EnumPrinterDrivers"
+6567,"EnumPrinters"
+6568,"EnumPrintProcessorDatatypes"
+6569,"EnumPrintProcessors"
+6570,"EnumSystemCodePages"
+6571,"EnumSystemLocales"
+6572,"EnumThreadWindows"
+6573,"EnumTimeFormats"
+6574,"EnumWindows"
+6575,"EqualRect"
+6576,"EqualRgn"
+6577,"Escape"
+6578,"ExcludeClipRect"
+6579,"ExcludeUpdateRgn"
+6580,"ExitProcess"
+6581,"ExitWindowsEx"
+6582,"ExpandEnvironmentStrings"
+6583,"ExtCreatePen"
+6584,"ExtCreateRegion"
+6585,"ExtFloodFill"
+6586,"ExtractAssociatedIcon"
+6587,"ExtractIcon"
+6588,"ExtSelectClipRgn"
+6589,"ExtTextOut"
+6590,"FILETIME"
+6591,"FileTimeToDosDateTime"
+6592,"FileTimeToLocalFileTime"
+6593,"FileTimeToSystemTime"
+6594,"FillPath"
+6595,"FillRect"
+6596,"FillRgn"
+6597,"FindClose"
+6598,"FindClosePrinterChangeNotification"
+6599,"FindExecutable"
+6600,"FindFirstFile"
+6601,"FindFirstPrinterChangeNotification"
+6602,"FindNextFile"
+6603,"FindNextPrinterChangeNotification"
+6604,"FindWindow"
+6605,"FindWindowEx"
+6606,"FlashWindow"
+6607,"FlattenPath"
+6608,"FloodFill"
+6609,"FlushFileBuffers"
+6610,"FlushViewOfFile"
+6611,"FORM_INFO_1"
+6612,"FrameRect"
+6613,"FrameRgn"
+6614,"FreeEnvironmentStrings"
+6615,"FreeLibrary"
+6616,"FreePrinterNotifyInfo"
+6617,"GdiComment"
+6618,"GdiFlush"
+6619,"GdiGetBatchLimit"
+6620,"GdiSetBatchLimit"
+6621,"GetACP"
+6622,"GetActiveWindow"
+6623,"GetArcDirection"
+6624,"GetAspectRatioFilterEx"
+6625,"GetAsyncKeyState"
+6626,"GetBinaryType"
+6627,"GetBitmapBits"
+6628,"GetBitmapDimensionEx"
+6629,"GetBkColor"
+6630,"GetBkMode"
+6631,"GetBoundsRect"
+6632,"GetBrushOrgEx"
+6633,"GetCapture"
+6634,"GetCaretBlinkTime"
+6635,"GetCaretPos"
+6636,"GetCharABCWidths"
+6637,"GetCharABCWidthsFloat"
+6638,"GetCharacterPlacement"
+6639,"GetCharWidth"
+6640,"GetCharWidth32"
+6641,"GetCharWidthFloat"
+6642,"GetClassInfo"
+6643,"GetClassInfoEx"
+6644,"GetClassLong"
+6645,"GetClassName"
+6646,"GetClassWord"
+6647,"GetClientRect"
+6648,"GetClipBox"
+6649,"GetClipCursor"
+6650,"GetClipRgn"
+6651,"GetCommandLine"
+6652,"GetCompressedFileSize"
+6653,"GetComputerName"
+6654,"GetCPInfo"
+6655,"GetCurrencyFormat"
+6656,"GetCurrencyFormatBynum"
+6657,"GetCurrentDirectory"
+6658,"GetCurrentObject"
+6659,"GetCurrentPositionEx"
+6660,"GetCurrentProcess"
+6661,"GetCurrentProcessId"
+6662,"GetCurrentThread"
+6663,"GetCursor"
+6664,"GetCursorPos"
+6665,"GetDateFormat"
+6666,"GetDC"
+6667,"GetDCEx"
+6668,"GetDCOrgEx"
+6669,"GetDesktopWindow"
+6670,"GetDeviceCaps"
+6671,"GetDIBColorTable"
+6672,"GetDIBits"
+6673,"GetDiskFreeSpace"
+6674,"GetDiskFreeSpaceEx"
+6675,"GetDoubleClickTime"
+6676,"GetDriveType"
+6677,"GetEnhMetaFile"
+6678,"GetEnhMetaFileBits"
+6679,"GetEnhMetaFileDescription"
+6680,"GetEnhMetaFileHeader"
+6681,"GetEnhMetaFilePaletteEntries"
+6682,"GetEnvironmentStrings"
+6683,"GetEnvironmentVariable"
+6684,"GetExitCodeProcess"
+6685,"GetExitCodeThread"
+6686,"GetExpandedName"
+6687,"GetFileAttributes"
+6688,"GetFileInformationByHandle"
+6689,"GetFileSize"
+6690,"GetFileTime"
+6691,"GetFileType"
+6692,"GetFileVersionInfo"
+6693,"GetFileVersionInfoSize"
+6694,"GetFocus"
+6695,"GetFontData"
+6696,"GetFontLanguageInfo"
+6697,"GetForegroundWindow"
+6698,"GetForm"
+6699,"GetFullPathName"
+6700,"GetGlyphOutline"
+6701,"GetGraphicsMode"
+6702,"GetHandleInformation"
+6703,"GetIconInfo"
+6704,"GetInputState"
+6705,"GetJob"
+6706,"GetKBCodePage"
+6707,"GetKerningPairs"
+6708,"GetKeyboardLayout"
+6709,"GetKeyboardLayoutList"
+6710,"GetKeyboardLayoutName"
+6711,"GetKeyboardState"
+6712,"GetKeyboardType"
+6713,"GetKeyNameText"
+6714,"GetKeyState"
+6715,"GetLastActivePopup"
+6716,"GetLastError"
+6717,"GetLocaleInfo"
+6718,"GetLocalTime"
+6719,"GetLogicalDrives"
+6720,"GetLogicalDriveStrings"
+6721,"GetMapMode"
+6722,"GetMenu"
+6723,"GetMenuCheckMarkDimensions"
+6724,"GetMenuContextHelpId"
+6725,"GetMenuDefaultItem"
+6726,"GetMenuItemCount"
+6727,"GetMenuItemID"
+6728,"GetMenuItemInfo"
+6729,"GetMenuItemRect"
+6730,"GetMenuState"
+6731,"GetMenuString"
+6732,"GetMessagePos"
+6733,"GetMessageTime"
+6734,"GetMetaFile"
+6735,"GetMetaFileBitsEx"
+6736,"GetMiterLimit"
+6737,"GetModuleFileName"
+6738,"GetModuleHandle"
+6739,"GetNearestColor"
+6740,"GetNumberFormat"
+6741,"GetNumberFormatBynum"
+6742,"GetObjectAPI"
+6743,"GetObjectType"
+6744,"GetOEMCP"
+6745,"GetOutlineTextMetrics"
+6746,"GetOverlappedResult"
+6747,"GetParent"
+6748,"GetPath"
+6749,"GetPixel"
+6750,"GetPolyFillMode"
+6751,"GetPrinter"
+6752,"GetPrinterData"
+6753,"GetPrinterDrive"
+6754,"GetPrinterDriverDirectory"
+6755,"GetPrintProcessorDirectory"
+6756,"GetPriorityClass"
+6757,"GetPrivateProfileInt"
+6758,"GetPrivateProfileSection"
+6759,"GetPrivateProfileString"
+6760,"GetProcessShutdownParameters"
+6761,"GetProcessTimes"
+6762,"GetProcessWorkingSetSize"
+6763,"GetProfileInt"
+6764,"GetProfileSection"
+6765,"GetProfileString"
+6766,"GetQueueStatus"
+6767,"GetRasterizerCaps"
+6768,"GetRegionData"
+6769,"GetRgnBox"
+6770,"GetROP2"
+6771,"GetStartupInfo"
+6772,"GetShortPathName"
+6773,"GetStockObject"
+6774,"GetStretchBltMode"
+6775,"GetSubMenu"
+6776,"GetSysColor"
+6777,"GetSysColorBrush"
+6778,"GetSystemDefaultLangID"
+6779,"GetSystemDefaultLCID"
+6780,"GetSystemDirectory"
+6781,"GetSystemInfo"
+6782,"GetSystemMenu"
+6783,"GetSystemMetrics"
+6784,"GetSystemPowerStatus"
+6785,"GetSystemTime"
+6786,"GetSystemTimeAdjustment"
+6787,"GetTabbedTextExtent"
+6788,"GetTempFileName"
+6789,"GetTempPath"
+6790,"GetTextAlign"
+6791,"GetTextCharacterExtra"
+6792,"GetTextCharset"
+6793,"GetTextCharsetInfo"
+6794,"GetTextColor"
+6795,"GetTextExtentExPoint"
+6796,"GetTextExtentPoint"
+6797,"GetTextExtentPoint"
+6798,"GetTextFace"
+6799,"GetTextMetrics"
+6800,"GetThreadTimes"
+6801,"GetThreadLocale"
+6802,"GetThreadPriority"
+6803,"GetTickCount"
+6804,"GetTimeFormat"
+6805,"GetTimeZoneInformation"
+6806,"GetTopWindow"
+6807,"GetUpdateRect"
+6808,"GetUpdateRgn"
+6809,"GetUserDefaultLangID"
+6810,"GetUserDefaultLCID"
+6811,"GetUserName"
+6812,"GetVersion"
+6813,"GetVersionEx"
+6814,"GetViewportExtEx"
+6815,"GetViewportOrgEx"
+6816,"GetVolumeInformation"
+6817,"GetWindow"
+6818,"GetWindowContextHelpId"
+6819,"GetWindowDC"
+6820,"GetWindowExtEx"
+6821,"GetWindowLong"
+6822,"GetWindowOrgEx"
+6823,"GetWindowPlacement"
+6824,"GetWindowRect"
+6825,"GetWindowRgn"
+6826,"GetWindowsDirectory"
+6827,"GetWindowText"
+6828,"GetWindowTextLength"
+6829,"GetWindowThreadProcessId"
+6830,"GetWindowWord"
+6831,"GetWinMetaFileBits"
+6832,"GetWorldTransform"
+6833,"GrayString"
+6834,"GrayStringByString"
+6835,"HideCaret"
+6836,"HiliteMenuItem"
+6837,"hread"
+6838,"hwrite"
+6839,"InflateRect"
+6840,"InsertMenu"
+6841,"InsertMenuItem"
+6842,"IntersectClipRect"
+6843,"IntersectRect"
+6844,"InvalidateRect"
+6845,"InvalidateRectBynum"
+6846,"InvalidateRgn"
+6847,"InvertRect"
+6848,"InvertRgn"
+6849,"IsChild"
+6850,"IsIconic"
+6851,"IsMenu"
+6852,"IsRectEmpty"
+6853,"IsValidCodePage"
+6854,"IsWindow"
+6855,"IsWindowEnabled"
+6856,"IsWindowUnicode"
+6857,"IsWindowVisible"
+6858,"IsZoomed"
+6859,"keybd_event"
+6860,"lclose"
+6861,"lcreat"
+6862,"LineDDA"
+6863,"LineTo"
+6864,"llseek"
+6865,"LoadBitmap"
+6866,"LoadBitmapBynum"
+6867,"LoadCursor"
+6868,"LoadCursorBynum"
+6869,"LoadCursorFromFile"
+6870,"LoadIcon"
+6871,"LoadIconBynum"
+6872,"LoadImage"
+6873,"LoadImageBynum"
+6874,"LoadKeyboardLayout"
+6875,"LoadLibrary"
+6876,"LoadLibraryEx"
+6877,"LoadMenu"
+6878,"LoadMenuIndirect"
+6879,"LoadModule"
+6880,"LockFile"
+6881,"LockFileEx"
+6882,"LockWindowUpdate"
+6883,"lopen"
+6884,"LPtoDP"
+6885,"lread"
+6886,"lwrite"
+6887,"LZClose"
+6888,"LZCopy"
+6889,"LZOpenFile"
+6890,"LZInit"
+6891,"LZRead"
+6892,"LZSeek"
+6893,"MapViewOfFile"
+6894,"MapViewOfFileEx"
+6895,"MapVirtualKey"
+6896,"MapVirtualKeyEx"
+6897,"MapWindowPoints"
+6898,"MaskBlt"
+6899,"MenuItemFromPoint"
+6900,"MessageBeep"
+6901,"ModifyMenu"
+6902,"ModifyMenuBynum"
+6903,"ModifyWorldTransform"
+6904,"mouse_event"
+6905,"MoveFile"
+6906,"MoveFileEx"
+6907,"MoveToEx"
+6908,"MoveWindow"
+6909,"MsgWaitForMultipleObjects"
+6910,"OemKeyScan"
+6911,"OemToChar"
+6912,"OemToCharBuff"
+6913,"OffsetClipRgn"
+6914,"OffsetRect"
+6915,"OffsetRgn"
+6916,"OffsetViewportOrgEx"
+6917,"OffsetWindowOrgEx"
+6918,"OpenFile"
+6919,"OpenFileMapping"
+6920,"OpenIcon"
+6921,"OpenPrinter"
+6922,"PaintDesktop"
+6923,"PaintRgn"
+6924,"PatBlt"
+6925,"PathToRegion"
+6926,"Pie"
+6927,"PlayEnhMetaFile"
+6928,"PlayEnhMetaFileRecord"
+6929,"PlayMetaFile"
+6930,"PlayMetaFileRecord"
+6931,"PlgBlt"
+6932,"PolyBezier"
+6933,"PolyBezierTo"
+6934,"PolyDraw"
+6935,"Polygon"
+6936,"Polyline"
+6937,"PolylineTo"
+6938,"PolyPolygon"
+6939,"PolyPolyline"
+6940,"PolyTextOut"
+6941,"PostMessage"
+6942,"PostMessageByNum"
+6943,"PostMessageByString"
+6944,"PostThreadMessage"
+6945,"PrinterMessageBox"
+6946,"PrinterProperties"
+6947,"PtInRect"
+6948,"PtInRegion"
+6949,"PtVisible"
+6950,"QueryDosDevice"
+6951,"ReadFile"
+6952,"ReadFileEx"
+6953,"ReadPrinter"
+6954,"Rectangle"
+6955,"RectInRegion"
+6956,"RectVisible"
+6957,"RedrawWindow"
+6958,"RegCloseKey"
+6959,"RegConnectRegistry"
+6960,"RegCreateKey"
+6961,"RegCreateKeyEx"
+6962,"RegDeleteKey"
+6963,"RegDeleteValue"
+6964,"RegEnumKey"
+6965,"RegEnumKeyEx"
+6966,"RegEnumValue"
+6967,"RegFlushKey"
+6968,"RegGetKeySecurity"
+6969,"RegisterWindowMessage"
+6970,"RegLoadKey"
+6971,"RegNotifyChangeKeyValue"
+6972,"RegOpenKey"
+6973,"RegOpenKeyEx"
+6974,"RegQueryInfoKey"
+6975,"RegQueryValue"
+6976,"RegQueryValueEx"
+6977,"RegReplaceKey"
+6978,"RegRestoreKey"
+6979,"RegSaveKey"
+6980,"RegSetKeySecurity"
+6981,"RegSetValue"
+6982,"RegSetValueEx"
+6983,"RegUnLoadKey"
+6984,"ReleaseCapture"
+6985,"ReleaseDC"
+6986,"RemoveDirectory"
+6987,"RemoveFontResource"
+6988,"RemoveMenu"
+6989,"ReplyMessage"
+6990,"ResetDC"
+6991,"ResetPrinter"
+6992,"RestoreDC"
+6993,"RoundRect"
+6994,"SaveDC"
+6995,"ScaleViewportExtEx"
+6996,"ScaleWindowExtEx"
+6997,"ScheduleJob"
+6998,"ScreenToClient"
+6999,"ScrollDC"
+7000,"ScrollWindow"
+7001,"ScrollWindowEx"
+7002,"SearchPath"
+7003,"SelectClipPath"
+7004,"SelectClipRgn"
+7005,"SelectObject"
+7006,"SendMessage"
+7007,"SendMessageBynum"
+7008,"SendMessageByString"
+7009,"SendMessageCallback"
+7010,"SendMessageTimeout"
+7011,"SendNotifyMessage"
+7012,"SetAbortProc"
+7013,"SetActiveWindow"
+7014,"SetArcDirection"
+7015,"SetBitmapBits"
+7016,"SetBitmapDimensionEx"
+7017,"SetBkColor"
+7018,"SetBkMode"
+7019,"SetBoundsRect"
+7020,"SetBrushOrgEx"
+7021,"SetCapture"
+7022,"SetCaretBlinkTime"
+7023,"SetCaretPos"
+7024,"SetClassLong"
+7025,"SetClassWord"
+7026,"SetComputerName"
+7027,"SetCurrentDirectory"
+7028,"SetCursor"
+7029,"SetCursorPos"
+7030,"SetDIBColorTable"
+7031,"SetDIBits"
+7032,"SetDIBitsToDevice"
+7033,"SetDoubleClickTime"
+7034,"SetEndOfFile"
+7035,"SetEnhMetaFileBits"
+7036,"SetEnvironmentVariable"
+7037,"SetFileAttributes"
+7038,"SetFilePointer"
+7039,"SetFileTime"
+7040,"SetFocusAPI"
+7041,"SetForegroundWindow"
+7042,"SetForm"
+7043,"SetGraphicsMode"
+7044,"SetHandleCount"
+7045,"SetJob"
+7046,"SetKeyboardState"
+7047,"SetLocaleInfo"
+7048,"SetLocalTime"
+7049,"SetMapMode"
+7050,"SetMenu"
+7051,"SetMapperFlags"
+7052,"SetMenuContextHelpId"
+7053,"SetMenuDefaultItem"
+7054,"SetMenuItemBitmaps"
+7055,"SetMenuItemInfo"
+7056,"SetMetaFileBitsEx"
+7057,"SetMiterLimit"
+7058,"SetParent"
+7059,"SetPixel"
+7060,"SetPixelV"
+7061,"SetPolyFillMode"
+7062,"SetPrinter"
+7063,"SetPrinterData"
+7064,"SetPriorityClass"
+7065,"SetProcessShutdownParameters"
+7066,"SetProcessWorkingSetSize"
+7067,"SetRect"
+7068,"SetRectEmpty"
+7069,"SetRectRgn"
+7070,"SetROP2"
+7071,"SetStretchBltMode"
+7072,"SetSysColors"
+7073,"SetSystemCursor"
+7074,"SetSystemTime"
+7075,"SetSystemTimeAdjustment"
+7076,"SetTextAlign"
+7077,"SetTextCharacterExtra"
+7078,"SetTextColor"
+7079,"SetTextJustification"
+7080,"SetThreadLocale"
+7081,"SetThreadPriority"
+7082,"SetTimeZoneInformation"
+7083,"SetViewportExtEx"
+7084,"SetViewportOrgEx"
+7085,"SetVolumeLabel"
+7086,"SetWindowContextHelpId"
+7087,"SetWindowExtEx"
+7088,"SetWindowLong"
+7089,"SetWindowOrgEx"
+7090,"SetWindowPlacement"
+7091,"SetWindowPos"
+7092,"SetWindowRgn"
+7093,"SetWindowWord"
+7094,"SetWindowText"
+7095,"SetWinMetaFileBits"
+7096,"SetWorldTransform"
+7097,"ShellExecute"
+7098,"ShowCaret"
+7099,"ShowCursor"
+7100,"ShowOwnedPopups"
+7101,"ShowWindow"
+7102,"ShowWindowAsync"
+7103,"StartDoc"
+7104,"StartDocPrinter"
+7105,"StartPage"
+7106,"StartPagePrinter"
+7107,"StretchBlt"
+7108,"StretchDIBits"
+7109,"StrokeAndFillPath"
+7110,"StrokePath"
+7111,"SubtractRect"
+7112,"SwapMouseButton"
+7113,"SystemParametersInfo"
+7114,"SystemParametersInfoByVal"
+7115,"SystemTimeToFileTime"
+7116,"SystemTimeToTzSpecificLocalTime"
+7117,"TextOut"
+7118,"TrackPopupMenuEx"
+7119,"TabbedTextOut"
+7120,"UnionRect"
+7121,"TerminateProcess"
+7122,"ToUnicode"
+7123,"TrackPopupMenu"
+7124,"TrackPopupMenuBynum"
+7125,"TileWindows"
+7126,"UnlockFile"
+7127,"ToAscii"
+7128,"ToAsciiEx"
+7129,"UnloadKeyboardLayout"
+7130,"UnlockFileEx"
+7131,"UnrealizeObject"
+7132,"UnmapViewOfFile"
+7133,"UpdateWindow"
+7134,"ValidateRect"
+7135,"ValidateRgn"
+7136,"VerInstallFile"
+7137,"VerFindFile"
+7138,"VerLanguageName"
+7139,"VerQueryValue"
+7140,"VkKeyScan"
+7141,"VkKeyScanEx"
+7142,"WNetAddConnection"
+7143,"WNetGetConnection"
+7144,"WidenPath"
+7145,"WNetAddConnection2"
+7146,"WNetAddConnection3"
+7147,"WNetDisconnectDialog"
+7148,"WNetCancelConnection2"
+7149,"WinExec"
+7150,"WNetCancelConnection"
+7151,"WNetCloseEnum"
+7152,"WindowFromDC"
+7153,"WindowFromPoint"
+7154,"WNetConnectionDialog"
+7155,"WNetEnumResource"
+7156,"WNetGetLastError"
+7157,"WNetGetUniversalName"
+7158,"WNetGetUser"
+7159,"WNetOpenEnum"
+7160,"WriteFile"
+7161,"WriteFileEx"
+7162,"WritePrinter"
+7163,"WritePrivateProfileSection"
+7164,"WritePrivateProfileString"
+7165,"WriteProfileSection"
+7166,"WriteProfileString"
+7167,"TileWindowsBynum"
+7168,"ValidateRectBynum"
+
+
+7201,"AbandonSignalHandler"
+7202,"Abort"
+7203,"AddExitProc"
+7204,"AddTerminateProc"
+7205,"AdjustLineBreaks"
+7206,"AssignStr"
+7207,"AppendStr"
+7208,"AllocMem"
+7209,"AnsiDequotedStr"
+7210,"AnsiExtractQuotedStr"
+7211,"AnsiUpperCase"
+7212,"AnsiLowerCase"
+7213,"AnsiCompareStr"
+7214,"AnsiCompareText"
+7215,"AnsiSameStr"
+7216,"AnsiSameText"
+7217,"AnsiStrIComp"
+7218,"AnsiStrLComp"
+7219,"AnsiStrLIComp"
+7220,"AnsiStrLower"
+7221,"AnsiStrUpper"
+7222,"AnsiCompareFileName"
+7223,"AnsiLowerCaseFileName"
+7224,"AnsiUpperCaseFileName"
+7225,"AnsiPos"
+7226,"AnsiStrPos"
+7227,"AnsiStrRScan"
+7228,"AnsiStrScan"
+7229,"AnsiLastChar"
+7230,"AnsiQuotedStr"
+7231,"AnsiStrLastChar"
+7232,"Beep"
+7233,"BoolToStr"
+7234,"ByteType"
+7235,"ByteToCharLen"
+7236,"ByteToCharIndex"
+7237,"CallTerminateProcs"
+7238,"CharLength"
+7239,"CharToByteIndex"
+7240,"CharToByteLen"
+7241,"ChangeFileExt"
+7242,"CurrentYear"
+7243,"CurrToStrF"
+7244,"CurrToStr"
+7245,"CreateDir"
+7246,"CreateGUID"
+7247,"CompareStr"
+7248,"CompareMem"
+7249,"CompareText"
+7250,"DateTimeToFileDate"
+7251,"DateTimeToTimeStamp"
+7252,"DateTimeToString"
+7253,"DateTimeToSystemTime"
+7254,"DateTimeToStr"
+7255,"DateToStr"
+7256,"DayOfWeek"
+7257,"TDateTime"
+7258,"DecodeDate"
+7259,"DecodeDateFully"
+7260,"DecodeTime"
+7261,"DiskFree"
+7262,"DiskSize"
+7263,"DisposeStr"
+7264,"DirectoryExists"
+7265,"DeleteFile"
+7266,"EncodeDate"
+7267,"EncodeTime"
+7268,"ExceptionErrorMessage"
+7269,"ExcludeTrailingPathDelimiter"
+7270,"ExcludeTrailingBackslash"
+7271,"ExtractFilePath"
+7272,"ExtractFileDir"
+7273,"ExtractFileDrive"
+7274,"ExtractFileName"
+7275,"ExtractFileExt"
+7276,"ExpandFileName"
+7277,"ExpandFileNameCase"
+7278,"ExpandUNCFileName"
+7279,"ExtractRelativePath"
+7280,"ExtractShortPathName"
+7281,"FmtLoadStr"
+7282,"FmtStr"
+7283,"FileAge"
+7284,"FileOpen"
+7285,"FileCreate"
+7286,"FileClose"
+7287,"FileDateToDateTime"
+7288,"FileExists"
+7289,"FileRead"
+7290,"FileWrite"
+7291,"FileSeek"
+7292,"FileSetDate"
+7293,"FileSetAttr"
+7294,"FileSetReadOnly"
+7295,"FileSearch"
+7296,"FileGetAttr"
+7297,"FileIsReadOnly"
+7298,"FindCmdLineSwitch"
+7299,"FindFirst"
+7300,"FindNext"
+7301,"FindClose"
+7302,"FinalizePackage"
+7303,"ForceDirectories"
+7304,"Format"
+7305,"FormatBuf"
+7306,"FormatCurr"
+7307,"FormatDateTime"
+7308,"FormatFloat"
+7309,"FloatToCurr"
+7310,"FloatToStr"
+7311,"FloatToStrF"
+7312,"FloatToText"
+7313,"暂时没有"
+7314,"FloatToDecimal"
+7315,"FloatToDateTime"
+7316,"FreeAndNil"
+7317,"FreeLibrary"
+7318,"GDAL"
+7319,"GetCurrentDir"
+7320,"GetEnvironmentVariable"
+7321,"GetLocaleStr"
+7322,"GetLocaleChar"
+7323,"GetFormatSettings"
+7324,"GetSafeCallExceptionMsg"
+7325,"GetSafeCallExceptionAddr"
+7326,"GetProcAddress"
+7327,"GetPackageModuleHandle"
+7328,"GetPackageInfo"
+7329,"GetPackageDescription"
+7330,"GetModuleHandle"
+7331,"GetModuleName"
+7332,"GUIDToString"
+7333,"HookSignal"
+7334,"HookOSExceptions"
+7335,"IncAMonth"
+7336,"IncludeTrailingPathDelimiter"
+7337,"IncludeTrailingBackslash"
+7338,"IntToStr"
+7339,"IntToHex"
+7340,"IncMonth"
+7341,"InquireSignal"
+7342,"InitializePackage"
+7343,"InterlockedDecrement"
+7344,"InterlockedExchange"
+7345,"InterlockedExchangeAdd"
+7346,"InterlockedIncrement"
+7347,"InternalDecodeDate"
+7348,"IsDelimiter"
+7349,"IsEqualGUID"
+7350,"IsLeapYear"
+7351,"IsPathDelimiter"
+7352,"Languages"
+7353,"LastDelimiter"
+7354,"LoadLibrary"
+7355,"LoadStr"
+7356,"LoadPackage"
+7357,"LowerCase"
+7358,"MapSignal"
+7359,"NextCharIndex"
+7360,"MSecsToTimeStamp"
+7361,"Now"
+7362,"OutOfMemoryError"
+7363,"QuotedStr"
+7364,"RaiseLastOSError"
+7365,"RaiseLastWin32Error"
+7366,"RenameFile"
+7367,"RemoveDir"
+7368,"ReplaceTime"
+7369,"ReplaceDate"
+7370,"RCS"
+7371,"RPR"
+7372,"SafeLoadLibrary"
+7373,"SameText"
+7374,"SameFileName"
+7375,"SetCurrentDir"
+7376,"SetSafeCallExceptionMsg"
+7377,"SetSafeCallExceptionAddr"
+7378,"StringToGUID"
+7379,"StringReplace"
+7380,"StrAlloc"
+7381,"StrBufSize"
+7382,"StrByteType"
+7383,"StrCharLength"
+7384,"StrCat"
+7385,"StrComp"
+7386,"StrCopy"
+7387,"StrDispose"
+7388,"StrEnd"
+7389,"StrToInt"
+7390,"StrLen"
+7391,"StrMove"
+7392,"StrECopy"
+7393,"StrLCat"
+7394,"StrLCopy"
+7395,"StrLower"
+7396,"StrPCopy"
+7397,"StrPLCopy"
+7398,"StrIComp"
+7399,"StrLComp"
+7400,"StrLIComp"
+7401,"StrScan"
+7402,"StrRScan"
+7403,"StrPas"
+7404,"StrPos"
+7405,"StrUpper"
+7406,"StrNew"
+7407,"StrFmt"
+7408,"StrLFmt"
+7409,"StrDispose"
+7410,"StrToBool"
+7411,"StrToFloat"
+7412,"StrToFloatDef"
+7413,"StrToIntDef"
+7414,"StrToInt64"
+7415,"StrToInt64Def"
+7416,"StrToTime"
+7417,"StrToTimeDef"
+7418,"StrNextChar"
+7419,"SysErrorMessage"
+7420,"SystemTimeToDateTime"
+7421,"SignalConverter"
+7422,"Sleep"
+7423,"ShowException"
+7424,"Supports"
+7425,"Trim"
+7426,"TrimLeft"
+7427,"TrimRight"
+7428,"TryStrToBool"
+7429,"TryStrToCurr"
+7430,"TryStrToDateTime"
+7431,"TryStrToDate"
+7432,"TryStrToFloat"
+7433,"TryStrToInt"
+7434,"TryStrToInt64"
+7435,"TryEncodeDate"
+7436,"TryEncodeTime"
+7437,"TryStrToTime"
+7438,"TextToFloat"
+7439,"Time"
+7440,"TimeToStr"
+7441,"TimeStampToDateTime"
+7442,"TimeStampToMSecs"
+7443,"UnhookSignal"
+7444,"UnloadPackage"
+7445,"UpperCase"
+7446,"WideCompareStr"
+7447,"WideCompareText"
+7448,"WideUpperCase"
+7449,"WideLowerCase"
+7450,"WideSameStr"
+7451,"WideSameText"
+7452,"WideFormat"
+7453,"WideFormatBuf"
+7454,"WideFmtStr"
+7455,"Win32Check"
+7456,"WrapText"
+
+
+
+7501,"100"
+7502,"101"
+7503,"102"
+7504,"103"
+7505,"104"
+7506,"105"
+7507,"106"
+7508,"200"
+7509,"201"
+7510,"202"
+7511,"203"
+7512,"204"
+7513,"205"
+7514,"206"
+7515,"207"
+7516,"215"
+7517,"216"
+7518,"217"
+7519,"218"
+7520,"219"
+7521,"220"
+7522,"221"
+7523,"222"
+7524,"223"
+7525,"224"
+7526,"225"
+7527,"226"
+7528,"1899L"
+7529,"1752L"
+7530,"1751L"
+7531,"1753L"
+7532,"5L"
+7533,"1331L"
+7534,"1793L"
+7535,"1327L"
+7536,"57L"
+7537,"1379L"
+7538,"1344L"
+7539,"85L"
+7540,"183L"
+7541,"1074L"
+7542,"7L"
+7543,"534L"
+7544,"174L"
+7545,"199L"
+7546,"160L"
+7547,"22L"
+7548,"1361L"
+7549,"66L"
+7550,"1200L"
+7551,"119L"
+7552,"10L"
+7553,"193L"
+7554,"11L"
+7555,"1346L"
+7556,"1340L"
+7557,"24L"
+7558,"1365L"
+7559,"67L"
+7560,"58L"
+7561,"53L"
+7562,"161L"
+7563,"230L"
+7564,"1206L"
+7565,"1204L"
+7566,"60L"
+7567,"159L"
+7568,"1349L"
+7569,"20L"
+7570,"2202L"
+7571,"1348L"
+7572,"1009L"
+7573,"1010L"
+7574,"1102L"
+7575,"1076L"
+7576,"109L"
+7577,"111L"
+7578,"1111L"
+7579,"170L"
+7580,"142L"
+7581,"120L"
+7582,"1003L"
+7583,"173L"
+7584,"266L"
+7585,"1407L"
+7586,"1368L"
+7587,"82L"
+7588,"1205L"
+7589,"1351L"
+7590,"1310L"
+7591,"1347L"
+7592,"1011L"
+7593,"1012L"
+7594,"1013L"
+7595,"1021L"
+7596,"129L"
+7597,"1436L"
+7598,"1059L"
+7599,"1410L"
+7600,"1411L"
+7601,"1412L"
+7602,"1418L"
+7603,"1201L"
+7604,"1421L"
+7605,"1121L"
+7606,"23L"
+7607,"16L"
+7608,"1065L"
+7609,"1425L"
+7610,"1051L"
+7611,"1435L"
+7612,"55L"
+7613,"1202L"
+7614,"2404L"
+7615,"1107L"
+7616,"145L"
+7617,"144L"
+7618,"130L"
+7619,"267L"
+7620,"157L"
+7621,"107L"
+7622,"1393L"
+7623,"112L"
+7624,"1127L"
+7625,"1126L"
+7626,"1128L"
+7627,"1114L"
+7628,"1356L"
+7629,"1357L"
+7630,"1810L"
+7631,"108L"
+7632,"1221L"
+7633,"52L"
+7634,"1078L"
+7635,"196L"
+7636,"994L"
+7637,"276L"
+7638,"255L"
+7639,"277L"
+7640,"275L"
+7641,"282L"
+7642,"1100L"
+7643,"203L"
+7644,"1129L"
+7645,"1501L"
+7646,"1503L"
+7647,"1500L"
+7648,"1064L"
+7649,"101L"
+7650,"192L"
+7651,"1208L"
+7652,"83L"
+7653,"1063L"
+7654,"1392L"
+7655,"80L"
+7656,"1006L"
+7657,"2L"
+7658,"1101L"
+7659,"206L"
+7660,"1125L"
+7661,"1122L"
+7662,"1123L"
+7663,"1124L"
+7664,"1007L"
+7665,"31L"
+7666,"1360L"
+7667,"1429L"
+7668,"1318L"
+7669,"39L"
+7670,"38L"
+7671,"1428L"
+7672,"1431L"
+7673,"1409L"
+7674,"1419L"
+7675,"1441L"
+7676,"1324L"
+7677,"202L"
+7678,"122L"
+7679,"1358L"
+7680,"1383L"
+7681,"1359L"
+7682,"1800L"
+7683,"1448L"
+7684,"1338L"
+7685,"198L"
+7686,"180L"
+7687,"1799L"
+7688,"1352L"
+7689,"1057L"
+7690,"1052L"
+7691,"1071L"
+7692,"1213L"
+7693,"1215L"
+7694,"1449L"
+7695,"1337L"
+7696,"209L"
+7697,"1439L"
+7698,"189L"
+7699,"188L"
+7700,"1335L"
+7701,"114L"
+7702,"1444L"
+7703,"1784L"
+7704,"118L"
+7705,"1400L"
+7706,"1329L"
+7707,"1117L"
+7708,"996L"
+7709,"997L"
+7710,"197L"
+7711,"1119L"
+7712,"147L"
+7713,"133L"
+7714,"134L"
+7715,"146L"
+7716,"149L"
+7717,"135L"
+7718,"194L"
+7719,"138L"
+7720,"140L"
+7721,"1430L"
+7722,"1018L"
+7723,"1020L"
+7724,"154L"
+7725,"1322L"
+7726,"1434L"
+7727,"1416L"
+7728,"1390L"
+7729,"1303L"
+7730,"167L"
+7731,"33L"
+7732,"212L"
+7733,"1502L"
+7734,"1326L"
+7735,"1380L"
+7736,"1366L"
+7737,"1363L"
+7738,"1385L"
+7739,"1334L"
+7740,"164L"
+7741,"1110L"
+7742,"1378L"
+7743,"1320L"
+7744,"1377L"
+7745,"1321L"
+7746,"1374L"
+7747,"208L"
+7748,"126L"
+7749,"234L"
+7750,"1120L"
+7751,"317L"
+7752,"131L"
+7753,"215L"
+7754,"1792L"
+7755,"88L"
+7756,"64L"
+7757,"65L"
+7758,"54L"
+7759,"6118L"
+7760,"232L"
+7761,"1104L"
+7762,"1309L"
+7763,"1391L"
+7764,"1019L"
+7765,"1807L"
+7766,"1809L"
+7767,"1311L"
+7768,"1808L"
+7769,"1112L"
+7770,"18L"
+7771,"259L"
+7772,"113L"
+7773,"1203L"
+7774,"2138L"
+7775,"89L"
+7776,"1302L"
+7777,"1447L"
+7778,"1350L"
+7779,"1116L"
+7780,"205L"
+7781,"62L"
+7782,"1376L"
+7783,"1355L"
+7784,"1319L"
+7785,"1312L"
+7786,"1387L"
+7787,"1364L"
+7788,"1313L"
+7789,"1317L"
+7790,"1437L"
+7791,"1008L"
+7792,"1786L"
+7793,"1787L"
+7794,"1113L"
+7795,"1394L"
+7796,"125L"
+7797,"1417L"
+7798,"998L"
+7799,"1445L"
+7800,"1332L"
+7801,"1300L"
+7802,"1442L"
+7803,"2250L"
+7804,"1207L"
+7805,"26L"
+7806,"8L"
+7807,"1130L"
+7808,"136L"
+7809,"158L"
+7810,"1362L"
+7811,"288L"
+7812,"21L"
+7813,"1017L"
+7814,"17L"
+7815,"137L"
+7816,"50L"
+7817,"1022L"
+7818,"1386L"
+7819,"1304L"
+7820,"110L"
+7821,"2401L"
+7822,"995L"
+7823,"28L"
+7824,"84L"
+7825,"14L"
+7826,"1105L"
+7827,"1330L"
+7828,"1325L"
+7829,"148L"
+7830,"3L"
+7831,"231L"
+7832,"535L"
+7833,"536L"
+7834,"233L"
+7835,"1446L"
+7836,"1131L"
+7837,"63L"
+7838,"1802L"
+7839,"1795L"
+7840,"61L"
+7841,"1415L"
+7842,"1314L"
+7843,"127L"
+7844,"1067L"
+7845,"30L"
+7846,"72L"
+7847,"1794L"
+7848,"1015L"
+7849,"1016L"
+7850,"1014L"
+7851,"201L"
+7852,"51L"
+7853,"1220L"
+7854,"71L"
+7855,"1816L"
+7856,"1812L"
+7857,"1815L"
+7858,"1814L"
+7859,"1813L"
+7860,"1306L"
+7861,"207L"
+7862,"200L"
+7863,"1370L"
+7864,"1369L"
+7865,"143L"
+7866,"1440L"
+7867,"1382L"
+7868,"27L"
+7869,"25L"
+7870,"132L"
+7871,"102L"
+7872,"187L"
+7873,"105L"
+7874,"121L"
+7875,"106L"
+7876,"1118L"
+7877,"1341L"
+7878,"1811L"
+7879,"1342L"
+7880,"1056L"
+7881,"1061L"
+7882,"1055L"
+7883,"1075L"
+7884,"1068L"
+7885,"1058L"
+7886,"1060L"
+7887,"1073L"
+7888,"1069L"
+7889,"1072L"
+7890,"1077L"
+7891,"1054L"
+7892,"1062L"
+7893,"1053L"
+7894,"1066L"
+7895,"1070L"
+7896,"1219L"
+7897,"1433L"
+7898,"1103L"
+7899,"36L"
+7900,"70L"
+7901,"32L"
+7902,"1115L"
+7903,"162L"
+7904,"156L"
+7905,"1301L"
+7906,"1371L"
+7907,"1372L"
+7908,"1373L"
+7909,"1001L"
+7910,"141L"
+7911,"139L"
+7912,"0L"
+7913,"999L"
+7914,"150L"
+7915,"210L"
+7916,"1406L"
+7917,"1375L"
+7918,"56L"
+7919,"1384L"
+7920,"1333L"
+7921,"214L"
+7922,"152L"
+7923,"68L"
+7924,"4L"
+7925,"298L"
+7926,"1381L"
+7927,"103L"
+7928,"100L"
+7929,"69L"
+7930,"1389L"
+7931,"155L"
+7932,"1790L"
+7933,"1788L"
+7934,"1789L"
+7935,"1108L"
+7936,"1109L"
+7937,"59L"
+7938,"1796L"
+7939,"1798L"
+7940,"1797L"
+7941,"1305L"
+7942,"1785L"
+7943,"1005L"
+7944,"1316L"
+7945,"240L"
+7946,"128L"
+7947,"1423L"
+7948,"1420L"
+7949,"1408L"
+7950,"29L"
+7951,"19L"
+7952,"34L"
+7953,"1323L"
+7954,"-1L"
+7955,"-2L"
+7956,"-7L"
+7957,"-5L"
+7958,"-6L"
+7959,"-3L"
+7960,"-4L"
+7961,"-8L"
+7962,"0L"
+7963,"1768L"
+7964,"1713L"
+7965,"1711L"
+7966,"1746L"
+7967,"1726L"
+7968,"1727L"
+7969,"1791L"
+7970,"1764L"
+7971,"1720L"
+7972,"1740L"
+7973,"1760L"
+7974,"1761L"
+7975,"1769L"
+7976,"1771L"
+7977,"1770L"
+7978,"1898L"
+7979,"1755L"
+7980,"1759L"
+7981,"1766L"
+7982,"1749L"
+7983,"1702L"
+7984,"1734L"
+7985,"1706L"
+7986,"1736L"
+7987,"1707L"
+7988,"1724L"
+7989,"1900L"
+7990,"1704L"
+7991,"1700L"
+7992,"1705L"
+7993,"1733L"
+7994,"1709L"
+7995,"1756L"
+7996,"1742L"
+7997,"1762L"
+7998,"1718L"
+7999,"1725L"
+8000,"1765L"
+8001,"1708L"
+8002,"1735L"
+8003,"1806L"
+8004,"1757L"
+8005,"1719L"
+8006,"1714L"
+8007,"1715L"
+8008,"1710L"
+8009,"1721L"
+8010,"1745L"
+8011,"1728L"
+8012,"1744L"
+8013,"1703L"
+8014,"1731L"
+8015,"1723L"
+8016,"1722L"
+8017,"1743L"
+8018,"1712L"
+8019,"1748L"
+8020,"1747L"
+8021,"1741L"
+8022,"1750L"
+8023,"1717L"
+8024,"1716L"
+8025,"1737L"
+8026,"1730L"
+8027,"1732L"
+8028,"1739L"
+8029,"1701L"
+8030,"1767L"
+8031,"1783L"
+8032,"1782L"
+8033,"1781L"
+8034,"1772L"
+8035,"1780L"
+8036,"1779L"
+8037,"1773L"
+8038,"1774L"
+8039,"1777L"
+8040,"1776L"
+8041,"1778L"
+8042,"1775L"
+8043,"';' not allowed before 'ELSE'"
+8044,"'<clause>' clause not allowed in OLE automation section"
+8045,"'<name>' is not a type identifier"
+8046,"'<name>' not previously declared as a PROPERTY "
+8047,"'GOTO <label>' leads into or out of TRY statement "
+8048,"<clause1> clause expected, but <clause2> found "
+8049,"16-Bit fixup encountered in object file '<text>'"
+8050,"486/487 instructions not enabled "
+8051,"Abstract methods must be virtual or dynamic "
+8052,"Array type required "
+8053,"Assignment to FOR-Loop variable '<Name>'"
+8054,"Bad argument type in variable type array constructor "
+8055,"Bad file format '<name>'"
+8056,"Bad file format: <Filename> "
+8057,"Bad global symbol definition: '<Name>' in object file '<Filename>' "
+8058,"Bad unit format: <Filename> "
+8059,"BREAK or CONTINUE outside of loop "
+8060,"Cannot add or subtract relocatable symbols "
+8061,"Cannot assign to a read-only property "
+8062,"Cannot BREAK, CONTINUE or EXIT out of a FINALLY clause "
+8063,"Cannot initialize local variables "
+8064,"Cannot initialize multiple variables "
+8065,"Cannot initialize thread local variables "
+8066,"Cannot override a static method "
+8067,"Cannot read a write-only property "
+8068,"Case label outside of range of case expression "
+8069,"Circular unit reference to <Unitname> "
+8070,"Class already has a default property "
+8071,"Class does not have a default property "
+8072,"Class or object types only allowed in type section "
+8073,"Class type required "
+8074,"Close error on <Filename> "
+8075,"Compile terminated by user "
+8076,"Constant expected "
+8077,"Constant expression expected "
+8078,"Constant expression violates subrange bounds "
+8079,"Constant object cannot be passed as var parameter "
+8080,"Constant or type identifier expected "
+8081,"Constants cannot be used as open array arguments "
+8082,"Constructing instance of '<name>' containing abstract methods "
+8083,"Could not compile used unit '<Unitname>' "
+8084,"Could not create output file <Filename> "
+8085,"Could not load RLINK32.DLL "
+8086,"Data type too large: exceeds 2 GB "
+8087,"Declaration of <Name> differs from previous declaration "
+8088,"Default property must be an array property "
+8089,"Default values must be of ordinal, pointer or small set type "
+8090,"Destination cannot be assigned to "
+8091,"Destination is inaccessible "
+8092,"Dispid '<number>' already used by '<name>' "
+8093,"Dispid clause only allowed in OLE automation section "
+8094,"Division by zero"
+8095,"Duplicate case label "
+8096,"Duplicate tag value "
+8097,"Dynamic method or message handler not allowed here "
+8098,"Dynamic methods and message handlers not allowed in OLE automation"
+8099,"Element 0 inaccessible - use 'Length' or 'SetLength'"
+8100,"Error in numeric constant "
+8101,"EXCEPT or FINALLY expected "
+8102,"EXPORTS allowed only at global scope EXPORTS"
+8103,"Expression has no value "
+8104,"Expression too complicated "
+8105,"Field definition not allowed in OLE automation section "
+8106,"Field definition not allowed after methods or properties "
+8107,"Field or method identifier expected "
+8108,"File not found: <Filename> "
+8109,"File type not allowed here "
+8110,"For loop control variable must be simple local variable"
+8111,"For loop control variable must have ordinal type"
+8112,"FOR or WHILE loop executes zero times - deleted "
+8113,"FOR-Loop variable '<name>' cannot be passed as var parameter"
+8114,"FOR-Loop variable '<Name>' may be undefined after loop"
+8115,"Function needs result type "
+8116,"Identifier redeclared: '<name>' "
+8117,"Illegal character in input file: '<char>' ($<hex>)"
+8118,"Illegal message method index "
+8119,"Illegal reference to symbol '<Name>' in object file '<Filename>' "
+8120,"Illegal type in OLE automation section: '<typename>' "
+8121,"Illegal type in Read/Readln statement"
+8122,"Illegal type in Write/Writeln statement "
+8123,"Inaccessible value "
+8124,"Incompatible types: '<name>' and '<name>' "
+8125,"Incompatible types: <text> "
+8126,"Inline assembler stack overflow "
+8127,"Inline assembler syntax error"
+8128,"Instance variable '<name>' inaccessible here "
+8129,"Integer constant or variable name expected "
+8130,"Integer constant too large "
+8131,"Internal error: <ErrorCode> "
+8132,"Invalid combination of opcode and operands"
+8133,"Invalid compiler directive: '<Directive>' "
+8134,"Invalid function result type "
+8135,"Invalid message parameter list "
+8136,"Invalid register combination "
+8137,"Invalid typecast "
+8138,"Label '<Name>' is not declared in current procedure "
+8139,"Label already defined: '<Labelname>'"
+8140,"Label declaration not allowed in interface part"
+8141,"Label declared and referenced, but not set: '<label>' "
+8142,"Label expected"
+8143,"Left side cannot be assigned to"
+8144,"Line too long (more than 255 characters) "
+8145,"Local class or object types not allowed "
+8146,"Local procedure/function '<Name>' assigned to procedure variable"
+8147,"LOOP/JCXZ distance out of range"
+8148,"Low bound exceeds high bound "
+8149,"Memory reference expected "
+8150,"Method '<name>' hides virtual method of base type '<name>' 方法<NAME>"
+8151,"Method '<name>' not found in base class "
+8152,"Method identifier expected "
+8153,"Missing ENDIF directive"
+8154,"Missing operator or semicolon "
+8155,"Missing or invalid conditional symbol in '$<symbol>' directive "
+8156,"Missing parameter type "
+8157,"Necessary library helper function was eliminated by linker "
+8158,"No definition for abstract method '<name>' "
+8159,"Not enough actual parameters"
+8160,"Number of elements differs from declaration "
+8161,"Numeric overflow "
+8162,"Object or class type required "
+8163,"Object type required"
+8164,"Only register calling convention allowed in OLE automation section "
+8165,"Operand size mismatch "
+8166,"Operator not applicable to this operand type "
+8167,"Order of fields in record constant differs from declaration "
+8168,"Ordinal type required "
+8169,"Out of memory "
+8170,"Overflow in conversion or arithmetic operation "
+8171,"Overriding automated virtual method '<name>' cannot specify a dispid"
+8172,"PACKED not allowed here "
+8173,"Pointer type required"
+8174,"Procedure cannot have a result type "
+8175,"Procedure DISPOSE needs destructor"
+8176,"Procedure FAIL only allowed in constructor "
+8177,"Procedure NEW needs constructor "
+8178,"PROCEDURE or FUNCTION expected "
+8179,"Procedure or function name expected "
+8180,"Program or unit '<name>' recursively uses itself "
+8181,"Property '<name>' does not exist in base class"
+8182,"Published property '<name>' cannot be of type <type>"
+8183,"Published Real48 property '<name>' must be Single, Double or Extended Published REAL"
+8184,"Re-raising an exception only allowed in exception handler "
+8185,"Read error on <Filename> "
+8186,"Record, object or class type required "
+8187,"Redeclaration of '<name>' hides a member in the base class "
+8188,"Redeclaration of property not allowed in OLE automation section "
+8189,"Return value of function '<Functionname>' might be undefined "
+8190,"Seek error on <Filename>"
+8191,"Segment/Offset pairs not supported in Borland 32-bit Pascal"
+8192,"Sets may have at most 256 elements"
+8193,"Size of published set '<name>' is >32 bits "
+8194,"Slice standard function only allowed as open array argument "
+8195,"Statement expected, but expression of type '<type>' found"
+8196,"Statements not allowed in interface part"
+8197,"String constant too long "
+8198,"String constant truncated to fit STRING[<number>] "
+8199,"Strings may have at most 255 elements "
+8200,"Structure field identifier expected"
+8201,"Syntax error in real number "
+8202,"System unit out of date or corrupted: missing '<name>' "
+8203,"Text after final 'END."
+8204,"This form of method call only allowed for class methods "
+8205,"This form of method call only allowed in methods of derived types "
+8206,"This type cannot be initialized "
+8207,"Thread local variables cannot be ABSOLUTE "
+8208,"Thread local variables cannot be local to a function or procedure "
+8209,"Too many actual parameters "
+8210,"Too many conditional symbols "
+8211,"Type '<name>' has no type info "
+8212,"Type '<Name>' is not yet completely defined "
+8213,"Type '<name>' must be a class to have a PUBLISHED section "
+8214,"Type '<name>' must be a class to have OLE automation "
+8215,"Type '<name>' needs finalization - not allowed in file type "
+8216,"Type '<name>' needs finalization - not allowed in variant record "
+8217,"Type expected "
+8218,"Type not allowed in OLE Automation call "
+8219,"Type of expression must be BOOLEAN "
+8220,"Type of expression must be INTEGER"
+8221,"TYPEINFO standard function expects a type identifier "
+8222,"TYPEOF can only be applied to object types with a VMT "
+8223,"Types of actual and formal var parameters must be identical"
+8224,"Undeclared identifier: '<name>' "
+8225,"Unexpected end of file in comment started on line <Number> "
+8226,"Unit <Unit1> was compiled with a different version of <Unit2> "
+8227,"Unit name mismatch: '<Unitname>' "
+8228,"Unknown directive: '<Directive>' "
+8229,"Unnamed arguments must precede named arguments in OLE Automation call "
+8230,"Unsatisfied forward or external declaration: '<Procedurename>' "
+8231,"Unterminated string "
+8232,"Value assigned to '<Name>' never used "
+8233,"Variable '<name>' inaccessible here due to optimization "
+8234,"Variable '<name>' is declared but never used in '<name>' "
+8235,"Variable '<Name>' might not have been initialized "
+8236,"Variable required"
+8237,"Virtual constructors are not allowed "
+8238,"Write error on <Filename> "
+8239,"Wrong or corrupted version of RLINK32.DLL"
+
+
+
+8301,"Application"
+8302,"CharacterSet"
+8303,"Clipboard"
+8304,"DataFormats"
+8305,"DataFormats.Formats"
+8306,"DataObject"
+8307,"IDataObject"
+8308,"IMessageFilter"
+8309,"Locale"
+8310,"Locale.CalendarType"
+8311,"Locale.DateFormatOrder"
+8312,"Locale.Languages"
+8313,"Locale.LeadingZeros"
+8314,"Locale.MeasurementSystem"
+8315,"Locale.NegativeNumberMode"
+8316,"Locale.OptionalCalendarType"
+8317,"Locale.PositiveCurrencyMode"
+8318,"Locale.Sort"
+8319,"Locale.SubLanguages"
+8320,"Message"
+8321,"MethodInvoker"
+8322,"Registry"
+8323,"RegistryKey"
+8324,"SendKeys"
+8325,"SpecialFolder"
+8326,"SystemInformation"
+8327,"SystemInformation.ArrangeDirection"
+8328,"SystemInformation.ArrangeStartingPosition"
+8329,"ThreadExceptionDialog"
+8330,"ThreadExceptionEvent"
+8331,"ThreadExceptionEventHandler"
+8332,"Time"
+8333,"Timer"
+8334,"Version"
+8335,"Window"
+8336,"Column"
+8337,"ColumnEditingEvent"
+8338,"ColumnEditingEventHandler"
+8339,"ColumnEvent"
+8340,"ColumnEventHandler"
+8341,"ColumnResizeEvent"
+8342,"ColumnUpdatingEventHandler"
+8343,"DataBinder"
+8344,"DataBinding"
+8345,"DataGrid"
+8346,"DataNavigator"
+8347,"DataSource"
+8348,"EnterAction"
+8349,"ErrorEvent"
+8350,"ErrorEventHandler"
+8351,"GridLineStyle"
+8352,"PositionChangeEvent"
+8353,"PositionChangeEventHandler"
+8354,"Scrollbars"
+8355,"TabAction"
+8356,"DhAlignment"
+8357,"DhBaseContainer"
+8358,"DhBorderInfo"
+8359,"DhBorders"
+8360,"DhBorderStyle"
+8361,"DhBreak"
+8362,"DhBrowser"
+8363,"DhBulletedList"
+8364,"DhButton"
+8365,"DhCantAddElementException"
+8366,"DhCantModifyElementException"
+8367,"DhCell"
+8368,"DhCheckBox"
+8369,"DhComboBox"
+8370,"DhComponentWrapper"
+8371,"DhCursor"
+8372,"DhDialogInfo"
+8373,"DhDocument"
+8374,"DhEdit"
+8375,"DhElement"
+8376,"DhElementExistsInDocumentException"
+8377,"DhElementNotFoundException"
+8378,"DhEnumeration"
+8379,"DhEventInfo"
+8380,"DhForm"
+8381,"DhHorizontalRule"
+8382,"DhHotSpot"
+8383,"DhHotSpotShapes"
+8384,"DhHTMLGenerator"
+8385,"DhHyperlink"
+8386,"DhImage"
+8387,"DhInlineFrame"
+8388,"DhInsertOptions"
+8389,"DhJumpPoint"
+8390,"DhLinkTarget"
+8391,"DhListBox"
+8392,"DhListType"
+8393,"DhMargins"
+8394,"DhMarginWidthInfo"
+8395,"DhModule"
+8396,"DhObjectFactory"
+8397,"DhPaddings"
+8398,"DhPaddingWidthInfo"
+8399,"DhPropertyBag"
+8400,"DhRadioButton"
+8401,"DhRow"
+8402,"DhScrollBars"
+8403,"DhSelectBox"
+8404,"DhStyle"
+8405,"DhStyleBase"
+8406,"DhSubmitButton"
+8407,"DhTable"
+8408,"DhText"
+8409,"DhTextMode"
+8410,"DhUnits"
+8411,"DhWindow"
+8412,"DhWindowInfo"
+8413,"BufferedStream"
+8414,"CodePage"
+8415,"DataStream"
+8416,"EOFException"
+8417,"File"
+8418,"FileAccess"
+8419,"FileAttribute"
+8420,"FileEnumerator"
+8421,"FileMode"
+8422,"FileShare"
+8423,"IByteStream"
+8424,"IDataStream"
+8425,"IOException"
+8426,"IReader"
+8427,"IWriter"
+8428,"MemoryStream"
+8429,"Reader"
+8430,"StringReader"
+8431,"StringWriter"
+8432,"Text"
+8433,"TextReader"
+8434,"TextWriter"
+8435,"WinIOException"
+8436,"Writer"
+
+
+
+
+8501,"Application.addMessageFilter"
+8502,"Application.addOnApplicationExit"
+8503,"Application.addOnIdle"
+8504,"Application.addOnSettingChange"
+8505,"Application.addOnSystemShutdown"
+8506,"Application.addOnThreadException"
+8507,"Application.allocThreadStorage"
+8508,"Application.createThread"
+8509,"Application.doEvents"
+8510,"Application.exit"
+8511,"Application.exitThread"
+8512,"Application.freeThreadStorage"
+8513,"Application.getActiveForm"
+8514,"Application.getCurrentLocale"
+8515,"Application.getStartupPath"
+8516,"Application.getThreadStorage"
+8517,"Application.OLERequired"
+8518,"Application.removeMessageFilter"
+8519,"Application.removeOnApplicationExit"
+8520,"Application.removeOnIdle"
+8521,"Application.removeOnSettingChange"
+8522,"Application.removeOnSystemShutdown"
+8523,"Application.removeOnThreadException"
+8524,"Application.run"
+8525,"Application.setCurrentLocale"
+8526,"Application.setThreadStorage"
+8527,"CharacterSet.ANSI"
+8528,"CharacterSet.ARABIC"
+8529,"CharacterSet.BALTIC"
+8530,"CharacterSet.CHINESEBIG5"
+8531,"CharacterSet.DEFAULT"
+8532,"CharacterSet.EASTEUROPE"
+8533,"CharacterSet.GB2312"
+8534,"CharacterSet.GREEK"
+8535,"CharacterSet.HANGEUL"
+8536,"CharacterSet.HEBREW"
+8537,"CharacterSet.JOHAB"
+8538,"CharacterSet.MAC"
+8539,"CharacterSet.OEM"
+8540,"CharacterSet.RUSSIAN"
+8541,"CharacterSet.SHIFTJIS"
+8542,"CharacterSet.SYMBOL"
+8543,"CharacterSet.THAI"
+8544,"CharacterSet.TURKISH"
+8545,"CharacterSet.VIETNAMESE"
+8546,"CharacterSet.valid"
+8547,"Clipboard.getDataObject"
+8548,"Clipboard.SetDataObject"
+8549,"DataFormats.CF_BITMAP"
+8550,"DataFormats.CF_CSV"
+8551,"DataFormats.CF_DIB"
+8552,"DataFormats.CF_DIF"
+8553,"DataFormats.CF_ENHMETAFILE"
+8554,"DataFormats.CF_HDROP"
+8555,"DataFormats.CF_HTML"
+8556,"DataFormats.CF_LOCALE"
+8557,"DataFormats.CF_METAFILEPICT"
+8558,"DataFormats.CF_OEMTEXT"
+8559,"DataFormats.CF_PALETTE"
+8560,"DataFormats.CF_PENDATA"
+8561,"DataFormats.CF_RIFF"
+8562,"DataFormats.CF_RTFTEXT"
+8563,"DataFormats.CF_STRINGCLASS"
+8564,"DataFormats.CF_SYLK"
+8565,"DataFormats.CF_TEXT"
+8566,"DataFormats.CF_TIFF"
+8567,"DataFormats.CF_UNICODETEXT"
+8568,"DataFormats.CF_WAVE"
+8569,"DataFormats.CF_WFCOBJECT"
+8570,"DataFormats.getFormat"
+8571,"DataFormats.Format.id"
+8572,"DataFormats.Format.name"
+8573,"DataFormats.Format.win32Handle"
+8574,"DataFormats.Format.Format"
+8575,"DataObject.DataObject"
+8576,"DataObject.getData"
+8577,"DataObject.getDataPresent"
+8578,"DataObject.getFormats"
+8579,"DataObject.setData"
+8580,"IDataObject.getData"
+8581,"IDataObject.getDataPresent"
+8582,"IDataObject.getFormats"
+8583,"IDataObject.setData"
+8584,"IMessageFilter.postFilterMessage"
+8585,"IMessageFilter.preFilterMessage"
+8586,"Locale.Locale"
+8587,"Locale.compareString"
+8588,"Locale.equals"
+8589,"Locale.getAbbrevCountry"
+8590,"Locale.getAbbrevDayName"
+8591,"Locale.getAbbrevLanguage"
+8592,"Locale.getAbbrevMonthName"
+8593,"Locale.getAMTimeMark"
+8594,"Locale.getCalendarType"
+8595,"Locale.getCenturyFormat"
+8596,"Locale.getCharacterSet"
+8597,"Locale.getCompareIgnoreCase"
+8598,"Locale.getCompareIgnoreKana"
+8599,"Locale.getCompareIgnoreNonSpace"
+8600,"Locale.getcompareIgnoreKashida"
+8601,"Locale.getCompareIgnoreSymbols"
+8602,"Locale.getCompareIgnoreWidth"
+8603,"Locale.getCountry"
+8604,"Locale.getCountryCode"
+8605,"Locale.getCountryCode"
+8606,"Locale.getCurrencyDecimalGrouping"
+8607,"Locale.getCurrencyDecimalSeparator"
+8608,"Locale.getCurrencyFractionalDigits"
+8609,"Locale.getCurrencyNegativePosition"
+8610,"Locale.getCurrencyNegativeSeparation"
+8611,"Locale.getCurrencyPositivePosition"
+8612,"Locale.getCurrencyPositiveSeparation"
+8613,"Locale.getCurrencySymbol"
+8614,"Locale.getCurrencyThousandSeparator"
+8615,"Locale.getCurrentThreadLocale"
+8616,"Locale.getDateSeparator"
+8617,"Locale.getDayLeadingZero"
+8618,"Locale.getDayName"
+8619,"Locale.getDecimalGrouping"
+8620,"Locale.getDecimalSeparator"
+8621,"Locale.getDefaultAnsiCodePage"
+8622,"Locale.getDefaultCountry"
+8623,"Locale.getDefaultLanguage"
+8624,"Locale.getDefaultMacCodePage"
+8625,"Locale.getDefaultOEMCodePage"
+8626,"Locale.getEnglishCountry"
+8627,"Locale.getEnglishCurrencyName"
+8628,"Locale.getEnglishLanguage"
+8629,"Locale.getFirstDayOfWeek"
+8630,"Locale.getFirstWeekOfYear"
+8631,"Locale.getFractionalDigits"
+8632,"Locale.getInstalledLocales"
+8633,"Locale.getIntlCurrencyFractionalDigits"
+8634,"Locale.getIntlCurrencySymbol"
+8635,"Locale.getISO3116CountryName"
+8636,"Locale.getISO639LanguageName"
+8637,"Locale.getLanguage"
+8638,"locale.getISO639LanguageName"
+8639,"Locale.getLanguageId"
+8640,"Locale.getLCID"
+8641,"Locale.getLeadingZero"
+8642,"Locale.getListSeparator"
+8643,"Locale.getLongDateFormatString"
+8644,"LongDateOrder"
+8645,"Locale.getMeasurementSystem"
+8646,"Locale.getMonthLeadingZero"
+8647,"Locale.getMonthName"
+8648,"Locale.getNativeCountry"
+8649,"Locale.getNativeCurrencyName"
+8650,"Locale.getNativeDigits"
+8651,"Locale.getNativeLanguage"
+8652,"Locale.getNativeCurrencyMode"
+8653,"Locale.getNegativeNumberMode"
+8654,"Locale.getNegativePosition"
+8655,"Locale.getNegativeSign"
+8656,"Locale.getOptionalCalendarType"
+8657,"Locale.getParentLocale"
+8658,"Locale.getPMTimeMark"
+8659,"Locale.getPositiveCurrencyMode"
+8660,"Locale.getPositivePosition"
+8661,"Locale.getPositiveSign"
+8662,"Locale.getShortDateFormatString"
+8663,"Locale.getShortDateOrder"
+8664,"Locale.getSortId"
+8665,"Locale.getSupportedLocales"
+8666,"Locale.getSystemDefaultLocale"
+8667,"Locale.getThousandSeparator"
+8668,"Locale.getTimeFormat"
+8669,"Locale.getTimeFormatString"
+8670,"Locale.getTimeLeadingZero"
+8671,"Locale.getTimeMarkPosition"
+8672,"Locale.getTimeSeparator"
+8673,"Locale.getUserDefaultLocale"
+8674,"Locale.getYearMonthFormatString"
+8675,"Locale.setAMTTimeMark"
+8676,"Locale.setCalendarType"
+8677,"Locale.setCompareIgnoreCase"
+8678,"Locale.setCompareIgnoreKana"
+8679,"Locale.setCompareIgnoreKashida"
+8680,"Locale.setCompareIgnoreNonSpace"
+8681,"Locale.setCompareIgnoreSymbols"
+8682,"Locale.setCompareIgnoreWidth"
+8683,"Locale.setCurrencyDecimalGrouping"
+8684,"Locale.setCurrencyDecimalSeparator"
+8685,"Locale.setCurrencyFractionalDigits"
+8686,"Locale.setCurrencySymbol"
+8687,"Locale.setCurrencyThousandSeparator"
+8688,"Locale.setDateSeparator"
+8689,"Locale.setDecimalGrouping"
+8690,"Locale.setDecimalSeparator"
+8691,"Locale.setFirstDayOfWeek"
+8692,"Locale.setFirstWeekOfYear"
+8693,"Locale.setFractionalDigits"
+8694,"Locale.setLeadingZero"
+8695,"Locale.setListSeparator"
+8696,"Locale.setLongDateFormatString"
+8697,"Locale.setMeasurementSystem"
+8698,"Locale.setNegativeCurrencyMode"
+8699,"Locale.setNegativeNumberMode"
+8700,"Locale.setNegativeSign"
+8701,"Locale.setPMTimeMark"
+8702,"Locale.setPositiveCurrencyMode"
+8703,"Locale.setPositiveSign"
+8704,"Locale.setShortDateFormatString"
+8705,"Locale.setThousandSeparator"
+8706,"Locale.setTimeFormat"
+8707,"Locale.setTimeFormatString"
+8708,"Locale.setTimeSeparator"
+8709,"Locale.setYearMonthFormatString"
+8710,"Locale.CalendarType.ERA_EMPEROR"
+8711,"Locale.CalendarType.ERA_REPUB_CHINA"
+8712,"Locale.CalendarType.ERA_TANGUN"
+8713,"Locale.CalendarType.GREGORIAN_ENGLISH"
+8714,"Locale.CalendarType.GREGORIAN_US"
+8715,"Locale.DateFormatOrder.DAY_MONTH_YEAR"
+8716,"Locale.DateFormatOrder.MONTH_DAY_YEAR"
+8717,"Locale.DateFormatOrder.YEAR_MONTH_DAY"
+8718,"Locale.Languages.ALBANIAN"
+8719,"Locale.Languages.ARABIC"
+8720,"Locale.Languages.BAHASA"
+8721,"Locale.Languages.BULGARIAN"
+8722,"Locale.Languages.CATALAN"
+8723,"Locale.Languages.CHINESE"
+8724,"Locale.Languages.CZECH"
+8725,"Locale.Languages.DANISH"
+8726,"Locale.Languages.DUTCH"
+8727,"Locale.Languages.ENGLISH"
+8728,"Locale.Languages.FINNISH"
+8729,"Locale.Languages.FRENCH"
+8730,"Locale.Languages.GERMAN"
+8731,"Locale.Languages.GREEK"
+8732,"Locale.Languages.HEBREW"
+8733,"Locale.Languages.HUNGARIAN"
+8734,"Locale.Languages.ICELANDIC"
+8735,"Locale.Languages.ITALIAN"
+8736,"Locale.Languages.JAPANESE"
+8737,"Locale.Languages.KOREAN"
+8738,"Locale.Languages.NEUTRAL"
+8739,"Locale.Languages.NORWEGIAN"
+8740,"Locale.Languages.POLISH"
+8741,"Locale.Languages.PORTUGUESE"
+8742,"Locale.Languages.RHAETO_ROMAN"
+8743,"Locale.Languages.ROMANIAN"
+8744,"Locale.Languages.RUSSIAN"
+8745,"Locale.Languages.SERBO_CROATIAN"
+8746,"Locale.Languages.SLOVAK"
+8747,"Locale.Languages.SPANISH"
+8748,"Locale.Languages.SWEDISH"
+8749,"Locale.Languages.THAI"
+8750,"Locale.Languages.TURKISH"
+8751,"Locale.Languages.URDU"
+8752,"Locale.LeadingZeros.LEADING"
+8753,"Locale.LeadingZeros.NOLEADING"
+8754,"Locale.MeasurementSystem.METRIC"
+8755,"Locale.MeasurementSystem.US"
+8756,"Locale.NegativeNumberMode.PARENS"
+8757,"Locale.NegativeNumberMode.PREFIX_NOSEP"
+8758,"Locale.NegativeNumberMode.PREFIX_SEP"
+8759,"Locale.NegativeNumberMode.SUFFIX_NOSEP"
+8760,"Locale.NegativeNumberMode.SUFFIX_SEP"
+8761,"Locale.OptionalCalendarType.NO_ADDITIONAL_TYPES_VALID"
+8762,"Locale.PositiveCurrencyMode.PREFIX_NOSEP"
+8763,"Locale.PositiveCurrencyMode.PREFIX_SEP"
+8764,"Locale.PositiveCurrencyMode.SUFFIX_NOSEP"
+8765,"Locale.PositiveCurrencyMode.SUFFIX_SEP"
+8766,"Locale.Sort.CHINESE_BIG5"
+8767,"Locale.Sort.CHINESE_PRC"
+8768,"Locale.Sort.CHINESE_PRCP"
+8769,"Locale.Sort.CHINESE_UNICODE"
+8770,"Locale.Sort.DEFAULT"
+8771,"Locale.Sort.GERMAN_PHONE_BOOK"
+8772,"Locale.Sort.JAPANESE_UNICODE"
+8773,"Locale.Sort.JAPANESE_XJIS"
+8774,"Locale.Sort.KOREAN_KSC"
+8775,"Locale.Sort.KOREAN_UNICODE"
+8776,"Locale.SubLanguages.CHINESE_SIMPLIFIED"
+8777,"Locale.SubLanguages.CHINESE_TRADITIONAL"
+8778,"Locale.SubLanguages.DEFAULT"
+8779,"Locale.SubLanguages.DUTCH"
+8780,"Locale.SubLanguages.DUTCH_BELGIAN"
+8781,"Locale.SubLanguages.ENGLISH_AUS"
+8782,"Locale.SubLanguages. ENGLISH_CAN"
+8783,"Locale.SubLanguages.ENGLISH_EIRE"
+8784,"Locale.SubLanguages.ENGLISH_NZ"
+8785,"Locale.SubLanguages.ENGLISH_UK"
+8786,"Locale.SubLanguages.ENGLISH_US"
+8787,"Locale.SubLanguages.FRENCH"
+8788,"Locale.SubLanguages.FRENCH_BELGIAN"
+8789,"Locale.SubLanguages.FRENCH_CANADIAN"
+8790,"Locale.SubLanguages.FRENCH_SWISS"
+8791,"Locale.SubLanguages.GERMAN"
+8792,"Locale.SubLanguages.GERMAN_AUSTRIAN"
+8793,"Locale.SubLanguages.GERMAN_SWISS"
+8794,"Locale.SubLanguages.ITALIAN"
+8795,"Locale.SubLanguages.ITALIAN_SWISS"
+8796,"Locale.SubLanguages.NEUTRAL"
+8797,"Locale.SubLanguages.NORWEGIAN_BOKMAL"
+8798,"Locale.SubLanguages.NORWEGIAN_NYNORSK"
+8799,"Locale.SubLanguages.PORTUGUESE"
+8800,"Locale.SubLanguages.PORTUGUESE_BRAZILIAN"
+8801,"Locale.SubLanguages.SERBO_CROATIAN_CYRILLIC"
+8802,"Locale.SubLanguages.SERBO_CROATIAN_LATIN"
+8803,"Locale.SubLanguages.SPANISH"
+8804,"Locale.SubLanguages.SPANISH_MEXICAN"
+8805,"Locale.SubLanguages.SPANISH_MODERN"
+8806,"Locale.SubLanguages.SYS_DEFAULT"
+8807,"Message.hWnd"
+8808,"Message.lParam"
+8809,"Message.msg"
+8810,"Message.result"
+8811,"Message.wParam"
+8812,"Message.create"
+8813,"Message.free"
+8814,"Message.getLParam"
+8815,"Registry.CLASSES_ROOT"
+8816,"Registry.CURRENT_CONFIG"
+8817,"Registry.CURRENT_USER"
+8818,"Registry.DYN_DATA"
+8819,"Registry.LOCAL_MACHINE"
+8820,"Registry.PERFORMANCE_DATA"
+8821,"Registry.USERS"
+8822,"RegistryKey.close"
+8823,"RegistryKey.createSubKey"
+8824,"RegistryKey.deleteSubKey"
+8825,"RegistryKey.deleteSubKeyTree"
+8826,"RegistryKey.deleteValue"
+8827,"RegistryKey.finalize"
+8828,"RegistryKey.getBaseKey"
+8829,"RegistryKey.getSubKey"
+8830,"RegistryKey.getSubKeyCount"
+8831,"RegistryKey.getSubKeyNames"
+8832,"RegistryKey.getValue"
+8833,"RegistryKey.getValueCount"
+8834,"RegistryKey.getValueNames"
+8835,"RegistryKey.setValue"
+8836,"RegistryKey.toString"
+8837,"SendKeys.sendkeys"
+8838,"SendKeys.sendKeyWait"
+8839,"SpecialFolder.APPLICATION_DATA"
+8840,"SpecialFolder.COOKIES"
+8841,"SpecialFolder.DESKTOP_DIRECTORY"
+8842,"SpecialFolder.FAVORITES"
+8843,"SpecialFolder.HISTORY"
+8844,"SpecialFolder.INTERNET_CACHE"
+8845,"SpecialFolder.PROGRAMS"
+8846,"SpecialFolder.RECENT"
+8847,"SpecialFolder.SENDTO"
+8848,"SpecialFolder.START_MENU"
+8849,"SpecialFolder.STARTUP"
+8850,"SpecialFolder.TEMPLATES"
+8851,"SpecialFolder.USER_DATA"
+8852,"SpecialFolder.valid"
+8853,"SystemInformation.get3DborderSize"
+8854,"SystemInformation.getArrange"
+8855,"SystemInformation.getBorderSize"
+8856,"SystemInformation.getCaptionButtonSize"
+8857,"SystemInformation.getCaptionHeight"
+8858,"SystemInformation.getCleanBoot"
+8859,"SystemInformation.getComputerName"
+8860,"SystemInformation.getCursorSize"
+8861,"SystemInformation.getDBCSEnabled"
+8862,"SystemInformation.getDebug"
+8863,"SystemInformation.getDoubleClickSize"
+8864,"SystemInformation.getDoubleClickTime"
+8865,"SystemInformation.getDragSize"
+8866,"SystemInformation.getFixedFrameBorderSize"
+8867,"SystemInformation.getFrameBorderSize"
+8868,"SystemInformation.getHorizScrollBarArrowWidth"
+8869,"SystemInformation.getHorizScrollBarHeight"
+8870,"SystemInformation.getHorizScrollBarThumbWidth"
+8871,"SystemInformation.getIconSize"
+8872,"SystemInformation.getIconSpacingSize"
+8873,"SystemInformation.getKanjiWindowHeight"
+8874,"SystemInformation.getMaxWindowTrackSize"
+8875,"SystemInformation.getMenuButtonSize"
+8876,"SystemInformation.getMenuCheckSize"
+8877,"SystemInformation.getMenuHeight"
+8878,"SystemInformation.getMidEastEnabled"
+8879,"SystemInformation.getMinimizedWindowSize"
+8880,"SystemInformation.getMinimizedWindowSpacingSize"
+8881,"SystemInformation.getMinimumWindowSize"
+8882,"SystemInformation.getMinWindowTrackSize"
+8883,"SystemInformation.getMonitorCount"
+8884,"SystemInformation.getMonitorsSameDisplayFormat"
+8885,"SystemInformation.getMouseButtons"
+8886,"SystemInformation.getMouseButtonsSwapped"
+8887,"SystemInformation.getMousePresent"
+8888,"SystemInformation.getMouseWheelPresent"
+8889,"SystemInformation.getMouseWheelScrollLines"
+8890,"SystemInformation.getNativeMouseWheelSupport"
+8891,"SystemInformation.getNetwork"
+8892,"SystemInformation.getPenWindows"
+8893,"SystemInformation.getPrimaryMonitorMaximizedWindowSize"
+8894,"SystemInformation.getPrimaryMonitorSize"
+8895,"SystemInformation.getRightAlignedMenus"
+8896,"SystemInformation.getSecure"
+8897,"SystemInformation.getShowSounds"
+8898,"SystemInformation.getSmallIconSize"
+8899,"SystemInformation.getSpecialFolderPath"
+8900,"SystemInformation.getToolWindowCaptionButtonSize"
+8901,"SystemInformation.getToolWindowCaptionHeight"
+8902,"SystemInformation.getUserName"
+8903,"SystemInformation.getVertScrollBarArrowHeight"
+8904,"SystemInformation.getVertScrollBarThumbHeight"
+8905,"SystemInformation.getVertScrollBarWidth"
+8906,"SystemInformation.getVirtualScreen"
+8907,"SystemInformation.getWorkingArea()"
+8908,"SystemInformation.ArrangeDirection.DOWN"
+8909,"SystemInformation.ArrangeDirection.LEFT"
+8910,"SystemInformation.ArrangeDirection.RIGHT"
+8911,"SystemInformation.ArrangeDirection.UP"
+8912,"SystemInformation.ArrangeStartingPosition.BOTTOMLEFT"
+8913,"SystemInformation.ArrangeStartingPosition.BOTTOMRIGHT"
+8914,"SystemInformation.ArrangeStartingPosition.HIDE"
+8915,"SystemInformation.ArrangeStartingPosition.TOPLEFT"
+8916,"SystemInformation.ArrangeStartingPosition.TOPRIGHT"
+8917,"ThreadExceptionDialog.ThreadExceptionDialog"
+8918,"ThreadExceptionEvent.exception"
+8919,"ThreadExceptionEvent.ThreadExceptionEvent"
+8920,"Time.MAX_UNITS"
+8921,"Time.MIN_UNITS"
+8922,"Time.MIN_SYSTEM_UNITS"
+8923,"Time.UNITS_PER_DAY"
+8924,"Time.UNITS_PER_HOUR"
+8925,"Time.UNITS_PER_MILLISECOND"
+8926,"Time.UNITS_PER_MINUTE"
+8927,"Time.UNITS_PER_SECOND"
+8928,"Time.Time"
+8929,"Time.add"
+8930,"Time.addDays"
+8931,"Time.addHours"
+8932,"Time.addMillis"
+8933,"Time.addMinutes"
+8934,"Time.addMonths"
+8935,"Time.addSeconds"
+8936,"Time.addYears"
+8937,"Time.compare"
+8938,"Time.compareTo"
+8939,"Time.equals"
+8940,"Time.formatLongDate"
+8941,"Time.formatLongTime"
+8942,"Time.formatShortDate"
+8943,"Time.formatShortTime"
+8944,"Time.fromFileTime"
+8945,"Time.getDate"
+8946,"Time.getDay"
+8947,"Time.getDayOfWeek"
+8948,"Time.getDayOfYear"
+8949,"Time.getHour"
+8950,"Time.getMillis"
+8951,"Time.getMinute"
+8952,"Time.getMonth "
+8953,"Time.getSecond"
+8954,"Time.getTimeOfDay"
+8955,"Time.getYear"
+8956,"Time.save"
+8957,"Time.setDate"
+8958,"Time.setTimeOfDay"
+8959,"Time.toDouble"
+8960,"Time.toFileTime"
+8961,"Time.toLocalTime"
+8962,"Time.toLong"
+8963,"Time.toString"
+8964,"Time.toSystemTime"
+8965,"Time.toUniversalTime"
+8966,"Time.toVariant"
+8967,"Timer.Timer"
+8968,"Timer.addOnTimer"
+8969,"Timer.dispose"
+8970,"Timer.getEnabled"
+8971,"Timer.getInterval"
+8972,"Timer.onTimer"
+8973,"Timer.removeOnTimer"
+8974,"Timer.setEnabled"
+8975,"Timer.setInterval"
+8976,"Timer.start"
+8977,"Timer.stop"
+8978,"Version.bulidNumber"
+8979,"Version.major"
+8980,"Version.minor"
+8981,"Version.platformId"
+8982,"Version.text"
+8983,"Version.WIN32_NT"
+8984,"Version.WIN32_WINDOWS"
+8985,"Version.WIN32S"
+8986,"Version.getVersion"
+8987,"Window.assignHandle"
+8988,"Window.createHandle"
+8989,"Window.defWndProc"
+8990,"Window.destroyHandle"
+8991,"Window.fromHandle"
+8992,"Window.getHandle"
+8993,"Window.onHandleChange"
+8994,"Window.releaseHandle"
+8995,"Window.wndProc"
+8996,"Column.Column"
+8997,"Column.getAlignment"
+8998,"Column.getAllowSizing"
+8999,"Column.getBackColor"
+9000,"Column.getBoundFieldName"
+9001,"Column.getCaption"
+9002,"Column.getDataFormat"
+9003,"Column.getDataType"
+9004,"Column.getFont"
+9005,"Column.getForeColor"
+9006,"Column.getIndex"
+9007,"Column.getLeft"
+9008,"Column.getReadOnly"
+9009,"Column.getSelectedBackColor"
+9010,"Column.getSelectedForeColor"
+9011,"Column.getValue"
+9012,"Column.getVisible"
+9013,"Column.getWidth"
+9014,"Column.getWrapText"
+9015,"Column.getWriteAllowed"
+9016,"Column.setAlignment"
+9017,"Column.setAllowSizing"
+9018,"Column.setBackColor"
+9019,"Column.setBoundFieldName"
+9020,"Column.setCaption"
+9021,"Column.setDataFormat"
+9022,"Column.setFont"
+9023,"Column.setForeColor"
+9024,"Column.setIndex"
+9025,"Column.setReadOnly"
+9026,"Column.setSelectedBackColor"
+9027,"Column.setSelectedForeColor"
+9028,"Column.setValue"
+9029,"Column.setVisible"
+9030,"Column.setWidth"
+9031,"Column.setWrapText"
+9032,"Column.shouldPersistBackColor"
+9033,"Column.shouldPersistFont"
+9034,"Column.shouldPersistForeColor"
+9035,"Column.shouldPersistSelectedBackColor"
+9036,"Column.shouldPersistSelectedForeColor"
+9037,"Column.toString"
+9038,"ColumnEditingEvent.cancel"
+9039,"ColumnEditingEvent.column"
+9040,"ColumnEditingEvent.keyAscii"
+9041,"ColumnEditingEvent.ColumnEditingEvent"
+9042,"ColumnEvent.column"
+9043,"ColumnEvent.ColumnEvent"
+9044,"ColumnResizeEvent.cancel"
+9045,"ColumnResizeEvent.column"
+9046,"ColumnResizeEvent.newWidth"
+9047,"ColumnResizeEvent.ColumnResizeEvent"
+9048,"ColumnUpdatingEvent.cancel"
+9049,"ColumnUpdatingEvent.column"
+9050,"ColumnUpdatingEvent.oldValue"
+9051,"ColumnUpdatingEvent.ColumnUpdatingEvent"
+9052,"DataBinder.DataBinder"
+9053,"DataBinder.addBinding"
+9054,"DataBinder.clearBindings"
+9055,"DataBinder.commitChanges"
+9056,"DataBinder.getBindings"
+9057,"DataBinder.getDataMember"
+9058,"DataBinder.getDataSource"
+9059,"DataBinder.removeBinding"
+9060,"DataBinder.setBindings"
+9061,"DataBinder.setDataMember"
+9062,"DataBinder.setDataSource"
+9063,"DataBinding.DataBinding"
+9064,"DataBinding.bindTarget"
+9065,"DataBinding.commitChanges"
+9066,"DataBinding.getDataFormat"
+9067,"DataBinding.getDataSource"
+9068,"DataBinding.getFieldName"
+9069,"DataBinding.getPropertyName"
+9070,"DataBinding.getPropertyValue"
+9071,"DataBinding.getTarget"
+9072,"DataBinding.refreshPropertyValue"
+9073,"DataBinding.setDataFormat"
+9074,"DataBinding.setDataSource"
+9075,"DataBinding.setFieldName"
+9076,"DataBinding.setPropertyName"
+9077,"DataBinding.setPropertyValue"
+9078,"DataBinding.setTarget"
+9079,"DataGrid.MIN_COLUMN_WIDTH"
+9080,"DataGrid.MIN_ROW_HEIGHT"
+9081,"DataGrid.DataGrid"
+9082,"DataGrid.addColumn"
+9083,"DataGrid.addOnColumnEdited"
+9084,"DataGrid.addOnColumnEditing"
+9085,"DataGrid.addOnColumnResize"
+9086,"DataGrid.addOnColumnUpdated"
+9087,"DataGrid.addOnColumnUpdating"
+9088,"DataGrid.addOnDeleted"
+9089,"DataGrid.addOnDeleting"
+9090,"DataGrid.addOnError"
+9091,"DataGrid.addOnHeaderClick"
+9092,"DataGrid.addOnInserted"
+9093,"DataGrid.addOnInserting"
+9094,"DataGrid.addOnPositionChange"
+9095,"DataGrid.addOnRowResize"
+9096,"DataGrid.addOnScroll"
+9097,"DataGrid.addOnSelChange"
+9098,"DataGrid.addOnUpdated"
+9099,"DataGrid.addOnUpdating"
+9100,"DataGrid.clearColumns"
+9101,"DataGrid.clearSelection"
+9102,"DataGrid.getAllowAddNew"
+9103,"DataGrid.getAllowArrows"
+9104,"DataGrid.getAllowDelete"
+9105,"DataGrid.getAllowRowSizing"
+9106,"DataGrid.getAllowUpdate"
+9107,"DataGrid.getApproxRowCount"
+9108,"DataGrid.getBorderStyle"
+9109,"DataGrid.getCaption"
+9110,"DataGrid.getColumn"
+9111,"DataGrid.getColumnCount"
+9112,"DataGrid.getColumnHeaders"
+9113,"DataGrid.getColumns"
+9114,"DataGrid.getCurrentCellValue"
+9115,"DataGrid.getCurrentCellVisible"
+9116,"DataGrid.getCurrentColumn"
+9117,"DataGrid.getCurrentRow"
+9118,"DataGrid.getCurrentRowModified"
+9119,"DataGrid.getDataMember"
+9120,"DataGrid.getDataSource"
+9121,"DataGrid.getDefaultColumnWidth"
+9122,"DataGrid.getDisplayIndex"
+9123,"DataGrid.getDynamicColumns"
+9124,"DataGrid.getEnterAction"
+9125,"DataGrid.getFirstRow"
+9126,"DataGrid.getGridLineStyle"
+9127,"DataGrid.getHeaderFont"
+9128,"DataGrid.getHeaderLineCount"
+9129,"DataGrid.getLeftColumn"
+9130,"DataGrid.getRowHeight"
+9131,"DataGrid.getRowSelectors"
+9132,"DataGrid.getScrollbars"
+9133,"DataGrid.getSelectedBackColor"
+9134,"DataGrid.getSelectedColumns"
+9135,"DataGrid.getSelectedForeColor"
+9136,"DataGrid.getSelectedRows"
+9137,"DataGrid.getTabAction"
+9138,"DataGrid.getVisibleColumns"
+9139,"DataGrid.getVisibleRows"
+9140,"DataGrid.getWrapCellPointer"
+9141,"DataGrid.makeCurrentCellVisible"
+9142,"DataGrid.onColumnEdited"
+9143,"DataGrid.onColumnEditing"
+9144,"DataGrid.onColumnResize"
+9145,"DataGrid.onColumnUpdated"
+9146,"DataGrid.onColumnUpdating"
+9147,"DataGrid.onDeleted"
+9148,"DataGrid.onDeleting"
+9149,"DeletingDataGrid.onError"
+9150,"DataGrid.onHeaderClick"
+9151,"DataGrid.onInserted"
+9152,"DataGrid.onInserting"
+9153,"DataGrid.onPositionChange"
+9154,"DataGrid.onRowResize"
+9155,"DataGrid.onScroll"
+9156,"DataGrid.onSelChange"
+9157,"DataGrid.onUpdated"
+9158,"DataGrid.onUpdating"
+9159,"DataGrid.rebind"
+9160,"DataGrid.removeColumn"
+9161,"DataGrid.removeOnColumnEdited"
+9162,"DataGrid.removeOnColumnEditing"
+9163,"DataGrid.removeOnColumnResize"
+9164,"DataGrid.removeOnColumnUpdated"
+9165,"DataGrid.removeOnColumnUpdating"
+9166,"DataGrid.removeOnDeleted"
+9167,"DataGrid.removeOnDeleting"
+9168,"DataGrid.removeOnError"
+9169,"DataGrid.removeOnHeaderClick"
+9170,"DataGrid.removeOnInserted"
+9171,"DataGrid.removeOnInserting"
+9172,"DataGrid.removeOnPositionChange"
+9173,"DataGrid.removeOnRowResize"
+9174,"DataGrid.removeOnScroll"
+9175,"DataGrid.removeOnSelChange"
+9176,"DataGrid.removeOnUpdated"
+9177,"DataGrid.removeOnUpdating"
+9178,"DataGrid.rowBookmark"
+9179,"DataGrid.rowTop"
+9180,"DataGrid.scroll"
+9181,"DataGrid.setAllowAddNew"
+9182,"DataGrid.setAllowArrows"
+9183,"DataGrid.setAllowDelete"
+9184,"DataGrid.setAllowRowSizing"
+9185,"DataGrid.setAllowUpdate"
+9186,"DataGrid.setBorderStyle"
+9187,"DataGrid.setCaption"
+9188,"DataGrid.setColumnHeaders"
+9189,"DataGrid.setColumns"
+9190,"DataGrid.setCurrentCellValue"
+9191,"DataGrid.setCurrentColumn"
+9192,"DataGrid.setCurrentRow"
+9193,"DataGrid.setDataMember"
+9194,"DataSourceDataGrid.setDataSource"
+9195,"DataMemberDataGrid.setDefaultColumnWidth"
+9196,"DataGrid.setDynamicColumns"
+9197,"DataGrid.setEnterAction"
+9198,"DataGrid.setFirstRow"
+9199,"DataGrid.setGridLineStyle"
+9200,"DataGrid.setHeaderFont"
+9201,"DataGrid.setHeaderLineCount"
+9202,"DataGrid.setLeftColumn"
+9203,"DataGrid.setRowHeight"
+9204,"DataGrid.setRowSelectors"
+9205,"DataGrid.setScrollbars"
+9206,"DataGrid.setSelectedBackColor"
+9207,"DataGrid.setSelectedColumns"
+9208,"DataGrid.setSelectedForColor"
+9209,"DataGrid.setSelectedRows"
+9210,"DataGrid.setTabAction"
+9211,"DataGrid.setWrapCellPointer"
+9212,"DataNavigator.DataNavigator"
+9213,"DataNavigator.getDataMember"
+9214,"DataNavigator.getDataSource"
+9215,"DataNavigator.moveFirst"
+9216,"DataNavigator.moveLast"
+9217,"DataNavigator.moveNext"
+9218,"DataNavigator.movePrevious"
+9219,"DataNavigator.setDataMember"
+9220,"DataNavigator.setDataSource"
+9221,"DataSource.DataSource"
+9222,"DataSource.begin"
+9223,"DataSource.close"
+9224,"DataSource.dispose"
+9225,"DataSource.getAsyncConnect"
+9226,"DataSource.getAsyncExecute"
+9227,"DataSource.getAsyncFetch"
+9228,"DataSource.getCacheSize"
+9229,"DataSource.getCommand"
+9230,"DataSource.getCommandText"
+9231,"DataSource.getCommandTimeout"
+9232,"DataSource.getCommandType"
+9233,"DataSource.getConnection"
+9234,"DataSource.getConnectionString"
+9235,"DataSource.getConnectionTimeout"
+9236,"DataSource.getCursorLocation"
+9237,"DataSource.getCursorType"
+9238,"DataSource.getDesignTimeData"
+9239,"DataDataSource.getFilter"
+9240,"DataSource.getIsolationLevel"
+9241,"DataSource.getLockType"
+9242,"DataSource.getMaxRecords"
+9243,"DataSource.getMode"
+9244,"DataSource.getParentDataSource"
+9245,"DataSource.getParentFieldName"
+9246,"DataSource.getPassword"
+9247,"DataSource.getPrepared"
+9248,"DataSource.getRecordset"
+9249,"DataSource.getSort"
+9250,"DataSource.getStayInSync"
+9251,"DataSource.getUserId"
+9252,"DataSource.isChildDataSource"
+9253,"DataSource.requery"
+9254,"DataSource.setAsyncConnect"
+9255,"DataSource.setAsyncExecute"
+9256,"DataSource.setAsyncFetch"
+9257,"DataSource.setCacheSize"
+9258,"DataSource.setCommandText"
+9259,"DataSource.setCommandTimeout"
+9260,"DataSource.setCommandType"
+9261,"AdoEnums.CommandType"
+9262,"DataSource.setConnectionString"
+9263,"DataSource.setConnectionTimeout"
+9264,"DataSource.setCursorLocation"
+9265,"DataSource.setCursorType"
+9266,"DataSource.setDesignTimeData"
+9267,"DataSource.setFilter"
+9268,"DataSource.setIsolationLevel"
+9269,"DataSource.setLockType"
+9270,"DataSource.setMaxRecords"
+9271,"DataSource.setMode"
+9272,"DataSource.setParentDataSource"
+9273,"DataSource.setParentFieldName"
+9274,"DataSource.setPassword"
+9275,"DataSource.setPrepared"
+9276,"DataSource.setSort"
+9277,"DataSource.setStayInSync"
+9278,"DataSource.setUserId"
+9279,"EnterAction.COLUMNNAVIGATION"
+9280,"EnterAction.NONE"
+9281,"EnterAction.ROWNAVIGATION"
+9282,"ErrorEvent.displayDialog"
+9283,"ErrorEvent.error"
+9284,"ErrorEvent.ErrorEvent"
+9285,"GridLineStyle.NONE"
+9286,"GridLineStyle.RAISED3D"
+9287,"GridLineStyle.SINGLELINE"
+9288,"GridLineStyle.SUNKEN3D"
+9289,"PositionChangeEvent.lastColumn"
+9290,"PositionChangeEvent.lastRow"
+9291,"PositionChangeEvent.PositionChangeEvent"
+9292,"Scrollbars.BOTH"
+9293,"Scrollbars.HORIZONTAL"
+9294,"Scrollbars.NONE"
+9295,"Scrollbars.VERTICAL"
+9296,"TabAction.COLUMNNAVIGATION"
+9297,"TabAction.CONTROLNAVIGATION"
+9298,"TabAction.ROWNAVIGATION"
+9299,"DhAlignment.ABSBOTTOM"
+9300,"DhAlignment.ABSMIDDLE"
+9301,"DhAlignment.BASELINE"
+9302,"DhAlignment.BOTTOM"
+9303,"DhAlignment.CENTER"
+9304,"DhAlignment.JUSTIFY"
+9305,"DhAlignment.LEFT"
+9306,"DhAlignment.RIGHT"
+9307,"DhAlignment.SUBSCRIPT"
+9308,"DhAlignment.SUPERSCRIPT"
+9309,"DhAlignment.TEXTTOP"
+9310,"DhAlignment.TOP"
+9311,"DhAlignment.valid"
+9312,"DhBaseContainer.add"
+9313,"DhBaseContainer.dispose"
+9314,"DhBaseContainer.findElement"
+9315,"DhBaseContainer.getAllElements"
+9316,"DhBaseContainer.getElementCount"
+9317,"DhBaseContainer.getElements"
+9318,"DhBaseContainer.onChildAdded"
+9319,"DhBaseContainer.onChildRemoved"
+9320,"DhBaseContainer.onChildrenFound"
+9321,"DhBaseContainer.remove"
+9322,"DhBaseContainer.removeAll"
+9323,"DhBaseContainer.replace"
+9324,"DhBaseContainer.setDocument"
+9325,"DhBaseContainer.setNewComponents"
+9326,"DhBaseContainer.setNewElements"
+9327,"DhBorderInfo.bottomColor"
+9328,"DhBorderInfo.bottomStyle"
+9329,"DhBorderInfo.bottomWidth"
+9330,"DhBorderInfo.bottomWidthUnit"
+9331,"DhBorderInfo.leftColor"
+9332,"DhBorderInfo.leftStyle"
+9333,"DhBorderInfo.leftWidth"
+9334,"DhBorderInfo.leftWidthUnit"
+9335,"DhBorderInfo.rightColor"
+9336,"DhBorderInfo.rightStyle"
+9337,"DhBorderInfo.rightWidth"
+9338,"DhBorderInfo.rightWidthUnit"
+9339,"DhBorderInfo.topColor"
+9340,"DhBorderInfo.topStyle"
+9341,"DhBorderInfo.topWidth"
+9342,"DhBorderInfo.topWidthUnit"
+9343,"DhBorderInfo.DhBorderInfo"
+9344,"DhBorderInfo.close"
+9345,"DhBorderInfo.copy"
+9346,"DhBorders.ALL"
+9347,"DhBorders.BOTTOM"
+9348,"DhBorders.LEFT"
+9349,"DhBorders.RIGHT"
+9350,"DhBorders.TOP"
+9351,"DhBorders.valid"
+9352,"DhBorderStyle.DOUBLE"
+9353,"DhBorderStyle.GROOVE"
+9354,"DhBorderStyle.INSET"
+9355,"DhBorderStyle.NONE"
+9356,"DhBorderStyle.OUTSET"
+9357,"DhBorderStyle.RIDGE"
+9358,"DhBorderStyle.SOLID"
+9359,"DhBorderStyle.valid"
+9360,"DhBreak.CLEAR_ALL"
+9361,"DhBreak.CLEAR_LEFT"
+9362,"DhBreak.CLEAR_NONE"
+9363,"DhBreak.CLEAR_RIGHT"
+9364,"DhBreak.DhBreak"
+9365,"DhBreak.getClearFlag"
+9366,"DhBreak.setClearFlag"
+9367,"DhBrowser.getAppCodeName"
+9368,"DhBrowser.getAppMinorVersion"
+9369,"DhBrowser.getAppName"
+9370,"DhBrowser.getAppVersion"
+9371,"DhBrowser.getBrowserLanguage"
+9372,"DhBrowser.getCookieEnabled"
+9373,"DhBrowser.getCpuClass"
+9374,"DhBrowser.getOnLine"
+9375,"DhBrowser.getPeer"
+9376,"DhBrowser.getPlatform"
+9377,"DhBrowser.getSystemLanguage"
+9378,"DhBrowser.getUserAgent"
+9379,"DhBrowser.getUserLanguage"
+9380,"DhBulletedList.DhBulletedList"
+9381,"DhBulletedList.addItem"
+9382,"DhBulletedList.getAllElements"
+9383,"DhBulletedList.getElementIndex"
+9384,"DhBulletedList.getItem"
+9385,"DhBulletedList.getItems"
+9386,"DhBulletedList.getListType"
+9387,"DhBulletedList.insertItem"
+9388,"DhBulletedList.remove"
+9389,"DhBulletedList.removeAll"
+9390,"DhBulletedList.removeItem"
+9391,"DhBulletedList.setItem"
+9392,"DhBulletedList.setItems"
+9393,"DhBulletedList.setListType"
+9394,"DhButton.DhButton"
+9395,"DhButton.getEnabled"
+9396,"DhButton.getText"
+9397,"DhButton.setEnabled"
+9398,"DhButton.setText"
+9399,"DhCantAddElementException.DhCantAddElementException"
+9400,"DhCantModifyElementException.DhCantModifyElementException"
+9401,"DhCell.DhCell"
+9402,"DhCell.add"
+9403,"DhCell.getColSpan"
+9404,"DhCell.getColumnNumber"
+9405,"DhCell.getRowNumber"
+9406,"DhCell.getRowSpan"
+9407,"DhCell.getText"
+9408,"DhCell.getValue"
+9409,"DhCell.remove"
+9410,"DhCell.setColSpan"
+9411,"DhCell.setRowSpan"
+9412,"DhCell.setText"
+9413,"DhCell.setValue"
+9414,"DhCheckBox.DhCheckBox"
+9415,"DhCheckBox.addOnCheckedChange"
+9416,"DhCheckBox.addOnGotFocus"
+9417,"DhCheckBox.addOnLostFocus"
+9418,"DhCheckBox.addOnResize"
+9419,"DhCheckBox.addOnSelect"
+9420,"DhCheckBox.focus"
+9421,"DhCheckBox.getChecke"
+9422,"DhCheckBox.getEnabled"
+9423,"DhCheckBox.getSubmitName"
+9424,"DhCheckBox.getSubmitValue"
+9425,"DhCheckBox.getText"
+9426,"DhCheckBox.getTextAlign"
+9427,"DhCheckBox.addOnCheckedChange"
+9428,"DhCheckBox.removeOnGotFocus"
+9429,"DhCheckBox.removeOnLostFocus"
+9430,"DhCheckBox.removeOnResize"
+9431,"DhCheckBox.removeOnSelect"
+9432,"DhCheckBox.setChecked"
+9433,"DhCheckBox.setEnabled"
+9434,"DhCheckBox.setSubmitName"
+9435,"DhCheckBox.setSubmitValue"
+9436,"DhCheckBox.setText"
+9437,"DhCheckBox.setTextAlign"
+9438,"DhComboBox.DhComboBox"
+9439,"DhComponentWrapper.DhComponentWrapper"
+9440,"DhComponentWrapper.getControl"
+9441,"DhComponentWrapper.setControl"
+9442,"DhCursor.AUTO"
+9443,"DhCursor.CROSSHAIR"
+9444,"DhCursor.DEFAULT"
+9445,"DhCursor.E_RESIZE"
+9446,"DhCursor.HAND"
+9447,"DhCursor.HELP"
+9448,"DhCursor.MOVE"
+9449,"DhCursor.N_RESIZE"
+9450,"DhCursor.NE_RESIZE"
+9451,"DhCursor.NW_RESIZE"
+9452,"DhCursor.S_RESIZE"
+9453,"DhCursor.SE_RESIZE"
+9454,"DhCursor.SW_RESIZE"
+9455,"DhCursor.TEXT"
+9456,"DhCursor.W_RESIZE"
+9457,"DhCursor.WAIT"
+9458,"DhCursor.valid"
+9459,"DhDialogInfo.showCentered"
+9460,"DhDialogInfo.showHelpButton"
+9461,"DhDialogInfo.showMaximizeButton"
+9462,"DhDialogInfo.showMinimizeButton"
+9463,"DhDialogInfo.DhDialogInfo"
+9464,"DhDialogInfo.toString"
+9465,"DhDocument.add"
+9466,"DhDocument.addOnReadyStateChange"
+9467,"DhDocument.addText"
+9468,"DhDocument.createElement"
+9469,"DhDocument.dispose"
+9470,"DhDocument.dumpDHTML"
+9471,"DhDocument.dumpHTML"
+9472,"DhDocument.enumerate"
+9473,"DhDocument.findElement"
+9474,"DhDocument.findStyle"
+9475,"DhDocument.getAllElements"
+9476,"DhDocument.getDocumentURL"
+9477,"DhDocument.getDomain"
+9478,"DhDocument.getElement"
+9479,"DhDocument.getElements"
+9480,"DhDocument.getHandle"
+9481,"DhDocument.getHTML"
+9482,"DhDocument.getLastModified"
+9483,"DhDocument.getLocation"
+9484,"DhDocument.getModule"
+9485,"DhDocument.getPeer"
+9486,"DhDocument.getProtocol"
+9487,"DhDocument.getReferrer"
+9488,"DhDocument.getScroll"
+9489,"DhDocument.getServerMode"
+9490,"DhDocument.getSize"
+9491,"DhDocument.getStyle"
+9492,"DhDocument.getTitle"
+9493,"DhDocument.getWindow"
+9494,"DhDocument.getWindowPeer"
+9495,"DhDocument.importHTML"
+9496,"DhDocument.messageBox"
+9497,"DhDocument.moveElement"
+9498,"DhDocument.newLine"
+9499,"DhDocument.onDocumentBeforeUnload"
+9500,"DhDocument.onDocumentLoad"
+9501,"DhDocument.onDocumentUnload"
+9502,"DhDocument.recreateElements"
+9503,"DhDocument.removeOnReadyStateChange"
+9504,"DhDocument.setBoundElements"
+9505,"DhDocument.setDomain"
+9506,"DhDocument.setGenerateTags"
+9507,"DhDocument.setScroll"
+9508,"DhDocument.setTitle"
+9509,"DhDocument.writeHTML"
+9510,"DhEdit.DhEdit"
+9511,"DhEdit.addOnChange"
+9512,"DhEdit.addOnGotFocus"
+9513,"DhEdit.addOnLostFocus"
+9514,"DhEdit.addOnResize"
+9515,"DhEdit.addOnScroll"
+9516,"DhEdit.addOnSelect"
+9517,"DhEdit.clear"
+9518,"DhEdit.focus"
+9519,"DhEdit.getCols"
+9520,"DhEdit.getEnabled"
+9521,"DhEdit.getMaxLength"
+9522,"DhEdit.getMultiline"
+9523,"DhEdit.getPassword"
+9524,"DhEdit.getReadOnly"
+9525,"DhEdit.getRows"
+9526,"DhEdit.getSubmitName"
+9527,"DhEdit.getText"
+9528,"DhEdit.getWordWrap"
+9529,"DhEdit.removeOnChange"
+9530,"DhEdit.removeOnGotFocus"
+9531,"DhEdit.removeOnLostFocus"
+9532,"DhEdit.removeOnResize"
+9533,"DhEdit.removeOnScroll"
+9534,"DhEdit.removeOnSelect"
+9535,"DhEdit.setCols"
+9536,"DhEdit.setEnabled"
+9537,"DhEdit.setMaxLength"
+9538,"DhEdit.setMultiline"
+9539,"DhEdit.setPassword"
+9540,"DhEdit.setReadOnly"
+9541,"DhEdit.setRows"
+9542,"DhEdit.setSubmitName"
+9543,"DhEdit.setText"
+9544,"DhEdit.setWordWrap"
+9545,"DhEdit.shouldPersistText"
+9546,"DhElement.addOnAfterUpdate"
+9547,"DhElement.addOnBeforeUpdate"
+9548,"DhElement.addOnClick"
+9549,"DhElement.addOnDataAvailable"
+9550,"DhElement.addOnDataSetChanged"
+9551,"DhElement.addOnDataSetComplete"
+9552,"DhElement.addOnDoubleClick"
+9553,"DhElement.addOnDragStart"
+9554,"DhElement.addOnErrorUpdate"
+9555,"DhElement.addOnFilterChange"
+9556,"DhElement.addOnHelp"
+9557,"DhElement.addOnKeyDown"
+9558,"DhElement.addOnKeyPress"
+9559,"DhElement.addOnKeyUp"
+9560,"DhElement.addOnMouseDown"
+9561,"DhElement.addOnMouseEnter"
+9562,"DhElement.addOnMosueLeave"
+9563,"DhElement.addOnMouseMove"
+9564,"DhElement.addOnMouseUp"
+9565,"DhElement.addOnRowEnter"
+9566,"DhElement.addOnRowExit"
+9567,"DhElement.addOnSelectStart"
+9568,"DhElement.addOnSetParent"
+9569,"DhElement.dispose"
+9570,"DhElement.getAlign"
+9571,"Dhelement.getDocument"
+9572,"DhElement.getDOMAttributeInt"
+9573,"DhElement.getDOMAttributeString"
+9574,"DhElement.getElementCount"
+9575,"DhElement.getElements"
+9576,"DhElement.getEvents"
+9577,"DhElement.getHTML"
+9578,"DhElement.getHTMLGenerator"
+9579,"DhElement.getID"
+9580,"DhElement.getLocation"
+9581,"DhElement.getModule"
+9582,"DhElement.getParent"
+9583,"DhForm.addDhElement.getPeer"
+9584,"DhElement.getSize"
+9585,"DhElement.getStyle"
+9586,"DhElement.getTagName"
+9587,"DhElement.getTagNameID"
+9588,"DhElement.getToolTip"
+9589,"DhElement.hasPeer"
+9590,"DhElement.initFromPeer"
+9591,"DhElement.onPeerAvailable"
+9592,"DhElement.onSetParent"
+9593,"DhElement.onSetPeer"
+9594,"DhElement.removeAttribute"
+9595,"DhElement.removeOnAfterUpdate"
+9596,"DhElement.removeOnBeforeUpdate"
+9597,"DhElement.removeOnClick"
+9598,"DhElement.removeOnDataAvailable"
+9599,"DhElement.removeOnDataSetChanged"
+9600,"DhElement.removeOnDataSetComplete"
+9601,"DhElement.removeOnDoubleClick"
+9602,"DhElement.removeOnDragStart"
+9603,"DhElement.removeOnErrorUpdate"
+9604,"DhElement.removeOnFilterChange"
+9605,"DhElement.removeOnHelp"
+9606,"DhElement.removeOnKeyDown"
+9607,"DhElement.removeOnKeyPress"
+9608,"DhElement.removeOnKeyUp"
+9609,"DhElement.removeOnMouseDown"
+9610,"DownDhElement.removeOnMouseEnter"
+9611,"DhElement.removeOnMouseLeave"
+9612,"DhElement.removeOnMouseMove"
+9613,"DhElement.removeOnMouseUp"
+9614,"DhElement.removeOnRowEnter"
+9615,"DhElement.removeOnRowExit"
+9616,"DhElement.removeOnSelectStart"
+9617,"DhElement.removeOnSetParent"
+9618,"DhElement.resetAlign"
+9619,"DhElement.resetID"
+9620,"DhElement.resetStyle"
+9621,"DhElement.resetToolTip"
+9622,"DhElement.setAlign"
+9623,"DhElement.setBindID"
+9624,"DhElement.setDOMAttribute"
+9625,"DhElement.setDOMAttributeInt"
+9626,"DhElement.setElementPeer"
+9627,"DhElement.setHeightUnit"
+9628,"DhElement.setHTMLGenerator"
+9629,"DhElement.setID"
+9630,"DhElement.setSize"
+9631,"DhElement.setStyle"
+9632,"DhElement.setToolTip"
+9633,"DhElement.setWidthUnit"
+9634,"DhElementExistsInDocumentException.DhElementExistsInDocumentException"
+9635,"DhElementNotFoundException.DhElementNotFoundException"
+9636,"DhEnumeration.ELEMENTS"
+9637,"DhEnumeration.HLINKS"
+9638,"DhEnumeration.IMAGES"
+9639,"DhEnumeration.DhEnumeration"
+9640,"DhEnumeration.hasMoreItems"
+9641,"DhEnumeration.next"
+9642,"DhEnumeration.nextItem"
+9643,"DhEnumeration.reset"
+9644,"DhEventInfo.EVT_LEFTBUTTON"
+9645,"DhEventInfo.EVT_MIDDLEBUTTON"
+9646,"DhEventInfo.EVT_NOBUTTON"
+9647,"DhEventInfo.EVT_RIGHTBUTTON"
+9648,"DhEventInfo.cancelBubble"
+9649,"DhEventInfo.getChar"
+9650,"DhEventInfo.getClientPoint"
+9651,"DhEventInfo.getDocument"
+9652,"DhEventInfo.getFromElement"
+9653,"DhEventInfo.getMouseButton"
+9654,"DhEventInfo.getOffsetPoint"
+9655,"DhEventInfo.getPeer"
+9656,"DhEventInfo.getPoint"
+9657,"DhEventInfo.getReturnValue"
+9658,"DhEventInfo.getScreenPoint"
+9659,"DhEventInfo.getSource"
+9660,"DhEventInfo.getToElement"
+9661,"DhEventInfo.isAltKey"
+9662,"DhEventInfo.isCtrlKey"
+9663,"DhEventInfo.isShiftKey"
+9664,"DhEventInfo.setChar"
+9665,"DhEventInfo.setReturnValue"
+9666,"DhEventInfo.toString"
+9667,"DhForm.METHOD_GET"
+9668,"DhForm.METHOD_POST"
+9669,"DhForm.DhForm"
+9670,"DhForm.add"
+9671,"DhForm.addOnChange"
+9672,"DhForm.addOnFormReset"
+9673,"DhForm.addOnFormSubmit"
+9674,"DhForm.addOnGotFocus"
+9675,"DhForm.addOnLostFocus"
+9676,"DhForm.addOnResize"
+9677,"DhForm.addOnScroll"
+9678,"DhForm.addOnSelect"
+9679,"DhForm.addText"
+9680,"DhForm.getAsHTTPForm"
+9681,"DhForm.getSubmitMethod"
+9682,"DhForm.getSubmitURL"
+9683,"DhForm.moveElement"
+9684,"DhForm.newLine"
+9685,"DhForm.remove"
+9686,"DhForm.removeAll"
+9687,"DhForm.removeOnChange"
+9688,"DhForm.RemoveOnFormReset"
+9689,"DhForm.RemoveOnFormSubmit"
+9690,"DhForm.RemoveOnGotFocus"
+9691,"DhForm.RemoveOnLostFocus"
+9692,"DhForm.RemoveOnResize"
+9693,"DhForm.RemoveOnScroll"
+9694,"DhForm.RemoveOnSelect"
+9695,"DhForm.setAsHTTPForm"
+9696,"DhForm.setSubmitMethod"
+9697,"DhForm.setSubmitURL"
+9698,"DhHorizontalRule.DhHorizontalRule"
+9699,"DhHotSpot.DhHotSpot"
+9700,"DhHotSpot.addOnGotFocus"
+9701,"DhHotSpot.addOnLostFocus"
+9702,"DhHotSpot.getAltText"
+9703,"DhHotSpot.getCoordsIntArray"
+9704,"DhHotSpot.getCoordsString"
+9705,"DhHotSpot.getShape"
+9706,"DhHotSpotShapesDhHotSpot.getTargetWindow"
+9707,"DhHotSpot.getURL"
+9708,"DhHotSpot.removeOnGotFocus"
+9709,"DhHotSpot.RemoveOnLostFocus"
+9710,"DhHotSpot.setAltText"
+9711,"DhHotSpot.setCoords"
+9712,"DhHotSpot.setShape"
+9713,"DhHotSpot.setTargetWindow"
+9714,"DhHotSpot.setURL"
+9715,"DhHotSpotShapes.CIRCLE"
+9716,"DhHotSpotShapes.POLYGON"
+9717,"DhHotSpotShapes.RECTANGLE"
+9718,"DhHotSpotShapes.valid"
+9719,"DhHTMLGenerator.UNKNOWN_KEY"
+9720,"DhHTMLGenerator.addAttrString"
+9721,"DhHTMLGenerator.addEnclosingTag"
+9722,"DhHTMLGenerator.addInnerTag"
+9723,"DhHTMLGenerator.addStyleString"
+9724,"DhHTMLGenerator.generateHTML"
+9725,"DhHTMLGenerator.getAttributeValue"
+9726,"DhHTMLGenerator.getContent"
+9727,"DhHTMLGenerator.getNameKey"
+9728,"DhHTMLGenerator.getStyleValue"
+9729,"DhHTMLGenerator.getSupportsCSS"
+9730,"DhHTMLGenerator.getSupportsOM"
+9731,"DhHTMLGenerator.getTagName"
+9732,"DhHTMLGenerator.onAttrGenerate"
+9733,"DhHTMLGenerator.onStyleGenerate"
+9734,"DhHTMLGenerator.onTagGenerate"
+9735,"DhHTMLGenerator.registerName"
+9736,"DhHTMLGenerator.setContent"
+9737,"DhHTMLGenerator.setFormatItems"
+9738,"DhHTMLGenerator.setSupportsCSS"
+9739,"DhHTMLGenerator.setSupportsOM"
+9740,"DhHTMLGenerator.setTagName"
+9741,"DhHyperlink.DhHyperlink"
+9742,"DhHyperlink.getEnabled"
+9743,"DhHyperlink.getJumpPoint"
+9744,"DhHyperlink.getStockTargetWindow"
+9745,"DhHyperlink.getTargetWindow"
+9746,"DhHyperlink.getText"
+9747,"DhHyperlink.getURL"
+9748,"DhHyperlink.setEnabled"
+9749,"DhHyperlink.setJumpPoint"
+9750,"DhHyperlink.setStockTargetWindow"
+9751,"DhHyperlink.setTargetWindow"
+9752,"DhHyperlink.setText"
+9753,"DhHyperlink.setURL"
+9754,"DhImage.DhImage"
+9755,"DhImage.addHotSpot"
+9756,"DhImage.addOnAbort"
+9757,"DhImage.addOnError"
+9758,"DhImage.addOnGotFocus"
+9759,"DhImage.addOnLoad"
+9760,"DhImage.addOnLostFocus"
+9761,"DhImage.addOnReadyStateChange"
+9762,"DhImage.getHotSpots"
+9763,"DhImage.getLoadComplete"
+9764,"DhImage.getReadyState"
+9765,"DhImage.getSize"
+9766,"DhImage.getURL"
+9767,"DhImage.removeHotSpot"
+9768,"DhImage.RemoveOnAbort"
+9769,"DhImage.RemoveOnError"
+9770,"DhImage.RemoveOnGotFocus"
+9771,"DhImage.RemoveOnLoad"
+9772,"DhImage.RemoveOnLostFocus"
+9773,"DhImage.RemoveOnReadyStateChange"
+9774,"DhImage.setURL"
+9775,"DhInlineFrame.DhInlineFrame"
+9776,"DhInlineFrame.addOnDocumentReady"
+9777,"DhInlineFrame.addOnGotFocus"
+9778,"DhInlineFrame.addOnLostFocus"
+9779,"DhInlineFrame.addOnResize"
+9780,"DhInlineFrame.getFrameDocument"
+9781,"DhInlineFrame.getScroll"
+9782,"DhInlineFrame.getURL"
+9783,"DhInlineFrame.removeOnDocumentReady"
+9784,"DhInlineFrame.RemoveOnGotFocus"
+9785,"DhInlineFrame.RemoveOnLostFocus"
+9786,"DhInlineFrame.RemoveOnResize"
+9787,"DhInlineFrame.setScroll"
+9788,"DhInlineFrame.setURL"
+9789,"DhInsertOptions.AFTER"
+9790,"DhInsertOptions.BEFORE"
+9791,"DhInsertOptions.BEGINNING"
+9792,"DhInsertOptions.END"
+9793,"DhInsertOptions.valid"
+9794,"DhJumpPoint.DhJumpPoint"
+9795,"DhJumpPoint.getName"
+9796,"DhJumpPoint.setName"
+9797,"DhLinkTarget.NEW_WINDOW"
+9798,"DhLinkTarget.PARENT_DOC"
+9799,"DhLinkTarget.THIS_FRAME"
+9800,"DhLinkTarget.TOP_FRAME"
+9801,"DhLinkTarget.valid"
+9802,"DhListBox.DhListBox"
+9803,"DhListBox.getAlignment"
+9804,"DhListBox.getSelectionMode"
+9805,"DhListBox.getVisibleRows"
+9806,"DhListBox.setAlignment"
+9807,"DhListBox.setSelectionMode"
+9808,"DhListBox.setVisibleRows"
+9809,"DhListType.BULLETED"
+9810,"DhListType.DIR"
+9811,"DhListType.LARGE_LETTER"
+9812,"DhListType.LARGE_ROMAN"
+9813,"DhListType.MENU"
+9814,"DhListType.NUMBERED"
+9815,"DhListType.SMALL_LETTER"
+9816,"DhListType.SMALL_ROMAN"
+9817,"DhListType.valid"
+9818,"DhMargins.ALL"
+9819,"DhMargins.BOTTOM"
+9820,"DhMargins.LEFT"
+9821,"DhMargins.RIGHT"
+9822,"DhMargins.TOP"
+9823,"DhMargins.valid"
+9824,"DhMarginWidthInfo.bottomUnit"
+9825,"DhMarginWidthInfo.bottomWidth"
+9826,"DhMarginWidthInfo.leftUnit"
+9827,"DhMarginWidthInfo.leftWidth"
+9828,"DhMarginWidthInfo.rightUnit"
+9829,"DhMarginWidthInfo.rightWidth"
+9830,"DhMarginWidthInfo.topUnit"
+9831,"DhMarginWidthInfo.topWidth"
+9832,"DhMarginWidthInfo.DhMarginWidthInfo"
+9833,"DhModule.addOnBeforeUnload"
+9834,"DhModule.addOnError"
+9835,"DhModule.addOnGotFocus"
+9836,"DhModule.addOnHelp"
+9837,"DhModule.addOnLoad"
+9838,"DhModule.addOnLostFocus"
+9839,"DhModule.addOnResize"
+9840,"DhModule.addOnScroll"
+9841,"DhModule.addOnUnload为unload"
+9842,"DhModule.appendEventHandlers"
+9843,"DhModule.doMain"
+9844,"DhModule.getCodeClass"
+9845,"DhModule.getDocument"
+9846,"DhModule.getDocumentObject"
+9847,"DhModule.getModuleHost"
+9848,"DhModule.getPeer"
+9849,"DhModule.getQueryParameter"
+9850,"DhModule.getRequest"
+9851,"DhModule.getResponse"
+9852,"DhModule.getServerMode"
+9853,"DhModule.LoadParameters"
+9854,"DhModule.removeOnBeforeUnload"
+9855,"DhModule.RemoveOnError"
+9856,"DhModule.RemoveOnGotFocus"
+9857,"DhModule.RemoveOnHelp"
+9858,"DhModule.RemoveOnLoad"
+9859,"DhModule.RemoveOnLostFocus"
+9860,"DhModule.RemoveOnResize"
+9861,"DhModule.RemoveOnScroll"
+9862,"DhModule.RemoveOnUnload"
+9863,"DhModule.setCodeClass"
+9864,"DhModule.setHTMLDocument"
+9865,"DhModule.write"
+9866,"DhObjectFactory.DhObjectFactory"
+9867,"DhObjectFactory.add"
+9868,"DhObjectFactory.addOnError"
+9869,"DhObjectFactory.addOnReadyStateChange"
+9870,"DhObjectFactory.addParam"
+9871,"DhObjectFactory.getClassid"
+9872,"DhObjectFactory.getClsid"
+9873,"DhObjectFactory.getCodeBase"
+9874,"DhObjectFactory.getCodeClassName"
+9875,"DhObjectFactory.getContent"
+9876,"DhObjectFactory.getDispatchPeer"
+9877,"DhObjectFactory.getObjectPeer"
+9878,"DhObjectFactory.getProgid"
+9879,"DhObjectFactory.getValue"
+9880,"DhObjectFactory.initFromPeer"
+9881,"DhObjectFactory.removeOnError"
+9882,"DhObjectFactory.RemoveOnReadyStateChange"
+9883,"DhObjectFactory.RemoveParam"
+9884,"DhObjectFactory.setClassid"
+9885,"DhObjectFactory.setClsid"
+9886,"DhObjectFactory.setCodeBase"
+9887,"DhObjectFactory.setCodeClassName"
+9888,"DhObjectFactory.setProgid"
+9889,"DhPaddings.ALL"
+9890,"DhPaddings.BOTTOM"
+9891,"DhPaddings.LEFT"
+9892,"DhPaddings.RIGHT"
+9893,"DhPaddings.TOP"
+9894,"DhPaddings.valid"
+9895,"DhPaddingWidthInfo.bottomUnit"
+9896,"DhPaddingWidthInfo.bottomWidth"
+9897,"DhPaddingWidthInfo.leftUnit"
+9898,"DhPaddingWidthInfo.leftWidth"
+9899,"DhPaddingWidthInfo.rightUnit"
+9900,"DhPaddingWidthInfo.rightWidth"
+9901,"DhPaddingWidthInfo.topUnit"
+9902,"DhPaddingWidthInfo.topWidth"
+9903,"DhPaddingWidthInfo.DhPaddingWidthInfo"
+9904,"DhPropertyBag.getInt"
+9905,"DhPropertyBag.getString"
+9906,"DhRadioButton.DhRadioButton"
+9907,"DhRadioButton.addOnCheckedChange"
+9908,"DhRadioButton.addOnGotFocus"
+9909,"DhRadioButton.addOnLostFocus"
+9910,"DhRadioButton.addOnResize"
+9911,"DhRadioButton.addOnSelect"
+9912,"DhRadioButton.focus"
+9913,"DhRadioButton.getChecked"
+9914,"DhRadioButton.getEnabled"
+9915,"DhRadioButton.getName"
+9916,"DhRadioButton.getSubmitName"
+9917,"DhRadioButton.getSubmitValue"
+9918,"DhRadioButton.getText"
+9919,"DhRadioButton.getTextAlign"
+9920,"DhRadioButton.removeOnCheckedChange"
+9921,"DhRadioButton.RemoveOnGotFocus"
+9922,"DhRadioButton.RemoveOnLostFocus"
+9923,"DhRadioButton.RemoveOnResize"
+9924,"DhRadioButton.RemoveOnSelect"
+9925,"DhRadioButton.setChecked"
+9926,"DhRadioButton.setEnabled"
+9927,"DhRadioButton.setName"
+9928,"DhRadioButton.setSubmitName"
+9929,"DhRadioButton.setSubmitValue"
+9930,"DhRadioButton.setText"
+9931,"DhRadioButton.setTextAlign"
+9932,"DhRawHTML.DhRawHTML"
+9933,"DhRawHTML.getHTML"
+9934,"DhRawHTML.setHTML"
+9935,"DhResetButton.DhResetButton"
+9936,"DhResetButton.getText"
+9937,"DhResetButton.setText"
+9938,"DhRow.DhRow"
+9939,"DhRow.add"
+9940,"DhRow.addOnGotFocus"
+9941,"DhRow.addOnLostFocus"
+9942,"DhRow.addOnResize"
+9943,"DhRow.getCell"
+9944,"DhRow.getCells"
+9945,"DhRow.getColumnCount"
+9946,"DhRow.getRecordNumber"
+9947,"DhRow.getRowNumber"
+9948,"DhRow.remove"
+9949,"DhRow.removeOnGotFocus"
+9950,"DhRow.removeOnLostFocus"
+9951,"DhRow.removeOnResize"
+9952,"DhScrollBars.AUTO"
+9953,"DhScrollBars.NO"
+9954,"DhScrollBars.YES"
+9955,"DhScrollBars.valid"
+9956,"DhSelectBox.addItem"
+9957,"DhSelectBox.addOnGotFocus"
+9958,"DhSelectBox.addOnLostFocus"
+9959,"DhSelectBox.addOnResize"
+9960,"DhSelectBox.addOnSelectedIndexChanged"
+9961,"DhSelectBox.findString"
+9962,"DhSelectBox.findStringExact"
+9963,"DhSelectBox.focus"
+9964,"DhSelectBox.getItemCount"
+9965,"DhSelectBox.getItemsSubmitValue"
+9966,"DhSelectBox.getItemsText"
+9967,"DhSelectBox.getItemSubmitValue"
+9968,"DhSelectBox.getItemText"
+9969,"DhSelectBox.getSelected"
+9970,"DhSelectBox.getSelectedIndex"
+9971,"DhSelectBox.getSelectedIndices"
+9972,"DhSelectBox.getSelectedSubmitValue"
+9973,"DhSelectBox.getSelectedText"
+9974,"DhSelectBox.getSubmitName"
+9975,"DhSelectBox.insertItem"
+9976,"DhSelectBox.removeAll"
+9977,"DhSelectBox.removeItem"
+9978,"DhSelectBox.removeOnGotFocus"
+9979,"DhSelectBox.removeOnLostFocus"
+9980,"DhSelectBox.removeOnResize"
+9981,"DhSelectBox.removeOnSelectedIndexChanged"
+9982,"DhSelectBox.setEnabled"
+9983,"DhSelectBox.setItem"
+9984,"DhSelectedBox.setItems"
+9985,"DhSelectBox.setItemSubmitValue"
+9986,"DhSelectBox.setItemsText"
+9987,"DhSelectBox.setSelected"
+9988,"DhSelectBox.setSelectedIndex"
+9989,"DhSelectBox.setSubmitName"
+9990,"DhStyle.DhStyle"
+9991,"DhStyle.getName"
+9992,"DhStyle.setName"
+9993,"DhStyleBase.UNINITIALIZED"
+9994,"DhStyleBase.dispose"
+9995,"DhStyleBase.getBackColor"
+9996,"DhStyleBase.getBorderInfo"
+9997,"DhStyleBase.getBounds"
+9998,"DhStyleBase.getClipRect"
+9999,"DhStyleBase.getCSSStyleInt"
+10000,"DhStyleBase.getCSSStyleString"
+10001,"DhStyleBase.getCSSStyleText"
+10002,"DhStyleBase.getCursor"
+10003,"DhStyleBase.getCursorString"
+10004,"DhStyleBase.getFont"
+10005,"DhStyleBase.getForeColor"
+10006,"DhStyleBase.getHeightUnit"
+10007,"DhStyleBase.getLeftUnit"
+10008,"DhStyleBase.getLocation"
+10009,"DhStyleBase.getMarginWidthInfo"
+10010,"DhStyleBase.getPaddingWidthInfo"
+10011,"DhStyleBase.getPosAbsolute"
+10012,"DhStyleBase.getPosRelative"
+10013,"DhStyleBase.getSize"
+10014,"DhStyleBase.getTextAlign"
+10015,"DhStyleBase.getTextVerticalAlign"
+10016,"DhStyleBase.getTopUnit"
+10017,"DhStyleBase.getVisible"
+10018,"DhStyleBase.getWidthUnit"
+10019,"DhStyleBase.getZIndex"
+10020,"DhStyleBase.hasStyleText"
+10021,"DhStyleBase.invoke"
+10022,"DhStyleBase.resetBackColor"
+10023,"DhStyleBase.resetBorder"
+10024,"DhStyleBase.resetClip"
+10025,"DhStyleBase.resetCursor"
+10026,"DhStyleBase.resetFont"
+10027,"DhStyleBase.resetForeColor"
+10028,"DhStyleBase.resetLocation"
+10029,"DhStyleBase.resetMargin"
+10030,"DhStyleBase.resetPadding"
+10031,"DhStyleBase.resetSize"
+10032,"DhStyleBase.resetTextAlign"
+10033,"DhStyleBase.resetTextVerticalAlign"
+10034,"DhStyleBase.resetZIndex"
+10035,"DhStyleBase.setBackColor"
+10036,"DhStyleBase.setBorder"
+10037,"DhStyleBase.setBorderColor"
+10038,"DhStyleBase.setBorderInfo"
+10039,"DhStyleBase.setBorderStyle"
+10040,"DhStyleBase.setBorderWidth"
+10041,"DhStyleBase.setBounds"
+10042,"DhStyleBase.setClip"
+10043,"DhStyleBase.setCSSStyle"
+10044,"DhStyleBase.setCSSStyleInt"
+10045,"DhStyleBase.setCSSStyleText"
+10046,"DhStyleBase.setCursor"
+10047,"DhStyleBase.setFont"
+10048,"DhStyleBase.setForeColor"
+10049,"DhStyleBase.setHeightUnit"
+10050,"DhStyleBase.setLeftUnit"
+10051,"DhStyleBase.setLocation"
+10052,"DhStyleBase.setMarginWidth"
+10053,"DhStyleBase.setMarginWidthInfo"
+10054,"DhStyleBase.setPaddingWidth"
+10055,"DhStyleBase.setPaddingWidthInfo"
+10056,"DhStyleBase.setPosAbsolute"
+10057,"DhStyleBase.setPosRelative"
+10058,"DhStyleBase.setSize"
+10059,"DhStyleBase.setTextAlign"
+10060,"DhStyleBase.setTextVerticalAlign"
+10061,"DhStyleBase.setTopUnit"
+10062,"DhStyleBase.setVisible"
+10063,"DhStyleBase.setWidthUnit"
+10064,"DhStyleBase.setZIndex"
+10065,"DhStyleBase.shouldPersistBackColor"
+10066,"DhStyleBase.shouldPersistBorder"
+10067,"DhStyleBase.shouldPersistClip"
+10068,"DhStyleBase.shouldPersistFont"
+10069,"DhStyleBase.shouldPersistForeColor"
+10070,"DhStyleBase.shouldPersistMargin"
+10071,"DhStyleBase.shouldPersistPadding"
+10072,"DhSubmitButton.DhSubmitButton"
+10073,"DhSubmitButton.getText"
+10074,"DhSubmitButton.setText"
+10075,"DhTable.DhTable"
+10076,"DhTable.add"
+10077,"DhTable.addOnReadyStateChange"
+10078,"DhTable.getAutoHeader"
+10079,"DhTable.getBodyCell"
+10080,"DhTable.getBodyRow"
+10081,"DhTable.getBodyRowCount"
+10082,"DhTable.getBodyRows"
+10083,"DhTable.getBorder"
+10084,"DhTable.getCellPadding"
+10085,"DhTable.getCellSpacing"
+10086,"DhTable.getDataBindings"
+10087,"DhTable.getDataMember"
+10088,"DhTable.getDataSource"
+10089,"DhTable.getFooterRow"
+10090,"DhTable.getHeaderRow"
+10091,"DhTable.getPageSize"
+10092,"DhTable.getRangeEnd"
+10093,"DhTable.getRangeStart"
+10094,"DhTable.getRepeaterRow"
+10095,"DhTable.getTotalRowCount"
+10096,"DhTable.refresh"
+10097,"DhTable.removeAll"
+10098,"DhTable.removeBodyRows"
+10099,"DhTable.removeOnReadyStateChange"
+10100,"DhTable.setAlign"
+10101,"DhTable.SetAutoHeader"
+10102,"DhTable.setBorder"
+10103,"DhTable.setCellPadding"
+10104,"DhTable.setCellSpacing"
+10105,"DhTable.setDataBindings"
+10106,"DhTable.setDataMember"
+10107,"DhTable.setDataSource"
+10108,"DhTable.setFooterRow"
+10109,"DhTable.setHeaderRow"
+10110,"DhTable.setPageSize"
+10111,"DhTable.setRecordRange"
+10112,"DhTable.setRepeaterRow"
+10113,"DhTable.showNextPage"
+10114,"DhTable.showPreviousPage"
+10115,"DhText.DhText"
+10116,"DhText.addOnChange"
+10117,"DhText.addOnGotFocus"
+10118,"DhText.addOnLostFocus"
+10119,"DhText.addOnResize"
+10120,"DhText.addOnScroll"
+10121,"DhText.addOnSelect"
+10122,"DhText.getDisplayMode"
+10123,"DhText.getText"
+10124,"DhText.removeOnChange"
+10125,"DhText.RemoveOnGotFocus"
+10126,"DhText.RemoveOnLostFocus"
+10127,"DhText.RemoveOnResize"
+10128,"DhText.RemoveOnScroll"
+10129,"DhText.RemoveOnSelect"
+10130,"DhText.setDisplayMode"
+10131,"DhText.setText"
+10132,"DhText.shouldPersistText"
+10133,"DhTextMode.FLOW"
+10134,"DhTextMode.NO_BREAK"
+10135,"DhTextMode.RESPECT_SPACE"
+10136,"DhTextMode.valid"
+10137,"DhUnits.AUTO"
+10138,"DhUnits.CM"
+10139,"DhUnits.COLOR"
+10140,"DhUnits.EM"
+10141,"DhUnits.EX"
+10142,"DhUnits.INCH"
+10143,"DhUnits.MM"
+10144,"DhUnits.NULL"
+10145,"DhUnits.PC"
+10146,"DhUnits.PERCENT"
+10147,"DhUnits.PIXEL"
+10148,"DhUnits.POINT"
+10149,"DhUnits.valid"
+10150,"DhWindow.close"
+10151,"DhWindow.focus"
+10152,"DhWindow.getBrowser"
+10153,"DhWindow.getClosed"
+10154,"DhWindow.getDialogArguments"
+10155,"DhWindow.getDocument"
+10156,"DhWindow.getEventPeer"
+10157,"DhWindow.getFrame"
+10158,"DhWindow.getFrames"
+10159,"DhWindow.getHashString"
+10160,"DhWindow.getHistoryLength"
+10161,"DhWindow.getName"
+10162,"DhWindow.getParent"
+10163,"DhWindow.getPeer"
+10164,"DhWindow.getReturnValue"
+10165,"DhWindow.getScroll"
+10166,"DhWindow.getSearchString"
+10167,"DhWindow.getTopWindow"
+10168,"DhWindow.getURL"
+10169,"DhWindow.getWindowPeer"
+10170,"DhWindow.goBackInHistory"
+10171,"DhWindow.goForwardInHistory"
+10172,"DhWindow.goRelativeInHistory"
+10173,"DhWindow.messageBox"
+10174,"DhWindow.navigate"
+10175,"DhWindow.open"
+10176,"DhWindow.setName"
+10177,"DhWindow.setReturnValue"
+10178,"DhWindow.setScroll"
+10179,"DhWindow.setStatus"
+10180,"DhWindow.showModalDialog"
+10181,"DhWindowInfo.isResizable"
+10182,"DhWindowInfo.showChannelMode"
+10183,"DhWindowInfo.showDirectoryButtons"
+10184,"DhWindowInfo.showFullScreen"
+10185,"DhWindowInfo.showLocation"
+10186,"DhWindowInfo.showMenubar"
+10187,"DhWindowInfo.showScrollbars"
+10188,"DhWindowInfo.showStatusbar"
+10189,"DhWindowInfo.showToolbar"
+10190,"DhWindowInfo.size"
+10191,"DhWindowInfo.DhWindowInfo"
+10192,"DhWindowInfo.addFeature"
+10193,"DhWindowInfo.getValue"
+10194,"DhWindowInfo.removeFeature"
+10195,"DhWindowInfo.toString"
+10196,"BufferedStream.BufferedStream"
+10197,"BufferedStream.close"
+10198,"BufferedStream.flush"
+10199,"BufferedStream.getLength"
+10200,"BufferedStream.getPosition"
+10201,"BufferedStream.getStream"
+10202,"BufferedStream.read"
+10203,"BufferedStream.readByte"
+10204,"BufferedStream.readChar"
+10205,"BufferedStream.readCore"
+10206,"BufferedStream.readInt"
+10207,"BufferedStream.readShort"
+10208,"BufferedStream.readStringCharsAnsi"
+10209,"BufferedStream.readStringNull"
+10210,"BufferedStream.readStringNullAnsi"
+10211,"BufferedStream.setLength"
+10212,"BufferedStream.setPosition"
+10213,"BufferedStream.write"
+10214,"BufferedStream.writeByte"
+10215,"BufferedStream.writeChar"
+10216,"BufferedStream.writeCore"
+10217,"BufferedStream.writeInt"
+10218,"BufferedStream.writeShort"
+10219,"CodePage.ANSI"
+10220,"CodePage.MAC"
+10221,"CodePage.OEM"
+10222,"DataStream.DataStream"
+10223,"DataStream.canRead"
+10224,"DataStream.canSeek"
+10225,"DataStream.canWrite"
+10226,"DataStream.close"
+10227,"DataStream.flush"
+10228,"DataStream.fromComStream"
+10229,"DataStream.getComStream"
+10230,"DataStream.getLength"
+10231,"DataStream.getPosition"
+10232,"DataStream.read"
+10233,"DataStream.readBoolean"
+10234,"DataStream.readByte"
+10235,"DataStream.readBytes"
+10236,"DataStream.readChar"
+10237,"DataStream.readChars"
+10238,"DataStream.readCore"
+10239,"DataStream.readDouble"
+10240,"DataStream.readDoubles"
+10241,"DataStream.readFloat"
+10242,"FloatDataStream.reaFloats"
+10243,"DataStream.readInt"
+10244,"DataStream.readInts"
+10245,"DataStream.readLong"
+10246,"DataStream.readLongs"
+10247,"DataStream.readShort"
+10248,"DataStream.readShorts"
+10249,"DataStream.readString"
+10250,"DataStream.readStringChars"
+10251,"DataStream.readStringCharsAnsi"
+10252,"DataStream.readStringNull"
+10253,"DataStream.readStringNullAnsi"
+10254,"DataStream.readToEnd"
+10255,"DataStream.readUTF"
+10256,"DataStream.setLength"
+10257,"DataStream.readUTF"
+10258,"DataStream.setLength"
+10259,"DataStream.setPosition"
+10260,"DataStream.toComStream"
+10261,"DataStream.write"
+10262,"DataStream.writeBoolean"
+10263,"DataStream.writeByte"
+10264,"DataStream.writeBytes"
+10265,"DataStream.writeChar"
+10266,"DataStream.writeChars"
+10267,"DataStream.writeCore"
+10268,"DataStream.writeDouble"
+10269,"DataStream.writeDoubles"
+10270,"DataStream.writeFloat"
+10271,"DataStream.writeFloats"
+10272,"DataStream.writeInt"
+10273,"DataStream.writeInts"
+10274,"DataStream.writeLong"
+10275,"DataStream.writeLongs"
+10276,"DataStream.writeShort"
+10277,"DataStream.writeShorts"
+10278,"DataStream.writeString"
+10279,"DataStream.writeStringChars"
+10280,"DataStream.writeStringCharsAnsi"
+10281,"DataStream.writeStringNull"
+10282,"DataStream.writeStringNullAnsi"
+10283,"DataStream.writeUTF"
+10284,"EOFException.EOFException"
+10285,"File.File"
+10286,"File.ChangeExtension"
+10287,"File.close"
+10288,"File.combine"
+10289,"File.copy"
+10290,"File.copyOver"
+10291,"File.create"
+10292,"File.createDirectories"
+10293,"File.createDirectory"
+10294,"File.delete"
+10295,"File.exists"
+10296,"File.finalize"
+10297,"File.flush"
+10298,"File.getAttributes"
+10299,"File.getCurrentDirectory"
+10300,"File.getDirectory"
+10301,"File.getExtension"
+10302,"File.getFiles"
+10303,"File.getFullPath"
+10304,"File.getHandle"
+10305,"File.getLength"
+10306,"File.getLogicalDrives"
+10307,"File.getName"
+10308,"File.getPosition"
+10309,"File.getRoot"
+10310,"File.isDirectory"
+10311,"File.isFile"
+10312,"File.isRooted"
+10313,"File.lock"
+10314,"File.open"
+10315,"File.openRead"
+10316,"closeFile.openStandardError"
+10317,"File.openStandardInput"
+10318,"File.openStandardOutput"
+10319,"File.read"
+10320,"File.readByte"
+10321,"File.readChar"
+10322,"File.readInt"
+10323,"File.readLong"
+10324,"File.readShort"
+10325,"File.removeDirectory"
+10326,"File.rename"
+10327,"File.setAttributes"
+10328,"File.setCurrentDirectory"
+10329,"File.setLength"
+10330,"File.setPosition"
+10331,"File.unlock"
+10332,"File.write"
+10333,"File.writeByte"
+10334,"File.writeChar"
+10335,"File.writeInt"
+10336,"File.writeLong"
+10337,"File.writeShort"
+10338,"FileAccess.READ"
+10339,"FileAccess.READWRITE"
+10340,"FileAccess.WRITE"
+10341,"FileAccess.valid"
+10342,"FileAttribute.ARCHIVE"
+10343,"FileAttribute.COMPRESSED"
+10344,"FileAttribute.DIRECTORY"
+10345,"FileAttribute.HIDDEN"
+10346,"FileAttribute.OFFLINE"
+10347,"FileAttribute.READONLY"
+10348,"FileAttribute.SYSTEM"
+10349,"FileAttribute.TEMPORARY"
+10350,"FileAttribute.valid"
+10351,"FileEnumerator.FileEnumerator"
+10352,"FileEnumerator.close"
+10353,"FileEnumerator.finalize"
+10354,"FileEnumerator.getAttributes"
+10355,"FileEnumerator.getCreationTime"
+10356,"FileEnumerator.getLastAccessTime"
+10357,"FileEnumerator.getLastWriteTime"
+10358,"FileEnumerator.getName"
+10359,"FileEnumerator.getNextFile"
+10360,"FileEnumerator.getSize"
+10361,"FileEnumerator.hasMoreFiles"
+10362,"FileMode.CREATE"
+10363,"FileMode.CREATE_NEW"
+10364,"FileMode.OPEN"
+10365,"FileMode.OPEN_OR_CREATE"
+10366,"FileMode.TRUNCATE"
+10367,"FileMode.valid"
+10368,"FileShare.NONE"
+10369,"FileShare.READ"
+10370,"FileShare.READWRITE"
+10371,"FileShare.WRITE"
+10372,"FileShare.valid"
+10373,"IByteStream.canRead"
+10374,"IByteStream.canSeek"
+10375,"IByteStream.canWrite"
+10376,"IByteStream.close"
+10377,"IByteStream.flush"
+10378,"IByteStream.getlength"
+10379,"IByteStream.getPositon"
+10380,"IByteStream.read"
+10381,"IByteStream.setlength"
+10382,"IByteStream.setPositon"
+10383,"IByteStream.write"
+10384,"IDataStream.getComStream"
+10385,"IDataStream.readBoolean"
+10386,"IDataStream.readByte"
+10387,"IDataStream.readBytes"
+10388,"IDataStream.readChar"
+10389,"IDataStream.readChars"
+10390,"IDataStream.readDouble"
+10391,"IDataStream.readDoubles"
+10392,"IDataStream.readFloat"
+10393,"IDataStream.readFloats"
+10394,"IDataStream.readInt"
+10395,"IDataStream.readInts"
+10396,"IDataStream.readLong"
+10397,"IDataStream.readLongs"
+10398,"IDataStream.readShort"
+10399,"IDataStream.readShorts"
+10400,"IDataStream.readString"
+10401,"IDataStream.readStringChars"
+10402,"IDataStream.readStringCharsAnsi"
+10403,"IDataStream.readStringNull"
+10404,"IDataStream.readStringNullAnsi"
+10405,"IDataStream.readToEnd"
+10406,"IDataStream.readUTF"
+10407,"IDataStream.writeBoolean"
+10408,"IDataStream.writeByte"
+10409,"IDataStream.writeBytes"
+10410,"IDataStream.writeChar"
+10411,"IDataStream.writeChars"
+10412,"IDataStream.writeDouble"
+10413,"IDataStream.writeDoubles"
+10414,"IDataStream.writeFloat"
+10415,"IDataStream.writeFloats"
+10416,"IDataStream.writeInt"
+10417,"IDataStream.writeInts"
+10418,"IDataStream.writeLong"
+10419,"IDataStream.writeLongs"
+10420,"IDataStream.writeShort"
+10421,"IDataStream.writeShorts"
+10422,"IDataStream.writeString"
+10423,"IDataStream.writeStringChars"
+10424,"IDataStream.writeStringCharsAnsi"
+10425,"IDataStream.writeStringNull"
+10426,"IDataStream.writeStringNullAnsi"
+10427,"IDataStream.writeUTF"
+10428,"IOException.IOException"
+10429,"IReader.close"
+10430,"IReader.peek"
+10431,"IReader.read"
+10432,"IReader.readLine"
+10433,"IWriter.close"
+10434,"IWriter.flush"
+10435,"IWriter.write"
+10436,"IWriter.writeLine"
+10437,"MemoryStream.MemoryStream"
+10438,"MemoryStream.getCapacity"
+10439,"MemoryStream.getLength"
+10440,"MemoryStream.getPosition"
+10441,"MemoryStream.read"
+10442,"MemoryStream.readByte"
+10443,"MemoryStream.readChar"
+10444,"MemoryStream.readCore"
+10445,"MemoryStream.readInt"
+10446,"MemoryStream.readShort"
+10447,"MemoryStream.readStringCharsAnsi"
+10448,"MemoryStream.readStringNull"
+10449,"MemoryStream.readStringNullAnsi"
+10450,"MemoryStream.reset"
+10451,"MemoryStream.setLength"
+10452,"MemoryStream.setPosition"
+10453,"MemoryStream.toByteArray"
+10454,"MemoryStream.write"
+10455,"MemoryStream.writeByte"
+10456,"MemoryStream.writeChar"
+10457,"MemoryStream.writeCore"
+10458,"MemoryStream.writeInt"
+10459,"MemoryStream.writeShort"
+10460,"MemoryStream.writeTo"
+10461,"Reader.close"
+10462,"Reader.peek"
+10463,"Reader.read"
+10464,"Reader.readLine"
+10465,"StringReader.StringReader"
+10466,"StringReader.close"
+10467,"StringReader.peek"
+10468,"StringReader.read"
+10469,"StringReader.readLine"
+10470,"StringWriter.StringWriter"
+10471,"StringWriter.getStringBuffer"
+10472,"StringWriter.toString"
+10473,"StringWriter.write"
+10474,"Text.err"
+10475,"Text.in"
+10476,"Text.out"
+10477,"TextReader.TextReader"
+10478,"TextReader.close"
+10479,"TextReader.getStream"
+10480,"TextReader.peek"
+10481,"TextReader.read"
+10482,"TextReader.readLine"
+10483,"TextWriter.TextWriter"
+10484,"TextWriter.close"
+10485,"TextWriter.flush"
+10486,"TextWriter.getAutoFlush"
+10487,"TextWriter.getStream"
+10488,"TextWriter.setAutoFlush"
+10489,"TextWriter.write"
+10490,"WinIOException.WinIOException"
+10491,"WinIOException.getErrorCode"
+10492,"Writer.close"
+10493,"Writer.flush"
+10494,"Writer.getNewLine"
+10495,"Writer.setNewLine"
+10496,"Writer.writer"
+10497,"Writer.writerLine"
+
+11001,"DEBUG命令详解"
+11002,"高级汇编语言技术"
+11003,"汇编语言技术指标"
+11004,"中断与异常"
+
+11011,"Ｃ语言概述"
+11012,"数据类型、运算符与表达式"
+11013,"算术运算与算术表达式"
+11014,"顺序结构程序设计"
+11015,"选择结构程序设计"
+11016,"循环结构程序设计"
+11017,"数组"
+11018,"函数(上)"
+11019,"函数(下)"
+11020,"编译预处理"
+11021,"指针(上)"
+11022,"指针(下)"
+11023,"结构与链表"
+11024,"位运算"
+11025,"文件"
+
+11031,"C++语言概述"
+11032,"语言基础"
+11033,"运算符和表达式"
+11034,"流程控制语句"
+11035,"函数"
+11036,"数组与字符串"
+11037,"指针与引用"
+11038,"结构与链表"
+11039,"编译预处理"
+11040,"类与对象"
+11041,"继承与多态"
+11042,"输入输出流"
+
+11051,"Pascal历史回顾"
+11052,"编写Pascal代码"
+11053,"类型、变量及常量"
+11054,"用户自定义数据类型"
+11055,"语句"
+11056,"过程与函数"
+11057,"字符串操作"
+11058,"内存"
+11059,"Windows编程"
+11060,"Variant类型"
+11061,"程序与单元"
+
+
+
+end

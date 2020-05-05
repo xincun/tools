@@ -1,0 +1,4 @@
+by:MaRKuS_TH-DJM
+
+we all know the issue of the RestoreLastError API. programs using this (in XP) won't work on windows 9x systems when fixed by ImpRec. this little fixed ImportRec will also fix this issue and use SetLastError instead of RestoreLastError so the compatiblity is saved.
+also the other fix is included for user32.dll that i did last time. enjoy .

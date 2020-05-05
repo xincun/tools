@@ -1,0 +1,32 @@
+#include "\MASM32\mProgs\Include\resource.h"
+
+//////////////////////////////////////////////
+// Main dialog const
+//////////////////////////////////////////////
+#define IDD_MAIN_DIALOG		100
+#define IDC_LISTVIEW		101
+#define IDI_MAIN_ICON		200
+
+#define IDI_UP_ARROW			2001
+#define IDI_DOWN_ARROW			2002
+
+//////////////////////////////////////////////
+// Main dialog 
+//////////////////////////////////////////////
+
+IDD_MAIN_DIALOG DIALOG MOVEABLE PURE LOADONCALL DISCARDABLE	0, 0, 400, 200
+STYLE DS_3DLOOK | DS_CENTER | DS_MODALFRAME | WS_CAPTION | WS_SYSMENU | WS_VISIBLE | WS_POPUP | WS_MINIMIZEBOX | WS_MAXIMIZEBOX | WS_SIZEBOX
+CAPTION "Symbolic Links Viewer"
+FONT 8, "MS Sans Serif"
+BEGIN
+	CONTROL	"", IDC_LISTVIEW, "SysListView32", WS_BORDER | LVS_SINGLESEL | LVS_REPORT, 0,0,400,200
+END
+
+//////////////////////////////////////////////
+// Main dialog resources
+//////////////////////////////////////////////
+
+IDI_MAIN_ICON	ICON	DISCARDABLE icon.ico
+
+IDI_UP_ARROW BITMAP up.bmp
+IDI_DOWN_ARROW BITMAP dn.bmp

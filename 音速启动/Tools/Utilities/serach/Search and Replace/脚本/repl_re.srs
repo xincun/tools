@@ -1,0 +1,18 @@
+[Script for Search and Replace]
+[Search /i]
+\
+[Replace]
+\\
+[Search /i]
+%
+[Replace]
+\%
+[Search /i]
+<
+[Replace]
+\<
+[Search /i]
+>
+[Replace]
+\>
+[End of Search and Replace Script]

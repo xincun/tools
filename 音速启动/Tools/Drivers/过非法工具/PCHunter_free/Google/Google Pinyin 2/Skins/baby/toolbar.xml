@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<view name="status_window" width="auto" height="auto">
+
+  <linear width="auto" height="auto"
+    cursor="sizeall" orientation="horizontal" enabled="true"
+    background="toolbar_background.png"
+    backgroundMode="stretch" backgroundBorder="15, 14, 15, 14">
+
+    <div width="10"/>
+
+    <linear width="auto" height="auto" orientation="vertical">
+
+      <div height="11"/>
+
+      <linear width="auto" height="auto" orientation="horizontal">
+
+        <img name="ime_logo" src="resource://ime_logo.png"/>
+
+        <div width="1"/>
+
+        <button name="chinese_english_mode"
+          image="chinese_mode.png"
+          downImage="chinese_mode_down.png"
+          overImage="chinese_mode_over.png"
+          cursor="hand"
+          tooltip="&SWITCH_LANGUAGE_MODE;"/>
+
+        <button name="full_half_width_character_mode"
+          image="half_width_character_mode.png"
+          downImage="half_width_character_mode_down.png"
+          overImage="half_width_character_mode_over.png"
+          cursor="hand"
+          tooltip="&SWITCH_CHARACTER_MODE;"/>
+
+        <button name="full_half_width_punctuation_mode"
+          image="full_width_punctuation_mode.png"
+          downImage="full_width_punctuation_mode_down.png"
+          overImage="full_width_punctuation_mode_over.png"
+          cursor="hand"
+          tooltip="&SWITCH_PUNCTUATION_MODE;"/>
+
+        <button name="soft_keyboard"
+          image="open_soft_keyboard.png"
+          downImage="open_soft_keyboard_down.png"
+          overImage="open_soft_keyboard_over.png"
+          cursor="hand"
+          tooltip="&SOFT_KEYBOARD;"/>
+
+        <button name="voice_input"
+          image="open_voice_input.png"
+          downImage="open_voice_input_down.png"
+          overImage="open_voice_input_over.png"
+          cursor="hand"
+          tooltip="&VOICE_INPUT;"/>
+
+        <button name="ime_menu"
+          image="ime_menu.png"
+          downImage="ime_menu_down.png"
+          overImage="ime_menu_over.png"
+          cursor="hand"
+          tooltip="&IME_MENU;"/>
+
+      </linear>
+
+      <div height="8"/>
+
+    </linear>
+
+    <div width="8"/>
+
+  </linear>
+
+</view>

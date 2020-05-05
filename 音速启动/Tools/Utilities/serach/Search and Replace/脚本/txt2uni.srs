@@ -1,0 +1,15 @@
+[Script for Search and Replace]
+
+This script converts the string to unicode format. To be used with
+the Apply Script function in the Binary Mode dialog for the Search
+&/or Replace string fields.
+
+The final search/replace using the transformed string can be
+Binary mode. Alternatively, use the transformed string in the main
+Search and Replace dialog but use Regular Expression Mode.
+
+[Search /ix]
+?
+[Replace]
+\\0x00%1
+[End of Search and Replace Script]

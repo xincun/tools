@@ -1,0 +1,92 @@
+
+Format of key (ID) is A1910xx(D1)(D2)x or A1423xx(D1)(D2)x,
+
+where    x  - any digit 0..9
+         D1 - digit
+         D2 - digit  
+         and (D1 + D2) / 10 = 4
+
+Example: A191000680
+
+
+
+CODE:004CBF7C TFMain@CheckCode proc near              ; CODE XREF: TFReg@RegBtnClick+7Bp
+CODE:004CBF7C                                         ; TFMain@ReadIni+1D7p
+CODE:004CBF7C                                         ; DATA XREF: CODE:004C5551o
+CODE:004CBF7C
+CODE:004CBF7C var_4           = dword ptr -4
+CODE:004CBF7C
+CODE:004CBF7C                 push    ebp             ; TFMain@CheckCode
+CODE:004CBF7D                 mov     ebp, esp
+CODE:004CBF7F                 push    ecx
+CODE:004CBF80                 push    ebx
+CODE:004CBF81                 mov     [ebp+var_4], edx
+CODE:004CBF84                 mov     eax, [ebp+var_4]
+CODE:004CBF87                 call    TObject@System@@LStrAddRef ; System$@LStrAddRef(void;void):Pointer;
+CODE:004CBF8C                 xor     eax, eax
+CODE:004CBF8E                 push    ebp
+CODE:004CBF8F                 push    offset Finally_4CC01B
+CODE:004CBF94                 push    dword ptr fs:[eax]
+CODE:004CBF97                 mov     fs:[eax], esp
+CODE:004CBF9A                 xor     ebx, ebx
+CODE:004CBF9C                 mov     eax, [ebp+var_4]
+CODE:004CBF9F                 call    System$@LStrLen ; System$@LStrLen(String):Integer;
+CODE:004CBFA4                 cmp     eax, 10         ; Exactly 10 chars
+CODE:004CBFA7                 jnz     short Finish_4CC005
+CODE:004CBFA9                 mov     edx, [ebp+var_4]
+CODE:004CBFAC Find 'A1910'
+CODE:004CBFAC                 mov     eax, offset A1910_4CC030 ; [str?] 'A1910'
+CODE:004CBFB1                 call    System$@LStrPos ; System$@LStrPos;()
+CODE:004CBFB6                 dec     eax
+CODE:004CBFB7                 jz      short SubStr_OK__4CBFC9 ; In First Pos
+CODE:004CBFB9 else
+CODE:004CBFB9                 mov     edx, [ebp+var_4]
+CODE:004CBFBC Find 'A1423'
+CODE:004CBFBC                 mov     eax, offset A1423_4CC040 ; [str?] 'A1423'
+CODE:004CBFC1                 call    System$@LStrPos ; System$@LStrPos;()
+CODE:004CBFC6                 dec     eax
+CODE:004CBFC7                 jnz     short Finish_4CC005 ; WRONG - NOT in the first pos !
+CODE:004CBFC9
+CODE:004CBFC9 SubStr_OK__4CBFC9:                      ; CODE XREF: TFMain@CheckCode+3Bj
+CODE:004CBFC9                 mov     eax, 2
+CODE:004CBFCE
+CODE:004CBFCE Loop_4CBFCE:                            ; CODE XREF: TFMain@CheckCode+67j
+CODE:004CBFCE                 mov     edx, [ebp+var_4]
+CODE:004CBFD1                 mov     dl, [edx+eax-1] ; Marker Pos + Index
+CODE:004CBFD5                 cmp     dl, '0'
+CODE:004CBFD8                 jb      short Finish_4CC005 ; WRONG !
+CODE:004CBFDA                 cmp     dl, '9'
+CODE:004CBFDD                 ja      short Finish_4CC005 ; WRONG !
+CODE:004CBFDF                 inc     eax
+CODE:004CBFE0                 cmp     eax, 11         ; End of Loop ?
+CODE:004CBFE3                 jnz     short Loop_4CBFCE
+CODE:004CBFE5                 mov     eax, [ebp+var_4]
+CODE:004CBFE8                 movzx   eax, byte ptr [eax+8] ; Code[8]
+CODE:004CBFEC                 mov     edx, [ebp+var_4]
+CODE:004CBFEF                 movzx   edx, byte ptr [edx+9] ; Code[9]
+CODE:004CBFF3                 add     eax, edx        ; Code[8] + Code[9]
+CODE:004CBFF5                 mov     ecx, 10
+CODE:004CBFFA                 xor     edx, edx
+CODE:004CBFFC                 div     ecx             ; / 10
+CODE:004CBFFE                 cmp     edx, 4          ; Remainder
+CODE:004CC001                 jnz     short Finish_4CC005 ; WRONG !
+CODE:004CC003                 mov     bl, 1
+CODE:004CC005
+CODE:004CC005 Finish_4CC005:                          ; CODE XREF: TFMain@CheckCode+2Bj
+CODE:004CC005                                         ; TFMain@CheckCode+4Bj
+CODE:004CC005                                         ; TFMain@CheckCode+5Cj
+CODE:004CC005                                         ; TFMain@CheckCode+61j
+CODE:004CC005                                         ; TFMain@CheckCode+85j
+CODE:004CC005                 xor     eax, eax
+CODE:004CC007                 pop     edx
+CODE:004CC008                 pop     ecx
+CODE:004CC009                 pop     ecx
+CODE:004CC00A                 mov     fs:[eax], edx
+CODE:004CC00D                 push    offset loc_4CC022
+CODE:004CC012
+CODE:004CC012 Ret_4CC012:                             ; CODE XREF: CODE:004CC020j
+CODE:004CC012                 lea     eax, [ebp+var_4]
+CODE:004CC015                 call    System$@LStrClr ; System$@LStrClr(void;void);
+CODE:004CC01A                 retn
+CODE:004CC01A TFMain@CheckCode endp ; sp = -10h
+

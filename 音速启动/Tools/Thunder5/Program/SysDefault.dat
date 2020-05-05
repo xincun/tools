@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Plugins version="1.0"><PluginItem><ID>96C6AEC4-DFE4-4587-BD73-ECC38ED62067</ID><Entry>P4PClient.dll</Entry><Path>P4PClient</Path><Issuer>Thunder Network</Issuer><Version>1.0.0.0</Version><Title>迅雷社区客户端</Title><Startup>True</Startup><PluginType>0</PluginType></PluginItem><PluginItem><ID>00287872-EAE2-4005-A955-BC680E9D9C48</ID><Entry>iEmbedShell.dll</Entry><Path>InMedia</Path><Issuer>Thunder</Issuer><Version>2.1.0.27</Version><Title>ThunderInMedia</Title><Startup>True</Startup><PluginType>0</PluginType></PluginItem></Plugins>

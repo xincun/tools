@@ -1,0 +1,84 @@
+程序名称：OllyDBG
+版    本：1.10
+汉 化 人：cao_cong
+联系方式：cao_cong_hx@yahoo.com.cn
+汉化日期：2005.12.08
+
+添加了一些API的识别.
+添加到290个结构体&枚举类型.
+添加到2504个API函数结构.
+包含了部分VB常见函数,部分VC函数.包含部分MSVCRT.DLL函数.
+
+该版本看雪的论坛中下载（添加过API后版本）
+
+
+主要修改：
+1、自动配置UDD、PLUGIN为绝对路径
+
+2、解决 OD 格式化 Long Double 错误
+
+3、OD数据窗口复制BUG
+
+4、引入OllyDbg Fix Module v0.9.0.0 插件，并修正在调试时不支持相对路径
+
+5、集成了Loadpe，ImportREC，记事本、计算器等破解常用工具
+
+6、编写了自定义管理工具，并集成到OD到配置菜单中。
+
+ollydbg为英文版，未做修改。
+
+注：OD在调试程序是，无法打开配置程序，本人水平有限，无法修正
+
+发现Bug，请及时通告，e_mail:gjianbo@163.com
+                     QQ:30481007
+
+
+
+
+以下是OllyDbg Fix Module的介绍
+OllyDbg Fix Module v0.9.0.0
+
+使用 LordPE 等工具在 Ollydbg 导入表中添加以下 dll 和函数即可使用增强功能，完成补丁：
+
+dll	==>	OllyPath.dll
+函数	==>	Set0llyPatch
+
+注意：如果使用 PETools，可能会导致原程序无法运行。
+
+========================================================================
+OllyDbg Fix Module v0.9.0.0 功能
+
+更改 Ollydbg 各窗口的类名称和标题文本，增加隐蔽性；
+添加自定义工具菜单；
+将载入的插件数由 32 扩展到 50 或更多；
+修正格式化字符串的漏洞 [OutPutDebugString]；
+在 CPU 数据窗口选择数据时，可以显示地址和选择范围等....
+
+增强的 LoadDll.exe 文件
+========================================================================
+OllyPath.ini 设置
+
+FIX_CLASSANDTEXT=Y	是否更改窗口的类和标题栏文本 [Y=是，N=否]
+FIX_TOOLSMENU=Y		是否使用工具菜单
+FIX_STACKASCIISHOW=Y	是否显示堆栈中的 ASCII
+FIX_OUTPUTDEBUGSTRING=Y	是否修正修正格式化字符串的漏洞
+FIX_DUMPADDRESS=Y	是否显示数据窗口中当前所选的数据地址和范围等（查看状态栏）
+FIX_PLUGCOUNT=N		是否扩展插件数
+CLASS=!OllYDBG		主窗口类名称
+WINTEXT=!OllYDBG	主窗口标题栏文本
+ACPUASM=!CPUASM
+ACPUDUMP=!CPUDUMP
+ACPUSTACK=!CPUSTACK
+ACPUREG=!CPUREG
+ACPUINFO=!CPUINFO
+ACPU=!CPU
+PLUGCOUNT=50		最多允许载入的插件数目
+
+;以下是自定义菜单中的设置
+TOOL1=记事本|notepad.exe
+工具序数=程序名称|程序完整路径和文件名 + 扩展名
+
+======================================================================
+OllyDbg Fix Module v0.9.0.0
+OllyPath.dll
+http://blog.naver.com/is4975

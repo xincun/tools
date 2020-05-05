@@ -1,0 +1,171 @@
+[Version]
+Signature="$CHICAGO$"
+Provider=xdowns.com,2006
+
+[DefaultInstall]
+AddReg=AddReg
+
+[AddReg]
+hkcr,"CLSID\{485463B7-8FB2-4B3B-B29B-8B919B0EACCE}",,,"Thunder Agent Class"
+
+hkcr,"CLSID\{485463B7-8FB2-4B3B-B29B-8B919B0EACCE}\InprocServer32",,,"%01%\ComDlls\ThunderAgent_003.dll"
+hkcr,"CLSID\{485463B7-8FB2-4B3B-B29B-8B919B0EACCE}\InprocServer32","ThreadingModel",,"Apartment"
+
+hkcr,"CLSID\{485463B7-8FB2-4B3B-B29B-8B919B0EACCE}\ProgID",,,"ThunderAgent.Agent.1"
+
+hkcr,"CLSID\{485463B7-8FB2-4B3B-B29B-8B919B0EACCE}\TypeLib",,,"{26D657AE-A466-4F44-AB1D-5CFFFADBED97}"
+
+hkcr,"CLSID\{485463B7-8FB2-4B3B-B29B-8B919B0EACCE}\Version",,,"1.0"
+
+hkcr,"CLSID\{485463B7-8FB2-4B3B-B29B-8B919B0EACCE}\VersionIndependentProgID",,,"ThunderAgent.Agent"
+
+hkcr,"CLSID\{802F530B-A8F6-4631-AE49-6BACAAC6373E}",,,"XDownloaddManager Class"
+
+hkcr,"CLSID\{802F530B-A8F6-4631-AE49-6BACAAC6373E}\InprocServer32",,,"%01%\ComDlls\XunLeiBHO_002.dll"
+hkcr,"CLSID\{802F530B-A8F6-4631-AE49-6BACAAC6373E}\InprocServer32","ThreadingModel",,"Apartment"
+
+hkcr,"CLSID\{802F530B-A8F6-4631-AE49-6BACAAC6373E}\ProgID",,,"XunLeiBHO.XDownloadManager.1"
+
+hkcr,"CLSID\{802F530B-A8F6-4631-AE49-6BACAAC6373E}\TypeLib",,,"{87CA3845-37FE-414C-81CF-E08A7D0F6779}"
+
+hkcr,"CLSID\{802F530B-A8F6-4631-AE49-6BACAAC6373E}\Version",,,"1.0"
+
+hkcr,"CLSID\{802F530B-A8F6-4631-AE49-6BACAAC6373E}\VersionIndependentProgID",,,"XunLeiBHO.XDownloadManager"
+
+hkcr,"CLSID\{889D2FEB-5411-4565-8998-1DD2C5261283}",,,"Thunder Browser Helper"
+
+hkcr,"CLSID\{889D2FEB-5411-4565-8998-1DD2C5261283}\InprocServer32",,,"%01%\ComDlls\XunLeiBHO_002.dll"
+hkcr,"CLSID\{889D2FEB-5411-4565-8998-1DD2C5261283}\InprocServer32","ThreadingModel",,"Apartment"
+
+hkcr,"CLSID\{889D2FEB-5411-4565-8998-1DD2C5261283}\ProgID",,,"XunLeiBHO.ThunderIEHelper.1"
+
+hkcr,"CLSID\{889D2FEB-5411-4565-8998-1DD2C5261283}\TypeLib",,,"{87CA3845-37FE-414C-81CF-E08A7D0F6779}"
+
+hkcr,"CLSID\{889D2FEB-5411-4565-8998-1DD2C5261283}\Version",,,"1.0"
+
+hkcr,"CLSID\{889D2FEB-5411-4565-8998-1DD2C5261283}\VersionIndependentProgID",,,"XunLeiBHO.ThunderIEHelper"
+
+hkcr,"CLSID\{DD069A98-B494-487D-B0B3-C2F56ECB6DAA}",,,"TGSearch"
+
+hkcr,"CLSID\{DD069A98-B494-487D-B0B3-C2F56ECB6DAA}\InprocServer32",,,"%01%\ComDlls\TGSearch.dll"
+hkcr,"CLSID\{DD069A98-B494-487D-B0B3-C2F56ECB6DAA}\InprocServer32","ThreadingModel",,"Apartment"
+
+hkcr,"CLSID\{DD069A98-B494-487D-B0B3-C2F56ECB6DAA}\ProgID",,,"TGSearch.Search.1"
+
+hkcr,"CLSID\{DD069A98-B494-487D-B0B3-C2F56ECB6DAA}\TypeLib",,,"{A329DA93-0F8B-4F1C-9CA3-A51A4802C9E2}"
+
+hkcr,"CLSID\{DD069A98-B494-487D-B0B3-C2F56ECB6DAA}\Version",,,"1.0"
+
+hkcr,"CLSID\{DD069A98-B494-487D-B0B3-C2F56ECB6DAA}\VersionIndependentProgID",,,"TGSearch.Search"
+
+hkcr,"Interface\{1622F56A-0C55-464C-B472-377845DEF21D}",,,"IAgent"
+
+hkcr,"Interface\{1622F56A-0C55-464C-B472-377845DEF21D}\ProxyStubClsid",,,"{00020424-0000-0000-C000-000000000046}"
+
+hkcr,"Interface\{1622F56A-0C55-464C-B472-377845DEF21D}\ProxyStubClsid32",,,"{00020424-0000-0000-C000-000000000046}"
+
+hkcr,"Interface\{1622F56A-0C55-464C-B472-377845DEF21D}\TypeLib",,,"{26D657AE-A466-4F44-AB1D-5CFFFADBED97}"
+hkcr,"Interface\{1622F56A-0C55-464C-B472-377845DEF21D}\TypeLib","Version",,"1.0"
+
+hkcr,"Interface\{988934A4-064B-11D3-BB80-00104B35E7F9}",,,"IXDownloadManager"
+
+hkcr,"Interface\{988934A4-064B-11D3-BB80-00104B35E7F9}\ProxyStubClsid",,,"{00020424-0000-0000-C000-000000000046}"
+
+hkcr,"Interface\{988934A4-064B-11D3-BB80-00104B35E7F9}\ProxyStubClsid32",,,"{00020424-0000-0000-C000-000000000046}"
+
+hkcr,"Interface\{988934A4-064B-11D3-BB80-00104B35E7F9}\TypeLib",,,"{87CA3845-37FE-414C-81CF-E08A7D0F6779}"
+hkcr,"Interface\{988934A4-064B-11D3-BB80-00104B35E7F9}\TypeLib","Version",,"1.0"
+
+hkcr,"Interface\{A1DD29ED-2598-48E9-9793-64A9CD08AC94}",,,"IThunderIEHelper"
+
+hkcr,"Interface\{A1DD29ED-2598-48E9-9793-64A9CD08AC94}\ProxyStubClsid",,,"{00020424-0000-0000-C000-000000000046}"
+
+hkcr,"Interface\{A1DD29ED-2598-48E9-9793-64A9CD08AC94}\ProxyStubClsid32",,,"{00020424-0000-0000-C000-000000000046}"
+
+hkcr,"Interface\{A1DD29ED-2598-48E9-9793-64A9CD08AC94}\TypeLib",,,"{87CA3845-37FE-414C-81CF-E08A7D0F6779}"
+hkcr,"Interface\{A1DD29ED-2598-48E9-9793-64A9CD08AC94}\TypeLib","Version",,"1.0"
+
+hkcr,"Interface\{F4C72227-EFD5-4D8D-AB6B-C4CAB37CE892}",,,"ISearch"
+
+hkcr,"Interface\{F4C72227-EFD5-4D8D-AB6B-C4CAB37CE892}\ProxyStubClsid",,,"{00020424-0000-0000-C000-000000000046}"
+
+hkcr,"Interface\{F4C72227-EFD5-4D8D-AB6B-C4CAB37CE892}\ProxyStubClsid32",,,"{00020424-0000-0000-C000-000000000046}"
+
+hkcr,"Interface\{F4C72227-EFD5-4D8D-AB6B-C4CAB37CE892}\TypeLib",,,"{A329DA93-0F8B-4F1C-9CA3-A51A4802C9E2}"
+hkcr,"Interface\{F4C72227-EFD5-4D8D-AB6B-C4CAB37CE892}\TypeLib","Version",,"1.0"
+
+hkcr,"TGSearch.Search.1",,,"TGSearch"
+
+hkcr,"TGSearch.Search.1\CLSID",,,"{DD069A98-B494-487D-B0B3-C2F56ECB6DAA}"
+
+hkcr,"TGSearch.Search",,,"TGSearch"
+
+hkcr,"TGSearch.Search\CLSID",,,"{DD069A98-B494-487D-B0B3-C2F56ECB6DAA}"
+
+hkcr,"TGSearch.Search\CurVer",,,"TGSearch.Search.1"
+
+hkcr,"ThunderAgent.Agent.1",,,"Thunder Agent Class"
+
+hkcr,"ThunderAgent.Agent.1\CLSID",,,"{485463B7-8FB2-4B3B-B29B-8B919B0EACCE}"
+
+hkcr,"ThunderAgent.Agent",,,"Thunder Agent Class"
+
+hkcr,"ThunderAgent.Agent\CLSID",,,"{485463B7-8FB2-4B3B-B29B-8B919B0EACCE}"
+
+hkcr,"ThunderAgent.Agent\CurVer",,,"ThunderAgent.Agent.1"
+
+hkcr,"TypeLib\{26D657AE-A466-4F44-AB1D-5CFFFADBED97}\1.0",,,"ThunderAgent 1.0 Type Library"
+
+hkcr,"TypeLib\{26D657AE-A466-4F44-AB1D-5CFFFADBED97}\1.0\0\win32",,,"%01%\ComDlls\ThunderAgent_003.dll"
+
+hkcr,"TypeLib\{26D657AE-A466-4F44-AB1D-5CFFFADBED97}\1.0\FLAGS",,,"0"
+
+hkcr,"TypeLib\{26D657AE-A466-4F44-AB1D-5CFFFADBED97}\1.0\HELPDIR",,,"%01%\ComDlls\"
+
+hkcr,"TypeLib\{87CA3845-37FE-414C-81CF-E08A7D0F6779}\1.0",,,"XunLeiBHO 1.0 Type Library"
+
+hkcr,"TypeLib\{87CA3845-37FE-414C-81CF-E08A7D0F6779}\1.0\0\win32",,,"%01%\ComDlls\XunLeiBHO_002.dll"
+
+hkcr,"TypeLib\{87CA3845-37FE-414C-81CF-E08A7D0F6779}\1.0\FLAGS",,,"0"
+
+hkcr,"TypeLib\{87CA3845-37FE-414C-81CF-E08A7D0F6779}\1.0\HELPDIR",,,"%01%\ComDlls\"
+
+hkcr,"TypeLib\{A329DA93-0F8B-4F1C-9CA3-A51A4802C9E2}\1.0",,,"TGSearch Module"
+
+hkcr,"TypeLib\{A329DA93-0F8B-4F1C-9CA3-A51A4802C9E2}\1.0\0\win32",,,"%01%\ComDlls\TGSearch.dll"
+
+hkcr,"TypeLib\{A329DA93-0F8B-4F1C-9CA3-A51A4802C9E2}\1.0\FLAGS",,,"0"
+
+hkcr,"TypeLib\{A329DA93-0F8B-4F1C-9CA3-A51A4802C9E2}\1.0\HELPDIR",,,"%01%\ComDlls\"
+
+hkcr,"XunLeiBHO.ThunderIEHelper.1",,,"Thunder Browser Helper"
+
+hkcr,"XunLeiBHO.ThunderIEHelper.1\CLSID",,,"{889D2FEB-5411-4565-8998-1DD2C5261283}"
+
+hkcr,"XunLeiBHO.ThunderIEHelper",,,"Thunder Browser Helper"
+
+hkcr,"XunLeiBHO.ThunderIEHelper\CLSID",,,"{889D2FEB-5411-4565-8998-1DD2C5261283}"
+
+hkcr,"XunLeiBHO.ThunderIEHelper\CurVer",,,"XunLeiBHO.ThunderIEHelper.1"
+
+hkcr,"XunLeiBHO.XDownloadManager.1",,,"XDownloaddManager Class"
+
+hkcr,"XunLeiBHO.XDownloadManager.1\CLSID",,,"{802F530B-A8F6-4631-AE49-6BACAAC6373E}"
+
+hkcr,"XunLeiBHO.XDownloadManager",,,"XDownloaddManager Class"
+
+hkcr,"XunLeiBHO.XDownloadManager\CLSID",,,"{802F530B-A8F6-4631-AE49-6BACAAC6373E}"
+
+hkcr,"XunLeiBHO.XDownloadManager\CurVer",,,"XunLeiBHO.XDownloadManager.1"
+
+hkcu,"Software\Microsoft\Internet Explorer\MenuExt\使用迅雷下载",,,"%01%\Program\geturl.htm"
+hkcu,"Software\Microsoft\Internet Explorer\MenuExt\使用迅雷下载","Contexts",0x10001,22,00,00,00
+
+hkcu,"Software\Microsoft\Internet Explorer\MenuExt\使用迅雷下载全部链接",,,"%01%\Program\getallurl.htm"
+hkcu,"Software\Microsoft\Internet Explorer\MenuExt\使用迅雷下载全部链接","Contexts",0x10001,f3,00,00,00
+
+hklm,"SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Browser Helper Objects\{889D2FEB-5411-4565-8998-1DD2C5261283}",,,"ThunderBHO"
+
+hklm,"SOFTWARE\Thunder Network\ThunderOem\thunder_backwnd","Path",,"%01%\Thunder.exe"
+
+[Strings]

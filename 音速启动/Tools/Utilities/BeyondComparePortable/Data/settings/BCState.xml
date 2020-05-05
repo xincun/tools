@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Produced by Beyond Compare 3 from Scooter Software -->
+<BCState>
+	<TBcState>
+		<FirstStartup Value="False"/>
+		<FormPosStr Value="128;52;1556;874"/>
+	</TBcState>
+	<TCheckForUpdatesState>
+		<Build Value="15075"/>
+		<FormPosStr Value="599;315;1081;653"/>
+		<LastChecked Value="2012-12-19 18:40:16"/>
+	</TCheckForUpdatesState>
+	<TDirCompareState>
+		<LeftMRUSpecs>
+			<_0 Value="E:\Code\Product\New Bigant\"/>
+			<_1 Value="E:\Code\Product\New Bigant\3party\ximage\cximage vs"/>
+			<_2 Value="G:\ie cache\download\wxsqlite3-3.0.2\wxsqlite3-3.0.2\sqlite3\secure\src"/>
+			<_3 Value="G:\ie cache\download\wxsqlite3-3.0.2\wxsqlite3-3.0.2\sqlite3\secure"/>
+			<_4 Value="E:\Code\Product\365up\365up\"/>
+			<_5 Value="E:\Code\Product\365up\365up\work2013"/>
+			<_6 Value="E:\Code\Product\365up\365up\365upClient"/>
+		</LeftMRUSpecs>
+		<RightMRUSpecs>
+			<_0 Value="E:\Code\Product\New Bigant\3party\ximage\cximage701_full source"/>
+			<_1 Value="G:\ie cache\download\wxsqlite3-2.1.3\wxsqlite3-2.1.3\sqlite3\secure\src\codec-c"/>
+			<_2 Value="G:\ie cache\download\wxsqlite3-2.1.3\wxsqlite3-2.1.3\sqlite3\secure\src"/>
+			<_3 Value="G:\ie cache\download\wxsqlite3-2.1.3\wxsqlite3-2.1.3\sqlite3\secure"/>
+			<_4 Value="H:\my document\365up\365up"/>
+			<_5 Value="H:\my document\365up\365up\365upClient"/>
+		</RightMRUSpecs>
+	</TDirCompareState>
+	<THomeState>
+		<SessionType Value="TDirCompareSession"/>
+	</THomeState>
+	<TOpSyncState>
+		<FormPosStr Value="614;272;1065;695"/>
+	</TOpSyncState>
+	<TTextCompareState>
+		<LeftMRUSpecs>
+			<_0 Value="E:\Code\Product\New Bigant\3party\ximage\cximage vs\demo\StdAfx.h"/>
+			<_1 Value="E:\Code\Product\New Bigant\3party\ximage\cximage vs\demo\twain.h"/>
+			<_2 Value="E:\Code\Product\New Bigant\3party\ximage\cximage vs\demo\demoDoc.cpp"/>
+			<_3 Value="E:\Code\Product\New Bigant\3party\ximage\cximage vs\CxImage\ximapsd.cpp"/>
+			<_4 Value="E:\Code\Product\New Bigant\3party\ximage\cximage vs\CxImage\ximadsp.cpp"/>
+			<_5 Value="G:\ie cache\download\wxsqlite3-3.0.2\wxsqlite3-3.0.2\sqlite3\secure\src\codecext.c"/>
+			<_6 Value="G:\ie cache\download\wxsqlite3-3.0.2\wxsqlite3-3.0.2\sqlite3\secure\src\extensionfunctions.c"/>
+			<_7 Value="G:\ie cache\download\wxsqlite3-3.0.2\wxsqlite3-3.0.2\sqlite3\secure\src\sha2.c"/>
+			<_8 Value="G:\ie cache\download\wxsqlite3-3.0.2\wxsqlite3-3.0.2\sqlite3\secure\src\sha2.h"/>
+		</LeftMRUSpecs>
+		<MRUFonts>
+			<_0 Value="Courier New;9"/>
+			<_1 Value="Consolas;10"/>
+		</MRUFonts>
+		<RightMRUSpecs>
+			<_0 Value="E:\Code\Product\New Bigant\3party\ximage\cximage701_full source\demo\StdAfx.h"/>
+			<_1 Value="E:\Code\Product\New Bigant\3party\ximage\cximage701_full source\demo\twain.h"/>
+			<_2 Value="E:\Code\Product\New Bigant\3party\ximage\cximage701_full source\demo\demoDoc.cpp"/>
+			<_3 Value="E:\Code\Product\New Bigant\3party\ximage\cximage701_full source\CxImage\ximapsd.cpp"/>
+			<_4 Value="E:\Code\Product\New Bigant\3party\ximage\cximage701_full source\CxImage\ximadsp.cpp"/>
+			<_5 Value="G:\ie cache\download\wxsqlite3-2.1.3\wxsqlite3-2.1.3\sqlite3\secure\src\codec-c\codecext.c"/>
+			<_6 Value="G:\ie cache\download\wxsqlite3-2.1.3\wxsqlite3-2.1.3\sqlite3\secure\src\codec-c\extensionfunctions.c"/>
+			<_7 Value="G:\ie cache\download\wxsqlite3-2.1.3\wxsqlite3-2.1.3\sqlite3\secure\src\codec-c\sha2.c"/>
+			<_8 Value="G:\ie cache\download\wxsqlite3-2.1.3\wxsqlite3-2.1.3\sqlite3\secure\src\codec-c\sha2.h"/>
+		</RightMRUSpecs>
+	</TTextCompareState>
+</BCState>

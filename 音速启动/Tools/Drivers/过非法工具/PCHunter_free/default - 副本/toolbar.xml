@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<view width="auto" height="auto">
+
+  <linear width="auto" height="auto"
+    cursor="sizeall" orientation="horizontal" enabled="true"
+    background="resource://toolbar_background.png"
+    backgroundMode="stretch" backgroundBorder="9, 9, 9, 9">
+
+    <div width="5"/>
+
+    <linear width="auto" height="auto" orientation="vertical">
+
+      <div height="3"/>
+
+      <linear width="auto" height="auto" orientation="horizontal">
+
+        <img name="ime_logo" src="resource://ime_logo.png"/>
+
+        <div width="1"/>
+
+        <button name="chinese_english_mode"
+          image="resource://chinese_mode.png"
+          downImage="resource://chinese_mode_down.png"
+          overImage="resource://chinese_mode_over.png"
+          cursor="hand"
+          tooltip="&SWITCH_LANGUAGE_MODE;"/>
+
+        <button name="full_half_width_character_mode"
+          image="resource://half_width_character_mode.png"
+          downImage="resource://half_width_character_mode_down.png"
+          overImage="resource://half_width_character_mode_over.png"
+          cursor="hand"
+          tooltip="&SWITCH_CHARACTER_MODE;"/>
+
+        <button name="full_half_width_punctuation_mode"
+          image="resource://full_width_punctuation_mode.png"
+          downImage="resource://full_width_punctuation_mode_down.png"
+          overImage="resource://full_width_punctuation_mode_over.png"
+          cursor="hand"
+          tooltip="&SWITCH_PUNCTUATION_MODE;"/>
+
+        <button name="soft_keyboard"
+          image="resource://open_soft_keyboard.png"
+          downImage="resource://open_soft_keyboard_down.png"
+          overImage="resource://open_soft_keyboard_over.png"
+          cursor="hand"
+          tooltip="&SOFT_KEYBOARD;"/>
+
+        <button name="voice_input"
+          image="resource://open_voice_input.png"
+          downImage="resource://open_voice_input_down.png"
+          overImage="resource://open_voice_input_over.png"
+          cursor="hand"
+          tooltip="&VOICE_INPUT;"/>
+
+        <button name="ime_menu"
+          image="resource://ime_menu.png"
+          downImage="resource://ime_menu_down.png"
+          overImage="resource://ime_menu_over.png"
+          cursor="hand"
+          tooltip="&IME_MENU;"/>
+
+        <button name="toolbar_collapse_expand"
+          image="resource://toolbar_collapse.png"
+          downImage="resource://toolbar_collapse_down.png"
+          overImage="resource://toolbar_collapse_over.png"
+          cursor="hand"/>
+
+      </linear>
+
+      <div height="5"/>
+
+    </linear>
+
+    <div width="6"/>
+
+  </linear>
+
+</view>

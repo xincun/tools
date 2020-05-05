@@ -1,0 +1,88 @@
+Type: Blend - stress CPU and RAM Min: 8 Max: 4096 InPlace: No Mem: 1790 Time: 15
+CPU: 2000MHz FSB: 200MHz [200MHz x 10.0 est.]
+2011-4-10 20:57 
+Launching 2 threads...
+1:Using CPU #0
+2:Using CPU #1
+1:Beginning a continuous self-test to check your computer.
+2:Beginning a continuous self-test to check your computer.
+1:Press Stop to end this test.
+2:Press Stop to end this test.
+1:Test 1, 4000 Lucas-Lehmer iterations of M19922945 using 1024K FFT length.
+2:Test 1, 4000 Lucas-Lehmer iterations of M19922945 using 1024K FFT length.
+1:Torture Test ran 0 minutes 17 seconds - 0 errors, 0 warnings.
+2:Torture Test ran 0 minutes 17 seconds - 0 errors, 0 warnings.
+1:Execution halted.
+
+2:Execution halted.
+
+Type: Blend - stress CPU and RAM Min: 8 Max: 4096 InPlace: No Mem: 1791 Time: 15
+CPU: 3300MHz FSB: 100MHz [100MHz x 33.0 est.]
+2013/2/24 星期日 10:18 
+Launching 2 threads...
+1:Using CPU #0
+2:Using CPU #1
+1:Beginning a continuous self-test to check your computer.
+1:Press Stop to end this test.
+2:Beginning a continuous self-test to check your computer.
+2:Press Stop to end this test.
+1:Test 1, 4000 Lucas-Lehmer iterations of M19922945 using 1024K FFT length.
+2:Test 1, 4000 Lucas-Lehmer iterations of M19922945 using 1024K FFT length.
+CPU: 3300MHz FSB: 100MHz [100MHz x 33.0 est.]
+2013/2/24 星期日 10:18 
+Launching 2 threads...
+2:Using CPU #1
+1:Using CPU #0
+2:Beginning a continuous self-test to check your computer.
+2:Press Stop to end this test.
+2:Test 1, 4000 Lucas-Lehmer iterations of M19922945 using 1024K FFT length.
+1:Beginning a continuous self-test to check your computer.
+1:Press Stop to end this test.
+1:Test 1, 4000 Lucas-Lehmer iterations of M19922945 using 1024K FFT length.
+CPU: 3300MHz FSB: 100MHz [100MHz x 33.0 est.]
+2013/2/24 星期日 10:18 
+Launching 2 threads...
+1:Using CPU #0
+2:Using CPU #1
+1:Beginning a continuous self-test to check your computer.
+1:Press Stop to end this test.
+2:Beginning a continuous self-test to check your computer.
+2:Press Stop to end this test.
+1:Test 1, 4000 Lucas-Lehmer iterations of M19922945 using 1024K FFT length.
+2:Test 1, 4000 Lucas-Lehmer iterations of M19922945 using 1024K FFT length.
+CPU: 3300MHz FSB: 100MHz [100MHz x 33.0 est.]
+2013/2/24 星期日 10:19 
+Launching 2 threads...
+1:Using CPU #0
+2:Using CPU #1
+1:Beginning a continuous self-test to check your computer.
+1:Press Stop to end this test.
+2:Beginning a continuous self-test to check your computer.
+2:Press Stop to end this test.
+1:Test 1, 4000 Lucas-Lehmer iterations of M19922945 using 1024K FFT length.
+2:Test 1, 4000 Lucas-Lehmer iterations of M19922945 using 1024K FFT length.
+2:Test 2, 4000 Lucas-Lehmer iterations of M19922943 using 1024K FFT length.
+2:Torture Test ran 1 minutes 56 seconds - 0 errors, 0 warnings.
+2:Execution halted.
+
+1:Torture Test ran 1 minutes 57 seconds - 0 errors, 0 warnings.
+1:Execution halted.
+
+2:Torture Test ran 2 minutes 22 seconds - 0 errors, 0 warnings.
+2:Torture Test ran 2 minutes 25 seconds - 0 errors, 0 warnings.
+1:Torture Test ran 2 minutes 21 seconds - 0 errors, 0 warnings.
+2:Execution halted.
+
+2:Torture Test ran 2 minutes 18 seconds - 0 errors, 0 warnings.
+1:Torture Test ran 2 minutes 20 seconds - 0 errors, 0 warnings.
+1:Execution halted.
+
+2:Execution halted.
+
+1:Execution halted.
+
+1:Torture Test ran 2 minutes 17 seconds - 0 errors, 0 warnings.
+2:Execution halted.
+
+1:Execution halted.
+

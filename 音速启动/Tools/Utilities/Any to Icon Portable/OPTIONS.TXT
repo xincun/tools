@@ -1,0 +1,59 @@
+Command line options for Aha-Soft Any to Icon
+
+Usage:
+Any2Icon.exe source [dest=destdir] [options]
+
+Separate command line parameters with spaces.
+Use double quotes to wrap long file names
+containing spaces as one parameter.
+Flags mean ON without '+' or '-' signs. 
+
+?        - show this file 
+d, dest  - destination directory
+           default value = source directory
+           usage: d="c:\temp\long name", d=c:\temp\ 
+df,
+destfile - destination file, valid for single source file
+           default value = none
+           usage: df="c:\temp\long name.ico", df=c:\temp\1.ico
+sz, size - destination size and color resolution
+           default value = as source file
+           usage: sz=(width)x[height]x[bits per pixel]    
+           allowed values: width: 1..192, height: 1..192,
+                           bits per pixel: 1, 4, 8, 24, 32                           
+           usage: sz=32x32x8, size=16x16
+           You can create multi-resolution icons also.
+           usage: sz=32x32x8,16x16x8,48x48x32
+           To create icons with required resolutions for Windows XP
+           use such line: sz=winxp
+t, tr    - transparency, 
+           used to replace any color to transparent color
+           default value = as source transparency
+           allowed values: color name, RGB color value, 
+                           by corner (lt=left top, rt=right top,
+                           lb=left bottom, rb=right bottom)
+           usage: t=Fuchsia, tr=red, tr=#FF0000, tr=lt, tr=br
+o        - overwrite existing files
+           default value = off
+           usage: o-, o+, o
+zf       - zoom to fit
+           default value = off
+           usage: zf-, zf+, zf
+sf       - shrink to fit
+           default value = on
+           usage: sf-, sf+, sf
+sp       - store proportions
+           default value = on
+           usage: sp-, sp+, sp
+sr       - smooth resample
+           default value = on
+           usage: sr-, sr+, sr
+
+Example:
+Any2Icon.exe c:\picture\avia.bmp dest=c:\temp\ sz=32x32x8 o+ sf+ sp+
+Any2Icon.exe c:\picture\avia.bmp dest=c:\temp\ sz=32x32x8,48x48x32 o+ sf+ sp+
+Any2Icon.exe c:\picture\avia.bmp dest=c:\temp\ sz=winxp o+ sf+ sp+
+Any2Icon.exe "c:\picture\new picture\*.bmp" sz=32x32 o
+Any2Icon.exe "c:\picture\new picture\1.bmp" destfile=1new.ico sz=64x64x32 o 
+
+Error messages will be writed to log.txt in the program directory.
